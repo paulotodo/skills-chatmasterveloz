@@ -12,7 +12,8 @@ import argparse, json, os, shutil, subprocess
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
-RAIZ = Path(__file__).resolve().parent.parent.parent / "skills"
+# CMV_SKILLS aponta para outra cópia das skills (por exemplo uma cópia congelada durante uma manutenção)
+RAIZ = Path(os.environ.get("CMV_SKILLS") or Path(__file__).resolve().parent.parent.parent / "skills")
 # só o que as skills precisam: ler, escrever na pasta de teste e rodar os scripts delas
 PERMITIDAS = ["Skill", "Read", "Write", "Edit", "Glob", "Grep",
               "Bash(python3:*)", "Bash(ls:*)", "Bash(cat:*)", "Bash(grep:*)", "Bash(mkdir:*)", "Bash(cp:*)", "Bash(head:*)", "Bash(wc:*)"]

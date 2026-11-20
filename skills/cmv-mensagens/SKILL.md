@@ -41,7 +41,7 @@ Em pedido de cobrança, ou de qualquer aviso que se repete, pergunte também, po
 6. Se o valor ou o link de pagamento mudam de um cliente para outro.
 7. Quantos clientes recebem.
 
-Se o pedido já traz o suficiente, não trave: escreva, declare as suposições em uma linha e deixe entre colchetes o que só o usuário sabe (`[link]`, `[data]`, `[valor]`).
+Se o pedido já traz o suficiente, não trave: escreva, declare as suposições em uma linha e deixe entre colchetes o que só o usuário sabe (`[link]`, `[data]`, `[valor]`); em resposta rápida, quem manda é a armadilha 15.
 
 ### 3. Escolha o tipo de mensagem
 
