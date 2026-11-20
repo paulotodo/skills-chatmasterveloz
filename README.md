@@ -43,7 +43,16 @@ O que foi medido com esse texto, no teste cego de 84 pedidos: Haiku 82, Sonnet 8
 
 ## Como atualizar quando a plataforma mudar
 
-A documentação dentro de cada skill (`references/docs/`) é uma cópia das pastas `../docs-plataforma-chatmasterveloz/` e `../docs-css-chatmasterveloz/`. Para trazer a versão nova:
+A documentação dentro de cada skill (`references/docs/`) é uma cópia das pastas `../docs-plataforma-chatmasterveloz/` e `../docs-css-chatmasterveloz/`.
+
+**Automático.** O `atualizar.sh` baixa a Central de Ajuda e o catálogo de CSS, recopia para as skills, roda os autotestes, refaz os pacotes e registra tudo num commit. Ele está agendado no cron deste servidor para todo dia às 06:20 UTC (`crontab -l` mostra a linha; `crontab -e` muda o horário ou remove). O resultado de cada execução fica em `atualizacoes.log`:
+
+- `sem mudanças na documentação`: nada a fazer.
+- `ATUALIZADO: …`: entrou um commit com a lista dos artigos novos e removidos. Artigo novo pode pedir revisão dos mapas escritos à mão.
+- `FALHOU: …`: nada mudou (as pastas de origem e as skills voltam ao estado anterior). O caso mais comum é um arquivo escrito à mão citar um artigo que saiu ou mudou de nome: corrija a citação, registre no git e rode `./atualizar.sh`.
+- `PULADO: …`: havia alteração não registrada no git. Registre (`git commit`) ou desfaça, senão a atualização não roda.
+
+**À mão**, se preferir:
 
 ```bash
 python3 ../docs-plataforma-chatmasterveloz/_gerar.py   # baixa a Central de Ajuda de novo
@@ -51,9 +60,9 @@ python3 ../docs-css-chatmasterveloz/_gerar.py          # baixa o catálogo de CS
 python3 montar.py --zip                                # recopia para as skills e refaz os pacotes
 ```
 
-O `montar.py` para com erro se um arquivo escrito à mão citar um artigo que deixou de existir (renomeado ou removido). Corrija a citação e rode de novo.
+O `montar.py` para com erro se um arquivo escrito à mão citar um artigo que deixou de existir, seja como `references/docs/recursos/x.md`, `recursos/x.md` ou só `x.md`.
 
-O que cada skill copia está em `skills/<nome>/fontes.txt`. Os arquivos escritos à mão (`SKILL.md`, `references/*.md`, `assets/`, `scripts/`) não são tocados pelo `montar.py`: depois de uma atualização grande da plataforma, vale reler os mapas e as receitas.
+O que cada skill copia está em `skills/<nome>/fontes.txt`. Os arquivos escritos à mão (`SKILL.md`, `references/*.md`, `assets/`, `scripts/`) não são tocados pela atualização, e é neles que a plataforma pode envelhecer sem aviso: a atualização troca a cópia dos artigos, mas não reescreve um resumo que deixou de ser verdade. Depois de uma mudança grande (módulo novo, tela reorganizada), vale uma revisão. A de 20/11/2026 está descrita no histórico do git.
 
 ## Medição do acionamento
 
@@ -94,3 +103,6 @@ Ao mudar uma descrição, ajuste pelo conjunto de desenvolvimento e só confira 
 - As skills só afirmam o que a documentação diz. Imagens e vídeos da Central de Ajuda não foram transcritos, e preços e planos não são citados.
 - O arquivo de fluxo que a `cmv-flowbuilder` gera segue o formato observado em um fluxo exportado, não um formato publicado pela plataforma: teste o fluxo importado antes de ligá-lo a uma conexão que atende clientes.
 - As receitas de CSS foram conferidas contra o catálogo de seletores, não em um painel real.
+- As descrições das skills (o texto que decide o acionamento) são de antes da atualização de 20/11/2026 e não citam os módulos novos da plataforma: Consultório, Reservas, Mail Marketing, Dashboard, Links de agendamento, Base de Conhecimento e Provedor de IA. Os corpos das skills já os cobrem. Mudar uma descrição pede medir o acionamento de novo, com um teste cego novo.
+- O Mail Marketing (campanhas de e-mail) é explicado pela `cmv-ajuda`, mas nenhuma skill redige e-mails: a `cmv-mensagens` trata só do que vai por mensagem.
+- Na `cmv-agente-ia`, os comandos do GPT Assistant passaram a ser inseridos pela janela **COMANDOS DA IA**, como o artigo novo recomenda. O artigo não mostra a forma dos blocos de agenda e de oportunidade, então o conferidor de prompt não foi testado com eles.
