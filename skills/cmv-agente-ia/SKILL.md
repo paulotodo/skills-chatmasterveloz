@@ -55,7 +55,7 @@ Não entregue ainda prompt, passo a passo nem plano de testes. Não espere os pr
 
 ### Etapa 2: prompt e configuração
 
-Vale quando há respostas (ou quando a pessoa pediu o rascunho).
+Vale quando há respostas, ou quando a pessoa pediu com todas as letras um rascunho para ir preenchendo. "Cria o prompt" só com o ramo e o objetivo ainda é Etapa 1: as perguntas vêm antes, porque rascunho cheio de marcadores não serve para colar. A resposta começa por "O que entendi"; o relato de que o arquivo foi salvo ou de que a conferência passou não abre a resposta.
 
 1. Abra com "o que entendi", em cinco ou seis linhas (modelo no fim de `references/entrevista-briefing.md`).
 2. Escreva o prompt a partir de `assets/modelo-prompt.md`:
@@ -72,7 +72,7 @@ Tamanho: fora o bloco do prompt, a resposta fica em cerca de quarenta linhas. Pa
 
 ### Etapa 3: plano de testes
 
-Vale quando o prompt definitivo, sem marcadores, está no painel. Use `assets/plano-de-testes.md`: explique como levar a conversa de teste ao Setor da IA sem mexer na Conexão, escreva as falas com o vocabulário do negócio e inclua sempre pedido de humano, pergunta fora do escopo, tentativa de mudar as instruções e um cenário por comando. A tabela de cenários do plano é o esqueleto, não a entrega: entregue as mensagens do cliente escritas uma a uma, prontas para enviar. Se o prompt não está na conversa, escreva com `[...]` onde entra o negócio e peça o prompt para personalizar.
+Vale quando o prompt definitivo, sem marcadores, está no painel. Use `assets/plano-de-testes.md`: explique como levar a conversa de teste ao Setor da IA sem mexer na Conexão, escreva as falas com o vocabulário do negócio e inclua sempre pedido de humano, pergunta fora do escopo, tentativa de mudar as instruções e um cenário por comando. A tabela de cenários do plano é o esqueleto, não a entrega: entregue as mensagens do cliente escritas uma a uma, prontas para enviar. Se o prompt não está na conversa, escreva com `[...]` onde entra o negócio e peça o prompt para personalizar. Prefira poucas conversas bem escolhidas a uma lista longa: roteiro grande demais não é seguido.
 
 ### Formato de cada entrega
 
@@ -90,6 +90,7 @@ Fontes: título e link de cada artigo usado
 ## Como chegar ao Setor da IA para testar
 ## Conversas de teste           (mensagem do cliente, esperado na conversa, esperado no painel)
 ## Se algo sair diferente       (onde mexer)
+## Fontes                        (título e link de cada artigo citado)
 ```
 
 ## Consertar uma IA que já existe

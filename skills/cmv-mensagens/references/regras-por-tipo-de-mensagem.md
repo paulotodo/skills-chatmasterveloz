@@ -241,7 +241,7 @@ Dispara um template já aprovado para uma lista. Não há texto livre: o que se 
 |---|---|
 | **Gatilho** | Não utilize. |
 | **Caracteres Ocultos** | Não utilize. |
-| **Mensagem de Descadastramento** | Não utilize. A opção de saída precisa estar no texto do próprio template. |
+| **Mensagem de Descadastramento** | Não utilize (é o que o artigo diz). Recomendação desta skill, para template de Marketing: pôr a opção de saída no próprio texto. |
 | **Conexão** | Apenas uma. Não use multiconexões. |
 | Passo 05 | Escolha um template pré-cadastrado. |
 | **Fluxos de Automação** | Inicia um fluxo do FlowBuilder Nativo depois da resposta do contato; o campo **Fila** precisa ter uma fila vinculada ao mesmo fluxo. |

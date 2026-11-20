@@ -68,7 +68,7 @@ São as sete do `00`, que o resto desta skill detalha:
 
 ### Conferir antes de entregar
 
-Salve o código num arquivo e rode:
+Salve o código num arquivo (pode ser temporário: a entrega é o bloco de código na resposta, então não cite o caminho do arquivo) e rode:
 
 ```bash
 python3 scripts/conferir_seletores.py meu.css            # também aceita .js, .md (blocos css/js) e vários arquivos
@@ -110,7 +110,7 @@ Os detalhes estão em `references/docs/02-campos-css-js.md`. O resumo para decid
 - **Não ler dados de clientes para enviar a terceiros, nem alterar dados.** Um script no painel enxerga nomes, telefones e mensagens de todo atendimento aberto. O que a regra permite: ler o que já está na tela para mostrar na própria tela, a quem já está vendo (destacar um cartão pelo `data-*` dele, pôr o número de quem liga no título da aba, como na receita 18). O que ela não permite: mandar esse conteúdo para fora do painel (outro servidor, planilha, webhook), guardar cópia dele, preencher ou enviar mensagens sozinho, ou clicar em botões pela pessoa. Se pedirem, diga que não faz e por quê; o caminho para integrar dados é a API (`cmv-api`). Esta é uma regra desta skill; o `02` não trata do assunto.
 - **Use `textContent`, não `innerHTML`**, ao criar elementos, e nunca injete na página texto que veio de mensagem de cliente. Também é precaução desta skill, não regra do `02`.
 - **Remover o script não desfaz o que ele ligou** (evento, temporizador). Só o recarregamento da página desliga. Diga isso no "como desfazer".
-- **Esconder não é bloquear.** `display: none` tira o botão da vista, mas a tela continua abrindo pelo endereço e a ação continua permitida. Quando o pedido é de permissão, diga isso e aponte a `cmv-ajuda`.
+- **Esconder não é bloquear.** `display: none` tira o botão da vista, mas a tela continua abrindo pelo endereço e a ação continua permitida. Quando o pedido é de permissão, diga isso e explique que permissão por perfil se configura no painel (assunto da `cmv-ajuda`; o nome da skill não vai na resposta).
 
 ### Quando pedem para pôr token, senha ou chave no JS
 
@@ -163,7 +163,7 @@ Quem pede geralmente não é técnico. Entregue nesta ordem, sem jargão:
 4. **Passo a passo para aplicar**, numerado: abrir o caminho, copiar antes o que já está no campo (cópia de segurança), colar no fim sem apagar o resto, salvar, conferir o resultado (no painel, nos dois temas).
 5. **Como desfazer**: apagar o bloco entre os marcadores e salvar; se for JS, recarregar a página em quem estava com o painel aberto.
 6. **O que não pôde ser confirmado**: cada aviso do script (valor não conferido, nome só no histórico), cada significado deduzido só pelo nome da âncora e cada ponto que a referência não documenta, com o que a pessoa deve olhar no Inspecionar.
-7. **Fonte**: os arquivos da referência usados (por exemplo "`04-tema-escuro.md` e `06-atributos-data.md`, catálogo WS-29.930.0") e o link <https://app.chatmasterveloz.com/css-docs>. O `02` e o `14` não vêm do catálogo: foram lidos do código do painel, e isso está dito no topo de cada um. `references/receitas.md` e os demais arquivos desta skill (este `SKILL.md`, o script) não são fonte: não os cite para a pessoa ("a receita 3"); a fonte é o catálogo e o link dele.
+7. **Fonte**: as partes do catálogo usadas, pelo título e não pelo nome do arquivo (por exemplo "Tema escuro e Atributos data, catálogo WS-29.930.0") e o link <https://app.chatmasterveloz.com/css-docs>. O `02` e o `14` não vêm do catálogo: foram lidos do código do painel, e isso está dito no topo de cada um. `references/receitas.md` e os demais arquivos desta skill (este `SKILL.md`, o script) não são fonte: não os cite para a pessoa ("a receita 3"); a fonte é o catálogo e o link dele.
 
 Diga que os nomes foram conferidos contra o catálogo e que o código **não** foi testado no painel dela: peça para avisar se algo não mudou.
 

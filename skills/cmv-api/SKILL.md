@@ -121,7 +121,7 @@ Cite o artigo usado: título e o link da linha **Fonte** do cabeçalho. Se algo 
 | Pré-requisito do plano | A **API Externa** precisa estar habilitada; pede-se ao Suporte. Os **Botões** são habilitados à parte. | `api/pre-requisitos-apis.md`, `api/pre-requisitos-botoes.md` |
 | Tipos de conexão | Três bibliotecas de WhatsApp: **Pro** e **Básica** (por QR Code) e **Oficial** (API Oficial da Meta). Nem toda chamada existe nas três. O Webchat não é uma das três e tem artigos próprios. | `api/bibliotecas.md` |
 | Formato do número | Telefone com DDI, DDD e número, só dígitos (ex.: `5511955892164`). Grupo, LID, Instagram, Facebook e Web Chat usam outros identificadores. | `api/api-mensagem-de-texto.md`; seção 8 do mapa |
-| `ticketId` × protocolo | O `ticketId` é o número entre parênteses no cabeçalho da conversa; o número depois de `#` é o protocolo e não serve nas chamadas que pedem `ticketId`. | `api/api-atualizar-ticket.md` |
+| `ticketId` × protocolo | O `ticketId` é o número entre parênteses no cabeçalho da conversa; o número depois de `#` é o protocolo e não serve nas chamadas que pedem `ticketId`. Para o sistema achar o `ticketId` sem ninguém olhar a tela: o `chamadoId` que vem no webhook da conexão ou, a partir do telefone do contato, a API Listar Tickets do Contato (`GET /api/contacts/alltickets`, com `number`). | `api/api-atualizar-ticket.md`, `api/webhooks-da-conexao.md`, `api/api-listar-tickets-do-contato.md` |
 | Formato do corpo | JSON na maior parte das chamadas. Nas que enviam arquivo anexado, o corpo é um formulário e o `Content-Type` não é informado à mão. | `api/estrutura-de-api.md` |
 | API × webhook | A API a pessoa chama quando quer algo; o webhook chama o sistema dela quando algo acontece. O Webhook Trigger é o sentido contrário: um endereço do CMV que o sistema externo chama. | `api/api-x-webhook.md`, `api/webhooks.md` |
 | Erro de autorização | Conferir token e endereço, nessa ordem; com Token da Empresa, conferir se a conexão foi informada; e se a chamada é das que só aceitam o Token da Empresa. | `api/estrutura-de-api.md` |
@@ -168,7 +168,7 @@ Escolha o webhook pelo alcance (`api/qual-webhook-usar.md`), diga onde colar o e
 Pergunte o tipo de conexão. Se for QR Code: `api/api-mensagem-de-texto.md` (vale para Básica e Pro). Se for Oficial: explique a janela de atendimento; como o cliente pode não ter falado nas últimas 24 horas, o caminho seguro é template (`api/api-oficial-mensagem-template.md`; pelo Hub, os artigos de template com "(Hub)" no título). Entregue: (1) onde definir o token; (2) como guardar em `CMV_TOKEN`; (3) o cURL com o payload do artigo e os valores a trocar; (4) o comando do teste com Status da Conexão; (5) a fonte.
 
 **"Como transfiro um atendimento pro setor Financeiro pela API?"**
-Selo Todas: não precisa perguntar a conexão. Use `api/api-atualizar-ticket.md` com `ticketId` e `queueId`, e avise que existe uma chamada de nome parecido que move todos os tickets da conexão e não é a que ela quer. Diga de onde vêm o `ticketId` (número entre parênteses no cabeçalho da conversa) e o `queueId` (a chamada que lista os Setores).
+Selo Todas: não precisa perguntar a conexão. Use `api/api-atualizar-ticket.md` com `ticketId` e `queueId`, e avise que existe uma chamada de nome parecido que move todos os tickets da conexão e não é a que ela quer. Diga de onde vêm o `ticketId` (número entre parênteses no cabeçalho da conversa; se é um sistema que precisa achá-lo sozinho, o `chamadoId` do webhook ou a API Listar Tickets do Contato) e o `queueId` (a chamada que lista os Setores).
 
 **"Quero que toda mensagem que chega caia no meu n8n."**
 Webhook da Conexão (tudo da conexão) ou do Setor (só um Setor). Passos numerados: criar o nó Webhook em POST no n8n, copiar a URL de produção, colar em **Conexões › editar a Conexão › aba Integrações**, campo **Webhook**. Depois siga a receita de `references/moldes-de-codigo.md` para dizer qual aviso tratar e como responder.
@@ -181,7 +181,7 @@ Webhook da Conexão (tudo da conexão) ou do Setor (só um Setor). Passos numera
 Muita gente que pede integração não programa. Entregue nesta ordem, em passos numerados:
 
 1. **O que vai acontecer**, em uma frase, incluindo o efeito sobre o atendimento (abre ticket? muda de Setor?).
-2. **Antes de começar:** onde pegar o token (caminho do menu) e os pré-requisitos (API Externa; Botões, se for o caso).
+2. **Antes de começar:** onde pegar o token (caminho do menu) e os pré-requisitos (API Externa, nas chamadas da API; Botões, se for o caso). Os artigos de webhook não citam a API Externa: não a ponha como pré-requisito para receber webhook.
 3. **O material pronto para colar** (um bloco só), com os valores a trocar listados logo abaixo e de onde vem cada um.
 4. **Como testar sem risco**, com o comando do teste, e o que esperar; se der erro, o que conferir primeiro.
 5. **Avisos** do artigo que se aplicam ao caso.
