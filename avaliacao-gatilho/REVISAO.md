@@ -1,6 +1,6 @@
 # Revisão dos pedidos de teste (medição de 18/11)
 
-> Medição de 18/11, com as descrições daquela data e o medidor por skill. A revisão atual é a página `revisao-pedidos.html`.
+> Medição de 18/11, com as descrições daquela data e o medidor por skill. A revisão atual é `REVISAO-ROTEAMENTO.md`.
 
 Cada linha é um pedido usado para medir o acionamento. **Esperado** diz se a skill da seção deve ser carregada. As colunas dos modelos mostram em quantas das repetições ela foi carregada; ❌ marca o resultado que contraria o esperado (acionou em menos da metade quando devia, ou na metade ou mais quando não devia). Um traço significa que o conjunto não foi medido naquele modelo.
 
