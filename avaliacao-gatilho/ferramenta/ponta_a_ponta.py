@@ -5,6 +5,7 @@ Serve para ver se a skill entrega nos modelos menores. A nota é dada depois, po
 
 Uso: python3 ponta_a_ponta.py --modelo claude-haiku-5-5 --tarefas tarefas.json --saida pasta
 tarefas.json: [{"id": "flowbuilder", "pedido": "...", "skill": "cmv-flowbuilder"}]
+Campo opcional "contexto": texto gravado como CLAUDE.md da pasta (instruções fixas do projeto).
 Campo opcional "arquivos": {"nome-na-pasta-de-trabalho": "caminho relativo ao tarefas.json"} põe arquivos do usuário na pasta.
 """
 import argparse, json, os, shutil, subprocess
@@ -25,6 +26,8 @@ def rodar(tarefa, modelo, saida, limite, base):
     # cópia real, não link: num link para fora da pasta a sessão não consegue ler references/
     shutil.copytree(RAIZ, pasta / ".claude" / "skills", ignore=shutil.ignore_patterns("__pycache__", "fontes.txt"))
     dados = set()
+    if tarefa.get("contexto"):   # instruções fixas do projeto, como a linha que o README recomenda
+        (pasta / "CLAUDE.md").write_text(tarefa["contexto"] + "\n"); dados.add("CLAUDE.md")
     for nome, origem in tarefa.get("arquivos", {}).items():
         shutil.copyfile(base / origem, pasta / nome); dados.add(nome)
     env = {k: v for k, v in os.environ.items() if k != "CLAUDECODE"}

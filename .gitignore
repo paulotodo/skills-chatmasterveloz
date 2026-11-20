@@ -2,3 +2,6 @@ __pycache__/
 *.pyc
 # pacotes gerados por "python3 montar.py --zip"
 dist/
+# registro e trava da atualização automática (atualizar.sh)
+atualizacoes.log
+.atualizar.lock
