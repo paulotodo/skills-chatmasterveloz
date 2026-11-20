@@ -1,0 +1,565 @@
+{
+  "exit_reason": "all_passed (iteration 2)",
+  "original_description": "Central de Ajuda do Chat Master Veloz (chatmasterveloz, CMV). Explica como usar e configurar qualquer recurso do painel (conex\u00f5es de WhatsApp oficial e por QR Code, Instagram, Web Chat, setores e chatbot, equipe e permiss\u00f5es, chats e tickets, tags, contatos, campanhas, CRM, PDV, configura\u00e7\u00f5es), resolve d\u00favidas e erros (\"a conex\u00e3o caiu\", \"a mensagem n\u00e3o aparece\", aviso vermelho no chat), mostra por onde come\u00e7ar e o que mudou na plataforma. Use sempre que a pessoa perguntar \"como fa\u00e7o\u2026\", \"onde fica\u2026\", \"o que \u00e9\u2026\" ou \"por que n\u00e3o funciona\u2026\" sobre o Chat Master Veloz ou o painel de atendimento dela, mesmo que n\u00e3o diga o nome do produto nem pe\u00e7a documenta\u00e7\u00e3o. Responde em passo a passo, com caminho do menu, permiss\u00e3o e fonte. N\u00e3o cobre c\u00f3digo de API e webhooks (cmv-api), desenho de fluxos (cmv-flowbuilder), prompts de IA (cmv-agente-ia), reda\u00e7\u00e3o de mensagens (cmv-mensagens), CSS e JS do painel (cmv-painel-css-js).",
+  "best_description": "Central de Ajuda do Chat Master Veloz (chatmasterveloz, CMV). Explica como usar e configurar qualquer recurso do painel (conex\u00f5es de WhatsApp oficial e por QR Code, Instagram, Web Chat, setores e chatbot, equipe e permiss\u00f5es, chats e tickets, tags, contatos, campanhas, CRM, PDV, configura\u00e7\u00f5es), resolve d\u00favidas e erros (\"a conex\u00e3o caiu\", \"a mensagem n\u00e3o aparece\", aviso vermelho no chat), mostra por onde come\u00e7ar e o que mudou na plataforma. Use sempre que a pessoa perguntar \"como fa\u00e7o\u2026\", \"onde fica\u2026\", \"o que \u00e9\u2026\" ou \"por que n\u00e3o funciona\u2026\" sobre o Chat Master Veloz ou o painel de atendimento dela, mesmo que n\u00e3o diga o nome do produto nem pe\u00e7a documenta\u00e7\u00e3o. Responde em passo a passo, com caminho do menu, permiss\u00e3o e fonte. N\u00e3o cobre c\u00f3digo de API e webhooks (cmv-api), desenho de fluxos (cmv-flowbuilder), prompts de IA (cmv-agente-ia), reda\u00e7\u00e3o de mensagens (cmv-mensagens), CSS e JS do painel (cmv-painel-css-js).",
+  "best_score": "8/8",
+  "best_train_score": "11/12",
+  "best_test_score": "8/8",
+  "final_description": "Use esta skill para d\u00favidas de uso do painel do Chat Master Veloz (chatmasterveloz, CMV): \"como fa\u00e7o\", \"onde fica\", \"o que \u00e9\", \"por que n\u00e3o funciona\" e \"o que mudou\". Vale para qualquer recurso configurado pela tela: conex\u00f5es (WhatsApp oficial e por QR Code, Instagram, Web Chat), setores e chatbot, equipe e permiss\u00f5es, tickets, tags, contatos, campanhas, CRM, PDV e configura\u00e7\u00f5es. Tamb\u00e9m cobre erros como conex\u00e3o ca\u00edda, mensagem que n\u00e3o aparece e aviso vermelho no chat. Responde em passo a passo, com o caminho do menu e a fonte na Central de Ajuda. Use mesmo sem o nome do produto, desde que a pessoa esteja falando do painel de atendimento dela. N\u00c3O use para o app WhatsApp Business do celular nem para outras plataformas (Chatwoot, Blip, ManyChat, Zenvia). Pedidos para produzir material ficam com as skills irm\u00e3s: c\u00f3digo de API e webhooks (cmv-api), montar fluxos (cmv-flowbuilder), prompt e recursos de IA (cmv-agente-ia), escrever textos e templates (cmv-mensagens), CSS e JS (cmv-painel-css-js).",
+  "iterations_run": 2,
+  "holdout": 0.4,
+  "train_size": 12,
+  "test_size": 8,
+  "history": [
+    {
+      "iteration": 1,
+      "description": "Central de Ajuda do Chat Master Veloz (chatmasterveloz, CMV). Explica como usar e configurar qualquer recurso do painel (conex\u00f5es de WhatsApp oficial e por QR Code, Instagram, Web Chat, setores e chatbot, equipe e permiss\u00f5es, chats e tickets, tags, contatos, campanhas, CRM, PDV, configura\u00e7\u00f5es), resolve d\u00favidas e erros (\"a conex\u00e3o caiu\", \"a mensagem n\u00e3o aparece\", aviso vermelho no chat), mostra por onde come\u00e7ar e o que mudou na plataforma. Use sempre que a pessoa perguntar \"como fa\u00e7o\u2026\", \"onde fica\u2026\", \"o que \u00e9\u2026\" ou \"por que n\u00e3o funciona\u2026\" sobre o Chat Master Veloz ou o painel de atendimento dela, mesmo que n\u00e3o diga o nome do produto nem pe\u00e7a documenta\u00e7\u00e3o. Responde em passo a passo, com caminho do menu, permiss\u00e3o e fonte. N\u00e3o cobre c\u00f3digo de API e webhooks (cmv-api), desenho de fluxos (cmv-flowbuilder), prompts de IA (cmv-agente-ia), reda\u00e7\u00e3o de mensagens (cmv-mensagens), CSS e JS do painel (cmv-painel-css-js).",
+      "train_passed": 11,
+      "train_failed": 1,
+      "train_total": 12,
+      "train_results": [
+        {
+          "query": "no painel do cmv, como transfiro um atendimento pra outro atendente sem ele perder o hist\u00f3rico da conversa?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "Como importo minha lista de contatos de uma planilha pro chat master veloz? tenho uns 3 mil contatos num excel com nome e telefone",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "a mensagem do cliente n\u00e3o aparece no Aguardando do chat master veloz, s\u00f3 chega no celular. o que pode ser?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "o que mudou no sistema essa semana? apareceu um menu novo 'Assistente de IA' no painel do chat master veloz e ningu\u00e9m avisou",
+          "should_trigger": true,
+          "trigger_rate": 0.6666666666666666,
+          "triggers": 2,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "como eu fa\u00e7o pra uma atendente s\u00f3 ver as conversas do setor financeiro no chat master veloz? ela n\u00e3o pode mexer em configura\u00e7\u00e3o nenhuma",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "meu whatsapp desconectou no CMV e as conversas ficaram tudo vermelhas, como reconecto sem perder nada?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "monta um fluxo no flowbuilder do cmv com menu de 3 op\u00e7\u00f5es e hor\u00e1rio de expediente, quero o json pra importar",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "o webhook da conex\u00e3o do CMV manda tudo duplicado pro meu n8n, como filtro isso no workflow?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "escreve um template de cobran\u00e7a pra API oficial do WhatsApp no chat master veloz, categoria utilidade, com nome e valor",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "preciso de um curl pra mandar mensagem de texto pela API do chat master veloz pro cliente quando o pedido for aprovado no meu sistema",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "no WhatsApp Business do celular, como crio etiquetas e a mensagem de aus\u00eancia?",
+          "should_trigger": false,
+          "trigger_rate": 0.6666666666666666,
+          "triggers": 2,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "no Chatwoot, como fa\u00e7o pra um agente ver s\u00f3 a caixa de entrada do financeiro?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        }
+      ],
+      "test_passed": 8,
+      "test_failed": 0,
+      "test_total": 8,
+      "test_results": [
+        {
+          "query": "como funciona o rod\u00edzio no chat master veloz? quero distribuir os leads igual entre 4 vendedores",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "qual a diferen\u00e7a entre ticket e protocolo no chat master veloz? meu supervisor ficou confuso no relat\u00f3rio de ontem",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "Onde fica a op\u00e7\u00e3o de encerrar sozinho o atendimento quando o cliente para de responder? uso o chatmasterveloz",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "acabamos de contratar o chat master veloz, por onde eu come\u00e7o? j\u00e1 tenho o n\u00famero da empresa e 3 atendentes",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "cria 10 respostas r\u00e1pidas pra recep\u00e7\u00e3o da minha cl\u00ednica no chat master veloz: sauda\u00e7\u00e3o, pix, endere\u00e7o e confirma\u00e7\u00e3o",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "escreve o prompt do GPT Assistant do chat master veloz pra minha imobili\u00e1ria responder d\u00favidas de aluguel",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "quero mudar a cor do menu lateral do painel do chat master veloz pro verde da minha marca usando css personalizado",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "como configuro o chatbot no Blip pra transferir pro atendente humano quando o cliente pedir?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        }
+      ],
+      "passed": 11,
+      "failed": 1,
+      "total": 12,
+      "results": [
+        {
+          "query": "no painel do cmv, como transfiro um atendimento pra outro atendente sem ele perder o hist\u00f3rico da conversa?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "Como importo minha lista de contatos de uma planilha pro chat master veloz? tenho uns 3 mil contatos num excel com nome e telefone",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "a mensagem do cliente n\u00e3o aparece no Aguardando do chat master veloz, s\u00f3 chega no celular. o que pode ser?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "o que mudou no sistema essa semana? apareceu um menu novo 'Assistente de IA' no painel do chat master veloz e ningu\u00e9m avisou",
+          "should_trigger": true,
+          "trigger_rate": 0.6666666666666666,
+          "triggers": 2,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "como eu fa\u00e7o pra uma atendente s\u00f3 ver as conversas do setor financeiro no chat master veloz? ela n\u00e3o pode mexer em configura\u00e7\u00e3o nenhuma",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "meu whatsapp desconectou no CMV e as conversas ficaram tudo vermelhas, como reconecto sem perder nada?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "monta um fluxo no flowbuilder do cmv com menu de 3 op\u00e7\u00f5es e hor\u00e1rio de expediente, quero o json pra importar",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "o webhook da conex\u00e3o do CMV manda tudo duplicado pro meu n8n, como filtro isso no workflow?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "escreve um template de cobran\u00e7a pra API oficial do WhatsApp no chat master veloz, categoria utilidade, com nome e valor",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "preciso de um curl pra mandar mensagem de texto pela API do chat master veloz pro cliente quando o pedido for aprovado no meu sistema",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "no WhatsApp Business do celular, como crio etiquetas e a mensagem de aus\u00eancia?",
+          "should_trigger": false,
+          "trigger_rate": 0.6666666666666666,
+          "triggers": 2,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "no Chatwoot, como fa\u00e7o pra um agente ver s\u00f3 a caixa de entrada do financeiro?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "iteration": 2,
+      "description": "Use esta skill para d\u00favidas de uso do painel do Chat Master Veloz (chatmasterveloz, CMV): \"como fa\u00e7o\", \"onde fica\", \"o que \u00e9\", \"por que n\u00e3o funciona\" e \"o que mudou\". Vale para qualquer recurso configurado pela tela: conex\u00f5es (WhatsApp oficial e por QR Code, Instagram, Web Chat), setores e chatbot, equipe e permiss\u00f5es, tickets, tags, contatos, campanhas, CRM, PDV e configura\u00e7\u00f5es. Tamb\u00e9m cobre erros como conex\u00e3o ca\u00edda, mensagem que n\u00e3o aparece e aviso vermelho no chat. Responde em passo a passo, com o caminho do menu e a fonte na Central de Ajuda. Use mesmo sem o nome do produto, desde que a pessoa esteja falando do painel de atendimento dela. N\u00c3O use para o app WhatsApp Business do celular nem para outras plataformas (Chatwoot, Blip, ManyChat, Zenvia). Pedidos para produzir material ficam com as skills irm\u00e3s: c\u00f3digo de API e webhooks (cmv-api), montar fluxos (cmv-flowbuilder), prompt e recursos de IA (cmv-agente-ia), escrever textos e templates (cmv-mensagens), CSS e JS (cmv-painel-css-js).",
+      "train_passed": 12,
+      "train_failed": 0,
+      "train_total": 12,
+      "train_results": [
+        {
+          "query": "Como importo minha lista de contatos de uma planilha pro chat master veloz? tenho uns 3 mil contatos num excel com nome e telefone",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "no painel do cmv, como transfiro um atendimento pra outro atendente sem ele perder o hist\u00f3rico da conversa?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "a mensagem do cliente n\u00e3o aparece no Aguardando do chat master veloz, s\u00f3 chega no celular. o que pode ser?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "o que mudou no sistema essa semana? apareceu um menu novo 'Assistente de IA' no painel do chat master veloz e ningu\u00e9m avisou",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "como eu fa\u00e7o pra uma atendente s\u00f3 ver as conversas do setor financeiro no chat master veloz? ela n\u00e3o pode mexer em configura\u00e7\u00e3o nenhuma",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "meu whatsapp desconectou no CMV e as conversas ficaram tudo vermelhas, como reconecto sem perder nada?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "monta um fluxo no flowbuilder do cmv com menu de 3 op\u00e7\u00f5es e hor\u00e1rio de expediente, quero o json pra importar",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "o webhook da conex\u00e3o do CMV manda tudo duplicado pro meu n8n, como filtro isso no workflow?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "escreve um template de cobran\u00e7a pra API oficial do WhatsApp no chat master veloz, categoria utilidade, com nome e valor",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "preciso de um curl pra mandar mensagem de texto pela API do chat master veloz pro cliente quando o pedido for aprovado no meu sistema",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "no Chatwoot, como fa\u00e7o pra um agente ver s\u00f3 a caixa de entrada do financeiro?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "no WhatsApp Business do celular, como crio etiquetas e a mensagem de aus\u00eancia?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        }
+      ],
+      "test_passed": 8,
+      "test_failed": 0,
+      "test_total": 8,
+      "test_results": [
+        {
+          "query": "como funciona o rod\u00edzio no chat master veloz? quero distribuir os leads igual entre 4 vendedores",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "qual a diferen\u00e7a entre ticket e protocolo no chat master veloz? meu supervisor ficou confuso no relat\u00f3rio de ontem",
+          "should_trigger": true,
+          "trigger_rate": 0.6666666666666666,
+          "triggers": 2,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "Onde fica a op\u00e7\u00e3o de encerrar sozinho o atendimento quando o cliente para de responder? uso o chatmasterveloz",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "acabamos de contratar o chat master veloz, por onde eu come\u00e7o? j\u00e1 tenho o n\u00famero da empresa e 3 atendentes",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "cria 10 respostas r\u00e1pidas pra recep\u00e7\u00e3o da minha cl\u00ednica no chat master veloz: sauda\u00e7\u00e3o, pix, endere\u00e7o e confirma\u00e7\u00e3o",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "escreve o prompt do GPT Assistant do chat master veloz pra minha imobili\u00e1ria responder d\u00favidas de aluguel",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "quero mudar a cor do menu lateral do painel do chat master veloz pro verde da minha marca usando css personalizado",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "como configuro o chatbot no Blip pra transferir pro atendente humano quando o cliente pedir?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        }
+      ],
+      "passed": 12,
+      "failed": 0,
+      "total": 12,
+      "results": [
+        {
+          "query": "Como importo minha lista de contatos de uma planilha pro chat master veloz? tenho uns 3 mil contatos num excel com nome e telefone",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "no painel do cmv, como transfiro um atendimento pra outro atendente sem ele perder o hist\u00f3rico da conversa?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "a mensagem do cliente n\u00e3o aparece no Aguardando do chat master veloz, s\u00f3 chega no celular. o que pode ser?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "o que mudou no sistema essa semana? apareceu um menu novo 'Assistente de IA' no painel do chat master veloz e ningu\u00e9m avisou",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "como eu fa\u00e7o pra uma atendente s\u00f3 ver as conversas do setor financeiro no chat master veloz? ela n\u00e3o pode mexer em configura\u00e7\u00e3o nenhuma",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "meu whatsapp desconectou no CMV e as conversas ficaram tudo vermelhas, como reconecto sem perder nada?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "monta um fluxo no flowbuilder do cmv com menu de 3 op\u00e7\u00f5es e hor\u00e1rio de expediente, quero o json pra importar",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "o webhook da conex\u00e3o do CMV manda tudo duplicado pro meu n8n, como filtro isso no workflow?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "escreve um template de cobran\u00e7a pra API oficial do WhatsApp no chat master veloz, categoria utilidade, com nome e valor",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "preciso de um curl pra mandar mensagem de texto pela API do chat master veloz pro cliente quando o pedido for aprovado no meu sistema",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "no Chatwoot, como fa\u00e7o pra um agente ver s\u00f3 a caixa de entrada do financeiro?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "no WhatsApp Business do celular, como crio etiquetas e a mensagem de aus\u00eancia?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        }
+      ]
+    }
+  ]
+}

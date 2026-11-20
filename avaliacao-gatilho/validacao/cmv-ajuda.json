@@ -1,0 +1,42 @@
+[
+ {
+  "query": "no chat master veloz, como faço pra um contato ficar sempre com o mesmo atendente quando volta a chamar?",
+  "should_trigger": true
+ },
+ {
+  "query": "por que aparece 'Missing Body in Payload' quando a gente tenta responder um cliente no CMV?",
+  "should_trigger": true
+ },
+ {
+  "query": "como ativo a autenticação em dois fatores pra equipe no chat master veloz?",
+  "should_trigger": true
+ },
+ {
+  "query": "dá pra instalar o chat master veloz como aplicativo no celular dos atendentes? como recebe notificação?",
+  "should_trigger": true
+ },
+ {
+  "query": "Como crio um funil no CRM do chatmasterveloz e movo a oportunidade de etapa?",
+  "should_trigger": true
+ },
+ {
+  "query": "no Zenvia, como faço pra transferir a conversa pra outro departamento?",
+  "should_trigger": false
+ },
+ {
+  "query": "como crio uma lista de transmissão no whatsapp business do meu celular?",
+  "should_trigger": false
+ },
+ {
+  "query": "escreve o texto da mensagem de encerramento do atendimento do chat master veloz, curtinho e simpático",
+  "should_trigger": false
+ },
+ {
+  "query": "me dá um exemplo em node pra criar contato pela API do chat master veloz",
+  "should_trigger": false
+ },
+ {
+  "query": "a IA do chat master veloz responde em inglês às vezes, como arrumo no prompt?",
+  "should_trigger": false
+ }
+]

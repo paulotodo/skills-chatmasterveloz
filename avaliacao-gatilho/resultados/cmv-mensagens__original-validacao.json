@@ -1,0 +1,91 @@
+{
+  "skill_name": "cmv-mensagens",
+  "description": "Redige mensagens prontas para colar no Chat Master Veloz (CMV, chatmasterveloz): respostas r\u00e1pidas, templates da API Oficial do WhatsApp, campanhas de disparo em massa, agendamentos, mensagem de anivers\u00e1rio, sauda\u00e7\u00e3o e fora de expediente do setor, aus\u00eancia e encerramento, com as vari\u00e1veis certas e o passo a passo de onde cadastrar no painel. Use sempre que a pessoa pedir para escrever, melhorar ou revisar qualquer texto enviado a clientes pela plataforma (cobran\u00e7a, lembrete, confirma\u00e7\u00e3o, reativa\u00e7\u00e3o, p\u00f3s-venda, pesquisa, carrinho abandonado, boas-vindas), mesmo que n\u00e3o cite o CMV nem diga \"resposta r\u00e1pida\" ou \"template\", e tamb\u00e9m em d\u00favidas sobre template reprovado, categoria utilidade ou marketing, janela de 24h, cobran\u00e7a da Meta ou risco de bloqueio. N\u00e3o cobre desenho de fluxo de chatbot (cmv-flowbuilder), envio de template por API (cmv-api) nem prompt de IA (cmv-agente-ia).",
+  "results": [
+    {
+      "query": "preciso de um template de confirma\u00e7\u00e3o de entrega pra API oficial no chat master veloz, com o n\u00famero do pedido",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "escreve 3 varia\u00e7\u00f5es de mensagem pra campanha de reabertura da loja no CMV pelo qr code sem risco de bloqueio",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "a mensagem de boas-vindas do meu setor no chat master veloz t\u00e1 muito seca, reescreve mais acolhedora",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "qual categoria escolho pro template de c\u00f3digo de verifica\u00e7\u00e3o no chatmasterveloz, utilidade ou autentica\u00e7\u00e3o?",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "monta respostas r\u00e1pidas pra equipe de suporte t\u00e9cnico no chat master veloz: pedir print, pedir n\u00famero de s\u00e9rie e encerrar",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "como envio a resposta r\u00e1pida pelo atalho dentro da conversa no chat master veloz?",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "monta um fluxo no flowbuilder do chat master veloz que manda a segunda via do boleto",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "escreve um roteiro de liga\u00e7\u00e3o de cobran\u00e7a pra minha equipe de telemarketing",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "como fa\u00e7o pra mandar template pela API do chat master veloz com bot\u00e3o de url?",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "cria uma sequ\u00eancia de emails de boas-vindas pro meu curso online no hotmart",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    }
+  ],
+  "summary": {
+    "total": 10,
+    "passed": 10,
+    "failed": 0
+  }
+}

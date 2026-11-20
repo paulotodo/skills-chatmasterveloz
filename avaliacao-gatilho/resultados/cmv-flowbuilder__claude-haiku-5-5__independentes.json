@@ -1,0 +1,94 @@
+{
+  "skill_name": "cmv-flowbuilder",
+  "description": "Fluxo do FlowBuilder do Chat Master Veloz (chatmasterveloz, CMV) travado, mudo ou com defeito? Use esta skill: ela depura fluxos, lê o .json exportado com um script validador, acha o bloco onde a conversa para (depois do CPF, do nome, de uma opção), a saída sem ligação, o \"Sem resposta\" vazio ou a variável perdida, e diz como corrigir no editor. Se alguém colar ou anexar um fluxo exportado, ou disser que o robô parou de responder, carregue a skill antes de responder. Use também para criar fluxos de chatbot, robô ou menu automático no CMV (triagem, lead, agendamento, horário, cobrança, pós-venda, remarketing por tag, Instagram, sistema externo), como roteiro bloco a bloco ou .json importável, e para escolher bloco ou gatilho. Não cobre: prompt e recursos de IA (cmv-agente-ia), código de API e webhooks (cmv-api), textos de template, campanha e resposta rápida (cmv-mensagens), outras telas do painel (cmv-ajuda), CSS/JS (cmv-painel-css-js), nem outras plataformas.",
+  "results": [
+    {
+      "query": "Preciso de um chatbot pra minha pizzaria no Chat Master Veloz: saudação, opções Cardápio / Fazer pedido / Falar com atendente, e quando a gente está fechado (abrimos de terça a domingo, 18h às 23h30) avisa o horário. Dá pra me entregar o arquivo pra importar?",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "meu fluxo no flowbuilder trava no bloco de pergunta, o cliente responde e nao acontece mais nada. como eu descubro onde ta o erro?",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "Quero uma automação no CMV que, 2 dias depois de eu colocar a tag 'orçamento enviado' no contato, mande uma mensagem perguntando se ele ainda tem interesse. Se responder que sim, vai pro setor Vendas; se não responder, tira a tag e encerra.",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "no fluxo do cmv, como uso o bloco Condição ou o Switch de tags pra separar cliente novo de quem ja é cliente e mandar cada um pra um menu diferente?",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "Tenho um escritório de advocacia e uso o chatmasterveloz com WhatsApp por QR Code. Quero uma triagem automática: pergunta o nome, a área (trabalhista, família ou previdenciário) e se a pessoa já é cliente. Se for previdenciário, pede também idade e tempo de contribuição. No fim, deixa um resumo em mensagem interna para a equipe e transfere para o setor da área escolhida. Fora do horário comercial, avisa que retornamos no próximo dia útil. Me dá o roteiro bloco a bloco para eu montar no editor.",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "No ManyChat, como faço um flow que dispara quando comentam 'quero' no meu post do Instagram e manda o link por DM?",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "Como monto no Typebot um bot com botões de escolha e uma condição de horário comercial? Vou hospedar na minha VPS e ligar na Evolution API.",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "Cria o prompt do GPT Assistant pra fazer a triagem dos clientes da minha loja de pneus no CMV: ele pergunta a medida do pneu e a cidade antes de passar pro vendedor.",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "Já tenho o fluxo pronto no FlowBuilder. Agora só preciso da chamada HTTP (um curl serve) pro meu ERP disparar esse fluxo para um número pelo Gatilho via API. Qual o endpoint, o token e o corpo?",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "Como crio uma tag de atendimento nova e faço ela aparecer como coluna no Kanban de Tags do Chat Master Veloz?",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    }
+  ],
+  "summary": {
+    "total": 10,
+    "passed": 10,
+    "failed": 0
+  },
+  "modelo": "claude-haiku-5-5",
+  "conjunto": "independentes",
+  "modo": "sessão inteira"
+}

@@ -1,0 +1,94 @@
+{
+  "skill_name": "cmv-painel-css-js",
+  "description": "Use esta skill quando alguém quer mudar o visual do painel do Chat Master Veloz (CMV, chatmasterveloz) além do que as configurações oferecem: pôr as cores da empresa (código hex, verde, azul da marca), consertar o modo escuro que fica cinza, apagado ou ilegível, esconder ou reordenar menus e botões, aumentar fontes, trocar textos, mostrar avisos ou sons na tela, mudar o login, as janelas e o Chat Externo. Vale mesmo sem falar em CSS ou JS: \"deixar com a cara da minha empresa\", \"o tema escuro tá feio\", \"meu CSS parou depois da atualização\" e \"qual seletor uso\" são desta skill. Ela entrega o código CSS/JS pronto, com os seletores custom-css conferidos no catálogo, onde colar e como desfazer. Fora do escopo: configurar recursos, permissões e as cores do Web Chat do site (cmv-ajuda), API e webhooks (cmv-api), fluxos (cmv-flowbuilder), IA (cmv-agente-ia), textos para clientes (cmv-mensagens), e CSS de outros sites ou plataformas (WordPress, Chatwoot, WhatsApp Web).",
+  "results": [
+    {
+      "query": "Quero deixar a tela de login do Chat Master Veloz com fundo azul-marinho e o logo da minha empresa maior. Me passa o CSS e me diz onde colar.",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "da pra esconder o item Campanhas do menu lateral no cmv usando css? e mudar a ordem dos outros itens",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "No tema escuro do painel CMV os balões da conversa ficam com pouco contraste. Quero o balão do cliente em cinza-escuro, o do atendente em verde #1f8a4c e a fonte em 15px.",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "Preciso de um JS personalizado no painel do chatmasterveloz que mostre o lembrete 'confira a tag antes de encerrar' quando o atendente clicar no botão de encerrar o ticket.",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "meu css customizado parou de funcionar depois da ultima atualizaçao do master veloz. eu usava .MuiButton-root e umas classes tipo .jss123 pra mudar os botoes e o cabeçalho. qual seletor eu uso agora pra nao quebrar de novo?",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "Como mudo as cores e a fonte do widget do Chatwoot no meu site? Queria também um CSS customizado no dashboard dos agentes.",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "Preciso de um CSS adicional no WordPress (uso Elementor) pra deixar o botão flutuante de WhatsApp com a cor da minha marca e esconder ele no mobile.",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "Como tiro do perfil atendente a permissão de ver o menu Contatos e de exportar contatos no CMV? Quero fazer pelas permissões do usuário mesmo, sem código.",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "Escreve um script em JavaScript (Node) que recebe o webhook do Chat Master Veloz e responde a mensagem do cliente pela API.",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "No bloco Execução de Código JS do FlowBuilder, como escrevo um código que tira pontos e traço do CPF que o cliente digitou e salva numa variável do fluxo?",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    }
+  ],
+  "summary": {
+    "total": 10,
+    "passed": 10,
+    "failed": 0
+  },
+  "modelo": "claude-fable-5-2",
+  "conjunto": "independentes",
+  "modo": "sessão inteira"
+}

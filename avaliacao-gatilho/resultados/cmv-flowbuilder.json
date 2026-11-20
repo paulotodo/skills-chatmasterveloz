@@ -1,0 +1,1390 @@
+{
+  "exit_reason": "all_passed (iteration 5)",
+  "original_description": "Desenha e gera fluxos de chatbot e automa\u00e7\u00e3o do FlowBuilder do Chat Master Veloz (chatmasterveloz, CMV): triagem por menu, qualifica\u00e7\u00e3o de lead, hor\u00e1rio de expediente, agendamento, cobran\u00e7a, p\u00f3s-venda, remarketing por tag, coment\u00e1rio do Instagram e chamada a sistema externo. Entrega o roteiro de montagem bloco a bloco, com os textos prontos, ou um arquivo .json para importar no FlowBuilder Nativo, conferido por script. Use sempre que a pessoa quiser criar, melhorar, revisar ou consertar um fluxo, rob\u00f4, chatbot, menu autom\u00e1tico ou automa\u00e7\u00e3o de atendimento no CMV, perguntar qual bloco usar ou por que o fluxo parou de responder, mesmo que n\u00e3o diga \"FlowBuilder\". Fora do escopo: prompt do GPT Assistant e demais recursos de IA (cmv-agente-ia), chamadas de API e webhooks externos (cmv-api), texto de template, campanha e resposta r\u00e1pida (cmv-mensagens), outras d\u00favidas do painel (cmv-ajuda).",
+  "best_description": "Use esta skill para tudo que envolve um fluxo do FlowBuilder do Chat Master Veloz (chatmasterveloz, CMV), seja um fluxo novo ou um que j\u00e1 existe e deu problema. Problema inclui: fluxo que trava, para de responder depois de uma resposta do cliente, repete o menu ou n\u00e3o come\u00e7a. Tamb\u00e9m vale para quem manda o .json exportado ou pergunta qual bloco usar. Para criar, a skill desenha o rob\u00f4, chatbot ou menu autom\u00e1tico: triagem, qualifica\u00e7\u00e3o de lead, hor\u00e1rio, agendamento, cobran\u00e7a, p\u00f3s-venda, remarketing por tag, coment\u00e1rio do Instagram, consulta a sistema externo. Entrega o roteiro bloco a bloco com os textos prontos ou um .json import\u00e1vel conferido por script. Fluxo com defeito vai para esta skill, n\u00e3o para a cmv-ajuda, mesmo sem a palavra \"FlowBuilder\". N\u00e3o cobre: prompt e recursos de IA (cmv-agente-ia), c\u00f3digo de API e webhooks (cmv-api), textos de template, campanha e resposta r\u00e1pida (cmv-mensagens), outras telas do painel (cmv-ajuda), nem outras plataformas.",
+  "best_score": "7/8",
+  "best_train_score": "11/12",
+  "best_test_score": "7/8",
+  "final_description": "Fluxo do FlowBuilder do Chat Master Veloz (chatmasterveloz, CMV) travado, mudo ou com defeito? Use esta skill: ela depura fluxos, l\u00ea o .json exportado com um script validador, acha o bloco onde a conversa para (depois do CPF, do nome, de uma op\u00e7\u00e3o), a sa\u00edda sem liga\u00e7\u00e3o, o \"Sem resposta\" vazio ou a vari\u00e1vel perdida, e diz como corrigir no editor. Se algu\u00e9m colar ou anexar um fluxo exportado, ou disser que o rob\u00f4 parou de responder, carregue a skill antes de responder. Use tamb\u00e9m para criar fluxos de chatbot, rob\u00f4 ou menu autom\u00e1tico no CMV (triagem, lead, agendamento, hor\u00e1rio, cobran\u00e7a, p\u00f3s-venda, remarketing por tag, Instagram, sistema externo), como roteiro bloco a bloco ou .json import\u00e1vel, e para escolher bloco ou gatilho. N\u00e3o cobre: prompt e recursos de IA (cmv-agente-ia), c\u00f3digo de API e webhooks (cmv-api), textos de template, campanha e resposta r\u00e1pida (cmv-mensagens), outras telas do painel (cmv-ajuda), CSS/JS (cmv-painel-css-js), nem outras plataformas.",
+  "iterations_run": 5,
+  "holdout": 0.4,
+  "train_size": 12,
+  "test_size": 8,
+  "history": [
+    {
+      "iteration": 1,
+      "description": "Desenha e gera fluxos de chatbot e automa\u00e7\u00e3o do FlowBuilder do Chat Master Veloz (chatmasterveloz, CMV): triagem por menu, qualifica\u00e7\u00e3o de lead, hor\u00e1rio de expediente, agendamento, cobran\u00e7a, p\u00f3s-venda, remarketing por tag, coment\u00e1rio do Instagram e chamada a sistema externo. Entrega o roteiro de montagem bloco a bloco, com os textos prontos, ou um arquivo .json para importar no FlowBuilder Nativo, conferido por script. Use sempre que a pessoa quiser criar, melhorar, revisar ou consertar um fluxo, rob\u00f4, chatbot, menu autom\u00e1tico ou automa\u00e7\u00e3o de atendimento no CMV, perguntar qual bloco usar ou por que o fluxo parou de responder, mesmo que n\u00e3o diga \"FlowBuilder\". Fora do escopo: prompt do GPT Assistant e demais recursos de IA (cmv-agente-ia), chamadas de API e webhooks externos (cmv-api), texto de template, campanha e resposta r\u00e1pida (cmv-mensagens), outras d\u00favidas do painel (cmv-ajuda).",
+      "train_passed": 11,
+      "train_failed": 1,
+      "train_total": 12,
+      "train_results": [
+        {
+          "query": "no chatmasterveloz quero que quem comentar 'eu quero' no meu post do instagram receba o link no direct autom\u00e1tico",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "como fa\u00e7o o fluxo do chat master veloz consultar meu sistema pelo n\u00famero do cliente e responder o status do pedido?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "preciso de um chatbot de p\u00f3s-venda no chat master veloz que pergunta a nota de 1 a 5 e marca tag de insatisfeito quando d\u00e1 menos de 3",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "monta um fluxo de qualifica\u00e7\u00e3o de lead no chat master veloz: pergunta nome, cidade e or\u00e7amento e manda pro vendedor por rod\u00edzio",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "meu fluxo do flowbuilder trava depois que o cliente digita o cpf, n\u00e3o responde mais nada. segue o json que exportei",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "tenho uma cl\u00ednica de est\u00e9tica e quero um robozinho no whats do chat master veloz que pergunte se a pessoa quer agendar, saber pre\u00e7o ou falar com algu\u00e9m, e mande pro setor certo. d\u00e1 pra me mandar o arquivo pronto pra importar?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "escreve um template de reengajamento pra API oficial do chat master veloz, pra quem n\u00e3o responde h\u00e1 3 dias",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "preciso de um curl pra iniciar um fluxo do chat master veloz a partir do meu sistema quando entra um lead novo",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "escreve o prompt do agente de IA do chat master veloz pra qualificar leads de energia solar",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "workflow no n8n que l\u00ea os emails do gmail e salva no notion",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "quero esconder o bot\u00e3o de excluir conversa pros atendentes no painel do CMV",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "a IA do chat master veloz n\u00e3o transfere pro setor quando o cliente pede pra falar com humano, o prompt t\u00e1 abaixo",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        }
+      ],
+      "test_passed": 6,
+      "test_failed": 2,
+      "test_total": 8,
+      "test_results": [
+        {
+          "query": "revisa esse fluxo de cobran\u00e7a que montei no flowbuilder do cmv, acho que tem alguma sa\u00edda sem liga\u00e7\u00e3o",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "qual bloco do flowbuilder eu uso pra checar se t\u00e1 no hor\u00e1rio de expediente antes de mandar pro setor?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "quero mandar uma mensagem autom\u00e1tica 1 dia depois pra quem pediu or\u00e7amento e sumiu. uso a API oficial no CMV. como monto isso?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "d\u00e1 pra fazer um menu autom\u00e1tico no cmv que manda o boleto do Asaas quando o cliente escolhe a op\u00e7\u00e3o 2?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "como vejo quais atendentes est\u00e3o online agora no painel do chat master veloz?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "cria as mensagens de sauda\u00e7\u00e3o e de fora do hor\u00e1rio do setor de vendas no chat master veloz, tom simp\u00e1tico",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "monta um fluxo no Typebot com captura de email e integra\u00e7\u00e3o com o google sheets",
+          "should_trigger": false,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "como fa\u00e7o um fluxo no ManyChat pra responder coment\u00e1rio do instagram com link no direct?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        }
+      ],
+      "passed": 11,
+      "failed": 1,
+      "total": 12,
+      "results": [
+        {
+          "query": "no chatmasterveloz quero que quem comentar 'eu quero' no meu post do instagram receba o link no direct autom\u00e1tico",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "como fa\u00e7o o fluxo do chat master veloz consultar meu sistema pelo n\u00famero do cliente e responder o status do pedido?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "preciso de um chatbot de p\u00f3s-venda no chat master veloz que pergunta a nota de 1 a 5 e marca tag de insatisfeito quando d\u00e1 menos de 3",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "monta um fluxo de qualifica\u00e7\u00e3o de lead no chat master veloz: pergunta nome, cidade e or\u00e7amento e manda pro vendedor por rod\u00edzio",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "meu fluxo do flowbuilder trava depois que o cliente digita o cpf, n\u00e3o responde mais nada. segue o json que exportei",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "tenho uma cl\u00ednica de est\u00e9tica e quero um robozinho no whats do chat master veloz que pergunte se a pessoa quer agendar, saber pre\u00e7o ou falar com algu\u00e9m, e mande pro setor certo. d\u00e1 pra me mandar o arquivo pronto pra importar?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "escreve um template de reengajamento pra API oficial do chat master veloz, pra quem n\u00e3o responde h\u00e1 3 dias",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "preciso de um curl pra iniciar um fluxo do chat master veloz a partir do meu sistema quando entra um lead novo",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "escreve o prompt do agente de IA do chat master veloz pra qualificar leads de energia solar",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "workflow no n8n que l\u00ea os emails do gmail e salva no notion",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "quero esconder o bot\u00e3o de excluir conversa pros atendentes no painel do CMV",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "a IA do chat master veloz n\u00e3o transfere pro setor quando o cliente pede pra falar com humano, o prompt t\u00e1 abaixo",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "iteration": 2,
+      "description": "Use esta skill para tudo que envolve um fluxo do FlowBuilder do Chat Master Veloz (chatmasterveloz, CMV), seja um fluxo novo ou um que j\u00e1 existe e deu problema. Problema inclui: fluxo que trava, para de responder depois de uma resposta do cliente, repete o menu ou n\u00e3o come\u00e7a. Tamb\u00e9m vale para quem manda o .json exportado ou pergunta qual bloco usar. Para criar, a skill desenha o rob\u00f4, chatbot ou menu autom\u00e1tico: triagem, qualifica\u00e7\u00e3o de lead, hor\u00e1rio, agendamento, cobran\u00e7a, p\u00f3s-venda, remarketing por tag, coment\u00e1rio do Instagram, consulta a sistema externo. Entrega o roteiro bloco a bloco com os textos prontos ou um .json import\u00e1vel conferido por script. Fluxo com defeito vai para esta skill, n\u00e3o para a cmv-ajuda, mesmo sem a palavra \"FlowBuilder\". N\u00e3o cobre: prompt e recursos de IA (cmv-agente-ia), c\u00f3digo de API e webhooks (cmv-api), textos de template, campanha e resposta r\u00e1pida (cmv-mensagens), outras telas do painel (cmv-ajuda), nem outras plataformas.",
+      "train_passed": 11,
+      "train_failed": 1,
+      "train_total": 12,
+      "train_results": [
+        {
+          "query": "como fa\u00e7o o fluxo do chat master veloz consultar meu sistema pelo n\u00famero do cliente e responder o status do pedido?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "no chatmasterveloz quero que quem comentar 'eu quero' no meu post do instagram receba o link no direct autom\u00e1tico",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "preciso de um chatbot de p\u00f3s-venda no chat master veloz que pergunta a nota de 1 a 5 e marca tag de insatisfeito quando d\u00e1 menos de 3",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "monta um fluxo de qualifica\u00e7\u00e3o de lead no chat master veloz: pergunta nome, cidade e or\u00e7amento e manda pro vendedor por rod\u00edzio",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "meu fluxo do flowbuilder trava depois que o cliente digita o cpf, n\u00e3o responde mais nada. segue o json que exportei",
+          "should_trigger": true,
+          "trigger_rate": 0.3333333333333333,
+          "triggers": 1,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "tenho uma cl\u00ednica de est\u00e9tica e quero um robozinho no whats do chat master veloz que pergunte se a pessoa quer agendar, saber pre\u00e7o ou falar com algu\u00e9m, e mande pro setor certo. d\u00e1 pra me mandar o arquivo pronto pra importar?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "preciso de um curl pra iniciar um fluxo do chat master veloz a partir do meu sistema quando entra um lead novo",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "escreve um template de reengajamento pra API oficial do chat master veloz, pra quem n\u00e3o responde h\u00e1 3 dias",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "escreve o prompt do agente de IA do chat master veloz pra qualificar leads de energia solar",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "workflow no n8n que l\u00ea os emails do gmail e salva no notion",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "quero esconder o bot\u00e3o de excluir conversa pros atendentes no painel do CMV",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "a IA do chat master veloz n\u00e3o transfere pro setor quando o cliente pede pra falar com humano, o prompt t\u00e1 abaixo",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        }
+      ],
+      "test_passed": 7,
+      "test_failed": 1,
+      "test_total": 8,
+      "test_results": [
+        {
+          "query": "revisa esse fluxo de cobran\u00e7a que montei no flowbuilder do cmv, acho que tem alguma sa\u00edda sem liga\u00e7\u00e3o",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "qual bloco do flowbuilder eu uso pra checar se t\u00e1 no hor\u00e1rio de expediente antes de mandar pro setor?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "quero mandar uma mensagem autom\u00e1tica 1 dia depois pra quem pediu or\u00e7amento e sumiu. uso a API oficial no CMV. como monto isso?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "d\u00e1 pra fazer um menu autom\u00e1tico no cmv que manda o boleto do Asaas quando o cliente escolhe a op\u00e7\u00e3o 2?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "como vejo quais atendentes est\u00e3o online agora no painel do chat master veloz?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "cria as mensagens de sauda\u00e7\u00e3o e de fora do hor\u00e1rio do setor de vendas no chat master veloz, tom simp\u00e1tico",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "como fa\u00e7o um fluxo no ManyChat pra responder coment\u00e1rio do instagram com link no direct?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "monta um fluxo no Typebot com captura de email e integra\u00e7\u00e3o com o google sheets",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        }
+      ],
+      "passed": 11,
+      "failed": 1,
+      "total": 12,
+      "results": [
+        {
+          "query": "como fa\u00e7o o fluxo do chat master veloz consultar meu sistema pelo n\u00famero do cliente e responder o status do pedido?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "no chatmasterveloz quero que quem comentar 'eu quero' no meu post do instagram receba o link no direct autom\u00e1tico",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "preciso de um chatbot de p\u00f3s-venda no chat master veloz que pergunta a nota de 1 a 5 e marca tag de insatisfeito quando d\u00e1 menos de 3",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "monta um fluxo de qualifica\u00e7\u00e3o de lead no chat master veloz: pergunta nome, cidade e or\u00e7amento e manda pro vendedor por rod\u00edzio",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "meu fluxo do flowbuilder trava depois que o cliente digita o cpf, n\u00e3o responde mais nada. segue o json que exportei",
+          "should_trigger": true,
+          "trigger_rate": 0.3333333333333333,
+          "triggers": 1,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "tenho uma cl\u00ednica de est\u00e9tica e quero um robozinho no whats do chat master veloz que pergunte se a pessoa quer agendar, saber pre\u00e7o ou falar com algu\u00e9m, e mande pro setor certo. d\u00e1 pra me mandar o arquivo pronto pra importar?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "preciso de um curl pra iniciar um fluxo do chat master veloz a partir do meu sistema quando entra um lead novo",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "escreve um template de reengajamento pra API oficial do chat master veloz, pra quem n\u00e3o responde h\u00e1 3 dias",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "escreve o prompt do agente de IA do chat master veloz pra qualificar leads de energia solar",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "workflow no n8n que l\u00ea os emails do gmail e salva no notion",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "quero esconder o bot\u00e3o de excluir conversa pros atendentes no painel do CMV",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "a IA do chat master veloz n\u00e3o transfere pro setor quando o cliente pede pra falar com humano, o prompt t\u00e1 abaixo",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "iteration": 3,
+      "description": "Use esta skill quando algu\u00e9m tiver um fluxo do FlowBuilder do Chat Master Veloz (chatmasterveloz, CMV) para consertar ou criar. Consertar: o fluxo trava ou para de responder depois que o cliente digita algo (CPF, nome, op\u00e7\u00e3o), repete o menu, n\u00e3o come\u00e7a ou tem sa\u00edda sem liga\u00e7\u00e3o. Se a pessoa colar ou anexar o .json exportado, use a skill em vez de analisar sozinho: ela traz o validador do arquivo e as armadilhas da documenta\u00e7\u00e3o. Criar: rob\u00f4, chatbot ou menu autom\u00e1tico (triagem, qualifica\u00e7\u00e3o de lead, agendamento, hor\u00e1rio, cobran\u00e7a, p\u00f3s-venda, remarketing por tag, coment\u00e1rio do Instagram, consulta a sistema externo), entregue como roteiro bloco a bloco ou .json import\u00e1vel. Tamb\u00e9m serve para escolher bloco ou gatilho. N\u00e3o cobre: prompt e recursos de IA (cmv-agente-ia), c\u00f3digo de API e webhooks (cmv-api), textos de template, campanha e resposta r\u00e1pida (cmv-mensagens), outras telas do painel (cmv-ajuda), CSS/JS (cmv-painel-css-js), nem outras plataformas.",
+      "train_passed": 11,
+      "train_failed": 1,
+      "train_total": 12,
+      "train_results": [
+        {
+          "query": "como fa\u00e7o o fluxo do chat master veloz consultar meu sistema pelo n\u00famero do cliente e responder o status do pedido?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "no chatmasterveloz quero que quem comentar 'eu quero' no meu post do instagram receba o link no direct autom\u00e1tico",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "preciso de um chatbot de p\u00f3s-venda no chat master veloz que pergunta a nota de 1 a 5 e marca tag de insatisfeito quando d\u00e1 menos de 3",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "monta um fluxo de qualifica\u00e7\u00e3o de lead no chat master veloz: pergunta nome, cidade e or\u00e7amento e manda pro vendedor por rod\u00edzio",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "tenho uma cl\u00ednica de est\u00e9tica e quero um robozinho no whats do chat master veloz que pergunte se a pessoa quer agendar, saber pre\u00e7o ou falar com algu\u00e9m, e mande pro setor certo. d\u00e1 pra me mandar o arquivo pronto pra importar?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "meu fluxo do flowbuilder trava depois que o cliente digita o cpf, n\u00e3o responde mais nada. segue o json que exportei",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "preciso de um curl pra iniciar um fluxo do chat master veloz a partir do meu sistema quando entra um lead novo",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "escreve um template de reengajamento pra API oficial do chat master veloz, pra quem n\u00e3o responde h\u00e1 3 dias",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "escreve o prompt do agente de IA do chat master veloz pra qualificar leads de energia solar",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "quero esconder o bot\u00e3o de excluir conversa pros atendentes no painel do CMV",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "workflow no n8n que l\u00ea os emails do gmail e salva no notion",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "a IA do chat master veloz n\u00e3o transfere pro setor quando o cliente pede pra falar com humano, o prompt t\u00e1 abaixo",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        }
+      ],
+      "test_passed": 7,
+      "test_failed": 1,
+      "test_total": 8,
+      "test_results": [
+        {
+          "query": "revisa esse fluxo de cobran\u00e7a que montei no flowbuilder do cmv, acho que tem alguma sa\u00edda sem liga\u00e7\u00e3o",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "qual bloco do flowbuilder eu uso pra checar se t\u00e1 no hor\u00e1rio de expediente antes de mandar pro setor?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "quero mandar uma mensagem autom\u00e1tica 1 dia depois pra quem pediu or\u00e7amento e sumiu. uso a API oficial no CMV. como monto isso?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "d\u00e1 pra fazer um menu autom\u00e1tico no cmv que manda o boleto do Asaas quando o cliente escolhe a op\u00e7\u00e3o 2?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "como vejo quais atendentes est\u00e3o online agora no painel do chat master veloz?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "cria as mensagens de sauda\u00e7\u00e3o e de fora do hor\u00e1rio do setor de vendas no chat master veloz, tom simp\u00e1tico",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "monta um fluxo no Typebot com captura de email e integra\u00e7\u00e3o com o google sheets",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "como fa\u00e7o um fluxo no ManyChat pra responder coment\u00e1rio do instagram com link no direct?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        }
+      ],
+      "passed": 11,
+      "failed": 1,
+      "total": 12,
+      "results": [
+        {
+          "query": "como fa\u00e7o o fluxo do chat master veloz consultar meu sistema pelo n\u00famero do cliente e responder o status do pedido?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "no chatmasterveloz quero que quem comentar 'eu quero' no meu post do instagram receba o link no direct autom\u00e1tico",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "preciso de um chatbot de p\u00f3s-venda no chat master veloz que pergunta a nota de 1 a 5 e marca tag de insatisfeito quando d\u00e1 menos de 3",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "monta um fluxo de qualifica\u00e7\u00e3o de lead no chat master veloz: pergunta nome, cidade e or\u00e7amento e manda pro vendedor por rod\u00edzio",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "tenho uma cl\u00ednica de est\u00e9tica e quero um robozinho no whats do chat master veloz que pergunte se a pessoa quer agendar, saber pre\u00e7o ou falar com algu\u00e9m, e mande pro setor certo. d\u00e1 pra me mandar o arquivo pronto pra importar?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "meu fluxo do flowbuilder trava depois que o cliente digita o cpf, n\u00e3o responde mais nada. segue o json que exportei",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "preciso de um curl pra iniciar um fluxo do chat master veloz a partir do meu sistema quando entra um lead novo",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "escreve um template de reengajamento pra API oficial do chat master veloz, pra quem n\u00e3o responde h\u00e1 3 dias",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "escreve o prompt do agente de IA do chat master veloz pra qualificar leads de energia solar",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "quero esconder o bot\u00e3o de excluir conversa pros atendentes no painel do CMV",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "workflow no n8n que l\u00ea os emails do gmail e salva no notion",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "a IA do chat master veloz n\u00e3o transfere pro setor quando o cliente pede pra falar com humano, o prompt t\u00e1 abaixo",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "iteration": 4,
+      "description": "Especialista no FlowBuilder do Chat Master Veloz (chatmasterveloz, CMV). Use para diagnosticar e consertar um fluxo que j\u00e1 existe: ele trava, para de responder depois que o cliente digita algo (CPF, nome, n\u00famero, op\u00e7\u00e3o), repete o menu, n\u00e3o come\u00e7a ou ficou com sa\u00edda solta. Tamb\u00e9m quando a pessoa mandar o .json exportado do fluxo: a skill tem o validador desse arquivo e as armadilhas que a documenta\u00e7\u00e3o registra, ent\u00e3o n\u00e3o analise sozinho. Use tamb\u00e9m para criar fluxos novos de rob\u00f4, chatbot ou menu autom\u00e1tico (triagem, lead, agendamento, hor\u00e1rio, cobran\u00e7a, p\u00f3s-venda, remarketing por tag, Instagram, sistema externo), entregues como roteiro bloco a bloco ou .json import\u00e1vel, e para escolher bloco ou gatilho. Qualquer problema de fluxo \u00e9 desta skill, n\u00e3o da cmv-ajuda. N\u00e3o cobre: prompt e recursos de IA (cmv-agente-ia), c\u00f3digo de API e webhooks (cmv-api), textos de template, campanha e resposta r\u00e1pida (cmv-mensagens), outras telas do painel (cmv-ajuda), CSS/JS (cmv-painel-css-js), nem outras plataformas.",
+      "train_passed": 11,
+      "train_failed": 1,
+      "train_total": 12,
+      "train_results": [
+        {
+          "query": "como fa\u00e7o o fluxo do chat master veloz consultar meu sistema pelo n\u00famero do cliente e responder o status do pedido?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "no chatmasterveloz quero que quem comentar 'eu quero' no meu post do instagram receba o link no direct autom\u00e1tico",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "preciso de um chatbot de p\u00f3s-venda no chat master veloz que pergunta a nota de 1 a 5 e marca tag de insatisfeito quando d\u00e1 menos de 3",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "monta um fluxo de qualifica\u00e7\u00e3o de lead no chat master veloz: pergunta nome, cidade e or\u00e7amento e manda pro vendedor por rod\u00edzio",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "tenho uma cl\u00ednica de est\u00e9tica e quero um robozinho no whats do chat master veloz que pergunte se a pessoa quer agendar, saber pre\u00e7o ou falar com algu\u00e9m, e mande pro setor certo. d\u00e1 pra me mandar o arquivo pronto pra importar?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "meu fluxo do flowbuilder trava depois que o cliente digita o cpf, n\u00e3o responde mais nada. segue o json que exportei",
+          "should_trigger": true,
+          "trigger_rate": 0.3333333333333333,
+          "triggers": 1,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "preciso de um curl pra iniciar um fluxo do chat master veloz a partir do meu sistema quando entra um lead novo",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "escreve um template de reengajamento pra API oficial do chat master veloz, pra quem n\u00e3o responde h\u00e1 3 dias",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "escreve o prompt do agente de IA do chat master veloz pra qualificar leads de energia solar",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "workflow no n8n que l\u00ea os emails do gmail e salva no notion",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "quero esconder o bot\u00e3o de excluir conversa pros atendentes no painel do CMV",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "a IA do chat master veloz n\u00e3o transfere pro setor quando o cliente pede pra falar com humano, o prompt t\u00e1 abaixo",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        }
+      ],
+      "test_passed": 7,
+      "test_failed": 1,
+      "test_total": 8,
+      "test_results": [
+        {
+          "query": "revisa esse fluxo de cobran\u00e7a que montei no flowbuilder do cmv, acho que tem alguma sa\u00edda sem liga\u00e7\u00e3o",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "qual bloco do flowbuilder eu uso pra checar se t\u00e1 no hor\u00e1rio de expediente antes de mandar pro setor?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "quero mandar uma mensagem autom\u00e1tica 1 dia depois pra quem pediu or\u00e7amento e sumiu. uso a API oficial no CMV. como monto isso?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "d\u00e1 pra fazer um menu autom\u00e1tico no cmv que manda o boleto do Asaas quando o cliente escolhe a op\u00e7\u00e3o 2?",
+          "should_trigger": true,
+          "trigger_rate": 0.6666666666666666,
+          "triggers": 2,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "como vejo quais atendentes est\u00e3o online agora no painel do chat master veloz?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "cria as mensagens de sauda\u00e7\u00e3o e de fora do hor\u00e1rio do setor de vendas no chat master veloz, tom simp\u00e1tico",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "como fa\u00e7o um fluxo no ManyChat pra responder coment\u00e1rio do instagram com link no direct?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "monta um fluxo no Typebot com captura de email e integra\u00e7\u00e3o com o google sheets",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        }
+      ],
+      "passed": 11,
+      "failed": 1,
+      "total": 12,
+      "results": [
+        {
+          "query": "como fa\u00e7o o fluxo do chat master veloz consultar meu sistema pelo n\u00famero do cliente e responder o status do pedido?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "no chatmasterveloz quero que quem comentar 'eu quero' no meu post do instagram receba o link no direct autom\u00e1tico",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "preciso de um chatbot de p\u00f3s-venda no chat master veloz que pergunta a nota de 1 a 5 e marca tag de insatisfeito quando d\u00e1 menos de 3",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "monta um fluxo de qualifica\u00e7\u00e3o de lead no chat master veloz: pergunta nome, cidade e or\u00e7amento e manda pro vendedor por rod\u00edzio",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "tenho uma cl\u00ednica de est\u00e9tica e quero um robozinho no whats do chat master veloz que pergunte se a pessoa quer agendar, saber pre\u00e7o ou falar com algu\u00e9m, e mande pro setor certo. d\u00e1 pra me mandar o arquivo pronto pra importar?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "meu fluxo do flowbuilder trava depois que o cliente digita o cpf, n\u00e3o responde mais nada. segue o json que exportei",
+          "should_trigger": true,
+          "trigger_rate": 0.3333333333333333,
+          "triggers": 1,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "preciso de um curl pra iniciar um fluxo do chat master veloz a partir do meu sistema quando entra um lead novo",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "escreve um template de reengajamento pra API oficial do chat master veloz, pra quem n\u00e3o responde h\u00e1 3 dias",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "escreve o prompt do agente de IA do chat master veloz pra qualificar leads de energia solar",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "workflow no n8n que l\u00ea os emails do gmail e salva no notion",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "quero esconder o bot\u00e3o de excluir conversa pros atendentes no painel do CMV",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "a IA do chat master veloz n\u00e3o transfere pro setor quando o cliente pede pra falar com humano, o prompt t\u00e1 abaixo",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "iteration": 5,
+      "description": "Fluxo do FlowBuilder do Chat Master Veloz (chatmasterveloz, CMV) travado, mudo ou com defeito? Use esta skill: ela depura fluxos, l\u00ea o .json exportado com um script validador, acha o bloco onde a conversa para (depois do CPF, do nome, de uma op\u00e7\u00e3o), a sa\u00edda sem liga\u00e7\u00e3o, o \"Sem resposta\" vazio ou a vari\u00e1vel perdida, e diz como corrigir no editor. Se algu\u00e9m colar ou anexar um fluxo exportado, ou disser que o rob\u00f4 parou de responder, carregue a skill antes de responder. Use tamb\u00e9m para criar fluxos de chatbot, rob\u00f4 ou menu autom\u00e1tico no CMV (triagem, lead, agendamento, hor\u00e1rio, cobran\u00e7a, p\u00f3s-venda, remarketing por tag, Instagram, sistema externo), como roteiro bloco a bloco ou .json import\u00e1vel, e para escolher bloco ou gatilho. N\u00e3o cobre: prompt e recursos de IA (cmv-agente-ia), c\u00f3digo de API e webhooks (cmv-api), textos de template, campanha e resposta r\u00e1pida (cmv-mensagens), outras telas do painel (cmv-ajuda), CSS/JS (cmv-painel-css-js), nem outras plataformas.",
+      "train_passed": 12,
+      "train_failed": 0,
+      "train_total": 12,
+      "train_results": [
+        {
+          "query": "no chatmasterveloz quero que quem comentar 'eu quero' no meu post do instagram receba o link no direct autom\u00e1tico",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "como fa\u00e7o o fluxo do chat master veloz consultar meu sistema pelo n\u00famero do cliente e responder o status do pedido?",
+          "should_trigger": true,
+          "trigger_rate": 0.6666666666666666,
+          "triggers": 2,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "preciso de um chatbot de p\u00f3s-venda no chat master veloz que pergunta a nota de 1 a 5 e marca tag de insatisfeito quando d\u00e1 menos de 3",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "monta um fluxo de qualifica\u00e7\u00e3o de lead no chat master veloz: pergunta nome, cidade e or\u00e7amento e manda pro vendedor por rod\u00edzio",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "tenho uma cl\u00ednica de est\u00e9tica e quero um robozinho no whats do chat master veloz que pergunte se a pessoa quer agendar, saber pre\u00e7o ou falar com algu\u00e9m, e mande pro setor certo. d\u00e1 pra me mandar o arquivo pronto pra importar?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "meu fluxo do flowbuilder trava depois que o cliente digita o cpf, n\u00e3o responde mais nada. segue o json que exportei",
+          "should_trigger": true,
+          "trigger_rate": 0.6666666666666666,
+          "triggers": 2,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "preciso de um curl pra iniciar um fluxo do chat master veloz a partir do meu sistema quando entra um lead novo",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "escreve um template de reengajamento pra API oficial do chat master veloz, pra quem n\u00e3o responde h\u00e1 3 dias",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "escreve o prompt do agente de IA do chat master veloz pra qualificar leads de energia solar",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "quero esconder o bot\u00e3o de excluir conversa pros atendentes no painel do CMV",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "workflow no n8n que l\u00ea os emails do gmail e salva no notion",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "a IA do chat master veloz n\u00e3o transfere pro setor quando o cliente pede pra falar com humano, o prompt t\u00e1 abaixo",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        }
+      ],
+      "test_passed": 7,
+      "test_failed": 1,
+      "test_total": 8,
+      "test_results": [
+        {
+          "query": "revisa esse fluxo de cobran\u00e7a que montei no flowbuilder do cmv, acho que tem alguma sa\u00edda sem liga\u00e7\u00e3o",
+          "should_trigger": true,
+          "trigger_rate": 0.3333333333333333,
+          "triggers": 1,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "qual bloco do flowbuilder eu uso pra checar se t\u00e1 no hor\u00e1rio de expediente antes de mandar pro setor?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "quero mandar uma mensagem autom\u00e1tica 1 dia depois pra quem pediu or\u00e7amento e sumiu. uso a API oficial no CMV. como monto isso?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "d\u00e1 pra fazer um menu autom\u00e1tico no cmv que manda o boleto do Asaas quando o cliente escolhe a op\u00e7\u00e3o 2?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "como vejo quais atendentes est\u00e3o online agora no painel do chat master veloz?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "cria as mensagens de sauda\u00e7\u00e3o e de fora do hor\u00e1rio do setor de vendas no chat master veloz, tom simp\u00e1tico",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "como fa\u00e7o um fluxo no ManyChat pra responder coment\u00e1rio do instagram com link no direct?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "monta um fluxo no Typebot com captura de email e integra\u00e7\u00e3o com o google sheets",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        }
+      ],
+      "passed": 12,
+      "failed": 0,
+      "total": 12,
+      "results": [
+        {
+          "query": "no chatmasterveloz quero que quem comentar 'eu quero' no meu post do instagram receba o link no direct autom\u00e1tico",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "como fa\u00e7o o fluxo do chat master veloz consultar meu sistema pelo n\u00famero do cliente e responder o status do pedido?",
+          "should_trigger": true,
+          "trigger_rate": 0.6666666666666666,
+          "triggers": 2,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "preciso de um chatbot de p\u00f3s-venda no chat master veloz que pergunta a nota de 1 a 5 e marca tag de insatisfeito quando d\u00e1 menos de 3",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "monta um fluxo de qualifica\u00e7\u00e3o de lead no chat master veloz: pergunta nome, cidade e or\u00e7amento e manda pro vendedor por rod\u00edzio",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "tenho uma cl\u00ednica de est\u00e9tica e quero um robozinho no whats do chat master veloz que pergunte se a pessoa quer agendar, saber pre\u00e7o ou falar com algu\u00e9m, e mande pro setor certo. d\u00e1 pra me mandar o arquivo pronto pra importar?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "meu fluxo do flowbuilder trava depois que o cliente digita o cpf, n\u00e3o responde mais nada. segue o json que exportei",
+          "should_trigger": true,
+          "trigger_rate": 0.6666666666666666,
+          "triggers": 2,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "preciso de um curl pra iniciar um fluxo do chat master veloz a partir do meu sistema quando entra um lead novo",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "escreve um template de reengajamento pra API oficial do chat master veloz, pra quem n\u00e3o responde h\u00e1 3 dias",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "escreve o prompt do agente de IA do chat master veloz pra qualificar leads de energia solar",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "quero esconder o bot\u00e3o de excluir conversa pros atendentes no painel do CMV",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "workflow no n8n que l\u00ea os emails do gmail e salva no notion",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "a IA do chat master veloz n\u00e3o transfere pro setor quando o cliente pede pra falar com humano, o prompt t\u00e1 abaixo",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        }
+      ]
+    }
+  ]
+}

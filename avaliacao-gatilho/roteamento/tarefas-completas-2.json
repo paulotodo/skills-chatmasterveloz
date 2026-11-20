@@ -1,0 +1,8 @@
+[
+ {"id": "ajuda", "skill": "cmv-ajuda", "pedido": "sumiu uma coluna do kanban de tags, a tag ainda existe no cadastro. pq?"},
+ {"id": "api", "skill": "cmv-api", "pedido": "quando o pedido é marcado como entregue no nosso sistema eu queria encerrar o ticket do cliente sozinho, sem o atendente ter que clicar em Resolver. dá pra fazer isso por requisição? em php de preferência"},
+ {"id": "flowbuilder", "skill": "cmv-flowbuilder", "pedido": "Preciso de um chatbot pra minha pizzaria no Chat Master Veloz: saudação, opções Cardápio / Fazer pedido / Falar com atendente, e quem chamar antes das 18h recebe aviso de que ainda estamos fechados. me manda o arquivo pra importar"},
+ {"id": "agente-ia", "skill": "cmv-agente-ia", "pedido": "colei o prompt no GPT Assistant e liguei num setor de teste. como testo direito antes de apontar a conexão principal pra ele? queria um roteiro de conversas pra tentar fazer ele errar"},
+ {"id": "mensagens", "skill": "cmv-mensagens", "pedido": "escreve um template de cobrança pra API oficial que não seja reprovado. academia, mensalidade com 5 dias de atraso, quero colocar o nome do aluno e o valor"},
+ {"id": "painel-css-js", "skill": "cmv-painel-css-js", "pedido": "tem como sumir com o botão de excluir na tela de Contatos? não quero mexer em permissão de ninguém, só tirar ele da vista pra evitar clique sem querer"}
+]

@@ -1,0 +1,76 @@
+# Artigos incluídos nesta skill (74)
+
+- [Aba Geral em Setores & Chatbot](recursos/aba-geral-em-setores-e-chatbot.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-geral-em-setores-e-chatbot>
+- [Aba Horários em Setores & Chatbot](recursos/aba-horarios-em-setores-e-chatbot.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-horarios-em-setores-e-chatbot>
+- [Aba Integrações em Setores & Chatbot](recursos/aba-integracoes-em-setores-e-chatbot.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-integracoes-em-setores-e-chatbot>
+- [Aba Mensagens em Setores & Chatbot](recursos/aba-mensagens-em-setores-e-chatbot.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-mensagens-em-setores-e-chatbot>
+- [Aguardando x Atendendo](recursos/aguardando-x-atendendo.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aguardando-x-atendendo>
+- [Automações Rápidas](recursos/automacoes-rapidas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/automacoes-rapidas>
+- [Asaas](recursos/bloco-asaas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-asaas>
+- [Avaliação do Atendimento](recursos/bloco-avaliacao-do-atendimento.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-avaliacao-do-atendimento>
+- [Botões](recursos/bloco-botoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-botoes>
+- [Carrossel de Produtos](recursos/bloco-carrossel-de-produtos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-carrossel-de-produtos>
+- [Condição](recursos/bloco-condicao.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-condicao>
+- [Contato](recursos/bloco-contato.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-contato>
+- [Conteúdo](recursos/bloco-conteudo.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-conteudo>
+- [É Seguidor?](recursos/bloco-e-seguidor.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-e-seguidor>
+- [Encerrar Mensagem Rápida](recursos/bloco-encerrar-mensagem-rapida.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-encerrar-mensagem-rapida>
+- [Encerrar](recursos/bloco-encerrar.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-encerrar>
+- [Enviar figurinha](recursos/bloco-enviar-figurinha.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-enviar-figurinha>
+- [Enviar Localização](recursos/bloco-enviar-localizacao.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-enviar-localizacao>
+- [Execução de Código JS](recursos/bloco-execucao-de-codigo-js.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-execucao-de-codigo-js>
+- [GPT Assistant (OpenAI)](recursos/bloco-gpt-assistant-openai.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-gpt-assistant-openai>
+- [Horário de Expediente](recursos/bloco-horario-de-expediente.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-horario-de-expediente>
+- [HTTP Request](recursos/bloco-http-request.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-http-request>
+- [Intervalo](recursos/bloco-intervalo.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-intervalo>
+- [Link do Chat Externo](recursos/bloco-link-do-chat-externo.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-link-do-chat-externo>
+- [Menu](recursos/bloco-menu.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-menu>
+- [Msg Interna](recursos/bloco-msg-interna.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-msg-interna>
+- [Operador](recursos/bloco-operador.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-operador>
+- [Oportunidade](recursos/bloco-oportunidade.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-oportunidade>
+- [Pergunta](recursos/bloco-pergunta.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-pergunta>
+- [Pixel Meta](recursos/bloco-pixel-meta.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-pixel-meta>
+- [Pular para](recursos/bloco-pular-para.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-pular-para>
+- [Randomizador](recursos/bloco-randomizador.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-randomizador>
+- [Remover Tag](recursos/bloco-remover-tag.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-remover-tag>
+- [Responder Comentário](recursos/bloco-responder-comentario.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-responder-comentario>
+- [Retornar último atendimento](recursos/bloco-retornar-ultimo-atendimento.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-retornar-ultimo-atendimento>
+- [Rodízio](recursos/bloco-rodizio.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-rodizio>
+- [Setor](recursos/bloco-setor.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-setor>
+- [Switch (tags)](recursos/bloco-switch-tags.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-switch-tags>
+- [Tag](recursos/bloco-tags.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-tags>
+- [Template](recursos/bloco-template.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-template>
+- [Trocar Fluxo](recursos/bloco-trocar-fluxo.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-trocar-fluxo>
+- [Typebot](recursos/bloco-typebot.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-typebot>
+- [Variável](recursos/bloco-variavel.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-variavel>
+- [Webview](recursos/bloco-webview.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-webview>
+- [Blocos](recursos/blocos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/blocos>
+- [Categorias de Fluxos](recursos/categorias-de-fluxos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/categorias-de-fluxos>
+- [Categorias de Setores](recursos/categorias-de-setores.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/categorias-de-setores>
+- [Chatbot e Menu de Setores na Conexão](recursos/chatbot-e-menu-de-setores-na-conexao.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/chatbot-e-menu-de-setores-na-conexao>
+- [Como o Fluxo Roda](recursos/como-o-fluxo-roda.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/como-o-fluxo-roda>
+- [Como Usar o Editor de Fluxos](recursos/como-usar-o-editor-de-fluxos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/como-usar-o-editor-de-fluxos>
+- [Configurações do Bot em Configurações](recursos/configuracoes-do-bot-em-configuracoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/configuracoes-do-bot-em-configuracoes>
+- [Editor de Fluxos](recursos/editor-de-fluxos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/editor-de-fluxos>
+- [Erros do Fluxo](recursos/erros-do-fluxo.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/erros-do-fluxo>
+- [FlowBuilder](recursos/flowbuilder.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/flowbuilder>
+- [Gatilho via API](recursos/gatilho-via-api.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/gatilho-via-api>
+- [Gatilho via Avaliação](recursos/gatilho-via-avaliacao.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/gatilho-via-avaliacao>
+- [Gatilho via Bloco Trocar de Fluxo](recursos/gatilho-via-bloco-trocar-de-fluxo.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/gatilho-via-bloco-trocar-de-fluxo>
+- [Gatilho via Campanha](recursos/gatilho-via-campanha.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/gatilho-via-campanha>
+- [Gatilho via Comentário do Instagram](recursos/gatilho-via-comentario-do-instagram.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/gatilho-via-comentario-do-instagram>
+- [Gatilho via Conexão](recursos/gatilho-via-conexao.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/gatilho-via-conexao>
+- [Gatilho via Remarketing de Tag](recursos/gatilho-via-remarketing-de-tag.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/gatilho-via-remarketing-de-tag>
+- [Gatilho via Resposta Rápida](recursos/gatilho-via-resposta-rapida.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/gatilho-via-resposta-rapida>
+- [Gatilho via Webhooks Trigger](recursos/gatilho-via-webhooks-trigger.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/gatilho-via-webhooks-trigger>
+- [Gerenciamento de Expediente em Configurações](recursos/gerenciamento-de-expediente-em-configuracoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/gerenciamento-de-expediente-em-configuracoes>
+- [n8n via Flowbuilder](recursos/n8n-via-flowbuilder.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/n8n-via-flowbuilder>
+- [PDV (pedido no fluxo)](recursos/pdv-pedido-no-fluxo.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/pdv-pedido-no-fluxo>
+- [Pontos de Entrada (Gatilho)](recursos/pontos-de-entrada.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/pontos-de-entrada>
+- [Setor Único com Fluxo Automático](recursos/setor-unico-com-fluxo-automatico.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/setor-unico-com-fluxo-automatico>
+- [Setores & Chatbot](recursos/setores-e-chatbot.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/setores-e-chatbot>
+- [– Transferir Ticket](recursos/transferir-ticket.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/transferir-ticket>
+- [Verificar e Resumo do Fluxo](recursos/verificar-e-resumo-do-fluxo.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/verificar-e-resumo-do-fluxo>
+- [Visão Geral FlowBuilder](recursos/visao-geral-flowbuilder.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/visao-geral-flowbuilder>
+- [Visão Geral Setores & Chatbot](recursos/visao-geral-setores-e-chatbot.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/visao-geral-setores-e-chatbot>
+- [Visão Geral Tags](recursos/visao-geral-tags.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/visao-geral-tags>

@@ -1,0 +1,94 @@
+{
+  "skill_name": "cmv-flowbuilder",
+  "description": "Fluxo do FlowBuilder do Chat Master Veloz (chatmasterveloz, CMV) travado, mudo ou com defeito? Use esta skill: ela depura fluxos, lê o .json exportado com um script validador, acha o bloco onde a conversa para (depois do CPF, do nome, de uma opção), a saída sem ligação, o \"Sem resposta\" vazio ou a variável perdida, e diz como corrigir no editor. Se alguém colar ou anexar um fluxo exportado, ou disser que o robô parou de responder, carregue a skill antes de responder. Use também para criar fluxos de chatbot, robô ou menu automático no CMV (triagem, lead, agendamento, horário, cobrança, pós-venda, remarketing por tag, Instagram, sistema externo), como roteiro bloco a bloco ou .json importável, e para escolher bloco ou gatilho. Não cobre: prompt e recursos de IA (cmv-agente-ia), código de API e webhooks (cmv-api), textos de template, campanha e resposta rápida (cmv-mensagens), outras telas do painel (cmv-ajuda), CSS/JS (cmv-painel-css-js), nem outras plataformas.",
+  "results": [
+    {
+      "query": "o robô do chat master veloz fica repetindo o menu toda hora mesmo quando o cliente escolhe a opção, o que tá errado?",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "olha esse json do meu fluxo do cmv e me diz por que ele não manda pro setor de vendas",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "quero que no chat master veloz o cliente que mandar mensagem de madrugada receba aviso de fora do horário e caia num menu de manhã",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "como faço um fluxo do chatmasterveloz que pergunta o nome, guarda numa variável e usa depois na mensagem?",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "monta um robô de agendamento pra barbearia no chat master veloz com escolha de serviço e dia",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "cria a resposta rápida de 'fora do horário' pra recepção usar no chat master veloz",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "monta um bot no Botpress que agenda horário de barbearia",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "quero que o atendente do chat master veloz veja só os atendimentos dele, como configuro?",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "a IA do chat master veloz não usa o nome do cliente quando responde, como faço ela usar?",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "como crio um fluxo no zapier que manda email quando entra linha nova no google sheets?",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    }
+  ],
+  "summary": {
+    "total": 10,
+    "passed": 10,
+    "failed": 0
+  },
+  "modelo": "claude-fable-5-2",
+  "conjunto": "validacao",
+  "modo": "sessão inteira"
+}

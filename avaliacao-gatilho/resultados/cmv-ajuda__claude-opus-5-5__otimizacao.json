@@ -1,0 +1,174 @@
+{
+  "skill_name": "cmv-ajuda",
+  "description": "Use esta skill para dúvidas de uso do painel do Chat Master Veloz (chatmasterveloz, CMV): \"como faço\", \"onde fica\", \"o que é\", \"por que não funciona\" e \"o que mudou\". Vale para qualquer recurso configurado pela tela: conexões (WhatsApp oficial e por QR Code, Instagram, Web Chat), setores e chatbot, equipe e permissões, tickets, tags, contatos, campanhas, CRM, PDV e configurações. Também cobre erros como conexão caída, mensagem que não aparece e aviso vermelho no chat. Responde em passo a passo, com o caminho do menu e a fonte na Central de Ajuda. Use mesmo sem o nome do produto, desde que a pessoa esteja falando do painel de atendimento dela. NÃO use para o app WhatsApp Business do celular nem para outras plataformas (Chatwoot, Blip, ManyChat, Zenvia). Pedidos para produzir material ficam com as skills irmãs: código de API e webhooks (cmv-api), montar fluxos (cmv-flowbuilder), prompt e recursos de IA (cmv-agente-ia), escrever textos e templates (cmv-mensagens), CSS e JS (cmv-painel-css-js).",
+  "results": [
+    {
+      "query": "como eu faço pra uma atendente só ver as conversas do setor financeiro no chat master veloz? ela não pode mexer em configuração nenhuma",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "meu whatsapp desconectou no CMV e as conversas ficaram tudo vermelhas, como reconecto sem perder nada?",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "Onde fica a opção de encerrar sozinho o atendimento quando o cliente para de responder? uso o chatmasterveloz",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "qual a diferença entre ticket e protocolo no chat master veloz? meu supervisor ficou confuso no relatório de ontem",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "o que mudou no sistema essa semana? apareceu um menu novo 'Assistente de IA' no painel do chat master veloz e ninguém avisou",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "Como importo minha lista de contatos de uma planilha pro chat master veloz? tenho uns 3 mil contatos num excel com nome e telefone",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "no painel do cmv, como transfiro um atendimento pra outro atendente sem ele perder o histórico da conversa?",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "como funciona o rodízio no chat master veloz? quero distribuir os leads igual entre 4 vendedores",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "acabamos de contratar o chat master veloz, por onde eu começo? já tenho o número da empresa e 3 atendentes",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "a mensagem do cliente não aparece no Aguardando do chat master veloz, só chega no celular. o que pode ser?",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "preciso de um curl pra mandar mensagem de texto pela API do chat master veloz pro cliente quando o pedido for aprovado no meu sistema",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "monta um fluxo no flowbuilder do cmv com menu de 3 opções e horário de expediente, quero o json pra importar",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "escreve o prompt do GPT Assistant do chat master veloz pra minha imobiliária responder dúvidas de aluguel",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "cria 10 respostas rápidas pra recepção da minha clínica no chat master veloz: saudação, pix, endereço e confirmação",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "quero mudar a cor do menu lateral do painel do chat master veloz pro verde da minha marca usando css personalizado",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "como configuro o chatbot no Blip pra transferir pro atendente humano quando o cliente pedir?",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "no WhatsApp Business do celular, como crio etiquetas e a mensagem de ausência?",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "escreve um template de cobrança pra API oficial do WhatsApp no chat master veloz, categoria utilidade, com nome e valor",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "o webhook da conexão do CMV manda tudo duplicado pro meu n8n, como filtro isso no workflow?",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "no Chatwoot, como faço pra um agente ver só a caixa de entrada do financeiro?",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    }
+  ],
+  "summary": {
+    "total": 20,
+    "passed": 20,
+    "failed": 0
+  },
+  "modelo": "claude-opus-5-5",
+  "conjunto": "otimizacao",
+  "modo": "sessão inteira"
+}

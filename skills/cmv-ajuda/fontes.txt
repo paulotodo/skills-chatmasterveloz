@@ -1,0 +1,9 @@
+# Central de Ajuda inteira, menos a referência da API (essa fica na skill cmv-api)
+plataforma:00-LEIA-PRIMEIRO.md
+plataforma:INDICE-recursos.md
+plataforma:INDICE-trilhas.md
+plataforma:INDICE-outros.md
+plataforma:videos.md
+plataforma:recursos/
+plataforma:trilhas/
+plataforma:outros/

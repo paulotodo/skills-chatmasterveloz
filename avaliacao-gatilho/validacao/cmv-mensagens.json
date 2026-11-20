@@ -1,0 +1,42 @@
+[
+ {
+  "query": "preciso de um template de confirmação de entrega pra API oficial no chat master veloz, com o número do pedido",
+  "should_trigger": true
+ },
+ {
+  "query": "escreve 3 variações de mensagem pra campanha de reabertura da loja no CMV pelo qr code sem risco de bloqueio",
+  "should_trigger": true
+ },
+ {
+  "query": "a mensagem de boas-vindas do meu setor no chat master veloz tá muito seca, reescreve mais acolhedora",
+  "should_trigger": true
+ },
+ {
+  "query": "qual categoria escolho pro template de código de verificação no chatmasterveloz, utilidade ou autenticação?",
+  "should_trigger": true
+ },
+ {
+  "query": "monta respostas rápidas pra equipe de suporte técnico no chat master veloz: pedir print, pedir número de série e encerrar",
+  "should_trigger": true
+ },
+ {
+  "query": "como envio a resposta rápida pelo atalho dentro da conversa no chat master veloz?",
+  "should_trigger": false
+ },
+ {
+  "query": "escreve um roteiro de ligação de cobrança pra minha equipe de telemarketing",
+  "should_trigger": false
+ },
+ {
+  "query": "monta um fluxo no flowbuilder do chat master veloz que manda a segunda via do boleto",
+  "should_trigger": false
+ },
+ {
+  "query": "como faço pra mandar template pela API do chat master veloz com botão de url?",
+  "should_trigger": false
+ },
+ {
+  "query": "cria uma sequência de emails de boas-vindas pro meu curso online no hotmart",
+  "should_trigger": false
+ }
+]

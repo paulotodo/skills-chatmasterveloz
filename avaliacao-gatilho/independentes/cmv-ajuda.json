@@ -1,0 +1,52 @@
+[
+ {
+  "query": "Como faço pra ativar o rodízio de atendimento num setor do Chat Master Veloz? Tenho 4 vendedores e quero que os leads novos sejam distribuídos por igual entre eles.",
+  "should_trigger": true,
+  "motivo": "Dúvida de como configurar um recurso do painel (Rodízio de Atendimento)."
+ },
+ {
+  "query": "meu whatsapp desconectou no cmv e agora nao le mais o qr code, fica carregando.. o q eu faço??",
+  "should_trigger": true,
+  "motivo": "Erro de uso do painel (conexão desconectada / QR Code), coberto pela Central de Ajuda."
+ },
+ {
+  "query": "Sou supervisora de uma clínica odontológica e a gente usa o chatmasterveloz. Os tickets que estão em Atendendo voltam sozinhos para Aguardando depois de um tempo. Isso é alguma configuração? Onde eu desligo?",
+  "should_trigger": true,
+  "motivo": "Pergunta de 'por que acontece' sobre comportamento do painel, respondida por artigo de ajuda."
+ },
+ {
+  "query": "o que entrou de novidade no CMV agora em novembro? queria saber principalmente o que mudou no CRM",
+  "should_trigger": true,
+  "motivo": "Pedido de novidades/atualizações da plataforma."
+ },
+ {
+  "query": "Tenho uma imobiliária com 6 corretores usando o painel do Master Veloz. Quero que cada cliente caia sempre com o mesmo corretor que atendeu da primeira vez (acho que o nome disso é carteira de clientes) e que, quando o corretor estiver de férias, a conversa vá para o setor em vez de ficar parada. Como configuro isso, quem precisa ser administrador e o que acontece com os clientes que já estão cadastrados?",
+  "should_trigger": true,
+  "motivo": "Configuração de recurso do painel (Carteira de Clientes, transferências), sem código nem redação."
+ },
+ {
+  "query": "Escreve pra mim 8 respostas rápidas pro setor financeiro da minha escola no CMV: segunda via de boleto, negociação de atraso, confirmação de pagamento, nota fiscal e por aí vai.",
+  "should_trigger": false,
+  "motivo": "Redigir respostas rápidas pertence à cmv-mensagens."
+ },
+ {
+  "query": "Monta um fluxo no FlowBuilder que pergunta o CPF do cliente, marca a tag 'inadimplente' e transfere para o setor Cobrança. Se ele não responder em 20 minutos, encerra.",
+  "should_trigger": false,
+  "motivo": "Desenhar fluxo de chatbot pertence à cmv-flowbuilder."
+ },
+ {
+  "query": "Preciso do código em PHP para criar um contato e abrir um ticket no Chat Master Veloz pela API toda vez que alguém preencher o formulário de orçamento do meu site.",
+  "should_trigger": false,
+  "motivo": "Integração por API com código pertence à cmv-api."
+ },
+ {
+  "query": "Como cadastro um agente novo no Chatwoot e deixo ele restrito a uma única caixa de entrada? Uso a versão self-hosted.",
+  "should_trigger": false,
+  "motivo": "Dúvida de configuração de outra plataforma (Chatwoot); nenhuma das seis skills."
+ },
+ {
+  "query": "No aplicativo WhatsApp Business do celular, onde configuro a mensagem de ausência e o horário de funcionamento da empresa?",
+  "should_trigger": false,
+  "motivo": "Dúvida sobre o app WhatsApp Business, fora do CMV; nenhuma das seis skills."
+ }
+]

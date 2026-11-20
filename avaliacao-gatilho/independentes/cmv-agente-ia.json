@@ -1,0 +1,52 @@
+[
+ {
+  "query": "Quero colocar uma IA pra responder os clientes da minha imobiliária no Chat Master Veloz. Ela precisa perguntar se é compra ou aluguel, o bairro e a faixa de preço, e só depois passar pro corretor.",
+  "should_trigger": true,
+  "motivo": "Criar atendente de IA dentro do CMV (prompt e configuração)."
+ },
+ {
+  "query": "minha ia do cmv ta inventando preço q nao existe e nao transfere pro humano qdo o cliente pede. como arrumo isso no prompt?",
+  "should_trigger": true,
+  "motivo": "Consertar uma IA existente no CMV."
+ },
+ {
+  "query": "No menu Prompts OPEN.AI, além do texto do prompt, o que mais eu preciso preencher? E como faço o assistente responder só no setor Suporte e não nos outros?",
+  "should_trigger": true,
+  "motivo": "Configuração do GPT Assistant no painel."
+ },
+ {
+  "query": "Quero ajustar as instruções da Sugestão de resposta IA (aquele botão do copiloto na conversa) pra ele sugerir respostas mais curtas, sem emoji e sempre chamando o cliente pelo nome. O que escrevo lá? uso o chatmasterveloz",
+  "should_trigger": true,
+  "motivo": "Instruções de outro recurso de IA do painel (Copiloto / Sugestão de resposta IA)."
+ },
+ {
+  "query": "Sou dona de uma escola de inglês com 3 unidades e atendo pelo CMV. Quero uma atendente virtual chamada Bia no GPT Assistant: ela informa as mensalidades (R$ 389 kids e R$ 429 adultos), os horários das turmas, marca aula experimental anotando nome, idade e unidade, nunca promete desconto e transfere para o setor Secretaria quando perguntarem de boleto ou rematrícula. Tom simpático e sem textão. Escreve o prompt completo e me diz onde colar e como testar.",
+  "should_trigger": true,
+  "motivo": "Pedido completo de prompt, configuração e teste do atendente de IA."
+ },
+ {
+  "query": "Cria um GPT personalizado no ChatGPT (pelo GPT Builder) pra tirar dúvidas dos pacientes da minha clínica: quero as instruções e os conversation starters.",
+  "should_trigger": false,
+  "motivo": "Prompt para outro produto (ChatGPT / GPT Builder); nenhuma das seis skills."
+ },
+ {
+  "query": "Escreve o system prompt do meu agente de atendimento que roda no n8n, com o nó AI Agent ligado na Evolution API, pra uma barbearia.",
+  "should_trigger": false,
+  "motivo": "Agente de IA fora do CMV (n8n + Evolution API); nenhuma das seis skills."
+ },
+ {
+  "query": "Monta um fluxo no FlowBuilder com um menu de 3 opções: na opção 'Dúvidas' a conversa vai pro bloco GPT Assistant, nas outras duas vai direto pro setor. Quero o roteiro de montagem.",
+  "should_trigger": false,
+  "motivo": "Desenhar o fluxo e posicionar o bloco da IA pertence à cmv-flowbuilder."
+ },
+ {
+  "query": "Preciso receber no meu sistema, por webhook, o resultado da Avaliação pela IA de cada atendimento encerrado no CMV. Como é o payload e como cadastro a URL?",
+  "should_trigger": false,
+  "motivo": "Integração por webhook (mesmo sendo de um recurso de IA) pertence à cmv-api."
+ },
+ {
+  "query": "Redige o template de confirmação de consulta pra API Oficial, com nome do paciente, data e hora nas variáveis, pra eu cadastrar no Chat Master Veloz.",
+  "should_trigger": false,
+  "motivo": "Redigir template pertence à cmv-mensagens."
+ }
+]

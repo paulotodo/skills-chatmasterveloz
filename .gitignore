@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+# pacotes gerados por "python3 montar.py --zip"
+dist/

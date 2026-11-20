@@ -1,0 +1,10 @@
+plataforma:INDICE-api.md
+plataforma:INDICE-api-endpoints.md
+plataforma:api/
+subarvore:Integrações
+plataforma:recursos/webhooks-e-eventos-em-configuracoes.md
+plataforma:recursos/token-da-empresa-em-configuracoes.md
+plataforma:recursos/webhook-do-funil.md
+plataforma:recursos/gatilho-via-api.md
+plataforma:recursos/gatilho-via-webhooks-trigger.md
+plataforma:recursos/incorporar-atendimento-em-outro-sistema.md

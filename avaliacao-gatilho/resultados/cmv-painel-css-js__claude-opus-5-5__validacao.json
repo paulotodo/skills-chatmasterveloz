@@ -1,0 +1,94 @@
+{
+  "skill_name": "cmv-painel-css-js",
+  "description": "Use esta skill quando alguém quer mudar o visual do painel do Chat Master Veloz (CMV, chatmasterveloz) além do que as configurações oferecem: pôr as cores da empresa (código hex, verde, azul da marca), consertar o modo escuro que fica cinza, apagado ou ilegível, esconder ou reordenar menus e botões, aumentar fontes, trocar textos, mostrar avisos ou sons na tela, mudar o login, as janelas e o Chat Externo. Vale mesmo sem falar em CSS ou JS: \"deixar com a cara da minha empresa\", \"o tema escuro tá feio\", \"meu CSS parou depois da atualização\" e \"qual seletor uso\" são desta skill. Ela entrega o código CSS/JS pronto, com os seletores custom-css conferidos no catálogo, onde colar e como desfazer. Fora do escopo: configurar recursos, permissões e as cores do Web Chat do site (cmv-ajuda), API e webhooks (cmv-api), fluxos (cmv-flowbuilder), IA (cmv-agente-ia), textos para clientes (cmv-mensagens), e CSS de outros sites ou plataformas (WordPress, Chatwoot, WhatsApp Web).",
+  "results": [
+    {
+      "query": "como escondo o botão de nova conversa pros atendentes no painel do chat master veloz com css?",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "o modo escuro do painel do CMV deixa o texto do campo de digitação ilegível, dá pra corrigir com css?",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "quero um script no painel do chatmasterveloz que mostre o tempo de espera do cliente em vermelho quando passar de 10 minutos",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "mudar a logo e as cores da tela de login do painel do chat master veloz",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "deixar o quadro de atendimentos do chat master veloz mais compacto, os cards são muito altos",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "como troco a logo da empresa nas configurações do chat master veloz?",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "personaliza a cor do botão do web chat que fica no meu site, é do chat master veloz",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "javascript pra validar CPF num formulário do meu site",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "como tiro a permissão do atendente de excluir contatos no chat master veloz?",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "tema escuro no VS Code com fonte maior, como configuro?",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    }
+  ],
+  "summary": {
+    "total": 10,
+    "passed": 10,
+    "failed": 0
+  },
+  "modelo": "claude-opus-5-5",
+  "conjunto": "validacao",
+  "modo": "sessão inteira"
+}

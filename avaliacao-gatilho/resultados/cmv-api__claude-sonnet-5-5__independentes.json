@@ -1,0 +1,94 @@
+{
+  "skill_name": "cmv-api",
+  "description": "Integra sistemas externos ao Chat Master Veloz (CMV, chatmasterveloz) pela API REST e por webhooks: acha o endpoint certo para o tipo de conexão (WhatsApp Básica, Pro, Oficial, Hub, Instagram, Facebook, Webchat) e entrega o pedido pronto em cURL, Node, Python, PHP ou nó HTTP Request do n8n, com payload, token e tratamento de erro. Use sempre que a pessoa quiser enviar mensagem, mídia, template, lista ou botões por código; criar, transferir ou encerrar ticket; cadastrar contato; aplicar tag; mexer no CRM; agendar mensagem; receber eventos por webhook; ligar o CMV ao n8n, Make, Zapier ou a um sistema próprio; ou perguntar de token, endpoint, payload ou erro 400/401, mesmo que não diga a palavra API. Não cobre desenhar fluxos do FlowBuilder (cmv-flowbuilder), redigir templates e campanhas (cmv-mensagens), configurar recursos pela tela (cmv-ajuda) nem CSS/JS do painel (cmv-painel-css-js).",
+  "results": [
+    {
+      "query": "O sistema de agendamento da minha clínica é próprio, feito em Laravel. Quero que ele mande um lembrete pelo WhatsApp um dia antes da consulta usando o Chat Master Veloz, com o nome do paciente e o horário. A conexão é WhatsApp por QR Code. Me passa o código da chamada e onde pego o token.",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "como configuro o webhook do cmv pra receber no n8n toda msg que chega? e qual o formato do json q ele manda",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "qual é o endpoint e o corpo do POST pra mandar um pdf pelo whatsapp via api do chatmasterveloz? manda um exemplo em curl pfv",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "Preciso manter meu ERP sincronizado com o CRM do CMV: sempre que uma oportunidade mudar de etapa no funil, quero receber um aviso no meu servidor e atualizar o registro do meu lado. Existe webhook do funil? Como recebo e trato isso em Node?",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "Meu sistema de notas fiscais precisa disparar, pelo Master Veloz, um template já aprovado na API Oficial assim que a nota é emitida, preenchendo nome do cliente e número da nota nas variáveis. Como fica a requisição em Python?",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "Como envio uma mensagem de texto pela Z-API usando Node? Preciso do endpoint send-text e de como passar o client-token no header.",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "Quero mandar um template de WhatsApp direto pela Cloud API da Meta, sem plataforma nenhuma no meio, chamando o Graph API em Python. Qual é o endpoint e o payload?",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "No FlowBuilder do CMV, quero um fluxo que pergunta o número do pedido, guarda numa variável e depois mostra um menu com 'Acompanhar entrega' e 'Falar com atendente'. Monta pra mim?",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "Escreve o texto de um template de utilidade avisando que o pedido saiu para entrega, com variável para o nome e para o código de rastreio, pra eu cadastrar na Gestão de Templates do CMV.",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "Como conecto um número na API Oficial do WhatsApp dentro do Chat Master Veloz? Já tenho a BM verificada, só não sei por onde começo no painel.",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    }
+  ],
+  "summary": {
+    "total": 10,
+    "passed": 10,
+    "failed": 0
+  },
+  "modelo": "claude-sonnet-5-5",
+  "conjunto": "independentes",
+  "modo": "sessão inteira"
+}

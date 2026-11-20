@@ -1,0 +1,94 @@
+{
+  "skill_name": "cmv-agente-ia",
+  "description": "Use para o atendente de IA que roda dentro do atendimento do Chat Master Veloz (CMV, chatmasterveloz), o GPT Assistant do menu Prompts OPEN.AI. Use quando a pessoa quiser colocar IA ou \"o ChatGPT\" para responder clientes no WhatsApp ou no painel, pedir o prompt pronto para colar (com os comandos de transferir, tag e encerrar), o passo a passo da configuração e os testes, ou consertar uma IA do CMV que inventa, não transfere ou gasta demais. Também vale para os outros recursos de IA do painel: Token OpenAI, transcrição de áudio, Análise de Atendimento, Avaliação pela IA, Copiloto, Sugestão de resposta IA e GPT em grupos. Não use para GPTs personalizados criados no próprio site ou app do ChatGPT, para a API da OpenAI em código próprio nem para bots de outras plataformas. Fluxos do FlowBuilder ficam com a cmv-flowbuilder, API e webhooks com a cmv-api, textos de campanha e respostas rápidas com a cmv-mensagens e as outras dúvidas do painel com a cmv-ajuda.",
+  "results": [
+    {
+      "query": "dá pra IA do chat master veloz marcar uma tag de 'lead quente' quando o cliente pede orçamento?",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "meu assistente de IA do CMV tá gastando muito token, o que eu ajusto?",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "quero que a IA do chatmasterveloz resuma a conversa antes de passar pro atendente humano, tem como?",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "o copiloto de mensagens do chat master veloz serve pra quê? como uso?",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "cria a IA de atendimento da minha pizzaria no chat master veloz pra tirar pedido e passar pro balcão",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "como treino um agente no Dialogflow pra responder dúvidas da minha loja?",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "escreve um prompt pro ChatGPT me ajudar a responder email de cliente",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "monta um fluxo no flowbuilder do chat master veloz que pergunta o pedido da pizza e manda pro setor balcão",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "quero colocar a chave da API do Asaas no chat master veloz, onde fica?",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "melhora o texto da minha resposta rápida de cardápio no chat master veloz",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    }
+  ],
+  "summary": {
+    "total": 10,
+    "passed": 10,
+    "failed": 0
+  },
+  "modelo": "claude-sonnet-5-5",
+  "conjunto": "validacao",
+  "modo": "sessão inteira"
+}

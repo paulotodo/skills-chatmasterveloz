@@ -1,0 +1,6 @@
+{
+ "hookSpecificOutput": {
+  "hookEventName": "SessionStart",
+  "additionalContext": "Esta empresa usa a plataforma Chat Master Veloz (CMV) para atender clientes pelo WhatsApp e outros canais."
+ }
+}

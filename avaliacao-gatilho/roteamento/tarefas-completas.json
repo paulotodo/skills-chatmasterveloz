@@ -1,0 +1,8 @@
+[
+ {"id": "ajuda", "skill": "cmv-ajuda", "pedido": "desde ontem um monte de conversa ficou com fundo vermelho na lista de atendimentos e cliente reclamando que não recebe resposta. o que é isso e como resolve??"},
+ {"id": "api", "skill": "cmv-api", "pedido": "Já tenho o template lembrete_consulta aprovado na Meta. Preciso do curl pra enviar ele pelo CMV preenchendo o nome do paciente e o horário nas variáveis."},
+ {"id": "flowbuilder", "skill": "cmv-flowbuilder", "pedido": "Me gera o arquivo pra importar no Chat Master Veloz: fluxo de uma escola de idiomas com menu Matrícula, Financeiro e Secretaria, e quem escrever fora do horário recebe aviso de que respondemos no próximo dia útil."},
+ {"id": "agente-ia", "skill": "cmv-agente-ia", "pedido": "a ia do atendimento tá inventando preço de procedimento que não existe e às vezes responde textão enorme. a tabela de valores tá certinha no prompt lá em Prompts OPEN.AI, temperatura em 1. onde eu mexo?"},
+ {"id": "mensagens", "skill": "cmv-mensagens", "pedido": "Vou fazer minha primeira campanha no CMV pra avisar que a loja mudou de endereço. Escreve as variações do texto e a mensagem de descadastramento? É conexão por QR Code."},
+ {"id": "painel-css-js", "skill": "cmv-painel-css-js", "pedido": "O painel do Chat Master Veloz vem todo no verde padrão. Preciso deixar a barra de cima e os botões em azul marinho (#0b1f3a), que é a cor da minha revenda, também no tema escuro."}
+]

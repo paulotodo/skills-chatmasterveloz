@@ -1,0 +1,519 @@
+{
+ "nodes": [
+  {
+   "id": "1",
+   "position": {
+    "x": 0,
+    "y": 0
+   },
+   "data": {
+    "label": "Início"
+   },
+   "type": "start",
+   "width": 155,
+   "height": 58,
+   "style": {
+    "backgroundColor": "#13111C",
+    "padding": 0,
+    "borderRadius": 8
+   }
+  },
+  {
+   "id": "gLtHkQqTftsKRrPVGCy9VawjL2Zy8R",
+   "position": {
+    "x": 300,
+    "y": 0
+   },
+   "data": {
+    "seq": [
+     "message0",
+     "interval0",
+     "message1"
+    ],
+    "elements": [
+     {
+      "type": "message",
+      "value": "Olá! Você está falando com o atendimento da Empresa Exemplo.",
+      "number": "message0"
+     },
+     {
+      "type": "interval",
+      "value": "2",
+      "number": "interval0"
+     },
+     {
+      "type": "message",
+      "value": "Vou fazer uma pergunta rápida para levar você à equipe certa.",
+      "number": "message1"
+     }
+    ]
+   },
+   "type": "singleBlock",
+   "width": 198,
+   "height": 203,
+   "style": {
+    "backgroundColor": "#13111C",
+    "padding": 0,
+    "borderRadius": 8
+   }
+  },
+  {
+   "id": "rF5qfLONvX81VeqpT0ceO1WqENBhsG",
+   "position": {
+    "x": 600,
+    "y": 0
+   },
+   "data": {
+    "message": "Com qual assunto podemos ajudar?",
+    "arrayOption": [
+     {
+      "number": 1,
+      "value": "Comprar",
+      "description": "Orçamentos e pedidos novos"
+     },
+     {
+      "number": 2,
+      "value": "Suporte",
+      "description": "Ajuda com algo que você já comprou"
+     },
+     {
+      "number": 3,
+      "value": "Falar com atendente",
+      "description": "Qualquer outro pedido"
+     }
+    ],
+    "botfiles": "",
+    "menuType": "list",
+    "listButtonText": "Ver opções",
+    "listHeaderText": "",
+    "listFooterText": "",
+    "buttonHeaderText": "",
+    "buttonFooterText": "",
+    "enableElse": true,
+    "semResposta": {
+     "minutos": 30
+    }
+   },
+   "type": "menu",
+   "width": 155,
+   "height": 217,
+   "style": {
+    "backgroundColor": "#13111C",
+    "padding": 0,
+    "borderRadius": 8
+   }
+  },
+  {
+   "id": "4Q1HREferEx1TGlWBqrIQvWbwWzssY",
+   "position": {
+    "x": 900,
+    "y": 0
+   },
+   "data": {
+    "seq": [
+     "message0"
+    ],
+    "elements": [
+     {
+      "type": "message",
+      "value": "Certo! Vou passar você para a equipe Comercial. Alguém responde por aqui assim que possível.",
+      "number": "message0"
+     }
+    ]
+   },
+   "type": "singleBlock",
+   "width": 198,
+   "height": 95,
+   "style": {
+    "backgroundColor": "#13111C",
+    "padding": 0,
+    "borderRadius": 8
+   }
+  },
+  {
+   "id": "FZusuCBBCAfpTLxeAXIjNevDM4xcf8",
+   "position": {
+    "x": 1200,
+    "y": 0
+   },
+   "data": {
+    "message": "Triagem do robô: o cliente escolheu Comprar.",
+    "arrayOption": []
+   },
+   "type": "internal",
+   "width": 198,
+   "height": 92,
+   "style": {
+    "backgroundColor": "#13111C",
+    "padding": 0,
+    "borderRadius": 8
+   }
+  },
+  {
+   "id": "g6WSbywi02bAfbYqJ1Mb1cHlo487yz",
+   "position": {
+    "x": 1500,
+    "y": 0
+   },
+   "data": {
+    "sec": 0,
+    "secName": "TROCAR: Setor Comercial"
+   },
+   "type": "queue",
+   "width": 195,
+   "height": 92,
+   "style": {
+    "backgroundColor": "#13111C",
+    "padding": 0,
+    "borderRadius": 8
+   }
+  },
+  {
+   "id": "nPjm2Cwwb3GA3TmXlB5L3UjuFiIxSj",
+   "position": {
+    "x": 900,
+    "y": 155
+   },
+   "data": {
+    "seq": [
+     "message0"
+    ],
+    "elements": [
+     {
+      "type": "message",
+      "value": "Entendi! Vou passar você para o Suporte. Alguém responde por aqui assim que possível.",
+      "number": "message0"
+     }
+    ]
+   },
+   "type": "singleBlock",
+   "width": 198,
+   "height": 95,
+   "style": {
+    "backgroundColor": "#13111C",
+    "padding": 0,
+    "borderRadius": 8
+   }
+  },
+  {
+   "id": "gUX0Kmp50MYk8VimnOPidcXvfWC6Wt",
+   "position": {
+    "x": 1200,
+    "y": 152
+   },
+   "data": {
+    "message": "Triagem do robô: o cliente escolheu Suporte.",
+    "arrayOption": []
+   },
+   "type": "internal",
+   "width": 198,
+   "height": 92,
+   "style": {
+    "backgroundColor": "#13111C",
+    "padding": 0,
+    "borderRadius": 8
+   }
+  },
+  {
+   "id": "84b80Zk4YO9rIijcM4JRibE52BxqJg",
+   "position": {
+    "x": 1500,
+    "y": 152
+   },
+   "data": {
+    "sec": 0,
+    "secName": "TROCAR: Setor Suporte"
+   },
+   "type": "queue",
+   "width": 195,
+   "height": 92,
+   "style": {
+    "backgroundColor": "#13111C",
+    "padding": 0,
+    "borderRadius": 8
+   }
+  },
+  {
+   "id": "IogCIUndZa0tePd59L0IV7d8xqGQUx",
+   "position": {
+    "x": 900,
+    "y": 310
+   },
+   "data": {
+    "seq": [
+     "message0"
+    ],
+    "elements": [
+     {
+      "type": "message",
+      "value": "Tudo bem! Vou passar você para um atendente. Alguém responde por aqui assim que possível.",
+      "number": "message0"
+     }
+    ]
+   },
+   "type": "singleBlock",
+   "width": 198,
+   "height": 95,
+   "style": {
+    "backgroundColor": "#13111C",
+    "padding": 0,
+    "borderRadius": 8
+   }
+  },
+  {
+   "id": "gnYRFxUX8L8VtVbqZAzS5ccBngHAjm",
+   "position": {
+    "x": 1200,
+    "y": 304
+   },
+   "data": {
+    "message": "Triagem do robô: o cliente escolheu Falar com atendente.",
+    "arrayOption": []
+   },
+   "type": "internal",
+   "width": 198,
+   "height": 92,
+   "style": {
+    "backgroundColor": "#13111C",
+    "padding": 0,
+    "borderRadius": 8
+   }
+  },
+  {
+   "id": "UKHzoVHk2VKdPeEACUfZqmvhBo0ICD",
+   "position": {
+    "x": 1500,
+    "y": 304
+   },
+   "data": {
+    "sec": 0,
+    "secName": "TROCAR: Setor Recepção"
+   },
+   "type": "queue",
+   "width": 195,
+   "height": 92,
+   "style": {
+    "backgroundColor": "#13111C",
+    "padding": 0,
+    "borderRadius": 8
+   }
+  },
+  {
+   "id": "5iqk6eOJfxAoC7i1IiZ5AUs4Sjd6i6",
+   "position": {
+    "x": 900,
+    "y": 465
+   },
+   "data": {
+    "seq": [
+     "message0"
+    ],
+    "elements": [
+     {
+      "type": "message",
+      "value": "Não entendi a resposta. Toque em Ver opções e escolha um dos assuntos.",
+      "number": "message0"
+     }
+    ]
+   },
+   "type": "singleBlock",
+   "width": 198,
+   "height": 95,
+   "style": {
+    "backgroundColor": "#13111C",
+    "padding": 0,
+    "borderRadius": 8
+   }
+  },
+  {
+   "id": "31iJMjpo1Yhw96nOpT8TMY0MUT8AmP",
+   "position": {
+    "x": 900,
+    "y": 620
+   },
+   "data": {
+    "message": "Como não recebi resposta, vou encerrar este atendimento. Se precisar, é só mandar uma mensagem.",
+    "arrayOption": []
+   },
+   "type": "close",
+   "width": 197,
+   "height": 94,
+   "style": {
+    "backgroundColor": "#13111C",
+    "padding": 0,
+    "borderRadius": 8
+   }
+  }
+ ],
+ "connections": [
+  {
+   "style": {
+    "stroke": "#667eea",
+    "strokeWidth": 3
+   },
+   "animated": false,
+   "type": "smoothstep",
+   "source": "1",
+   "sourceHandle": "a",
+   "target": "gLtHkQqTftsKRrPVGCy9VawjL2Zy8R",
+   "targetHandle": null,
+   "id": "reactflow__edge-1a-gLtHkQqTftsKRrPVGCy9VawjL2Zy8R"
+  },
+  {
+   "style": {
+    "stroke": "#667eea",
+    "strokeWidth": 3
+   },
+   "animated": false,
+   "type": "smoothstep",
+   "source": "gLtHkQqTftsKRrPVGCy9VawjL2Zy8R",
+   "sourceHandle": "a",
+   "target": "rF5qfLONvX81VeqpT0ceO1WqENBhsG",
+   "targetHandle": null,
+   "id": "reactflow__edge-gLtHkQqTftsKRrPVGCy9VawjL2Zy8Ra-rF5qfLONvX81VeqpT0ceO1WqENBhsG"
+  },
+  {
+   "style": {
+    "stroke": "#667eea",
+    "strokeWidth": 3
+   },
+   "animated": false,
+   "type": "smoothstep",
+   "source": "rF5qfLONvX81VeqpT0ceO1WqENBhsG",
+   "sourceHandle": "a1",
+   "target": "4Q1HREferEx1TGlWBqrIQvWbwWzssY",
+   "targetHandle": null,
+   "id": "reactflow__edge-rF5qfLONvX81VeqpT0ceO1WqENBhsGa1-4Q1HREferEx1TGlWBqrIQvWbwWzssY"
+  },
+  {
+   "style": {
+    "stroke": "#667eea",
+    "strokeWidth": 3
+   },
+   "animated": false,
+   "type": "smoothstep",
+   "source": "4Q1HREferEx1TGlWBqrIQvWbwWzssY",
+   "sourceHandle": "a",
+   "target": "FZusuCBBCAfpTLxeAXIjNevDM4xcf8",
+   "targetHandle": null,
+   "id": "reactflow__edge-4Q1HREferEx1TGlWBqrIQvWbwWzssYa-FZusuCBBCAfpTLxeAXIjNevDM4xcf8"
+  },
+  {
+   "style": {
+    "stroke": "#667eea",
+    "strokeWidth": 3
+   },
+   "animated": false,
+   "type": "smoothstep",
+   "source": "FZusuCBBCAfpTLxeAXIjNevDM4xcf8",
+   "sourceHandle": "a",
+   "target": "g6WSbywi02bAfbYqJ1Mb1cHlo487yz",
+   "targetHandle": null,
+   "id": "reactflow__edge-FZusuCBBCAfpTLxeAXIjNevDM4xcf8a-g6WSbywi02bAfbYqJ1Mb1cHlo487yz"
+  },
+  {
+   "style": {
+    "stroke": "#667eea",
+    "strokeWidth": 3
+   },
+   "animated": false,
+   "type": "smoothstep",
+   "source": "nPjm2Cwwb3GA3TmXlB5L3UjuFiIxSj",
+   "sourceHandle": "a",
+   "target": "gUX0Kmp50MYk8VimnOPidcXvfWC6Wt",
+   "targetHandle": null,
+   "id": "reactflow__edge-nPjm2Cwwb3GA3TmXlB5L3UjuFiIxSja-gUX0Kmp50MYk8VimnOPidcXvfWC6Wt"
+  },
+  {
+   "style": {
+    "stroke": "#667eea",
+    "strokeWidth": 3
+   },
+   "animated": false,
+   "type": "smoothstep",
+   "source": "gUX0Kmp50MYk8VimnOPidcXvfWC6Wt",
+   "sourceHandle": "a",
+   "target": "84b80Zk4YO9rIijcM4JRibE52BxqJg",
+   "targetHandle": null,
+   "id": "reactflow__edge-gUX0Kmp50MYk8VimnOPidcXvfWC6Wta-84b80Zk4YO9rIijcM4JRibE52BxqJg"
+  },
+  {
+   "style": {
+    "stroke": "#667eea",
+    "strokeWidth": 3
+   },
+   "animated": false,
+   "type": "smoothstep",
+   "source": "rF5qfLONvX81VeqpT0ceO1WqENBhsG",
+   "sourceHandle": "a3",
+   "target": "IogCIUndZa0tePd59L0IV7d8xqGQUx",
+   "targetHandle": null,
+   "id": "reactflow__edge-rF5qfLONvX81VeqpT0ceO1WqENBhsGa3-IogCIUndZa0tePd59L0IV7d8xqGQUx"
+  },
+  {
+   "style": {
+    "stroke": "#667eea",
+    "strokeWidth": 3
+   },
+   "animated": false,
+   "type": "smoothstep",
+   "source": "IogCIUndZa0tePd59L0IV7d8xqGQUx",
+   "sourceHandle": "a",
+   "target": "gnYRFxUX8L8VtVbqZAzS5ccBngHAjm",
+   "targetHandle": null,
+   "id": "reactflow__edge-IogCIUndZa0tePd59L0IV7d8xqGQUxa-gnYRFxUX8L8VtVbqZAzS5ccBngHAjm"
+  },
+  {
+   "style": {
+    "stroke": "#667eea",
+    "strokeWidth": 3
+   },
+   "animated": false,
+   "type": "smoothstep",
+   "source": "gnYRFxUX8L8VtVbqZAzS5ccBngHAjm",
+   "sourceHandle": "a",
+   "target": "UKHzoVHk2VKdPeEACUfZqmvhBo0ICD",
+   "targetHandle": null,
+   "id": "reactflow__edge-gnYRFxUX8L8VtVbqZAzS5ccBngHAjma-UKHzoVHk2VKdPeEACUfZqmvhBo0ICD"
+  },
+  {
+   "style": {
+    "stroke": "#667eea",
+    "strokeWidth": 3
+   },
+   "animated": false,
+   "type": "smoothstep",
+   "source": "rF5qfLONvX81VeqpT0ceO1WqENBhsG",
+   "sourceHandle": "else",
+   "target": "5iqk6eOJfxAoC7i1IiZ5AUs4Sjd6i6",
+   "targetHandle": null,
+   "id": "reactflow__edge-rF5qfLONvX81VeqpT0ceO1WqENBhsGelse-5iqk6eOJfxAoC7i1IiZ5AUs4Sjd6i6"
+  },
+  {
+   "style": {
+    "stroke": "#667eea",
+    "strokeWidth": 3
+   },
+   "animated": false,
+   "type": "smoothstep",
+   "source": "5iqk6eOJfxAoC7i1IiZ5AUs4Sjd6i6",
+   "sourceHandle": "a",
+   "target": "rF5qfLONvX81VeqpT0ceO1WqENBhsG",
+   "targetHandle": null,
+   "id": "reactflow__edge-5iqk6eOJfxAoC7i1IiZ5AUs4Sjd6i6a-rF5qfLONvX81VeqpT0ceO1WqENBhsG"
+  },
+  {
+   "style": {
+    "stroke": "#667eea",
+    "strokeWidth": 3
+   },
+   "animated": false,
+   "type": "smoothstep",
+   "source": "rF5qfLONvX81VeqpT0ceO1WqENBhsG",
+   "sourceHandle": "semResposta",
+   "target": "31iJMjpo1Yhw96nOpT8TMY0MUT8AmP",
+   "targetHandle": null,
+   "id": "reactflow__edge-rF5qfLONvX81VeqpT0ceO1WqENBhsGsemResposta-31iJMjpo1Yhw96nOpT8TMY0MUT8AmP"
+  }
+ ]
+}

@@ -1,0 +1,1797 @@
+{
+  "modelo": "claude-opus-5-5",
+  "conjunto": "desenvolvimento",
+  "resultados": [
+    {
+      "id": "d-001",
+      "pedido": "fim do dia e a menina do balcão não sabe fechar o caixa no PDV. onde clica e o que ela tem que conferir antes de confirmar?",
+      "destino": "cmv-ajuda",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Área PDV da Central de Ajuda (artigo Caixa do PDV, seção Fechar o caixa): é uso de tela, sem produção de material.",
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-002",
+      "pedido": "Quero atender o direct do Instagram da loja no mesmo painel onde já atendo o WhatsApp. Como adiciono essa conexão e o que a conta do Instagram precisa ter?",
+      "destino": "cmv-ajuda",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Área Conexões (artigo Instagram): conectar um canal é dúvida de uso do painel.",
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-003",
+      "pedido": "contratamos o pabx e preciso criar ramal pra 4 atendentes. onde cadastra os ramais e como cada um atende a ligação pelo painel?",
+      "destino": "cmv-ajuda",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Área Ligações (artigos Entendendo PABX e PABX -> Ramais): configuração pela tela.",
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-004",
+      "pedido": "Tem um menu E-mails aqui no painel mas pra mim aparece vazio. Como cadastro a conta contato@ da empresa pra equipe responder por ali, junto com os tickets?",
+      "destino": "cmv-ajuda",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Área E-mails (Contas de E-mail, Permissões E-mails) e a regra 'tela vazia quase sempre é permissão'.",
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-005",
+      "pedido": "desde ontem um monte de conversa ficou com fundo vermelho na lista de atendimentos e cliente reclamando que não recebe resposta. o que é isso e como resolve??",
+      "destino": "cmv-ajuda",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Seção 'Dúvidas e problemas': conversas com fundo vermelho na lista são conexão desconectada (artigo Conexão desconectada).",
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-006",
+      "pedido": "já tenho o texto do prompt pronto (um colega escreveu). só não acho em qual tela eu colo ele e como ligo no setor de Vendas. qual é o menu?",
+      "destino": "cmv-ajuda",
+      "aceitavel": [
+        "cmv-agente-ia"
+      ],
+      "tipo": "fronteira",
+      "motivo": "'Onde termina esta skill' diz que 'onde colar o prompt' continua na cmv-ajuda; a cmv-agente-ia perde porque o prompt já existe e não se pede escrever nem ajustar a IA, embora ela também traga o passo a passo do painel.",
+      "cargas": [
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-007",
+      "pedido": "Onde eu cadastro o token da conexão no CMV? O programador que está integrando nosso sistema pediu esse dado e eu não sei em que tela fica.",
+      "destino": "cmv-ajuda",
+      "aceitavel": [],
+      "tipo": "fronteira",
+      "motivo": "'Onde termina esta skill' cita 'onde cadastrar o token da conexão' como uso do painel; a cmv-api perde porque não se pede código, payload nem chamada.",
+      "cargas": [
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ]
+      ],
+      "acertos": 0,
+      "repeticoes": 3,
+      "passou": false
+    },
+    {
+      "id": "d-008",
+      "pedido": "entrei no FlowBuilder Nativo e só vejo os cards dos fluxos. onde clico pra abrir o editor e mexer num fluxo que já existe?",
+      "destino": "cmv-ajuda",
+      "aceitavel": [],
+      "tipo": "fronteira",
+      "motivo": "'Onde termina esta skill' cita 'como abrir o editor de fluxos' como uso; a cmv-flowbuilder perde porque não se pede desenhar, gerar nem diagnosticar fluxo.",
+      "cargas": [
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ]
+      ],
+      "acertos": 0,
+      "repeticoes": 3,
+      "passou": false
+    },
+    {
+      "id": "d-009",
+      "pedido": "dá pra trocar a cor do Web Chat? ele tá azul no site e a marca da clínica é verde, ficou destoando",
+      "destino": "cmv-ajuda",
+      "aceitavel": [],
+      "tipo": "vocabulario-ambiguo",
+      "motivo": "Artigo Web Chat traz os campos Cor Primária e Cor Secundária: é configuração nativa, e a cmv-painel-css-js perde porque não é CSS do painel.",
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-010",
+      "pedido": "quero aquele robô simples: cliente manda oi e já aparece 1-Vendas 2-Financeiro 3-Suporte e cai no setor que escolher. me falaram que nem precisa montar fluxo, é só colocar os setores na conexão. como configuro isso?",
+      "destino": "cmv-ajuda",
+      "aceitavel": [
+        "cmv-flowbuilder"
+      ],
+      "tipo": "vocabulario-ambiguo",
+      "motivo": "Tabela de sinônimos: 'robô, menu automático' pode ser o menu de Setores na conexão (artigo Chatbot e menu de Setores na Conexão), que é configuração de tela; a cmv-flowbuilder perde porque a pessoa descarta o fluxo, mas tem o mesmo artigo.",
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-011",
+      "pedido": "O que é exatamente a tal API Oficial? Hoje uso o Chat Master Veloz com QR Code e o suporte comentou que eu deveria migrar. Muda o quê no meu dia a dia?",
+      "destino": "cmv-ajuda",
+      "aceitavel": [],
+      "tipo": "vocabulario-ambiguo",
+      "motivo": "Tabela de sinônimos: 'API do WhatsApp' é a conexão oficial (artigo Entenda a API Oficial); a palavra API não torna o pedido uma integração, então a cmv-api perde.",
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-012",
+      "pedido": "No Chat Master Veloz, consigo colocar a logo e a cor do meu restaurante no Cardápio Digital? Onde fica essa configuração?",
+      "destino": "cmv-ajuda",
+      "aceitavel": [],
+      "tipo": "lacuna",
+      "motivo": "Artigo Cardápio Digital (campos Logo, Capa e Cor): aparência nativa de página vista pelo cliente, dentro do PDV.",
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-013",
+      "pedido": "tenho um sisteminha de agenda da clínica que meu sobrinho fez. queria que quando a secretária marcasse a consulta lá, o paciente já recebesse a confirmação no whats pelo número que a gente conectou por QR Code em Conexões. tem como ligar uma coisa na outra? não entendo nada de programação",
+      "destino": "cmv-api",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Passo 1 do fluxo de trabalho: o sistema da pessoa faz algo na plataforma, logo é chamada de API (API Mensagem de Texto), mesmo em pedido leigo.",
+      "cargas": [
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-014",
+      "pedido": "meu ERP sabe o vencimento de cada boleto. quero que ele mesmo crie o lembrete lá em Agendamentos em vez de alguém cadastrar um por um na mão. o texto já está definido, preciso é saber como o ERP cria isso",
+      "destino": "cmv-api",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Artigo API Criar Agendamento (selo Todas): criar o agendamento por sistema externo; o texto já existe, então não é cmv-mensagens.",
+      "cargas": [
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-015",
+      "pedido": "preciso mandar pelo meu script em python uma mensagem com 3 botões de resposta (Confirmar / Remarcar / Cancelar) pela conexão oficial, usando o token da conexão. qual endpoint e como fica o json?",
+      "destino": "cmv-api",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Artigo API Oficial Botão Quick Reply: montar endpoint e payload é o trabalho desta skill.",
+      "cargas": [
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-016",
+      "pedido": "quando o pedido é marcado como entregue no nosso sistema eu queria encerrar o ticket do cliente sozinho, sem o atendente ter que clicar em Resolver. dá pra fazer isso por requisição? em php de preferência",
+      "destino": "cmv-api",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Artigo API Encerrar Ticket: alterar atendimento a partir de sistema externo, com molde em PHP.",
+      "cargas": [
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-017",
+      "pedido": "to montando um workflow no n8n pra responder direct do instagram. o webhook que colei na aba Integrações da conexão já chega certinho, mas qual chamada eu uso pra devolver o texto pro instagram? a de whatsapp deu erro",
+      "destino": "cmv-api",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Artigo API Instagram Mensagem de Texto (canal que não é WhatsApp) e seção 'n8n, Make, Zapier'.",
+      "cargas": [
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-018",
+      "pedido": "meu CRM precisa iniciar um fluxo do FlowBuilder pra um número específico quando o lead muda de etapa. o fluxo já está pronto e testado, falta só a chamada do lado do CRM. como é?",
+      "destino": "cmv-api",
+      "aceitavel": [],
+      "tipo": "fronteira",
+      "motivo": "Tabela do passo 1: sistema externo que inicia um fluxo é Webhook Trigger ou API de iniciar fluxo; a cmv-flowbuilder perde porque o fluxo já existe e o que falta é a chamada.",
+      "cargas": [
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-019",
+      "pedido": "Já tenho o template lembrete_consulta aprovado na Meta. Preciso do curl pra enviar ele pelo CMV preenchendo o nome do paciente e o horário nas variáveis.",
+      "destino": "cmv-api",
+      "aceitavel": [],
+      "tipo": "fronteira",
+      "motivo": "Artigo API Oficial Mensagem Template; a cmv-mensagens perde porque o texto já está aprovado e ela própria manda 'enviar template por API' para cá.",
+      "cargas": [
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-020",
+      "pedido": "Quero receber no meu sistema de RH a nota que a Avaliação pela IA dá pra cada atendimento do Chat Master Veloz. Tem webhook pra isso? Como configuro o recebimento?",
+      "destino": "cmv-api",
+      "aceitavel": [],
+      "tipo": "fronteira",
+      "motivo": "A tabela de limites da cmv-agente-ia entrega 'o webhook da Avaliação pela IA' à cmv-api: é a plataforma avisando um sistema externo.",
+      "cargas": [
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-021",
+      "pedido": "fiz um robô em node que lê os pedidos novos da loja virtual e precisa abrir um ticket já no setor Expedição com uma nota interna dizendo o número do pedido. qual rota do CMV eu chamo?",
+      "destino": "cmv-api",
+      "aceitavel": [],
+      "tipo": "vocabulario-ambiguo",
+      "motivo": "Artigo API Criar Ticket: 'robô' aqui é um script externo que chama a API, não um chatbot do FlowBuilder.",
+      "cargas": [
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-022",
+      "pedido": "tenho um agente de ia próprio rodando no meu servidor (langchain + banco vetorial). quero plugar ele no CMV: receber cada mensagem que o cliente manda e devolver a resposta dentro do mesmo atendimento. como faço essa ponte?",
+      "destino": "cmv-api",
+      "aceitavel": [],
+      "tipo": "vocabulario-ambiguo",
+      "motivo": "Webhook da Conexão para receber e API para responder ('o webhook avisa, a API responde'); a cmv-agente-ia perde porque a IA é externa, não o GPT Assistant do painel.",
+      "cargas": [
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-023",
+      "pedido": "quero disparar um aviso pra uns 300 clientes direto da minha planilha do google com apps script, sem passar pela tela de Campanhas. como fica a requisição com o token da conexão?",
+      "destino": "cmv-api",
+      "aceitavel": [],
+      "tipo": "vocabulario-ambiguo",
+      "motivo": "É envio por código com token (chamada de API); 'disparar' e 'Campanhas' lembram a cmv-mensagens, mas não se pede texto nem a campanha da tela.",
+      "cargas": [
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-024",
+      "pedido": "No Chat Master Veloz dá pra enviar mensagem pro visitante do Web Chat pela API? Quero avisar quando o orçamento dele ficar pronto, a partir do nosso sistema de orçamentos.",
+      "destino": "cmv-api",
+      "aceitavel": [],
+      "tipo": "lacuna",
+      "motivo": "Artigo API WebChat Mensagem de Texto (selo WebChat): canal que não é WhatsApp, com artigos próprios.",
+      "cargas": [
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-025",
+      "pedido": "importei o fluxo ontem, salvei, ele aparece na lista do FlowBuilder Nativo, mas quando mando mensagem de teste não acontece nada, a conversa cai direto em Aguardando sem resposta. o que falta?",
+      "destino": "cmv-flowbuilder",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Armadilha 1: fluxo salvo não roda sozinho, precisa de ponto de entrada (fluxo escolhido no Setor e Conexão apontando para um único Setor).",
+      "cargas": [
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-026",
+      "pedido": "o cliente manda oi e recebe DUAS boas-vindas, uma atrás da outra, antes do menu. no meu fluxo só tem um bloco Conteúdo com a saudação. de onde tá vindo a outra?",
+      "destino": "cmv-flowbuilder",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Armadilha 2: a Mensagem de saudação do Setor de entrada soma com a primeira mensagem do fluxo.",
+      "cargas": [
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-027",
+      "pedido": "tenho um fluxo de pós-venda pronto. o que é melhor pra começar ele: o atendente chamar por resposta rápida no fim da conversa, ou pendurar numa tag com remarketing pra disparar sozinho 2 dias depois? muda alguma coisa no desenho do fluxo?",
+      "destino": "cmv-flowbuilder",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Passo 1, item 'Como o fluxo começa', e armadilha 12: escolha do ponto de entrada (resposta rápida × remarketing de tag) muda o desenho.",
+      "cargas": [
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-028",
+      "pedido": "Sou dona de uma oficina mecânica. Queria um atendimento automático no WhatsApp que pergunte se é orçamento, revisão ou acompanhar serviço, peça a placa do carro e só então passe pro setor certo. Uso conexão por QR Code e já tenho os setores Orçamento e Pátio criados.",
+      "destino": "cmv-flowbuilder",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "É o pedido central da skill: desenhar um fluxo de triagem com Menu, Pergunta e passagem ao Setor.",
+      "cargas": [
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-029",
+      "pedido": "meu Menu em Botões tem 5 opções e o cliente só vê 3. tem como mostrar as 5 sem ter que refazer tudo? é o bloco Menu do fluxo de entrada",
+      "destino": "cmv-flowbuilder",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Armadilha 9 (artigo do bloco Menu): em botões, no máximo 3 opções; a saída é trocar o Tipo de Menu.",
+      "cargas": [
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-030",
+      "pedido": "quero um fluxo no CMV com menu inicial (1 comprar, 2 suporte, 3 financeiro) e, se a pessoa escolher suporte, cai numa IA que tira as dúvidas dela. monta pra mim?",
+      "destino": "cmv-flowbuilder",
+      "aceitavel": [
+        "cmv-agente-ia"
+      ],
+      "tipo": "fronteira",
+      "motivo": "'O que é de outra skill': o desenho do fluxo e o bloco que leva ao assistente ficam aqui e o prompt é da cmv-agente-ia, que no pedido misto também se declara apta a fazer a parte de IA.",
+      "cargas": [
+        [
+          "cmv-flowbuilder",
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-031",
+      "pedido": "no meio do fluxo eu preciso consultar o status do pedido no meu sistema (tenho uma url que devolve um json com o campo status) e mostrar isso pro cliente. em que ponto do fluxo entra essa consulta e como uso o retorno nas mensagens seguintes?",
+      "destino": "cmv-flowbuilder",
+      "aceitavel": [],
+      "tipo": "fronteira",
+      "motivo": "'O que é de outra skill': 'onde chamar no fluxo e o que fazer com a resposta' fica aqui (bloco HTTP Request e Variável); a cmv-api perde porque o endpoint é do sistema da pessoa e já existe.",
+      "cargas": [
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-032",
+      "pedido": "meu fluxo de remarketing roda 3 dias depois do orçamento, já fora das 24h, e uso a API oficial. como configuro o bloco Template pra ele abrir a conversa e preencher o nome do cliente? o template em si já está aprovado",
+      "destino": "cmv-flowbuilder",
+      "aceitavel": [],
+      "tipo": "fronteira",
+      "motivo": "A tabela 'Onde termina' da cmv-mensagens manda 'configurar o bloco Template dentro de um fluxo' para cá; ela perde porque o texto do template já existe.",
+      "cargas": [
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-033",
+      "pedido": "no bloco Typebot a lista de setores aparece vazia e não consigo escolher nada. meu robô no typebot existe e funciona. o que eu tenho que fazer antes pra ele aparecer ali?",
+      "destino": "cmv-flowbuilder",
+      "aceitavel": [],
+      "tipo": "vocabulario-ambiguo",
+      "motivo": "Artigo Typebot (bloco): a lista só mostra Setores com um Typebot ligado; 'Typebot' aqui é um bloco do FlowBuilder, não um pedido sobre a outra plataforma.",
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ]
+      ],
+      "acertos": 2,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-034",
+      "pedido": "em que parte do fluxo eu coloco o bloco GPT Assistant? quero que a IA só entre depois que o cliente informar o CPF e escolher o assunto no menu. o assistente já está criado e respondendo bem",
+      "destino": "cmv-flowbuilder",
+      "aceitavel": [],
+      "tipo": "vocabulario-ambiguo",
+      "motivo": "'O que é de outra skill': aqui fica o bloco que leva a conversa até o assistente; a cmv-agente-ia perde porque o prompt já existe e o pedido é posição de bloco.",
+      "cargas": [
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-035",
+      "pedido": "preciso de um bloco de Execução de Código JS que pegue o que o cliente digitou no telefone e tire tudo que não é número antes de guardar na variável. como escrevo e onde ligo a Variável depois?",
+      "destino": "cmv-flowbuilder",
+      "aceitavel": [],
+      "tipo": "vocabulario-ambiguo",
+      "motivo": "Blocos Execução de Código JS e Variável (armadilha 6): 'JS' aqui é bloco de fluxo, não o JS personalizado do painel.",
+      "cargas": [
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-036",
+      "pedido": "Me gera o arquivo pra importar no Chat Master Veloz: fluxo de uma escola de idiomas com menu Matrícula, Financeiro e Secretaria, e quem escrever fora do horário recebe aviso de que respondemos no próximo dia útil.",
+      "destino": "cmv-flowbuilder",
+      "aceitavel": [],
+      "tipo": "com-nome",
+      "motivo": "Entrega prevista na skill: arquivo .json importável (ou roteiro) de fluxo com Menu e Horário de Expediente.",
+      "cargas": [
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-037",
+      "pedido": "criei a chave lá na openai. e agora, onde eu colo ela? no menu Prompts OPEN.AI não achei campo nenhum pra isso. precisa pedir alguma liberação antes de funcionar?",
+      "destino": "cmv-agente-ia",
+      "aceitavel": [
+        "cmv-ajuda"
+      ],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Etapa 1 e tabela 'Outros recursos de IA': Token OpenAI no menu Integrações, card OPEN.AI, mais os três pré-requisitos; a cmv-ajuda também cobre 'onde fica'.",
+      "cargas": [
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-038",
+      "pedido": "aquele botão Analisar Atendimento com IA nas ações do ticket: o resultado aparece pro cliente também ou só pra gente? e o que exatamente ele avalia?",
+      "destino": "cmv-agente-ia",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Tabela 'Outros recursos de IA': Análise de Atendimento (resultado visível só na plataforma).",
+      "cargas": [
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-039",
+      "pedido": "colei o prompt no GPT Assistant e liguei num setor de teste. como testo direito antes de apontar a conexão principal pra ele? queria um roteiro de conversas pra tentar fazer ele errar",
+      "destino": "cmv-agente-ia",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Etapa 3: plano de testes quando o prompt definitivo já está no painel, antes de apontar a Conexão.",
+      "cargas": [
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-040",
+      "pedido": "a ia do atendimento tá inventando preço de procedimento que não existe e às vezes responde textão enorme. a tabela de valores tá certinha no prompt lá em Prompts OPEN.AI, temperatura em 1. onde eu mexo?",
+      "destino": "cmv-agente-ia",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Seção 'Consertar uma IA que já existe': separar problema de configuração (temperatura, tokens) de problema de texto do prompt.",
+      "cargas": [
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-041",
+      "pedido": "Tenho um escritório de contabilidade e quero uma IA respondendo as dúvidas básicas de MEI no WhatsApp e passando pro contador quando o assunto for imposto de renda. Já temos o setor Fiscal criado e a conexão oficial funcionando. Por onde começo?",
+      "destino": "cmv-agente-ia",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "'Criar um atendente de IA', Etapa 1: a pessoa disse só o ramo e o objetivo.",
+      "cargas": [
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-042",
+      "pedido": "meu fluxo já termina no bloco GPT Assistant, essa parte tá ok. agora preciso do texto das instruções do assistente: escola de natação infantil, informa turmas e horários, nunca fala de valor e passa pra secretaria quando pedirem matrícula",
+      "destino": "cmv-agente-ia",
+      "aceitavel": [],
+      "tipo": "fronteira",
+      "motivo": "Tabela de limites: aqui 'se escreve o prompt do assistente que o bloco chama'; a cmv-flowbuilder perde porque o fluxo já existe.",
+      "cargas": [
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-043",
+      "pedido": "quero deixar as sugestões do Copiloto com a cara da nossa imobiliária: tom formal, sem emoji, nunca prometer prazo de aprovação de financiamento. o que escrevo nas instruções dele?",
+      "destino": "cmv-agente-ia",
+      "aceitavel": [],
+      "tipo": "fronteira",
+      "motivo": "'Outros recursos de IA': escrever os dois textos da tela Sugestão de resposta IA; a cmv-mensagens perde porque é instrução para a IA, não mensagem a cadastrar para o cliente.",
+      "cargas": [
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-044",
+      "pedido": "os atendentes reclamam de ter que ouvir áudio de 3 minutos. no CMV tem como transformar o áudio do cliente em texto? onde clica e isso consome a conta da openai?",
+      "destino": "cmv-agente-ia",
+      "aceitavel": [],
+      "tipo": "fronteira",
+      "motivo": "Linha 'Dúvida sobre outro recurso de IA' (Transcrever Áudios); a cmv-ajuda perde porque os recursos de IA do painel são desta skill, e a ajuda fica com o que não é de IA.",
+      "cargas": [
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-045",
+      "pedido": "ativei o menu Assistente de IA achando que ele ia responder meus clientes de madrugada, mas ele só fica respondendo pergunta minha sobre os atendimentos. tô configurando errado?",
+      "destino": "cmv-agente-ia",
+      "aceitavel": [],
+      "tipo": "vocabulario-ambiguo",
+      "motivo": "Armadilha 'Nomes parecidos': Assistente de IA (menu de consultas da equipe) não é o GPT Assistant (que atende o cliente).",
+      "cargas": [
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-046",
+      "pedido": "quero um robô que converse de verdade com o paciente e entenda o que ele escreve, não aquele menu de digite 1, digite 2. no CMV como se faz isso?",
+      "destino": "cmv-agente-ia",
+      "aceitavel": [],
+      "tipo": "vocabulario-ambiguo",
+      "motivo": "Pedido de atendente conversacional é o GPT Assistant (Etapa 1); 'robô' lembra a cmv-flowbuilder, mas a pessoa recusa justamente o menu.",
+      "cargas": [
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-047",
+      "pedido": "essa nota de 0 a 10 que aparece aqui no painel pros atendimentos encerrados é o cliente que dá ou é a máquina? tem atendimento com nota em que o cliente nem respondeu a pesquisa",
+      "destino": "cmv-agente-ia",
+      "aceitavel": [
+        "cmv-ajuda"
+      ],
+      "tipo": "vocabulario-ambiguo",
+      "motivo": "Tabela 'Outros recursos de IA': a Avaliação pela IA dá nota de 0 a 10 aos encerrados, diferente da pesquisa respondida pelo cliente; a cmv-ajuda também separa os dois em 'Títulos parecidos'.",
+      "cargas": [
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-048",
+      "pedido": "No Chat Master Veloz, o GPT Assistant consegue responder dentro de um grupo de WhatsApp? Queria que ele só falasse quando alguém chamasse por um comando.",
+      "destino": "cmv-agente-ia",
+      "aceitavel": [],
+      "tipo": "com-nome",
+      "motivo": "Tabela 'Outros recursos de IA': GPT Assistant em Grupos (campo Gatilho para Grupo).",
+      "cargas": [
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-049",
+      "pedido": "preciso de uma msg pra mandar pros pais avisando q a rematrícula vence dia 10 e quem não renovar perde a vaga. escola infantil, uns 180 responsáveis, número conectado por qr code",
+      "destino": "cmv-mensagens",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Passo 3: 'mandar a mesma mensagem para muita gente' é campanha (por QR Code, 5 variações e aviso de bloqueio), mesmo sem o pedido citar o tipo.",
+      "cargas": [
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-050",
+      "pedido": "escreve um texto pra Mensagem de Ausência do meu perfil? saio pro almoço 12h às 13h30 e não quero que o cliente ache que foi ignorado se mandar 3 mensagens seguidas",
+      "destino": "cmv-mensagens",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Tabela de tipos (Mensagem de Ausência) e armadilha 13: a mensagem repete a cada mensagem do cliente.",
+      "cargas": [
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-051",
+      "pedido": "a mensagem que sai quando o atendente clica em Resolver tá assim: 'Atendimento finalizado. Posso ajudar em algo mais?' e toda vez o cliente responde 'não, obrigado' e abre ticket de novo. reescreve pra mim?",
+      "destino": "cmv-mensagens",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Armadilha 12: mensagem de encerramento não pode terminar em pergunta, porque a resposta abre ticket novo.",
+      "cargas": [
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-052",
+      "pedido": "Preciso do texto da pesquisa de satisfação que vai no fim do atendimento pedindo a nota, aquela das Avaliações. Loja de móveis planejados, tom simpático e curto.",
+      "destino": "cmv-mensagens",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Mapa do material: 'Pesquisa de satisfação (Avaliações)'; o pedido é redigir o texto, não configurar o recurso.",
+      "cargas": [
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-053",
+      "pedido": "o cliente ficou de mandar os documentos e sumiu faz 3 dias. tentei escrever e não vai, fala que a janela de 24 horas fechou. o que eu posso mandar pra ele agora pra retomar? uso a conexão oficial",
+      "destino": "cmv-mensagens",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Passo 1 e artigo Janela de Atendimento: fora da janela só template aprovado, e a skill redige o template de retomada.",
+      "cargas": [
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-054",
+      "pedido": "me escreve só os textos do fluxo de boas-vindas da barbearia: saudação, a pergunta do menu de serviços e o aviso de que vai passar pro barbeiro. a montagem no editor eu mesmo faço",
+      "destino": "cmv-mensagens",
+      "aceitavel": [
+        "cmv-flowbuilder"
+      ],
+      "tipo": "fronteira",
+      "motivo": "'Onde termina esta skill': os textos de dentro de um fluxo podem ser redigidos aqui e a montagem não; a cmv-flowbuilder perde porque a montagem foi dispensada, mas também diz que os textos dos blocos ficam nela.",
+      "cargas": [
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-055",
+      "pedido": "vou enviar por API um aviso de 'pedido saiu pra entrega', mas ainda não tenho o texto. cria o template de utilidade pra eu submeter na Gestão de Templates? a chamada meu dev já sabe fazer",
+      "destino": "cmv-mensagens",
+      "aceitavel": [],
+      "tipo": "fronteira",
+      "motivo": "Redigir template é daqui; a cmv-api perde porque a chamada foi dispensada e a própria cmv-api manda 'redigir o texto de templates' para a cmv-mensagens.",
+      "cargas": [
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-056",
+      "pedido": "Vou fazer minha primeira campanha no CMV pra avisar que a loja mudou de endereço. Escreve as variações do texto e a mensagem de descadastramento? É conexão por QR Code.",
+      "destino": "cmv-mensagens",
+      "aceitavel": [],
+      "tipo": "fronteira",
+      "motivo": "Campanha por QR Code pede 5 variações e a Mensagem de Descadastramento; a cmv-ajuda perde porque o pedido é produzir o material, e ela mesma manda 'textos de campanha' para cá.",
+      "cargas": [
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-057",
+      "pedido": "preciso de umas respostas rápidas pros atendentes usarem quando a IA passa o cliente pra eles, tipo 'oi, aqui é a Carla, vi que você já falou com nossa assistente virtual sobre...'. faz umas 5 variações com atalho",
+      "destino": "cmv-mensagens",
+      "aceitavel": [],
+      "tipo": "vocabulario-ambiguo",
+      "motivo": "É resposta rápida de texto com atalho; citar a IA não faz do pedido um prompt, então a cmv-agente-ia perde.",
+      "cargas": [
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-058",
+      "pedido": "qual código eu uso pra aparecer o primeiro nome do cliente e o protocolo na saudação do setor? aproveita e já escreve a saudação, é uma ótica",
+      "destino": "cmv-mensagens",
+      "aceitavel": [],
+      "tipo": "vocabulario-ambiguo",
+      "motivo": "Armadilhas 1 a 3 (mustaches na Mensagem de saudação do Setor): 'código' aqui é variável de mensagem, não programação.",
+      "cargas": [
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-059",
+      "pedido": "a resposta automática de fora do horário do robô tá seca demais: 'Estamos fechados.' melhora ela? pet shop, atendemos seg a sáb das 8h às 18h",
+      "destino": "cmv-mensagens",
+      "aceitavel": [],
+      "tipo": "vocabulario-ambiguo",
+      "motivo": "Tabela de tipos ('o que o cliente lê fora do horário' é mensagem do Setor) e armadilha 14; 'robô' lembra a cmv-flowbuilder, mas é um campo de mensagem.",
+      "cargas": [
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-060",
+      "pedido": "No CMV tenho este template aprovado e em uso: 'Olá {{1}}, sua consulta está confirmada para {{2}}.' Quero acrescentar o endereço da clínica e uma frase oferecendo check-up com 20% de desconto. Como fica o texto novo?",
+      "destino": "cmv-mensagens",
+      "aceitavel": [],
+      "tipo": "lacuna",
+      "motivo": "Armadilhas 4 e 5: revisar template aprovado (editar tira do ar; uma frase de oferta contamina a Utilidade).",
+      "cargas": [
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-061",
+      "pedido": "em qual campo eu colo o css pra mudar só a tela de login? vi que em Configurações > Cores tem pré-login e pós-login e não entendi a diferença",
+      "destino": "cmv-painel-css-js",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Seção 'Em que campo colar': telas públicas vão no CSS pré-login, o painel no pós-login.",
+      "cargas": [
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-062",
+      "pedido": "dá pra trocar o texto do botão Resolver pra 'Finalizar atendimento' na tela dos tickets? o pessoal aqui confunde",
+      "destino": "cmv-painel-css-js",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Receita 15 ('Trocar o texto de um botão'): mudar o que aparece na tela é desta skill.",
+      "cargas": [
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-063",
+      "pedido": "as janelinhas que abrem no painel (tipo a de novo contato e a de confirmar exclusão) ficam com um branco estourado no tema escuro. queria fundo cinza escuro e cantos arredondados em todas",
+      "destino": "cmv-painel-css-js",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Regra 2 e receita 11: janelas se estilizam por .custom-css-modal (todas) ou .custom-css-modal-<nome>.",
+      "cargas": [
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-064",
+      "pedido": "quero reordenar o menu lateral: Tickets, Contatos e CRM lá em cima e o resto embaixo. tem como sem pedir pro suporte?",
+      "destino": "cmv-painel-css-js",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Receita 5 e 03-propriedades-css: a variável --menu-ordem reordena o menu lateral.",
+      "cargas": [
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-065",
+      "pedido": "meu css parou de pegar depois da atualização de ontem. eu usava .MuiPaper-root pra arredondar os cartões da lista de atendimentos e agora não faz mais nada",
+      "destino": "cmv-painel-css-js",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Seção 'Meu CSS parou de funcionar' e regra 1: classes .Mui* mudam a cada atualização.",
+      "cargas": [
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-066",
+      "pedido": "queria que aparecesse um aviso amarelo no topo da tela de Contatos do painel lembrando o pessoal de não exportar a base sem autorização. dá pra fazer com um scriptzinho?",
+      "destino": "cmv-painel-css-js",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Receita 16 (JS: aviso quando abrir uma tela, esperando o elemento aparecer).",
+      "cargas": [
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-067",
+      "pedido": "quero pôr um script no painel do CMV que, quando o atendente abre o ticket, busca na API o saldo devedor do cliente e mostra ao lado do nome. posso deixar o token da empresa direto no JS?",
+      "destino": "cmv-painel-css-js",
+      "aceitavel": [
+        "cmv-api"
+      ],
+      "tipo": "fronteira",
+      "motivo": "Seção 'Quando pedem para pôr token, senha ou chave no JS': a skill recusa o token com o porquê e entrega o resto; a cmv-api perde como primeira parada, mas é dela a integração fora do painel.",
+      "cargas": [
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-068",
+      "pedido": "O painel do Chat Master Veloz vem todo no verde padrão. Preciso deixar a barra de cima e os botões em azul marinho (#0b1f3a), que é a cor da minha revenda, também no tema escuro.",
+      "destino": "cmv-painel-css-js",
+      "aceitavel": [],
+      "tipo": "fronteira",
+      "motivo": "O exemplo 4 da cmv-ajuda diz que mudar as cores do painel não está na Central de Ajuda e encaminha para cá (receitas 1 e 3: --appbar-fundo e variáveis do tema escuro).",
+      "cargas": [
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-069",
+      "pedido": "tem como sumir com o botão de excluir na tela de Contatos? não quero mexer em permissão de ninguém, só tirar ele da vista pra evitar clique sem querer",
+      "destino": "cmv-painel-css-js",
+      "aceitavel": [],
+      "tipo": "fronteira",
+      "motivo": "Esconder elemento com CSS (receita 12) é daqui, com o aviso 'esconder não é bloquear'; a cmv-ajuda perde porque a pessoa descarta mexer em permissão.",
+      "cargas": [
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-070",
+      "pedido": "na página que o cliente abre pelo link do Chat Externo eu já troquei a Cor principal, mas os balões continuam cinza e a letra é miúda. quero os balões da empresa em laranja e a fonte maior",
+      "destino": "cmv-painel-css-js",
+      "aceitavel": [],
+      "tipo": "vocabulario-ambiguo",
+      "motivo": "Campo CSS do Chat Externo (12-chat-externo, receita 19): a cor nativa do artigo Chat Externo já foi usada e não alcança balões nem fonte.",
+      "cargas": [
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-071",
+      "pedido": "dá pra criar um template visual pro painel? tipo um tema roxo com cinza, igual o site da empresa, valendo só pra minha empresa e não pras outras da revenda",
+      "destino": "cmv-painel-css-js",
+      "aceitavel": [],
+      "tipo": "vocabulario-ambiguo",
+      "motivo": "Campo 'CSS desta empresa' e variáveis de tema (04-tema-escuro): 'template' aqui é tema visual, não modelo de mensagem.",
+      "cargas": [
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-072",
+      "pedido": "quando toca ligação no ramal o pessoal tá em outra aba e perde a chamada. tem como fazer o título da aba do navegador mudar ou piscar enquanto o ramal toca?",
+      "destino": "cmv-painel-css-js",
+      "aceitavel": [],
+      "tipo": "vocabulario-ambiguo",
+      "motivo": "Evento sip:state (05-eventos-js, receita 18): 'ramal' e 'ligação' lembram a cmv-ajuda, mas o pedido é reagir na tela com JS.",
+      "cargas": [
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-073",
+      "pedido": "monta um typebot de captação de lead pra corretora de seguros: pergunta nome, telefone e tipo de seguro, e no fim grava tudo numa planilha do google sheets",
+      "destino": "nenhuma",
+      "aceitavel": [],
+      "tipo": "outra-plataforma",
+      "motivo": "Criar robô no Typebot em si: a cmv-flowbuilder só trata do bloco Typebot, que 'não configura o Typebot', e não há menção à plataforma.",
+      "cargas": [
+        [],
+        [],
+        []
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-074",
+      "pedido": "meu fluxo no manychat parou de responder comentário no instagram desde ontem. o gatilho por palavra-chave tá ativo e a conta tá conectada. o que pode ser?",
+      "destino": "nenhuma",
+      "aceitavel": [],
+      "tipo": "outra-plataforma",
+      "motivo": "Defeito em fluxo do ManyChat: as skills só cobrem a documentação do Chat Master Veloz.",
+      "cargas": [
+        [],
+        [],
+        []
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-075",
+      "pedido": "No Chatwoot as conversas do WhatsApp estão caindo todas na caixa de entrada errada e a atribuição automática não distribui pros agentes. Como arrumo?",
+      "destino": "nenhuma",
+      "aceitavel": [],
+      "tipo": "outra-plataforma",
+      "motivo": "Defeito de configuração no Chatwoot: vocabulário de atendimento parecido, produto diferente.",
+      "cargas": [
+        [],
+        [],
+        []
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-076",
+      "pedido": "preciso de um workflow no n8n que receba o webhook da Evolution API e responda o cliente usando o gpt-4o-mini, guardando o histórico no redis. me passa os nós e as configs",
+      "destino": "nenhuma",
+      "aceitavel": [],
+      "tipo": "outra-plataforma",
+      "motivo": "Integração n8n + Evolution API: a cmv-api só trata do n8n ligado à API e aos webhooks do CMV.",
+      "cargas": [
+        [],
+        [],
+        []
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-077",
+      "pedido": "a z-api devolve erro dizendo que a instância tá desconectada toda vez que tento enviar texto, mesmo com o qr code lido e o celular online. como resolvo?",
+      "destino": "nenhuma",
+      "aceitavel": [],
+      "tipo": "outra-plataforma",
+      "motivo": "Defeito na Z-API: outro provedor de API de WhatsApp, fora da referência da cmv-api.",
+      "cargas": [
+        [],
+        [],
+        []
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-078",
+      "pedido": "Como crio no builder do Blip um bloco de atendimento humano que direciona pra fila de Cobrança do Blip Desk depois do menu?",
+      "destino": "nenhuma",
+      "aceitavel": [],
+      "tipo": "outra-plataforma",
+      "motivo": "Montagem de fluxo no Blip: 'bloco', 'fila' e 'menu' são vocabulário comum, mas o editor não é o FlowBuilder do CMV.",
+      "cargas": [
+        [],
+        [],
+        []
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-079",
+      "pedido": "preciso de um css pra esconder o rodapé do tema Astra no meu site em wordpress e trocar a cor do botão do formulário de contato pra laranja",
+      "destino": "nenhuma",
+      "aceitavel": [],
+      "tipo": "fora-do-cmv",
+      "motivo": "CSS de site WordPress: a cmv-painel-css-js só usa âncoras custom-css-* do painel app.chatmasterveloz.com.",
+      "cargas": [
+        [],
+        [],
+        []
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-080",
+      "pedido": "Me ajuda a escrever as instruções de um GPT personalizado lá no ChatGPT pra ser meu consultor de produtos? Loja de suplementos, vou usar só eu mesma pra tirar dúvida de composição.",
+      "destino": "nenhuma",
+      "aceitavel": [],
+      "tipo": "fora-do-cmv",
+      "motivo": "GPT personalizado dentro do ChatGPT: não é o GPT Assistant do menu Prompts OPEN.AI nem atende clientes no painel.",
+      "cargas": [
+        [],
+        [],
+        []
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-081",
+      "pedido": "escreve um script python que usa a api da openai pra resumir transcrições de reunião em tópicos e salvar num .md",
+      "destino": "nenhuma",
+      "aceitavel": [],
+      "tipo": "fora-do-cmv",
+      "motivo": "Código com a API da OpenAI sem relação com a plataforma: nem cmv-api nem cmv-agente-ia se aplicam.",
+      "cargas": [
+        [],
+        [],
+        []
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-082",
+      "pedido": "meu backend em express fala com a Cloud API do WhatsApp pela graph api da meta. como registro o webhook e respondo o desafio do verify_token? e como envio um template hello_world de teste",
+      "destino": "nenhuma",
+      "aceitavel": [],
+      "tipo": "fora-do-cmv",
+      "motivo": "Integração direta com a Cloud API da Meta: endpoints e webhooks da Meta, não os artigos de API do CMV.",
+      "cargas": [
+        [],
+        [],
+        []
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-083",
+      "pedido": "como configuro mensagem de ausência e resposta rápida no aplicativo WhatsApp Business do celular? é o app comum, o do B, uso sozinha no meu ateliê",
+      "destino": "nenhuma",
+      "aceitavel": [],
+      "tipo": "fora-do-cmv",
+      "motivo": "Recursos homônimos do aplicativo WhatsApp Business: não são a Mensagem de Ausência nem as Respostas Rápidas do painel.",
+      "cargas": [
+        [],
+        [],
+        []
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "d-084",
+      "pedido": "Escreve uma sequência de 3 e-mails de campanha de reativação pra minha base no Mailchimp: loja de roupas femininas, clientes que não compram há 6 meses, cupom de 15%.",
+      "destino": "nenhuma",
+      "aceitavel": [],
+      "tipo": "fora-do-cmv",
+      "motivo": "E-mail marketing em outra ferramenta: 'campanha de reativação' é vocabulário da cmv-mensagens, mas o canal e o produto são outros.",
+      "cargas": [
+        [],
+        [],
+        []
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    }
+  ]
+}

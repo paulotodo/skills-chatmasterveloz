@@ -1,0 +1,294 @@
+# Artigos incluídos nesta skill (292)
+
+- [Endpoints da API (233)](INDICE-api-endpoints.md)
+- [Índice — APIs (273 artigos)](INDICE-api.md)
+- [API Adicionar Tags ao Ticket](api/api-adicionar-tags-ao-ticket.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-adicionar-tags-ao-ticket>
+- [API Apagar Ticket](api/api-apagar-ticket.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-apagar-ticket>
+- [API Atualizar a Situação de uma Reserva de Mesa](api/api-atualizar-a-situacao-de-uma-reserva-de-mesa.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-atualizar-a-situacao-de-uma-reserva-de-mesa>
+- [API Atualizar Coluna do Projeto](api/api-atualizar-coluna-do-projeto.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-atualizar-coluna-do-projeto>
+- [API Atualizar Conexão](api/api-atualizar-conexao.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-atualizar-conexao>
+- [API Atualizar Configurações da Empresa](api/api-atualizar-configuracoes-da-empresa.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-atualizar-configuracoes-da-empresa>
+- [API Atualizar Configurações de Campanha](api/api-atualizar-configuracoes-de-campanha.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-atualizar-configuracoes-de-campanha>
+- [API Atualizar Contato](api/api-atualizar-contato.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-atualizar-contato>
+- [API Atualizar Conversa do Chat Interno](api/api-atualizar-conversa-do-chat-interno.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-atualizar-conversa-do-chat-interno>
+- [API Atualizar Endereço do Cliente](api/api-atualizar-endereco-do-cliente.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-atualizar-endereco-do-cliente>
+- [API Atualizar o Status de um Usuário](api/api-atualizar-o-status-de-um-usuario.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-atualizar-o-status-de-um-usuario>
+- [API Atualizar Oportunidade V1](api/api-atualizar-oportunidade-v1.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-atualizar-oportunidade-v1>
+- [API Atualizar Oportunidade](api/api-atualizar-oportunidade.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-atualizar-oportunidade>
+- [API Atualizar Pedido](api/api-atualizar-pedido.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-atualizar-pedido>
+- [API Atualizar Produto](api/api-atualizar-produto.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-atualizar-produto>
+- [API Atualizar Projeto](api/api-atualizar-projeto.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-atualizar-projeto>
+- [API Atualizar Reserva de Mesa](api/api-atualizar-reserva-de-mesa.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-atualizar-reserva-de-mesa>
+- [API Atualizar Setor](api/api-atualizar-setor.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-atualizar-setor>
+- [API Atualizar Tags do Ticket](api/api-atualizar-tags-do-ticket.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-atualizar-tags-do-ticket>
+- [API Atualizar Tarefa do Projeto](api/api-atualizar-tarefa-do-projeto.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-atualizar-tarefa-do-projeto>
+- [API Atualizar Tarefa](api/api-atualizar-tarefa.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-atualizar-tarefa>
+- [API Atualizar Ticket](api/api-atualizar-ticket.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-atualizar-ticket>
+- [API Atualizar Usuário](api/api-atualizar-usuario.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-atualizar-usuario>
+- [API Botão Carrossel](api/api-botao-carrossel.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-botao-carrossel>
+- [API Botão Copia e Cola](api/api-botao-copia-e-cola-pro.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-botao-copia-e-cola-pro>
+- [API Botão Ligação](api/api-botao-ligacao-pro.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-botao-ligacao-pro>
+- [API Botão Pix](api/api-botao-pix-pro.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-botao-pix-pro>
+- [API Botão Quick Reply](api/api-botao-quick-reply-pro.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-botao-quick-reply-pro>
+- [API Botão URL](api/api-botao-url-pro.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-botao-url-pro>
+- [Botões](api/api-botoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-botoes>
+- [API Buscar Tickets por Filtro](api/api-buscar-tickets-por-filtro.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-buscar-tickets-por-filtro>
+- [Campanhas](api/api-campanhas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-campanhas>
+- [API Cancelar Pedido](api/api-cancelar-pedido.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-cancelar-pedido>
+- [API Chat Externo Botão Quick Reply](api/api-chat-externo-botao-quick-reply.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-chat-externo-botao-quick-reply>
+- [API Chat Externo Enviar Arquivo por URL](api/api-chat-externo-enviar-arquivo-por-url.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-chat-externo-enviar-arquivo-por-url>
+- [API Chat Externo Enviar Arquivo](api/api-chat-externo-enviar-arquivo.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-chat-externo-enviar-arquivo>
+- [API Chat Externo Mensagem de Lista](api/api-chat-externo-mensagem-de-lista.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-chat-externo-mensagem-de-lista>
+- [API Chat Externo Mensagem de Texto](api/api-chat-externo-mensagem-de-texto.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-chat-externo-mensagem-de-texto>
+- [Chat Interno](api/api-chat-interno.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-chat-interno>
+- [Conexões](api/api-conexoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-conexoes>
+- [API Confirmar Pedido](api/api-confirmar-pedido.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-confirmar-pedido>
+- [API Consultar o Status dos Usuários](api/api-consultar-o-status-dos-usuarios.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-consultar-o-status-dos-usuarios>
+- [Contatos](api/api-contatos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-contatos>
+- [API Cotar Frete](api/api-cotar-frete.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-cotar-frete>
+- [API Criar Agendamento](api/api-criar-agendamento.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-criar-agendamento>
+- [API Criar Coluna do Projeto](api/api-criar-coluna-do-projeto.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-criar-coluna-do-projeto>
+- [API Criar Conexão](api/api-criar-conexao.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-criar-conexao>
+- [API Criar Contato (com validação)](api/api-criar-contato-com-validacao.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-criar-contato-com-validacao>
+- [API Criar Contato](api/api-criar-contato.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-criar-contato>
+- [API Criar Conversa no Chat Interno](api/api-criar-conversa-no-chat-interno.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-criar-conversa-no-chat-interno>
+- [API Criar Endereço do Cliente](api/api-criar-endereco-do-cliente.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-criar-endereco-do-cliente>
+- [API Criar Fluxo](api/api-criar-fluxo.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-criar-fluxo>
+- [API Criar Mensagens Template Meta](api/api-criar-mensagens-template-meta.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-criar-mensagens-template-meta>
+- [API Criar Oportunidade V1](api/api-criar-oportunidade-v1.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-criar-oportunidade-v1>
+- [API Criar Oportunidade](api/api-criar-oportunidade.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-criar-oportunidade>
+- [API Criar Pedido](api/api-criar-pedido.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-criar-pedido>
+- [API Criar Produto](api/api-criar-produto.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-criar-produto>
+- [API Criar Projeto](api/api-criar-projeto.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-criar-projeto>
+- [API Criar Reserva de Mesa](api/api-criar-reserva-de-mesa.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-criar-reserva-de-mesa>
+- [API Criar Resposta Rápida](api/api-criar-resposta-rapida.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-criar-resposta-rapida>
+- [API Criar Setor](api/api-criar-setor.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-criar-setor>
+- [API Criar Tag](api/api-criar-tag.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-criar-tag>
+- [API Criar Tarefa no Projeto](api/api-criar-tarefa-no-projeto.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-criar-tarefa-no-projeto>
+- [API Criar Tarefa](api/api-criar-tarefa.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-criar-tarefa>
+- [API Criar Ticket](api/api-criar-ticket.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-criar-ticket>
+- [API Criar Usuário](api/api-criar-usuario.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-criar-usuario>
+- [CRM](api/api-crm.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-crm>
+- [API Deletar Agendamento](api/api-deletar-agendamento.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-deletar-agendamento>
+- [API Deletar Coluna do Projeto](api/api-deletar-coluna-do-projeto.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-deletar-coluna-do-projeto>
+- [API Deletar Endereço do Cliente](api/api-deletar-endereco-do-cliente.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-deletar-endereco-do-cliente>
+- [API Deletar Oportunidade V1](api/api-deletar-oportunidade-v1.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-deletar-oportunidade-v1>
+- [API Deletar Oportunidade](api/api-deletar-oportunidade.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-deletar-oportunidade>
+- [API Deletar Produto](api/api-deletar-produto.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-deletar-produto>
+- [API Deletar Projeto](api/api-deletar-projeto.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-deletar-projeto>
+- [API Deletar Tag](api/api-deletar-tag.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-deletar-tag>
+- [API Deletar Tarefa](api/api-deletar-tarefa.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-deletar-tarefa>
+- [API Deletar TODOS os Contatos](api/api-deletar-todos-os-contatos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-deletar-todos-os-contatos>
+- [API Derrubar a Sessão de um Usuário](api/api-derrubar-a-sessao-de-um-usuario.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-derrubar-a-sessao-de-um-usuario>
+- [API Digitando….](api/api-digitando-pro.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-digitando-pro>
+- [API Digitando…](api/api-digitando.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-digitando>
+- [API Distribuir Atendimento por Rodízio](api/api-distribuir-atendimento-por-rodizio.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-distribuir-atendimento-por-rodizio>
+- [API Editar Mensagem no Painel](api/api-editar-mensagem-no-painel.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-editar-mensagem-no-painel>
+- [E-mail](api/api-email.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-email>
+- [API Encerrar Ticket em Massa](api/api-encerrar-ticket-em-massa.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-encerrar-ticket-em-massa>
+- [API Encerrar Ticket](api/api-encerrar-ticket.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-encerrar-ticket>
+- [API Encerrar Tickets da Conexão por "Dias de Inatividade"](api/api-encerrar-tickets-da-conexao-por-dias-de-inatividade.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-encerrar-tickets-da-conexao-por-dias-de-inatividade>
+- [API Encerrar Tickets da Empresa por "Dias de Inatividade"](api/api-encerrar-tickets-da-empresa-por-dias-de-inatividade.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-encerrar-tickets-da-empresa-por-dias-de-inatividade>
+- [API Enviar Arquivo no Chat Interno](api/api-enviar-arquivo-no-chat-interno.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-enviar-arquivo-no-chat-interno>
+- [API Enviar Arquivo por URL para Grupos](api/api-enviar-arquivo-por-url-para-grupos-pro.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-enviar-arquivo-por-url-para-grupos-pro>
+- [API Enviar Arquivo](api/api-enviar-arquivo.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-enviar-arquivo>
+- [API Enviar Áudio Base64](api/api-enviar-audio-base64-pro.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-enviar-audio-base64-pro>
+- [API Enviar Áudio no Chat Interno](api/api-enviar-audio-no-chat-interno.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-enviar-audio-no-chat-interno>
+- [API Enviar Áudio por URL para Grupos](api/api-enviar-audio-por-url-para-grupos-pro.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-enviar-audio-por-url-para-grupos-pro>
+- [API Enviar Áudio por URL](api/api-enviar-audio-por-url-pro.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-enviar-audio-por-url-pro>
+- [API Enviar Áudio por URL](api/api-enviar-audio-por-url.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-enviar-audio-por-url>
+- [API Enviar Contato](api/api-enviar-contato.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-enviar-contato>
+- [API Enviar Documento por URL para Grupos](api/api-enviar-documento-por-url-para-grupos-pro.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-enviar-documento-por-url-para-grupos-pro>
+- [API Enviar Documento por URL](api/api-enviar-documento-por-url-pro.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-enviar-documento-por-url-pro>
+- [API Enviar Documento por URL](api/api-enviar-documento-por-url.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-enviar-documento-por-url>
+- [API Enviar E-mail](api/api-enviar-e-mail.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-enviar-e-mail>
+- [API Enviar Figurinha](api/api-enviar-figurinha.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-enviar-figurinha>
+- [API Enviar Imagem por URL para Grupos](api/api-enviar-imagem-por-url-para-grupos-pro.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-enviar-imagem-por-url-para-grupos-pro>
+- [API Enviar Imagem por URL](api/api-enviar-imagem-por-url-pro.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-enviar-imagem-por-url-pro>
+- [API Enviar Imagem por URL](api/api-enviar-imagem-por-url.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-enviar-imagem-por-url>
+- [API Enviar Mensagem no Chat Interno](api/api-enviar-mensagem-no-chat-interno.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-enviar-mensagem-no-chat-interno>
+- [API Enviar Status de Imagem](api/api-enviar-status-de-imagem.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-enviar-status-de-imagem>
+- [API Enviar Status de Texto](api/api-enviar-status-de-texto.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-enviar-status-de-texto>
+- [API Enviar Status de Vídeo](api/api-enviar-status-de-video.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-enviar-status-de-video>
+- [API Enviar Vídeo por URL para Grupos](api/api-enviar-video-por-url-para-grupos-pro.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-enviar-video-por-url-para-grupos-pro>
+- [API Enviar Vídeo por URL](api/api-enviar-video-por-url-pro.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-enviar-video-por-url-pro>
+- [API Enviar Vídeo por URL](api/api-enviar-video-por-url.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-enviar-video-por-url>
+- [Equipe](api/api-equipe.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-equipe>
+- [Extras](api/api-extras.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-extras>
+- [API Facebook Enviar Áudio por URL](api/api-facebook-enviar-audio-por-url.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-facebook-enviar-audio-por-url>
+- [API Facebook Enviar Documento por URL](api/api-facebook-enviar-documento-por-url.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-facebook-enviar-documento-por-url>
+- [API Facebook Enviar Imagem por URL](api/api-facebook-enviar-imagem-por-url.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-facebook-enviar-imagem-por-url>
+- [API Facebook Enviar Vídeo por URL](api/api-facebook-enviar-video-por-url.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-facebook-enviar-video-por-url>
+- [API Facebook Mensagem de Texto](api/api-facebook-mensagem-de-texto.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-facebook-mensagem-de-texto>
+- [API Finalizar Tarefa](api/api-finalizar-tarefa.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-finalizar-tarefa>
+- [Fluxos](api/api-fluxos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-fluxos>
+- [Gravações](api/api-gravacoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-gravacoes>
+- [API Gravando….](api/api-gravando-pro.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-gravando-pro>
+- [API Gravando…](api/api-gravando.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-gravando>
+- [API Gupshup Mensagem Template](api/api-gupshup-mensagem-template.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-gupshup-mensagem-template>
+- [API Horário de Expediente](api/api-horario-de-expediente.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-horario-de-expediente>
+- [API Importar Endereços do Cliente](api/api-importar-enderecos-do-cliente.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-importar-enderecos-do-cliente>
+- [API Importar Sessão](api/api-importar-sessao.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-importar-sessao>
+- [API Iniciar um Fluxo do Flowbuilder](api/api-iniciar-um-fluxo-do-flowbuilder.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-iniciar-um-fluxo-do-flowbuilder>
+- [API Iniciar um Fluxo do Typebot](api/api-iniciar-um-fluxo-do-typebot.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-iniciar-um-fluxo-do-typebot>
+- [API Instagram Enviar Áudio por URL](api/api-instagram-enviar-audio-por-url.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-instagram-enviar-audio-por-url>
+- [API Instagram Enviar Documento por URL](api/api-instagram-enviar-documento-por-url.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-instagram-enviar-documento-por-url>
+- [API Instagram Enviar Imagem por URL](api/api-instagram-enviar-imagem-por-url.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-instagram-enviar-imagem-por-url>
+- [API Instagram Enviar Vídeo por URL](api/api-instagram-enviar-video-por-url.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-instagram-enviar-video-por-url>
+- [API Instagram Mensagem de Texto](api/api-instagram-mensagem-de-texto.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-instagram-mensagem-de-texto>
+- [API Janela de Atendimento pelo Número](api/api-janela-de-atendimento-pelo-numero.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-janela-de-atendimento-pelo-numero>
+- [API Janela de Atendimento](api/api-janela-de-atendimento.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-janela-de-atendimento>
+- [API Listar Avaliações](api/api-listar-avaliacoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-listar-avaliacoes>
+- [API Listar Categorias de Produto](api/api-listar-categorias-de-produto.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-listar-categorias-de-produto>
+- [API Listar Configurações da Empresa](api/api-listar-configuracoes-da-empresa.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-listar-configuracoes-da-empresa>
+- [API Listar Configurações de Campanha](api/api-listar-configuracoes-de-campanha.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-listar-configuracoes-de-campanha>
+- [API Listar Contas de E-mail](api/api-listar-contas-de-e-mail.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-listar-contas-de-e-mail>
+- [API Listar Contatos de uma Tag](api/api-listar-contatos-de-uma-tag.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-listar-contatos-de-uma-tag>
+- [API Listar Tickets por Tag](api/api-listar-contatos-por-tag.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-listar-contatos-por-tag>
+- [API Listar Contatos](api/api-listar-contatos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-listar-contatos>
+- [API Listar Conversas do Chat Interno](api/api-listar-conversas-do-chat-interno.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-listar-conversas-do-chat-interno>
+- [API Listar Descontos e Taxas das Formas de Pagamento](api/api-listar-descontos-e-taxas-das-formas-de-pagamento.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-listar-descontos-e-taxas-das-formas-de-pagamento>
+- [API Listar E-mails](api/api-listar-e-mails.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-listar-e-mails>
+- [API Listar Endereços do Cliente](api/api-listar-enderecos-do-cliente.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-listar-enderecos-do-cliente>
+- [API Listar Figurinhas](api/api-listar-figurinhas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-listar-figurinhas>
+- [API Listar Fluxos](api/api-listar-fluxos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-listar-fluxos>
+- [API Listar Funis](api/api-listar-funis.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-listar-funis>
+- [API Listar Gravações](api/api-listar-gravacoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-listar-gravacoes>
+- [API Listar Lançamentos do PDV](api/api-listar-lancamentos-do-pdv.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-listar-lancamentos-do-pdv>
+- [API Listar Leads por Anúncio](api/api-listar-leads-por-anuncio.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-listar-leads-por-anuncio>
+- [API Listar Mensagens do Chat Interno](api/api-listar-mensagens-do-chat-interno.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-listar-mensagens-do-chat-interno>
+- [API Listar Mensagens do Ticket sem as Internas](api/api-listar-mensagens-do-ticket-sem-as-internas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-listar-mensagens-do-ticket-sem-as-internas>
+- [API Listar Mensagens do Ticket](api/api-listar-mensagens-do-ticket.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-listar-mensagens-do-ticket>
+- [API Listar Mensagens por Protocolo](api/api-listar-mensagens-por-protocolo.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-listar-mensagens-por-protocolo>
+- [API Listar Mensagens Template Meta](api/api-listar-mensagens-template-meta.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-listar-mensagens-template-meta>
+- [API Listar Mesas e Comandas](api/api-listar-mesas-e-comandas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-listar-mesas-e-comandas>
+- [API Listar Modelos de Projeto](api/api-listar-modelos-de-projeto.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-listar-modelos-de-projeto>
+- [API Listar Motivos de Perda](api/api-listar-motivos-de-perda.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-listar-motivos-de-perda>
+- [API Listar Oportunidades](api/api-listar-oportunidades.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-listar-oportunidades>
+- [API Listar Origens de Venda](api/api-listar-origens-de-venda.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-listar-origens-de-venda>
+- [API Listar Pedidos](api/api-listar-pedidos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-listar-pedidos>
+- [API Listar Projetos](api/api-listar-projetos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-listar-projetos>
+- [API Listar Protocolos de um Ticket](api/api-listar-protocolos-de-um-ticket.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-listar-protocolos-de-um-ticket>
+- [API Listar Reservas de Mesa](api/api-listar-reservas-de-mesa.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-listar-reservas-de-mesa>
+- [API Listar Respostas Rápidas](api/api-listar-respostas-rapidas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-listar-respostas-rapidas>
+- [API Listar Rodízios](api/api-listar-rodizios.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-listar-rodizios>
+- [API Listar Setores da Empresa](api/api-listar-setores-da-empresa.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-listar-setores-da-empresa>
+- [API Listar Setores de Produção](api/api-listar-setores-de-producao.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-listar-setores-de-producao>
+- [API Listar Situações dos Projetos](api/api-listar-situacoes-dos-projetos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-listar-situacoes-dos-projetos>
+- [API Listar Tags da Empresa](api/api-listar-tags-da-empresa.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-listar-tags-da-empresa>
+- [API Listar Tarefas](api/api-listar-tarefas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-listar-tarefas>
+- [API Listar Taxas de Entrega](api/api-listar-taxas-de-entrega.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-listar-taxas-de-entrega>
+- [API Listar Tickets do Contato](api/api-listar-tickets-do-contato.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-listar-tickets-do-contato>
+- [API Listar Tickets do Painel](api/api-listar-tickets-do-painel.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-listar-tickets-do-painel>
+- [API Listar Todas Mensagens Template Meta](api/api-listar-todas-mensagens-template-meta.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-listar-todas-mensagens-template-meta>
+- [API Listar Usuários da Empresa](api/api-listar-usuarios-da-empresa.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-listar-usuarios-da-empresa>
+- [API Marcar Pedido como Entregue](api/api-marcar-pedido-como-entregue.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-marcar-pedido-como-entregue>
+- [API Marcar Pedido como Pronto](api/api-marcar-pedido-como-pronto.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-marcar-pedido-como-pronto>
+- [API Marcar Pedido como Saiu para Entrega](api/api-marcar-pedido-como-saiu-para-entrega.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-marcar-pedido-como-saiu-para-entrega>
+- [API Marcar Pedido em Preparo](api/api-marcar-pedido-em-preparo.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-marcar-pedido-em-preparo>
+- [API Mensagem de Lista](api/api-mensagem-de-lista-pro.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-mensagem-de-lista-pro>
+- [API Mensagem de Lista](api/api-mensagem-de-lista.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-mensagem-de-lista>
+- [API Mensagem de Texto via LID](api/api-mensagem-de-texto-via-lid.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-mensagem-de-texto-via-lid>
+- [API Mensagem de Texto](api/api-mensagem-de-texto.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-mensagem-de-texto>
+- [API Mensagem Interna](api/api-mensagem-interna.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-mensagem-interna>
+- [API Mensagem para Grupos](api/api-mensagem-para-grupos-pro.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-mensagem-para-grupos-pro>
+- [API Mensagem para Grupos](api/api-mensagem-para-grupos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-mensagem-para-grupos>
+- [API Mensagem Registro do Atendimento](api/api-mensagem-registro-do-atendimento.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-mensagem-registro-do-atendimento>
+- [Mensagem](api/api-mensagem.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-mensagem>
+- [Mídias](api/api-midias.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-midias>
+- [API Modo Alternativo Enviar Arquivo por URL](api/api-modo-alternativo-enviar-arquivo-por-url.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-modo-alternativo-enviar-arquivo-por-url>
+- [API Modo Alternativo Enviar Arquivo](api/api-modo-alternativo-enviar-arquivo.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-modo-alternativo-enviar-arquivo>
+- [API Modo Alternativo Enviar Link](api/api-modo-alternativo-enviar-link.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-modo-alternativo-enviar-link>
+- [API Modo Alternativo Mensagem de Texto](api/api-modo-alternativo-mensagem-de-texto.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-modo-alternativo-mensagem-de-texto>
+- [API Mover Oportunidade de Raia](api/api-mover-oportunidade-de-raia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-mover-oportunidade-de-raia>
+- [API Obter a Transcrição de uma Gravação](api/api-obter-a-transcricao-de-uma-gravacao.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-obter-a-transcricao-de-uma-gravacao>
+- [API Obter o Relatório de um Rodízio](api/api-obter-o-relatorio-de-um-rodizio.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-obter-o-relatorio-de-um-rodizio>
+- [API Obter o Resumo do Cliente no PDV](api/api-obter-o-resumo-do-cliente-no-pdv.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-obter-o-resumo-do-cliente-no-pdv>
+- [API Obter o Status de uma Tarefa](api/api-obter-o-status-de-uma-tarefa.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-obter-o-status-de-uma-tarefa>
+- [API Obter QR Code](api/api-obter-qr-code.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-obter-qr-code>
+- [API Obter Relatório do PDV](api/api-obter-relatorio-do-pdv.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-obter-relatorio-do-pdv>
+- [API Obter um Contato](api/api-obter-um-contato.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-obter-um-contato>
+- [API Obter um E-mail](api/api-obter-um-e-mail.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-obter-um-e-mail>
+- [API Obter um Pedido](api/api-obter-um-pedido.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-obter-um-pedido>
+- [API Obter um Projeto](api/api-obter-um-projeto.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-obter-um-projeto>
+- [API Obter um Ticket](api/api-obter-um-ticket.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-obter-um-ticket>
+- [API Obter uma Conversa do Chat Interno](api/api-obter-uma-conversa-do-chat-interno.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-obter-uma-conversa-do-chat-interno>
+- [API Obter uma Gravação](api/api-obter-uma-gravacao.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-obter-uma-gravacao>
+- [API Obter uma Mensagem Template Meta](api/api-obter-uma-mensagem-template-meta.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-obter-uma-mensagem-template-meta>
+- [API Obter uma Oportunidade](api/api-obter-uma-oportunidade.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-obter-uma-oportunidade>
+- [API Obter uma Reserva de Mesa](api/api-obter-uma-reserva-de-mesa.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-obter-uma-reserva-de-mesa>
+- [API Oficial Botão Quick Reply](api/api-oficial-botao-quick-reply.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-oficial-botao-quick-reply>
+- [API Oficial Botão URL](api/api-oficial-botao-url.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-oficial-botao-url>
+- [API Oficial Digitando](api/api-oficial-digitando.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-oficial-digitando>
+- [API Oficial Enviar Áudio por URL](api/api-oficial-enviar-audio-por-url.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-oficial-enviar-audio-por-url>
+- [API Oficial Enviar Documento por URL](api/api-oficial-enviar-documento-por-url.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-oficial-enviar-documento-por-url>
+- [API Oficial Enviar Imagem por URL](api/api-oficial-enviar-imagem-por-url.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-oficial-enviar-imagem-por-url>
+- [API Oficial Enviar Vídeo por URL](api/api-oficial-enviar-video-por-url.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-oficial-enviar-video-por-url>
+- [API Oficial Mensagem de Lista](api/api-oficial-mensagem-de-lista.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-oficial-mensagem-de-lista>
+- [API Oficial Mensagem Template sem variável](api/api-oficial-mensagem-template-sem-variavel.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-oficial-mensagem-template-sem-variavel>
+- [API Oficial Mensagem Template](api/api-oficial-mensagem-template.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-oficial-mensagem-template>
+- [API Oficial Mensagem](api/api-oficial-mensagem.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-oficial-mensagem>
+- [API Oficial Template com variável (Hub)](api/api-oficial-template-com-variavel-hub.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-oficial-template-com-variavel-hub>
+- [API Oficial Template Customizado (Hub)](api/api-oficial-template-customizado-hub.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-oficial-template-customizado-hub>
+- [API Oficial Template sem variável (Hub)](api/api-oficial-template-sem-variavel-hub.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-oficial-template-sem-variavel-hub>
+- [PDV](api/api-pdv.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-pdv>
+- [API Pedir a Transcrição de uma Gravação](api/api-pedir-a-transcricao-de-uma-gravacao.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-pedir-a-transcricao-de-uma-gravacao>
+- [Projetos](api/api-projetos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-projetos>
+- [API Próximo Operador do Rodízio do Setor](api/api-proximo-operador-do-rodizio-do-setor.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-proximo-operador-do-rodizio-do-setor>
+- [API RCS Mensagem Template](api/api-rcs-mensagem-template.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-rcs-mensagem-template>
+- [API Registrar Pagamento do Pedido](api/api-registrar-pagamento-do-pedido.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-registrar-pagamento-do-pedido>
+- [API Reiniciar Conexões](api/api-reiniciar-conexoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-reiniciar-conexoes>
+- [API Relatório de Anúncios](api/api-relatorio-de-anuncios.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-relatorio-de-anuncios>
+- [API Remover Tags do Ticket](api/api-remover-tags-do-ticket.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-remover-tags-do-ticket>
+- [Respostas Rápidas](api/api-respostas-rapidas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-respostas-rapidas>
+- [Rodízios](api/api-rodizios.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-rodizios>
+- [Setores](api/api-setores.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-setores>
+- [API Status das Conexões](api/api-status-das-conexoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-status-das-conexoes>
+- [Tags](api/api-tags.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-tags>
+- [Tarefas](api/api-tarefas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-tarefas>
+- [Ticket](api/api-ticket.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-ticket>
+- [API Transferir Carteira de Clientes](api/api-transferir-carteira-de-clientes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-transferir-carteira-de-clientes>
+- [API Transferir Tickets entre Conexões](api/api-transferir-tickets-entre-conexoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-transferir-tickets-entre-conexoes>
+- [API Transferir Tickets para um Setor](api/api-transferir-tickets-para-um-setor.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-transferir-tickets-para-um-setor>
+- [API Validar Contato](api/api-validar-contato.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-validar-contato>
+- [API WebChat Enviar Arquivo](api/api-webchat-enviar-arquivo.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-webchat-enviar-arquivo>
+- [API WebChat Mensagem de Texto](api/api-webchat-mensagem-de-texto.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-webchat-mensagem-de-texto>
+- [API x Webhook](api/api-x-webhook.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-x-webhook>
+- [APIs](api/apis.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/apis>
+- [Arquivos no Webhook](api/arquivos-no-webhook.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/arquivos-no-webhook>
+- [Bibliotecas](api/bibliotecas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bibliotecas>
+- [API Botão Copia e Cola](api/botao-copia-e-cola-api.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/botao-copia-e-cola-api>
+- [API Botão Quick Reply](api/botao-quick-reply-api.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/botao-quick-reply-api>
+- [API Botão URL](api/botao-url-api.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/botao-url-api>
+- [Conteúdos sobre APIs](api/conteudos-sobre-apis.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/conteudos-sobre-apis>
+- [Estrutura de API](api/estrutura-de-api.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/estrutura-de-api>
+- [Pré-Requisitos das APIs](api/pre-requisitos-apis.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/pre-requisitos-apis>
+- [Pré-Requisitos dos Botões](api/pre-requisitos-botoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/pre-requisitos-botoes>
+- [Qual Webhook Usar](api/qual-webhook-usar.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/qual-webhook-usar>
+- [Webhook de E-mail](api/webhook-de-e-mail.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/webhook-de-e-mail>
+- [Webhook de Projetos](api/webhook-de-projetos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/webhook-de-projetos>
+- [Webhook do Setor](api/webhook-de-setor.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/webhook-de-setor>
+- [Webhook do Cardápio Digital](api/webhook-do-cardapio-digital.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/webhook-do-cardapio-digital>
+- [Webhook do Chat Interno](api/webhook-do-chat-interno.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/webhook-do-chat-interno>
+- [Webhook do PDV](api/webhook-do-pdv.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/webhook-do-pdv>
+- [Webhook Eventos](api/webhook-eventos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/webhook-eventos>
+- [Webhook Triggers](api/webhook-triggers.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/webhook-triggers>
+- [Webhook da Conexão](api/webhooks-da-conexao.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/webhooks-da-conexao>
+- [Webhooks](api/webhooks.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/webhooks>
+- [Access Token Mercado Pago](recursos/access-token-mercado-pago.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/access-token-mercado-pago>
+- [Access Token Meta](recursos/access-token-meta.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/access-token-meta>
+- [Chave Google Maps](recursos/chave-google-maps.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/chave-google-maps>
+- [Credenciais PaggPix](recursos/credenciais-paggpix.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/credenciais-paggpix>
+- [Gatilho via API](recursos/gatilho-via-api.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/gatilho-via-api>
+- [Gatilho via Webhooks Trigger](recursos/gatilho-via-webhooks-trigger.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/gatilho-via-webhooks-trigger>
+- [Incorporar Atendimento em Outro Sistema](recursos/incorporar-atendimento-em-outro-sistema.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/incorporar-atendimento-em-outro-sistema>
+- [Integrações](recursos/integracoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/integracoes>
+- [n8n via Flowbuilder](recursos/n8n-via-flowbuilder.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/n8n-via-flowbuilder>
+- [n8n via Webhook](recursos/n8n-via-webhook.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/n8n-via-webhook>
+- [Token Asaas](recursos/token-asaas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/token-asaas>
+- [Token da Conexão](recursos/token-da-conexao.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/token-da-conexao>
+- [Token da Empresa em Configurações](recursos/token-da-empresa-em-configuracoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/token-da-empresa-em-configuracoes>
+- [Token OpenAI](recursos/token-openai.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/token-openai>
+- [Token PagSeguro (PagBank)](recursos/token-pagseguro-pagbank.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/token-pagseguro-pagbank>
+- [Webhook do Funil](recursos/webhook-do-funil.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/webhook-do-funil>
+- [Webhooks e Eventos em Configurações](recursos/webhooks-e-eventos-em-configuracoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/webhooks-e-eventos-em-configuracoes>

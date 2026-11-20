@@ -1,0 +1,42 @@
+[
+ {
+  "query": "dá pra IA do chat master veloz marcar uma tag de 'lead quente' quando o cliente pede orçamento?",
+  "should_trigger": true
+ },
+ {
+  "query": "meu assistente de IA do CMV tá gastando muito token, o que eu ajusto?",
+  "should_trigger": true
+ },
+ {
+  "query": "quero que a IA do chatmasterveloz resuma a conversa antes de passar pro atendente humano, tem como?",
+  "should_trigger": true
+ },
+ {
+  "query": "o copiloto de mensagens do chat master veloz serve pra quê? como uso?",
+  "should_trigger": true
+ },
+ {
+  "query": "cria a IA de atendimento da minha pizzaria no chat master veloz pra tirar pedido e passar pro balcão",
+  "should_trigger": true
+ },
+ {
+  "query": "como treino um agente no Dialogflow pra responder dúvidas da minha loja?",
+  "should_trigger": false
+ },
+ {
+  "query": "escreve um prompt pro ChatGPT me ajudar a responder email de cliente",
+  "should_trigger": false
+ },
+ {
+  "query": "monta um fluxo no flowbuilder do chat master veloz que pergunta o pedido da pizza e manda pro setor balcão",
+  "should_trigger": false
+ },
+ {
+  "query": "quero colocar a chave da API do Asaas no chat master veloz, onde fica?",
+  "should_trigger": false
+ },
+ {
+  "query": "melhora o texto da minha resposta rápida de cardápio no chat master veloz",
+  "should_trigger": false
+ }
+]

@@ -1,0 +1,174 @@
+{
+  "skill_name": "cmv-painel-css-js",
+  "description": "Use esta skill quando alguém quer mudar o visual do painel do Chat Master Veloz (CMV, chatmasterveloz) além do que as configurações oferecem: pôr as cores da empresa (código hex, verde, azul da marca), consertar o modo escuro que fica cinza, apagado ou ilegível, esconder ou reordenar menus e botões, aumentar fontes, trocar textos, mostrar avisos ou sons na tela, mudar o login, as janelas e o Chat Externo. Vale mesmo sem falar em CSS ou JS: \"deixar com a cara da minha empresa\", \"o tema escuro tá feio\", \"meu CSS parou depois da atualização\" e \"qual seletor uso\" são desta skill. Ela entrega o código CSS/JS pronto, com os seletores custom-css conferidos no catálogo, onde colar e como desfazer. Fora do escopo: configurar recursos, permissões e as cores do Web Chat do site (cmv-ajuda), API e webhooks (cmv-api), fluxos (cmv-flowbuilder), IA (cmv-agente-ia), textos para clientes (cmv-mensagens), e CSS de outros sites ou plataformas (WordPress, Chatwoot, WhatsApp Web).",
+  "results": [
+    {
+      "query": "oi, queria deixar o painel do chat master veloz com as cores da minha empresa (verde #0f766e), e no modo escuro ele fica todo cinza, dá pra arrumar?",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "coloquei um css no CMV pra mudar a lista de atendimentos e depois da última atualização parou de funcionar: .MuiListItem-root.jss412 { border-radius: 12px }",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "preciso que apareça um aviso pro pessoal quando abrir a tela de contatos do chat master veloz lembrando de não importar planilha sem falar com a supervisão",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "dá pra esconder o menu de campanhas pros atendentes no painel do chatmasterveloz com css?",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "trocar o fundo da tela de login do chat master veloz pela cor da marca e tirar o link de cadastro",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "aumentar a fonte das mensagens no chat do painel do cmv, a equipe reclama que tá pequena",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "qual seletor eu uso pra mudar a cor do balão de nota interna no chat master veloz?",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "JS personalizado no chat master veloz que toca um som quando chega ticket novo no aguardando",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "mudar a ordem dos itens do menu lateral do painel do CMV, quero contatos em primeiro",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "personalizar o visual do chat externo do chat master veloz que eu mando por link pros clientes",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "como mudo a foto de perfil do número de whatsapp no chat master veloz?",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "quero que meu site chame a API do chat master veloz pra mandar mensagem quando alguém preencher o formulário",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "como instalo o web chat do chat master veloz no meu site wordpress?",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "css pra deixar o botão do meu site wordpress verde com efeito hover",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "como alterar o tema do Chatwoot pra dark mode?",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "como restrinjo o que o atendente pode ver nas permissões do chat master veloz?",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "escreve a mensagem de saudação do setor de suporte no chat master veloz",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "monta um fluxo no flowbuilder que manda o cliente pra um webview com formulário",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "a IA do chat master veloz pode responder com emoji? como configuro isso no prompt?",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "extensão do chrome que muda a cor do whatsapp web",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    }
+  ],
+  "summary": {
+    "total": 20,
+    "passed": 20,
+    "failed": 0
+  },
+  "modelo": "claude-opus-5-5",
+  "conjunto": "otimizacao",
+  "modo": "sessão inteira"
+}

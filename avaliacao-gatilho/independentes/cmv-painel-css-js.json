@@ -1,0 +1,52 @@
+[
+ {
+  "query": "Quero deixar a tela de login do Chat Master Veloz com fundo azul-marinho e o logo da minha empresa maior. Me passa o CSS e me diz onde colar.",
+  "should_trigger": true,
+  "motivo": "Mudar a aparência de uma tela do painel com CSS personalizado."
+ },
+ {
+  "query": "da pra esconder o item Campanhas do menu lateral no cmv usando css? e mudar a ordem dos outros itens",
+  "should_trigger": true,
+  "motivo": "Esconder e reordenar itens do menu do painel com CSS."
+ },
+ {
+  "query": "No tema escuro do painel CMV os balões da conversa ficam com pouco contraste. Quero o balão do cliente em cinza-escuro, o do atendente em verde #1f8a4c e a fonte em 15px.",
+  "should_trigger": true,
+  "motivo": "Personalização visual da conversa (cores, fonte, tema escuro)."
+ },
+ {
+  "query": "Preciso de um JS personalizado no painel do chatmasterveloz que mostre o lembrete 'confira a tag antes de encerrar' quando o atendente clicar no botão de encerrar o ticket.",
+  "should_trigger": true,
+  "motivo": "JS personalizado reagindo a um clique na tela do painel."
+ },
+ {
+  "query": "meu css customizado parou de funcionar depois da ultima atualizaçao do master veloz. eu usava .MuiButton-root e umas classes tipo .jss123 pra mudar os botoes e o cabeçalho. qual seletor eu uso agora pra nao quebrar de novo?",
+  "should_trigger": true,
+  "motivo": "Corrigir CSS personalizado do painel (seletores estáveis)."
+ },
+ {
+  "query": "Como mudo as cores e a fonte do widget do Chatwoot no meu site? Queria também um CSS customizado no dashboard dos agentes.",
+  "should_trigger": false,
+  "motivo": "Personalização visual de outra plataforma (Chatwoot); nenhuma das seis skills."
+ },
+ {
+  "query": "Preciso de um CSS adicional no WordPress (uso Elementor) pra deixar o botão flutuante de WhatsApp com a cor da minha marca e esconder ele no mobile.",
+  "should_trigger": false,
+  "motivo": "CSS para WordPress, fora do CMV; nenhuma das seis skills."
+ },
+ {
+  "query": "Como tiro do perfil atendente a permissão de ver o menu Contatos e de exportar contatos no CMV? Quero fazer pelas permissões do usuário mesmo, sem código.",
+  "should_trigger": false,
+  "motivo": "Permissões por perfil configuradas pela tela pertencem à cmv-ajuda."
+ },
+ {
+  "query": "Escreve um script em JavaScript (Node) que recebe o webhook do Chat Master Veloz e responde a mensagem do cliente pela API.",
+  "should_trigger": false,
+  "motivo": "Integração por API/webhook (apesar de ser JavaScript) pertence à cmv-api."
+ },
+ {
+  "query": "No bloco Execução de Código JS do FlowBuilder, como escrevo um código que tira pontos e traço do CPF que o cliente digitou e salva numa variável do fluxo?",
+  "should_trigger": false,
+  "motivo": "JS dentro de um bloco de fluxo pertence à cmv-flowbuilder."
+ }
+]

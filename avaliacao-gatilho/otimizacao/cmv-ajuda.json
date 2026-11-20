@@ -1,0 +1,82 @@
+[
+ {
+  "query": "como eu faço pra uma atendente só ver as conversas do setor financeiro no chat master veloz? ela não pode mexer em configuração nenhuma",
+  "should_trigger": true
+ },
+ {
+  "query": "meu whatsapp desconectou no CMV e as conversas ficaram tudo vermelhas, como reconecto sem perder nada?",
+  "should_trigger": true
+ },
+ {
+  "query": "Onde fica a opção de encerrar sozinho o atendimento quando o cliente para de responder? uso o chatmasterveloz",
+  "should_trigger": true
+ },
+ {
+  "query": "qual a diferença entre ticket e protocolo no chat master veloz? meu supervisor ficou confuso no relatório de ontem",
+  "should_trigger": true
+ },
+ {
+  "query": "o que mudou no sistema essa semana? apareceu um menu novo 'Assistente de IA' no painel do chat master veloz e ninguém avisou",
+  "should_trigger": true
+ },
+ {
+  "query": "Como importo minha lista de contatos de uma planilha pro chat master veloz? tenho uns 3 mil contatos num excel com nome e telefone",
+  "should_trigger": true
+ },
+ {
+  "query": "no painel do cmv, como transfiro um atendimento pra outro atendente sem ele perder o histórico da conversa?",
+  "should_trigger": true
+ },
+ {
+  "query": "como funciona o rodízio no chat master veloz? quero distribuir os leads igual entre 4 vendedores",
+  "should_trigger": true
+ },
+ {
+  "query": "acabamos de contratar o chat master veloz, por onde eu começo? já tenho o número da empresa e 3 atendentes",
+  "should_trigger": true
+ },
+ {
+  "query": "a mensagem do cliente não aparece no Aguardando do chat master veloz, só chega no celular. o que pode ser?",
+  "should_trigger": true
+ },
+ {
+  "query": "preciso de um curl pra mandar mensagem de texto pela API do chat master veloz pro cliente quando o pedido for aprovado no meu sistema",
+  "should_trigger": false
+ },
+ {
+  "query": "monta um fluxo no flowbuilder do cmv com menu de 3 opções e horário de expediente, quero o json pra importar",
+  "should_trigger": false
+ },
+ {
+  "query": "escreve o prompt do GPT Assistant do chat master veloz pra minha imobiliária responder dúvidas de aluguel",
+  "should_trigger": false
+ },
+ {
+  "query": "cria 10 respostas rápidas pra recepção da minha clínica no chat master veloz: saudação, pix, endereço e confirmação",
+  "should_trigger": false
+ },
+ {
+  "query": "quero mudar a cor do menu lateral do painel do chat master veloz pro verde da minha marca usando css personalizado",
+  "should_trigger": false
+ },
+ {
+  "query": "como configuro o chatbot no Blip pra transferir pro atendente humano quando o cliente pedir?",
+  "should_trigger": false
+ },
+ {
+  "query": "no WhatsApp Business do celular, como crio etiquetas e a mensagem de ausência?",
+  "should_trigger": false
+ },
+ {
+  "query": "escreve um template de cobrança pra API oficial do WhatsApp no chat master veloz, categoria utilidade, com nome e valor",
+  "should_trigger": false
+ },
+ {
+  "query": "o webhook da conexão do CMV manda tudo duplicado pro meu n8n, como filtro isso no workflow?",
+  "should_trigger": false
+ },
+ {
+  "query": "no Chatwoot, como faço pra um agente ver só a caixa de entrada do financeiro?",
+  "should_trigger": false
+ }
+]

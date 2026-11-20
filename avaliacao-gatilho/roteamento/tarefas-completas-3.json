@@ -1,0 +1,8 @@
+[
+ {"id": "ajuda", "skill": "cmv-ajuda", "pedido": "como cadastro uma atendente que só veja o setor Financeiro? ela não pode ver os atendimentos do comercial"},
+ {"id": "api", "skill": "cmv-api", "pedido": "como configuro o webhook do cmv pra receber no n8n toda msg que chega? e qual o formato do json q ele manda"},
+ {"id": "flowbuilder", "skill": "cmv-flowbuilder", "arquivos": {"fluxo-triagem.json": "arquivos/fluxo-com-saida-solta.json"}, "pedido": "exportei meu fluxo do flowbuilder, é o fluxo-triagem.json que tá nessa pasta. quando o cliente escolhe a opção 2 do menu ele fica sem resposta nenhuma. o que tá errado e como arrumo?"},
+ {"id": "agente-ia", "skill": "cmv-agente-ia", "pedido": "Cria o prompt de uma atendente virtual pra minha clínica de estética no Chat Master Veloz. Ela agenda avaliação, tira dúvida sobre os três procedimentos principais (limpeza de pele, botox e depilação a laser) e passa pra recepção quando o cliente pedir pra falar com uma pessoa."},
+ {"id": "mensagens", "skill": "cmv-mensagens", "pedido": "cria umas 6 respostas rápidas pro financeiro da escola: segunda via de boleto, negociação de atraso, envio de comprovante, nota fiscal, mudança de vencimento e agradecimento pelo pagamento"},
+ {"id": "painel-css-js", "skill": "cmv-painel-css-js", "pedido": "queria que aparecesse um aviso amarelo no topo da tela de Contatos do painel lembrando o pessoal de não exportar a base sem autorização. dá pra fazer com um scriptzinho?"}
+]

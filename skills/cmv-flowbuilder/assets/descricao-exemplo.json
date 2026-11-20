@@ -1,0 +1,52 @@
+{
+  "blocos": [
+    {"apelido": "boas_vindas", "tipo": "conteudo", "itens": [
+      "Olá! Você está falando com o atendimento da Empresa Exemplo.",
+      2,
+      "Vou fazer uma pergunta rápida para levar você à equipe certa."
+    ]},
+    {"apelido": "menu", "tipo": "menu",
+     "mensagem": "Com qual assunto podemos ajudar?",
+     "botao": "Ver opções",
+     "opcoes": [
+       ["Comprar", "Orçamentos e pedidos novos"],
+       ["Suporte", "Ajuda com algo que você já comprou"],
+       ["Falar com atendente", "Qualquer outro pedido"]
+     ],
+     "resposta_invalida": true,
+     "sem_resposta_minutos": 30},
+
+    {"apelido": "aviso_comercial", "tipo": "conteudo", "itens": [
+      "Certo! Vou passar você para a equipe Comercial. Alguém responde por aqui assim que possível."
+    ]},
+    {"apelido": "nota_comercial", "tipo": "msg_interna", "mensagem": "Triagem do robô: o cliente escolheu Comprar."},
+    {"apelido": "setor_comercial", "tipo": "setor", "nome": "Comercial"},
+
+    {"apelido": "aviso_suporte", "tipo": "conteudo", "itens": [
+      "Entendi! Vou passar você para o Suporte. Alguém responde por aqui assim que possível."
+    ]},
+    {"apelido": "nota_suporte", "tipo": "msg_interna", "mensagem": "Triagem do robô: o cliente escolheu Suporte."},
+    {"apelido": "setor_suporte", "tipo": "setor", "nome": "Suporte"},
+
+    {"apelido": "aviso_atendente", "tipo": "conteudo", "itens": [
+      "Tudo bem! Vou passar você para um atendente. Alguém responde por aqui assim que possível."
+    ]},
+    {"apelido": "nota_atendente", "tipo": "msg_interna", "mensagem": "Triagem do robô: o cliente escolheu Falar com atendente."},
+    {"apelido": "setor_atendente", "tipo": "setor", "nome": "Recepção"},
+
+    {"apelido": "nao_entendi", "tipo": "conteudo", "itens": [
+      "Não entendi a resposta. Toque em Ver opções e escolha um dos assuntos."
+    ]},
+    {"apelido": "sem_resposta", "tipo": "encerrar",
+     "mensagem": "Como não recebi resposta, vou encerrar este atendimento. Se precisar, é só mandar uma mensagem."}
+  ],
+  "ligacoes": [
+    ["inicio", "boas_vindas"],
+    ["boas_vindas", "menu"],
+    ["menu", 1, "aviso_comercial"], ["aviso_comercial", "nota_comercial"], ["nota_comercial", "setor_comercial"],
+    ["menu", 2, "aviso_suporte"], ["aviso_suporte", "nota_suporte"], ["nota_suporte", "setor_suporte"],
+    ["menu", 3, "aviso_atendente"], ["aviso_atendente", "nota_atendente"], ["nota_atendente", "setor_atendente"],
+    ["menu", "invalida", "nao_entendi"], ["nao_entendi", "menu"],
+    ["menu", "sem_resposta", "sem_resposta"]
+  ]
+}

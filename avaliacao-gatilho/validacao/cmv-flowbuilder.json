@@ -1,0 +1,42 @@
+[
+ {
+  "query": "o robô do chat master veloz fica repetindo o menu toda hora mesmo quando o cliente escolhe a opção, o que tá errado?",
+  "should_trigger": true
+ },
+ {
+  "query": "olha esse json do meu fluxo do cmv e me diz por que ele não manda pro setor de vendas",
+  "should_trigger": true
+ },
+ {
+  "query": "quero que no chat master veloz o cliente que mandar mensagem de madrugada receba aviso de fora do horário e caia num menu de manhã",
+  "should_trigger": true
+ },
+ {
+  "query": "como faço um fluxo do chatmasterveloz que pergunta o nome, guarda numa variável e usa depois na mensagem?",
+  "should_trigger": true
+ },
+ {
+  "query": "monta um robô de agendamento pra barbearia no chat master veloz com escolha de serviço e dia",
+  "should_trigger": true
+ },
+ {
+  "query": "monta um bot no Botpress que agenda horário de barbearia",
+  "should_trigger": false
+ },
+ {
+  "query": "cria a resposta rápida de 'fora do horário' pra recepção usar no chat master veloz",
+  "should_trigger": false
+ },
+ {
+  "query": "quero que o atendente do chat master veloz veja só os atendimentos dele, como configuro?",
+  "should_trigger": false
+ },
+ {
+  "query": "a IA do chat master veloz não usa o nome do cliente quando responde, como faço ela usar?",
+  "should_trigger": false
+ },
+ {
+  "query": "como crio um fluxo no zapier que manda email quando entra linha nova no google sheets?",
+  "should_trigger": false
+ }
+]

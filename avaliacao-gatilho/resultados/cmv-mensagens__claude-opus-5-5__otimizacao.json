@@ -1,0 +1,174 @@
+{
+  "skill_name": "cmv-mensagens",
+  "description": "Redige mensagens prontas para colar no Chat Master Veloz (CMV, chatmasterveloz): respostas rápidas, templates da API Oficial do WhatsApp, campanhas de disparo em massa, agendamentos, mensagem de aniversário, saudação e fora de expediente do setor, ausência e encerramento, com as variáveis certas e o passo a passo de onde cadastrar no painel. Use sempre que a pessoa pedir para escrever, melhorar ou revisar qualquer texto enviado a clientes pela plataforma (cobrança, lembrete, confirmação, reativação, pós-venda, pesquisa, carrinho abandonado, boas-vindas), mesmo que não cite o CMV nem diga \"resposta rápida\" ou \"template\", e também em dúvidas sobre template reprovado, categoria utilidade ou marketing, janela de 24h, cobrança da Meta ou risco de bloqueio. Não cobre desenho de fluxo de chatbot (cmv-flowbuilder), envio de template por API (cmv-api) nem prompt de IA (cmv-agente-ia).",
+  "results": [
+    {
+      "query": "migrei pra API oficial no chat master veloz e preciso de um template de cobrança de mensalidade que não seja reprovado. tem como mandar automático todo dia 5?",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "cria respostas rápidas pra recepção da minha clínica odontológica no CMV: saudação, confirmar consulta, localização, pix e pós-atendimento",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "quero fazer uma campanha pra reativar uns 800 clientes que não compram há 6 meses no chat master veloz, me ajuda com o texto",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "escreve a mensagem de aniversário automática do chat master veloz pra minha academia",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "meu template de marketing foi reprovado pela meta no chatmasterveloz, como eu reescrevo pra passar?",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "qual variável eu uso pra colocar o primeiro nome do cliente na resposta rápida do chat master veloz?",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "faz a mensagem de fora do horário e a de saudação do setor de vendas no CMV, tom descontraído",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "texto pra lembrete de consulta 1 dia antes, vou usar o agendamento de mensagem do chat master veloz",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "quanto custa mandar template de utilidade pelo chat master veloz depois que a meta mudou a cobrança?",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "melhora esse texto de carrinho abandonado que eu mando pelo chat master veloz: 'oi, vi que vc nao finalizou a compra'",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "como envio template com variáveis pela API do chat master veloz a partir do meu sistema? qual payload?",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "monta um fluxo no flowbuilder do chat master veloz de pesquisa de satisfação com nota de 1 a 5",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "escreve o prompt da IA do chat master veloz pra responder dúvidas de matrícula da minha escola",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "como conecto o whatsapp oficial no chat master veloz? já tenho a BM verificada",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "escreve um email marketing de black friday pra mandar pelo mailchimp",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "cria um template de mensagem no gerenciador do WhatsApp da Meta pra minha empresa, eu uso a Zenvia",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "deixa o balão das mensagens enviadas no painel do chat master veloz com outra cor",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "as mensagens do cliente não aparecem no Aguardando do chat master veloz, o que pode ser?",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "escreve uma legenda de instagram pra divulgar meu restaurante japonês",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "meu webhook do CMV não recebe as mensagens de áudio, só texto",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    }
+  ],
+  "summary": {
+    "total": 20,
+    "passed": 20,
+    "failed": 0
+  },
+  "modelo": "claude-opus-5-5",
+  "conjunto": "otimizacao",
+  "modo": "sessão inteira"
+}

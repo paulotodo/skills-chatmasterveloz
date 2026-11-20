@@ -1,0 +1,52 @@
+[
+ {
+  "query": "O sistema de agendamento da minha clínica é próprio, feito em Laravel. Quero que ele mande um lembrete pelo WhatsApp um dia antes da consulta usando o Chat Master Veloz, com o nome do paciente e o horário. A conexão é WhatsApp por QR Code. Me passa o código da chamada e onde pego o token.",
+  "should_trigger": true,
+  "motivo": "Sistema externo enviando mensagem pelo CMV: chamada de API com código."
+ },
+ {
+  "query": "como configuro o webhook do cmv pra receber no n8n toda msg que chega? e qual o formato do json q ele manda",
+  "should_trigger": true,
+  "motivo": "Webhook de saída do CMV e recebimento no n8n."
+ },
+ {
+  "query": "qual é o endpoint e o corpo do POST pra mandar um pdf pelo whatsapp via api do chatmasterveloz? manda um exemplo em curl pfv",
+  "should_trigger": true,
+  "motivo": "Pedido direto de endpoint e payload da API."
+ },
+ {
+  "query": "Preciso manter meu ERP sincronizado com o CRM do CMV: sempre que uma oportunidade mudar de etapa no funil, quero receber um aviso no meu servidor e atualizar o registro do meu lado. Existe webhook do funil? Como recebo e trato isso em Node?",
+  "should_trigger": true,
+  "motivo": "Webhook do CRM recebido por sistema próprio, com código."
+ },
+ {
+  "query": "Meu sistema de notas fiscais precisa disparar, pelo Master Veloz, um template já aprovado na API Oficial assim que a nota é emitida, preenchendo nome do cliente e número da nota nas variáveis. Como fica a requisição em Python?",
+  "should_trigger": true,
+  "motivo": "Envio de template por API a partir de sistema externo (o texto já existe; pede a requisição)."
+ },
+ {
+  "query": "Como envio uma mensagem de texto pela Z-API usando Node? Preciso do endpoint send-text e de como passar o client-token no header.",
+  "should_trigger": false,
+  "motivo": "API de outro produto (Z-API); nenhuma das seis skills."
+ },
+ {
+  "query": "Quero mandar um template de WhatsApp direto pela Cloud API da Meta, sem plataforma nenhuma no meio, chamando o Graph API em Python. Qual é o endpoint e o payload?",
+  "should_trigger": false,
+  "motivo": "Mesmo tema fora do CMV (Cloud API da Meta direta); nenhuma das seis skills."
+ },
+ {
+  "query": "No FlowBuilder do CMV, quero um fluxo que pergunta o número do pedido, guarda numa variável e depois mostra um menu com 'Acompanhar entrega' e 'Falar com atendente'. Monta pra mim?",
+  "should_trigger": false,
+  "motivo": "Desenho de fluxo de chatbot pertence à cmv-flowbuilder."
+ },
+ {
+  "query": "Escreve o texto de um template de utilidade avisando que o pedido saiu para entrega, com variável para o nome e para o código de rastreio, pra eu cadastrar na Gestão de Templates do CMV.",
+  "should_trigger": false,
+  "motivo": "Redigir texto de template pertence à cmv-mensagens."
+ },
+ {
+  "query": "Como conecto um número na API Oficial do WhatsApp dentro do Chat Master Veloz? Já tenho a BM verificada, só não sei por onde começo no painel.",
+  "should_trigger": false,
+  "motivo": "Configurar conexão pela tela (apesar do termo 'API Oficial') pertence à cmv-ajuda."
+ }
+]

@@ -1,0 +1,290 @@
+{
+  "exit_reason": "all_passed (iteration 1)",
+  "original_description": "Cria e ajusta o atendente de IA do Chat Master Veloz (CMV, chatmasterveloz): entrevista a pessoa, escreve o prompt do GPT Assistant pronto para colar (com os comandos de transferir, tag e encerrar), d\u00e1 o passo a passo no painel e um plano de testes. Cobre tamb\u00e9m os outros recursos de IA: transcri\u00e7\u00e3o de \u00e1udio, An\u00e1lise de Atendimento, Avalia\u00e7\u00e3o pela IA, Copiloto de mensagens, Sugest\u00e3o de resposta IA, GPT Assistant em grupos e Token OpenAI. Use sempre que a pessoa falar em IA, ChatGPT, GPT, OpenAI, rob\u00f4 inteligente, agente, assistente virtual ou prompt no Chat Master Veloz, mesmo que n\u00e3o diga \"GPT Assistant\", e tamb\u00e9m quando a IA j\u00e1 existe e responde errado, n\u00e3o transfere ou gasta demais. N\u00e3o cobre o desenho do fluxo do FlowBuilder que chama a IA (cmv-flowbuilder), integra\u00e7\u00e3o por API ou webhook (cmv-api) nem textos de campanhas e templates (cmv-mensagens).",
+  "best_description": "Cria e ajusta o atendente de IA do Chat Master Veloz (CMV, chatmasterveloz): entrevista a pessoa, escreve o prompt do GPT Assistant pronto para colar (com os comandos de transferir, tag e encerrar), d\u00e1 o passo a passo no painel e um plano de testes. Cobre tamb\u00e9m os outros recursos de IA: transcri\u00e7\u00e3o de \u00e1udio, An\u00e1lise de Atendimento, Avalia\u00e7\u00e3o pela IA, Copiloto de mensagens, Sugest\u00e3o de resposta IA, GPT Assistant em grupos e Token OpenAI. Use sempre que a pessoa falar em IA, ChatGPT, GPT, OpenAI, rob\u00f4 inteligente, agente, assistente virtual ou prompt no Chat Master Veloz, mesmo que n\u00e3o diga \"GPT Assistant\", e tamb\u00e9m quando a IA j\u00e1 existe e responde errado, n\u00e3o transfere ou gasta demais. N\u00e3o cobre o desenho do fluxo do FlowBuilder que chama a IA (cmv-flowbuilder), integra\u00e7\u00e3o por API ou webhook (cmv-api) nem textos de campanhas e templates (cmv-mensagens).",
+  "best_score": "7/8",
+  "best_train_score": "12/12",
+  "best_test_score": "7/8",
+  "final_description": "Cria e ajusta o atendente de IA do Chat Master Veloz (CMV, chatmasterveloz): entrevista a pessoa, escreve o prompt do GPT Assistant pronto para colar (com os comandos de transferir, tag e encerrar), d\u00e1 o passo a passo no painel e um plano de testes. Cobre tamb\u00e9m os outros recursos de IA: transcri\u00e7\u00e3o de \u00e1udio, An\u00e1lise de Atendimento, Avalia\u00e7\u00e3o pela IA, Copiloto de mensagens, Sugest\u00e3o de resposta IA, GPT Assistant em grupos e Token OpenAI. Use sempre que a pessoa falar em IA, ChatGPT, GPT, OpenAI, rob\u00f4 inteligente, agente, assistente virtual ou prompt no Chat Master Veloz, mesmo que n\u00e3o diga \"GPT Assistant\", e tamb\u00e9m quando a IA j\u00e1 existe e responde errado, n\u00e3o transfere ou gasta demais. N\u00e3o cobre o desenho do fluxo do FlowBuilder que chama a IA (cmv-flowbuilder), integra\u00e7\u00e3o por API ou webhook (cmv-api) nem textos de campanhas e templates (cmv-mensagens).",
+  "iterations_run": 1,
+  "holdout": 0.4,
+  "train_size": 12,
+  "test_size": 8,
+  "history": [
+    {
+      "iteration": 1,
+      "description": "Cria e ajusta o atendente de IA do Chat Master Veloz (CMV, chatmasterveloz): entrevista a pessoa, escreve o prompt do GPT Assistant pronto para colar (com os comandos de transferir, tag e encerrar), d\u00e1 o passo a passo no painel e um plano de testes. Cobre tamb\u00e9m os outros recursos de IA: transcri\u00e7\u00e3o de \u00e1udio, An\u00e1lise de Atendimento, Avalia\u00e7\u00e3o pela IA, Copiloto de mensagens, Sugest\u00e3o de resposta IA, GPT Assistant em grupos e Token OpenAI. Use sempre que a pessoa falar em IA, ChatGPT, GPT, OpenAI, rob\u00f4 inteligente, agente, assistente virtual ou prompt no Chat Master Veloz, mesmo que n\u00e3o diga \"GPT Assistant\", e tamb\u00e9m quando a IA j\u00e1 existe e responde errado, n\u00e3o transfere ou gasta demais. N\u00e3o cobre o desenho do fluxo do FlowBuilder que chama a IA (cmv-flowbuilder), integra\u00e7\u00e3o por API ou webhook (cmv-api) nem textos de campanhas e templates (cmv-mensagens).",
+      "train_passed": 12,
+      "train_failed": 0,
+      "train_total": 12,
+      "train_results": [
+        {
+          "query": "a avalia\u00e7\u00e3o pela IA do chat master veloz deu nota baixa pros meus atendimentos, como ela calcula essa nota?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "qual temperatura e quantos tokens eu coloco no prompt do GPT Assistant do cmv?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "d\u00e1 pra usar o GPT assistant do chat master veloz dentro de um grupo de whatsapp?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "escreve um prompt de atendente virtual pra minha loja de pneus no chatmasterveloz, que responda medida e pre\u00e7o e passe pro vendedor",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "oi, tenho uma cl\u00ednica de est\u00e9tica e queria colocar o chatgpt pra responder o whatsapp no chat master veloz, tirar duvida de pre\u00e7o e j\u00e1 deixar a avalia\u00e7\u00e3o agendada. como fa\u00e7o?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "minha IA do CMV fala que vai transferir pro atendente e n\u00e3o transfere. o prompt \u00e9 esse: 'quando pedir humano diga que vai transferir #{\"queueId\": \"12\"}'",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "escreve 5 respostas r\u00e1pidas de p\u00f3s-venda pra minha loja no chat master veloz",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "como cadastro um atendente novo e defino os setores dele no chat master veloz?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "integrar a API da OpenAI no meu app python pra resumir textos longos",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "monta um fluxo no flowbuilder do chat master veloz com menu de 3 op\u00e7\u00f5es que manda pro setor certo",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "quero trocar a fonte e as cores do painel do CMV pras da minha marca",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "escreve uma mensagem de campanha pra divulgar a black friday no chat master veloz",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        }
+      ],
+      "test_passed": 7,
+      "test_failed": 1,
+      "test_total": 8,
+      "test_results": [
+        {
+          "query": "o tipo Agente OpenAI sumiu do chat master veloz, como migro meu assistente antigo?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "como ligo a transcri\u00e7\u00e3o de \u00e1udio no chat master veloz? os clientes mandam muito \u00e1udio e a equipe n\u00e3o consegue ouvir tudo",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "apareceu um bot\u00e3o de estrelinha do lado do campo de mensagem no chat master veloz, \u00e9 sugest\u00e3o de resposta da IA? gasta cr\u00e9dito?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "quero um rob\u00f4 inteligente no chat master veloz que n\u00e3o invente pre\u00e7o e passe pra humano quando n\u00e3o souber responder",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "onde vejo o relat\u00f3rio de atendimentos por atendente no chat master veloz?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "como crio um GPT personalizado no ChatGPT pra responder os clientes da minha loja?",
+          "should_trigger": false,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "escreve um system prompt pra um bot de atendimento no Botpress",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "como envio uma mensagem pela API do chat master veloz a partir do meu sistema em node?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        }
+      ],
+      "passed": 12,
+      "failed": 0,
+      "total": 12,
+      "results": [
+        {
+          "query": "a avalia\u00e7\u00e3o pela IA do chat master veloz deu nota baixa pros meus atendimentos, como ela calcula essa nota?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "qual temperatura e quantos tokens eu coloco no prompt do GPT Assistant do cmv?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "d\u00e1 pra usar o GPT assistant do chat master veloz dentro de um grupo de whatsapp?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "escreve um prompt de atendente virtual pra minha loja de pneus no chatmasterveloz, que responda medida e pre\u00e7o e passe pro vendedor",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "oi, tenho uma cl\u00ednica de est\u00e9tica e queria colocar o chatgpt pra responder o whatsapp no chat master veloz, tirar duvida de pre\u00e7o e j\u00e1 deixar a avalia\u00e7\u00e3o agendada. como fa\u00e7o?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "minha IA do CMV fala que vai transferir pro atendente e n\u00e3o transfere. o prompt \u00e9 esse: 'quando pedir humano diga que vai transferir #{\"queueId\": \"12\"}'",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "escreve 5 respostas r\u00e1pidas de p\u00f3s-venda pra minha loja no chat master veloz",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "como cadastro um atendente novo e defino os setores dele no chat master veloz?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "integrar a API da OpenAI no meu app python pra resumir textos longos",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "monta um fluxo no flowbuilder do chat master veloz com menu de 3 op\u00e7\u00f5es que manda pro setor certo",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "quero trocar a fonte e as cores do painel do CMV pras da minha marca",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "escreve uma mensagem de campanha pra divulgar a black friday no chat master veloz",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        }
+      ]
+    }
+  ]
+}

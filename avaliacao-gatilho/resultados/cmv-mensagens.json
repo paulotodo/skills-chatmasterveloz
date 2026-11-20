@@ -1,0 +1,290 @@
+{
+  "exit_reason": "all_passed (iteration 1)",
+  "original_description": "Redige mensagens prontas para colar no Chat Master Veloz (CMV, chatmasterveloz): respostas r\u00e1pidas, templates da API Oficial do WhatsApp, campanhas de disparo em massa, agendamentos, mensagem de anivers\u00e1rio, sauda\u00e7\u00e3o e fora de expediente do setor, aus\u00eancia e encerramento, com as vari\u00e1veis certas e o passo a passo de onde cadastrar no painel. Use sempre que a pessoa pedir para escrever, melhorar ou revisar qualquer texto enviado a clientes pela plataforma (cobran\u00e7a, lembrete, confirma\u00e7\u00e3o, reativa\u00e7\u00e3o, p\u00f3s-venda, pesquisa, carrinho abandonado, boas-vindas), mesmo que n\u00e3o cite o CMV nem diga \"resposta r\u00e1pida\" ou \"template\", e tamb\u00e9m em d\u00favidas sobre template reprovado, categoria utilidade ou marketing, janela de 24h, cobran\u00e7a da Meta ou risco de bloqueio. N\u00e3o cobre desenho de fluxo de chatbot (cmv-flowbuilder), envio de template por API (cmv-api) nem prompt de IA (cmv-agente-ia).",
+  "best_description": "Redige mensagens prontas para colar no Chat Master Veloz (CMV, chatmasterveloz): respostas r\u00e1pidas, templates da API Oficial do WhatsApp, campanhas de disparo em massa, agendamentos, mensagem de anivers\u00e1rio, sauda\u00e7\u00e3o e fora de expediente do setor, aus\u00eancia e encerramento, com as vari\u00e1veis certas e o passo a passo de onde cadastrar no painel. Use sempre que a pessoa pedir para escrever, melhorar ou revisar qualquer texto enviado a clientes pela plataforma (cobran\u00e7a, lembrete, confirma\u00e7\u00e3o, reativa\u00e7\u00e3o, p\u00f3s-venda, pesquisa, carrinho abandonado, boas-vindas), mesmo que n\u00e3o cite o CMV nem diga \"resposta r\u00e1pida\" ou \"template\", e tamb\u00e9m em d\u00favidas sobre template reprovado, categoria utilidade ou marketing, janela de 24h, cobran\u00e7a da Meta ou risco de bloqueio. N\u00e3o cobre desenho de fluxo de chatbot (cmv-flowbuilder), envio de template por API (cmv-api) nem prompt de IA (cmv-agente-ia).",
+  "best_score": "8/8",
+  "best_train_score": "12/12",
+  "best_test_score": "8/8",
+  "final_description": "Redige mensagens prontas para colar no Chat Master Veloz (CMV, chatmasterveloz): respostas r\u00e1pidas, templates da API Oficial do WhatsApp, campanhas de disparo em massa, agendamentos, mensagem de anivers\u00e1rio, sauda\u00e7\u00e3o e fora de expediente do setor, aus\u00eancia e encerramento, com as vari\u00e1veis certas e o passo a passo de onde cadastrar no painel. Use sempre que a pessoa pedir para escrever, melhorar ou revisar qualquer texto enviado a clientes pela plataforma (cobran\u00e7a, lembrete, confirma\u00e7\u00e3o, reativa\u00e7\u00e3o, p\u00f3s-venda, pesquisa, carrinho abandonado, boas-vindas), mesmo que n\u00e3o cite o CMV nem diga \"resposta r\u00e1pida\" ou \"template\", e tamb\u00e9m em d\u00favidas sobre template reprovado, categoria utilidade ou marketing, janela de 24h, cobran\u00e7a da Meta ou risco de bloqueio. N\u00e3o cobre desenho de fluxo de chatbot (cmv-flowbuilder), envio de template por API (cmv-api) nem prompt de IA (cmv-agente-ia).",
+  "iterations_run": 1,
+  "holdout": 0.4,
+  "train_size": 12,
+  "test_size": 8,
+  "history": [
+    {
+      "iteration": 1,
+      "description": "Redige mensagens prontas para colar no Chat Master Veloz (CMV, chatmasterveloz): respostas r\u00e1pidas, templates da API Oficial do WhatsApp, campanhas de disparo em massa, agendamentos, mensagem de anivers\u00e1rio, sauda\u00e7\u00e3o e fora de expediente do setor, aus\u00eancia e encerramento, com as vari\u00e1veis certas e o passo a passo de onde cadastrar no painel. Use sempre que a pessoa pedir para escrever, melhorar ou revisar qualquer texto enviado a clientes pela plataforma (cobran\u00e7a, lembrete, confirma\u00e7\u00e3o, reativa\u00e7\u00e3o, p\u00f3s-venda, pesquisa, carrinho abandonado, boas-vindas), mesmo que n\u00e3o cite o CMV nem diga \"resposta r\u00e1pida\" ou \"template\", e tamb\u00e9m em d\u00favidas sobre template reprovado, categoria utilidade ou marketing, janela de 24h, cobran\u00e7a da Meta ou risco de bloqueio. N\u00e3o cobre desenho de fluxo de chatbot (cmv-flowbuilder), envio de template por API (cmv-api) nem prompt de IA (cmv-agente-ia).",
+      "train_passed": 12,
+      "train_failed": 0,
+      "train_total": 12,
+      "train_results": [
+        {
+          "query": "faz a mensagem de fora do hor\u00e1rio e a de sauda\u00e7\u00e3o do setor de vendas no CMV, tom descontra\u00eddo",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "qual vari\u00e1vel eu uso pra colocar o primeiro nome do cliente na resposta r\u00e1pida do chat master veloz?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "melhora esse texto de carrinho abandonado que eu mando pelo chat master veloz: 'oi, vi que vc nao finalizou a compra'",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "meu template de marketing foi reprovado pela meta no chatmasterveloz, como eu reescrevo pra passar?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "migrei pra API oficial no chat master veloz e preciso de um template de cobran\u00e7a de mensalidade que n\u00e3o seja reprovado. tem como mandar autom\u00e1tico todo dia 5?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "cria respostas r\u00e1pidas pra recep\u00e7\u00e3o da minha cl\u00ednica odontol\u00f3gica no CMV: sauda\u00e7\u00e3o, confirmar consulta, localiza\u00e7\u00e3o, pix e p\u00f3s-atendimento",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "monta um fluxo no flowbuilder do chat master veloz de pesquisa de satisfa\u00e7\u00e3o com nota de 1 a 5",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "as mensagens do cliente n\u00e3o aparecem no Aguardando do chat master veloz, o que pode ser?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "escreve uma legenda de instagram pra divulgar meu restaurante japon\u00eas",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "como envio template com vari\u00e1veis pela API do chat master veloz a partir do meu sistema? qual payload?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "deixa o bal\u00e3o das mensagens enviadas no painel do chat master veloz com outra cor",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "meu webhook do CMV n\u00e3o recebe as mensagens de \u00e1udio, s\u00f3 texto",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        }
+      ],
+      "test_passed": 8,
+      "test_failed": 0,
+      "test_total": 8,
+      "test_results": [
+        {
+          "query": "texto pra lembrete de consulta 1 dia antes, vou usar o agendamento de mensagem do chat master veloz",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "escreve a mensagem de anivers\u00e1rio autom\u00e1tica do chat master veloz pra minha academia",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "quero fazer uma campanha pra reativar uns 800 clientes que n\u00e3o compram h\u00e1 6 meses no chat master veloz, me ajuda com o texto",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "quanto custa mandar template de utilidade pelo chat master veloz depois que a meta mudou a cobran\u00e7a?",
+          "should_trigger": true,
+          "trigger_rate": 0.6666666666666666,
+          "triggers": 2,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "como conecto o whatsapp oficial no chat master veloz? j\u00e1 tenho a BM verificada",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "cria um template de mensagem no gerenciador do WhatsApp da Meta pra minha empresa, eu uso a Zenvia",
+          "should_trigger": false,
+          "trigger_rate": 0.3333333333333333,
+          "triggers": 1,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "escreve o prompt da IA do chat master veloz pra responder d\u00favidas de matr\u00edcula da minha escola",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "escreve um email marketing de black friday pra mandar pelo mailchimp",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        }
+      ],
+      "passed": 12,
+      "failed": 0,
+      "total": 12,
+      "results": [
+        {
+          "query": "faz a mensagem de fora do hor\u00e1rio e a de sauda\u00e7\u00e3o do setor de vendas no CMV, tom descontra\u00eddo",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "qual vari\u00e1vel eu uso pra colocar o primeiro nome do cliente na resposta r\u00e1pida do chat master veloz?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "melhora esse texto de carrinho abandonado que eu mando pelo chat master veloz: 'oi, vi que vc nao finalizou a compra'",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "meu template de marketing foi reprovado pela meta no chatmasterveloz, como eu reescrevo pra passar?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "migrei pra API oficial no chat master veloz e preciso de um template de cobran\u00e7a de mensalidade que n\u00e3o seja reprovado. tem como mandar autom\u00e1tico todo dia 5?",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "cria respostas r\u00e1pidas pra recep\u00e7\u00e3o da minha cl\u00ednica odontol\u00f3gica no CMV: sauda\u00e7\u00e3o, confirmar consulta, localiza\u00e7\u00e3o, pix e p\u00f3s-atendimento",
+          "should_trigger": true,
+          "trigger_rate": 1.0,
+          "triggers": 3,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "monta um fluxo no flowbuilder do chat master veloz de pesquisa de satisfa\u00e7\u00e3o com nota de 1 a 5",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "as mensagens do cliente n\u00e3o aparecem no Aguardando do chat master veloz, o que pode ser?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "escreve uma legenda de instagram pra divulgar meu restaurante japon\u00eas",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "como envio template com vari\u00e1veis pela API do chat master veloz a partir do meu sistema? qual payload?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "deixa o bal\u00e3o das mensagens enviadas no painel do chat master veloz com outra cor",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "meu webhook do CMV n\u00e3o recebe as mensagens de \u00e1udio, s\u00f3 texto",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        }
+      ]
+    }
+  ]
+}

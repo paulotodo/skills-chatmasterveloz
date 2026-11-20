@@ -1,0 +1,94 @@
+{
+  "skill_name": "cmv-mensagens",
+  "description": "Redige mensagens prontas para colar no Chat Master Veloz (CMV, chatmasterveloz): respostas rápidas, templates da API Oficial do WhatsApp, campanhas de disparo em massa, agendamentos, mensagem de aniversário, saudação e fora de expediente do setor, ausência e encerramento, com as variáveis certas e o passo a passo de onde cadastrar no painel. Use sempre que a pessoa pedir para escrever, melhorar ou revisar qualquer texto enviado a clientes pela plataforma (cobrança, lembrete, confirmação, reativação, pós-venda, pesquisa, carrinho abandonado, boas-vindas), mesmo que não cite o CMV nem diga \"resposta rápida\" ou \"template\", e também em dúvidas sobre template reprovado, categoria utilidade ou marketing, janela de 24h, cobrança da Meta ou risco de bloqueio. Não cobre desenho de fluxo de chatbot (cmv-flowbuilder), envio de template por API (cmv-api) nem prompt de IA (cmv-agente-ia).",
+  "results": [
+    {
+      "query": "Meu template foi reprovado pela Meta duas vezes. O texto era: 'Olá {{1}}, aproveite 30% OFF só hoje!!! Clique já e garanta'. Cadastrei como utilidade. Reescreve de um jeito que passe, me diz a categoria certa e o que preencher na Gestão de Templates.",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "Cria umas 10 respostas rápidas pra minha loja de roupas no Chat Master Veloz: prazo de entrega, troca e devolução, tabela de medidas, formas de pagamento, chave pix e agradecimento pós-compra.",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "Vou fazer uma campanha de Black Friday no CMV pelo WhatsApp de QR Code para uns 1.200 contatos da minha loja de suplementos. Escreve as variações da mensagem e me diz como reduzir o risco de o número ser bloqueado.",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "quero agendar no chatmasterveloz uma msg todo dia 5 lembrando os alunos da mensalidade da academia. como escrevo isso e coloco o nome de cada um?",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "texto pra mensagem de aniversário e pra msg de fora do expediente do setor comercial, tom descontraido, é uma barbearia (uso o master veloz)",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "Como cadastro a mensagem de saudação e as respostas rápidas no aplicativo WhatsApp Business? Aproveita e me sugere os textos, é pra um salão de beleza.",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "Escreve um template de marketing pra eu cadastrar direto no Gerenciador do WhatsApp da Meta; quem dispara pra mim é a Zenvia.",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "Me passa o JSON do POST pra enviar um template aprovado com duas variáveis pela API do Chat Master Veloz, de preferência com exemplo em Node.",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "No FlowBuilder, como configuro o bloco Template pra mandar meu template já aprovado no começo do fluxo e seguir por caminhos diferentes conforme o botão que o cliente clicar?",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "Escreve o prompt da IA do CMV pra ela responder dúvidas de troca e devolução no tom da minha marca, que é jovem e direto.",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    }
+  ],
+  "summary": {
+    "total": 10,
+    "passed": 10,
+    "failed": 0
+  },
+  "modelo": "claude-fable-5-2",
+  "conjunto": "independentes",
+  "modo": "sessão inteira"
+}

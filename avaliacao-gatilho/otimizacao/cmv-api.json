@@ -1,0 +1,82 @@
+[
+ {
+  "query": "Preciso que meu sistema em PHP mande um WhatsApp pelo Chat Master Veloz quando o pagamento for aprovado. Qual endpoint e payload?",
+  "should_trigger": true
+ },
+ {
+  "query": "no n8n eu recebo as mensagens do CMV pelo webhook da conexão mas chega tudo duplicado e áudio vem vazio. conexão é API oficial. como arrumo?",
+  "should_trigger": true
+ },
+ {
+  "query": "me passa um curl pra transferir o ticket 4521 pro setor financeiro e adicionar a tag Cobrança sem apagar as outras, chat master veloz",
+  "should_trigger": true
+ },
+ {
+  "query": "onde pego o token pra usar a API do chat master veloz? e qual a diferença entre token da empresa e token da conexão?",
+  "should_trigger": true
+ },
+ {
+  "query": "quero que o formulário do meu site crie o contato no chatmasterveloz e já dispare um fluxo, como faço isso sem expor o token?",
+  "should_trigger": true
+ },
+ {
+  "query": "a chamada de enviar imagem por url do CMV tá voltando 401, minha conexão é a pro. o que eu confiro?",
+  "should_trigger": true
+ },
+ {
+  "query": "como recebo no meu servidor um aviso toda vez que um ticket é encerrado no chat master veloz?",
+  "should_trigger": true
+ },
+ {
+  "query": "script python pra puxar as oportunidades de um funil do CRM do chat master veloz e jogar numa planilha",
+  "should_trigger": true
+ },
+ {
+  "query": "integrar o Make com o chat master veloz pra mandar template da API oficial quando entrar lead novo no RD Station",
+  "should_trigger": true
+ },
+ {
+  "query": "Qual o payload pra mandar mensagem de lista pela API do CMV numa conexão básica de qr code?",
+  "should_trigger": true
+ },
+ {
+  "query": "como um atendente transfere um atendimento pra outro setor pelo painel do chat master veloz?",
+  "should_trigger": false
+ },
+ {
+  "query": "monta um fluxo no flowbuilder do cmv que pergunta o CPF e consulta meu sistema pelo bloco HTTP Request antes de responder",
+  "should_trigger": false
+ },
+ {
+  "query": "escreve o texto de um template de confirmação de consulta pra API oficial no chat master veloz",
+  "should_trigger": false
+ },
+ {
+  "query": "onde coloco a chave da OpenAI no chat master veloz pra ligar o GPT Assistant?",
+  "should_trigger": false
+ },
+ {
+  "query": "dá pra colocar um script no JS personalizado do painel do CMV que mostra um aviso quando abre a tela de contatos?",
+  "should_trigger": false
+ },
+ {
+  "query": "como integrar a Z-API com meu sistema em PHP pra mandar mensagem no whatsapp?",
+  "should_trigger": false
+ },
+ {
+  "query": "na Cloud API da Meta, como envio um template com variável chamando a graph api direto, sem plataforma no meio?",
+  "should_trigger": false
+ },
+ {
+  "query": "no painel do chat master veloz, como tiro um relatório dos atendimentos encerrados por atendente no mês?",
+  "should_trigger": false
+ },
+ {
+  "query": "quero fazer uma campanha de disparo pra 800 clientes inativos no chat master veloz, me ajuda com o texto",
+  "should_trigger": false
+ },
+ {
+  "query": "configurar o nó HTTP Request do n8n pra chamar a API do Pipedrive com OAuth2",
+  "should_trigger": false
+ }
+]

@@ -1,0 +1,2478 @@
+{
+  "modelo": "claude-opus-5-5",
+  "conjunto": "teste",
+  "resultados": [
+    {
+      "id": "t-001",
+      "pedido": "coloquei limite de 5 atendimentos simultaneos pra cada atendente mas tem gente aceitando conversa acima disso. o q ta faltando?",
+      "destino": "cmv-ajuda",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Dúvida de uso do painel: artigo Limite de Atendimentos Simultâneos (opção Bloquear aceitar acima do limite), área Equipe da Central de Ajuda.",
+      "segundo_anotador": {
+        "destino": "cmv-ajuda",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Limite de atendimentos simultâneos que não é respeitado é dúvida de configuração do painel."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-002",
+      "pedido": "O QR Code da mesa 7 foi fotografado e tem gente fazendo pedido de casa pelo cardápio digital. Como invalido só o dessa mesa, sem ter que reimprimir o das outras?",
+      "destino": "cmv-ajuda",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Uso do PDV: dúvida comum do artigo Mesas e Comandas (Trocar o QR Code da mesa).",
+      "segundo_anotador": {
+        "destino": "cmv-ajuda",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Invalidar o QR Code de uma mesa do cardápio digital é uso do PDV (cmv-ajuda)."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-003",
+      "pedido": "cadastrei a conta de email do comercial no painel só q ta puxando a caixa inteira, inclusive coisa pessoal do vendedor. da pra sincronizar só uma pasta?",
+      "destino": "cmv-ajuda",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Uso do módulo E-mails: artigo Caixa de E-mail Compartilhada: Pastas e Endereços Aceitos.",
+      "segundo_anotador": {
+        "destino": "cmv-ajuda",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Dúvida de uso do menu E-mails (contas e sincronização) é da cmv-ajuda."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-004",
+      "pedido": "sumiu uma coluna do kanban de tags, a tag ainda existe no cadastro. pq?",
+      "destino": "cmv-ajuda",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Dúvida comum do artigo Kanban de Tags (tipo da tag alterado ou campo Kanban desabilitado).",
+      "segundo_anotador": {
+        "destino": "cmv-ajuda",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Coluna que sumiu do Kanban de Tags é dúvida de uso do painel."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-005",
+      "pedido": "atendente novo nao recebe o aviso no whatsapp pessoal qdo chega conversa no aguardando do setor dele, os outros recebem normal. oq conferir?",
+      "destino": "cmv-ajuda",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Dúvida comum do artigo Avise-me (Notificar Operador no WhatsApp, acesso ao Setor e Telefone do usuário).",
+      "segundo_anotador": {
+        "destino": "cmv-ajuda",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Aviso no WhatsApp pessoal do atendente (Avise-me) que não chega é dúvida de configuração do painel."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-006",
+      "pedido": "Quero que atendente não consiga excluir contato de jeito nenhum no CMV, nem achando outro caminho pra tela. Supervisor e admin continuam podendo. Como travo isso?",
+      "destino": "cmv-ajuda",
+      "aceitavel": [],
+      "tipo": "fronteira",
+      "motivo": "Fronteira com cmv-painel-css-js, que perde: o pedido é bloqueio por perfil, e o SKILL.md do CSS diz que esconder não é bloquear e que permissão por perfil é da cmv-ajuda.",
+      "segundo_anotador": {
+        "destino": "cmv-ajuda",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Impedir de verdade a exclusão é permissão por perfil, que a cmv-painel-css-js manda para a cmv-ajuda (esconder não é bloquear)."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-007",
+      "pedido": "como ativo aquele menu simples que a própria conexão manda com os setores (1 Comercial, 2 Financeiro, 3 Suporte)? criei os setores no chat master veloz mas o cliente não recebe opção nenhuma",
+      "destino": "cmv-ajuda",
+      "aceitavel": [],
+      "tipo": "fronteira",
+      "motivo": "Fronteira com cmv-flowbuilder, que perde: o menu de Setores da conexão é configuração do painel (artigo Chatbot e Menu de Setores na Conexão), não desenho de fluxo, e a tabela do flowbuilder manda configuração de conexão para a cmv-ajuda.",
+      "segundo_anotador": {
+        "destino": "cmv-ajuda",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Ativar o menu de Setores da própria Conexão é configuração de tela (chatbot-e-menu-de-setores-na-conexao.md), não fluxo."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-008",
+      "pedido": "Como eu crio uma campanha pelo WhatsApp de QR Code? Os textos o marketing já me passou prontos, o que eu não sei é onde monta a lista de contatos e onde marca o dia e a hora do disparo.",
+      "destino": "cmv-ajuda",
+      "aceitavel": [],
+      "tipo": "fronteira",
+      "motivo": "Fronteira com cmv-mensagens, que perde: não há texto a redigir, e o SKILL.md da ajuda mantém nela o 'como criar uma campanha' (onde fica e como se usa).",
+      "segundo_anotador": {
+        "destino": "cmv-ajuda",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Onde montar a lista e marcar o disparo da campanha, com textos prontos, é dúvida de uso sem redação (cmv-ajuda)."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-009",
+      "pedido": "apareceu um recado vermelho escrito Missing Body in Payload embaixo de uma conversa. a gente nem usa api, q erro é esse??",
+      "destino": "cmv-ajuda",
+      "aceitavel": [],
+      "tipo": "vocabulario-ambiguo",
+      "motivo": "Parece assunto de API (payload), mas é o recado vermelho do artigo Missing Body in Payload, em Problema / Solução: erro de painel, não chamada de API.",
+      "segundo_anotador": {
+        "destino": "cmv-ajuda",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Recado vermelho 'Missing Body in Payload' na conversa é alertas-vermelhos-no-chat.md (cmv-ajuda)."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-010",
+      "pedido": "Trouxemos nosso número da API oficial de outra plataforma para o Chat Master Veloz. Os templates que já estavam aprovados lá aparecem sozinhos ou tenho que sincronizar em algum lugar?",
+      "destino": "cmv-ajuda",
+      "aceitavel": [],
+      "tipo": "vocabulario-ambiguo",
+      "motivo": "Fala de template e API, mas é uso do painel sem redação nem código (Trazer um Número da API Oficial de Outra Plataforma, Gestão de Templates); a cmv-mensagens manda dúvida de uso sem redigir para a cmv-ajuda.",
+      "segundo_anotador": {
+        "destino": "cmv-ajuda",
+        "aceitavel": [],
+        "confianca": "media",
+        "motivo": "Se os templates de outra plataforma aparecem ou precisam de sincronização é dúvida de uso sem redação (trazer-um-numero-da-api-oficial-de-outra-plataforma.md)."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-011",
+      "pedido": "quero mudar a cor e o arredondado dos botões da página do Link na Bio. vi que tem um campo de css lá, quais classes eu uso?",
+      "destino": "cmv-ajuda",
+      "aceitavel": [
+        "cmv-painel-css-js"
+      ],
+      "tipo": "vocabulario-ambiguo",
+      "motivo": "Fala de CSS, mas a página do Link na Bio não é o painel: o bloco Aparência (CSS e JavaScript) e as classes .bio-* estão no artigo Link na Bio da Central de Ajuda, fora do catálogo da cmv-painel-css-js.",
+      "segundo_anotador": {
+        "destino": "cmv-ajuda",
+        "aceitavel": [
+          "cmv-painel-css-js"
+        ],
+        "confianca": "baixa",
+        "motivo": "O campo de CSS e as classes .bio-* da página pública estão só no artigo link-na-bio.md; o catálogo da cmv-painel-css-js só cobre a tela do painel, mas ela reivindica 'qual seletor uso'."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-012",
+      "pedido": "quanto custa colocar mais 3 usuários no meu plano do Chat Master Veloz? e tem fidelidade ou posso cancelar qdo quiser?",
+      "destino": "cmv-ajuda",
+      "aceitavel": [],
+      "tipo": "lacuna",
+      "motivo": "Pergunta sobre o produto que a documentação não cobre (planos e preços): a seção 'Quando a documentação não cobre' da cmv-ajuda manda dizer isso e indicar o suporte.",
+      "segundo_anotador": {
+        "destino": "cmv-ajuda",
+        "aceitavel": [],
+        "confianca": "media",
+        "motivo": "Pergunta sobre plano e fidelidade do CMV fica com a cmv-ajuda, que diz que a documentação não lista preços e indica o suporte."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-013",
+      "pedido": "preciso de um curl pra encerrar o ticket pelo ticketId quando o pedido sai como entregue no meu sistema de delivery. a conexão é whatsapp por QR code e o token já tá definido na aba Integrações dela",
+      "destino": "cmv-api",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Chamada de API pedida em cURL (artigo API Encerrar Ticket): montar pedido HTTP é o trabalho da cmv-api.",
+      "segundo_anotador": {
+        "destino": "cmv-api",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "cURL para encerrar ticket pelo ticketId com token da conexão: cmv-api."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-014",
+      "pedido": "O webhook do Setor está mandando aviso até das mensagens que o próprio atendente envia. Como eu filtro só as que vêm do cliente no meu receptor em PHP? Qual campo do JSON diferencia?",
+      "destino": "cmv-api",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Receber e tratar aviso de webhook em receptor próprio (Webhook do Setor, receita de receber e responder) é da cmv-api.",
+      "segundo_anotador": {
+        "destino": "cmv-api",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Filtrar avisos do webhook do Setor por campo do JSON no receptor PHP é da cmv-api."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-015",
+      "pedido": "como mando um botão de pix copia e cola por requisição http na conexão Pro? tentei aqui e a msg chegou só com o texto, sem botão nenhum",
+      "destino": "cmv-api",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Endpoint e payload de botões (API Botão Pix, Pré-Requisitos dos Botões) e a armadilha 'mensagem chegou sem os botões' estão na cmv-api.",
+      "segundo_anotador": {
+        "destino": "cmv-api",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Botão PIX por requisição HTTP na conexão Pro que chega sem botão é diagnóstico de API (cmv-api)."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-016",
+      "pedido": "tenho uma planilha com umas 300 reservas do restaurante e queria um script em python que cria a reserva de mesa de cada uma no PDV. qual endpoint e quais campos vão no corpo?",
+      "destino": "cmv-api",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Código que chama endpoint (API Criar Reserva de Mesa, seção PDV do índice de APIs) é da cmv-api.",
+      "segundo_anotador": {
+        "destino": "cmv-api",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Script Python criando reservas de mesa no PDV: endpoint e campos são da cmv-api."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-017",
+      "pedido": "Nosso ERP precisa mover a oportunidade de raia quando o boleto é compensado. Estamos no CRM novo, com vários funis, e vamos usar o Token da Empresa. Existe chamada para isso? Como fica o pedido?",
+      "destino": "cmv-api",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Integração de sistema externo com o CRM novo (API Mover Oportunidade de Raia, Token da Empresa) é chamada de API.",
+      "segundo_anotador": {
+        "destino": "cmv-api",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Mover oportunidade no CRM novo com Token da Empresa é chamada de API (cmv-api)."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-018",
+      "pedido": "qdo alguem preenche o formulário de matrícula no site da escola (wordpress) quero q o robô já chame a pessoa no whats levando nome e curso de interesse. o fluxo já tá pronto e testado no FlowBuilder, falta o site disparar ele. como faço essa chamada?",
+      "destino": "cmv-api",
+      "aceitavel": [],
+      "tipo": "fronteira",
+      "motivo": "Fronteira com cmv-flowbuilder, que perde: o fluxo já existe e o pedido é o sistema externo iniciar o fluxo (Webhook Trigger ou API de iniciar fluxo), que o SKILL.md do flowbuilder diz ser 'a chamada da cmv-api'.",
+      "segundo_anotador": {
+        "destino": "cmv-api",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "O site disparar um fluxo pronto é Webhook Trigger ou API de iniciar fluxo (cmv-api)."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-019",
+      "pedido": "Minha chamada de enviar texto volta 401 \"Acesso não permitido\". Estou fazendo POST em https://api2.chatmasterveloz.com/api/messages/send com Authorization: Bearer e o token que copiei em Configurações > Token da Empresa, corpo {\"number\":\"5541999990000\",\"body\":\"teste\"}. O que está errado?",
+      "destino": "cmv-api",
+      "aceitavel": [],
+      "tipo": "fronteira",
+      "motivo": "Fronteira com cmv-ajuda (artigo API não funciona), que perde: é diagnóstico de erro em chamada de API com payload, e a tabela da ajuda manda código, payload e endpoint para a cmv-api.",
+      "segundo_anotador": {
+        "destino": "cmv-api",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Erro 401 em chamada de envio com Token da Empresa é diagnóstico de API."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-020",
+      "pedido": "Tenho um template de utilidade já aprovado, lembrete_consulta, com {{1}} = nome do paciente e {{2}} = horário. Preciso do JSON pra disparar ele a partir do sistema da clínica pela API oficial.",
+      "destino": "cmv-api",
+      "aceitavel": [],
+      "tipo": "fronteira",
+      "motivo": "Fronteira com cmv-mensagens, que perde: o texto já está aprovado e o pedido é o payload; a tabela da mensagens manda 'enviar template por API, payload' para a cmv-api.",
+      "segundo_anotador": {
+        "destino": "cmv-api",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "JSON para disparar template aprovado a partir de um sistema é envio por API (cmv-api)."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-021",
+      "pedido": "queria jogar no nosso BI a nota que a Avaliação pela IA dá pra cada atendimento encerrado. tem webhook disso? o q chega nele?",
+      "destino": "cmv-api",
+      "aceitavel": [],
+      "tipo": "vocabulario-ambiguo",
+      "motivo": "Fala de IA, mas a tabela de limites da cmv-agente-ia manda integração por webhook, 'inclusive o webhook da Avaliação pela IA', para a cmv-api.",
+      "segundo_anotador": {
+        "destino": "cmv-api",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "O webhook da Avaliação pela IA é citado nominalmente como da cmv-api no limite da cmv-agente-ia."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-022",
+      "pedido": "tem como cadastrar respostas rápidas em lote no CMV? tenho 80 num csv (atalho;texto) e não quero digitar uma por uma. sei mexer com node",
+      "destino": "cmv-api",
+      "aceitavel": [],
+      "tipo": "vocabulario-ambiguo",
+      "motivo": "Fala de respostas rápidas, mas os textos já existem e o pedido é um script que chama a API (API Criar Resposta Rápida): código e endpoint são da cmv-api.",
+      "segundo_anotador": {
+        "destino": "cmv-api",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Cadastro em lote de respostas rápidas com Node usa a API Criar Resposta Rápida (cmv-api)."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-023",
+      "pedido": "Quando a secretária marca uma consulta no nosso sistema, quero que ele já crie sozinho, lá em Agendamentos, a mensagem de lembrete pro paciente pra véspera às 18h. Tem endpoint pra isso? Se puder, exemplo em PHP.",
+      "destino": "cmv-api",
+      "aceitavel": [],
+      "tipo": "vocabulario-ambiguo",
+      "motivo": "Fala de agendamento de mensagem, mas pede endpoint e código (API Criar Agendamento), não o texto: é da cmv-api.",
+      "segundo_anotador": {
+        "destino": "cmv-api",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Sistema externo criando agendamento por endpoint, com exemplo em PHP: cmv-api."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-024",
+      "pedido": "Como recebo no meu servidor um aviso toda vez que um pedido do PDV do Chat Master Veloz muda de status (confirmado, em preparo, saiu pra entrega)? Preciso saber onde cadastro a URL e o formato do que chega.",
+      "destino": "cmv-api",
+      "aceitavel": [],
+      "tipo": "com-nome",
+      "motivo": "'Ser avisado quando algo acontece' é webhook que sai da plataforma (Webhook do PDV), sentido tratado pela cmv-api.",
+      "segundo_anotador": {
+        "destino": "cmv-api",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Receber aviso de mudança de status de pedido do PDV, com URL e formato, é webhook (cmv-api)."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-025",
+      "pedido": "preciso de um fluxo pro instagram da loja no flowbuilder: a pessoa comenta EU QUERO no post e recebe no direct o link do catálogo, mas só se já seguir o perfil. se não segue, pede pra seguir antes",
+      "destino": "cmv-flowbuilder",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Desenhar fluxo com ponto de entrada por comentário do Instagram e bloco É Seguidor? é o trabalho da cmv-flowbuilder.",
+      "segundo_anotador": {
+        "destino": "cmv-flowbuilder",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Fluxo de Instagram com gatilho por comentário é da cmv-flowbuilder."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-026",
+      "pedido": "Meu robô manda as boas-vindas duas vezes seguidas pra todo cliente novo. O fluxo só tem um bloco Conteúdo no começo, antes do Menu. O que pode ser?",
+      "destino": "cmv-flowbuilder",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Diagnóstico de fluxo: armadilha 2 do SKILL.md (Mensagem de saudação do Setor de entrada soma com a primeira mensagem do fluxo).",
+      "segundo_anotador": {
+        "destino": "cmv-flowbuilder",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Boas-vindas duplicadas no início do fluxo: armadilha 2 da cmv-flowbuilder."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-027",
+      "pedido": "quero testar duas abordagens no FlowBuilder Nativo: metade dos leads que entram recebe a oferta A e a outra metade a oferta B, e cada grupo ganha uma tag diferente pra eu comparar depois. como monto?",
+      "destino": "cmv-flowbuilder",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Escolha e ligação de blocos (Randomizador, Tag) num fluxo: desenho de fluxo, cmv-flowbuilder.",
+      "segundo_anotador": {
+        "destino": "cmv-flowbuilder",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Montar teste A/B com Randomizador e tags no FlowBuilder é desenho de fluxo."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-028",
+      "pedido": "Sou coordenadora de uma escola de inglês. Quando o responsável dá nota 1 ou 2 na avaliação do atendimento, queria que entrasse um fluxo perguntando o motivo e deixando um recado interno pra coordenação. Nota 4 e 5 só agradece. Dá pra desenhar isso?",
+      "destino": "cmv-flowbuilder",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Fluxo iniciado pela nota da avaliação (ponto de entrada Gatilho via Avaliação, bloco Msg Interna): desenho de fluxo.",
+      "segundo_anotador": {
+        "destino": "cmv-flowbuilder",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Fluxo iniciado pela nota da avaliação é ponto de entrada listado na cmv-flowbuilder."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-029",
+      "pedido": "fluxo trava no bloco Pergunta qdo o cliente some, nunca encerra nem cai pro atendente. como arrumo",
+      "destino": "cmv-flowbuilder",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Diagnóstico de fluxo: armadilha 5 do SKILL.md (bloco que espera sem 'Sem resposta' espera para sempre).",
+      "segundo_anotador": {
+        "destino": "cmv-flowbuilder",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Fluxo que trava na Pergunta sem 'Sem resposta' é a armadilha 5 da cmv-flowbuilder."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-030",
+      "pedido": "Quero um fluxo que começa com menu (1 agendar visita, 2 tirar dúvidas, 3 falar com corretor) e na opção 2 quem responde é o assistente que já está criado e testado em Prompts OPEN.AI. Se o cliente pedir humano, vai pro setor Corretores. Monta o desenho pra mim?",
+      "destino": "cmv-flowbuilder",
+      "aceitavel": [],
+      "tipo": "fronteira",
+      "motivo": "Fronteira com cmv-agente-ia, que perde: o assistente já existe e o pedido é o desenho do fluxo; a tabela da agente-ia manda 'menus, condições, onde entra o bloco da IA' para a cmv-flowbuilder.",
+      "segundo_anotador": {
+        "destino": "cmv-flowbuilder",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Desenhar o fluxo e onde entra o bloco da IA é da cmv-flowbuilder; o assistente já existe, então não há parte de prompt."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-031",
+      "pedido": "no meio do fluxo preciso consultar o status do pedido no meu sistema (já tenho a url, devolve um json com status e previsao) e responder pro cliente tipo 'seu pedido está X, previsão Y'. como encaixo isso nos blocos e uso o retorno na mensagem?",
+      "destino": "cmv-flowbuilder",
+      "aceitavel": [],
+      "tipo": "fronteira",
+      "motivo": "Fronteira com cmv-api, que perde: o endpoint é do sistema da pessoa e o pedido é 'onde chamar no fluxo e o que fazer com a resposta' (bloco HTTP Request), parte que o SKILL.md deixa na flowbuilder.",
+      "segundo_anotador": {
+        "destino": "cmv-flowbuilder",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Onde chamar o sistema externo no fluxo e como usar o retorno fica com a cmv-flowbuilder, pela tabela de limites dela."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-032",
+      "pedido": "Uso a API oficial no Chat Master Veloz. No fluxo de recuperação, a primeira mensagem precisa ser um template que já está aprovado (voltamos_a_falar) e, se a pessoa responder, segue pro menu. Como configuro o bloco do template dentro do fluxo e preencho a variável do nome?",
+      "destino": "cmv-flowbuilder",
+      "aceitavel": [],
+      "tipo": "fronteira",
+      "motivo": "Fronteira com cmv-mensagens, que perde: o texto já está aprovado, e a tabela da mensagens manda 'configurar o bloco Template dentro de um fluxo' para a cmv-flowbuilder.",
+      "segundo_anotador": {
+        "destino": "cmv-flowbuilder",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Configurar o bloco Template dentro do fluxo é da cmv-flowbuilder, dito no limite da cmv-mensagens."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-033",
+      "pedido": "no bloco Execução de Código JS, como tiro ponto e traço do cpf que o cliente digitou antes de passar pro bloco do Asaas? e como guardo o resultado pra usar depois",
+      "destino": "cmv-flowbuilder",
+      "aceitavel": [],
+      "tipo": "vocabulario-ambiguo",
+      "motivo": "Fala de JS, mas é o bloco Execução de Código JS do fluxo (com Variável e bloco Asaas), não o JS personalizado do painel: blocos e variáveis são da cmv-flowbuilder.",
+      "segundo_anotador": {
+        "destino": "cmv-flowbuilder",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Bloco Execução de Código JS, Asaas e Variável são blocos do FlowBuilder."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-034",
+      "pedido": "Queria que a atendente digitasse /garantia e isso rodasse uma sequência sozinha: manda o PDF do termo, espera uns segundos, pergunta se ficou alguma dúvida e marca a tag \"garantia enviada\". Tem como montar?",
+      "destino": "cmv-flowbuilder",
+      "aceitavel": [],
+      "tipo": "vocabulario-ambiguo",
+      "motivo": "Fala de atalho de resposta rápida, mas o pedido é uma sequência de blocos iniciada por ela (Gatilho via Resposta Rápida, armadilha 12): a montagem do fluxo é da flowbuilder, não da cmv-mensagens.",
+      "segundo_anotador": {
+        "destino": "cmv-flowbuilder",
+        "aceitavel": [],
+        "confianca": "media",
+        "motivo": "Sequência disparada por atalho (PDF, espera, pergunta, tag) é fluxo com gatilho via resposta rápida, a montagem é da cmv-flowbuilder."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 1,
+      "repeticoes": 3,
+      "passou": false
+    },
+    {
+      "id": "t-035",
+      "pedido": "vou disparar uma campanha de rematrícula e quero q quem responder caia num robô q pergunta a série do aluno e encaminha pra secretaria certa (fundamental ou médio). os textos da campanha já estão prontos, falta essa parte automática",
+      "destino": "cmv-flowbuilder",
+      "aceitavel": [],
+      "tipo": "vocabulario-ambiguo",
+      "motivo": "Fala de campanha, mas pede só o fluxo que ela dispara (Gatilho via Campanha); a cmv-mensagens diz que em 'campanha que dispara um fluxo' a montagem do fluxo não é dela.",
+      "segundo_anotador": {
+        "destino": "cmv-flowbuilder",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Robô que atende quem responde à campanha (gatilho via campanha) é desenho de fluxo; os textos já existem."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-036",
+      "pedido": "Tenho um provedor de internet pequeno e uso o Chat Master Veloz com WhatsApp por QR Code. Queria um atendimento automático assim: fora do horário (seg a sex 8h-18h, sáb 8h-12h) avisa que voltamos no próximo dia útil; dentro do horário mostra um menu com 2ª via de boleto, suporte técnico e contratar plano. Suporte e contratar vão pros setores Suporte e Comercial; 2ª via por enquanto manda pro Financeiro. Consegue me entregar o arquivo pronto pra importar?",
+      "destino": "cmv-flowbuilder",
+      "aceitavel": [],
+      "tipo": "com-nome",
+      "motivo": "Pedido de desenhar e gerar um fluxo de triagem com horário, menu e Setores, em arquivo importável: uso central da cmv-flowbuilder.",
+      "segundo_anotador": {
+        "destino": "cmv-flowbuilder",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Arquivo importável com horário de expediente, menu e Setores é da cmv-flowbuilder."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-037",
+      "pedido": "tenho um pet shop com banho e tosa e queria uma IA respondendo no whats sobre preço e horário e anotando pedido de agendamento. vi no painel um menu Prompts OPEN.AI, é ali? por onde começo",
+      "destino": "cmv-agente-ia",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Criar um atendente de IA (GPT Assistant, menu Prompts OPEN.AI), Etapa 1 da cmv-agente-ia.",
+      "segundo_anotador": {
+        "destino": "cmv-agente-ia",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Colocar IA para responder clientes pelo menu Prompts OPEN.AI: Etapa 1 da cmv-agente-ia."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-038",
+      "pedido": "o gpt assistant do setor Recepção ta inventando preço de procedimento q a gente nem faz. o prompt hj é só isso: \"Você é a Lia, atendente virtual da clínica. Responda dúvidas sobre tratamentos e valores de forma simpática.\" como arrumo?",
+      "destino": "cmv-agente-ia",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Seção 'Consertar uma IA que já existe': problema de texto (inventa) se resolve no prompt.",
+      "segundo_anotador": {
+        "destino": "cmv-agente-ia",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Consertar GPT Assistant que inventa preço (prompt e configuração) é da cmv-agente-ia."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-039",
+      "pedido": "O assistente responde bem quando o cliente escreve, mas quando mandam áudio ele devolve coisa sem sentido. No cadastro do prompt a temperatura está 0.3 e o máximo de tokens 300. O que ajusto?",
+      "destino": "cmv-agente-ia",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Consertar IA por configuração (campos Temperatura e Tokens do artigo Tipo Prompt): triagem da cmv-agente-ia.",
+      "segundo_anotador": {
+        "destino": "cmv-agente-ia",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Assistente que responde mal a áudio: conserto de IA existente (cmv-agente-ia)."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-040",
+      "pedido": "as sugestões daquele botão ✨ na conversa saem genéricas demais, sem o jeito da nossa imobiliária, e as vezes prometem prazo de visita q não existe. da pra ajustar isso?",
+      "destino": "cmv-agente-ia",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Outros recursos de IA: 'dar a cara da empresa' ao Copiloto é reescrever as instruções da tela Sugestão de resposta IA, tarefa descrita na cmv-agente-ia.",
+      "segundo_anotador": {
+        "destino": "cmv-agente-ia",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Sugestões genéricas do botão ✨ (Copiloto) se ajustam nas instruções da Sugestão de resposta IA."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-041",
+      "pedido": "Quero usar o assistente dentro do grupo de WhatsApp dos nossos revendedores, mas só quando alguém chamar, tipo !tabela. Vi que o prompt tem um campo Gatilho para Grupo. Como configuro e o que escrevo nas instruções pra ele responder só sobre a tabela de preços?",
+      "destino": "cmv-agente-ia",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Recurso GPT Assistant em Grupos (campo Gatilho para Grupo) mais redação do prompt: cmv-agente-ia.",
+      "segundo_anotador": {
+        "destino": "cmv-agente-ia",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Gatilho para Grupo e instruções do assistente no grupo são da cmv-agente-ia."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-042",
+      "pedido": "Já tenho o fluxo pronto com menu, e na opção 'dúvidas' entra o bloco GPT Assistant. O fluxo tá ok. O que falta é o texto de instruções desse assistente: escola de idiomas, tira dúvida de matrícula, horários e mensalidade, e devolve pra um humano se perguntarem de bolsa ou desconto.",
+      "destino": "cmv-agente-ia",
+      "aceitavel": [],
+      "tipo": "fronteira",
+      "motivo": "Fronteira com cmv-flowbuilder, que perde: o fluxo está pronto e o pedido é o prompt; a tabela do flowbuilder manda 'prompt, instruções e configuração do GPT Assistant' para a cmv-agente-ia.",
+      "segundo_anotador": {
+        "destino": "cmv-agente-ia",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Falta só o texto de instruções do assistente; o fluxo está pronto: cmv-agente-ia."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-043",
+      "pedido": "A Avaliação pela IA do CMV tá dando nota baixa pra atendimento que foi bom, parece q ela não conhece nosso processo (a gente sempre pede o CPF antes de qualquer coisa, por ex). tem como ensinar pra ela como é o atendimento ideal aqui?",
+      "destino": "cmv-agente-ia",
+      "aceitavel": [],
+      "tipo": "fronteira",
+      "motivo": "Fronteira com cmv-ajuda, que perde: é ajuste de um recurso de IA (Avaliação pela IA, 'processo ideal de atendimento' das atualizações), e a tabela da ajuda manda 'ajustar a IA' para a cmv-agente-ia.",
+      "segundo_anotador": {
+        "destino": "cmv-agente-ia",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Avaliação pela IA (processo ideal de atendimento) está nos outros recursos de IA da cmv-agente-ia."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-044",
+      "pedido": "preciso da mensagem que o assistente manda quando passa a conversa pra um humano (campo Mensagem de Transbordo) e da regra no prompt dizendo quando ele deve transferir pro Financeiro. é uma contabilidade, tom formal",
+      "destino": "cmv-agente-ia",
+      "aceitavel": [],
+      "tipo": "fronteira",
+      "motivo": "Fronteira com cmv-mensagens, que perde: Mensagem de Transbordo e regra de transferência são campos e prompt do GPT Assistant, e a tabela da mensagens manda prompt de recurso de IA para a cmv-agente-ia.",
+      "segundo_anotador": {
+        "destino": "cmv-agente-ia",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Mensagem de Transbordo e regra de transferência no prompt são campos e texto do GPT Assistant."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-045",
+      "pedido": "tem extrato de tokens da IA? o saldo de créditos despencou essa semana",
+      "destino": "cmv-agente-ia",
+      "aceitavel": [
+        "cmv-ajuda"
+      ],
+      "tipo": "vocabulario-ambiguo",
+      "motivo": "'Token' aqui não é o da API: é o Extrato de tokens da tela Sugestão de resposta IA, recurso da tabela 'Outros recursos de IA'; a cmv-ajuda também tem esse artigo (pasta outros), por isso é aceitável.",
+      "segundo_anotador": {
+        "destino": "cmv-agente-ia",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Extrato de tokens e créditos de IA ficam na tela Sugestão de resposta IA (cmv-agente-ia)."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [
+        "cmv-ajuda"
+      ],
+      "cargas": [
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-046",
+      "pedido": "Tem como as ligações gravadas do PABX já virem transcritas e com um resumo do que foi falado? Onde liga isso e o que precisa estar configurado antes?",
+      "destino": "cmv-agente-ia",
+      "aceitavel": [
+        "cmv-ajuda"
+      ],
+      "tipo": "vocabulario-ambiguo",
+      "motivo": "Fala de ligações e PABX, mas é o recurso 'IA nas gravações das chamadas' da tabela 'Outros recursos de IA' (usa o Token OpenAI); o artigo Gravações das Chamadas também está na cmv-ajuda, por isso é aceitável.",
+      "segundo_anotador": {
+        "destino": "cmv-agente-ia",
+        "aceitavel": [
+          "cmv-ajuda"
+        ],
+        "confianca": "media",
+        "motivo": "IA nas gravações das chamadas está na tabela de outros recursos de IA da cmv-agente-ia; a mesma skill manda 'chamadas' para a cmv-ajuda, onde fica o artigo gravacoes-das-chamadas.md."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [
+        "cmv-ajuda"
+      ],
+      "cargas": [
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-agente-ia"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-047",
+      "pedido": "coloquei no prompt pra ele marcar a tag \"lead quente\" qdo o cliente pedir orçamento. na conversa ele até fala que anotou, mas a tag não aparece no ticket. o que tá errado?",
+      "destino": "cmv-agente-ia",
+      "aceitavel": [],
+      "tipo": "vocabulario-ambiguo",
+      "motivo": "Fala de tag e ticket, mas é conserto de comando do GPT Assistant (forma do código e turno da tag, em comandos-e-capacidades): cmv-agente-ia.",
+      "segundo_anotador": {
+        "destino": "cmv-agente-ia",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Comando de tag do prompt que não marca no ticket é conserto do GPT Assistant."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-048",
+      "pedido": "a IA do Chat Master Veloz consegue olhar minha agenda do Google e já marcar o horário sozinha com o cliente, sem ninguém da equipe confirmar depois?",
+      "destino": "cmv-agente-ia",
+      "aceitavel": [],
+      "tipo": "lacuna",
+      "motivo": "Capacidade de IA não documentada (o comando de agenda só aparece numa nota de atualização): a cmv-agente-ia trata o limite do agendamento e diz o que não está documentado.",
+      "segundo_anotador": {
+        "destino": "cmv-agente-ia",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "IA marcar horário sozinha esbarra no limite do comando de agenda, tratado na cmv-agente-ia."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-049",
+      "pedido": "preciso de uns 6 atalhos prontos pras meninas do escritório de contabilidade usarem no menu Respostas Rápidas: pedir documento do IR, avisar que a guia foi enviada, cobrar honorário atrasado com jeitinho, essas coisas. atendemos por qr code",
+      "destino": "cmv-mensagens",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Redigir respostas rápidas de texto com atalho é o uso central da cmv-mensagens.",
+      "segundo_anotador": {
+        "destino": "cmv-mensagens",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Redigir respostas rápidas é o caso de uso central da cmv-mensagens."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-050",
+      "pedido": "me ajuda a escrever o texto de ausência? sou advogada, fico em audiência a tarde toda e deixo o status como Ausente. o cliente manda 5 msg seguidas e não quero q pareça um robô repetindo a mesma coisa",
+      "destino": "cmv-mensagens",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Redigir Mensagem de Ausência (tabela de tipos e armadilha 13: repete a cada mensagem do cliente).",
+      "segundo_anotador": {
+        "destino": "cmv-mensagens",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Redigir a Mensagem de Ausência (que repete a cada mensagem) é da cmv-mensagens."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-051",
+      "pedido": "Template de marketing pra Black Friday da loja de calçados, com o primeiro nome da pessoa e o cupom, e com opção de parar de receber. Vai em campanha pela conexão oficial pra uns 2 mil contatos; vou cadastrar em Gestão de Templates.",
+      "destino": "cmv-mensagens",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Redigir template de Marketing para campanha pela API Oficial (armadilhas 6 e 7: extras e opção de saída no texto).",
+      "segundo_anotador": {
+        "destino": "cmv-mensagens",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Template de Marketing para campanha oficial com opção de saída é da cmv-mensagens."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-052",
+      "pedido": "quero mandar parabéns automático no aniversário dos alunos da academia com um mimo (1 semana de personal grátis). escreve o texto pra eu colar em Mensagem de Aniversário? whats por qr code",
+      "destino": "cmv-mensagens",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Redigir a Mensagem de Aniversário (tipo listado na tabela 'Escolha o tipo de mensagem').",
+      "segundo_anotador": {
+        "destino": "cmv-mensagens",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Texto da Mensagem de Aniversário é da cmv-mensagens."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-053",
+      "pedido": "Aviso de reajuste da mensalidade pra todos os pais da escola, uns 400 contatos, em Campanhas, pelo WhatsApp de QR Code. Preciso das variações do texto pra não tomar bloqueio e do texto de descadastro.",
+      "destino": "cmv-mensagens",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Textos de campanha por QR Code: cinco variações e Mensagem de Descadastramento (artigo Nova Campanha).",
+      "segundo_anotador": {
+        "destino": "cmv-mensagens",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Variações de campanha por QR Code e texto de descadastro são da cmv-mensagens."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-054",
+      "pedido": "qual texto eu coloco na mensagem de fora do expediente do setor Suporte? aqui a opção de abrir ticket fora do expediente tá em Não. provedor de internet, horário seg a sáb 8h às 20h",
+      "destino": "cmv-mensagens",
+      "aceitavel": [],
+      "tipo": "fronteira",
+      "motivo": "Fronteira com cmv-ajuda, que perde: o pedido é redigir a mensagem de fora de expediente do Setor (armadilha 14), e a ajuda manda a redação de textos para a cmv-mensagens.",
+      "segundo_anotador": {
+        "destino": "cmv-mensagens",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Texto de fora do expediente do Setor com a opção em Não: armadilha 14 da cmv-mensagens."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-055",
+      "pedido": "Preciso do texto do template que vai no bloco Template do meu fluxo de remarketing: cliente pediu orçamento de energia solar e sumiu há 3 dias. O fluxo já está montado, só falta o que escrever pra mandar pra aprovação.",
+      "destino": "cmv-mensagens",
+      "aceitavel": [],
+      "tipo": "fronteira",
+      "motivo": "Fronteira com cmv-flowbuilder, que perde: o fluxo está montado e o pedido é o texto; a tabela do flowbuilder manda 'texto de template da API Oficial' para a cmv-mensagens.",
+      "segundo_anotador": {
+        "destino": "cmv-mensagens",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Texto do template para aprovação é da cmv-mensagens; a montagem do fluxo já está feita."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-056",
+      "pedido": "nosso sistema vai disparar por api o template de confirmação de agendamento da clínica, essa parte técnica o dev resolve. eu preciso é do texto do template: utilidade, com nome, data e hora, e q não seja reprovado pela meta",
+      "destino": "cmv-mensagens",
+      "aceitavel": [],
+      "tipo": "fronteira",
+      "motivo": "Fronteira com cmv-api, que perde: não se pede payload nem código, e a tabela da api manda 'redigir o texto de templates' para a cmv-mensagens.",
+      "segundo_anotador": {
+        "destino": "cmv-mensagens",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Só o texto do template de utilidade; o envio por API fica com o dev: cmv-mensagens."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-057",
+      "pedido": "escreve a saudação com as opções que a conexão manda qdo o cliente chega? setores: 1 Vendas, 2 Assistência Técnica, 3 Financeiro. loja de eletrodomésticos, tom simpático mas sem exagero de emoji",
+      "destino": "cmv-mensagens",
+      "aceitavel": [],
+      "tipo": "vocabulario-ambiguo",
+      "motivo": "Fala de menu de opções e setores (parece chatbot), mas é redigir a Mensagem de saudação da Conexão com o menu de Setores, item do mapa de material da cmv-mensagens.",
+      "segundo_anotador": {
+        "destino": "cmv-mensagens",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Saudação da Conexão com o menu de Setores está na lista de textos da cmv-mensagens."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-058",
+      "pedido": "Administradora de condomínios, campanha pela oficial no CMV. Quero um template avisando que o boleto do mês está disponível, com {{1}} nome, {{2}} mês e {{3}} link. Escreve o template e me diz como fica a planilha de contatos pra cada variável cair no lugar certo.",
+      "destino": "cmv-mensagens",
+      "aceitavel": [],
+      "tipo": "vocabulario-ambiguo",
+      "motivo": "Fala de planilha e variáveis, mas é template para campanha oficial com os campos extras (armadilha 6: extra2 é a {{1}}): cmv-mensagens.",
+      "segundo_anotador": {
+        "destino": "cmv-mensagens",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Template para campanha oficial e a planilha com campos extras: armadilha 6 da cmv-mensagens."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-059",
+      "pedido": "reescreve a mensagem de avaliação q vai no fim do atendimento? hj tá \"Avalie nosso atendimento de 1 a 5\" e quase ninguem responde. restaurante com delivery",
+      "destino": "cmv-mensagens",
+      "aceitavel": [],
+      "tipo": "vocabulario-ambiguo",
+      "motivo": "'Avaliação' aqui é a pesquisa de satisfação respondida pelo cliente (Mensagens da Conexão, artigo Avaliações), texto que a cmv-mensagens redige; não é a Avaliação pela IA nem um fluxo.",
+      "segundo_anotador": {
+        "destino": "cmv-mensagens",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Reescrever a mensagem de avaliação do fim do atendimento é da cmv-mensagens."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-060",
+      "pedido": "No Chat Master Veloz dá pra agendar uma mensagem que se repete todo mês pro mesmo cliente? Trabalho com purificadores de água e queria lembrar cada um da troca do refil. Se der, já escreve a mensagem. Conexão por QR Code.",
+      "destino": "cmv-mensagens",
+      "aceitavel": [],
+      "tipo": "com-nome",
+      "motivo": "Mensagem para contato em data futura ou todo mês é o tipo Agendamento da cmv-mensagens, com pergunta direta ('dá pra?') mais redação.",
+      "segundo_anotador": {
+        "destino": "cmv-mensagens",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Agendamento que repete todo mês mais o texto do lembrete está na tabela de tipos da cmv-mensagens."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-061",
+      "pedido": "quero trocar o fundo da tela de login do painel pelo degradê azul da nossa marca (#0A2A66 pro #1E66F5) e deixar o texto do rodapé branco. onde mexo?",
+      "destino": "cmv-painel-css-js",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Mudar a aparência de tela pública do painel (CSS pré-login, receita 10 da tela de login).",
+      "segundo_anotador": {
+        "destino": "cmv-painel-css-js",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Fundo e rodapé da tela de login: receita 10, campo CSS pré-login."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-062",
+      "pedido": "no tema escuro queria os botões principais em laranja #F26B21. no claro fica como tá",
+      "destino": "cmv-painel-css-js",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Cores do tema escuro (variáveis --mui-button-primary*, receita 1) são CSS personalizado do painel.",
+      "segundo_anotador": {
+        "destino": "cmv-painel-css-js",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Botões principais em laranja só no tema escuro: receita 1 da cmv-painel-css-js."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-063",
+      "pedido": "qdo a atendente clicar em Resolver no ticket queria q aparecesse um lembrete tipo \"conferiu se anexou o comprovante?\" antes. tem como colocar isso no painel?",
+      "destino": "cmv-painel-css-js",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Reagir a clique com um aviso próprio é o caso de JS da skill (receita 17, lembrete ao clicar num botão).",
+      "segundo_anotador": {
+        "destino": "cmv-painel-css-js",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Lembrete ao clicar em Resolver é a receita 17 (JS com delegação de evento) da cmv-painel-css-js."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-064",
+      "pedido": "no Quadro de Atendimentos o tempo de espera atrasado e o de atenção têm cores muito fraquinhas, no telão da operação ninguém enxerga. queria vermelho forte no atrasado e amarelo vivo no atenção",
+      "destino": "cmv-painel-css-js",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Variáveis de definir --quadro-tempo-atrasado e --quadro-tempo-atencao (03-propriedades-css): aparência do painel.",
+      "segundo_anotador": {
+        "destino": "cmv-painel-css-js",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Cores dos tempos do Quadro de Atendimentos usam as variáveis --quadro-tempo-* (cmv-painel-css-js)."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-065",
+      "pedido": "Meu CSS que escondia a coluna de valor no Board do CRM parou de funcionar depois da última atualização do painel. O trecho é: .MuiGrid-root .jss412 { display: none !important; } O que houve?",
+      "destino": "cmv-painel-css-js",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "motivo": "Seção 'Meu CSS parou de funcionar': seletor .Mui*/.jss que muda a cada atualização.",
+      "segundo_anotador": {
+        "destino": "cmv-painel-css-js",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "CSS com .MuiGrid-root e .jss412 que parou após atualização: seção 'Meu CSS parou de funcionar'."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-066",
+      "pedido": "dá pra sumir com o botão excluir da tela de Contatos pra todo mundo? o pessoal clica sem querer",
+      "destino": "cmv-painel-css-js",
+      "aceitavel": [
+        "cmv-ajuda"
+      ],
+      "tipo": "fronteira",
+      "motivo": "Fronteira com cmv-ajuda, que perde: o pedido é esconder um botão para todos (aparência, receita 12), não permissão por perfil; a skill entrega o CSS e avisa que esconder não bloqueia.",
+      "segundo_anotador": {
+        "destino": "cmv-painel-css-js",
+        "aceitavel": [
+          "cmv-ajuda"
+        ],
+        "confianca": "media",
+        "motivo": "Pede para sumir com o botão para todos (CSS); se a intenção for impedir a exclusão, vira permissão da cmv-ajuda, e o pedido não diz qual."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-067",
+      "pedido": "Posso colar o token da conexão num javascript do painel do Chat Master Veloz pra ele buscar o status do pedido no meu sistema e mostrar do lado da conversa?",
+      "destino": "cmv-painel-css-js",
+      "aceitavel": [
+        "cmv-api"
+      ],
+      "tipo": "fronteira",
+      "motivo": "Fronteira com cmv-api: a seção 'Quando pedem para pôr token, senha ou chave no JS' é da cmv-painel-css-js (recusa com o porquê); a integração que resolve a necessidade é da cmv-api, por isso aceitável.",
+      "segundo_anotador": {
+        "destino": "cmv-painel-css-js",
+        "aceitavel": [
+          "cmv-api"
+        ],
+        "confianca": "media",
+        "motivo": "Token em JS do painel tem roteiro próprio na cmv-painel-css-js ('Quando pedem para pôr token no JS'); a cmv-api tem a mesma regra de segurança e cuida da integração que resolve."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [
+        "cmv-api"
+      ],
+      "cargas": [
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-068",
+      "pedido": "na página de chat que o cliente abre pelo link (modo alternativo) queria os balões mais arredondados e a fonte maior. a foto e a cor do topo eu já ajustei em Aparência, o resto não achei onde muda",
+      "destino": "cmv-painel-css-js",
+      "aceitavel": [],
+      "tipo": "fronteira",
+      "motivo": "Fronteira com cmv-ajuda, que perde: o que a tela Aparência oferece já foi usado, e balões e fonte da página do Chat Externo só mudam pelo campo CSS do Chat Externo (12-chat-externo).",
+      "segundo_anotador": {
+        "destino": "cmv-painel-css-js",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Balões e fonte da página do Chat Externo (Modo Alternativo) usam o campo CSS do Chat Externo, da cmv-painel-css-js."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-069",
+      "pedido": "no editor do flowbuilder os blocos são muito parecidos entre si, no monitor grande da sala ninguém distingue. dá pra deixar a borda mais grossa e o fundo mais escuro neles?",
+      "destino": "cmv-painel-css-js",
+      "aceitavel": [],
+      "tipo": "vocabulario-ambiguo",
+      "motivo": "Fala de flowbuilder e blocos, mas é aparência do editor (variáveis --flow-node-fundo, --flow-node-borda), não desenho de fluxo.",
+      "segundo_anotador": {
+        "destino": "cmv-painel-css-js",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Aparência dos blocos no editor do FlowBuilder é CSS do painel, não desenho de fluxo."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-070",
+      "pedido": "Quando a atendente estiver em ligação no ramal, queria que a barra do topo do painel dela ficasse vermelha, pra supervisora ver de longe quem está em chamada. Tem como?",
+      "destino": "cmv-painel-css-js",
+      "aceitavel": [],
+      "tipo": "vocabulario-ambiguo",
+      "motivo": "Fala de ramal e ligação, mas é reagir ao estado da chamada na tela (atributo data-* no body, evento sip:state, --appbar-fundo): CSS e JS do painel.",
+      "segundo_anotador": {
+        "destino": "cmv-painel-css-js",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Barra do topo mudando com o estado da chamada do ramal se faz com data-* no body (cmv-painel-css-js)."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-071",
+      "pedido": "no board de oportunidades do CMV queria q cada cartão tivesse uma faixa na lateral com a cor da etapa do funil em q ele tá. hj é tudo branco",
+      "destino": "cmv-painel-css-js",
+      "aceitavel": [],
+      "tipo": "vocabulario-ambiguo",
+      "motivo": "Fala de CRM e funil, mas é aparência do Board (receita 14, cor da etapa por --lane-color), não uso do CRM.",
+      "segundo_anotador": {
+        "destino": "cmv-painel-css-js",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Faixa com a cor da etapa nos cartões do Board é a receita 14 da cmv-painel-css-js."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-072",
+      "pedido": "No Chat Master Veloz tem como rodar um JS meu na página do chat externo (a que abre pelo link) pra instalar o pixel do Facebook? Não achei campo de JS pra ela, só de CSS.",
+      "destino": "cmv-painel-css-js",
+      "aceitavel": [],
+      "tipo": "lacuna",
+      "motivo": "Lacuna tratada pela própria skill: a referência não documenta campo de JS para a página do Chat Externo, e a skill manda dizer isso.",
+      "segundo_anotador": {
+        "destino": "cmv-painel-css-js",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "JS na página do Chat Externo: a cmv-painel-css-js registra que só há campo de CSS documentado para ela."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-073",
+      "pedido": "monta pra mim um fluxo de boas-vindas no ManyChat pro instagram da confeitaria: quem mandar a palavra CARDAPIO recebe o pdf e depois uma pergunta se quer encomendar",
+      "destino": "nenhuma",
+      "aceitavel": [],
+      "tipo": "outra-plataforma",
+      "motivo": "Criação de automação em outra ferramenta de chatbot (ManyChat), sem menção à plataforma: nenhuma skill do CMV se aplica.",
+      "segundo_anotador": {
+        "destino": "nenhuma",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Fluxo no ManyChat, outra plataforma."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [],
+        [],
+        []
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-074",
+      "pedido": "No Blip meu bot cai sempre na exceção de \"não entendi\" mesmo quando o usuário digita certinho o número da opção do menu. Onde eu olho pra descobrir o que tá quebrado?",
+      "destino": "nenhuma",
+      "aceitavel": [],
+      "tipo": "outra-plataforma",
+      "motivo": "Conserto de bot em outra plataforma (Blip): os artigos e armadilhas do FlowBuilder não valem para ela.",
+      "segundo_anotador": {
+        "destino": "nenhuma",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Bot do Blip, outra plataforma."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [],
+        [],
+        []
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-075",
+      "pedido": "preciso criar um zap no Zapier: entrou lead no Facebook Lead Ads, cria uma linha no Google Sheets e manda um email pro vendedor da vez. me passa o passo a passo",
+      "destino": "nenhuma",
+      "aceitavel": [],
+      "tipo": "outra-plataforma",
+      "motivo": "Automação em outra ferramenta (Zapier) que não toca a plataforma: fora do escopo da cmv-api.",
+      "segundo_anotador": {
+        "destino": "nenhuma",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Zapier, Facebook Lead Ads e Google Sheets, sem relação com o CMV."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [],
+        [],
+        []
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-076",
+      "pedido": "no chatwoot as mensagens do whatsapp cloud api estão chegando duplicadas na caixa de entrada desde ontem, cada msg do cliente aparece 2x. self-hosted em docker. como resolvo?",
+      "destino": "nenhuma",
+      "aceitavel": [],
+      "tipo": "outra-plataforma",
+      "motivo": "Defeito em outra plataforma de atendimento (Chatwoot): a documentação copiada nas skills não cobre.",
+      "segundo_anotador": {
+        "destino": "nenhuma",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Chatwoot self-hosted, outra plataforma."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [],
+        [],
+        []
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-077",
+      "pedido": "como configuro mensagem de ausência e respostas rápidas no app do WhatsApp Business? acabei de baixar no celular da loja",
+      "destino": "nenhuma",
+      "aceitavel": [],
+      "tipo": "outra-plataforma",
+      "motivo": "Vocabulário igual ao da cmv-mensagens, mas a ferramenta é o aplicativo WhatsApp Business, não o painel da plataforma.",
+      "segundo_anotador": {
+        "destino": "nenhuma",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "App WhatsApp Business do celular, excluído nominalmente pela cmv-ajuda."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [],
+        [],
+        []
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-078",
+      "pedido": "Meu workflow do n8n que lê os emails do Gmail e resume com a OpenAI dá erro 429 no nó da OpenAI quase toda execução. Como faço pra ele esperar e tentar de novo?",
+      "destino": "nenhuma",
+      "aceitavel": [],
+      "tipo": "outra-plataforma",
+      "motivo": "Conserto de workflow do n8n sem nenhuma ligação com a plataforma (Gmail e OpenAI): a cmv-api só trata n8n ligado a webhooks e API do CMV.",
+      "segundo_anotador": {
+        "destino": "nenhuma",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Workflow do n8n com Gmail e OpenAI, sem CMV."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [],
+        [],
+        []
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-079",
+      "pedido": "o menu do topo do meu site em wordpress quebra em duas linhas no celular. css atual: .navbar ul { display:flex; gap:24px } como arrumo?",
+      "destino": "nenhuma",
+      "aceitavel": [],
+      "tipo": "fora-do-cmv",
+      "motivo": "CSS de um site WordPress, não do painel: a cmv-painel-css-js só trabalha com as âncoras custom-css-* do painel.",
+      "segundo_anotador": {
+        "destino": "nenhuma",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "CSS de site WordPress, fora do escopo declarado."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [],
+        [],
+        []
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-080",
+      "pedido": "Melhora esse prompt que eu uso no ChatGPT pra resumir as atas de reunião do condomínio: \"Resuma a ata abaixo em tópicos, destacando decisões e valores aprovados.\" Ele tem deixado passar os prazos.",
+      "destino": "nenhuma",
+      "aceitavel": [],
+      "tipo": "fora-do-cmv",
+      "motivo": "Prompt para uso pessoal no ChatGPT, sem GPT Assistant nem recurso de IA do painel.",
+      "segundo_anotador": {
+        "destino": "nenhuma",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Prompt usado no ChatGPT para resumir atas, sem relação com o CMV."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [],
+        [],
+        []
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-081",
+      "pedido": "como faço a autenticação OAuth2 na API do Google Calendar em python pra listar os eventos da semana? fico tomando invalid_grant",
+      "destino": "nenhuma",
+      "aceitavel": [],
+      "tipo": "fora-do-cmv",
+      "motivo": "API de terceiro (Google Calendar), sem integração com a plataforma: fora da cmv-api.",
+      "segundo_anotador": {
+        "destino": "nenhuma",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "OAuth2 do Google Calendar em Python, sem CMV."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [],
+        [],
+        []
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-082",
+      "pedido": "me faz um template de contrato de locação residencial em word, com cláusula de reajuste pelo IPCA e multa por rescisão",
+      "destino": "nenhuma",
+      "aceitavel": [],
+      "tipo": "fora-do-cmv",
+      "motivo": "'Template' aqui é modelo de documento, não template de mensagem do WhatsApp.",
+      "segundo_anotador": {
+        "destino": "nenhuma",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Modelo de contrato em Word; 'template' aqui não é do WhatsApp."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [],
+        [],
+        []
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-083",
+      "pedido": "monta um fluxo de caixa mensal em excel pra minha oficina",
+      "destino": "nenhuma",
+      "aceitavel": [],
+      "tipo": "fora-do-cmv",
+      "motivo": "'Fluxo' aqui é fluxo de caixa em planilha, não fluxo do FlowBuilder.",
+      "segundo_anotador": {
+        "destino": "nenhuma",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Planilha de fluxo de caixa em Excel, sem relação com o CMV."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [],
+        [],
+        []
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "t-084",
+      "pedido": "escreve uma msg curta de agradecimento pros padrinhos do meu casamento",
+      "destino": "nenhuma",
+      "aceitavel": [],
+      "tipo": "fora-do-cmv",
+      "motivo": "Mensagem pessoal, sem relação com atendimento nem com os tipos de mensagem do painel.",
+      "segundo_anotador": {
+        "destino": "nenhuma",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Mensagem pessoal de casamento, sem relação com atendimento pelo CMV."
+      },
+      "concordancia": "igual",
+      "aceitavel_original": [],
+      "cargas": [
+        [],
+        [],
+        []
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    }
+  ]
+}

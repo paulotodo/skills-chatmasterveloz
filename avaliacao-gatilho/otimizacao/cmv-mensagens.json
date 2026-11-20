@@ -1,0 +1,82 @@
+[
+ {
+  "query": "migrei pra API oficial no chat master veloz e preciso de um template de cobrança de mensalidade que não seja reprovado. tem como mandar automático todo dia 5?",
+  "should_trigger": true
+ },
+ {
+  "query": "cria respostas rápidas pra recepção da minha clínica odontológica no CMV: saudação, confirmar consulta, localização, pix e pós-atendimento",
+  "should_trigger": true
+ },
+ {
+  "query": "quero fazer uma campanha pra reativar uns 800 clientes que não compram há 6 meses no chat master veloz, me ajuda com o texto",
+  "should_trigger": true
+ },
+ {
+  "query": "escreve a mensagem de aniversário automática do chat master veloz pra minha academia",
+  "should_trigger": true
+ },
+ {
+  "query": "meu template de marketing foi reprovado pela meta no chatmasterveloz, como eu reescrevo pra passar?",
+  "should_trigger": true
+ },
+ {
+  "query": "qual variável eu uso pra colocar o primeiro nome do cliente na resposta rápida do chat master veloz?",
+  "should_trigger": true
+ },
+ {
+  "query": "faz a mensagem de fora do horário e a de saudação do setor de vendas no CMV, tom descontraído",
+  "should_trigger": true
+ },
+ {
+  "query": "texto pra lembrete de consulta 1 dia antes, vou usar o agendamento de mensagem do chat master veloz",
+  "should_trigger": true
+ },
+ {
+  "query": "quanto custa mandar template de utilidade pelo chat master veloz depois que a meta mudou a cobrança?",
+  "should_trigger": true
+ },
+ {
+  "query": "melhora esse texto de carrinho abandonado que eu mando pelo chat master veloz: 'oi, vi que vc nao finalizou a compra'",
+  "should_trigger": true
+ },
+ {
+  "query": "como envio template com variáveis pela API do chat master veloz a partir do meu sistema? qual payload?",
+  "should_trigger": false
+ },
+ {
+  "query": "monta um fluxo no flowbuilder do chat master veloz de pesquisa de satisfação com nota de 1 a 5",
+  "should_trigger": false
+ },
+ {
+  "query": "escreve o prompt da IA do chat master veloz pra responder dúvidas de matrícula da minha escola",
+  "should_trigger": false
+ },
+ {
+  "query": "como conecto o whatsapp oficial no chat master veloz? já tenho a BM verificada",
+  "should_trigger": false
+ },
+ {
+  "query": "escreve um email marketing de black friday pra mandar pelo mailchimp",
+  "should_trigger": false
+ },
+ {
+  "query": "cria um template de mensagem no gerenciador do WhatsApp da Meta pra minha empresa, eu uso a Zenvia",
+  "should_trigger": false
+ },
+ {
+  "query": "deixa o balão das mensagens enviadas no painel do chat master veloz com outra cor",
+  "should_trigger": false
+ },
+ {
+  "query": "as mensagens do cliente não aparecem no Aguardando do chat master veloz, o que pode ser?",
+  "should_trigger": false
+ },
+ {
+  "query": "escreve uma legenda de instagram pra divulgar meu restaurante japonês",
+  "should_trigger": false
+ },
+ {
+  "query": "meu webhook do CMV não recebe as mensagens de áudio, só texto",
+  "should_trigger": false
+ }
+]

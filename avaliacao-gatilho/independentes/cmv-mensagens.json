@@ -1,0 +1,52 @@
+[
+ {
+  "query": "Cria umas 10 respostas rápidas pra minha loja de roupas no Chat Master Veloz: prazo de entrega, troca e devolução, tabela de medidas, formas de pagamento, chave pix e agradecimento pós-compra.",
+  "should_trigger": true,
+  "motivo": "Redigir respostas rápidas para cadastrar no CMV."
+ },
+ {
+  "query": "Meu template foi reprovado pela Meta duas vezes. O texto era: 'Olá {{1}}, aproveite 30% OFF só hoje!!! Clique já e garanta'. Cadastrei como utilidade. Reescreve de um jeito que passe, me diz a categoria certa e o que preencher na Gestão de Templates.",
+  "should_trigger": true,
+  "motivo": "Redigir template da API Oficial que seja aprovado (cita a tela Gestão de Templates do CMV)."
+ },
+ {
+  "query": "Vou fazer uma campanha de Black Friday no CMV pelo WhatsApp de QR Code para uns 1.200 contatos da minha loja de suplementos. Escreve as variações da mensagem e me diz como reduzir o risco de o número ser bloqueado.",
+  "should_trigger": true,
+  "motivo": "Redigir textos de campanha, com os avisos de risco."
+ },
+ {
+  "query": "quero agendar no chatmasterveloz uma msg todo dia 5 lembrando os alunos da mensalidade da academia. como escrevo isso e coloco o nome de cada um?",
+  "should_trigger": true,
+  "motivo": "Redigir mensagem de agendamento recorrente com variáveis."
+ },
+ {
+  "query": "texto pra mensagem de aniversário e pra msg de fora do expediente do setor comercial, tom descontraido, é uma barbearia (uso o master veloz)",
+  "should_trigger": true,
+  "motivo": "Redigir Mensagem de Aniversário e mensagem de fora de expediente do Setor."
+ },
+ {
+  "query": "Como cadastro a mensagem de saudação e as respostas rápidas no aplicativo WhatsApp Business? Aproveita e me sugere os textos, é pra um salão de beleza.",
+  "should_trigger": false,
+  "motivo": "Mesmo tema no app WhatsApp Business, fora do CMV; nenhuma das seis skills."
+ },
+ {
+  "query": "Escreve um template de marketing pra eu cadastrar direto no Gerenciador do WhatsApp da Meta; quem dispara pra mim é a Zenvia.",
+  "should_trigger": false,
+  "motivo": "Template para outra plataforma (Zenvia / Meta direto); nenhuma das seis skills."
+ },
+ {
+  "query": "Me passa o JSON do POST pra enviar um template aprovado com duas variáveis pela API do Chat Master Veloz, de preferência com exemplo em Node.",
+  "should_trigger": false,
+  "motivo": "Enviar template por API (payload e código) pertence à cmv-api."
+ },
+ {
+  "query": "No FlowBuilder, como configuro o bloco Template pra mandar meu template já aprovado no começo do fluxo e seguir por caminhos diferentes conforme o botão que o cliente clicar?",
+  "should_trigger": false,
+  "motivo": "Configurar o bloco Template dentro de um fluxo pertence à cmv-flowbuilder."
+ },
+ {
+  "query": "Escreve o prompt da IA do CMV pra ela responder dúvidas de troca e devolução no tom da minha marca, que é jovem e direto.",
+  "should_trigger": false,
+  "motivo": "Escrever prompt do atendente de IA pertence à cmv-agente-ia."
+ }
+]

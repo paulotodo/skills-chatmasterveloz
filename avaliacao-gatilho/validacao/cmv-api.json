@@ -1,0 +1,42 @@
+[
+ {
+  "query": "tem endpoint no chat master veloz pra listar as mensagens de um ticket? quero salvar o histórico no meu banco",
+  "should_trigger": true
+ },
+ {
+  "query": "como mando um pdf por url pela api da conexão oficial no chat master veloz?",
+  "should_trigger": true
+ },
+ {
+  "query": "quero que o CMV avise meu ERP quando uma tag 'Venda fechada' for aplicada no ticket, dá pra fazer por webhook?",
+  "should_trigger": true
+ },
+ {
+  "query": "no zapier, como chamo o chatmasterveloz pra mandar mensagem quando chegar um pedido novo no shopify?",
+  "should_trigger": true
+ },
+ {
+  "query": "erro 400 pedindo whatsappId quando uso o token da empresa na api do chat master veloz, o que falta?",
+  "should_trigger": true
+ },
+ {
+  "query": "como gero o QR code pra conectar um número novo no chat master veloz?",
+  "should_trigger": false
+ },
+ {
+  "query": "escreve o prompt do assistente de IA do chat master veloz pra vender planos de internet",
+  "should_trigger": false
+ },
+ {
+  "query": "como uso a API do Twilio pra mandar SMS em python?",
+  "should_trigger": false
+ },
+ {
+  "query": "monta um fluxo no flowbuilder do chat master veloz que chama um webhook do n8n e responde com o resultado",
+  "should_trigger": false
+ },
+ {
+  "query": "texto de template de rastreio de pedido pra API oficial no chat master veloz",
+  "should_trigger": false
+ }
+]

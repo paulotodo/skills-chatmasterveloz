@@ -1,0 +1,82 @@
+[
+ {
+  "query": "oi, tenho uma clínica de estética e queria colocar o chatgpt pra responder o whatsapp no chat master veloz, tirar duvida de preço e já deixar a avaliação agendada. como faço?",
+  "should_trigger": true
+ },
+ {
+  "query": "minha IA do CMV fala que vai transferir pro atendente e não transfere. o prompt é esse: 'quando pedir humano diga que vai transferir #{\"queueId\": \"12\"}'",
+  "should_trigger": true
+ },
+ {
+  "query": "apareceu um botão de estrelinha do lado do campo de mensagem no chat master veloz, é sugestão de resposta da IA? gasta crédito?",
+  "should_trigger": true
+ },
+ {
+  "query": "como ligo a transcrição de áudio no chat master veloz? os clientes mandam muito áudio e a equipe não consegue ouvir tudo",
+  "should_trigger": true
+ },
+ {
+  "query": "escreve um prompt de atendente virtual pra minha loja de pneus no chatmasterveloz, que responda medida e preço e passe pro vendedor",
+  "should_trigger": true
+ },
+ {
+  "query": "a avaliação pela IA do chat master veloz deu nota baixa pros meus atendimentos, como ela calcula essa nota?",
+  "should_trigger": true
+ },
+ {
+  "query": "qual temperatura e quantos tokens eu coloco no prompt do GPT Assistant do cmv?",
+  "should_trigger": true
+ },
+ {
+  "query": "o tipo Agente OpenAI sumiu do chat master veloz, como migro meu assistente antigo?",
+  "should_trigger": true
+ },
+ {
+  "query": "quero um robô inteligente no chat master veloz que não invente preço e passe pra humano quando não souber responder",
+  "should_trigger": true
+ },
+ {
+  "query": "dá pra usar o GPT assistant do chat master veloz dentro de um grupo de whatsapp?",
+  "should_trigger": true
+ },
+ {
+  "query": "monta um fluxo no flowbuilder do chat master veloz com menu de 3 opções que manda pro setor certo",
+  "should_trigger": false
+ },
+ {
+  "query": "escreve 5 respostas rápidas de pós-venda pra minha loja no chat master veloz",
+  "should_trigger": false
+ },
+ {
+  "query": "como crio um GPT personalizado no ChatGPT pra responder os clientes da minha loja?",
+  "should_trigger": false
+ },
+ {
+  "query": "escreve um system prompt pra um bot de atendimento no Botpress",
+  "should_trigger": false
+ },
+ {
+  "query": "como envio uma mensagem pela API do chat master veloz a partir do meu sistema em node?",
+  "should_trigger": false
+ },
+ {
+  "query": "onde vejo o relatório de atendimentos por atendente no chat master veloz?",
+  "should_trigger": false
+ },
+ {
+  "query": "quero trocar a fonte e as cores do painel do CMV pras da minha marca",
+  "should_trigger": false
+ },
+ {
+  "query": "integrar a API da OpenAI no meu app python pra resumir textos longos",
+  "should_trigger": false
+ },
+ {
+  "query": "como cadastro um atendente novo e defino os setores dele no chat master veloz?",
+  "should_trigger": false
+ },
+ {
+  "query": "escreve uma mensagem de campanha pra divulgar a black friday no chat master veloz",
+  "should_trigger": false
+ }
+]

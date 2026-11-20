@@ -1,0 +1,33 @@
+subarvore:Respostas Rápidas
+subarvore:Campanhas
+subarvore:Agendamentos
+plataforma:recursos/mensagem-template.md
+plataforma:recursos/whatsapp-oficial-gestao-de-templates.md
+plataforma:recursos/bloco-template.md
+plataforma:recursos/janela-de-atendimento.md
+plataforma:recursos/limitador-de-mensagens.md
+plataforma:recursos/entenda-a-api-oficial.md
+plataforma:recursos/whatsapp-oficial-x-nao-oficial.md
+plataforma:recursos/numero-bloqueado-no-whatsapp.md
+plataforma:recursos/mensagem-de-aniversario.md
+plataforma:recursos/mensagem-de-aniversario-em-configuracoes.md
+plataforma:recursos/gatilho-via-campanha.md
+plataforma:recursos/gatilho-via-resposta-rapida.md
+plataforma:recursos/aba-mensagens-em-setores-e-chatbot.md
+plataforma:trilhas/a-cobranca-do-whatsapp-oficial-mudou.md
+plataforma:trilhas/reduzir-a-quantidade-de-mensagem-que-passa-pela-api-oficial.md
+plataforma:trilhas/medir-quanto-voce-ja-enviou-no-mes.md
+# pedidos pelo autor da skill: variáveis {{...}} e mensagens de setor/conexão
+plataforma:recursos/mustaches.md
+plataforma:recursos/mensagem-de-ausencia.md
+plataforma:recursos/mensagem-de-encerramento.md
+plataforma:recursos/chatbot-e-menu-de-setores-na-conexao.md
+plataforma:recursos/aba-horarios-em-setores-e-chatbot.md
+plataforma:recursos/gerenciamento-de-expediente-em-configuracoes.md
+plataforma:recursos/adicionar-whatsapp-qrcode.md
+plataforma:recursos/avaliacoes.md
+plataforma:recursos/concatenador-de-mensagens.md
+plataforma:recursos/whatsapp-modo-hibrido-oficial-e-qrcode.md
+plataforma:recursos/adicionar-whatsapp-oficial.md
+plataforma:recursos/avaliacoes-em-configuracoes.md
+plataforma:recursos/remarketing-em-tags.md

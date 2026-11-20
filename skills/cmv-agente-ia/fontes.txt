@@ -1,0 +1,34 @@
+subarvore:Inteligência Artificial
+plataforma:recursos/avaliacao-pela-ia.md
+plataforma:recursos/token-openai.md
+plataforma:recursos/bloco-gpt-assistant-openai.md
+plataforma:outros/copiloto-de-mensagens.md
+plataforma:outros/sugestao-de-resposta-ia.md
+# Acrescentados pela autoria da skill: onde o assistente é ligado ao Setor e à Conexão,
+# onde ficam os IDs usados nos comandos, quem enxerga os menus de IA e a atualização
+# que mudou a janela do prompt (Modelo da IA, Comandos da IA, Agente OpenAI desligado).
+plataforma:recursos/aba-geral-em-setores-e-chatbot.md
+plataforma:recursos/visao-geral-setores-e-chatbot.md
+plataforma:recursos/setor-unico-com-fluxo-automatico.md
+plataforma:recursos/chatbot-e-menu-de-setores-na-conexao.md
+plataforma:recursos/visao-geral-tags.md
+plataforma:recursos/visao-geral-equipe.md
+plataforma:recursos/tipos-de-perfil.md
+plataforma:recursos/atualizacoes-2026-11-11.md
+plataforma:recursos/aba-mensagens-em-setores-e-chatbot.md
+# Outras atualizações com fatos de IA que os artigos de recurso não trazem:
+# 15/10 (responder sem aceitar: o agente de IA do Setor continua atendendo), 20/10 e 22/10 (nome e selo
+# nas respostas da IA), 07/11 (Avaliação pela IA só roda ligada), 10/11 (token da OpenAI escondido).
+# As de 18/10, 19/10, 26/10, 30/10 e 06/11 já estão refletidas nos artigos de recurso incluídos.
+plataforma:recursos/atualizacoes-2026-10-15.md
+plataforma:recursos/atualizacoes-2026-10-20.md
+plataforma:recursos/atualizacoes-2026-10-22.md
+plataforma:recursos/atualizacoes-2026-11-07.md
+plataforma:recursos/atualizacoes-2026-11-10.md
+plataforma:recursos/gravacoes-das-chamadas.md   # IA nas gravações das chamadas (usa o Token OpenAI)
+# Para o roteiro de teste e para o que acontece com o status do atendimento (Aguardando x Atendendo,
+# transferir a conversa de teste ao Setor da IA, devolver ao Setor) e a única menção a listar Setores.
+plataforma:recursos/aguardando-x-atendendo.md
+plataforma:recursos/transferir-ticket.md
+plataforma:recursos/devolver-ao-setor.md
+plataforma:api/api-listar-setores-da-empresa.md

@@ -1,0 +1,42 @@
+[
+ {
+  "query": "como escondo o botão de nova conversa pros atendentes no painel do chat master veloz com css?",
+  "should_trigger": true
+ },
+ {
+  "query": "o modo escuro do painel do CMV deixa o texto do campo de digitação ilegível, dá pra corrigir com css?",
+  "should_trigger": true
+ },
+ {
+  "query": "quero um script no painel do chatmasterveloz que mostre o tempo de espera do cliente em vermelho quando passar de 10 minutos",
+  "should_trigger": true
+ },
+ {
+  "query": "mudar a logo e as cores da tela de login do painel do chat master veloz",
+  "should_trigger": true
+ },
+ {
+  "query": "deixar o quadro de atendimentos do chat master veloz mais compacto, os cards são muito altos",
+  "should_trigger": true
+ },
+ {
+  "query": "como troco a logo da empresa nas configurações do chat master veloz?",
+  "should_trigger": false
+ },
+ {
+  "query": "javascript pra validar CPF num formulário do meu site",
+  "should_trigger": false
+ },
+ {
+  "query": "personaliza a cor do botão do web chat que fica no meu site, é do chat master veloz",
+  "should_trigger": false
+ },
+ {
+  "query": "como tiro a permissão do atendente de excluir contatos no chat master veloz?",
+  "should_trigger": false
+ },
+ {
+  "query": "tema escuro no VS Code com fonte maior, como configuro?",
+  "should_trigger": false
+ }
+]

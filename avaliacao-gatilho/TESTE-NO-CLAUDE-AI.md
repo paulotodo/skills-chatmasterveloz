@@ -1,0 +1,73 @@
+# Teste manual no claude.ai
+
+O acionamento das skills foi medido por script no Claude Code. No claude.ai (site e aplicativo) não existe forma documentada de medir por script, então este teste é feito à mão. Leva uns 20 minutos.
+
+## O que a documentação oficial garante e o que não garante
+
+Conferido em 19/11/2026 na Central de Ajuda (`support.claude.com`, artigo "What are skills?") e na documentação de Agent Skills (`platform.claude.com`).
+
+| Ponto | O que está documentado | Situação das seis skills |
+|---|---|---|
+| Arquivo de envio | "Upload a ZIP file containing your skill folder". O formato `.skill` não é citado. | `dist/<skill>.zip`, gerado por `python3 montar.py --zip` |
+| Pasta dentro do zip | O nome da pasta precisa ser igual ao `name` da skill | Conferido nos seis pacotes |
+| `name` | Até 64 caracteres, minúsculas, números e hífens; sem "anthropic" nem "claude" | Conferido |
+| `description` | Até 1.024 caracteres, sem tags XML | A maior tem 983 caracteres (1.005 bytes) |
+| Tamanho | 30 MB descompactados (regra da API; o claude.ai não publica limite próprio) | O maior pacote tem 1,8 MB descompactado |
+| Pré-requisito | Execução de código ligada | Ver passo 1 |
+| Critério de acionamento | A `description` é comparada com o pedido, como no Claude Code | Não há garantia de comportamento idêntico |
+
+Não documentado, e por isso só o teste responde: o que o claude.ai faz com uma descrição perto do limite, se há limite de quantidade de arquivos (a `cmv-ajuda` tem 397) e se o acionamento é igual ao do Claude Code.
+
+## Passo 1: instalar
+
+1. Em **Settings › Capabilities**, ligue **Code execution and file creation**. Em planos Team e Enterprise, quem liga é o dono da organização.
+2. Em **Customize › Skills**, clique em **+**, depois **Create skill** e **Upload a skill**.
+3. Envie os seis arquivos de `dist/`, um por vez: `cmv-ajuda.zip`, `cmv-api.zip`, `cmv-flowbuilder.zip`, `cmv-agente-ia.zip`, `cmv-mensagens.zip`, `cmv-painel-css-js.zip`.
+4. Anote na tabela abaixo se algum envio foi recusado e a mensagem exata.
+5. Nas instruções do projeto (ou nas preferências do perfil), escreva: "Esta empresa usa a plataforma Chat Master Veloz (CMV) para atender clientes pelo WhatsApp e outros canais." No Claude Code essa linha levou o Haiku de 78 para 83 acertos em 84 nos pedidos que não citam o produto. Se quiser medir o efeito no claude.ai, faça os pedidos pares do passo 2 uma vez sem a linha e uma vez com ela. As causas documentadas são: zip acima do limite, `SKILL.md` ausente e nome da pasta diferente do nome da skill.
+
+| Pacote | Aceito? | Mensagem, se recusado |
+|---|---|---|
+| cmv-ajuda.zip | | |
+| cmv-api.zip | | |
+| cmv-flowbuilder.zip | | |
+| cmv-agente-ia.zip | | |
+| cmv-mensagens.zip | | |
+| cmv-painel-css-js.zip | | |
+
+## Passo 2: 14 pedidos
+
+Abra uma **conversa nova para cada pedido**, cole o texto e veja qual skill o Claude usou. Abra os passos que a resposta mostra e procure o nome da skill; não conferi como o claude.ai exibe isso hoje, então, se não ficar claro, pergunte no fim da conversa "qual skill você carregou para responder?". Em cada skill há um pedido que cita o produto e um que não cita; o segundo é o caso difícil.
+
+| # | Pedido | Deve usar | Usou |
+|---|---|---|---|
+| 1 | No Chat Master Veloz, consigo colocar a logo e a cor do meu restaurante no Cardápio Digital? Onde fica essa configuração? | cmv-ajuda | |
+| 2 | desde ontem um monte de conversa ficou com fundo vermelho na lista de atendimentos e cliente reclamando que não recebe resposta. o que é isso e como resolve?? | cmv-ajuda | |
+| 3 | Já tenho o template lembrete_consulta aprovado na Meta. Preciso do curl pra enviar ele pelo CMV preenchendo o nome do paciente e o horário nas variáveis. | cmv-api | |
+| 4 | quando o pedido é marcado como entregue no nosso sistema eu queria encerrar o ticket do cliente sozinho, sem o atendente ter que clicar em Resolver. dá pra fazer isso por requisição? em php de preferência | cmv-api | |
+| 5 | Me gera o arquivo pra importar no Chat Master Veloz: fluxo de uma escola de idiomas com menu Matrícula, Financeiro e Secretaria, e quem escrever fora do horário recebe aviso de que respondemos no próximo dia útil. | cmv-flowbuilder | |
+| 6 | importei o fluxo ontem, salvei, ele aparece na lista do FlowBuilder Nativo, mas quando mando mensagem de teste não acontece nada, a conversa cai direto em Aguardando sem resposta. o que falta? | cmv-flowbuilder | |
+| 7 | No Chat Master Veloz, o GPT Assistant consegue responder dentro de um grupo de WhatsApp? Queria que ele só falasse quando alguém chamasse por um comando. | cmv-agente-ia | |
+| 8 | a ia do atendimento tá inventando preço de procedimento que não existe e às vezes responde textão enorme. a tabela de valores tá certinha no prompt lá em Prompts OPEN.AI, temperatura em 1. onde eu mexo? | cmv-agente-ia | |
+| 9 | Vou fazer minha primeira campanha no CMV pra avisar que a loja mudou de endereço. Escreve as variações do texto e a mensagem de descadastramento? É conexão por QR Code. | cmv-mensagens | |
+| 10 | preciso de uma msg pra mandar pros pais avisando q a rematrícula vence dia 10 e quem não renovar perde a vaga. escola infantil, uns 180 responsáveis, número conectado por qr code | cmv-mensagens | |
+| 11 | O painel do Chat Master Veloz vem todo no verde padrão. Preciso deixar a barra de cima e os botões em azul marinho (#0b1f3a), que é a cor da minha revenda, também no tema escuro. | cmv-painel-css-js | |
+| 12 | quero reordenar o menu lateral: Tickets, Contatos e CRM lá em cima e o resto embaixo. tem como sem pedir pro suporte? | cmv-painel-css-js | |
+| 13 | meu fluxo no manychat parou de responder comentário no instagram desde ontem. o gatilho por palavra-chave tá ativo e a conta tá conectada. o que pode ser? | nenhuma | |
+| 14 | preciso de um css pra esconder o rodapé do tema Astra no meu site em wordpress e trocar a cor do botão do formulário de contato pra laranja | nenhuma | |
+
+## Passo 3: uma tarefa completa
+
+O acionamento é metade do caminho. Peça uma entrega de verdade em duas skills que rodam script e veja se o claude.ai executa:
+
+- **cmv-flowbuilder:** repita o pedido 5 e confira se o arquivo `.json` é gerado e validado pelo script da skill (a resposta deve dizer que a validação passou).
+- **cmv-painel-css-js:** repita o pedido 11 e confira se o CSS vem conferido contra o catálogo de seletores.
+
+Se o script não rodar, anote o erro: pode ser acesso à rede ou ambiente de execução diferente do Claude Code.
+
+## Como ler o resultado
+
+- **Envio recusado:** me mande a mensagem exata; o pacote é ajustado.
+- **Pedido com o nome do produto que não usou a skill:** problema sério, a descrição precisa ser revista para o claude.ai.
+- **Pedido sem o nome do produto que não usou a skill:** é o ponto fraco conhecido nos modelos menores. Anote qual modelo estava selecionado na conversa.
+- **Pedidos 13 ou 14 usando alguma skill:** acionamento indevido; anote qual.

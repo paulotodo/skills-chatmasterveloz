@@ -1,0 +1,94 @@
+{
+  "skill_name": "cmv-ajuda",
+  "description": "Use esta skill para dúvidas de uso do painel do Chat Master Veloz (chatmasterveloz, CMV): \"como faço\", \"onde fica\", \"o que é\", \"por que não funciona\" e \"o que mudou\". Vale para qualquer recurso configurado pela tela: conexões (WhatsApp oficial e por QR Code, Instagram, Web Chat), setores e chatbot, equipe e permissões, tickets, tags, contatos, campanhas, CRM, PDV e configurações. Também cobre erros como conexão caída, mensagem que não aparece e aviso vermelho no chat. Responde em passo a passo, com o caminho do menu e a fonte na Central de Ajuda. Use mesmo sem o nome do produto, desde que a pessoa esteja falando do painel de atendimento dela. NÃO use para o app WhatsApp Business do celular nem para outras plataformas (Chatwoot, Blip, ManyChat, Zenvia). Pedidos para produzir material ficam com as skills irmãs: código de API e webhooks (cmv-api), montar fluxos (cmv-flowbuilder), prompt e recursos de IA (cmv-agente-ia), escrever textos e templates (cmv-mensagens), CSS e JS (cmv-painel-css-js).",
+  "results": [
+    {
+      "query": "Como faço pra ativar o rodízio de atendimento num setor do Chat Master Veloz? Tenho 4 vendedores e quero que os leads novos sejam distribuídos por igual entre eles.",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "meu whatsapp desconectou no cmv e agora nao le mais o qr code, fica carregando.. o q eu faço??",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "Sou supervisora de uma clínica odontológica e a gente usa o chatmasterveloz. Os tickets que estão em Atendendo voltam sozinhos para Aguardando depois de um tempo. Isso é alguma configuração? Onde eu desligo?",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "o que entrou de novidade no CMV agora em novembro? queria saber principalmente o que mudou no CRM",
+      "should_trigger": true,
+      "trigger_rate": 0.6666666666666666,
+      "triggers": 2,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "Tenho uma imobiliária com 6 corretores usando o painel do Master Veloz. Quero que cada cliente caia sempre com o mesmo corretor que atendeu da primeira vez (acho que o nome disso é carteira de clientes) e que, quando o corretor estiver de férias, a conversa vá para o setor em vez de ficar parada. Como configuro isso, quem precisa ser administrador e o que acontece com os clientes que já estão cadastrados?",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "Escreve pra mim 8 respostas rápidas pro setor financeiro da minha escola no CMV: segunda via de boleto, negociação de atraso, confirmação de pagamento, nota fiscal e por aí vai.",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "Monta um fluxo no FlowBuilder que pergunta o CPF do cliente, marca a tag 'inadimplente' e transfere para o setor Cobrança. Se ele não responder em 20 minutos, encerra.",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "Preciso do código em PHP para criar um contato e abrir um ticket no Chat Master Veloz pela API toda vez que alguém preencher o formulário de orçamento do meu site.",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "Como cadastro um agente novo no Chatwoot e deixo ele restrito a uma única caixa de entrada? Uso a versão self-hosted.",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "No aplicativo WhatsApp Business do celular, onde configuro a mensagem de ausência e o horário de funcionamento da empresa?",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    }
+  ],
+  "summary": {
+    "total": 10,
+    "passed": 10,
+    "failed": 0
+  },
+  "modelo": "claude-haiku-5-5",
+  "conjunto": "independentes",
+  "modo": "sessão inteira"
+}

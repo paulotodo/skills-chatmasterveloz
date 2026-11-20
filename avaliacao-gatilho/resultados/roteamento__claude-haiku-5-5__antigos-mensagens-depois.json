@@ -1,0 +1,872 @@
+{
+  "modelo": "claude-haiku-5-5",
+  "conjunto": "antigos-mensagens",
+  "resultados": [
+    {
+      "id": "oti-mensagens-1",
+      "pedido": "migrei pra API oficial no chat master veloz e preciso de um template de cobrança de mensalidade que não seja reprovado. tem como mandar automático todo dia 5?",
+      "tipo": "otimizacao",
+      "aceitavel": [],
+      "destino": "cmv-mensagens",
+      "cargas": [
+        [
+          "cmv-mensagens",
+          "cmv-api"
+        ],
+        [
+          "cmv-mensagens",
+          "cmv-api"
+        ],
+        [
+          "cmv-mensagens",
+          "cmv-api"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "oti-mensagens-2",
+      "pedido": "cria respostas rápidas pra recepção da minha clínica odontológica no CMV: saudação, confirmar consulta, localização, pix e pós-atendimento",
+      "tipo": "otimizacao",
+      "aceitavel": [],
+      "destino": "cmv-mensagens",
+      "cargas": [
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "oti-mensagens-3",
+      "pedido": "quero fazer uma campanha pra reativar uns 800 clientes que não compram há 6 meses no chat master veloz, me ajuda com o texto",
+      "tipo": "otimizacao",
+      "aceitavel": [],
+      "destino": "cmv-mensagens",
+      "cargas": [
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "oti-mensagens-4",
+      "pedido": "escreve a mensagem de aniversário automática do chat master veloz pra minha academia",
+      "tipo": "otimizacao",
+      "aceitavel": [],
+      "destino": "cmv-mensagens",
+      "cargas": [
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "oti-mensagens-5",
+      "pedido": "meu template de marketing foi reprovado pela meta no chatmasterveloz, como eu reescrevo pra passar?",
+      "tipo": "otimizacao",
+      "aceitavel": [],
+      "destino": "cmv-mensagens",
+      "cargas": [
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "oti-mensagens-6",
+      "pedido": "qual variável eu uso pra colocar o primeiro nome do cliente na resposta rápida do chat master veloz?",
+      "tipo": "otimizacao",
+      "aceitavel": [],
+      "destino": "cmv-mensagens",
+      "cargas": [
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "oti-mensagens-7",
+      "pedido": "faz a mensagem de fora do horário e a de saudação do setor de vendas no CMV, tom descontraído",
+      "tipo": "otimizacao",
+      "aceitavel": [],
+      "destino": "cmv-mensagens",
+      "cargas": [
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "oti-mensagens-8",
+      "pedido": "texto pra lembrete de consulta 1 dia antes, vou usar o agendamento de mensagem do chat master veloz",
+      "tipo": "otimizacao",
+      "aceitavel": [],
+      "destino": "cmv-mensagens",
+      "cargas": [
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "oti-mensagens-9",
+      "pedido": "quanto custa mandar template de utilidade pelo chat master veloz depois que a meta mudou a cobrança?",
+      "tipo": "otimizacao",
+      "aceitavel": [],
+      "destino": "cmv-mensagens",
+      "cargas": [
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "oti-mensagens-10",
+      "pedido": "melhora esse texto de carrinho abandonado que eu mando pelo chat master veloz: 'oi, vi que vc nao finalizou a compra'",
+      "tipo": "otimizacao",
+      "aceitavel": [],
+      "destino": "cmv-mensagens",
+      "cargas": [
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "oti-mensagens-11",
+      "pedido": "como envio template com variáveis pela API do chat master veloz a partir do meu sistema? qual payload?",
+      "tipo": "otimizacao",
+      "aceitavel": [],
+      "destino": "qualquer",
+      "nao": [
+        "cmv-mensagens"
+      ],
+      "cargas": [
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "oti-mensagens-12",
+      "pedido": "monta um fluxo no flowbuilder do chat master veloz de pesquisa de satisfação com nota de 1 a 5",
+      "tipo": "otimizacao",
+      "aceitavel": [],
+      "destino": "qualquer",
+      "nao": [
+        "cmv-mensagens"
+      ],
+      "cargas": [
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "oti-mensagens-13",
+      "pedido": "escreve o prompt da IA do chat master veloz pra responder dúvidas de matrícula da minha escola",
+      "tipo": "otimizacao",
+      "aceitavel": [],
+      "destino": "qualquer",
+      "nao": [
+        "cmv-mensagens"
+      ],
+      "cargas": [
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "oti-mensagens-14",
+      "pedido": "como conecto o whatsapp oficial no chat master veloz? já tenho a BM verificada",
+      "tipo": "otimizacao",
+      "aceitavel": [],
+      "destino": "qualquer",
+      "nao": [
+        "cmv-mensagens"
+      ],
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "oti-mensagens-15",
+      "pedido": "escreve um email marketing de black friday pra mandar pelo mailchimp",
+      "tipo": "otimizacao",
+      "aceitavel": [],
+      "destino": "qualquer",
+      "nao": [
+        "cmv-mensagens"
+      ],
+      "cargas": [
+        [],
+        [],
+        []
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "oti-mensagens-16",
+      "pedido": "cria um template de mensagem no gerenciador do WhatsApp da Meta pra minha empresa, eu uso a Zenvia",
+      "tipo": "otimizacao",
+      "aceitavel": [],
+      "destino": "qualquer",
+      "nao": [
+        "cmv-mensagens"
+      ],
+      "cargas": [
+        [],
+        [],
+        []
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "oti-mensagens-17",
+      "pedido": "deixa o balão das mensagens enviadas no painel do chat master veloz com outra cor",
+      "tipo": "otimizacao",
+      "aceitavel": [],
+      "destino": "qualquer",
+      "nao": [
+        "cmv-mensagens"
+      ],
+      "cargas": [
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "oti-mensagens-18",
+      "pedido": "as mensagens do cliente não aparecem no Aguardando do chat master veloz, o que pode ser?",
+      "tipo": "otimizacao",
+      "aceitavel": [],
+      "destino": "qualquer",
+      "nao": [
+        "cmv-mensagens"
+      ],
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "oti-mensagens-19",
+      "pedido": "escreve uma legenda de instagram pra divulgar meu restaurante japonês",
+      "tipo": "otimizacao",
+      "aceitavel": [],
+      "destino": "qualquer",
+      "nao": [
+        "cmv-mensagens"
+      ],
+      "cargas": [
+        [],
+        [],
+        []
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "oti-mensagens-20",
+      "pedido": "meu webhook do CMV não recebe as mensagens de áudio, só texto",
+      "tipo": "otimizacao",
+      "aceitavel": [],
+      "destino": "qualquer",
+      "nao": [
+        "cmv-mensagens"
+      ],
+      "cargas": [
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "val-mensagens-1",
+      "pedido": "preciso de um template de confirmação de entrega pra API oficial no chat master veloz, com o número do pedido",
+      "tipo": "validacao",
+      "aceitavel": [],
+      "destino": "cmv-mensagens",
+      "cargas": [
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "val-mensagens-2",
+      "pedido": "escreve 3 variações de mensagem pra campanha de reabertura da loja no CMV pelo qr code sem risco de bloqueio",
+      "tipo": "validacao",
+      "aceitavel": [],
+      "destino": "cmv-mensagens",
+      "cargas": [
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "val-mensagens-3",
+      "pedido": "a mensagem de boas-vindas do meu setor no chat master veloz tá muito seca, reescreve mais acolhedora",
+      "tipo": "validacao",
+      "aceitavel": [],
+      "destino": "cmv-mensagens",
+      "cargas": [
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "val-mensagens-4",
+      "pedido": "qual categoria escolho pro template de código de verificação no chatmasterveloz, utilidade ou autenticação?",
+      "tipo": "validacao",
+      "aceitavel": [],
+      "destino": "cmv-mensagens",
+      "cargas": [
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "val-mensagens-5",
+      "pedido": "monta respostas rápidas pra equipe de suporte técnico no chat master veloz: pedir print, pedir número de série e encerrar",
+      "tipo": "validacao",
+      "aceitavel": [],
+      "destino": "cmv-mensagens",
+      "cargas": [
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "val-mensagens-6",
+      "pedido": "como envio a resposta rápida pelo atalho dentro da conversa no chat master veloz?",
+      "tipo": "validacao",
+      "aceitavel": [],
+      "destino": "qualquer",
+      "nao": [
+        "cmv-mensagens"
+      ],
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "val-mensagens-7",
+      "pedido": "escreve um roteiro de ligação de cobrança pra minha equipe de telemarketing",
+      "tipo": "validacao",
+      "aceitavel": [],
+      "destino": "qualquer",
+      "nao": [
+        "cmv-mensagens"
+      ],
+      "cargas": [
+        [],
+        [],
+        []
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "val-mensagens-8",
+      "pedido": "monta um fluxo no flowbuilder do chat master veloz que manda a segunda via do boleto",
+      "tipo": "validacao",
+      "aceitavel": [],
+      "destino": "qualquer",
+      "nao": [
+        "cmv-mensagens"
+      ],
+      "cargas": [
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "val-mensagens-9",
+      "pedido": "como faço pra mandar template pela API do chat master veloz com botão de url?",
+      "tipo": "validacao",
+      "aceitavel": [],
+      "destino": "qualquer",
+      "nao": [
+        "cmv-mensagens"
+      ],
+      "cargas": [
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "val-mensagens-10",
+      "pedido": "cria uma sequência de emails de boas-vindas pro meu curso online no hotmart",
+      "tipo": "validacao",
+      "aceitavel": [],
+      "destino": "qualquer",
+      "nao": [
+        "cmv-mensagens"
+      ],
+      "cargas": [
+        [],
+        [],
+        []
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "ind-mensagens-1",
+      "pedido": "Cria umas 10 respostas rápidas pra minha loja de roupas no Chat Master Veloz: prazo de entrega, troca e devolução, tabela de medidas, formas de pagamento, chave pix e agradecimento pós-compra.",
+      "tipo": "independentes",
+      "aceitavel": [],
+      "destino": "cmv-mensagens",
+      "cargas": [
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "ind-mensagens-2",
+      "pedido": "Meu template foi reprovado pela Meta duas vezes. O texto era: 'Olá {{1}}, aproveite 30% OFF só hoje!!! Clique já e garanta'. Cadastrei como utilidade. Reescreve de um jeito que passe, me diz a categoria certa e o que preencher na Gestão de Templates.",
+      "tipo": "independentes",
+      "aceitavel": [],
+      "destino": "cmv-mensagens",
+      "cargas": [
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "ind-mensagens-3",
+      "pedido": "Vou fazer uma campanha de Black Friday no CMV pelo WhatsApp de QR Code para uns 1.200 contatos da minha loja de suplementos. Escreve as variações da mensagem e me diz como reduzir o risco de o número ser bloqueado.",
+      "tipo": "independentes",
+      "aceitavel": [],
+      "destino": "cmv-mensagens",
+      "cargas": [
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "ind-mensagens-4",
+      "pedido": "quero agendar no chatmasterveloz uma msg todo dia 5 lembrando os alunos da mensalidade da academia. como escrevo isso e coloco o nome de cada um?",
+      "tipo": "independentes",
+      "aceitavel": [],
+      "destino": "cmv-mensagens",
+      "cargas": [
+        [
+          "cmv-mensagens",
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-mensagens",
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda",
+          "cmv-mensagens"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "ind-mensagens-5",
+      "pedido": "texto pra mensagem de aniversário e pra msg de fora do expediente do setor comercial, tom descontraido, é uma barbearia (uso o master veloz)",
+      "tipo": "independentes",
+      "aceitavel": [],
+      "destino": "cmv-mensagens",
+      "cargas": [
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "ind-mensagens-6",
+      "pedido": "Como cadastro a mensagem de saudação e as respostas rápidas no aplicativo WhatsApp Business? Aproveita e me sugere os textos, é pra um salão de beleza.",
+      "tipo": "independentes",
+      "aceitavel": [],
+      "destino": "qualquer",
+      "nao": [
+        "cmv-mensagens"
+      ],
+      "cargas": [
+        [],
+        [
+          "cmv-mensagens"
+        ],
+        []
+      ],
+      "acertos": 2,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "ind-mensagens-7",
+      "pedido": "Escreve um template de marketing pra eu cadastrar direto no Gerenciador do WhatsApp da Meta; quem dispara pra mim é a Zenvia.",
+      "tipo": "independentes",
+      "aceitavel": [],
+      "destino": "qualquer",
+      "nao": [
+        "cmv-mensagens"
+      ],
+      "cargas": [
+        [],
+        [],
+        []
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "ind-mensagens-8",
+      "pedido": "Me passa o JSON do POST pra enviar um template aprovado com duas variáveis pela API do Chat Master Veloz, de preferência com exemplo em Node.",
+      "tipo": "independentes",
+      "aceitavel": [],
+      "destino": "qualquer",
+      "nao": [
+        "cmv-mensagens"
+      ],
+      "cargas": [
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "ind-mensagens-9",
+      "pedido": "No FlowBuilder, como configuro o bloco Template pra mandar meu template já aprovado no começo do fluxo e seguir por caminhos diferentes conforme o botão que o cliente clicar?",
+      "tipo": "independentes",
+      "aceitavel": [],
+      "destino": "qualquer",
+      "nao": [
+        "cmv-mensagens"
+      ],
+      "cargas": [
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "ind-mensagens-10",
+      "pedido": "Escreve o prompt da IA do CMV pra ela responder dúvidas de troca e devolução no tom da minha marca, que é jovem e direto.",
+      "tipo": "independentes",
+      "aceitavel": [],
+      "destino": "qualquer",
+      "nao": [
+        "cmv-mensagens"
+      ],
+      "cargas": [
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    }
+  ]
+}

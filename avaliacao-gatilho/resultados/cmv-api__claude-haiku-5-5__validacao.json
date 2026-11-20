@@ -1,0 +1,94 @@
+{
+  "skill_name": "cmv-api",
+  "description": "Integra sistemas externos ao Chat Master Veloz (CMV, chatmasterveloz) pela API REST e por webhooks: acha o endpoint certo para o tipo de conexão (WhatsApp Básica, Pro, Oficial, Hub, Instagram, Facebook, Webchat) e entrega o pedido pronto em cURL, Node, Python, PHP ou nó HTTP Request do n8n, com payload, token e tratamento de erro. Use sempre que a pessoa quiser enviar mensagem, mídia, template, lista ou botões por código; criar, transferir ou encerrar ticket; cadastrar contato; aplicar tag; mexer no CRM; agendar mensagem; receber eventos por webhook; ligar o CMV ao n8n, Make, Zapier ou a um sistema próprio; ou perguntar de token, endpoint, payload ou erro 400/401, mesmo que não diga a palavra API. Não cobre desenhar fluxos do FlowBuilder (cmv-flowbuilder), redigir templates e campanhas (cmv-mensagens), configurar recursos pela tela (cmv-ajuda) nem CSS/JS do painel (cmv-painel-css-js).",
+  "results": [
+    {
+      "query": "tem endpoint no chat master veloz pra listar as mensagens de um ticket? quero salvar o histórico no meu banco",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "como mando um pdf por url pela api da conexão oficial no chat master veloz?",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "quero que o CMV avise meu ERP quando uma tag 'Venda fechada' for aplicada no ticket, dá pra fazer por webhook?",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "no zapier, como chamo o chatmasterveloz pra mandar mensagem quando chegar um pedido novo no shopify?",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "erro 400 pedindo whatsappId quando uso o token da empresa na api do chat master veloz, o que falta?",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 3,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "como gero o QR code pra conectar um número novo no chat master veloz?",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "escreve o prompt do assistente de IA do chat master veloz pra vender planos de internet",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "como uso a API do Twilio pra mandar SMS em python?",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "monta um fluxo no flowbuilder do chat master veloz que chama um webhook do n8n e responde com o resultado",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    },
+    {
+      "query": "texto de template de rastreio de pedido pra API oficial no chat master veloz",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 3,
+      "pass": true
+    }
+  ],
+  "summary": {
+    "total": 10,
+    "passed": 10,
+    "failed": 0
+  },
+  "modelo": "claude-haiku-5-5",
+  "conjunto": "validacao",
+  "modo": "sessão inteira"
+}
