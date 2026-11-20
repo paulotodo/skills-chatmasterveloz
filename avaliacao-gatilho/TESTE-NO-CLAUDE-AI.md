@@ -24,7 +24,7 @@ Não documentado, e por isso só o teste responde: o que o claude.ai faz com uma
 2. Em **Customize › Skills**, clique em **+**, depois **Create skill** e **Upload a skill**.
 3. Envie os seis arquivos de `dist/`, um por vez: `cmv-ajuda.zip`, `cmv-api.zip`, `cmv-flowbuilder.zip`, `cmv-agente-ia.zip`, `cmv-mensagens.zip`, `cmv-painel-css-js.zip`.
 4. Anote na tabela abaixo se algum envio foi recusado e a mensagem exata.
-5. Nas instruções do projeto (ou nas preferências do perfil), escreva: "Esta empresa usa a plataforma Chat Master Veloz (CMV) para atender clientes pelo WhatsApp e outros canais." No Claude Code essa linha levou o Haiku de 78 para 83 acertos em 84 nos pedidos que não citam o produto. Se quiser medir o efeito no claude.ai, faça os pedidos pares do passo 2 uma vez sem a linha e uma vez com ela. As causas documentadas são: zip acima do limite, `SKILL.md` ausente e nome da pasta diferente do nome da skill.
+5. Nas instruções do projeto (ou nas preferências do perfil), cole o texto de contexto que está no README, na seção "Diga ao Claude que você usa o Chat Master Veloz". No Claude Code ele levou o Haiku de 78 para 82 acertos em 84 e fez a skill de API ser carregada num pedido que não cita o produto. Se quiser medir o efeito no claude.ai, faça os pedidos pares do passo 2 uma vez sem o texto e uma vez com ele.
 
 | Pacote | Aceito? | Mensagem, se recusado |
 |---|---|---|

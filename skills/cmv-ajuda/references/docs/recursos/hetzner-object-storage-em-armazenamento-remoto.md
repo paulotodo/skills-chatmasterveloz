@@ -1,8 +1,8 @@
-# Hetzner Object Storage em Armazenamento Remoto
+# - Hetzner Object Storage em Armazenamento Remoto
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/hetzner-object-storage-em-armazenamento-remoto
 - **Categoria:** Recursos
-- **Menu:** Configurações › Opções em Configurações › Hetzner Object Storage em Armazenamento Remoto
+- **Menu:** Configurações › Integrações e segurança em Configurações › - Hetzner Object Storage em Armazenamento Remoto
 
 ---
 
@@ -18,7 +18,7 @@ Contrate em [**hetzner.com**](https://www.hetzner.com/storage/object-storage/).
 >
 > ➡️ Gere as **credenciais**.
 >
-> ➡️ Ligue os dois na plataforma, no menu **Configurações  ›  Opções**, seção **Armazenamento Remoto de Arquivos**.
+> ➡️ Ligue os dois na plataforma, no menu **Configurações  ›  Opções  ›  Integrações e segurança**, seção **Armazenamento Remoto de Arquivos**.
 
 ## Criar um bucket
 
@@ -60,19 +60,19 @@ São dois valores: a **Access Key** e a **Secret Key**.
 
 ## Integrar o armazenamento na plataforma
 
-Acesse o menu **Configurações  ›  Opções** e localize a seção **Armazenamento Remoto de Arquivos**.
+Acesse o menu **Configurações  ›  Opções  ›  Integrações e segurança**, seção **Armazenamento Remoto de Arquivos**.
 
 ![Caminho até o Armazenamento Remoto de Arquivos na plataforma](https://clihelper.chatmasterveloz.com/docs-imagem/20861-hetzner-credencial-06-scaled.jpg)
 
 ![Campos do Armazenamento Remoto de Arquivos na plataforma](https://clihelper.chatmasterveloz.com/docs-imagem/ed-6ab17c4666160.png)
 
-➡️ **Minio URL / S3 Custom Api URL:** o endereço do seu bucket. **Escreva o `https://` na frente** — sem ele a ligação não fecha.
+➡️ **MINIO URL / S3 CUSTOM API URL:** o endereço do seu bucket. **Escreva o `https://` na frente** — sem ele a ligação não fecha.
 
 ➡️ **Nome do Bucket:** o mesmo nome que você deu ao bucket.
 
-➡️ **S3 Key:** a **Access Key** da credencial.
+➡️ **S3 KEY:** a **Access Key** da credencial.
 
-➡️ **S3 Secret:** a **Secret Key** da credencial.
+➡️ **S3 SECRET:** a **Secret Key** da credencial.
 
 #### 📌 Pronto!
 

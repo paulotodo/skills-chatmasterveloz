@@ -222,9 +222,9 @@ Caso típico: o webhook da Conexão entrega as mensagens num fluxo do n8n (ou nu
 ### Passo a passo
 
 1. **Receber.** O endereço precisa aceitar POST com corpo em JSON. No n8n: nó Webhook em POST, com a URL de produção colada no campo de webhook da Conexão (`recursos/n8n-via-webhook.md`).
-2. **Ficar só com o aviso que interessa.** Uma mensagem recebida gera dois avisos: primeiro `acao` = `start`, depois `from_internal` (canal Oficial) ou `fila-data` (canais por QR Code). O artigo manda tratar o segundo, que traz o texto final e o identificador da mensagem (`api/webhooks-da-conexao.md`). Os avisos de tag usam a chave `action` em vez de `acao`.
-3. **Ficar só com o que o cliente mandou: `fromMe` igual a `false`.** O artigo diz que a mensagem enviada daqui também gera aviso, com `fromMe` igual a `true`. *Inferência (o artigo não fala em laço):* a resposta que a integração envia pela API volta como um desses avisos; sem este filtro, o fluxo responde à própria resposta, sem parar. O artigo também não diz como uma mensagem enviada pela API aparece em `mensagem.userId` e `mensagem.fromApp`; por isso o filtro seguro é o `fromMe`.
-4. **Descartar repetidos pelo `mensagem.wid`.** É o identificador da mensagem no canal, e o artigo o indica para não processar a mesma mensagem duas vezes (acontece, por exemplo, com webhook da Conexão e do Setor ligados juntos). Guarde os `wid` já tratados em algum lugar que sobreviva entre execuções. O exemplo do artigo com `mensagem.wid` é do aviso `from_internal`; para `fila-data` o artigo só diz que o texto está em `msg.message`, sem mostrar onde fica o identificador: capture um aviso real antes de confiar no caminho.
+2. **Ficar só com o aviso que interessa.** Uma mensagem recebida gera dois avisos: primeiro `acao` = `start`, depois `from_internal` (canal Oficial) ou `fila-data` (canais por QR Code). O artigo manda tratar o segundo, que traz o texto final e o identificador da mensagem (`api/webhooks-da-conexao.md`). No webhook do Setor os nomes são outros: `queue_webhook` e depois `queue_webhook_from_internal` (`api/webhook-de-setor.md`). Os avisos de tag usam a chave `action` em vez de `acao`.
+3. **Ficar só com o que o cliente mandou: `fromMe` igual a `false`.** O artigo diz que a mensagem enviada daqui também gera aviso, com `fromMe` igual a `true`, e que todo aviso traz `origemDoEvento`, que vem `api` quando o aviso é de algo que a própria integração fez. *Inferência (o artigo não fala em laço):* a resposta que a integração envia pela API volta como um desses avisos; sem este filtro, o fluxo responde à própria resposta, sem parar.
+4. **Descartar repetidos pelo `eventoId`.** Todo aviso da Conexão e do Setor traz `eventoId`, o código do fato, igual em todos os endereços que recebem aquele fato (acontece, por exemplo, com webhook da Conexão e do Setor ligados juntos). O artigo manda guardar os `eventoId` já tratados e ignorar o que voltar; guarde-os em algum lugar que sobreviva entre execuções. O `mensagem.wid` não serve para isso: a mesma mensagem gera mais de um aviso. Se a `sequencia` (que sobe de 1 em 1 por endereço) pular um número, o aviso perdido se busca de novo por até 7 dias (`api/api-listar-entregas-do-webhook-da-conexao.md`).
 5. **Se for mídia, buscar o arquivo conforme a biblioteca** (tabela abaixo).
 6. **Responder pela API**, com os campos do aviso no payload do artigo da conexão (tabela abaixo).
 
@@ -272,10 +272,11 @@ O artigo de arquivos não diz qual valor de `acao` cada um dos dois avisos traz.
 | Sintoma | Causa que o artigo explica | Correção | Artigo |
 |---|---|---|---|
 | Toda mensagem recebida dispara o fluxo duas vezes | Cada mensagem recebida gera dois avisos (`start` e depois `from_internal` ou `fila-data`) | Tratar só o segundo | `api/webhooks-da-conexao.md` |
-| O mesmo aviso chega duas vezes, idêntico | Webhook da Conexão e do Setor ligados ao mesmo tempo: com o atendimento no Setor escolhido, disparam os dois | Apontar cada um para um endereço diferente, desligar um deles ou descartar pelo `mensagem.wid` | `api/qual-webhook-usar.md`, `api/webhook-de-setor.md` |
+| A mesma mensagem chega duas vezes, com o mesmo `eventoId` | Webhook da Conexão e do Setor ligados ao mesmo tempo: com o atendimento no Setor escolhido, disparam os dois | Apontar cada um para um endereço diferente, desligar um deles ou descartar pelo `eventoId` | `api/qual-webhook-usar.md`, `api/webhook-de-setor.md` |
+| Faltou um aviso (a `sequencia` pulou um número) | O aviso daquela entrega se perdeu | Buscar de novo, por até 7 dias, a partir do último número que chegou | `api/api-listar-entregas-do-webhook-da-conexao.md` |
 | Áudio, imagem ou documento chega "vazio" | É o primeiro dos dois avisos de mídia | Usar o segundo aviso e buscar o arquivo conforme a biblioteca | `api/arquivos-no-webhook.md` |
 | Áudio chega sem o texto falado | O texto transcrito só aparece em `mensagem.body` com a transcrição ligada | Ligar a transcrição (pela API, campo `isTranscribe` do Setor) ou baixar o áudio | `api/webhooks-da-conexao.md`, `api/api-atualizar-setor.md` |
-| O fluxo responde a si mesmo | *Inferência:* a mensagem enviada também gera aviso, com `fromMe` igual a `true` | Tratar só `fromMe` igual a `false` | `api/webhooks-da-conexao.md` |
+| O fluxo responde a si mesmo | *Inferência:* a mensagem enviada também gera aviso, com `fromMe` igual a `true` | Tratar só `fromMe` igual a `false` e ignorar `origemDoEvento` igual a `api` | `api/webhooks-da-conexao.md` |
 | Não dá para saber se a mensagem foi enviada ou recebida, ou `name` traz o celular | `name` muda de conteúdo conforme a direção | Usar `fromMe` | `api/webhooks-da-conexao.md` |
 | Avisos de tag não são reconhecidos | Nos avisos de tag a chave é `action` | Ler `acao` e, na falta, `action` | `api/webhooks-da-conexao.md`, `api/webhook-de-setor.md` |
 | O aviso da Pro com mídia é muito grande | O arquivo vem embutido em base64 | O receptor precisa aceitar corpos grandes | `api/arquivos-no-webhook.md` |
@@ -306,18 +307,18 @@ class Receptor(BaseHTTPRequestHandler):
         self.end_headers()
 
         acao = aviso.get("acao") or aviso.get("action")  # avisos de tag usam "action"
-        if acao != "from_internal":  # canais por QR Code: "fila-data", com outro formato
+        if acao != "from_internal":  # QR Code: "fila-data", com outro formato; webhook do Setor: "queue_webhook_from_internal"
             return
-        if aviso.get("fromMe"):  # mensagem enviada daqui: ignorar, para não responder a si mesmo
-            return
+        if aviso.get("fromMe") or aviso.get("origemDoEvento") == "api":
+            return  # enviada daqui ou pela própria integração: não responder a si mesmo
         mensagem = aviso.get("mensagem")
         if not isinstance(mensagem, dict):
             return
-        wid = mensagem.get("wid")
-        if wid:
-            if wid in ja_vistos:
+        evento = aviso.get("eventoId")
+        if evento:
+            if evento in ja_vistos:
                 return  # aviso repetido (Conexão e Setor ligados juntos, por exemplo)
-            ja_vistos.add(wid)
+            ja_vistos.add(evento)
         # daqui em diante: responder pela API com sender -> number e chamadoId -> ticketId
         print(f"mensagem do cliente no atendimento {aviso.get('chamadoId')}"
               + (" (com mídia)" if mensagem.get("mediaUrl") else ""))

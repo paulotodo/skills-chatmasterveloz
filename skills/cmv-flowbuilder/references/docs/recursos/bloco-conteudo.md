@@ -42,7 +42,7 @@ A janela **Adicionar bloco: Conteúdo** tem um botão para cada tipo de item. Ca
 
 🔘 **Texto:** uma mensagem escrita. Aceita formatação do WhatsApp, como `*negrito*`, `_itálico_` e `~tachado~`, e os dados do contato, como em `olá {{firstName}}, tudo bem?`.
 
-🔘 **Intervalo:** uma pausa, em segundos, antes do item seguinte. Serve para a mensagem seguinte não chegar colada na anterior.
+🔘 **Intervalo:** uma pausa de 1 a 120 segundos antes do item seguinte. Serve para a mensagem seguinte não chegar colada na anterior. Fora desse limite, a janela avisa *"Aqui a pausa entre as mensagens vai de 1 a 120 segundos. Para esperar mais (até 24 horas), use o bloco Intervalo."* e não fecha.
 
 🔘 **Imagem:** uma imagem em PNG ou JPG, com **Legenda (Caption)** opcional.
 

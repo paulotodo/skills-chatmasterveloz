@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/api-criar-agendamento
 - **Categoria:** APIs
-- **Menu:** APIs › Mensagem › API Criar Agendamento
+- **Menu:** APIs › Agendamentos › API Criar Agendamento
 
 ---
 

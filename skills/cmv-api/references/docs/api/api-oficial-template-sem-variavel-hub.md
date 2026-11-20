@@ -8,7 +8,7 @@
 
 🧩 Envia uma **mensagem template SEM variável pela API oficial,** estando previamente aprovada.
 
-**API:** Oficial
+**API:** Oficial Hub
 
 ##### Endpoint
 

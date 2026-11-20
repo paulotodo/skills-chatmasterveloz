@@ -42,7 +42,7 @@ Bearer {seutokenaqui}
 
 ◽ Vale para gravação **pronta**. Gravação já transcrita é recusada: transcrever de novo repetiria a transcrição na conversa.
 
-◽ A IA faz o que está escolhido em **IA nas gravações das chamadas**, no menu **Configurações  ›  Opções** — a transcrição com as legendas, a análise ou as duas —, e o resultado vai para a conversa de onde a chamada veio. Com a opção **Desligada**, o pedido é recusado.
+◽ A IA faz o que está escolhido em **IA nas gravações das chamadas**, no menu **Configurações  ›  Opções  ›  Chamadas**, seção **Chamadas** — a transcrição com as legendas, a análise ou as duas —, e o resultado vai para a conversa de onde a chamada veio. Com a opção **Desligada**, o pedido é recusado.
 
 ◽ A resposta traz o `iaEstado` `pendente`: a gravação entrou na fila. Pedir de novo enquanto ela está na fila não muda nada — a resposta só devolve o estado.
 

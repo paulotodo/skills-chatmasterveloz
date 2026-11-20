@@ -30,6 +30,8 @@
 
 🔘 **Encadear para outro funil:** abre uma oportunidade em outro funil quando um card entra nesta etapa.
 
+🔘 **Criar projeto:** aparece quando os **Projetos** fazem parte do seu plano. É a regra que abre um projeto quando a oportunidade entra na etapa, com o modelo escolhido, para um produto ou para qualquer produto.
+
 A etapa nova entra no fim do funil, depois da etapa de perda. Use as setas ao lado dela para colocá-la no lugar.
 
 ## Remover uma etapa

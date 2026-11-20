@@ -97,6 +97,8 @@ Bearer {seutokenaqui}
 
 ➡️ **“template”:** os componentes do template, um por entrada. Cada entrada tem um **type** — `header`, `body` ou `button` — e você adiciona os que existirem no template aprovado na Meta.
 
+➡️ **“assinaturaIa”:** opcional — acrescente ao corpo quando quem envia é a sua IA. Mande o nome da IA, com até 100 caracteres, ou `true`, que assina como **Assistente IA**. A mensagem fica marcada como enviada pela IA e aparece na conversa com o nome dela. Sem o campo, ou com `false`, o envio fica como sempre.
+
 ## O componente `header`
 
 Dentro de `parameters`, o **type** pode ser `text`, `image`, `video`, `document` ou `location`. A Meta não tem suporte a áudio no cabeçalho.

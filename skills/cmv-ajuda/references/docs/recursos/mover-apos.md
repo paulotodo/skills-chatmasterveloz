@@ -49,7 +49,7 @@ A conversa que já entrou num Setor e está em **Aguardando**, esperando um aten
 
 O bloco **Pergunta** pode ficar de fora: ele tem a opção **Mover de setor por inatividade**. Desligada, o atendimento fica naquela pergunta até o cliente voltar, sem o cronômetro — para as perguntas em que a demora é esperada. Só o bloco **Pergunta** tem essa opção.
 
-Ao ser transferido pelo **Mover Após**, o cliente recebe a **Mensagem de Encaminhamento**, do menu **Configurações  ›  Opções**, em **Configurações de Sistema**. A **Mensagem de saudação** do Setor de destino não é enviada nessa transferência.
+Ao ser transferido pelo **Mover Após**, o cliente recebe a **Mensagem de Encaminhamento**, do menu **Configurações  ›  Opções  ›  Automação**, seção **Mensagens automáticas**. A **Mensagem de saudação** do Setor de destino não é enviada nessa transferência.
 
 > **[DUVIDAS]**
 >
@@ -73,4 +73,4 @@ Ao ser transferido pelo **Mover Após**, o cliente recebe a **Mensagem de Encami
 >
 > **Mover para um setor sem atendentes:** Configurar a regra perfeitamente, mas apontar o destino ("Mover") para um setor que não tem nenhum usuário vinculado a ele. O ticket será transferido, mas continuará parado na aba "Aguardando" do novo Setor, pois ninguém tem acesso para puxá-lo.
 >
-> **Contar com a saudação do Setor de destino:** o cliente transferido pelo **Mover Após** não recebe a **Mensagem de saudação** do Setor de destino, e sim a **Mensagem de Encaminhamento**. **Solução:** ajuste o texto da **Mensagem de Encaminhamento** no menu **Configurações  ›  Opções**, em **Configurações de Sistema**, para que ele sirva a qualquer transferência.
+> **Contar com a saudação do Setor de destino:** o cliente transferido pelo **Mover Após** não recebe a **Mensagem de saudação** do Setor de destino, e sim a **Mensagem de Encaminhamento**. **Solução:** ajuste o texto da **Mensagem de Encaminhamento** no menu **Configurações  ›  Opções  ›  Automação**, seção **Mensagens automáticas**, para que ele sirva a qualquer transferência.

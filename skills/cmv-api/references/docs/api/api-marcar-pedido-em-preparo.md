@@ -40,7 +40,7 @@ Bearer {seutokenaqui}
 
 ⚠️ **Só o pedido confirmado** vai para o preparo. Em rascunho, ou que já está em preparo, a chamada é recusada.
 
-➡️ **O cliente recebe na conversa o aviso de que o pedido está sendo preparado** quando esse aviso está ligado nos **Avisos do pedido ao cliente**, em Configurações → Opções.
+➡️ **O cliente recebe na conversa o aviso de que o pedido está sendo preparado** quando esse aviso está ligado nos **Avisos do pedido ao cliente**, no menu **Configurações  ›  Opções  ›  Vendas**, seção **PDV**.
 
 #### Utilize o código em requisições HTTPS com ferramentas como cURL ou bibliotecas de integração.
 

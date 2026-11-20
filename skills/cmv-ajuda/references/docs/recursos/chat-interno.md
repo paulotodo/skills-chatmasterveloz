@@ -48,6 +48,8 @@ Passe o mouse sobre a mensagem e abra **Ações da mensagem**:
 
 🔘 **Editar:** só na sua própria mensagem. O texto da mensagem vai para a caixa de digitação, com a barra **Editar mensagem** em cima, que avisa: *"Todos na conversa veem o texto novo, com a marca "editada". Enter salva; Shift+Enter quebra a linha."* O **X** da barra ou a tecla **Esc** cancelam a edição, e o que estava escrito na caixa antes volta para ela. Salva, a mensagem mantém a hora original e ganha a marca **editada**, e quem está na conversa vê o texto novo sem recarregar a tela. Figurinha não tem **Editar**.
 
+Embaixo da mensagem editada ficam as versões anteriores, para todos na conversa: depois de uma edição, **Antes da edição**; depois de duas ou mais, o **Texto original** e cada versão seguinte (**2ª versão** e assim por diante). Cada versão mostra o texto, a data e o nome de quem editou.
+
 🔘 **Apagar:** pede confirmação. Todos na conversa deixam de ver o texto, e no lugar dele fica o aviso **Mensagem apagada**. Não dá para desfazer.
 
 Cada mensagem também tem **Responder**, para responder citando aquela mensagem.
@@ -88,6 +90,12 @@ Na lista, cada conversa tem **Favoritar conversa**, **Marcar como não lida**, e
 
 Um grupo de avisos aparece na lista com um ícone próprio. Para quem não pode publicar, a caixa de mensagem não aparece e a conversa mostra *"Grupo de avisos: só o dono e os administradores publicam aqui."*
 
+## Avisos de mensagens novas
+
+O ícone do **Chat Interno**, no topo da plataforma, mostra quantas mensagens estão sem ler e abre a lista das conversas com mensagens novas, com o total de conversas e de mensagens não lidas.
+
+🔘 **Limpar:** marca todas as mensagens como lidas e limpa a lista. O contador zera, e continua zerado depois de recarregar a página.
+
 ## Webhook do chat interno
 
 O ícone **Webhook do chat interno**, no topo da tela do **Chat Interno**, aparece só para o administrador. Ele abre a janela com o campo **URL do webhook**. Nas palavras da tela: *"Todas as conversas do chat interno da empresa enviam seus eventos para esta URL: mensagens novas, mensagens apagadas, reações, conversas criadas, alteradas ou apagadas e as chamadas da equipe."* Com o campo em branco, nada é enviado.
@@ -108,12 +116,16 @@ Cada aviso chega ao endereço cadastrado por **POST**, em JSON, com o campo `aca
 >
 > **Como corrijo uma mensagem que enviei no Chat Interno?** Em **Ações da mensagem**, use **Editar**: o texto volta para a caixa de digitação, e o Enter salva a correção. Todos na conversa veem o texto novo, com a marca **editada**.
 >
+> **Os outros veem o que a mensagem dizia antes de eu editar no Chat Interno?** Veem. Embaixo da mensagem editada ficam as versões anteriores, com o texto, a data e o nome de quem editou.
+>
 > **Eu estava escrevendo quando cliquei em Editar numa mensagem do Chat Interno. Perdi o que tinha escrito?** Não. Ao cancelar a edição, pelo **X** da barra **Editar mensagem** ou pela tecla **Esc**, o que estava na caixa de digitação volta.
 >
 > **Como sei se um colega leu a minha mensagem no Chat Interno?** Clique no tique da mensagem: **Entrega e leitura** mostra, pessoa por pessoa, quando ela foi entregue e lida.
 >
 > **Como paro de ser avisado de cada mensagem de um grupo do Chat Interno?** Na lista de conversas, use **Avisar só quando me mencionarem** naquela conversa: ela passa a avisar só quando mencionarem o seu nome. O mesmo botão volta a avisar de todas as mensagens.
 >
-> **Um operador não consegue iniciar conversa no Chat Interno.** Confira com o administrador a opção **Operador Inicia Chat Interno?**, no menu **Configurações  ›  Opções**.
+> **Como marco de uma vez todas as mensagens do Chat Interno como lidas?** No ícone do **Chat Interno**, no topo da plataforma, clique em **Limpar**: a lista se esvazia e o contador zera.
+>
+> **Um operador não consegue iniciar conversa no Chat Interno.** Confira com o administrador a opção **Operador Inicia Chat Interno?**, no menu **Configurações  ›  Opções  ›  Atendimento**, seção **Atendimento e operador**.
 >
 > **O Chat Interno não aparece no meu menu.** O Chat Interno depende do plano da sua empresa. Se ele não aparece, fale com o suporte.

@@ -26,7 +26,7 @@ No menu **Conexões**, no card da conexão, clique em **Concatenador**. A config
 
 🔘 **Modo Simples:** cola as mensagens uma embaixo da outra, na ordem em que foram escritas. O texto do atendente é enviado exatamente como ele digitou.
 
-🔘 **Modo Com IA:** *reescreve* o conjunto e entrega uma mensagem única, redigida a partir do que o atendente escreveu. As palavras não são necessariamente as mesmas.
+🔘 **Modo Com IA:** *reescreve* o conjunto e entrega uma mensagem única, redigida a partir do que o atendente escreveu. As palavras não são necessariamente as mesmas. Como a própria janela avisa, o modo *consome pontos de IA, como o sugerir resposta*: cada mensagem reescrita desconta do saldo de tokens de IA da empresa e aparece no extrato como **Melhoria de texto**.
 
 🔘 **Janela de espera (segundos):** de **2** a **60** segundos de espera depois da última mensagem do atendente.
 
@@ -74,7 +74,13 @@ São **seis mensagens** entregues e, na conexão oficial, que cobra por mensagem
 >
 > **Isso atrasa o atendimento?** Atrasa a entrega pelo tempo da janela que você escolher, e só. Com cinco segundos praticamente nada se percebe.
 >
+> **Com uma IA respondendo no Setor, o Concatenador junta as respostas dela?** Não. O **Concatenador** junta só as mensagens que o atendente escreve na conversa: as respostas da IA do Setor são enviadas sem esperar a janela, e ligar o **Concatenador** não muda quanto tempo a IA espera o cliente terminar de escrever.
+>
 > **O cliente recebeu um texto diferente do que o atendente escreveu.** É o **Modo Com IA**, que reescreve. Troque para **Modo Simples** se quiser o texto literal.
+>
+> **O Modo Com IA do Concatenador gasta tokens?** Sim. Cada mensagem que a IA reescreve desconta do saldo de tokens de IA da empresa, como a sugestão de resposta, e aparece no extrato como **Melhoria de texto**.
+>
+> **O Modo Com IA aparece indisponível no Concatenador.** Quando o modo **Com IA — reescreve como uma mensagem** vem com o aviso *requer plano com IA*, fale com o suporte para liberar o modo.
 >
 > **Escrevi errado com o Concatenador ligado. Dá para corrigir antes de chegar ao cliente?** Dá, enquanto a mensagem mostra **aguardando**: clique em **cancelar** e escreva de novo. A mensagem cancelada não chega ao cliente.
 >

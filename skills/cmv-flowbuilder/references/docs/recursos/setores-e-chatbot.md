@@ -28,7 +28,7 @@ O cadastro de um Setor é dividido em abas:
 
 ⚡ **Mensagens** — o que o cliente recebe ao chegar e, quando o Setor tem expediente, o que ele recebe fora do horário.
 
-⚡ **Horários** — o expediente deste Setor, dia a dia. Precisa ser habilitado no menu **Configurações  ›  Opções**.
+⚡ **Horários** — o expediente deste Setor, dia a dia. Precisa ser habilitado no menu **Configurações  ›  Opções  ›  Geral**, seção **Gerenciamento de Expediente**.
 
 ⚡ **Integrações** — ligação com plataformas externas, se disponível no seu plano.
 

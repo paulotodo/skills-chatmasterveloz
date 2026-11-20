@@ -1,34 +1,58 @@
-# Artigos incluídos nesta skill (32)
+# Artigos incluídos nesta skill (56)
 
 - [API Listar Setores da Empresa](api/api-listar-setores-da-empresa.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-listar-setores-da-empresa>
-- [Copiloto de mensagens](outros/copiloto-de-mensagens.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/copiloto-de-mensagens>
-- [Sugestão de resposta IA](outros/sugestao-de-resposta-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/sugestao-de-resposta-ia>
+- [Aba Evolução da Avaliação pela IA](recursos/aba-evolucao-da-avaliacao-pela-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-evolucao-da-avaliacao-pela-ia>
 - [Aba Geral em Setores & Chatbot](recursos/aba-geral-em-setores-e-chatbot.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-geral-em-setores-e-chatbot>
+- [Aba Hoje da Avaliação pela IA](recursos/aba-hoje-da-avaliacao-pela-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-hoje-da-avaliacao-pela-ia>
 - [Aba Mensagens em Setores & Chatbot](recursos/aba-mensagens-em-setores-e-chatbot.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-mensagens-em-setores-e-chatbot>
 - [Aguardando x Atendendo](recursos/aguardando-x-atendendo.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aguardando-x-atendendo>
+- [Alertas da Avaliação pela IA](recursos/alertas-da-avaliacao-pela-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/alertas-da-avaliacao-pela-ia>
 - [Análise de Atendimento](recursos/analise-de-atendimento.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/analise-de-atendimento>
+- [Assistente de IA](recursos/assistente-de-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/assistente-de-ia>
 - [15/10/2026](recursos/atualizacoes-2026-10-15.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-10-15>
 - [20/10/2026](recursos/atualizacoes-2026-10-20.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-10-20>
 - [22/10/2026](recursos/atualizacoes-2026-10-22.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-10-22>
 - [07/11/2026](recursos/atualizacoes-2026-11-07.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-07>
 - [10/11/2026](recursos/atualizacoes-2026-11-10.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-10>
 - [11/11/2026](recursos/atualizacoes-2026-11-11.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-11>
+- [12/11/2026](recursos/atualizacoes-2026-11-12.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-12>
+- [13/11/2026](recursos/atualizacoes-2026-11-13.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-13>
+- [14/11/2026](recursos/atualizacoes-2026-11-14.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-14>
+- [17/11/2026](recursos/atualizacoes-2026-11-17.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-17>
+- [18/11/2026](recursos/atualizacoes-2026-11-18.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-18>
+- [19/11/2026](recursos/atualizacoes-2026-11-19.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-19>
+- [Aulas da Avaliação pela IA](recursos/aulas-da-avaliacao-pela-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aulas-da-avaliacao-pela-ia>
 - [Avaliação pela IA](recursos/avaliacao-pela-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/avaliacao-pela-ia>
+- [Base de Conhecimento do GPT Assistant](recursos/base-de-conhecimento-do-gpt-assistant.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/base-de-conhecimento-do-gpt-assistant>
 - [GPT Assistant (OpenAI)](recursos/bloco-gpt-assistant-openai.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-gpt-assistant-openai>
 - [Chatbot e Menu de Setores na Conexão](recursos/chatbot-e-menu-de-setores-na-conexao.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/chatbot-e-menu-de-setores-na-conexao>
 - [Comandos GPT Assistant](recursos/comandos-gpt-assistant.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/comandos-gpt-assistant>
+- [Como Ligar a Avaliação pela IA](recursos/como-ligar-a-avaliacao-pela-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/como-ligar-a-avaliacao-pela-ia>
+- [Contatos Internos na Avaliação pela IA](recursos/contatos-internos-na-avaliacao-pela-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/contatos-internos-na-avaliacao-pela-ia>
+- [Copiloto de mensagens](recursos/copiloto-de-mensagens.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/copiloto-de-mensagens>
+- [CRM no Assistente de IA](recursos/crm-no-assistente-de-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/crm-no-assistente-de-ia>
 - [– Devolver ao Setor](recursos/devolver-ao-setor.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/devolver-ao-setor>
 - [GPT Assistant em Grupos](recursos/gpt-assistant-em-grupos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/gpt-assistant-em-grupos>
 - [GPT Assistant](recursos/gpt-assistant.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/gpt-assistant>
 - [Gravações das Chamadas](recursos/gravacoes-das-chamadas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/gravacoes-das-chamadas>
 - [Inteligência Artificial](recursos/inteligencia-artificial.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/inteligencia-artificial>
+- [Permissões Avaliação pela IA](recursos/permissoes-avaliacao-pela-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/permissoes-avaliacao-pela-ia>
 - [* Pré-Requisitos IA](recursos/pre-requisitos-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/pre-requisitos-ia>
+- [Processos de Atendimento da Avaliação pela IA](recursos/processos-de-atendimento-da-avaliacao-pela-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/processos-de-atendimento-da-avaliacao-pela-ia>
+- [Provedor de IA](recursos/provedor-de-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/provedor-de-ia>
+- [Relatório da Avaliação pela IA](recursos/relatorio-da-avaliacao-pela-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/relatorio-da-avaliacao-pela-ia>
+- [Reservas no Assistente de IA](recursos/reservas-no-assistente-de-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/reservas-no-assistente-de-ia>
 - [Setor Único com Fluxo Automático](recursos/setor-unico-com-fluxo-automatico.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/setor-unico-com-fluxo-automatico>
+- [Sugestão de resposta IA](recursos/sugestao-de-resposta-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/sugestao-de-resposta-ia>
 - [Tipo Prompt](recursos/tipo-prompt.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/tipo-prompt>
 - [Tipos de Perfil](recursos/tipos-de-perfil.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/tipos-de-perfil>
 - [Token OpenAI](recursos/token-openai.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/token-openai>
 - [Transcrever Áudios](recursos/transcrever-audios.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/transcrever-audios>
 - [– Transferir Ticket](recursos/transferir-ticket.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/transferir-ticket>
+- [Vendas Perdidas na Avaliação pela IA](recursos/vendas-perdidas-na-avaliacao-pela-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/vendas-perdidas-na-avaliacao-pela-ia>
+- [Vendas Perdidas no Assistente de IA](recursos/vendas-perdidas-no-assistente-de-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/vendas-perdidas-no-assistente-de-ia>
+- [Visão Geral Avaliação pela IA](recursos/visao-geral-avaliacao-pela-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/visao-geral-avaliacao-pela-ia>
 - [Visão Geral Equipe](recursos/visao-geral-equipe.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/visao-geral-equipe>
 - [Visão Geral Setores & Chatbot](recursos/visao-geral-setores-e-chatbot.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/visao-geral-setores-e-chatbot>
 - [Visão Geral Tags](recursos/visao-geral-tags.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/visao-geral-tags>
+- [Webhook da Avaliação pela IA](recursos/webhook-da-avaliacao-pela-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/webhook-da-avaliacao-pela-ia>

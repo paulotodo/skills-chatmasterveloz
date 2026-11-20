@@ -13,3 +13,4 @@
 - [**API Atualizar o Status de um Usuário**  [Todas]](../api/api-atualizar-o-status-de-um-usuario.md)
 - [**API Derrubar a Sessão de um Usuário**  [Todas]](../api/api-derrubar-a-sessao-de-um-usuario.md)
 - [**API Transferir Carteira de Clientes**  [Todas]](../api/api-transferir-carteira-de-clientes.md)
+- [**API Gerar Link de Login Automático**  [Empresa]](../api/api-gerar-link-de-login-automatico.md)

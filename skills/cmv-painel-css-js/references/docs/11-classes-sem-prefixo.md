@@ -1,8 +1,8 @@
-<!-- gerado por _gerar.py · fonte: https://app.chatmasterveloz.com/catalogo-css/pt.json · versão WS-29.930.0 -->
+<!-- gerado por _gerar.py · fonte: https://app.chatmasterveloz.com/catalogo-css/pt.json · versão WS-30.141.0 -->
 
 # Classes sem prefixo
 
-Partes do Chat que já tinham nome antes da convenção `custom-css-`: o cartão do ticket, o cabeçalho do atendimento, a conversa e o painel do contato. Os nomes continuam os mesmos e valem como as outras âncoras — 68 classes, na ordem da tela:
+Partes do Chat que já tinham nome antes da convenção `custom-css-`: o cartão do ticket, o cabeçalho do atendimento, a conversa e o painel do contato. Os nomes continuam os mesmos e valem como as outras âncoras — 69 classes, na ordem da tela:
 
 | Classe | Onde | O quê |
 |---|---|---|
@@ -44,6 +44,7 @@ Partes do Chat que já tinham nome antes da convenção `custom-css-`: o cartão
 | `.message-quoted-author` | conversa | o nome de quem escreveu a mensagem citada — só quando foi o contato |
 | `.message-deleted` | conversa | o aviso de mensagem apagada, no balão do contato, com `data-apagada-por`; e o mesmo aviso na página do atendimento (`#custom-css-atendimento-report`), sem o atributo |
 | `.message-meta` | conversa | a data e a hora dentro do balão; nas mensagens enviadas, também o nome do atendente e os checks de entrega |
+| `.message-edited` | conversa | o "Editada" ao lado da hora, nas mensagens enviadas: a empresa editou a mensagem (pela plataforma ou pelo aparelho) e o texto do balão já é o novo, como o cliente vê; leva `data-edited="user"` |
 | `.message-origin-app` | conversa | o celular ao lado da hora: a mensagem foi enviada pelo aparelho, e não pela plataforma |
 | `.message-origin-hybrid` | conversa | o símbolo da rota híbrida ao lado da hora: a mensagem saiu pela plataforma e por fora da API oficial ao mesmo tempo (os dois símbolos podem aparecer juntos) |
 | `.message-internal` | conversa | o balão da nota interna. Sozinha, é o recado do time; com uma das três abaixo, é outro assunto |

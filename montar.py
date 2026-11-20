@@ -82,17 +82,33 @@ def montar(skill):
     conferir(pasta)
 
 
-CITACAO = re.compile(r"(?:references|scripts|assets)/[\w./-]*\.(?:md|py|json)")
+CITACAO = re.compile(r"(?<![\w/.-])((?:[\w-]+/)*[\w.-]+\.(?:md|py|json))\b")
+PASTAS_DOCS = ("api/", "recursos/", "trilhas/", "outros/")
 
 
 def conferir(pasta):
-    """Acusa caminho citado nos arquivos escritos à mão que não existe (artigo renomeado ou removido)."""
+    """Acusa arquivo citado nos textos escritos à mão que não existe (artigo renomeado ou removido).
+
+    Três jeitos de citar: caminho a partir da skill (references/…, scripts/…, assets/…), caminho a partir
+    da cópia da documentação (recursos/x.md, api/x.md) e só o nome do artigo (bloco-menu.md).
+    """
+    nomes = {f.name for f in pasta.rglob("*") if f.is_file()}
     quebrados = set()
     for arq in pasta.rglob("*.md"):
         if "docs" in arq.relative_to(pasta).parts:
             continue
         for citado in CITACAO.findall(arq.read_text()):
-            if not (pasta / citado).is_file():
+            nome = citado.rsplit("/", 1)[-1]
+            if citado.startswith(("references/", "scripts/", "assets/")):
+                existe = (pasta / citado).is_file()
+            elif citado.startswith(PASTAS_DOCS):
+                # nome com maiúscula é marcador de exemplo (recursos/ARTIGO.md), não citação
+                existe = nome != nome.lower() or (pasta / "references" / "docs" / citado).is_file()
+            elif "/" not in citado and nome.endswith(".md") and nome == nome.lower() and ("-" in nome or nome[0].isdigit()):
+                existe = nome in nomes          # só o nome do artigo, como bloco-menu.md
+            else:
+                continue                        # exemplo, marcador (ARTIGO.md) ou caminho de fora da skill
+            if not existe:
                 quebrados.add(f"  {arq.relative_to(pasta)} cita {citado}")
     if quebrados:
         sys.exit(f"{pasta.name}: caminhos citados que não existem:\n" + "\n".join(sorted(quebrados)))

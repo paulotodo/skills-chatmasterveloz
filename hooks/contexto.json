@@ -1,6 +1,6 @@
 {
  "hookSpecificOutput": {
   "hookEventName": "SessionStart",
-  "additionalContext": "Esta empresa usa a plataforma Chat Master Veloz (CMV) para atender clientes pelo WhatsApp e outros canais."
+  "additionalContext": "Esta empresa usa a plataforma Chat Master Veloz (CMV) para atender clientes pelo WhatsApp e outros canais. Pedidos sobre atendimento, painel, tickets, fluxos, mensagens, IA ou integrações que não citem outra ferramenta são sobre o CMV: carregue com a ferramenta Skill a skill cmv-* que trata do assunto antes de responder, mesmo que o pedido não cite a plataforma. Pedido que cita outra ferramenta ou plataforma (ManyChat, Typebot, Zapier, Chatwoot, o aplicativo WhatsApp Business e semelhantes) não é do CMV: responda sem as skills cmv-*."
  }
 }

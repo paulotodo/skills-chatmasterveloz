@@ -16,7 +16,7 @@
 >
 > ➡️ Em **Funil**, deixe **Todos os funis** para ver tudo junto, ou escolha um.
 >
-> ➡️ Ajuste o **Período**: **Mês**, com o mês e o ano, ou **Personalizado**, com as datas **De** e **Até**.
+> ➡️ Ajuste o **Período**: **Mês**, com o mês e o ano; **Personalizado**, com as datas **De** e **Até**; ou uma das **Campanhas**.
 >
 > ➡️ Em **Ranking por**, escolha **Vendedor**, **Equipe**, **Unidade** ou **Funil**.
 >
@@ -24,7 +24,7 @@
 
 ## Vídeo Tutorial
 
-[Vídeo Voomly — id ygS9ykhYMbxI39_VhVgyCRiJUxjTGDPgTY5Gi5nZMV_TUKjL0, tipo v]  
+[Vídeo Voomly — id QdAeL6sDT5PVlbQSbmgBVoEaXyXjMFE-t3Jx9UspaBMSSgSpU, tipo v]  
 
 ## O que a tela mostra
 
@@ -40,7 +40,17 @@
 
 Sem funil escolhido, a tela mostra o selo **Consolidado — todos os funis**.
 
-No período **Personalizado**, o card **Meta atingida** mostra *"A meta é do mês"*, a classificação fica só com a aba **Todos** e o botão **Configurar metas** não aparece: as metas valem para o mês.
+Em **Período**, o grupo **Campanhas** lista as campanhas cadastradas no menu **CRM  ›  Minha evolução**, cada uma com o nome e as datas de início e fim. Com uma campanha escolhida, o Ranking mostra as vendas do período dela, e os campos **Mês** e **Ano** saem da tela.
+
+No período **Personalizado** ou numa campanha, o card **Meta atingida** mostra *"A meta é do mês"*, a classificação fica só com a aba **Todos** e o botão **Configurar metas** não aparece: as metas valem para o mês.
+
+## Quem vê o Ranking
+
+O **Ranking** aparece no menu do administrador e do supervisor.
+
+O atendente só vê o **Ranking** com a permissão **Pode ver o Ranking (CRM)** em **SIM**, na aba **Permissões** do cadastro dele, no menu **Equipe**. Com a permissão, ele vê a tela inteira — as vendas de todos, o **Ranking por**, as equipes e as unidades —, mas não tem o botão **Configurar metas**.
+
+Sem a permissão, o item **Ranking** não aparece no menu do atendente, e o endereço da tela leva de volta aos Chats.
 
 ## Ranking por vendedor, equipe, unidade ou funil
 
@@ -54,7 +64,11 @@ O filtro **Ranking por**, depois dos filtros de **Funil** e **Período**, escolh
 
 Na visão por equipe, unidade ou funil, o primeiro colocado que vendeu leva o troféu, e o **Pódium dos Campeões** mostra os grupos, só os que venderam. Os quatro cards do topo seguem iguais em qualquer visão.
 
+Nas visões **Equipe** e **Unidade**, cada grupo aparece com a imagem dele: redonda no pódio e ao lado do nome na tabela. Sem imagem, aparecem as iniciais do nome. A imagem de cada unidade e de cada equipe é escolhida no menu **CRM  ›  Minha evolução**, no ícone **Unidades e equipes**.
+
 ⚠️ A pessoa que está em duas equipes conta nas duas e entra uma vez só na unidade. Quem não está em nenhuma equipe fica fora das linhas de equipe e de unidade, mas a venda dela conta em **Vendas totais**.
+
+Na visão **Unidade**, a oportunidade com mais de uma unidade responsável conta em cada unidade do jeito escolhido no menu **Configurações  ›  Opções  ›  Vendas**, seção **CRM**, em **Venda em várias unidades conta**: o valor inteiro em cada unidade, o valor dividido igualmente entre elas ou só na primeira unidade escolhida. Com o valor dividido, cada unidade conta a venda inteira na quantidade de vendas e só a sua parte no **Total**.
 
 ## Encerramento de atendimentos
 
@@ -102,4 +116,14 @@ O botão **Configurar metas** abre um campo de meta, em reais, para cada pessoa.
 >
 > **No Ranking por Equipe, de onde vem a meta da equipe?** Da soma das metas do mês de quem está na equipe, cadastradas em **Configurar metas**. As metas da campanha não entram no Ranking.
 >
+> **Dá para ver o Ranking de uma campanha?** Sim. Em **Período**, escolha a campanha no grupo **Campanhas**: o Ranking mostra as vendas do período dela. As metas das campanhas não entram no Ranking, e o card **Meta atingida** mostra *"A meta é do mês"*.
+>
 > **Uma pessoa está em duas equipes. A venda dela conta duas vezes no Ranking?** Conta nas duas equipes e entra uma vez só na unidade.
+>
+> **Uma venda tem duas unidades responsáveis. Ela aparece nas duas no Ranking por Unidade?** Depende de **Venda em várias unidades conta**, no menu **Configurações  ›  Opções  ›  Vendas**, seção **CRM**: o valor inteiro em cada unidade, o valor dividido igualmente entre elas ou só na primeira unidade escolhida.
+>
+> **O atendente não encontra o menu Ranking.** O atendente só vê o Ranking com **Pode ver o Ranking (CRM)** em **SIM**, na aba **Permissões** do cadastro dele, no menu **Equipe**.
+>
+> **Liberei o Ranking para um atendente. Ele consegue mudar as metas?** Não. Com **Pode ver o Ranking (CRM)**, o atendente vê o Ranking sem o botão **Configurar metas**; as metas continuam com administrador e supervisor.
+>
+> **De onde vem a imagem da equipe no Ranking?** Do ícone **Unidades e equipes**, no menu **CRM  ›  Minha evolução**, onde o administrador escolhe a imagem de cada unidade e de cada equipe. Sem imagem, o Ranking mostra as iniciais do nome.

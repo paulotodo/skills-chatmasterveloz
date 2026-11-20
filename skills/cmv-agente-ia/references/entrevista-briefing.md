@@ -21,7 +21,7 @@ São as perguntas da primeira resposta. Adapte as palavras ao ramo da pessoa e c
 3. O que ela não pode dizer nem prometer? (Se não souber, eu proponho uma lista padrão.)
 4. Quando a conversa deve passar para uma pessoa, e para qual equipe ou Setor?
 5. A pergunta do objetivo: para agendar, que dados a equipe precisa receber e quem confirma o horário; para qualificar, o que define um bom contato; para suporte, quais problemas ela pode orientar.
-6. O que já está pronto: a IA foi liberada pelo suporte do Chat Master Veloz? Você já tem a chave da OpenAI? Você é administrador do painel? (Não me envie a chave.)
+6. O que já está pronto: você é administrador do painel e vê o menu **Prompts OPEN.AI**? A chave da OpenAI já está no card **OPEN.AI** do menu **Integrações** (ou o card diz que a conta usa a chave da plataforma)? (Não me envie a chave.)
 
 Com as respostas 1 a 5 já sai um prompt completo ou quase. O que faltar vira marcador.
 
@@ -30,7 +30,7 @@ Com as respostas 1 a 5 já sai um prompt completo ou quase. O que faltar vira ma
 Perguntas:
 
 - Você é administrador do painel? (Os menus **Prompts OPEN.AI** e **Sugestão de resposta IA** aparecem só para o perfil Administrador; o menu **Avaliação pela IA** aparece também para Supervisor e Atendente.)
-- A opção de IA já foi ativada pelo suporte do Chat Master Veloz e o token da OpenAI já está no menu **Integrações**?
+- O menu **Prompts OPEN.AI** aparece para você, e o token da OpenAI já está no card **OPEN.AI** do menu **Integrações** (ou o card diz que a conta usa a chave da plataforma)?
 - Já existe algum assistente em **Prompts OPEN.AI**? Se sim, pode colar o prompt atual e contar o que está dando errado?
 - Hoje, como o cliente chega até vocês: direto em um Setor, por menu de Setores ou por um fluxo do FlowBuilder?
 
@@ -60,7 +60,7 @@ Perguntas:
 - Os clientes costumam mandar áudio?
 - A IA vai atender em conversa privada, em grupo, ou nos dois?
 
-Por que perguntar: o público define vocabulário e paciência; as dúvidas mais comuns viram a base de conhecimento; o áudio decide a **Temperatura** (o artigo Tipo Prompt indica "1" para interpretar áudio); grupo exige o **Gatilho para Grupo**.
+Por que perguntar: o público define vocabulário e paciência; as dúvidas mais comuns viram a base de conhecimento; o áudio decide ligar **Ativar Transcrição de Áudio** no Setor da IA (com ela, a IA responde ao que foi falado); grupo pede o **Gatilho para Acionar em Grupos** e a escolha de quem responde no grupo.
 
 Se não souber: peça que role as conversas dos últimos dias e copie as perguntas que mais se repetem, ou que pergunte a quem atende. Sem isso, escreva a base só com o que foi informado e deixe a transferência como saída para o resto.
 
@@ -74,7 +74,7 @@ Perguntas:
 - Prazos, entrega, garantia, troca, cancelamento: quais são as regras?
 - Links que ela pode enviar (site, catálogo, localização).
 
-Por que perguntar: a documentação não descreve base de conhecimento por arquivo ou site; o assistente sabe o que está escrito no campo **Prompt**. Tudo que ele pode afirmar precisa estar ali, com as palavras certas.
+Por que perguntar: o assistente sabe o que está escrito no campo **Prompt** e o que estiver na **Base de Conhecimento** ligada a ele (itens digitados ou lidos de arquivo .pdf, .docx, .txt, .md ou .csv; site não). Tudo que ele pode afirmar precisa estar num dos dois, com as palavras certas. Se a pessoa tem um material pronto (tabela de preços, perguntas frequentes), ele pode ir para a base.
 
 Se não souber: o que a pessoa não souber informar agora fica fora da base, e o prompt manda dizer que a equipe confirma e transferir. Para preço, o padrão seguro é não informar e encaminhar. Nunca preencha com valores "de exemplo" na versão final.
 
@@ -113,7 +113,7 @@ Perguntas:
 - O que a IA deve dizer na hora de transferir? Fora do horário da equipe, o que muda nessa mensagem?
 - Esse Setor de destino tem algum robô ligado (fluxo ou outro assistente)?
 
-Por que perguntar: a plataforma tem dois mecanismos de transferência (os campos de **Transbordo** e os comandos Transferir Fila e Transferir para Operador), e ambos pedem Setor definido. O assistente só atua no Setor dele, com o atendimento em **Aguardando**. A skill recomenda que o Setor da equipe seja outro, sem assistente ligado (`references/comandos-e-capacidades.md`, seção 6).
+Por que perguntar: a plataforma tem dois mecanismos de transferência (os campos de **Transbordo** e os comandos **Transferir para um setor** e **Transferir para um operador**), e ambos pedem Setor definido. O assistente só atua nos Setores em que foi escolhido, com o atendimento em **Aguardando**. A skill recomenda que o Setor da equipe seja outro, sem assistente ligado (`references/comandos-e-capacidades.md`, seção 6).
 
 Se não souber: padrão mínimo: transferir quando o cliente pedir uma pessoa, quando reclamar, quando a resposta não estiver na base e quando a mesma dúvida voltar pela segunda vez; tudo para um único Setor humano. Se a empresa só tem um Setor, explique que a skill recomenda criar outro para a IA (ou para a equipe) e inclua isso no passo a passo.
 
@@ -130,29 +130,29 @@ Por que perguntar: coleta sem ordem vira interrogatório. Com a lista fechada, o
 
 Se não souber: padrão: nome, o que procura e melhor horário para contato, nessa ordem; depois, transferir. Mais que quatro ou cinco dados costuma derrubar a conversa no WhatsApp; proponha cortar.
 
-## Grupo 8: ações na plataforma e IDs
+## Grupo 8: ações na plataforma
 
 Perguntas:
 
-- A IA deve marcar a conversa com alguma tag? Em que momento? A tag já existe no menu **Tags**? Qual é o ID dela?
-- Deve remover alguma tag? Quando?
+- A IA deve marcar a conversa com alguma tag? Em que momento (no turno da tag o cliente não recebe mensagem)? A tag já existe no menu **Tags**?
+- A IA deve registrar uma oportunidade no CRM? Em que funil e etapa, com quais respostas do cliente?
 - Pode encerrar o atendimento sozinha quando o cliente disser que não precisa de mais nada?
-- Para agendamento: a equipe confirma o horário (variante recomendada) ou a IA registra o compromisso sozinha? Nesse segundo caso, qual o tipo de compromisso (Reunião, Ligação, Visita, Lembrete ou Tarefa) e a duração?
-- Você tem os IDs do Setor e do operador de destino, ou prefere inserir os comandos pela janela **Comandos da IA**?
+- Para agendamento: a equipe confirma o horário ou a IA marca sozinha na agenda da plataforma? Nesse segundo caso, qual o tipo de compromisso (Reunião, Ligação, Visita, Lembrete ou Tarefa), a duração, e se a IA também desmarca?
+- Para que Setor (ou pessoa) vai cada transferência? Basta o nome: a janela **COMANDOS DA IA** escolhe pelo nome.
 
-Por que perguntar: só existem os comandos documentados (transferir para Setor, transferir para operador, atribuir tag, remover tag, encerrar ticket e o de agenda), e cada um precisa do ID certo para funcionar. Com os IDs em mãos, o prompt sai pronto para colar; sem eles, sai com marcadores para trocar.
+Por que perguntar: só existem os seis comandos documentados (**Transferir para um setor**, **Transferir para um operador**, **Marcar com uma tag**, **Encerrar o atendimento**, **Registrar oportunidade no CRM** e **Marcar ou desmarcar na agenda**), e cada um pede os seus campos na janela **COMANDOS DA IA**.
 
-Se não souber: entregue o prompt com marcadores no lugar dos IDs e a tabela "o que falta preencher e onde achar"; onde fica cada ID e como usar a janela **Comandos da IA** está em `references/comandos-e-capacidades.md`, seção 5, e `references/configuracao-painel.md`, etapa 5. Para agendamento sem definição, use a variante A de `assets/modelo-prompt.md`: a IA coleta e a equipe confirma.
+Se não souber: entregue o prompt com os marcadores de comando e a tabela "o que falta preencher e onde achar"; como usar a janela **COMANDOS DA IA** está em `references/comandos-e-capacidades.md`, seção 4, e `references/configuracao-painel.md`, etapa 5. Para agendamento sem definição, use a variante A de `assets/modelo-prompt.md`: a IA coleta e a equipe confirma.
 
 ## Grupo 9: operação e custo
 
 Perguntas:
 
 - A resposta será só por texto ou também por voz? (A voz tem custo extra, pela Microsoft Azure.)
-- As conversas costumam ser longas? (Ajuda a escolher o **Máximo de Mensagens no Histórico**.)
+- As conversas costumam ser longas? (Ajuda a escolher o **Máximo de mensagens no Histórico**.)
 - Há preocupação forte com custo?
 
-Por que perguntar: **Tokens** e **Máximo de Mensagens no Histórico** impactam diretamente o custo, e a cobrança vai para a conta da OpenAI dona da chave.
+Por que perguntar: **Tokens** e **Máximo de mensagens no Histórico** impactam diretamente o custo, e a cobrança vai para a conta da OpenAI dona da chave.
 
 Se não souber: use os valores para o caso comum de `references/configuracao-painel.md`, etapa 4, e ajuste depois dos testes.
 
@@ -173,8 +173,8 @@ Não pode responder nem prometer: ...
 Tom: ...
 Dados a coletar, na ordem: ...
 Transferir para uma pessoa quando: ...
-Setor de destino (e ID, se já tiver): ...
-Tags e momento de aplicar (e IDs, se já tiver): ...
+Setor de destino: ...
+Tags e momento de aplicar: ...
 Pode encerrar o atendimento sozinha: sim / não
 Agendamento: não se aplica / coleta e transfere / comando de agenda (tipo e duração)
 Áudio dos clientes: frequente / raro

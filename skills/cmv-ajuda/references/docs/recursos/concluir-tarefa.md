@@ -32,6 +32,20 @@ Acesse o menu **Tarefas** e clique no ícone **Concluir** da tarefa.
 
 Imediatamente o título da tarefa aparecerá riscado e o painel será atualizado!
 
+## Concluir várias tarefas de uma vez
+
+Na lista de **Tarefas**, marque a caixa **Marcar tarefa** de cada tarefa, ou **Selecionar esta página** para marcar as tarefas da página. Com a página marcada, **Selecionar todas as N tarefas do filtro** marca todas as que o filtro mostra, também nas outras páginas.
+
+🔘 **Concluir selecionadas:** a tela pergunta *"Concluir N tarefa(s)?"* e explica: *"As pendentes ficam concluídas; as que se repetem já geram a próxima."* Depois mostra o andamento (*Concluindo tarefas…*) e o resultado, como *"55 tarefa(s) concluída(s)."*; as que já estavam concluídas aparecem à parte.
+
+🔘 **Limpar seleção:** desmarca as tarefas escolhidas.
+
+## Reabrir uma tarefa concluída
+
+Só o administrador reabre uma tarefa concluída. Ele abre a tarefa e clica em **Reabrir**, no rodapé: a tela confirma *"Tarefa reaberta. Quem é responsável foi avisado."*, a tarefa volta a pendente e o responsável recebe a notificação *Tarefa reaberta*.
+
+Para o atendente, a tarefa concluída fica sem o **Reabrir**, e o círculo de conclusão dela na lista fica desativado. O supervisor também não reabre.
+
 ## Tarefa que se repete
 
 Na tarefa com **Repetir**, concluir cria a próxima tarefa na data seguinte do **Padrão de Recorrência** — na tarefa diária, o dia seguinte —, no mesmo horário, pendente e com a mesma repetição. A tela avisa *"Tarefa concluída. A próxima foi criada para"* e a data.
@@ -42,10 +56,12 @@ A tarefa concluída continua na lista, riscada, e a próxima aparece como penden
 >
 > #### Dúvidas Comuns
 >
-> **Finalizei por engano, como desfazer?** Clique novamente no ícone de **Concluir** (✅). A tarefa deixará de estar riscada e voltará para o status de pendente.
+> **Concluí uma tarefa por engano. Como desfazer?** A tarefa concluída só volta pelas mãos de um administrador: ele abre a tarefa e clica em **Reabrir**. A tarefa volta a pendente, e o responsável é avisado.
 >
 > **A tarefa sumiu após finalizar:** Verifique os **Filtros**. Se o filtro estiver configurado para mostrar apenas "Pendentes", as tarefas concluídas ficarão ocultas. Mude o filtro para "Todas" ou "Concluídas".
 >
 > **Concluí uma tarefa que se repete. Preciso criar a próxima?** Não. Ao concluir, a próxima já nasce na data seguinte da repetição, no mesmo horário.
 >
-> **Quem pode finalizar?** Qualquer usuário com acesso à tarefa (Criador, Responsável ou Compartilhado) tem permissão para alterar o status de conclusão.
+> **Quem pode concluir uma tarefa?** Quem tem acesso a ela: quem criou, o responsável e quem recebeu o compartilhamento. Já **Reabrir** a tarefa concluída é só do administrador.
+>
+> **Dá para concluir várias tarefas de uma vez?** Dá. Na lista de **Tarefas**, marque as tarefas (ou **Selecionar esta página**) e clique em **Concluir selecionadas**. As que se repetem já geram a próxima.

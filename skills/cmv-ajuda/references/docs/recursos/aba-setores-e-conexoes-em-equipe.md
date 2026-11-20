@@ -28,13 +28,13 @@
 
 🔘 **Quadros de atendimento:** quais quadros a pessoa vê no **Quadro de atendimentos**. Nas palavras da tela: *Administradores e supervisores veem todos* — por isso o campo só aparece para o perfil **User**.
 
-🔘 **Setor Individual Exclusivo da Carteira:** o Setor reservado aos clientes da carteira desta pessoa. Quando um cliente da carteira escreve, a conversa não passa pelo **Aguardando**: nasce direto no **Atendendo** dela, nesse Setor. O mesmo Setor tem que estar marcado também em **Setores**, e não pode pertencer a outra pessoa nem estar ligado a nenhuma conexão. O campo aparece quando a opção **Carteira de Clientes** está em **Sim** no menu **Configurações  ›  Opções**.
+🔘 **Setor Individual Exclusivo da Carteira:** o Setor reservado aos clientes da carteira desta pessoa. Quando um cliente da carteira escreve, a conversa não passa pelo **Aguardando**: nasce direto no **Atendendo** dela, nesse Setor. O mesmo Setor tem que estar marcado também em **Setores**, e não pode pertencer a outra pessoa nem estar ligado a nenhuma conexão. O campo aparece quando a opção **Carteira de Clientes** está em **Sim** no menu **Configurações  ›  Opções  ›  Contatos**, seção **Carteiras de Clientes**.
 
 🔘 **Conexões que pode atender:** por quais Conexões a pessoa abre conversa. Com alguma marcada, o botão **Novo** dos Chats só oferece as Conexões marcadas. As conversas que chegam pelos Setores dela continuam aparecendo, venham da Conexão que for. Nas palavras da tela: *nenhuma marcada: o usuário vê todas as conexões da empresa*.
 
 🔘 **Conexão Padrão:** a Conexão que já vem escolhida quando a pessoa abre conversa pelo botão **Novo** dos Chats. Sem ela, a janela pede *Selecione uma conexão*.
 
-⚠️ Marcar um Setor aqui não é o mesmo que a pessoa ter acesso a todas as conversas dele. O que ela vê dentro do Setor é regra do menu **Configurações  ›  Opções**, na seção **Permissões e Visualização**.
+⚠️ Marcar um Setor aqui não é o mesmo que a pessoa ter acesso a todas as conversas dele. O que ela vê dentro do Setor é regra do menu **Configurações  ›  Opções  ›  Atendimento**, na seção **Atendimento e operador**.
 
 ## Ao tirar um Setor com atendimentos abertos
 
@@ -60,7 +60,7 @@ A janela mostra, Setor por Setor, quantos atendimentos da pessoa estão ali. Só
 >
 > **Marquei só uma Conexão em Conexões que pode atender e a pessoa continua vendo conversas das outras.** É o esperado: o campo limita por onde ela abre conversa nova, no botão **Novo**. O que chega pelos Setores dela continua aparecendo.
 >
-> **Onde escolho quem recebe as conversas de um cliente da carteira?** No cadastro do **contato**, campo **Proprietário do Lead (Carteira)**. Aqui você só reserva o Setor que vai receber essas conversas, e antes é preciso ligar a carteira no menu **Configurações  ›  Opções**, seção **Carteiras de Clientes**.
+> **Onde escolho quem recebe as conversas de um cliente da carteira?** No cadastro do **contato**, campo **Proprietário do Lead (Carteira)**. Aqui você só reserva o Setor que vai receber essas conversas, e antes é preciso ligar a carteira no menu **Configurações  ›  Opções  ›  Contatos**, seção **Carteiras de Clientes**.
 >
 > **Posso usar um Setor comum como Setor da carteira?** Não. Ele precisa ser exclusivo dessa pessoa: sem outra pessoa nele e sem conexão apontando para ele. Crie um, por exemplo "Carteira da Ana".
 >

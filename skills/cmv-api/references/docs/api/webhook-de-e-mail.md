@@ -8,13 +8,13 @@
 
 🧩 Quer que o seu sistema saiba na hora que um e-mail chegou ou foi enviado pelas contas de e-mail da empresa? O **Webhook de E-mail** avisa o seu sistema a cada e-mail recebido e a cada e-mail enviado.
 
-O **Webhook de E-mail** cobre só os e-mails. As conversas com os clientes são avisadas pelos webhooks da Conexão e do Setor.
+O **Webhook de E-mail** cobre só os e-mails. As conversas com os clientes são avisadas pelos webhooks da Conexão e do Setor. Os eventos das campanhas de e-mail em massa têm um webhook à parte, com eventos e cabeçalhos próprios.
 
 > **[RESUMO]**
 >
 > #### Resumo Prático
 >
-> ➡️ Acesse o menu **Configurações  ›  Opções** e encontre o campo **Webhook de e-mail**.
+> ➡️ Acesse o menu **Configurações  ›  Opções  ›  Integrações e segurança** e, na seção **Webhooks e integrações**, encontre o campo **Webhook de e-mail**.
 >
 > ➡️ Preencha o endereço do seu sistema e clique em **Salvar**.
 
@@ -88,6 +88,8 @@ Nas palavras da tela, o aviso do **Webhook de E-mail** vai assinado com o **Toke
 > **O e-mail enviado pela API dispara o Webhook de E-mail?** Dispara. O e-mail enviado pela API chega como `email-enviado`, igual ao enviado pela tela.
 >
 > **Os e-mails antigos da caixa disparam o Webhook de E-mail?** Não. O aviso de `email-recebido` vale para o e-mail recebido com até 48 horas: a caixa antiga não dispara a automação.
+>
+> **O Webhook de E-mail avisa a abertura e o clique nos e-mails das campanhas em massa?** Não. O **Webhook de E-mail** envia só `email-recebido` e `email-enviado`. A abertura, o clique e o descadastro das campanhas de e-mail em massa chegam pelo webhook próprio das campanhas, com cabeçalhos diferentes.
 
 > **[ERROS]**
 >

@@ -20,7 +20,7 @@ Ideal para:
 >
 > ➡️ Cadastre o **Telefone** de cada usuário que vai receber o aviso.
 >
-> ➡️ Escreva o texto do aviso em **Mensagem de Notificação Externa**, no menu **Configurações  ›  Opções**.
+> ➡️ Escreva o texto do aviso em **Mensagem de Notificação Externa**, no menu **Configurações  ›  Opções  ›  Automação**, seção **Mensagens automáticas**.
 >
 > ➡️ Ligue **Notificar Operador no WhatsApp** no Setor, no menu **Setores & Chatbot  ›  editar o Setor**.
 
@@ -38,9 +38,9 @@ Cada usuário também pode cadastrar o próprio telefone: no menu do usuário, n
 
 ## Como escrever o texto do aviso
 
-Acesse o menu **Configurações  ›  Opções**
+Acesse o menu **Configurações  ›  Opções  ›  Automação**
 
-🔘 **Mensagem de Notificação Externa:** em **Configurações de Sistema**, o texto que os usuários recebem no WhatsApp — por exemplo, *"Existe atendimento aguardando sua atenção na plataforma."* O texto vale para toda a empresa.
+🔘 **Mensagem de Notificação Externa:** na seção **Mensagens automáticas**, o texto que os usuários recebem no WhatsApp — por exemplo, *"Existe atendimento aguardando sua atenção na plataforma."* O texto vale para toda a empresa.
 
 ![Campo Mensagem de Notificação Externa em Configurações](https://clihelper.chatmasterveloz.com/docs-imagem/24946-avise-me-mensagem.jpg)
 
@@ -60,6 +60,6 @@ Acesse o menu **Setores & Chatbot  ›  editar o Setor**
 >
 > **O Avise-me depende do rodízio de atendimento?** Não. O aviso é enviado quando a conversa chega ao Setor e fica em **Aguardando**. Ligado no Setor de destino de um rodízio, o **Notificar Operador no WhatsApp** também avisa quando a conversa chega ao atendente sorteado.
 >
-> **Onde mudo o texto do aviso do Avise-me?** Em **Mensagem de Notificação Externa**, no menu **Configurações  ›  Opções**, em **Configurações de Sistema**.
+> **Onde mudo o texto do aviso do Avise-me?** Em **Mensagem de Notificação Externa**, no menu **Configurações  ›  Opções  ›  Automação**, seção **Mensagens automáticas**.
 >
 > **O usuário não recebeu o aviso do Avise-me. O que conferir?** Se o **Notificar Operador no WhatsApp** está ligado no Setor, se o usuário tem acesso a esse Setor e se o **Telefone** dele está preenchido só com números, no padrão DDI + DDD + número.

@@ -6,7 +6,7 @@
 
 ---
 
-🧩 A aba **Geral** é a identidade e o comportamento do Setor. É aqui que você dá nome e cor, define quanto tempo uma conversa espera antes de ser transferida, escolhe quem é avisado e liga a automação que vai atender antes de um humano.
+🧩 A aba **Geral** é a identidade e o comportamento do Setor. É aqui que você dá nome e cor, define quanto tempo uma conversa espera antes de ser transferida, escolhe quem é avisado, decide se o cliente que responde logo depois do encerramento volta para quem o atendia e liga a automação que vai atender antes de um humano.
 
 É a única aba obrigatória do cadastro, e dentro dela três campos precisam ser preenchidos: **Nome**, **Ordenação do BOT** e **Cor**. O sistema recusa o salvamento sem eles. Todo o resto tem função específica e pode ficar vazio até você precisar.
 
@@ -50,13 +50,25 @@
 
 ⚠️ **Mover para um Setor sem atendentes** é o erro clássico: a conversa é transferida corretamente e fica parada, porque ninguém tem acesso ao destino. Antes de escolher o Setor de destino, confirme que há gente cadastrada nele.
 
+🔘 **Retornar ao mesmo atendente:** fica na tela logo depois de **Tempo de Escala**. Com a opção ligada, o atendimento encerrado neste Setor volta para quem o atendia quando o cliente responde dentro do prazo de **Minutos para o retorno** — um "ok", um "obrigado". Ele volta em **Atendendo**, com o mesmo atendente e no mesmo Setor, sem a saudação e sem a posição na fila de espera, e o atendimento ganha uma nota para o atendente: *"↩️ O cliente respondeu logo depois do encerramento: o atendimento voltou para Maria, no Setor "Vendas", sem passar pelo fluxo."* Nas palavras da tela: *"Encerrado neste Setor, se o cliente responder dentro do tempo abaixo (um "ok", um "obrigado"), o atendimento volta para quem o atendia, sem passar pelo fluxo — e o atendente é avisado no atendimento."*
+
+Se o atendente que o atendia estiver **offline** quando o cliente responde, o atendimento não volta para ele: segue o que estiver escolhido em **Setor de transbordo (atendente offline)**.
+
+🔘 **Minutos para o retorno:** aparece quando **Retornar ao mesmo atendente** está ligado. É o prazo, contado do encerramento, em que a resposta do cliente traz o atendimento de volta para o mesmo atendente: de 1 a 10.080 minutos (7 dias). Passado o prazo, ou com a opção desligada, a resposta do cliente segue o caminho de sempre de um atendimento encerrado.
+
+🔘 **Setor de transbordo (atendente offline):** aparece logo abaixo de **Minutos para o retorno**, também só com **Retornar ao mesmo atendente** ligado. Nas palavras da tela: *"Se o cliente responder dentro do tempo, mas o atendente estiver offline, o atendimento vai para este Setor, sem passar pelo fluxo."* A lista traz *"Nenhum — fica na fila deste Setor"* e os outros Setores da empresa.
+
+Com um **Setor de transbordo** escolhido, a resposta do cliente dentro do prazo, com o atendente offline, leva o atendimento para esse Setor, em **Aguardando** e sem atendente, sem a saudação e sem a posição na fila de espera. O atendimento ganha a nota *"↩️ O cliente respondeu logo depois do encerramento, mas Maria está offline: o atendimento foi para o Setor de transbordo "Suporte", sem passar pelo fluxo."*
+
+Com **Nenhum** no **Setor de transbordo**, o atendimento fica em **Aguardando** na fila do próprio Setor, sem atendente e sem a saudação, com a nota *"↩️ O cliente respondeu logo depois do encerramento, mas Maria está offline: o atendimento ficou na fila do Setor "Vendas", sem atendente e sem passar pelo fluxo."* Nos dois casos, nada é enviado ao cliente.
+
 ## Comportamento do atendimento
 
 🔘 **Motivo de Encerramento Obrigatório:** exige que o atendente escolha uma tag de encerramento ao finalizar a conversa. Serve para você saber depois **por que** cada atendimento terminou, e não só quantos terminaram.
 
 ⚠️ Este campo só funciona se existirem tags do tipo **Encerramento** cadastradas no menu **Tags**. Sem elas, o atendente é obrigado a escolher de uma lista vazia.
 
-🔘 **Ativar Transcrição de Áudio:** transforma em texto os áudios que o cliente enviar neste Setor, se disponível no seu plano.
+🔘 **Ativar Transcrição de Áudio:** no WhatsApp, transforma em texto os áudios que o cliente envia neste Setor. O texto fica na própria mensagem de áudio e, com um **Prompt OPEN.AI (ChatGPT)** no Setor, a IA responde ao que foi falado.
 
 🔘 **Grupos de templates:** limita quais templates ficam disponíveis neste Setor. Deixando vazio, o Setor mostra todos os templates da Conexão. O campo lista **grupos**, não templates avulsos — e os grupos são criados fora daqui, no menu **Conexões  ›  editar a Conexão oficial  ›  Gestão de Templates  ›  GRUPOS**. Sem nenhum grupo criado, este campo abre vazio.
 
@@ -80,7 +92,7 @@
 
 🧭 Cadastrar quem atende este Setor, no menu **Equipe  ›  editar o usuário**.
 
-🧭 Se for usar o expediente, escolher **Gerenciamento Por Setor** em **Gerenciamento de Expediente**, no menu **Configurações  ›  Opções**, e voltar à aba **Horários**.
+🧭 Se for usar o expediente, escolher **Gerenciamento Por Setor** em **Gerenciamento de Expediente**, no menu **Configurações  ›  Opções  ›  Geral**, e voltar à aba **Horários**.
 
 > **[DUVIDAS]**
 >
@@ -105,6 +117,12 @@
 > **Vinculei um grupo e não apareceu selo no card do Setor.** É o esperado. Grupos de templates não geram selo na tela de lista, diferente do fluxo ou do webhook.
 >
 > **Para que servem o Campo extra 1 e o Campo extra 2 do Setor?** Guardam uma informação do Setor que o cadastro não tem, como a unidade ou o centro de custo, para usar nas mensagens e no fluxo com as variáveis `{{queue_extra1}}` e `{{queue_extra2}}`.
+>
+> **O cliente respondeu "obrigado" depois do encerramento e o atendimento voltou para o mesmo atendente. Por quê?** É a opção **Retornar ao mesmo atendente**, na aba **Geral** do Setor: dentro do prazo de **Minutos para o retorno**, a resposta do cliente traz o atendimento de volta para quem o atendia, em **Atendendo**, com uma nota avisando o atendente. Para a resposta seguir o caminho de sempre, desligue a opção. Uma integração que encerra o atendimento pela API também pode encerrar sem o retorno, só naquele atendimento.
+>
+> **Com Retornar ao mesmo atendente ligado, o cliente que responde dias depois também volta para o mesmo atendente?** Só dentro do prazo de **Minutos para o retorno**, que vai até 10.080 minutos (7 dias). Passado o prazo, a resposta segue o caminho de sempre de um atendimento encerrado.
+>
+> **O cliente respondeu logo depois do encerramento e o atendimento foi para outro Setor, sem atendente. Por quê?** O atendente que o atendia estava offline, e o Setor tem um **Setor de transbordo (atendente offline)** escolhido na aba **Geral**: a resposta dentro do prazo de **Minutos para o retorno** leva o atendimento para esse Setor, em **Aguardando**, com uma nota que explica o caminho. Com **Nenhum**, o atendimento fica na fila do próprio Setor, sem atendente.
 
 > **[ERROS]**
 >

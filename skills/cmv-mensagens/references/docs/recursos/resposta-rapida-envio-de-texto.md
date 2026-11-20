@@ -16,7 +16,7 @@ Para adicionar uma resposta rápida para envio de **texto** acesse o menu → Re
 
 Você pode utilizar algumas **Variáveis** para serem substituídas pela informação correspondente.
 
-*Por exemplo: "**Olá "** será substituído por "**Olá Rodrigo"** (que seria o primeiro nome desse contato).*
+*Por exemplo: "**Olá {{firstName}}"** será substituído por "**Olá Rodrigo"** (que seria o primeiro nome desse contato).*
 
 ![imagem](https://clihelper.chatmasterveloz.com/docs-imagem/24351-resposta-rapida-adicionar.jpg)
 

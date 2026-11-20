@@ -1,8 +1,8 @@
-<!-- gerado por _gerar.py · fonte: https://app.chatmasterveloz.com/catalogo-css/pt.json · versão WS-29.930.0 -->
+<!-- gerado por _gerar.py · fonte: https://app.chatmasterveloz.com/catalogo-css/pt.json · versão WS-30.141.0 -->
 
 # Modais
 
-331 modais. Todos carregam também `custom-css-modal`, então `.custom-css-modal { border-radius: 12px; }` pega os 331 de uma vez.
+367 modais. Todos carregam também `custom-css-modal`, então `.custom-css-modal { border-radius: 12px; }` pega os 367 de uma vez.
 
 - `.custom-css-modal-accept-ticket`
 - `.custom-css-modal-acessos-do-usuario`
@@ -13,6 +13,8 @@
 - `.custom-css-modal-announcement`
 - `.custom-css-modal-announcement-alert`
 - `.custom-css-modal-announcements-popover`
+- `.custom-css-modal-avisos-da-tarefa`
+- `.custom-css-modal-avisos-do-projeto`
 - `.custom-css-modal-botfile`
 - `.custom-css-modal-botfile-previa`
 - `.custom-css-modal-botfile-url`
@@ -20,6 +22,7 @@
 - `.custom-css-modal-calendar-config`
 - `.custom-css-modal-calls-report`
 - `.custom-css-modal-campaign`
+- `.custom-css-modal-cancelar-pedido-do-painel`
 - `.custom-css-modal-chamada-convidados`
 - `.custom-css-modal-chamada-toque`
 - `.custom-css-modal-change-password`
@@ -27,6 +30,7 @@
 - `.custom-css-modal-chat`
 - `.custom-css-modal-chat-externo-canal`
 - `.custom-css-modal-chat-messages`
+- `.custom-css-modal-clonar-conexao`
 - `.custom-css-modal-color-picker`
 - `.custom-css-modal-comandos-ia`
 - `.custom-css-modal-companies`
@@ -82,6 +86,7 @@
 - `.custom-css-modal-confirmation-link-curto-excluir`
 - `.custom-css-modal-confirmation-lista-de-contatos-excluir`
 - `.custom-css-modal-confirmation-mensagem-apagar`
+- `.custom-css-modal-confirmation-moeda-sem-centavos`
 - `.custom-css-modal-confirmation-nota-do-contato-excluir`
 - `.custom-css-modal-confirmation-notas-do-contato-excluir`
 - `.custom-css-modal-confirmation-oportunidade-descartar`
@@ -89,6 +94,7 @@
 - `.custom-css-modal-confirmation-oportunidade-excluir-modal`
 - `.custom-css-modal-confirmation-plano-excluir`
 - `.custom-css-modal-confirmation-produto-excluir`
+- `.custom-css-modal-confirmation-produtos-substituir-catalogo`
 - `.custom-css-modal-confirmation-prompt-excluir`
 - `.custom-css-modal-confirmation-proposta-enviar`
 - `.custom-css-modal-confirmation-proposta-excluir`
@@ -112,6 +118,10 @@
 - `.custom-css-modal-consultorio-bloqueio`
 - `.custom-css-modal-consultorio-cancelar-consulta`
 - `.custom-css-modal-consultorio-chamar`
+- `.custom-css-modal-consultorio-chave-segredo`
+- `.custom-css-modal-consultorio-consulta-passada`
+- `.custom-css-modal-consultorio-convenio`
+- `.custom-css-modal-consultorio-lembrete`
 - `.custom-css-modal-consultorio-paciente`
 - `.custom-css-modal-consultorio-painel`
 - `.custom-css-modal-consultorio-profissional`
@@ -141,7 +151,14 @@
 - `.custom-css-modal-crm-raia`
 - `.custom-css-modal-cross-domain-meta-oauth`
 - `.custom-css-modal-cupom-do-cardapio`
+- `.custom-css-modal-dashboard-aviso`
+- `.custom-css-modal-dashboard-em-massa`
+- `.custom-css-modal-dashboard-lista`
+- `.custom-css-modal-dashboard-metas`
+- `.custom-css-modal-dashboard-resumo`
 - `.custom-css-modal-dashboard-settings`
+- `.custom-css-modal-dashboard-visao`
+- `.custom-css-modal-descricao-cheia`
 - `.custom-css-modal-docker-code`
 - `.custom-css-modal-docker-perfil`
 - `.custom-css-modal-editor-de-imagem`
@@ -176,6 +193,7 @@
 - `.custom-css-modal-flow-comment-reply`
 - `.custom-css-modal-flow-condition`
 - `.custom-css-modal-flow-contact`
+- `.custom-css-modal-flow-email`
 - `.custom-css-modal-flow-escolher-bloco`
 - `.custom-css-modal-flow-external-chat-link`
 - `.custom-css-modal-flow-http-request`
@@ -196,6 +214,7 @@
 - `.custom-css-modal-flow-queue`
 - `.custom-css-modal-flow-randomizer`
 - `.custom-css-modal-flow-remove-tag`
+- `.custom-css-modal-flow-reservas`
 - `.custom-css-modal-flow-rodizio`
 - `.custom-css-modal-flow-single-block`
 - `.custom-css-modal-flow-sticker`
@@ -213,6 +232,7 @@
 - `.custom-css-modal-fluxo-restaurar`
 - `.custom-css-modal-forward-message`
 - `.custom-css-modal-gerar-proposta`
+- `.custom-css-modal-gravacoes-espiar`
 - `.custom-css-modal-grupo-criar`
 - `.custom-css-modal-grupo-editar`
 - `.custom-css-modal-grupo-entrar`
@@ -234,11 +254,17 @@
 - `.custom-css-modal-kanban-team`
 - `.custom-css-modal-knowledge-base`
 - `.custom-css-modal-lancar-na-mesa`
+- `.custom-css-modal-link-de-agendamento`
 - `.custom-css-modal-lista-por-aniversario`
 - `.custom-css-modal-lista-por-conexao`
 - `.custom-css-modal-lista-por-grupo`
 - `.custom-css-modal-lista-por-tag`
 - `.custom-css-modal-lixeira`
+- `.custom-css-modal-mail-marketing-campanha`
+- `.custom-css-modal-mail-marketing-contatos`
+- `.custom-css-modal-mail-marketing-lista`
+- `.custom-css-modal-mail-marketing-modelo`
+- `.custom-css-modal-mail-marketing-relatorio`
 - `.custom-css-modal-message-options-menu`
 - `.custom-css-modal-meta-embedded-signup`
 - `.custom-css-modal-meta-sip`
@@ -267,6 +293,7 @@
 - `.custom-css-modal-projeto-modelos`
 - `.custom-css-modal-prompt`
 - `.custom-css-modal-proposta-config`
+- `.custom-css-modal-provedor-de-email`
 - `.custom-css-modal-proxy-diagnostic`
 - `.custom-css-modal-qrcode`
 - `.custom-css-modal-queue`
@@ -282,6 +309,13 @@
 - `.custom-css-modal-regra-do-quadro`
 - `.custom-css-modal-regras-do-quadro`
 - `.custom-css-modal-remarketing-log`
+- `.custom-css-modal-reservas-bloqueio`
+- `.custom-css-modal-reservas-oferta`
+- `.custom-css-modal-reservas-pacote`
+- `.custom-css-modal-reservas-pacotes-dos-clientes`
+- `.custom-css-modal-reservas-recurso`
+- `.custom-css-modal-reservas-reserva`
+- `.custom-css-modal-reservas-reserva-detalhe`
 - `.custom-css-modal-resposta-na-volta`
 - `.custom-css-modal-resultado-enderecos`
 - `.custom-css-modal-rodizio`
@@ -308,6 +342,8 @@
 - `.custom-css-modal-task`
 - `.custom-css-modal-telegram-aini`
 - `.custom-css-modal-template-groups`
+- `.custom-css-modal-teste-do-provedor-de-email`
+- `.custom-css-modal-texto-rico`
 - `.custom-css-modal-ticket`
 - `.custom-css-modal-ticket-files`
 - `.custom-css-modal-ticket-files-preview`

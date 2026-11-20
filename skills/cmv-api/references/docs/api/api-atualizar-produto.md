@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/api-atualizar-produto
 - **Categoria:** APIs
-- **Menu:** APIs › CRM › API Atualizar Produto
+- **Menu:** APIs › Produtos › API Atualizar Produto
 
 ---
 

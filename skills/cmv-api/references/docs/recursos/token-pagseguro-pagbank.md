@@ -16,7 +16,7 @@ Na página do PagSeguro, o cliente escolhe como pagar: Pix, cartão ou boleto. O
 >
 > ➡️ No PagBank, em **Venda Online**, abra **Integrações** e gere o **token de segurança**.
 >
-> ➡️ Na plataforma, acesse o menu **Configurações  ›  Opções**, cole o token em **Token do PagSeguro (PagBank) da empresa (links de pagamento do PDV)** e clique em **Salvar**.
+> ➡️ Na plataforma, acesse o menu **Configurações  ›  Opções  ›  Vendas**, seção **PDV**, cole o token em **Token do PagSeguro (PagBank) da empresa (links de pagamento do PDV)** e clique em **Salvar**.
 
 ## Como gerar o token no PagBank
 
@@ -30,7 +30,7 @@ Na página do PagSeguro, o cliente escolhe como pagar: Pix, cartão ou boleto. O
 
 ## Como integrar o PagSeguro à nossa plataforma
 
-Acesse o menu **Configurações  ›  Opções**
+Acesse o menu **Configurações  ›  Opções  ›  Vendas**, seção **PDV**.
 
 🔘 **Token do PagSeguro (PagBank) da empresa (links de pagamento do PDV):** cole o token e clique em **Salvar**. A tela confirma que o PagSeguro foi conectado.
 

@@ -54,9 +54,10 @@ Regras do artigo Mustaches:
 
 | Campo | O que o artigo do campo confirma |
 |---|---|
-| Resposta rápida de texto | "Você pode utilizar algumas Variáveis"; o exemplo é a troca pelo primeiro nome do contato. O artigo não lista os códigos, e o exemplo perdeu o código da variável na cópia do texto ("Olá " será substituído por "Olá Rodrigo"). |
+| Resposta rápida de texto | "Você pode utilizar algumas Variáveis", com o exemplo `Olá {{firstName}}` trocado por "Olá Rodrigo" (o primeiro nome do contato). O artigo não lista os outros códigos. |
 | Mensagem de saudação do Setor | `{{name}}`, com o exemplo `Olá, {{name}}! Você está no Suporte.` |
 | URL da Avaliação Externa | Mustaches, com o exemplo `https://avaliachat.com.br/{{ticket_id}}/{{number}}` (`references/docs/recursos/avaliacoes.md`) |
+| Mensagem de Encaminhamento (Configurações) | `{{ms}}` e `{{name}}`, com o exemplo `{{ms}} *{{name}}*, em alguns instantes um atendente irá prosseguir com seu atendimento.` (`references/docs/recursos/mensagens-automaticas-em-configuracoes.md`) |
 | Template | `{{1}}`, `{{2}}`… |
 | Mensagem simples de campanha, agendamento, mensagem de aniversário, mensagem de fora de expediente, mensagem de ausência, mensagem de conclusão/despedida | **não documentado** no artigo de cada campo |
 
@@ -108,21 +109,29 @@ O artigo Mustaches diz, de forma geral, que o mustache é trocado "em algum loca
 
 Só existe na conexão oficial. É o único formato permitido com a janela de atendimento fechada.
 
-**Onde se cadastra:** menu **Conexões** › no card da conexão oficial, **Gestão de Templates** › **NOVO TEMPLATE**. A tela não está no menu lateral. Template criado no Gerenciador da Meta aparece depois de clicar em **SINCRONIZAR** (coluna **CRIADO POR** mostra **BM**; criado por integração mostra **API**).
+**Onde se cadastra:** menu **Conexões** › no card da conexão oficial, **Gestão de Templates** › **NOVO TEMPLATE**. A tela não está no menu lateral. Template criado no Gerenciador do WhatsApp, na Meta (caminho para tipos que a plataforma não oferece, como **Flows**, e para partir da **Biblioteca de modelos**), aparece depois de clicar em **SINCRONIZAR** (coluna **CRIADO POR** mostra **BM**; criado por integração mostra **API**).
 
-**Campos do formulário NOVO TEMPLATE:** **não documentado** (a tela só aparece em imagem). O que os artigos dizem que um template tem:
+**O assistente NOVO TEMPLATE, em três passos** (artigo Criar Template pela Plataforma):
 
-| Parte | O que os artigos dizem |
-|---|---|
-| Nome | "Nome técnico", mostrado nas listas. Regras de formato do nome: **não documentado**. |
-| Categoria | Marketing, Utilidade ou Autenticação (nas listas: `MARKETING`, `UTILITY`, `AUTHENTICATION`). |
-| Idioma | Aparece ao lado da categoria, como `pt_BR`. |
-| Texto (corpo) | Com variáveis `{{1}}`, `{{2}}`… |
-| Cabeçalho | Pode ter imagem ou vídeo (o bloco Template pede o endereço da mídia; na campanha, o **extra1** é a URL da imagem do cabeçalho). O artigo Mensagem Template cita "imagem, documento ou vídeo". Tamanho máximo: **não documentado** (existe o erro "cabeçalho maior do que o permitido"). |
-| Botões | "Links, respostas rápidas e outros elementos que o cliente toca". Na campanha, os extras a partir do 7 preenchem botões. |
-| Rodapé | **não documentado**. |
+| Passo | Campo | O que o artigo diz |
+|---|---|---|
+| 1. Configurar modelo | **Conexão WABA** | A conexão oficial onde o template vai existir. |
+| | **MARKETING**, **UTILIDADE**, **AUTENTICAÇÃO** | As abas das categorias. |
+| | **Tipo de mensagem** | **Padrão** (texto, mídia e botões, nas três abas); **Solicitação de permissões para ligação** (Marketing e Utilidade); outros só em Marketing, como **Catálogo**. |
+| 2. Editar modelo | (todos) | Abrem com um exemplo de promoção já escrito: apague o que não for usar. |
+| | **Nome do template** | A tela converte enquanto se digita: maiúscula vira minúscula e espaço vira sublinhado (`Pedido Pronto` vira `pedido_pronto`). |
+| | **Idioma** | O idioma do texto. |
+| | **Amostra de mídia** | Opcional: **Nenhum**, **Imagem**, **Vídeo**, **Documento** ou **Localização**; com mídia, o **Cabeçalho** passa a ser ela. |
+| | **Cabeçalho** | Até 60 caracteres. |
+| | **Corpo da mensagem** | Até 1.024 caracteres, com as variáveis `{{1}}`, `{{2}}`. |
+| | **Exemplo para variável** | Um campo por variável; é o exemplo que a Meta lê na aprovação. Valor realista e inventado, nunca o dado de um cliente real. |
+| | **Rodapé** | Até 60 caracteres. |
+| | **Botões** | **Tipo** (**Resposta rápida**, **URL** ou **Telefone**) e **Texto do botão**; **URL** pede o endereço; **ADICIONAR BOTÃO** inclui outro. |
+| 3. Enviar para análise | **ENVIAR PARA APROVAÇÃO** | A tela resume **Nome**, **Categoria** e **Idioma**; **VOLTAR** corrige. |
 
-**Estados:** pendente, submetido, aprovado, rejeitado. Só template aprovado aparece para envio.
+Nas listas, a categoria aparece como `MARKETING`, `UTILITY` ou `AUTHENTICATION`, com o idioma ao lado (`pt_BR`). Na campanha, o **extra1** é a URL da imagem do cabeçalho e os extras a partir do 7 preenchem botões.
+
+**Estados:** o filtro **Status** da **Gestão de Templates** fala em pendente, submetido, aprovado e rejeitado; o artigo Template Recusado, Pausado ou Desabilitado descreve as situações da Meta: **Em análise**, **Ativo** (com qualidade **Pendente**, **Alta**, **Média** ou **Baixa**), **Rejeitado**, **Apelação feita – Em análise**, **Pausado** e **Desabilitado**. Só template aprovado aparece para envio.
 
 **Variáveis:** `{{1}}`, `{{2}}`… quantas o texto pedir, numeradas em sequência. Cada uma precisa receber valor no envio; variável vazia faz a Meta recusar a mensagem (erro de parâmetro faltando). Na campanha só há campos para `{{1}}` a `{{5}}` (seção 4).
 
@@ -139,16 +148,17 @@ Só existe na conexão oficial. É o único formato permitido com a janela de at
 **Limites e avisos**
 
 - Mensagem misturada: um modelo quase todo de Utilidade com uma única frase de Marketing vira Marketing inteiro. Fatura numa mensagem, oferta em outra.
-- Aprovação: "em geral algumas horas, mas pode ser dias". A análise é da Meta.
-- Editar um template aprovado manda de volta para análise e ele para de funcionar até ser aprovado de novo.
-- Excluir apaga na plataforma **e na Meta**.
+- Aprovação: "em geral algumas horas, mas pode ser dias" (Mensagem Template); "pode levar até 24 horas" (Criar Template pela Plataforma). A análise é da Meta (seção 10).
+- Editar um template aprovado manda de volta para análise e ele para de funcionar até ser aprovado de novo. Template recusado pode ser editado quantas vezes for preciso.
+- Excluir apaga na plataforma **e na Meta**; o nome de um template aprovado excluído só pode ser reusado depois de 30 dias.
+- Pausa: com qualidade **Baixa**, a Meta pausa o template 3 horas na primeira vez e 6 na segunda; na terceira, ele é desabilitado e não volta (crie outro, com outro texto). Pausado, não é enviado nem cobrado.
 - Categoria errada: dá para contestar logo depois de criar; se a Meta negar, a saída é apagar e criar outro com texto diferente.
 - Cada conexão tem os seus templates: o mesmo texto precisa ser aprovado em cada número.
 - O que causa reprovação, pausa ou bloqueio está reunido na lista única logo abaixo.
 - Todo template enviado é cobrado pela Meta conforme a categoria (roteiro de custo na seção 9). Não cite valores.
 - Grupos de templates: em **GRUPOS** você agrupa modelos; no cadastro do Setor, o campo **Grupos de templates** define o que a equipe enxerga. Vazio mostra todos. Setor com grupo vazio: a equipe não vê nenhum template na conversa.
-- Envio falhou com template aprovado: botão **Erros de Template** no card da conexão.
-- Limite de caracteres do corpo, do cabeçalho e dos botões, e número máximo de botões: **não documentado**.
+- Envio falhou com template aprovado: botão **Erros de Template** no card da conexão; o artigo Erros de Entrega do WhatsApp Oficial traduz os códigos (variável faltando, idioma, formato do valor).
+- Limite de caracteres dos botões e número máximo de botões: **não documentado**.
 - Como o atendente escolhe e preenche o template dentro da conversa: **não documentado** em detalhe.
 
 ### "Que não seja reprovado": lista única do que os artigos apontam
@@ -164,21 +174,22 @@ Use esta lista quando a pessoa pedir um template "que passe". Diga sempre duas c
 | Modelo de Autenticação com qualquer coisa além do código | "Não aceita nada além do código" | `references/docs/recursos/mensagem-template.md` |
 | Envio para quem não deu opt-in; marketing sem opt-out claro | Queda da qualidade do número e suspensão de conta; opt-in é exigência no canal oficial | `references/docs/recursos/numero-bloqueado-no-whatsapp.md` |
 | Destinatários denunciando ou bloqueando o número | Qualidade baixa; template pausado por baixa qualidade. Continuar enviando com o template que derrubou a qualidade piora o índice | `references/docs/recursos/numero-bloqueado-no-whatsapp.md` |
-| Variável sem valor na hora do envio | Não é reprovação: é recusa do envio, com erro de parâmetro faltando | `references/docs/recursos/mensagem-template.md` |
+| Variável faltando ou com as chaves erradas, com caracteres especiais (#, $, %), fora de ordem (`{{1}}` e depois `{{3}}`), em número demais para o tamanho do texto, ou no começo ou no fim do texto | A Meta recusa o template. Escreva ao menos uma palavra antes da primeira variável e depois da última | `references/docs/recursos/template-recusado-pausado-ou-desabilitado.md` |
+| Pedido de dado sensível completo (número do cartão, conta bancária, documento); texto abusivo, ameaçador ou com cara de spam ou golpe; corpo e rodapé iguais aos de outro template | A Meta recusa o template (os 4 últimos dígitos, por exemplo, são permitidos) | `references/docs/recursos/template-recusado-pausado-ou-desabilitado.md` |
+| Variável sem valor na hora do envio | Não é reprovação: é recusa do envio, com erro de parâmetro faltando (código 132000) | `references/docs/recursos/mensagem-template.md`, `references/docs/recursos/erros-de-entrega-do-whatsapp-oficial.md` |
 | Envio diferente do que foi aprovado (por exemplo, cabeçalho maior do que o permitido) | Falha no envio; o motivo aparece em **Erros de Template** | `references/docs/recursos/whatsapp-oficial-gestao-de-templates.md` |
 | Editar um modelo aprovado | Volta para análise e para de funcionar até nova aprovação | `references/docs/recursos/mensagem-template.md`, `references/docs/recursos/whatsapp-oficial-gestao-de-templates.md` |
 
 **Não documentado nestes artigos** (não afirme regra da Meta de memória; diga que a documentação não traz e que vale o que a tela de criação e a análise da Meta indicarem):
 
-- Se uma variável pode abrir ou fechar o corpo do texto. O que existe: os modelos do próprio artigo Mensagem Template terminam em variável (`...link para pagamento: {{2}}`).
-- Se é preciso informar valores de exemplo para as variáveis ao criar o modelo.
-- Formato do nome do modelo.
-- Limites de caracteres, proporção entre texto e variáveis, número de botões, rodapé.
-- Onde aparece o motivo de uma reprovação na análise. A tela mostra a situação (pendente, submetido, aprovado, rejeitado); **Erros de Template** trata de envios recusados.
+- A proporção exata entre texto e variáveis (o artigo só diz que variáveis "em número demais para o tamanho do texto" levam à recusa) e o número máximo de botões.
+- Divergência a avisar: os modelos do artigo Mensagem Template terminam em variável (`...link para pagamento: {{2}}`), e o artigo Template Recusado, Pausado ou Desabilitado diz que variável no fim do texto leva à recusa. Escreva uma palavra depois da última variável.
+
+O motivo de uma recusa chega por e-mail a quem administra a conta de mensagens e aparece na **Página Inicial do Suporte para Empresas**, na Meta; **Erros de Template** trata de envios recusados.
 
 **Onde o template é usado:** campanha pela API Oficial (seção 4), agendamento (seção 5), bloco Template do FlowBuilder (skill `cmv-flowbuilder`), envio por API (skill `cmv-api`).
 
-**Artigos:** [Mensagem Template](https://clihelper.chatmasterveloz.com/docs/mensagem-template) (`references/docs/recursos/mensagem-template.md`), [Gestão de Templates](https://clihelper.chatmasterveloz.com/docs/whatsapp-oficial-gestao-de-templates) (`references/docs/recursos/whatsapp-oficial-gestao-de-templates.md`), [Template](https://clihelper.chatmasterveloz.com/docs/bloco-template) (`references/docs/recursos/bloco-template.md`), [Número bloqueado no WhatsApp](https://clihelper.chatmasterveloz.com/docs/numero-bloqueado-no-whatsapp) (`references/docs/recursos/numero-bloqueado-no-whatsapp.md`).
+**Artigos:** [Mensagem Template](https://clihelper.chatmasterveloz.com/docs/mensagem-template) (`references/docs/recursos/mensagem-template.md`), [Gestão de Templates](https://clihelper.chatmasterveloz.com/docs/whatsapp-oficial-gestao-de-templates) (`references/docs/recursos/whatsapp-oficial-gestao-de-templates.md`), [Template](https://clihelper.chatmasterveloz.com/docs/bloco-template) (`references/docs/recursos/bloco-template.md`), [Número bloqueado no WhatsApp](https://clihelper.chatmasterveloz.com/docs/numero-bloqueado-no-whatsapp) (`references/docs/recursos/numero-bloqueado-no-whatsapp.md`), [Criar Template pela Plataforma](https://clihelper.chatmasterveloz.com/docs/criar-template-pela-plataforma) (`references/docs/recursos/criar-template-pela-plataforma.md`), [Criar Template no Gerenciador do WhatsApp](https://clihelper.chatmasterveloz.com/docs/criar-template-no-gerenciador-do-whatsapp) (`references/docs/recursos/criar-template-no-gerenciador-do-whatsapp.md`), [Template Recusado, Pausado ou Desabilitado](https://clihelper.chatmasterveloz.com/docs/template-recusado-pausado-ou-desabilitado) (`references/docs/recursos/template-recusado-pausado-ou-desabilitado.md`), [Erros de Entrega do WhatsApp Oficial](https://clihelper.chatmasterveloz.com/docs/erros-de-entrega-do-whatsapp-oficial) (`references/docs/recursos/erros-de-entrega-do-whatsapp-oficial.md`).
 
 ---
 
@@ -220,7 +231,7 @@ Use esta lista quando a pessoa pedir um template "que passe". Diga sempre duas c
 - Risco de a Meta bloquear o chip ao usar envio em massa. Motivos principais citados: denúncia de SPAM, envio de mensagem em massa, negócio fora dos termos de uso da Meta.
 - No canal não oficial, causam bloqueio: envio para quem não tem o número salvo na agenda, mensagens idênticas ou muito parecidas em sequência, taxa de denúncia ou bloqueio acima de 2%, volume muito acima do histórico recente, ritmo robótico. O risco nunca é zero, e o bloqueio pode ser permanente.
 - Em qualquer canal: nunca enviar para listas compradas ou sem consentimento; não repetir o mesmo texto para muitos contatos em sequência; taxa baixa de resposta é sinal de problema.
-- O fuso horário da empresa (**Configurações › Opções**) vale para agendamentos e campanhas (`references/docs/recursos/gerenciamento-de-expediente-em-configuracoes.md`).
+- O fuso horário da empresa (**Configurações › Opções › Geral**, seção **Empresa e região**) vale para agendamentos e campanhas (`references/docs/recursos/gerenciamento-de-expediente-em-configuracoes.md`).
 - Tamanho máximo da mensagem e como a plataforma trata a resposta de descadastramento: **não documentado**.
 - Repetição automática de campanha (toda semana, todo mês): **não documentado**. Os artigos só descrevem a data e hora de início (**Agendamento**), a pausa e o reinício no dia.
 - Campanha via fluxo: ver `references/docs/recursos/gatilho-via-campanha.md`; o fluxo é assunto da `cmv-flowbuilder`.
@@ -275,7 +286,7 @@ Repare no deslocamento: o **extra2** é a `{{1}}`. **Edição em Massa**, na lis
 - Opt-in é exigência no canal oficial: só enviar para quem solicitou ou aceitou receber.
 - Cobrança: todo template é cobrado conforme a categoria (seção 9).
 - Repetição automática de campanha (por exemplo, todo dia 5): **não documentado**. Os artigos só descrevem a data e hora de início (**Agendamento**), a pausa e o reinício no dia. O que está descrito é criar a campanha de novo a cada vez; a lista continua em **Minhas Listas** e pode ser escolhida em outra campanha, com os Campos Extras atualizados (por planilha ou **Edição em Massa**).
-- O fuso horário da empresa (**Configurações › Opções**) vale para campanhas (`references/docs/recursos/gerenciamento-de-expediente-em-configuracoes.md`).
+- O fuso horário da empresa (**Configurações › Opções › Geral**, seção **Empresa e região**) vale para campanhas (`references/docs/recursos/gerenciamento-de-expediente-em-configuracoes.md`).
 
 **Artigos:** [Nova Campanha API Oficial](https://clihelper.chatmasterveloz.com/docs/nova-campanha-api-oficial) (`references/docs/recursos/nova-campanha-api-oficial.md`), [Fontes de Contatos para Campanhas](https://clihelper.chatmasterveloz.com/docs/fontes-de-contatos-para-campanhas) (`references/docs/recursos/fontes-de-contatos-para-campanhas.md`), [Número bloqueado no WhatsApp](https://clihelper.chatmasterveloz.com/docs/numero-bloqueado-no-whatsapp) (`references/docs/recursos/numero-bloqueado-no-whatsapp.md`), [Mensagem Template](https://clihelper.chatmasterveloz.com/docs/mensagem-template) (`references/docs/recursos/mensagem-template.md`).
 
@@ -285,7 +296,7 @@ Repare no deslocamento: o **extra2** é a `{{1}}`. **Edição em Massa**, na lis
 
 Mensagem programada para um contato, única ou recorrente.
 
-**Onde se cadastra:** menu **Agendamentos** › **+ Nova Agendamento**; ou dentro da conversa, no botão **Agendamento** das Ações do Ticket (o contato já vem preenchido).
+**Onde se cadastra:** menu **Agendamentos** › **+ Nova Agendamento**; ou dentro da conversa, no botão **Agendamento** das ações do topo do ticket (o contato já vem preenchido; quando não cabe, fica no botão **⋯**, e com as ações agrupadas, no botão **Mais**, grupo **ATENDIMENTO**).
 
 **Campos**
 
@@ -293,7 +304,7 @@ Mensagem programada para um contato, única ou recorrente.
 |---|---|
 | **Contato** | Busca digitando pelo menos 3 letras. O destinatário precisa estar cadastrado em Contatos. Os artigos descrevem um contato por agendamento; agendar para vários contatos de uma vez: **não documentado**. |
 | **Conexão** | Qual conexão envia. |
-| **Fila** | Opcional; só funciona com **Abrir Ticket**. |
+| **Fila** (o artigo Editar Agendamento já chama de **Setor**) | Opcional; só funciona com **Abrir Ticket**. |
 | **Mensagem Template** | Aparece quando a conexão é API Oficial (Cloud). |
 | **Mensagem** | O texto. |
 | **Anexar Arquivo** | Ícone de clipe. |
@@ -325,7 +336,7 @@ Botão que grava um agendamento novo: **não documentado** (o artigo Adicionar A
 **Limites e avisos**
 
 - A recorrência segue a data inicial: para cobrar todo dia 05, a **Data e Horário do Envio** inicial tem de ser um dia 05.
-- Fuso horário: o **Fuso horário da empresa**, em **Configurações › Opções**, vale para agendamentos, campanhas e expediente. Sem escolha, o sistema usa o horário de Brasília; mudar o fuso muda a hora dos agendamentos. Ajuste antes de programar envios (`references/docs/recursos/gerenciamento-de-expediente-em-configuracoes.md`).
+- Fuso horário: o **Fuso horário da empresa**, em **Configurações › Opções › Geral**, seção **Empresa e região**, vale para agendamentos, campanhas e expediente. Sem escolha, o sistema usa o horário de Brasília; mudar o fuso muda a hora dos agendamentos. Ajuste antes de programar envios (`references/docs/recursos/gerenciamento-de-expediente-em-configuracoes.md`).
 - Na oficial, o template agendado é cobrado conforme a categoria (seção 9); a dúvida comum do artigo Adicionar Agendamento sobre Utilidade com a janela aberta traz a regra anterior (seção 10).
 - Agendamento enviado não pode ser editado; crie outro.
 - Excluir um agendamento recorrente pendente cancela todos os envios futuros do ciclo, sem volta.
@@ -339,9 +350,9 @@ Botão que grava um agendamento novo: **não documentado** (o artigo Adicionar A
 
 ## 6. Mensagem de aniversário
 
-Um texto único, enviado sozinho no dia do aniversário do contato, sempre às 10 horas da manhã.
+Um texto único, enviado sozinho no dia do aniversário do contato, sempre às 10 horas da manhã, no fuso horário da empresa.
 
-**Onde se cadastra:** menu **Configurações › Opções**, seção **Mensagem de Aniversário** (o outro artigo escreve **Configurações › Mensagem de Aniversário**).
+**Onde se cadastra:** menu **Configurações › Opções › Automação**, seção **Mensagens automáticas**, campo **Mensagem de Aniversário (enviada todos os dias às 10 horas, no fuso da empresa)**. Os dois artigos dão o mesmo caminho.
 
 **O que precisa estar pronto**
 
@@ -355,12 +366,12 @@ Um texto único, enviado sozinho no dia do aniversário do contato, sempre às 1
 
 **Limites e avisos**
 
-- O horário (10h) não pode ser mudado.
+- O horário (10h) não pode ser mudado. Ele segue o **Fuso horário da empresa**, no menu **Configurações › Opções › Geral**, seção **Empresa e região**.
 - Na API Oficial, o disparo obedece à janela de 24 horas: com a janela fechada, a mensagem de texto comum é bloqueada pelo WhatsApp. Os artigos não descrevem uso de template nesse campo.
 - Alternativa documentada para alcançar aniversariantes: lista **Por Aniversário** (contatos que fazem aniversário no mês escolhido) em **Campanhas › Criar Listas**, usada numa campanha. Felicitação de aniversário, como template, é categoria Marketing.
 - Erro comum do artigo: escrever só "Feliz aniversário", sem chamada para ação (um link, um mimo ou uma pergunta).
 
-**Artigos:** [Mensagem de Aniversário](https://clihelper.chatmasterveloz.com/docs/mensagem-de-aniversario) (`references/docs/recursos/mensagem-de-aniversario.md`), [Mensagem de Aniversário em Configurações](https://clihelper.chatmasterveloz.com/docs/mensagem-de-aniversario-em-configuracoes) (`references/docs/recursos/mensagem-de-aniversario-em-configuracoes.md`), [Fontes de Contatos para Campanhas](https://clihelper.chatmasterveloz.com/docs/fontes-de-contatos-para-campanhas) (`references/docs/recursos/fontes-de-contatos-para-campanhas.md`).
+**Artigos:** [Mensagem de Aniversário](https://clihelper.chatmasterveloz.com/docs/mensagem-de-aniversario) (`references/docs/recursos/mensagem-de-aniversario.md`), [Mensagens automáticas em Configurações](https://clihelper.chatmasterveloz.com/docs/mensagens-automaticas-em-configuracoes) (`references/docs/recursos/mensagens-automaticas-em-configuracoes.md`), [Fontes de Contatos para Campanhas](https://clihelper.chatmasterveloz.com/docs/fontes-de-contatos-para-campanhas) (`references/docs/recursos/fontes-de-contatos-para-campanhas.md`).
 
 ---
 
@@ -373,7 +384,8 @@ Um texto único, enviado sozinho no dia do aniversário do contato, sempre às 1
 | Campo | O que é | Variáveis |
 |---|---|---|
 | **Mensagem de saudação** | O que o cliente recebe ao chegar no Setor (a Conexão aponta só para ele, ou ele escolheu no menu). É enviada de novo quando o cliente volta depois de o atendimento ter sido encerrado. | `{{name}}` confirmado no artigo |
-| **Mensagem de fora de expediente** | O que o cliente recebe ao escrever com o Setor fechado. O campo só aparece com o expediente por Setor ligado: **Configurações › Opções**, **Gerenciamento de Expediente** em **Gerenciamento Por Setor**. Os horários ficam na aba **Horários** do Setor. | **não documentado** |
+| **Mensagem de fora de expediente** | O que o cliente recebe ao escrever com o Setor fechado. O campo só aparece com o expediente por Setor ligado: **Configurações › Opções › Geral**, **Gerenciamento de Expediente** em **Gerenciamento Por Setor**. Os horários ficam na aba **Horários** do Setor. | **não documentado** |
+| **Despedida ao encerrar** e **Mensagem de despedida do setor** | A regra da despedida nos atendimentos do Setor e o texto dela. A do Setor vale quando o atendente não tem a dele; sem nenhuma, vai a **Mensagem de conclusão** da Conexão (seção 8). | **não documentado** |
 | **Palavras-Chave e Gatilhos** | Palavras separadas por vírgula, como `boleto,fatura`. Quem escreve uma delas vai direto para o Setor e recebe a saudação dele. Vale no meio da frase, sem diferença de maiúsculas, minúsculas e acento. | Não se aplica |
 
 **Limites e avisos**
@@ -382,28 +394,30 @@ Um texto único, enviado sozinho no dia do aniversário do contato, sempre às 1
 - Uma boa saudação, segundo o artigo: diz onde a pessoa chegou, avisa que alguém vai atender e, se for o caso, informa o horário. "Duas ou três linhas bastam."
 - Não prometa o que o Setor não cumpre ("responderemos em instantes" num Setor que só atende à tarde).
 - A saudação do Setor e a da Conexão são textos diferentes e **somam**: com as duas preenchidas, o cliente recebe as duas (`references/docs/recursos/adicionar-whatsapp-qrcode.md`, `references/docs/recursos/adicionar-whatsapp-oficial.md`).
-- O que acontece fora do horário depende de **Abrir Tickets Fora do Expediente?** em **Configurações › Opções**: em **Sim**, a conversa entra no Setor e o cliente recebe a mensagem de fora de expediente e a saudação; em **Não**, recebe só a de fora de expediente e o atendimento é encerrado (`references/docs/recursos/aba-horarios-em-setores-e-chatbot.md`). Isso muda o que o texto pode prometer.
+- O que acontece fora do horário depende de **Abrir Atendimentos Fora do Expediente?** em **Configurações › Opções › Geral**, seção **Gerenciamento de Expediente**: em **Sim**, a conversa entra no Setor e o cliente recebe a mensagem de fora de expediente e a saudação; em **Não**, recebe só a de fora de expediente e o atendimento é encerrado (`references/docs/recursos/aba-horarios-em-setores-e-chatbot.md`). Isso muda o que o texto pode prometer.
 - Tamanho máximo: **não documentado**.
 
 **Artigo:** [Aba Mensagens em Setores & Chatbot](https://clihelper.chatmasterveloz.com/docs/aba-mensagens-em-setores-e-chatbot) (`references/docs/recursos/aba-mensagens-em-setores-e-chatbot.md`).
 
 ---
 
-## 8. Complementares: mensagens da Conexão e do Perfil
+## 8. Complementares: mensagens da Conexão, do atendente e da empresa
 
-Campos de mensagem automática que ficam fora do Setor: na Conexão e no Perfil do atendente.
+Campos de mensagem automática que ficam fora do Setor: na Conexão, no cadastro e no Perfil do atendente e em **Configurações**.
 
 | Mensagem | Onde se cadastra | Regras do artigo | Artigo |
 |---|---|---|---|
 | **Mensagem de saudação** da Conexão | **Conexões › editar a Conexão › aba Mensagens** | Quando a conversa começa. Com dois ou mais Setores marcados na Conexão ela é obrigatória e abre o menu: o sistema acrescenta sozinho uma linha por Setor, no formato "1 - Suporte". | `references/docs/recursos/chatbot-e-menu-de-setores-na-conexao.md` |
-| **Mensagem de conclusão** | **Conexões › Editar › Mensagens › Mensagem de Conclusão** | Enviada quando o atendente escolhe **Resolver Com Mensagem de Encerramento**. Deve ser uma afirmação final, sem pergunta: se o cliente responder, abre um ticket novo. | `references/docs/recursos/mensagem-de-encerramento.md` |
-| **Mensagem de Despedida** | **Perfil › Mensagem de Despedida** | Tem prioridade sobre a da Conexão, mas só funciona se a da Conexão também estiver preenchida. | `references/docs/recursos/mensagem-de-encerramento.md` |
+| **Mensagem de conclusão** | **Conexões › editar a conexão › aba Mensagens**, campo **Mensagem de conclusão** | A despedida base, enviada quando o atendente escolhe **Resolver Com Mensagem de Encerramento** e nem ele nem o Setor têm texto próprio. Deve ser uma afirmação final, sem pergunta: se o cliente responder, abre um ticket novo. | `references/docs/recursos/mensagem-de-encerramento.md` |
+| **Mensagem de Despedida** do atendente | **Equipe › editar o usuário › aba Geral**, campo **Mensagem de Despedida** | Tem prioridade sobre a do Setor e a da Conexão, mas só funciona se a da Conexão também estiver preenchida. Se a despedida é obrigatória, opcional ou desligada, decide o campo **Despedida ao encerrar** do atendente, do Setor e da Conexão de WhatsApp e, por último, **Despedida obrigatória ao encerrar?** em **Configurações › Opções › Atendimento**. Obrigatória, o **Resolver Sem Mensagem de Encerramento** some. | `references/docs/recursos/mensagem-de-encerramento.md` |
 | **Mensagem de Ausência** | Ícone de pessoa no canto superior direito › **Perfil** › campo **Mensagem de Ausência** › **Salvar**; depois, status **Ausente** | Só dispara nos tickets em que o usuário já é o atendente, e a cada nova mensagem do cliente enquanto o status estiver Ausente. Diga quando volta. | `references/docs/recursos/mensagem-de-ausencia.md` |
 | **Mensagem de fora de expediente** da Conexão | **Conexões › editar a Conexão › aba Mensagens** | Só dispara se o expediente estiver configurado. | `references/docs/recursos/adicionar-whatsapp-qrcode.md` |
-| **Mensagem de avaliação** da Conexão | **Conexões › editar a Conexão**, campo **Mensagem de Avaliação** | Os artigos descrevem de dois jeitos: no artigo Avaliações é a mensagem de pós-avaliação, "enviada após a escolha de um número na avaliação"; no artigo da Conexão é "o convite para o cliente avaliar o atendimento". A pergunta e as opções da pesquisa ficam no menu **Avaliações** (campo **Mensagem de Avaliação** da avaliação, mais **Opções de Avaliação**). Avise da divergência e sugira um teste. | `references/docs/recursos/avaliacoes.md`, `references/docs/recursos/adicionar-whatsapp-qrcode.md` |
+| **Mensagem de avaliação** da Conexão | **Conexões › editar a Conexão**, campo **Mensagem de Avaliação** | Os artigos descrevem de dois jeitos: no artigo Avaliações é a mensagem de pós-avaliação, enviada depois que o cliente escolhe a nota, quando a opção dessa nota está em **Nenhum** no campo **Fluxo após esta nota** (nota com fluxo começa o fluxo e não envia a mensagem); no artigo da Conexão é "o convite para o cliente avaliar o atendimento". A pergunta e as opções da pesquisa ficam no menu **Avaliações** (campo **Mensagem de Avaliação** da avaliação, mais **Opções de Avaliação**). Avise da divergência e sugira um teste. | `references/docs/recursos/avaliacoes.md`, `references/docs/recursos/adicionar-whatsapp-qrcode.md` |
+| **Mensagem Saída Forçada** | **Configurações › Opções › Automação**, seção **Mensagens automáticas** | Enviada quando o atendimento é encerrado pelo sistema, não pelo atendente. | `references/docs/recursos/mensagens-automaticas-em-configuracoes.md` |
+| **Mensagem de Encaminhamento** | Mesma seção | Enviada ao cliente quando a conversa é encaminhada a um atendente (por exemplo, pelo rodízio). Vale para toda a empresa. Aceita `{{ms}}` (saudação do horário) e `{{name}}`, com o exemplo `{{ms}} *{{name}}*, em alguns instantes um atendente irá prosseguir com seu atendimento.` | `references/docs/recursos/mensagens-automaticas-em-configuracoes.md` |
 | **Mensagem de encerramento após inatividade** | **Conexões › editar a Conexão › aba Mensagens** | Aviso enviado quando a plataforma fecha a conversa por falta de resposta. | `references/docs/recursos/adicionar-whatsapp-qrcode.md` |
 
-Variáveis nesses campos: **não documentado** no artigo de cada campo (ver seção 0).
+Variáveis nesses campos: **não documentado** no artigo de cada campo, salvo a **Mensagem de Encaminhamento** (ver seção 0).
 
 ---
 
@@ -417,6 +431,8 @@ Variáveis nesses campos: **não documentado** no artigo de cada campo (ver seç
 | Limitador de Mensagens | Contador da conexão oficial (card da conexão › **Limitador de Mensagens**). Só informa: chegar ao teto não impede nenhum envio. Separa conversa livre, template, celular e híbrida. | `references/docs/recursos/limitador-de-mensagens.md` |
 | Bloqueio no canal não oficial | Risco existe desde o primeiro uso, pode ser permanente e sem apelação garantida. | `references/docs/recursos/numero-bloqueado-no-whatsapp.md`, `references/docs/recursos/whatsapp-oficial-x-nao-oficial.md` |
 | Bloqueio no canal oficial | Raro e gradual: qualidade baixa por denúncias, template com conteúdo proibido ou em categoria errada, envio sem opt-in. | `references/docs/recursos/numero-bloqueado-no-whatsapp.md` |
+| Limite de envio (oficial) | A Meta limita para quantos clientes diferentes a empresa pode iniciar conversa em 24 horas (degraus a partir de 250), por portfólio; responder quem escreveu não conta. Campanha grande pode parar no meio do dia. | `references/docs/recursos/qualidade-do-numero-e-limite-de-envio.md` |
+| Mensagem não entregue (oficial) | A Meta devolve um código de erro, listado no botão **Erros de template** do card da conexão; o artigo traduz cada código (janela fechada, limite de marketing por cliente, variável faltando, template pausado, pagamento). | `references/docs/recursos/erros-de-entrega-do-whatsapp-oficial.md` |
 | Reprovação de template | Utilidade com linguagem vendedora é recusada; mistura de categorias vira Marketing. | `references/docs/recursos/mensagem-template.md` |
 
 Para reduzir a quantidade de mensagens cobradas, os artigos citam o **Concatenador** (junta mensagens de texto do atendente; `references/docs/recursos/concatenador-de-mensagens.md`) e o **Modo Híbrido** (`references/docs/recursos/whatsapp-modo-hibrido-oficial-e-qrcode.md`). Para a redação, a consequência é direta: uma mensagem completa custa menos que três curtas.
@@ -432,7 +448,7 @@ Para responder "isso vai me custar?". Siga a ordem e não cite preço: nenhum va
 | O que não é cobrado? | O que o cliente envia; a janela de 72 horas de quem chega por anúncio de clique para o WhatsApp; a mensagem que não sai (recusada fora da janela). Na conexão por QR Code não há custo por mensagem. | `references/docs/recursos/janela-de-atendimento.md`, `references/docs/recursos/whatsapp-oficial-x-nao-oficial.md` |
 | O que conta para a franquia? | A franquia é de 1.000 mensagens de serviço por número, por mês, e não acumula. Vale para as respostas que a equipe escreve dentro da conversa. Template não entra: tem cobrança própria. | `references/docs/trilhas/a-cobranca-do-whatsapp-oficial-mudou.md` |
 | Qual categoria custa mais? | Marketing é a mais cara; Utilidade custa menos que Marketing. Sobre qual é a mais barata, o artigo se contradiz (seção 10). | `references/docs/recursos/mensagem-template.md` |
-| O que precisa estar em dia? | Um meio de pagamento cadastrado na conta da Meta em que o número está; sem ele, a Meta para de entregar as respostas. | `references/docs/trilhas/a-cobranca-do-whatsapp-oficial-mudou.md` |
+| O que precisa estar em dia? | Um meio de pagamento cadastrado na conta da Meta em que o número está (Meta Business Suite › **Cobrança e pagamentos** › aba **Contas de mensagens** › **Adicionar forma de pagamento**). Sem ele, nenhum template é enviado e as respostas só são entregues até acabar a franquia gratuita do mês. | `references/docs/trilhas/a-cobranca-do-whatsapp-oficial-mudou.md`, `references/docs/recursos/forma-de-pagamento-do-whatsapp-oficial.md` |
 | Onde acompanho quanto já enviei? | **Conexões** › card da conexão oficial › **Limitador de Mensagens**: **Mensagens por ciclo** (1.000, se a ideia é acompanhar a franquia), **Dia de corte** e **Mostrar o contador no card**. **Neste ciclo** separa conversa livre, template, celular e híbrida; **Ver meses anteriores** guarda os seis últimos ciclos. O contador soma template junto: para comparar com a franquia, olhe a linha de conversas livres. Ele conta mensagens, não dinheiro, e não bloqueia nenhum envio. | `references/docs/recursos/limitador-de-mensagens.md`, `references/docs/trilhas/medir-quanto-voce-ja-enviou-no-mes.md` |
 | Como gasto menos? | Menos mensagens: uma completa em vez de várias curtas, **Concatenador**, fluxo com menos idas e voltas. Em envio de template em volume, "o número de envios é decisão de custo". | `references/docs/recursos/whatsapp-oficial-x-nao-oficial.md`, `references/docs/recursos/bloco-template.md` |
 
@@ -450,4 +466,4 @@ Quando dois artigos discordam, ou um artigo se contradiz, diga isso ao usuário 
 | Qual categoria de template é a mais barata? | Mensagem Template, seção "As quatro categorias": Utilidade é "a categoria mais barata das que a empresa inicia"; Autenticação é "barata e extremamente restrita". | O mesmo artigo, adiante: "Utilidade é a faixa intermediária" (seção "O que separa uma da outra") e Autenticação é "a mais barata e a mais restrita" (Dúvidas Comuns). | O que é consistente: Marketing é a mais cara e Utilidade custa menos que Marketing. Não afirme qual das duas, Utilidade ou Autenticação, é a mais barata: diga que o artigo se contradiz e que os valores não estão na documentação. |
 | Campos extras 7 a 10 na lista de campanha | Nova Campanha API Oficial: extra7, extra8 e extra9 são o texto do 1º, 2º e 3º botão. | Fontes de Contatos para Campanhas: 7 e 8 são os valores dos botões; 9 e 10 são livres. | Para até dois botões os artigos concordam. Com três botões, avise da divergência e peça um teste com uma lista só com o número do próprio usuário. |
 | Fonte de contatos da campanha | Nova Campanha: escolha entre Lista de Contato, Tags, Grupos ou Aniversário. | Fontes de Contatos: a campanha sempre usa uma Lista de Contatos; para alcançar uma tag, cria-se a lista **Por Tag**. | Oriente pelo caminho da lista (**Campanhas › Criar Listas**), que atende aos dois. |
-| Caminho da Mensagem de Aniversário | **Configurações › Opções**, seção Mensagem de Aniversário. | **Configurações › Mensagem de Aniversário**. | Informe o primeiro e diga que a seção se chama Mensagem de Aniversário. |
+| Prazo de aprovação de template | Mensagem Template (Dúvidas Comuns): "em geral algumas horas, mas pode ser dias". | Criar Template pela Plataforma e Template Recusado, Pausado ou Desabilitado: a análise "pode levar até 24 horas". | Diga que costuma levar horas, que os artigos falam em até 24 horas e em dias, e que o prazo é da Meta. |

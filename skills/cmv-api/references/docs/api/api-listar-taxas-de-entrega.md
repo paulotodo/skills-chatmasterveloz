@@ -36,11 +36,11 @@ Bearer {seutokenaqui}
 
 ➡️ Esta chamada não tem payload.
 
-◽ A tabela vem em ordem de bairro, com o `bairro` e a `taxa` de cada um — a mesma cadastrada em **Taxa de entrega por bairro**, no menu **Configurações  ›  Opções**.
+◽ A tabela vem em ordem de bairro, com o `bairro` e a `taxa` de cada um — a mesma cadastrada em **Taxa de entrega por bairro**, no menu **Configurações  ›  Opções  ›  Vendas**, seção **PDV**.
 
 ◽ É essa taxa que entra no pedido com entrega que informa o bairro e não informa a taxa.
 
-◽ Em `faixas` vêm as faixas de CEP do frete, em ordem de CEP — as mesmas de **Frete por faixa de CEP**, no menu **Configurações  ›  Opções**. Cada faixa traz o `nome` (a região, ou `null` quando não foi preenchida), o `cepInicial`, o `cepFinal`, a `taxa` (o frete da faixa) e o `prazo` (ou `null`).
+◽ Em `faixas` vêm as faixas de CEP do frete, em ordem de CEP — as mesmas de **Frete por faixa de CEP**, no menu **Configurações  ›  Opções  ›  Vendas**, seção **PDV**. Cada faixa traz o `nome` (a região, ou `null` quando não foi preenchida), o `cepInicial`, o `cepFinal`, a `taxa` (o frete da faixa) e o `prazo` (ou `null`).
 
 ◽ No pedido de entrega, o CEP que cai numa faixa usa o frete e o prazo dela; fora das faixas, vale a taxa do bairro. Sem nenhuma faixa cadastrada, `faixas` vem vazia.
 

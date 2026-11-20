@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/api-deletar-agendamento
 - **Categoria:** APIs
-- **Menu:** APIs › Mensagem › API Deletar Agendamento
+- **Menu:** APIs › Agendamentos › API Deletar Agendamento
 
 ---
 

@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/api-criar-produto
 - **Categoria:** APIs
-- **Menu:** APIs › CRM › API Criar Produto
+- **Menu:** APIs › Produtos › API Criar Produto
 
 ---
 

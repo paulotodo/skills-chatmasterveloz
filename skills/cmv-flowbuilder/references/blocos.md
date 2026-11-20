@@ -32,6 +32,7 @@ Guia rápido para escolher o bloco. Os campos, os limites e as mensagens de tela
 | consultar ou avisar outro sistema | HTTP Request (por campos) ou Execução de Código JS (por código) |
 | segunda via de cobrança | Asaas |
 | registrar o negócio no CRM | Oportunidade |
+| o cliente reservar sozinho a oferta, o dia e o horário livre | Reservas (agendar no fluxo) |
 | deixar um resumo para o atendente | Msg Interna |
 | terminar o atendimento | Encerrar |
 | terminar um fluxo chamado por resposta rápida | Encerrar Mensagem Rápida |
@@ -53,7 +54,7 @@ Lidas em Como o Fluxo Roda (`references/docs/recursos/como-o-fluxo-roda.md`) e B
 
 **Menu** · `references/docs/recursos/bloco-menu.md` · JSON: `menu` (só Menu em Lista observado)
 - Use para: a triagem. Uma saída por opção, mais **Resposta inválida** (com o **Caminho alternativo (ELSE)** marcado) e **Sem resposta** (com os minutos preenchidos).
-- Cuidado: o artigo não diz em quais canais a lista e os botões do Menu chegam como lista e como botões (ver o quadro no fim desta página). No **Menu em Texto**, não numere as opções na mensagem, porque a plataforma já numera. Na lista e nos botões, opção com até 20 caracteres. **Menu em Botões** vai até 3 opções; com mais, o menu não chega ao cliente. Sem ELSE, a resposta fora das opções só reenvia o menu. Áudio em resposta a um Menu em Texto não conta como escolha. O rodapé da lista pode não aparecer, conforme o canal.
+- Cuidado: o artigo não diz em quais canais a lista e os botões do Menu chegam como lista e como botões, salvo o **WebChat**, onde o **Menu em Lista** abre pelo botão da lista e só a última mensagem com opções aceita o toque (ver o quadro no fim desta página). No **Menu em Texto**, não numere as opções na mensagem, porque a plataforma já numera. Na lista e nos botões, opção com até 20 caracteres. **Menu em Botões** vai até 3 opções; com mais, o menu não chega ao cliente. Sem ELSE, a resposta fora das opções só reenvia o menu. Áudio em resposta a um Menu em Texto não conta como escolha. O rodapé da lista pode não aparecer, conforme o canal.
 
 **Pergunta** · `references/docs/recursos/bloco-pergunta.md` · JSON: `question` (sem os campos de inatividade)
 - Use para: pedir um dado e esperar. Para guardar a resposta, **Variável logo depois**.
@@ -74,6 +75,10 @@ Lidas em Como o Fluxo Roda (`references/docs/recursos/como-o-fluxo-roda.md`) e B
 **PDV (pedido no fluxo)** · `references/docs/recursos/pdv-pedido-no-fluxo.md` · JSON: não
 - Use para: o cliente montar e confirmar um pedido pela conversa. Saídas **Pedido confirmado**, **Desistiu** e **Sem resposta**.
 - Cuidado: o bloco confirma o pedido, mas não envia a nota nem registra o pagamento.
+
+**Reservas (agendar no fluxo)** · `references/docs/recursos/reservas-agendar-no-fluxo.md` · JSON: não
+- Use para: o cliente escolher pelo número a oferta, o dia e o horário livre e confirmar a reserva pela conversa. Saídas **Reservou** e **Não reservou**, mais **Sem resposta** com os minutos preenchidos.
+- Cuidado: o **0** desiste em qualquer passo e segue pela **Não reservou** sem outra mensagem ao cliente; ligue essa saída. O bloco só cria a reserva: remarcar e cancelar é com a equipe, na **Agenda de reservas**.
 
 **Contato**, **Enviar Localização**, **Enviar Figurinha** · Contato (`references/docs/recursos/bloco-contato.md`), Localização (`references/docs/recursos/bloco-enviar-localizacao.md`), Figurinha (`references/docs/recursos/bloco-enviar-figurinha.md`) · JSON: não
 - Use para: cartão de contato, ponto no mapa, figurinha da biblioteca da empresa. Contato e Enviar Localização têm uma saída cada; o artigo da Figurinha não descreve as saídas do bloco (diz só que, quando o bloco é pulado, o fluxo segue para o próximo passo).
@@ -109,8 +114,8 @@ Lidas em Como o Fluxo Roda (`references/docs/recursos/como-o-fluxo-roda.md`) e B
 - Use para: nota que só a equipe vê, com o resumo antes da passagem para uma pessoa. Aceita `%variavel%`.
 
 **Intervalo** · `references/docs/recursos/bloco-intervalo.md` · JSON: `interval`
-- Use para: pausa entre dois blocos, ou folga depois de uma consulta externa. Máximo de 120 segundos.
-- Cuidado: para pausar entre mensagens do mesmo Conteúdo, é o item Intervalo de dentro dele.
+- Use para: pausa entre dois blocos, folga depois de uma consulta externa ou retorno programado. De 1 segundo a 24 horas, em **Segundos**, **Minutos** ou **Horas**; no arquivo, só até 120 segundos.
+- Cuidado: com mais de 2 minutos o bloco ganha a saída **Janela expirada**; ligue-a. Se o atendimento for aceito, transferido para um atendente ou encerrado durante a espera, o fluxo não continua. **Se o cliente responder durante a espera** decide entre **Continuar esperando** e **Cancelar a espera (o fluxo para aqui)**. Para pausar entre mensagens do mesmo Conteúdo, é o item Intervalo de dentro dele (de 1 a 120 segundos).
 
 **Oportunidade** · `references/docs/recursos/bloco-oportunidade.md` · JSON: não
 - Use para: criar o negócio no CRM para o contato da conversa.
@@ -203,8 +208,8 @@ Só o que os artigos dizem; para os demais blocos, a documentação não restrin
 | Template, Carrossel de Produtos | só conexão do WhatsApp Oficial |
 | Webview | só WhatsApp QRCode, com botões liberados |
 | Enviar Figurinha | WhatsApp QRCode e WhatsApp Oficial; nos outros o bloco é pulado |
-| Botões | todos os canais, com quantidades e tipos diferentes; nos canais do HUB as opções chegam numeradas em texto; no WhatsApp QRCode, depende do recurso de botões liberado no plano |
-| Menu (Texto, Lista, Botões) | **não documentado por canal.** O artigo descreve os três tipos sem dizer onde cada um funciona; a única menção a canal é que o **Rodapé da Lista** pode não aparecer. O que os artigos dizem sobre botões por canal é do bloco **Botões**, não do Menu. O **Menu em Texto** é só texto com as opções numeradas, e o cliente responde com o número. |
+| Botões | todos os canais, com quantidades e tipos diferentes; nos canais do HUB as opções chegam numeradas em texto; no WhatsApp QRCode, depende do recurso de botões liberado no plano; no WebChat, os de **Quick Reply** chegam clicáveis |
+| Menu (Texto, Lista, Botões) | **não documentado por canal.** O artigo descreve os três tipos sem dizer onde cada um funciona; as únicas menções a canal são que o **Rodapé da Lista** pode não aparecer e que, no **WebChat**, o **Menu em Lista** abre no chat do site pelo botão da lista. O que os artigos dizem sobre botões por canal é do bloco **Botões**, não do Menu. O **Menu em Texto** é só texto com as opções numeradas, e o cliente responde com o número. |
 | É Seguidor?, Responder Comentário, Condição de Postagem e de Tipo de Postagem | conversas do Instagram |
 | Pixel META no formato Mensagens do WhatsApp | elegível só no WhatsApp Oficial, para quem veio de anúncio |
 | Condição de Anúncio | qualquer conexão de WhatsApp |

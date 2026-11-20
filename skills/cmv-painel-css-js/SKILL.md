@@ -5,7 +5,7 @@ description: "Use quando alguém quer mudar a aparência ou o comportamento do p
 
 # CSS e JS personalizados do painel Chat Master Veloz
 
-O painel `app.chatmasterveloz.com` aceita CSS e JS personalizados em campos próprios. Cada tela, cada janela e boa parte do que há dentro delas têm uma classe `custom-css-*` e atributos `data-*` feitos para isso: são os únicos nomes que continuam os mesmos quando a plataforma é atualizada. O catálogo completo desses nomes está em `references/docs/` (versão WS-29.930.0, cerca de 460 KB).
+O painel `app.chatmasterveloz.com` aceita CSS e JS personalizados em campos próprios. Cada tela, cada janela e boa parte do que há dentro delas têm uma classe `custom-css-*` e atributos `data-*` feitos para isso: são os únicos nomes que continuam os mesmos quando a plataforma é atualizada. O catálogo completo desses nomes está em `references/docs/` (versão WS-30.141.0, cerca de 670 KB).
 
 O trabalho desta skill é transformar um pedido em linguagem comum ("muda as cores", "esconde tal coisa") em código que usa **só** nomes do catálogo, dizer onde colar e como desfazer, e reconhecer quando o que a pessoa quer não tem âncora.
 
@@ -30,7 +30,7 @@ JS do painel não é lugar para chamar a API com token: todo usuário logado con
 | em que campo escrever, ordem de carga, regras do JS | `02-campos-css-js.md` | ler inteiro |
 | variável CSS que muda comportamento (ordem do menu, ações do ticket, barra do topo…) | `03-propriedades-css.md` | `grep -n -A3 -- '--menu-ordem' references/docs/03-propriedades-css.md` |
 | cores e variáveis do tema escuro (`--mui-*`) e a `--app-primary` | `04-tema-escuro.md` | ler inteiro |
-| eventos que o JS pode ouvir | `05-eventos-js.md` | ler inteiro (hoje é um só: `sip:state`) |
+| eventos que o JS pode ouvir | `05-eventos-js.md` | ler inteiro (hoje são dois: `sip:state` e `atendimentos:buscado`) |
 | um atributo de estado `data-*`: onde existe e que valores tem | `06-atributos-data.md` | ``grep -n -A3 '^### `data-status`' references/docs/06-atributos-data.md`` |
 | o id de uma tela (`#custom-css-<página>`) | `07-paginas.md` | `grep -n -i palavra` |
 | a classe de uma janela (`.custom-css-modal-<nome>`) | `08-modais.md` | `grep -n -i palavra` |
@@ -151,7 +151,7 @@ Se o elemento não tem `custom-css-*`, `data-*` nem classe sem prefixo no catál
 2. Rode `python3 scripts/conferir_seletores.py --historico arquivo.css`. Nome acusado como inexistente ou proibido é a causa mais provável: classe do Material-UI que mudou, ou âncora que nunca existiu. O `--historico` lista em que versões cada nome válido foi citado no `13`.
 3. Para cada nome suspeito, `grep -n 'nome' references/docs/13-historico.md`. As versões vão da mais nova para a mais antiga. Leia a entrada: "ACRESCENTADOS" e "Nada foi trocado nem renomeado" são acréscimos e não quebram nada; "⚠️", "passa a", "não traz mais", "saiu do `style`", "trocado" e "renomeado" marcam mudança que pode ter derrubado a regra, e a entrada costuma dizer o que usar no lugar.
 4. Se os nomes estão certos, confira o resto, tudo do `02`: o campo certo (pré × pós-login); a chave "Usar a customização geral (CSS e JS)" desligada no cadastro da empresa (o `<style>` aparece com `media="not all"`; quais campos de JS ela desliga não está documentado, veja Armadilhas); empate perdido para o CSS da empresa, que carrega por último; falta de `!important`; JS com erro de sintaxe (não é injetado) ou que procurou o elemento antes de ele existir. O `02` traz o comando de console que mostra quais campos carregaram e os prefixos de erro de cada campo de JS (`[custom-js]`, `[custom-js-poslogin]`, `[custom-js-empresa]`).
-5. Diga a versão desta referência (WS-29.930.0). Se o painel da pessoa é mais novo, o histórico daqui não cobre a mudança: o catálogo vivo fica em <https://app.chatmasterveloz.com/css-docs>.
+5. Diga a versão desta referência (WS-30.141.0). Se o painel da pessoa é mais novo, o histórico daqui não cobre a mudança: o catálogo vivo fica em <https://app.chatmasterveloz.com/css-docs>.
 
 ## A resposta para a pessoa
 
@@ -163,7 +163,7 @@ Quem pede geralmente não é técnico. Entregue nesta ordem, sem jargão:
 4. **Passo a passo para aplicar**, numerado: abrir o caminho, copiar antes o que já está no campo (cópia de segurança), colar no fim sem apagar o resto, salvar, conferir o resultado (no painel, nos dois temas).
 5. **Como desfazer**: apagar o bloco entre os marcadores e salvar; se for JS, recarregar a página em quem estava com o painel aberto.
 6. **O que não pôde ser confirmado**: cada aviso do script (valor não conferido, nome só no histórico), cada significado deduzido só pelo nome da âncora e cada ponto que a referência não documenta, com o que a pessoa deve olhar no Inspecionar.
-7. **Fonte**: as partes do catálogo usadas, pelo título e não pelo nome do arquivo (por exemplo "Tema escuro e Atributos data, catálogo WS-29.930.0") e o link <https://app.chatmasterveloz.com/css-docs>. O `02` e o `14` não vêm do catálogo: foram lidos do código do painel, e isso está dito no topo de cada um. `references/receitas.md` e os demais arquivos desta skill (este `SKILL.md`, o script) não são fonte nem assunto da resposta: não escreva "a receita 3", "a receita que a skill usa" nem "o script de conferência". O que se diz é "os nomes foram conferidos contra o catálogo". As partes que não vêm do catálogo (o `02` e o `14`) são citadas como "lido do código do painel", sem número de versão do catálogo.
+7. **Fonte**: as partes do catálogo usadas, pelo título e não pelo nome do arquivo (por exemplo "Tema escuro e Atributos data, catálogo WS-30.141.0") e o link <https://app.chatmasterveloz.com/css-docs>. O `02` e o `14` não vêm do catálogo: foram lidos do código do painel, e isso está dito no topo de cada um. `references/receitas.md` e os demais arquivos desta skill (este `SKILL.md`, o script) não são fonte nem assunto da resposta: não escreva "a receita 3", "a receita que a skill usa" nem "o script de conferência". O que se diz é "os nomes foram conferidos contra o catálogo". As partes que não vêm do catálogo (o `02` e o `14`) são citadas como "lido do código do painel", sem número de versão do catálogo.
 
 Diga que os nomes foram conferidos contra o catálogo e que o código **não** foi testado no painel dela: peça para avisar se algo não mudou.
 

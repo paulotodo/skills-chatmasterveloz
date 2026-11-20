@@ -119,6 +119,10 @@ Adicione mais seções e opções se desejar.
 
 ⚠️ **Sem `openTicket` (ou com `0`), o atendimento fica como estava:** se a conversa já estava em atendimento ou aguardando, continua no mesmo Setor e com o mesmo atendente. Só quando o contato não tinha atendimento em andamento antes do envio é que o atendimento é encerrado depois do envio.
 
+➡️ **“assinaturaIa”:** opcional — acrescente ao corpo quando quem envia é a sua IA. Mande o nome da IA, com até 100 caracteres, ou `true`, que assina como **Assistente IA**. A mensagem fica marcada como enviada pela IA e aparece na conversa com o nome dela. Sem o campo, ou com `false`, o envio fica como sempre.
+
+◽ Vai no nível de cima do corpo, ao lado de `openTicket`, e não dentro de `body`.
+
 #### Utilize o código em requisições HTTPS com ferramentas como cURL ou bibliotecas de integração.
 
 ```php

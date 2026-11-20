@@ -44,7 +44,7 @@ Em **Observações da proposta**, a janela pergunta qual texto vai na seção **
 
 🔘 **Texto que vai na proposta:** mostra o texto da opção escolhida. Nas palavras da tela: *"Você pode ajustar o texto antes de gerar."* O ajuste vale só para aquela proposta. Apagando o texto, a proposta é gerada sem observação.
 
-🔘 **Agrupar os itens por cobrança (Única, Mensal, Anual):** marcada, o PDF lista primeiro os itens de cobrança única, depois os mensais e os anuais, mantendo a ordem dentro de cada tipo. Desmarcada, o PDF segue a ordem dos itens da oportunidade. O agrupar não acrescenta títulos de grupo e não muda os totais. A caixa já vem marcada quando a empresa escolhe agrupar por padrão, nos **Dados da proposta**, e quem gera pode desmarcar.
+🔘 **Agrupar os itens por cobrança (Única, Mensal, Anual):** ligado, o PDF lista primeiro os itens de cobrança única, depois os mensais e os anuais, mantendo a ordem dentro de cada tipo. Desligado, o PDF segue a ordem dos itens da oportunidade. O agrupar não acrescenta títulos de grupo e não muda os totais. O interruptor já vem ligado quando a empresa escolhe agrupar por padrão, nos **Dados da proposta**, e quem gera pode desligar.
 
 ## O que vai no PDF
 
@@ -80,7 +80,7 @@ No menu **CRM  ›  Propostas**, o ícone **Enviar ao cliente** pede confirmaç�
 >
 > **Quero gerar uma proposta sem observação. Como faço?** Na janela **Gerar proposta**, apague o texto de **Texto que vai na proposta** e clique em **Gerar**: o PDF fica sem a seção **Observações**.
 >
-> **Como agrupo os itens por cobrança no PDF da proposta?** Marque **Agrupar os itens por cobrança (Única, Mensal, Anual)** na janela **Gerar proposta**. O PDF lista os itens de cobrança única, depois os mensais e os anuais.
+> **Como agrupo os itens por cobrança no PDF da proposta?** Ligue **Agrupar os itens por cobrança (Única, Mensal, Anual)** na janela **Gerar proposta**. O PDF lista os itens de cobrança única, depois os mensais e os anuais.
 >
 > **Por que os detalhes do produto não aparecem no PDF?** Eles só vão para o item em que a caixa **Detalhes** estiver marcada, nos Múltiplos Itens da oportunidade.
 >

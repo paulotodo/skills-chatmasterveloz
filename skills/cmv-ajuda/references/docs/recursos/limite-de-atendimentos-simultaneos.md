@@ -20,13 +20,13 @@ Ideal para:
 >
 > ➡️ Acesse o menu **Equipe** e, ao adicionar a pessoa ou editando o cadastro dela, preencha **Limite de atendimentos simultâneos** na aba **Geral**. Salve.
 >
-> ➡️ Para o limite também barrar quem aceita ou abre conversa, ligue **Bloquear aceitar acima do limite de atendimentos** no menu **Configurações  ›  Opções**.
+> ➡️ Para o limite também barrar quem aceita ou abre conversa, ligue **Bloquear aceitar acima do limite de atendimentos** no menu **Configurações  ›  Opções  ›  Atendimento**, seção **Distribuição e rodízio**.
 
 ## Os dois controles
 
 🔘 **Limite de atendimentos simultâneos:** fica no cadastro de cada pessoa, aba **Geral**, e diz o número máximo de atendimentos abertos dela. Nas palavras da tela: *Vazio = sem limite. Ao chegar neste número de atendimentos abertos, o operador sai do rodízio até fechar algum.*
 
-🔘 **Bloquear aceitar acima do limite de atendimentos:** fica no menu **Configurações  ›  Opções**, vale para a empresa toda e tem **Sim** ou **Não**. Nas palavras da tela: *Com o limite preenchido no cadastro do usuário, ao chegar nesse número de atendimentos abertos ele não aceita, não recebe transferência e não inicia conversa até finalizar algum — com ou sem rodízio. Admin e supervisor não são bloqueados.*
+🔘 **Bloquear aceitar acima do limite de atendimentos:** fica no menu **Configurações  ›  Opções  ›  Atendimento**, seção **Distribuição e rodízio**, vale para a empresa toda e tem **Sim** ou **Não**. Nas palavras da tela: *Com o limite preenchido no cadastro do usuário, ao chegar nesse número de atendimentos abertos ele não aceita, não recebe transferência e não inicia conversa até finalizar algum — com ou sem rodízio. Admin e supervisor não são bloqueados.*
 
 ## O que acontece no limite
 
@@ -44,7 +44,7 @@ Ideal para:
 >
 > **Deixei o Limite de atendimentos simultâneos vazio. Qual é o limite?** Nenhum: vazio é sem limite.
 >
-> **Coloquei o limite e a pessoa continua aceitando conversas acima dele.** A opção **Bloquear aceitar acima do limite de atendimentos** está em **Não**: assim o limite só tira a pessoa do rodízio. Ligue a opção no menu **Configurações  ›  Opções**.
+> **Coloquei o limite e a pessoa continua aceitando conversas acima dele.** A opção **Bloquear aceitar acima do limite de atendimentos** está em **Não**: assim o limite só tira a pessoa do rodízio. Ligue a opção no menu **Configurações  ›  Opções  ›  Atendimento**, seção **Distribuição e rodízio**.
 >
 > **O supervisor passou do limite.** Nas palavras da tela, administrador e supervisor não são bloqueados pela opção **Bloquear aceitar acima do limite de atendimentos**.
 >

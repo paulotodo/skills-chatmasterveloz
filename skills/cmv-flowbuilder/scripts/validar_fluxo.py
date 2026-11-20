@@ -41,6 +41,8 @@ def minutos_sem_resposta(dados):
 def saidas(no):
     """Saídas que o bloco tem, pelo tipo e pelos dados: {handle: rótulo}. None = tipo não observado."""
     tipo, dados = no.get("type"), no.get("data") or {}
+    if tipo == "interval" and str(dados.get("sec", "")).isdigit() and int(dados["sec"]) > 120:
+        return None  # mais de 2 minutos: ganha a saída Janela expirada, sem formato observado
     if tipo in UMA_SAIDA:
         return {"a": "saída"}
     if tipo in ("queue", "close"):
@@ -114,8 +116,10 @@ def conferir_dados(no, erros, avisos, trocar):
                 avisos.append(f"{nome}: item de texto vazio.")
     elif tipo == "interval":
         seg = str(dados.get("sec", ""))
-        if not seg.isdigit() or int(seg) > 120:
-            erros.append(f"{nome}: Intervalo de “{seg}” segundos; o esperado é um número, e o artigo do bloco dá o máximo de 120.")
+        if not seg.isdigit():
+            erros.append(f"{nome}: Intervalo de “{seg}” segundos; o esperado é um número de segundos.")
+        elif int(seg) > 120:
+            avisos.append(f"{nome}: Intervalo de {seg} segundos; com mais de 2 minutos o bloco ganha a saída Janela expirada, que não foi observada no arquivo: as saídas dele não foram conferidas, confira no editor se a Janela expirada está ligada.")
     elif tipo == "variable":
         if not re.fullmatch(r"%[^%\s]+%", str(dados.get("message", ""))):
             erros.append(f"{nome}: o nome da variável precisa vir entre porcentagens e sem espaços, como %nome%.")
@@ -368,12 +372,18 @@ def autoteste():
     fluxo["connections"][3] = lig("menu", "a2", "pulo")
     erros, avisos, _, _ = conferir(fluxo)
     assert not erros and any("não foi observado" in a for a in avisos), (erros, avisos)
+    fluxo = base()
+    fluxo["nodes"].append(no("espera", "interval", sec="300"))
+    fluxo["connections"][3] = lig("menu", "a2", "espera")
+    fluxo["connections"] += [lig("espera", "a", "fim"), lig("espera", "janela", "fim")]
+    erros, avisos, _, _ = conferir(fluxo)
+    assert not erros and any("Janela expirada" in a for a in avisos), (erros, avisos)
 
     exemplo = Path(__file__).resolve().parent.parent / "assets" / "exemplo-minimo.json"
     if exemplo.exists():
         erros = conferir(json.loads(exemplo.read_text(encoding="utf-8")))[0]
         assert not erros, f"assets/exemplo-minimo.json com erros: {erros}"
-    print("Autoteste: tudo certo (13 verificações" + (", mais o exemplo de assets" if exemplo.exists() else "") + ").")
+    print("Autoteste: tudo certo (14 verificações" + (", mais o exemplo de assets" if exemplo.exists() else "") + ").")
     return 0
 
 

@@ -28,7 +28,7 @@
 
 🔘 **A receber:** o que foi vendido e ainda não foi pago.
 
-🔘 **Cancelados:** quantos pedidos foram cancelados e o valor deles.
+🔘 **Cancelados:** quantos pedidos foram cancelados e o valor deles. Cada um aparece na tabela **Cancelados no período**.
 
 🔘 **Custo**, **Lucro** e **Margem:** quanto custaram os itens vendidos, quanto sobrou e a margem, em porcentagem. Entram só os itens com **Custo** cadastrado no produto; a variação sem custo próprio entra com o custo do produto. Cada venda guarda o custo da hora em que foi feita.
 
@@ -44,11 +44,15 @@ Quando o período tem venda de item sem custo cadastrado, outra linha diz quanto
 
 🔘 **Por atendente:** pedidos, total, ticket médio e recebido de cada pessoa, e o custo, o lucro e a margem das vendas dela. O pedido feito pelo cliente no fluxo de atendimento aparece em *Sem atendente*.
 
+🔘 **Comissão do garçom:** a regra da comissão, como *"Regra: 50% da taxa de serviço + 5% do consumo de cada rodada lançada."*, e a tabela com **Garçom**, **Mesas**, **Rodadas**, **Consumo**, **Taxa de serviço** e **Comissão** de cada pessoa que lançou rodadas nas mesas no período. A regra vem da **Comissão do garçom**, no menu **Configurações  ›  Opções  ›  Vendas**, seção **PDV**. Nas palavras da tela: *"A comissão de cada garçom é somada rodada a rodada e arredondada uma vez, no total. O pedido pelo QR não tem garçom, então não tem comissão. Cada rodada usa a regra que valia quando foi confirmada."* O pedido que o cliente faz pelo QR da mesa aparece na linha **Pedido pelo QR (sem garçom)**, com o consumo e a taxa de serviço, sem comissão.
+
 🔘 **Por forma de pagamento:** recebido, estornado e líquido de cada forma, inclusive os links do **Asaas**, do **Mercado Pago** e do **PagSeguro** e o **Pix (PaggPix)**.
 
 🔘 **Por dia:** os pedidos e o total de cada dia, do mais recente para o mais antigo. Sem período escolhido, o relatório mostra os últimos 30 dias, começando por hoje.
 
 🔘 **Ocultar dias sem vendas:** a caixa acima da tabela **Por dia**. Marcada, a tabela mostra só os dias que tiveram venda, e a escolha continua valendo quando você abre o Relatório do PDV de novo.
+
+🔘 **Cancelados no período:** cada pedido cancelado no período, do mais recente para o mais antigo, com o **Pedido**, o dia e a hora em **Cancelado em**, o **Motivo**, **Quem cancelou** e o **Total**.
 
 ## O arquivo CSV
 
@@ -71,5 +75,13 @@ O **Exportar CSV** baixa o relatório do período, com as colunas separadas por 
 > **Pus categoria nos produtos e as vendas antigas continuam em Sem categoria no Relatório do PDV. Por quê?** A venda guarda a categoria que o produto tinha na hora em que foi vendido. As vendas feitas antes de o produto ganhar categoria continuam em **Sem categoria**, e só as vendas novas entram na categoria.
 >
 > **Por que a tabela Por dia do Relatório do PDV mostra dias com zero pedidos?** São os dias do período sem venda. Marque **Ocultar dias sem vendas**, acima da tabela, para ver só os dias que tiveram venda.
+>
+> **Onde vejo a comissão de cada garçom no Relatório do PDV?** No bloco **Comissão do garçom**, logo depois da tabela **Por atendente**: cada pessoa que lançou rodadas nas mesas no período, com as mesas, as rodadas, o consumo, a taxa de serviço e a comissão.
+>
+> **Mudei a regra da Comissão do garçom. As rodadas antigas mudam no Relatório do PDV?** Não. Cada rodada usa a regra que valia quando foi confirmada: a regra nova vale para as rodadas confirmadas daqui para a frente.
+>
+> **Por que o Pedido pelo QR não tem comissão no Relatório do PDV?** O pedido que o cliente faz pelo QR da mesa não tem garçom, então não gera comissão. A linha **Pedido pelo QR (sem garçom)** mostra o consumo e a taxa de serviço desses pedidos.
+>
+> **Onde vejo o motivo de um pedido cancelado no Relatório do PDV?** Na tabela **Cancelados no período**: cada pedido cancelado traz o motivo e quem cancelou. O pedido cancelado fica fora do **Vendido** e entra no **Cancelados** do resumo.
 >
 > **O que é Sem atendente no Relatório do PDV?** São os pedidos que o cliente fez sozinho, pelo fluxo de atendimento, sem um atendente vendendo.

@@ -1,4 +1,4 @@
-# Artigos incluídos nesta skill (74)
+# Artigos incluídos nesta skill (75)
 
 - [Aba Geral em Setores & Chatbot](recursos/aba-geral-em-setores-e-chatbot.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-geral-em-setores-e-chatbot>
 - [Aba Horários em Setores & Chatbot](recursos/aba-horarios-em-setores-e-chatbot.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-horarios-em-setores-e-chatbot>
@@ -45,12 +45,12 @@
 - [Variável](recursos/bloco-variavel.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-variavel>
 - [Webview](recursos/bloco-webview.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-webview>
 - [Blocos](recursos/blocos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/blocos>
+- [Bot e FlowBuilder em Configurações](recursos/bot-e-flowbuilder-em-configuracoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bot-e-flowbuilder-em-configuracoes>
 - [Categorias de Fluxos](recursos/categorias-de-fluxos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/categorias-de-fluxos>
 - [Categorias de Setores](recursos/categorias-de-setores.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/categorias-de-setores>
 - [Chatbot e Menu de Setores na Conexão](recursos/chatbot-e-menu-de-setores-na-conexao.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/chatbot-e-menu-de-setores-na-conexao>
 - [Como o Fluxo Roda](recursos/como-o-fluxo-roda.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/como-o-fluxo-roda>
 - [Como Usar o Editor de Fluxos](recursos/como-usar-o-editor-de-fluxos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/como-usar-o-editor-de-fluxos>
-- [Configurações do Bot em Configurações](recursos/configuracoes-do-bot-em-configuracoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/configuracoes-do-bot-em-configuracoes>
 - [Editor de Fluxos](recursos/editor-de-fluxos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/editor-de-fluxos>
 - [Erros do Fluxo](recursos/erros-do-fluxo.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/erros-do-fluxo>
 - [FlowBuilder](recursos/flowbuilder.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/flowbuilder>
@@ -67,6 +67,7 @@
 - [n8n via Flowbuilder](recursos/n8n-via-flowbuilder.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/n8n-via-flowbuilder>
 - [PDV (pedido no fluxo)](recursos/pdv-pedido-no-fluxo.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/pdv-pedido-no-fluxo>
 - [Pontos de Entrada (Gatilho)](recursos/pontos-de-entrada.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/pontos-de-entrada>
+- [Reservas (agendar no fluxo)](recursos/reservas-agendar-no-fluxo.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/reservas-agendar-no-fluxo>
 - [Setor Único com Fluxo Automático](recursos/setor-unico-com-fluxo-automatico.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/setor-unico-com-fluxo-automatico>
 - [Setores & Chatbot](recursos/setores-e-chatbot.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/setores-e-chatbot>
 - [– Transferir Ticket](recursos/transferir-ticket.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/transferir-ticket>

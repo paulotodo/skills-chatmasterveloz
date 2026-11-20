@@ -8,11 +8,11 @@
 
 🧩 O CRM não mostra a mesma coisa para todo mundo, nem deixa todo mundo fazer o mesmo. O que cada pessoa vê, cria, edita e exclui depende de três coisas: o **perfil** dela, os **funis liberados** para ela e as opções de cada funil. Entender essa combinação resolve a dúvida mais comum: *"meu vendedor abriu o Board e não vê nada"*.
 
-## O que cada perfil faz                                                                                                                                                
+## O que cada perfil faz                                                                                                                                                      
 
 | No CRM | Administrador | Supervisor | Atendente |
 |---|---|---|---|
-| Itens do menu **CRM** | todos | os mesmos do administrador; a **Auditoria de Vendas** só com a permissão | **Board**, **Propostas**, **Relatório de vendas** e **Minha evolução** |
+| Itens do menu **CRM** | todos | os mesmos do administrador; a **Auditoria de Vendas** só com a permissão | **Board**, **Propostas**, **Relatório de vendas** e **Minha evolução**; o **Ranking** só com a permissão |
 | Funis que enxerga | todos | os liberados para ele e os que ele cria | só os liberados para ele |
 | Criar, editar e excluir funis e etapas | sim | sim | não |
 | Liberar funil para a equipe (**Quem acessa**) | sim | não | não |
@@ -25,6 +25,7 @@
 | Propostas na lista | todas | todas | só as próprias |
 | Excluir proposta de outra pessoa | sim | sim | não |
 | **Dados da proposta** (botão **Configurar**) | sim | sim | sim |
+| Ver o **Ranking** | sim | sim | só com a permissão |
 | Metas do **Ranking** | sim | sim | não |
 | **Minha evolução** | sim | sim | sim |
 | Regras de **pontuação e níveis** | sim | sim | não |
@@ -47,7 +48,7 @@ Na oportunidade, quem não pode trocar o responsável nem excluir não vê o cam
 
 ➡️ **Supervisor:** dentro dos funis liberados para ele, vê tudo — as oportunidades de todos, os ganhos e as perdas. Cria e edita funis, transfere e exclui oportunidades e altera cadastros, produtos, metas e as regras de pontuação. Cadastra prêmios, decide os pedidos de resgate e, no **Painel de metas**, acompanha as equipes que lidera. Não libera funis para a equipe nem monta unidades, equipes e metas da campanha.
 
-➡️ **Atendente:** trabalha nas oportunidades dos funis liberados para ele. No menu **CRM** ele tem **Board**, **Propostas**, **Relatório de vendas** e **Minha evolução**. Não transfere nem exclui oportunidade e não altera os cadastros. No **Relatório de vendas** e em **Propostas**, vê só o que é dele.
+➡️ **Atendente:** trabalha nas oportunidades dos funis liberados para ele. No menu **CRM** ele tem **Board**, **Propostas**, **Relatório de vendas** e **Minha evolução**, e o **Ranking** só com a permissão **Pode ver o Ranking (CRM)**. Não transfere nem exclui oportunidade e não altera os cadastros. No **Relatório de vendas** e em **Propostas**, vê só o que é dele.
 
 ## Os funis liberados
 
@@ -77,6 +78,12 @@ Sem nenhum funil liberado, a pessoa continua vendo o menu **CRM**, mas o Board a
 
 ➡️ Com essa permissão, o supervisor confere e aprova vendas de outras pessoas. O **Checklist da empresa**, que diz o que todo auditor confere, só o administrador monta.
 
+## O Ranking
+
+➡️ O item **Ranking** aparece no menu do administrador e do supervisor. O atendente só vê o Ranking com a permissão **Pode ver o Ranking (CRM)**, que fica no menu **Equipe  ›  editar o usuário  ›  Permissões**.
+
+➡️ Com a permissão, o atendente vê a tela inteira do Ranking — as vendas de todos, as equipes e as unidades —, sem o botão **Configurar metas**. As metas do Ranking continuam com administrador e supervisor.
+
 > **[DUVIDAS]**
 >
 > #### Dúvidas Comuns
@@ -94,5 +101,7 @@ Sem nenhum funil liberado, a pessoa continua vendo o menu **CRM**, mas o Board a
 > **O atendente pode excluir uma oportunidade?** Não. O botão **Excluir** não aparece para ele — peça a um supervisor ou ao administrador.
 >
 > **Quem libera um funil para a equipe?** Só o administrador, pelo botão **Quem acessa**. O supervisor cria e edita funis, mas não libera.
+>
+> **O atendente não vê o Ranking no menu CRM.** Falta a permissão **Pode ver o Ranking (CRM)**, no menu **Equipe  ›  editar o usuário  ›  Permissões**. Com ela, o atendente vê o Ranking, sem o botão **Configurar metas**.
 >
 > **O atendente não acha a proposta que um colega gerou.** Em **Propostas**, o atendente vê só as próprias. Administrador e supervisor veem todas.

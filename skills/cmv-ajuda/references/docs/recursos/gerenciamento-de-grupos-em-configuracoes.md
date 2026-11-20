@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/gerenciamento-de-grupos-em-configuracoes
 - **Categoria:** Recursos
-- **Menu:** Configurações › Gerenciamento de Grupos em Configurações
+- **Menu:** Configurações › Atendimento em Configurações › Gerenciamento de Grupos em Configurações
 
 ---
 
@@ -12,7 +12,7 @@
 >
 > #### Resumo Prático
 >
-> ➡️ Acesse o menu **Configurações  ›  Opções** e localize **Gerenciamento de Grupos**.
+> ➡️ Acesse o menu **Configurações  ›  Opções  ›  Atendimento**, seção **Gerenciamento de Grupos**.
 >
 > ➡️ Para receber grupos, deixe **Ignorar Mensagens de Grupos** em **Desativado**.
 

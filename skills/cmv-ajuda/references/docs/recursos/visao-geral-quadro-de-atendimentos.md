@@ -50,13 +50,15 @@ Coluna sem nada dentro mostra **Nada aqui**.
 
 Cada card traz o contato, a última mensagem, o Setor, a conexão e a data — e, quando alguém já atende, o nome de quem atende. A faixa colorida da lateral é a **cor do Setor**, a mesma do cadastro dele.
 
+🔘 **A hora do card:** a hora da última movimentação, ou a data, quando ela não é de hoje. A cor da hora muda conforme o tempo que o atendimento está parado — em dia, atenção ou atrasado —, para os atrasados saltarem aos olhos, também no tema escuro.
+
 🔘 **Os selos** aparecem quando aquele contato já tem alguma coisa registrada — oportunidade, agendamento por enviar ou anotação. São um número com a contagem, e o texto de ajuda diz de que se trata: *"1 oportunidade(s) neste contato"*. Contato sem nada disso não ganha selo, e o card fica do mesmo tamanho.
 
 🔘 **A estrela** fixa o card no topo da coluna. Clique de novo para soltar. **O que você fixa é só seu** — ninguém mais vê a sua ordem, então dá para priorizar sem bagunçar a tela de quem atende junto. Quando o atendimento é encerrado e o cliente volta, o atendimento novo **chega sem a estrela**.
 
 🔘 **Organizado pela regra:** quando foi uma regra do quadro que levou o card para a coluna, ele mostra o nome da regra.
 
-🔘 **Dois cliques** no card abrem a conversa numa janela por cima do quadro. Num card pendente, a janela traz o botão **Aceitar**.
+🔘 **Dois cliques** no card abrem a conversa numa janela por cima do quadro. Num card pendente, a janela traz o botão **Aceitar**. O topo da janela tem as mesmas ações do topo da conversa em **Chats**, do jeito escolhido no campo **Ações do topo do ticket**, no menu **Configurações  ›  Opções  ›  Atendimento**: com **Agrupadas**, **Resolver**, **Transferir Ticket** e **Mais** aparecem com o nome, e a lista do **Mais** abre por cima da janela.
 
 🔘 **FINALIZAR**, quando ligado na barra, encerra o atendimento direto do card — também o que ainda está pendente.
 
@@ -101,5 +103,7 @@ Se o atendimento aparece numa coluna automática, é **por causa do Setor dele**
 > **Sumiram cards da tela.** Confira os filtros da barra, principalmente o de **sem resposta**: ele fica ligado entre visitas e a tela lembra da escolha. Ligado, o texto de ajuda do botão é *Mostrar todos os atendimentos*.
 >
 > **A estrela que eu fixei aparece para os outros?** Não. A fixação é individual: cada pessoa monta a própria ordem.
+>
+> **O que significa a cor da hora no card do Quadro de atendimentos?** Mostra há quanto tempo o atendimento está parado: em dia, atenção ou atrasado. Os atrasados ficam numa cor que se destaca, também no tema escuro.
 >
 > **Encerrei pelo card e o cliente não recebeu a mensagem de despedida.** É assim mesmo: o FINALIZAR do card encerra sem a despedida, e a própria pergunta avisa. A mensagem de encerramento é oferecida quando você encerra pela conversa.

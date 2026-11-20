@@ -1,8 +1,8 @@
-# Cloudflare R2 em Armazenamento Remoto
+# - Cloudflare R2 em Armazenamento Remoto
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/cloudflare-r2-em-armazenamento-remoto
 - **Categoria:** Recursos
-- **Menu:** Configurações › Opções em Configurações › Cloudflare R2 em Armazenamento Remoto
+- **Menu:** Configurações › Integrações e segurança em Configurações › - Cloudflare R2 em Armazenamento Remoto
 
 ---
 
@@ -18,7 +18,7 @@ Contrate em **[cloudflare.com](https://www.cloudflare.com)**.
 >
 > ➡️ Gere as **credenciais**.
 >
-> ➡️ Ligue os dois na plataforma, no menu **Configurações  ›  Opções**, seção **Armazenamento Remoto de Arquivos**.
+> ➡️ Ligue os dois na plataforma, no menu **Configurações  ›  Opções  ›  Integrações e segurança**, seção **Armazenamento Remoto de Arquivos**.
 
 ## Criar um bucket
 
@@ -60,19 +60,19 @@ São três valores: a **Access Key**, a **Secret Key** e a **URL S3 API** da sua
 
 ## Integrar o armazenamento na plataforma
 
-Acesse o menu **Configurações  ›  Opções** e localize a seção **Armazenamento Remoto de Arquivos**.
+Acesse o menu **Configurações  ›  Opções  ›  Integrações e segurança**, seção **Armazenamento Remoto de Arquivos**.
 
 ![Campos do Armazenamento Remoto de Arquivos na plataforma](https://clihelper.chatmasterveloz.com/docs-imagem/ed-6ab17c4666160.png)
 
 ➡️ **R2 URL:** a URL do Custom Domain que você criou no bucket.
 
-➡️ **Minio URL / S3 Custom Api URL:** a URL S3 API da sua conta.
+➡️ **MINIO URL / S3 CUSTOM API URL:** a URL S3 API da sua conta.
 
 ➡️ **Nome do Bucket:** o mesmo nome que você deu ao bucket.
 
-➡️ **S3 Key:** a **Access Key** da credencial.
+➡️ **S3 KEY:** a **Access Key** da credencial.
 
-➡️ **S3 Secret:** a **Secret Key** da credencial.
+➡️ **S3 SECRET:** a **Secret Key** da credencial.
 
 #### 📌 Pronto!
 

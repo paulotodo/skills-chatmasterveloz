@@ -30,7 +30,7 @@ Acesse o menu **Tags** para criar ou editar uma tag.
 
 Na aba **Remarketing**, escolha o fluxo no campo **Fluxos de Automação** e configure **quando** o fluxo é disparado depois que a tag é colocada na conversa. O menor prazo do campo **Quando?** é **A partir de 5 minutos**.
 
-Ainda na aba **Remarketing**, o campo **Setor do atendimento reaberto** escolhe em qual Setor o atendimento encerrado volta quando o prazo da tag vence: um dos Setores da empresa ou a opção **O da conexão (ou o de antes)**.
+Ainda na aba **Remarketing**, o campo **Setor do atendimento reaberto** escolhe em qual Setor o atendimento encerrado volta quando o cliente responde ao remarketing: um dos Setores da empresa ou a opção **O da conexão (ou o de antes)**. Com o atendimento encerrado, o fluxo do remarketing é enviado e o atendimento continua encerrado até o cliente responder. Nesse envio, a conversa ganha uma nota, só para a equipe, que diz qual tag venceu, qual fluxo foi enviado e em que Setor o atendimento volta quando o cliente responder.
 
 > **[DUVIDAS]**
 >
@@ -42,9 +42,11 @@ Ainda na aba **Remarketing**, o campo **Setor do atendimento reaberto** escolhe 
 >
 > **O remarketing funciona para tags colocadas à mão e por automação?** Funciona para qualquer marcação, feita pelo atendente ou por outro processo do sistema, com o atendimento aberto ou já encerrado.
 >
-> **O atendimento foi encerrado antes do prazo do remarketing. O fluxo é enviado?** Sim. A tag de atendimento, colocada à mão pelo atendente ou pelo fluxo, dispara mesmo com o atendimento encerrado: o atendimento é reaberto no **Aguardando**, sem atendente, no Setor escolhido em **Setor do atendimento reaberto**, e o fluxo do remarketing é enviado. A tag do tipo **Encerramento**, escolhida na hora de encerrar, também dispara: o fluxo do remarketing é enviado e o atendimento continua encerrado.
+> **O atendimento foi encerrado antes do prazo do remarketing. O fluxo é enviado?** Sim. A tag de atendimento, colocada à mão pelo atendente ou pelo fluxo, dispara mesmo com o atendimento encerrado: o fluxo do remarketing é enviado e o atendimento continua encerrado até o cliente responder. Com a resposta, ele volta ao **Aguardando**, sem atendente, no Setor escolhido em **Setor do atendimento reaberto**. A tag do tipo **Encerramento**, escolhida na hora de encerrar, também dispara: o fluxo do remarketing é enviado e o atendimento continua encerrado.
 >
-> **Em que Setor o atendimento reaberto pelo remarketing aparece para a equipe?** No Setor escolhido no campo **Setor do atendimento reaberto**, na aba **Remarketing** da tag.
+> **Em que Setor o atendimento volta quando o cliente responde ao remarketing?** No Setor escolhido no campo **Setor do atendimento reaberto**, na aba **Remarketing** da tag.
+>
+> **Como a equipe sabe que o remarketing foi enviado para um atendimento encerrado?** Pela nota que a conversa ganha no envio, só para a equipe. Por exemplo: *"🏷️ Remarketing: a tag "Aguardando retorno" venceu e o fluxo "Recuperação" foi enviado ao cliente. O atendimento continua encerrado; quando o cliente responder, ele volta ao Aguardando no Setor "Vendas"."* A nota aparece mesmo com **Registrar Logs de Ação dos Atendimentos?** em **Não**.
 >
 > **Posso ter vários remarketings ao mesmo tempo?** Pode. Um cliente pode ter a tag *Boleto Pendente*, que dispara em 1 dia, e a tag *Cliente VIP*, que dispara em 1 mês. Os prazos correm em paralelo.
 >

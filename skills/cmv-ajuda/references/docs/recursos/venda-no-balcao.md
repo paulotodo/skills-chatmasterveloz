@@ -17,6 +17,8 @@
 > ➡️ Busque os produtos, ou toque na categoria e no produto, e lance os pagamentos até o **Falta** chegar a zero.
 >
 > ➡️ Clique em **Entregar agora** ou em **Enviar para o painel de pedidos**.
+>
+> ➡️ Com um meio de pagamento online conectado, dá para fechar sem lançar pagamento, em **Fechar com link de pagamento**: o cliente paga pelo link.
 
 ## Vídeo Tutorial
 
@@ -28,7 +30,7 @@
 
 🔘 **Categorias:** os botões de categoria ficam logo abaixo da busca. Tocar numa categoria mostra os produtos dela com o preço, mais **Todos de** e as subcategorias para filtrar, e tocar no produto põe o item na venda.
 
-🔘 **Produto com opções:** o produto com variações ou adicionais abre uma janela com o nome dele. Em **Opção**, escolha a variação, cada uma com o preço, como *"Grande · R$ 45,00"*. Em cada grupo de adicionais, marque as opções dentro da regra do grupo, como *"Escolha de 1 a 2"*, cada uma com o preço, como *"Catupiry · + R$ 5,00"*. O **Preço de cada unidade** soma a variação e os adicionais, e **Adicionar** põe o item na venda.
+🔘 **Produto com opções:** o produto com variações ou adicionais abre uma janela com o nome dele. Em **Opção**, escolha a variação, cada uma com o preço, como *"Grande · R$ 45,00"*. Em cada grupo de adicionais, marque as opções dentro da regra do grupo, como *"Escolha de 1 a 2"*, cada uma com o preço, como *"Catupiry · + R$ 5,00"*. O **Preço de cada unidade** soma a variação e os adicionais, e **Adicionar** põe o item na venda. A opção ou o sabor com **Ativa** desligada no cadastro do produto não aparece na janela.
 
 🔘 **Desconto em** **R$** ou **%**, e **Acréscimo**.
 
@@ -40,6 +42,8 @@ O **Total** e o **Subtotal** aparecem ao lado, com a parte de **Pagamento**.
 
 Na venda, o produto com opções aparece com a variação entre parênteses e os adicionais logo abaixo, como *Pizza (Grande)* e *+ Catupiry, Cheddar*, e o estoque mostrado é o da variação. Mudar a **Quantidade** da linha multiplica o preço da unidade, com os adicionais. O mesmo produto com opções diferentes entra numa linha nova; com as mesmas opções, soma na linha que já existe.
 
+O Balcão vende pelo **Preço** do cadastro do produto e da variação. O **Preço Delivery**, quando o produto tem um, não muda o preço no Balcão.
+
 No produto com **ficha de insumos**, a venda baixa do estoque os insumos da ficha, e não o próprio produto. O estoque mostrado no Balcão é quanto dá para fazer com os insumos que estão em estoque, como *"Em estoque: 5"*, e a variação com ficha própria mostra a conta dela, como *"Em estoque: 2"* no tamanho que leva mais insumo.
 
 Quando os insumos não dão para nenhuma unidade, o produto com **ficha de insumos**, ou só a variação que leva mais insumo, fica indisponível sozinho: a linha mostra *"Só 0 em estoque"* e, se a empresa não vende sem estoque, **Entregar agora** fica desativado. Com a entrada do insumo no estoque, o produto volta a ficar disponível sozinho.
@@ -48,13 +52,13 @@ O mesmo vale para o adicional com ficha de insumos: quando o insumo dele acaba, 
 
 ## Os pagamentos
 
-🔘 **Forma:** **Dinheiro**, **Pix**, **Cartão**, **Boleto** ou **Outro**.
+🔘 **Forma:** **Dinheiro**, **Pix**, **Cartão**, **Boleto** ou **Outro**. Quando a empresa dá desconto ou cobra taxa por forma de pagamento, a lista mostra o ajuste ao lado de cada forma, como *Pix · 5% de desconto* ou *Cartão · taxa de R$ 2,00*. Escolhida a forma, a venda ganha a linha **Desconto da forma de pagamento** ou **Taxa da forma de pagamento**, o **Total** já vem ajustado, e a tela avisa, como *"Pix: R$ 1,45 de desconto já no valor"*.
 
 🔘 **Valor** e **Recebido:** no dinheiro, o **Recebido** calcula o troco, e o pagamento lançado fica como *"Dinheiro · recebido R$ 40,00, troco R$ 4,10"*.
 
 🔘 **Lançar:** inclui o pagamento. A venda pode ter mais de um, em formas diferentes; **Tirar o pagamento** desfaz um lançamento.
 
-**Pago**, **Falta** e **Troco** mostram a conta da venda. Os pagamentos têm de somar o total para fechar.
+**Pago**, **Falta** e **Troco** mostram a conta da venda. Para **Entregar agora** ou **Enviar para o painel de pedidos**, os pagamentos têm de somar o total.
 
 ## Fechar a venda
 
@@ -62,7 +66,11 @@ O mesmo vale para o adicional com ficha de insumos: quando o insumo dele acaba, 
 
 🔘 **Enviar para o painel de pedidos:** a venda vai para o **Painel de pedidos**, em **Novo**, marcada como *Balcão*, e a janela avisa *"O pedido foi para o painel de pedidos. O cliente espera ficar pronto."*
 
-O texto do botão **Enviar para o painel de pedidos** pode ser outro, como *Mandar para a cozinha*: a empresa escolhe no menu **Configurações  ›  Opções**, no campo **Botão da venda de balcão** de **Nomes das etapas**. Em branco, fica o texto padrão do **Segmento do negócio**, escolhido na mesma página: *Enviar para o painel de pedidos* em **Alimentação**, *Mandar para a separação* em **Varejo** e **Farmácia**, e *Mandar para o painel* em **Outro negócio**.
+O texto do botão **Enviar para o painel de pedidos** pode ser outro, como *Mandar para a cozinha*: a empresa escolhe no menu **Configurações  ›  Opções  ›  Vendas**, seção **PDV**, no campo **Botão da venda de balcão** de **Nomes das etapas**. Em branco, fica o texto padrão do **Segmento do negócio**, escolhido na mesma página: *Enviar para o painel de pedidos* em **Alimentação**, *Mandar para a separação* em **Varejo** e **Farmácia**, e *Mandar para o painel* em **Outro negócio**.
+
+🔘 **Fechar com link de pagamento:** aparece quando a empresa tem um meio de pagamento online conectado, no menu **Configurações  ›  Opções  ›  Vendas**, seção **PDV**. O botão fecha a venda sem pagamento lançado, para o cliente pagar pelo link: a venda vai para o **Painel de pedidos** e fica **Não pago** até o pagamento entrar. Com algum pagamento lançado, a venda não fecha pelo link: tire os pagamentos para fechar com ele.
+
+Fechada a venda pelo link, a janela mostra o **Link de pagamento**, com **Copiar o link**, e avisa *"O link também foi para a conversa do cliente."* quando o link segue também para a conversa. Se o link não for gerado, a venda fica registrada mesmo assim, e a tela avisa *"A venda foi registrada, mas o link não foi gerado. Gere o link no pedido, em Pagamentos."*
 
 Depois de fechar, **Imprimir comprovante** imprime a venda com as formas de pagamento e o troco, e **Nova venda** limpa a tela para o próximo cliente.
 
@@ -76,13 +84,21 @@ Depois de fechar, **Imprimir comprovante** imprime a venda com as formas de paga
 >
 > **Preciso escolher o cliente para vender no balcão?** Não. Sem cliente, a venda fica como Consumidor. Escolher o contato guarda a compra no histórico dele.
 >
-> **O botão Mandar para a cozinha sumiu do Balcão. Onde está?** Agora ele se chama **Enviar para o painel de pedidos** e faz o mesmo: leva a venda para o **Painel de pedidos**. Para voltar ao nome antigo, ou dar outro, preencha o campo **Botão da venda de balcão** no menu **Configurações  ›  Opções**.
+> **O botão Mandar para a cozinha sumiu do Balcão. Onde está?** Agora ele se chama **Enviar para o painel de pedidos** e faz o mesmo: leva a venda para o **Painel de pedidos**. Para voltar ao nome antigo, ou dar outro, preencha o campo **Botão da venda de balcão** no menu **Configurações  ›  Opções  ›  Vendas**, seção **PDV**.
 >
 > **Por que o Adicionar da janela de opções do produto não libera no Balcão?** Falta escolher a **Opção**, e a janela avisa *"Escolha uma opção."*, ou o número de adicionais marcados está fora da regra do grupo, como *"Escolha de 1 a 2"*.
+>
+> **O mesmo produto tem um preço na entrega e outro no Balcão. Está certo?** Sim, quando o produto tem **Preço Delivery** no cadastro: a tela do cadastro avisa que ele vale nos pedidos de entrega e nos pedidos pelo site, e o Balcão segue com o **Preço**.
+>
+> **Um sabor ou um adicional sumiu da janela de opções do Balcão. O que aconteceu?** A opção foi desligada no cadastro do produto. No menu **PDV  ›  Produtos**, ligue **Ativa** na opção para ela voltar ao Balcão, com o mesmo preço.
 >
 > **Uma categoria sumiu dos botões do Balcão. O que aconteceu?** A categoria foi desativada. No menu **PDV  ›  Produtos  ›  Categorias**, ligue **Ativa** para ela voltar ao Balcão.
 >
 > **O produto com ficha de insumos mostra estoque no Balcão, mas o cadastro dele não controla estoque. Está certo?** Sim. No produto com **ficha de insumos**, o estoque do Balcão é a conta do que dá para fazer com os insumos, e a venda baixa os insumos. Quem tem estoque próprio é cada insumo, cadastrado no menu **PDV  ›  Produtos**.
+>
+> **O total da venda mudou ao escolher a forma de pagamento no Balcão. Por quê?** A empresa tem desconto ou taxa para aquela forma, configurado no menu **Configurações  ›  Opções  ›  Vendas**, seção **PDV**, em **Desconto e taxa por forma de pagamento**. O ajuste aparece numa linha própria da venda, e o **Total** já vem com ele.
+>
+> **O botão Fechar com link de pagamento não aparece no Balcão. Por quê?** O **Fechar com link de pagamento** só aparece quando a empresa tem um meio de pagamento online conectado, no menu **Configurações  ›  Opções  ›  Vendas**, seção **PDV**. Sem nenhum, a venda fecha com os pagamentos lançados, em **Entregar agora** ou **Enviar para o painel de pedidos**.
 >
 > **O leitor de código de barras não achou o produto.** O leitor procura o **SKU** do produto. Confira se o código do produto está preenchido no cadastro, no menu **PDV  ›  Produtos**.
 

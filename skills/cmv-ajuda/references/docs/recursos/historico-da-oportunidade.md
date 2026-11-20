@@ -30,6 +30,8 @@ Cada linha do **Histórico** mostra a mudança, a data e a hora e o nome de quem
 
 🔘 **Mudou de funil:** o funil de onde a oportunidade veio e o funil para onde foi.
 
+🔘 **Mudou de conexão:** a conexão de WhatsApp por onde a oportunidade seguia e a nova, quando alguém troca o número pelo **Alterar conexão** da oportunidade — por exemplo, *"Mudou de conexão: Comercial → Suporte"*. Na oportunidade que não tinha conversa ligada, a linha começa com *—*.
+
 🔘 **Responsável alterado:** de quem para quem a oportunidade foi passada. A própria ajuda do campo **Responsável** avisa: *"A troca fica registrada no histórico."*
 
 🔘 **Valor alterado:** o valor antes e depois, como *"Valor alterado: R$ 100,00 → R$ 150,00"*.
@@ -45,6 +47,8 @@ Cada linha do **Histórico** mostra a mudança, a data e a hora e o nome de quem
 > #### Dúvidas Comuns
 >
 > **Como sei quem trocou o responsável de uma oportunidade?** Abra a oportunidade e vá à aba **Histórico**: a linha **Responsável alterado** mostra o responsável anterior, o novo, quem fez a troca e quando.
+>
+> **Como sei se a oportunidade mudou de número de WhatsApp?** Na aba **Histórico**, a linha **Mudou de conexão** mostra a conexão anterior, a nova, quem trocou e quando.
 >
 > **O Histórico da oportunidade começa pela mudança mais antiga?** Não. A mudança mais recente fica no topo.
 >

@@ -10,7 +10,7 @@
 
 A regra vale para tudo: o **User** é o atendente, e vê o que precisa para atender. O **Supervisor** vê o mesmo que o atendente e mais o que serve para acompanhar a operação. O **Admin** vê a empresa inteira, inclusive o que configura os outros dois.
 
-Quando aparecem na lista do campo **Perfil**, **Entregador** e **Garçom** são os perfis de quem só faz entregas ou só atende as mesas. Eles ficam fora das tabelas abaixo: a pessoa entra numa tela só, sem o menu.
+Quando estão disponíveis no seu plano, **Entregador** e **Garçom** aparecem na lista do campo **Perfil**: são os perfis de quem só faz entregas ou só atende as mesas. Eles ficam fora das tabelas abaixo: a pessoa entra numa tela só, sem o menu.
 
 > **[RESUMO]**
 >
@@ -30,11 +30,12 @@ O que o plano da empresa não libera não aparece para ninguém, nem para o admi
 
 ## O menu, bloco por bloco
 
-**Principal**                                                                                   
+**Principal**                                                                                          
 
 | Item | Admin | Supervisor | User | Com Acesso Limitado |
 |---|---|---|---|---|
 | **Dashboard** | ✔️ | ✔️ | ❌ | ❌ |
+| **Meus números** | ❌ | ❌ | configurável | ❌ |
 | **Chats** | ✔️ | ✔️ | ✔️ | ✔️ |
 | **Quadro de atendimentos** | ✔️ | ✔️ | ✔️ | ❌ |
 | **E-mails** | ✔️ | ✔️ | ✔️ | quando vinculado a uma conta |
@@ -70,6 +71,12 @@ O que o plano da empresa não libera não aparece para ninguém, nem para o admi
 | **Minha evolução** | ✔️ | ✔️ | ✔️ | ❌ |
 | **Leads de anúncio** | ✔️ | ✔️ | ❌ | ❌ |
 
+**Mail Marketing**                    
+
+| Item | Admin | Supervisor | User | Com Acesso Limitado |
+|---|---|---|---|---|
+| **Mail Marketing** | ✔️ | ✔️ | ❌ | ❌ |
+
 **Ferramentas**                                                
 
 | Item | Admin | Supervisor | User | Com Acesso Limitado |
@@ -95,17 +102,20 @@ O que o plano da empresa não libera não aparece para ninguém, nem para o admi
 | **Contatos Duplicados** e **Dashboard (legado)** | ✔️ | ✔️ | ❌ | ❌ |
 | **Anúncios**, **Backup de Mensagens**, **Erros do Sistema**, **Histórico de Avisos** e **Logs de Remarketing** | ✔️ | ❌ | ❌ | ❌ |
 
+➡️ **Meus números:** aparece para o atendente quando o administrador liga **Atendente vê os próprios números**, no menu **Configurações  ›  Opções  ›  Atendimento**. A página mostra os atendimentos, os tempos e as avaliações só da própria pessoa.
+
 ➡️ **Contatos:** com **Acesso a Contatos** em **NÃO**, a pessoa não abre a tela de Contatos. O atendente também deixa de ver o item no menu.
 
 ➡️ **Auditoria de Vendas:** para supervisor e atendente, depende de **Pode Auditar Vendas (CRM)**. O item entra no menu quando há venda esperando conferência num funil que exige auditoria.
 
 ➡️ **Ranking:** para o atendente, depende de **Pode ver o Ranking (CRM)**, na aba **Permissões** do cadastro. Com **SIM**, ele ganha o item no menu e vê a tela inteira, sem **Configurar metas**. Com **NÃO**, o item some, e o endereço direto devolve para a lista de atendimentos.
 
-## Dentro das telas                                                                                                                                                                
+## Dentro das telas                                                                                                                                                                              
 
 | O que muda | Admin | Supervisor | User | Com Acesso Limitado |
 |---|---|---|---|---|
-| **Chats:** botão **Novo** e filtro de **Setores** | ✔️ | ✔️ | ✔️ | ❌ |
+| **Chats:** botão **Novo** | configurável | configurável | configurável | ❌ |
+| **Chats:** filtro de **Setores** | ✔️ | ✔️ | ✔️ | ❌ |
 | **Chats:** ver todos os atendimentos e filtrar por **Usuários** | ✔️ | ✔️ | ❌ | ❌ |
 | **Atendimento:** criar tag nova | ✔️ | ✔️ | configurável | configurável |
 | **Atendimento:** aplicar tag e remover tag | ✔️ | ✔️ | configurável | configurável |
@@ -126,6 +136,9 @@ O que o plano da empresa não libera não aparece para ninguém, nem para o admi
 | **Relatório de vendas:** vendas de todos, com filtro **Vendedor** | ✔️ | ✔️ | ❌ (só as dele) | — |
 | **Minha evolução:** prêmios, pedidos de resgate, painel de metas, campanhas e pontuação | ✔️ | ✔️ | ❌ | — |
 | **Minha evolução:** **Unidades e equipes** e **Metas da campanha** | ✔️ | ❌ | ❌ | — |
+| **Mail Marketing:** editar a aba **Configurações** | ✔️ | ❌ (vê sem editar) | — | — |
+
+➡️ **Botão Novo:** depende de **Pode iniciar novos atendimentos**, na aba **Permissões** do cadastro. Com **NÃO**, a pessoa não abre atendimento novo: o botão **Novo** some da lista de atendimentos, e cada linha de **Contatos** perde **Iniciar conversa**. Aceitar, responder e transferir continuam iguais.
 
 ## Acesso e avisos                                          
 
@@ -142,6 +155,8 @@ O que o plano da empresa não libera não aparece para ninguém, nem para o admi
 Esconder do menu e bloquear a tela são coisas diferentes, e a plataforma usa as duas.
 
 ➡️ **Configurações**, **Equipe** e **Erros do Sistema** são fechadas para supervisor e atendente: quem digita o endereço direto é devolvido para a lista de atendimentos.
+
+➡️ **Mail Marketing** é fechado para o atendente: pelo endereço direto, a página abre vazia, com o aviso *"Você não tem permissão para acessar este recurso."*
 
 ## Entregador e Garçom
 
@@ -161,7 +176,7 @@ Trocar o perfil vale na hora: o menu da pessoa muda em poucos segundos, sem ela 
 >
 > #### Dúvidas Comuns
 >
-> **Quero que o atendente veja o Dashboard.** O Dashboard é do supervisor para cima. Não há permissão que libere só ele; o caminho é mudar o perfil.
+> **Quero que o atendente veja o Dashboard.** O Dashboard é do supervisor para cima. Não há permissão que libere só ele; o caminho é mudar o perfil. Para o atendente acompanhar os próprios números, sem ver os da equipe, ligue **Atendente vê os próprios números**, no menu **Configurações  ›  Opções  ›  Atendimento**: ele ganha a página **Meus números**.
 >
 > **Quero que o atendente veja o Ranking.** Na aba **Permissões** do cadastro dele, marque **SIM** em **Pode ver o Ranking (CRM)**. Ele passa a ver o Ranking inteiro, sem **Configurar metas**.
 >

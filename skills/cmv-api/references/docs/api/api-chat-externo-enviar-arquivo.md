@@ -60,6 +60,8 @@ array(
 
 ◽ A mensagem aparece no painel do operador e na página do cliente.
 
+➡️ **“assinaturaIa”:** opcional — acrescente aos campos do formulário quando quem envia é a sua IA, com o nome da IA (até 100 caracteres). A mensagem fica marcada como enviada pela IA e aparece na conversa com o nome dela. Sem o campo, o envio fica como sempre.
+
 #### Utilize o código em requisições HTTPS com ferramentas como cURL ou bibliotecas de integração.
 
 ```php

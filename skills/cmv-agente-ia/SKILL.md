@@ -41,15 +41,15 @@ A entrega completa tem prompt, passo a passo no painel, plano de testes e limite
 Vale quando a pessoa só disse o ramo e o objetivo. Em até umas vinte linhas. Os fatos e as fontes desta seção já foram conferidos nos artigos e nas atualizações incluídas: nesta etapa, o único arquivo a abrir é a "Primeira rodada", e a busca nas atualizações está dispensada.
 
 1. Diga que o painel tem o recurso e como ele se chama: GPT Assistant, criado no menu **Prompts OPEN.AI**, que responde aos atendimentos do Setor em que for ligado. Não prometa um canal específico (regra "Canais").
-2. Liste os três pré-requisitos, em uma linha cada: a opção de IA ativada pelo suporte do Chat Master Veloz, um token criado na OpenAI e esse token colado no menu **Integrações**. Acrescente que o menu **Prompts OPEN.AI** só aparece para o perfil Administrador.
+2. Liste os pré-requisitos, em uma linha cada: um token criado na OpenAI, colado no campo **Token OpenAI** do card **OPEN.AI**, no menu **Integrações** (se o card avisar que a conta usa a chave da plataforma, não há chave a cadastrar); e o perfil Administrador, o único que vê o menu **Prompts OPEN.AI**. Se um recurso de IA não aparecer, o caminho é o suporte do Chat Master Veloz.
 3. Faça as cinco ou seis perguntas da "Primeira rodada" de `references/entrevista-briefing.md`, adaptadas ao ramo.
 4. Ofereça a alternativa: "Se preferir, já te mando um rascunho com as lacunas marcadas para você completar."
-5. Se o pedido incluir agendamento, diga o limite em uma frase: a IA anota os dados e a preferência de dia e horário, e a equipe confirma. O motivo, para dizer à pessoa: o comando de agenda da IA só aparece em uma nota de atualização, que não explica se ele confere horário livre nem o que faz quando dois clientes pedem o mesmo horário.
+5. Se o pedido incluir agendamento, diga as duas formas em uma frase: a IA anota os dados e a preferência de dia e horário e a equipe confirma, ou a IA marca pelo comando **Marcar ou desmarcar na agenda**, que confirma o dia e a hora com o cliente e confere se o horário está livre antes de marcar.
 6. Cite as fontes no fim, título e link:
    - * Pré-Requisitos IA: https://clihelper.chatmasterveloz.com/docs/pre-requisitos-ia
    - Token OpenAI: https://clihelper.chatmasterveloz.com/docs/token-openai
    - Tipos de Perfil: https://clihelper.chatmasterveloz.com/docs/tipos-de-perfil
-   - 11/11/2026 (só se falar de agendamento): https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-11
+   - Comandos GPT Assistant (só se falar de agendamento): https://clihelper.chatmasterveloz.com/docs/comandos-gpt-assistant
 
 Não entregue ainda prompt, passo a passo nem plano de testes. Não espere os pré-requisitos ficarem prontos para seguir: eles viram a primeira parte do passo a passo.
 
@@ -59,14 +59,14 @@ Vale quando há respostas, ou quando a pessoa pediu com todas as letras um rascu
 
 1. Abra com "o que entendi", em cinco ou seis linhas (modelo no fim de `references/entrevista-briefing.md`).
 2. Escreva o prompt a partir de `assets/modelo-prompt.md`:
-   - comandos só os documentados, na forma exata do artigo (`references/comandos-e-capacidades.md`, seção 3);
+   - comandos só os documentados, cada um como marcador a trocar pela janela **COMANDOS DA IA**, com o texto de **Quando a IA deve fazer isso** já escrito (`references/comandos-e-capacidades.md`, seção 3);
    - o que a pessoa não informou fica como marcador `[[...]]`, nunca como dado de exemplo; com marcadores, chame de rascunho;
    - sem variáveis `{{...}}` e sem regra que dependa da hora atual: nada disso está documentado para o campo **Prompt**;
    - só os comandos que o objetivo pede; cada comando a mais é um ponto a testar.
-3. Confira com `python3 scripts/conferir_prompt.py arquivo.txt` (modo rascunho: marcador é pendência e não reprova). Ordem única: os marcadores de dados do negócio são preenchidos antes de colar; o prompt pode ir ao painel levando só marcadores de ID de comando (e o do comando de agenda), que se trocam lá, pela janela **Comandos da IA**; o `--final` roda na versão definitiva, que é a que a pessoa devolve depois do **Inserir no prompt** ou a que você monta quando ela informa os IDs, antes dos testes. Sem terminal, use a lista do fim de `assets/modelo-prompt.md`.
-4. Entregue o prompt em bloco de código e a tabela "o que falta preencher e onde achar". Para o ID do Setor, que não tem tela documentada, o caminho é a janela **Comandos da IA** (`references/configuracao-painel.md`, etapa 5).
+3. Confira com `python3 scripts/conferir_prompt.py arquivo.txt` (modo rascunho: marcador é pendência e não reprova). Ordem única: os marcadores de dados do negócio são preenchidos antes de colar; o prompt pode ir ao painel levando só os marcadores de comando, que se trocam lá, pela janela **COMANDOS DA IA**; o `--final` roda na versão definitiva, que é a que a pessoa devolve depois do **INSERIR NO PROMPT**, antes dos testes. Sem terminal, use a lista do fim de `assets/modelo-prompt.md`.
+4. Entregue o prompt em bloco de código e a tabela "o que falta preencher e onde achar". Cada comando entra pela janela **COMANDOS DA IA**, que escolhe o Setor, o operador ou a tag pelo nome e escreve os ids (`references/configuracao-painel.md`, etapa 5).
 5. Dê o passo a passo do painel seguindo `references/configuracao-painel.md`, etapas 1 a 7: um passo por linha, caminho de menu em negrito, valor de cada campo, pulando o que a pessoa já fez. Apontar a Conexão para o Setor da IA (etapa 9) fica para depois dos testes; a entrega diz isso em uma linha: "O último passo, fazer os clientes chegarem à IA pela Conexão, fica para depois dos testes."
-6. Feche com limites e custos em três ou quatro linhas (seção "Limites e custos" do mesmo arquivo) e com o convite: "Quando o prompt estiver no painel, com os IDs inseridos, cole aqui o texto final: eu confiro e mando o roteiro de testes."
+6. Feche com limites e custos em três ou quatro linhas (seção "Limites e custos" do mesmo arquivo) e com o convite: "Quando o prompt estiver no painel, com os comandos inseridos, cole aqui o texto final: eu confiro e mando o roteiro de testes."
 
 Tamanho: fora o bloco do prompt, a resposta fica em cerca de quarenta linhas. Para caber, corte nesta ordem: as etapas que a pessoa já fez; os porquês de cada campo (fica só o valor); os itens opcionais (voz, grupo); a tabela de diagnóstico, que só entra quando algo falha; e, por último, reduza as fontes aos três ou quatro artigos principais.
 
@@ -103,15 +103,17 @@ Respostas curtas, com base no artigo e nas atualizações que o citam.
 
 | Recurso | O que é | Onde fica | Artigo |
 |---|---|---|---|
-| Transcrever Áudios | Transforma em texto uma mensagem de áudio. | Na mensagem de áudio, seta superior direita › **Transcrever Áudio**. | `references/docs/recursos/transcrever-audios.md` |
-| Análise de Atendimento | Avalia um atendimento: objeções, pontos de melhoria, sentimento geral e KPIs. O resultado é visível só na plataforma. | No chat, ações do Ticket › **Analisar Atendimento com IA**. | `references/docs/recursos/analise-de-atendimento.md` |
-| Avaliação pela IA | Dá nota de 0 a 10 aos atendimentos encerrados, gera relatório para a gestão e aulas para cada atendente. Nada vai ao cliente. Depende do plano. | Liga em **Configurações › Opções** (só administrador); resultados no menu **Avaliação pela IA**, que também aparece para Supervisor e Atendente. | `references/docs/recursos/avaliacao-pela-ia.md` |
-| Copiloto de mensagens | Botão que sugere a próxima resposta ou melhora o texto digitado; nunca envia sozinho. Depende do plano e consome créditos de IA. | Na conversa, botão ✨ ao lado do **+**. | `references/docs/outros/copiloto-de-mensagens.md` |
-| Sugestão de resposta IA | Tela que governa o Copiloto: instruções das duas funções, **Modelo**, **Mensagens de contexto** (1 a 50) e **Extrato de tokens**. | Menu **Sugestão de resposta IA** (só administrador). | `references/docs/outros/sugestao-de-resposta-ia.md` |
-| GPT Assistant em Grupos | O assistente responde em um grupo quando chamado por um gatilho que começa com `!`. | Campo **Gatilho para Grupo** do prompt e **Editar Contato do Grupo**. | `references/docs/recursos/gpt-assistant-em-grupos.md` |
+| Transcrever Áudios | Transforma em texto o áudio do cliente: sozinha, no Setor com a transcrição ligada (com prompt no Setor, a IA responde ao que foi falado), ou quando alguém pede. | Setor › **Ativar Transcrição de Áudio**; na mensagem de áudio, seta superior direita › **Transcrever Áudio**. | `references/docs/recursos/transcrever-audios.md` |
+| Análise de Atendimento | Avalia um atendimento (objeções, pontos de melhoria, sentimento geral e KPIs) ou resume um período da conversa. Chega como nota interna; o cliente não recebe nada. | No topo da conversa, **Analisar Atendimento com IA** ou **Resumo do período** (agrupados, no botão **Mais**); instrução da análise no menu **GPT Análises**. | `references/docs/recursos/analise-de-atendimento.md` |
+| Avaliação pela IA | Dá nota de 0 a 10 aos atendimentos encerrados, em rodadas, gera relatório para a gestão e aulas para cada atendente. Nada vai ao cliente. Depende do plano. | Liga em **Configurações › Opções › Automação**, seção **Avaliações** (só administrador); resultados no menu **Avaliação pela IA**: Administrador e Supervisor veem a equipe, o Atendente só **Minhas aulas**. | `references/docs/recursos/avaliacao-pela-ia.md` e os artigos abaixo dele no índice |
+| Copiloto de mensagens | Botão que sugere a próxima resposta ou melhora o texto digitado; nunca envia sozinho. Depende do plano e consome créditos de IA. | Na conversa, botão ✨ ao lado do **+**. | `references/docs/recursos/copiloto-de-mensagens.md` |
+| Sugestão de resposta IA | Tela que governa o Copiloto: instruções das duas funções, **Modelo**, **Mensagens de contexto** (1 a 50) e **Extrato de tokens**. | Menu **Sugestão de resposta IA** (só administrador). | `references/docs/recursos/sugestao-de-resposta-ia.md` |
+| Base de Conhecimento | Material que o prompt consulta antes de responder (horários, políticas, preços, perguntas frequentes), em itens digitados ou lidos de arquivo .pdf, .docx, .txt, .md ou .csv. | **Prompts OPEN.AI › BASE DE CONHECIMENTO**; ligada no campo **Base de conhecimento** do prompt. | `references/docs/recursos/base-de-conhecimento-do-gpt-assistant.md` |
+| GPT Assistant em Grupos | O assistente responde em um grupo de WhatsApp; com gatilho, só às mensagens que começam com ele. | Campo **Gatilho para Acionar em Grupos** do prompt; prompt do grupo em **Contatos** › editar o grupo › **Prompt OPEN.AI (ChatGPT)**. | `references/docs/recursos/gpt-assistant-em-grupos.md` |
 | Token OpenAI | A chave que alimenta os recursos de IA; o consumo é cobrado na conta dona dela. | Menu **Integrações**, card **OPEN.AI**. | `references/docs/recursos/token-openai.md` |
-| Assistente de IA (menu) | Responde a perguntas da equipe sobre atendimentos, contatos, oportunidades e tarefas. Só consulta. | Menu **Assistente de IA**. | `references/docs/recursos/atualizacoes-2026-11-11.md` |
-| IA nas gravações das chamadas | Transcreve, legenda e analisa as gravações das chamadas. Usa o **Token OpenAI**. | Liga em **Configurações › Opções**, opção **IA nas gravações das chamadas**; resultado na página **Gravações**. | `references/docs/recursos/gravacoes-das-chamadas.md` |
+| Provedor de IA | Escolhe o serviço de IA que responde os prompts de chat (**OpenAI**, **Groq**, **DeepSeek**, **Mistral**, **xAI (Grok)**, **OpenRouter** ou **Local (Ollama / vLLM)**). Fora da OpenAI, **Modelo** e **Chave de API do provedor** são obrigatórios. | Menu **Integrações**, card **Provedor de IA**. | `references/docs/recursos/provedor-de-ia.md` |
+| Assistente de IA (menu) | Responde a perguntas da equipe sobre atendimentos, contatos, tarefas, oportunidades do CRM, reservas e produtos em falta, cada perfil só com o que já acessa. Só consulta. | Menu **Assistente de IA**. | `references/docs/recursos/assistente-de-ia.md` |
+| IA nas gravações das chamadas | Transcreve, legenda e analisa as gravações das chamadas. Usa o **Token OpenAI**. | Liga em **Configurações › Opções › Chamadas**, opção **IA nas gravações das chamadas**; resultado na página **Gravações**. | `references/docs/recursos/gravacoes-das-chamadas.md` |
 
 Se pedirem para "dar a cara da empresa" ao Copiloto, escreva os dois textos da tela **Sugestão de resposta IA** (**Instruções para sugerir a resposta** e **Instruções para melhorar o texto**) com o tom e os limites da empresa. Mantenha a regra de não inventar preço, prazo, endereço ou política: o artigo avisa que é ela que impede a IA de prometer o que a empresa não cumpre. Lembre a pessoa de clicar em **SALVAR**.
 
@@ -121,13 +123,13 @@ Cada uma está explicada por inteiro em um só lugar; aqui fica o lembrete.
 
 - **Forma do código e aspas curvas; turno da tag:** `references/comandos-e-capacidades.md`, seção 3.
 - **Agente OpenAI desligado:** seção 1 do mesmo arquivo.
-- **Janela Comandos da IA, comando de agenda e ID do Setor:** seções 4 e 5; roteiro em `references/configuracao-painel.md`, etapa 5.
-- **Quando a IA atua, dois Setores, dois motores no mesmo Setor, primeira mensagem:** seção 6.
+- **Janela COMANDOS DA IA, comando de agenda e ID do Setor:** seções 4 e 5; roteiro em `references/configuracao-painel.md`, etapa 5.
+- **Quando a IA atua, Setor de transbordo sem prompt, dois motores no mesmo Setor, primeira mensagem:** seção 6.
 - **Transbordo e comando de transferir ao mesmo tempo:** seção 7.
-- **Nomes que mudaram.** O campo **GPT Model** virou **Modelo da IA**; o menu aparece como "Prompts Open.Ai" em um artigo e **Prompts OPEN.AI** nos outros. Cite os dois nomes para a pessoa reconhecer o que vê.
+- **Nomes que mudaram.** O campo **GPT Model** virou **Modelo da IA** (a imagem do artigo Tipo Prompt ainda mostra o nome antigo); o gatilho de grupo agora se chama **Gatilho para Acionar em Grupos**, e o exemplo da tela é `#meubot`. Cite os dois nomes para a pessoa reconhecer o que vê.
 - **Nomes parecidos.** GPT Assistant (atende o cliente), **Assistente de IA** (menu de consultas da equipe), Análise de Atendimento (um atendimento, sob demanda), Avaliação pela IA (rodadas automáticas com nota) e a pesquisa de avaliação respondida pelo cliente são cinco coisas diferentes.
-- **Créditos do Copiloto e conta da OpenAI.** O saldo de créditos é da plataforma; mesmo com **ILIMITADO**, o consumo continua cobrado na conta da OpenAI (`references/docs/outros/copiloto-de-mensagens.md`).
-- **Avaliação pela IA mudou depois do artigo.** As atualizações de 07/11 e 11/11/2026 trazem o que há de novo (abas **Hoje** e **Evolução**, processo ideal de atendimento, rodar só quando ligada).
+- **Créditos do Copiloto e conta da OpenAI.** O saldo de créditos é da plataforma; mesmo com **ILIMITADO**, o consumo continua cobrado na conta da OpenAI (`references/docs/recursos/copiloto-de-mensagens.md`).
+- **Avaliação pela IA tem artigos próprios.** Ligar, rodadas, processos, alertas, permissões, webhook, relatório, evolução e vendas perdidas estão nos artigos abaixo de "Avaliação pela IA" no índice; as atualizações de 12/11 a 19/11/2026 trazem os ajustes recentes.
 - **Token escondido.** Desde 10/11/2026 o token aparece escondido no card **OPEN.AI**, com o olho **Mostrar a chave**.
 
 ## Limites com as skills vizinhas
@@ -145,13 +147,13 @@ Quando o pedido mistura os dois lados ("quero um fluxo com menu e IA no final"),
 ## Exemplos de pedido e entrega
 
 **"oi, tenho uma clínica de estética e queria colocar o chatgpt pra responder o whatsapp, tirar dúvida de preço e já deixar a avaliação agendada. como faço?"**
-Etapa 1. Resposta de umas vinte linhas: dá para fazer; os três pré-requisitos; seis perguntas (nome e serviços, o que pode informar e quais preços, o que não pode dizer, quando passar para uma pessoa e para qual equipe, que dados a recepção precisa para a avaliação e quem confirma o horário, o que já está pronto); a frase sobre agendamento (a IA anota a preferência e a equipe confirma); a oferta do rascunho.
+Etapa 1. Resposta de umas vinte linhas: dá para fazer; os três pré-requisitos; seis perguntas (nome e serviços, o que pode informar e quais preços, o que não pode dizer, quando passar para uma pessoa e para qual equipe, que dados a recepção precisa para a avaliação e quem confirma o horário, o que já está pronto); a frase sobre agendamento (a IA anota a preferência e a equipe confirma, ou marca pelo comando de agenda); a oferta do rascunho.
 
 **A mesma pessoa responde às perguntas.**
-Etapa 2: "o que entendi", prompt com a variante A de agendamento e um só comando, o de transferir para a recepção (o objetivo não pede tag), tabela do que falta (o ID do Setor da recepção), passo a passo do painel até a saudação do Setor, a linha sobre a Conexão ficar para depois dos testes, limites e custos, e o convite para o roteiro de testes.
+Etapa 2: "o que entendi", prompt com a variante A de agendamento e um só comando, o de transferir para a recepção (o objetivo não pede tag), tabela do que falta (o comando a inserir pela janela **COMANDOS DA IA**), passo a passo do painel até a saudação do Setor, a linha sobre a Conexão ficar para depois dos testes, limites e custos, e o convite para o roteiro de testes.
 
 **"Minha IA não transfere pro atendente quando o cliente pede."**
-Peça o prompt e os campos de **Transbordo**. Confira o código contra a forma do artigo, a regra de manter o código, o Setor de destino e se há atendentes nele. Devolva o trecho corrigido, o que conferir no painel e os cenários de pedido de humano para repetir três vezes.
+Peça o prompt e os campos de **Transbordo**. Confira se a instrução do comando está no fim do campo **Prompt** e foi salva, o texto de **Quando a IA deve fazer isso**, o código contra a forma do artigo, o Setor de destino e se há atendentes nele. Devolva o trecho corrigido, o que conferir no painel e os cenários de pedido de humano para repetir três vezes.
 
 **"O que é esse Avaliação pela IA que apareceu no menu?"**
-Resposta curta com base no artigo e nas atualizações de 07/11 e 11/11/2026: o que faz, quem vê o quê, onde liga, que depende do plano e que nada vai ao cliente. Link da Fonte no fim.
+Resposta curta com base no artigo principal, em Permissões Avaliação pela IA e em Como Ligar a Avaliação pela IA: o que faz, quem vê o quê, onde liga, que depende do plano e que nada vai ao cliente. Link da Fonte no fim.

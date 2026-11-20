@@ -74,6 +74,8 @@ No desenho, o bloco mostra cada botão com o texto, o valor e o tipo, e tem **um
 
 ⚠️ No **WhatsApp QRCode**, os botões precisam do recurso de botões liberado no plano.
 
+No **WebChat**, os botões de **Quick Reply** chegam clicáveis no chat do site, e o fluxo segue na hora em que o visitante toca. Só a última mensagem com opções aceita o toque: os botões das mensagens anteriores ficam desativados, e o toque num deles é recusado.
+
 > **[DUVIDAS]**
 >
 > #### Dúvidas Comuns

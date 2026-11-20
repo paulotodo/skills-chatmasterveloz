@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/armazenamento-remoto-de-arquivos
 - **Categoria:** Recursos
-- **Menu:** Configurações › Opções em Configurações › Armazenamento Remoto de Arquivos
+- **Menu:** Configurações › Integrações e segurança em Configurações › Armazenamento Remoto de Arquivos
 
 ---
 
@@ -16,7 +16,7 @@
 >
 > ➡️ Crie o **bucket** e gere as **chaves de acesso** no provedor.
 >
-> ➡️ Acesse o menu **Configurações  ›  Opções**, localize **Armazenamento Remoto de Arquivos** e preencha os campos.
+> ➡️ Acesse o menu **Configurações  ›  Opções  ›  Integrações e segurança**, seção **Armazenamento Remoto de Arquivos**, e preencha os campos.
 
 ## Provedores compatíveis
 
@@ -39,6 +39,8 @@
 ## Os campos, na ordem da tela
 
 ![Campos do Armazenamento Remoto de Arquivos na plataforma](https://clihelper.chatmasterveloz.com/docs-imagem/ed-6ab17c4666160.png)
+
+Acima dos campos, a tela explica: *"Opcional. Preenchido, os arquivos das conexões (fotos, áudios e documentos das conversas) e os anexos de e-mail desta empresa vão para este bucket — Cloudflare R2, MinIO/S3 compatível ou AWS S3. Em branco, ficam no armazenamento da plataforma. Trocar não copia os arquivos já guardados: preencha antes de começar a usar."*
 
 🔘 **R2 URL:** o endereço do bucket quando o provedor é a Cloudflare.
 

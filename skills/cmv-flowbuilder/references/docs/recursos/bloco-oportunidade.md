@@ -42,6 +42,8 @@ Ideal para:
 
 🔘 **Origem da venda:** de onde veio o negócio, entre as origens cadastradas no menu **CRM  ›  Cadastros do CRM**. O campo aparece quando há origem cadastrada.
 
+🔘 **Unidades responsáveis:** as unidades da empresa que respondem pela venda, cadastradas no menu **CRM  ›  Minha evolução**, no ícone **Unidades e equipes**. Dá para marcar várias; **Selecionar todas** marca todas e vira **Limpar** quando todas estão marcadas.
+
 🔘 **Mensagem da Oportunidade:** opcional. O texto vai para o campo **Informações adicionais** da oportunidade.
 
 No desenho do fluxo, o bloco mostra o operador, a etapa, a origem e o começo da mensagem. Ele tem uma saída: o fluxo continua depois dele.
@@ -51,6 +53,8 @@ No desenho do fluxo, o bloco mostra o operador, a etapa, a origem e o começo da
 🔘 Nasce uma oportunidade para o **contato da conversa**, ligada a ela — no Board, o card ganha o botão **Abrir conversa**.
 
 🔘 O **Operador** fica como responsável pela oportunidade. **A conversa não vai para ele:** o atendimento continua onde estava, no mesmo setor e com o mesmo atendente, ou sem nenhum.
+
+🔘 A oportunidade nasce com as **Unidades responsáveis** marcadas no bloco. Com mais de uma, a venda conta em cada unidade do jeito escolhido no menu **Configurações  ›  Opções  ›  Vendas**, seção **CRM**, em **Venda em várias unidades conta**.
 
 🔘 A oportunidade nasce sem nome próprio. No Board, o card mostra o nome do contato.
 

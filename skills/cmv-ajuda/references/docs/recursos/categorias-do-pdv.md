@@ -34,7 +34,7 @@ A janela **Categorias de produto** lista as categorias na ordem do **Balcão** e
 
 🔘 **Ativa:** desligada, a categoria some do **Balcão** e do fluxo, e os produtos dela continuam no cadastro.
 
-🔘 **Editar categoria:** abre a janela **Editar categoria**, com o **Nome**, a cor, a **Categoria de cima** e **Salvar**.
+🔘 **Editar categoria:** abre a janela **Editar categoria**, com o **Nome**, a cor, a **Categoria de cima**, o **Setor de produção**, a imagem da categoria e **Salvar**.
 
 🔘 **Apagar:** a janela pergunta *"Apagar Bebidas?"* e avisa que os produtos da categoria ficam sem categoria e continuam no cadastro. Categoria com subcategoria não é apagada: a janela mostra *"Apague ou mova as subcategorias antes de apagar esta categoria."* e o botão **Apagar** fica desativado.
 
@@ -52,6 +52,14 @@ Os produtos vão junto com a subcategoria: no **Balcão**, eles passam a aparece
 
 ⚠️ A categoria que tem subcategorias continua principal: o campo **Categoria de cima** fica desativado, com o aviso *"Esta categoria tem subcategorias, por isso continua como categoria principal."*
 
+## A imagem e o setor de produção da categoria
+
+O **Editar categoria** tem mais dois campos:
+
+🔘 **Imagem:** **Escolher imagem** põe a foto da categoria, com a ajuda *"JPG, PNG ou WEBP, até 1,5 MB. Aparece no Cardápio e na Loja, ao lado do nome da categoria."* Imagem maior é recusada com *"A imagem passa de 1,5 MB. Escolha uma menor."*. **Tirar imagem**, depois de **Salvar**, deixa a categoria sem imagem. No **Balcão**, os botões de categoria continuam sem a imagem.
+
+🔘 **Setor de produção:** quem prepara os produtos da categoria, como *Cozinha* ou *Bar*, entre **Nenhum setor** e os setores criados no botão **Setores**, em **Produtos**. A lista de categorias mostra o setor ao lado do nome, e a subcategoria segue o setor da categoria de cima.
+
 ## Como pôr o produto numa categoria
 
 No cadastro do produto, no menu **PDV  ›  Produtos**, o campo **Categoria** lista as categorias e as subcategorias.
@@ -63,6 +71,8 @@ Na lista de **Produtos**, cada produto mostra a categoria na cor dela, com o cam
 ➡️ **Balcão:** os botões de categoria ficam acima da venda. Tocar numa categoria mostra os produtos dela, com **Todos de** e as subcategorias para filtrar, e tocar no produto põe o item na venda.
 
 ➡️ **Pedido pelo fluxo:** o bloco de pedido do fluxo pode oferecer a categoria inteira, e o cliente escolhe primeiro a categoria e depois o produto.
+
+➡️ **Painel de Pedidos:** com setores de produção, a tela de cada setor mostra só os itens das categorias daquele setor.
 
 ➡️ **Relatório do PDV:** a tabela **Por categoria** mostra a quantidade, o total e a participação de cada categoria nas vendas.
 
@@ -87,3 +97,5 @@ Na lista de **Produtos**, cada produto mostra a categoria na cor dela, com o cam
 > **O botão Apagar fica desativado ao apagar uma categoria do PDV. Por quê?** A categoria tem subcategoria. Mova cada subcategoria para outra categoria, ou deixe-a como categoria principal, pelo campo **Categoria de cima** do **Editar categoria**, ou apague as subcategorias. Depois apague a categoria.
 >
 > **Apaguei uma categoria do PDV. O que acontece com os produtos?** Os produtos ficam sem categoria e continuam no cadastro.
+>
+> **Para que serve o Setor de produção no Editar categoria?** Ele diz quem prepara os produtos daquela categoria, como a cozinha ou o bar. Com o setor escolhido, a tela daquele setor no **Painel de Pedidos** mostra só os itens dele. Os setores são criados no botão **Setores**, no menu **PDV  ›  Produtos**.

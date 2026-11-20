@@ -37,6 +37,12 @@ Bearer {seutokenaqui}
     "priority": "high",
     "assignedTo": 4,
     "dueDate": "2028-12-30T23:59:59.000Z",
+    "startTime": "14:00",
+    "endTime": "14:30",
+    "reminderMinutes": 30,
+    "tipo": "ligacao",
+    "sharedWith": [],
+    "isRecurring": false,
     "checklist": [
         {
             "texto": "Ligar para o cliente",
@@ -61,6 +67,24 @@ Bearer {seutokenaqui}
 
 ➡️ **“dueDate”:** prazo, no formato ISO 8601 — `AAAA-MM-DDTHH:mm:ss.sssZ`. Mande `null` para tirar o prazo.
 
+➡️ **“startTime”:** horário de início, `HH:MM`, no fuso da empresa. Vazio ou `null`: a tarefa fica sem horário.
+
+➡️ **“endTime”:** horário de fim, no mesmo formato. Não pode vir antes do início.
+
+➡️ **“reminderMinutes”:** o lembrete, em minutos antes: `5`, `15`, `30`, `60`, `120` ou `1440` — as opções da janela **Editar Tarefa**. Vazio, `null` ou `0`: sem lembrete.
+
+➡️ **“tipo”:** `lembrete`, `reuniao`, `ligacao`, `email`, `visita` ou `tarefa`. Vazio: sem tipo.
+
+➡️ **“sala”:** só na reunião — `nossa` (a sala de vídeo da plataforma), `meet` (o Google Meet, pela agenda) ou `nenhuma`.
+
+➡️ **“sharedWith”:** a lista inteira de atendentes com quem a tarefa é compartilhada. **Substitui a anterior** — `[]` tira todos.
+
+➡️ **“isRecurring”:** `false` para a tarefa deixar de se repetir. Com `true`, o `recurringPattern` é obrigatório.
+
+➡️ **“recurringPattern”:** `daily`, `weekly`, `monthly` ou `yearly`.
+
+➡️ **“recurringOptions”:** só no semanal — os dias em `daysOfWeek`, de `0` (domingo) a `6` (sábado).
+
 ➡️ **“status”:** `pending` para a tarefa em aberto, `completed` para concluída.
 
 ➡️ **“ticketId”:** ID do atendimento vinculado. Mande `0` ou `null` para desvincular.
@@ -71,13 +95,15 @@ Bearer {seutokenaqui}
 
 ◽ `[]` tira todos os itens. Sem o campo `checklist`, a lista fica como está.
 
+➡️ **“sincronizarAgenda”:** fora do exemplo. `true` põe a tarefa na agenda do Google do responsável, como a opção da janela; `false` tira.
+
 ◽ Os campos que você não enviar ficam como estão.
 
 ◽ Quando a tarefa está sincronizada com a agenda do Google, o evento de lá acompanha a mudança.
 
 ◽ A resposta traz a tarefa com quem criou, o responsável e o atendimento vinculado.
 
-◽ Tarefa que não existe, ou de outra empresa, responde **erro de servidor** — e não "não encontrada". É assim mesmo: não é sinal de que a plataforma está com problema.
+◽ Tarefa que não existe, ou de outra empresa, responde **não encontrada**. Valor que um campo não aceita é recusado, e a resposta diz qual campo corrigir.
 
 #### Utilize o código em requisições HTTPS com ferramentas como cURL ou bibliotecas de integração.
 
@@ -101,6 +127,12 @@ curl_setopt_array($curl, array(
     "priority": "high",
     "assignedTo": 4,
     "dueDate": "2028-12-30T23:59:59.000Z",
+    "startTime": "14:00",
+    "endTime": "14:30",
+    "reminderMinutes": 30,
+    "tipo": "ligacao",
+    "sharedWith": [],
+    "isRecurring": false,
     "checklist": [
         {
             "texto": "Ligar para o cliente",
@@ -126,5 +158,5 @@ echo $response;
 cURL:
 
 ```bash
-curl -X PUT 'https://api2.chatmasterveloz.com/api/tasks/{tarefaId}' -H 'Authorization: Bearer {seutokenaqui}' -H 'Content-Type: application/json' --data '{"title":"Retornar ligação do cliente","description":"Cliente pediu retorno à tarde","priority":"high","assignedTo":4,"dueDate":"2028-12-30T23:59:59.000Z","checklist":[{"texto":"Ligar para o cliente","feito":true},{"texto":"Registrar o retorno"}]}'
+curl -X PUT 'https://api2.chatmasterveloz.com/api/tasks/{tarefaId}' -H 'Authorization: Bearer {seutokenaqui}' -H 'Content-Type: application/json' --data '{"title":"Retornar ligação do cliente","description":"Cliente pediu retorno à tarde","priority":"high","assignedTo":4,"dueDate":"2028-12-30T23:59:59.000Z","startTime":"14:00","endTime":"14:30","reminderMinutes":30,"tipo":"ligacao","sharedWith":[],"isRecurring":false,"checklist":[{"texto":"Ligar para o cliente","feito":true},{"texto":"Registrar o retorno"}]}'
 ```

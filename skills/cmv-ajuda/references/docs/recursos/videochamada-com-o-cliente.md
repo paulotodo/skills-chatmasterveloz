@@ -28,7 +28,7 @@ A videochamada fica ligada ao atendimento em que começou. Quando a empresa grav
 
 Acesse o menu **Chats** e abra a conversa com o cliente.
 
-🔘 **Videochamada com o cliente:** fica entre os botões do topo da conversa; o nome aparece ao passar o mouse. O botão aparece para o atendente do atendimento e para administradores e supervisores, e só com o atendimento aberto. Depende também do plano da sua empresa. Ao clicar, você já entra na chamada e a janela mostra *"1 na chamada"*.
+🔘 **Videochamada com o cliente:** fica entre os botões do topo da conversa; o nome aparece ao passar o mouse. Com as **Ações do topo do ticket** em **Agrupadas** (no menu **Configurações  ›  Opções  ›  Atendimento**), a **Videochamada com o cliente** fica no botão **Mais**, no grupo **COMUNICAÇÃO**; com **Todas à mostra**, quando não cabe no topo, fica no ⋯ **Mais ações**. O botão aparece para o atendente do atendimento e para administradores e supervisores, e só com o atendimento aberto. Depende também do plano da sua empresa. Ao clicar, você já entra na chamada e a janela mostra *"1 na chamada"*.
 
 🔘 **Enviar o link ao cliente:** na janela da chamada, envia ao cliente, pela própria Conexão do atendimento, a mensagem *"Para entrar na videochamada com a nossa equipe, toque no link:"* com o link de entrada. A tela confirma com o aviso *"Link da videochamada enviado ao cliente"*.
 
@@ -132,7 +132,7 @@ A videochamada também pode ser marcada para um dia e uma hora, numa tarefa. Ace
 
 🔘 **Fundo da câmera:** cada pessoa na chamada escolhe o que aparece atrás dela — **Sem fundo**, **Desfocar de leve**, **Desfocar bem**, uma das **Imagens da empresa** ou **Sua imagem**, escolhida do computador. Nas palavras da tela: *"Sua imagem fica só neste navegador. Quem está na chamada vê o fundo, nunca o arquivo."*
 
-🔘 **Imagens da empresa:** o administrador cadastra até 20 no menu **Configurações  ›  Opções**, em **Imagens de fundo das chamadas**.
+🔘 **Imagens da empresa:** o administrador cadastra até 20 no menu **Configurações  ›  Opções  ›  Chamadas**, em **Imagens de fundo das chamadas**.
 
 ⚠️ Se o navegador não consegue trocar o fundo, a câmera segue sem fundo.
 
@@ -146,7 +146,7 @@ A videochamada também pode ser marcada para um dia e uma hora, numa tarefa. Ace
 
 ## Gravação, transcrição e legenda
 
-Se a videochamada é gravada, quem decide é a empresa, na opção **Gravação das videochamadas com o cliente** do menu **Configurações  ›  Opções**: gravar sempre, gravar pelo botão ou não gravar.
+Se a videochamada é gravada, quem decide é a empresa, na opção **Gravação das videochamadas com o cliente** do menu **Configurações  ›  Opções  ›  Chamadas**: gravar sempre, gravar pelo botão ou não gravar.
 
 🔘 **Gravar a chamada:** aparece na janela da chamada quando a empresa deixa a gravação pelo botão. Enquanto grava, a equipe vê **Gravando**, e **Parar a gravação** encerra.
 
@@ -158,13 +158,13 @@ Se a videochamada é gravada, quem decide é a empresa, na opção **Gravação 
 
 🔘 **Legenda:** o vídeo da gravação ganha **Legenda**, que aparece ao assistir pela página **Gravações**.
 
-⚠️ A IA das gravações usa o **Token OpenAI** da empresa, cadastrado no menu **Integrações**. Sem ele, a gravação continua pronta para assistir e baixar, mas não é transcrita.
+⚠️ A IA das gravações usa o **Token OpenAI** da empresa, cadastrado no menu **Integrações**, ou a chave de IA que a conta já tem configurada — nesse caso, o card **OPEN.AI** avisa. Sem chave, a gravação continua pronta para assistir e baixar, mas não é transcrita.
 
 > **[DUVIDAS]**
 >
 > #### Dúvidas Comuns
 >
-> **O botão Videochamada com o cliente não aparece no atendimento.** Confira três coisas: o atendimento está aberto, porque encerrado não tem videochamada; você é o atendente dele, ou administrador ou supervisor; e a videochamada faz parte do plano da sua empresa. Para um contato com o atendimento encerrado, use o botão **Videochamada** na lista do menu **Contatos**, que abre o atendimento e envia o convite.
+> **O botão Videochamada com o cliente não aparece no atendimento.** Confira três coisas: o atendimento está aberto, porque encerrado não tem videochamada; você é o atendente dele, ou administrador ou supervisor; e a videochamada faz parte do plano da sua empresa. Com as **Ações do topo do ticket** em **Agrupadas**, o botão fica dentro do **Mais**, no grupo **COMUNICAÇÃO**. Para um contato com o atendimento encerrado, use o botão **Videochamada** na lista do menu **Contatos**, que abre o atendimento e envia o convite.
 >
 > **Dá para começar a videochamada sem abrir a conversa do cliente?** Sim. No menu **Contatos**, o botão **Videochamada** da linha do contato abre uma janela para você escolher a **Conexão** e o **Setor**; ao salvar, o atendimento é aberto, o cliente recebe o link e você entra na chamada.
 >
@@ -188,7 +188,7 @@ Se a videochamada é gravada, quem decide é a empresa, na opção **Gravação 
 >
 > **O cliente vê a gravação da videochamada?** Não. Pela própria tela, a gravação entra na conversa como vídeo só para a equipe, e a transcrição e a análise entram como nota interna. Durante a chamada, todos veem o aviso de que ela está sendo gravada.
 >
-> **A transcrição da videochamada não apareceu na conversa.** Confira com o administrador duas coisas: a opção **IA nas gravações das chamadas**, no menu **Configurações  ›  Opções**, e o **Token OpenAI**, no menu **Integrações**. É essa chave que a IA das gravações usa. Com a opção em **Somente a análise**, é o esperado: a conversa recebe só a **Análise da videochamada**.
+> **A transcrição da videochamada não apareceu na conversa.** Confira com o administrador duas coisas: a opção **IA nas gravações das chamadas**, no menu **Configurações  ›  Opções  ›  Chamadas**, e o **Token OpenAI**, no menu **Integrações**. É essa chave que a IA das gravações usa, ou a chave de IA que a conta já tem configurada — nesse caso, o card **OPEN.AI** avisa. Com a opção em **Somente a análise**, é o esperado: a conversa recebe só a **Análise da videochamada**.
 >
 > **Dá para usar maquiagem na videochamada com o cliente?** Dá. No botão **Efeitos** da chamada, escolha a **Maquiagem**: batom, blush, sombra, delineado ou retoque de pele, com a cor e a intensidade. Quem está na chamada e a gravação veem o vídeo já maquiado.
 >

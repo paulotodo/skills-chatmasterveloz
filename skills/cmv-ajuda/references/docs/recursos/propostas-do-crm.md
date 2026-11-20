@@ -20,7 +20,7 @@
 
 ## Vídeo Tutorial
 
-[Vídeo Voomly — id Q1fbxuE8H3jkB3YVDiVowu10agJTfFo2yQ4UClT1IPaYVhV3H, tipo v]  
+[Vídeo Voomly — id pxdHXd3CWD2K21VH0IBp7trFCUhMJ3Dy8xItJGoECvDyShVUa, tipo v]  
 
 ## A lista
 

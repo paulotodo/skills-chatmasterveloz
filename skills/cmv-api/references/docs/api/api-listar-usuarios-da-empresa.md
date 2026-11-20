@@ -36,6 +36,20 @@ Bearer {seutokenaqui}
 
 ➡️ Esta chamada não tem payload.
 
+◽ Cada usuário da resposta traz o campo `expediente`, com o horário de trabalho que vale para ele:
+
+◽ `origem` — de onde vem o horário: `usuario` (o horário próprio, do cadastro do usuário), `empresa` (o **Horário padrão para todos os usuários**, no menu **Configurações  ›  Opções  ›  Geral**, seção **Gerenciamento de Expediente**) ou `null` (sem horário: o acesso não tem restrição).
+
+◽ `dias` — os sete dias da semana, cada um com os intervalos de trabalho (`inicio` e `fim`). Dia sem restrição vem com `livre: true`.
+
+◽ `dentroAgora` — `true` quando o usuário está dentro do expediente neste momento.
+
+◽ `statusAutomatico` — `true` com a opção **Status automático pelo expediente** ligada, na mesma seção.
+
+◽ `fuso` — o fuso horário em que os horários valem.
+
+◽ Com o **Horário padrão para todos os usuários** ligado, todo usuário sem horário próprio vem com `origem: empresa` — inclusive administradores e supervisores.
+
 #### Utilize o código em requisições HTTPS com ferramentas como cURL ou bibliotecas de integração.
 
 ```php

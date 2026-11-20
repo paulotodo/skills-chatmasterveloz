@@ -6,7 +6,7 @@
 
 ---
 
-🧩 Envia uma **mensagem de texto** que aparece apenas na página do Modo Alternativo (chat externo por link), sem sair pelo canal.
+🧩 Envia uma **mensagem de texto** que aparece apenas na página do Modo Alternativo (chat externo por link), sem ser enviada pelo canal.
 
 **API:** Oficial
 
@@ -45,9 +45,11 @@ Bearer {seutokenaqui}
 
 ⚠️ **A conexão do atendimento precisa estar em Modo Alternativo ou ser de Chat Externo.** Fora disso a chamada é recusada, porque a mensagem não teria como chegar ao cliente.
 
-◽ A mensagem aparece no painel do operador e na página do cliente, e **não sai** pelo WhatsApp.
+◽ A mensagem aparece no painel do operador e na página do cliente, e **não é enviada** pelo WhatsApp.
 
 ◽ Não conta para a janela de atendimento.
+
+➡️ **“assinaturaIa”:** opcional — acrescente ao corpo quando quem envia é a sua IA. Mande o nome da IA, com até 100 caracteres, ou `true`, que assina como **Assistente IA**. A mensagem fica marcada como enviada pela IA e aparece na conversa com o nome dela. Sem o campo, ou com `false`, o envio fica como sempre.
 
 #### Utilize o código em requisições HTTPS com ferramentas como cURL ou bibliotecas de integração.
 

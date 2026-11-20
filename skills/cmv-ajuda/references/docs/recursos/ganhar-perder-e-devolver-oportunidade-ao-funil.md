@@ -24,17 +24,17 @@ Ao arrastar para uma etapa de perda, a plataforma pergunta **Por que perdemos?**
 
 ## Ganhar uma oportunidade
 
-Venda é oportunidade ganha, contada na **data do fechamento** — o dia em que foi ganha. É assim que ela entra no relatório de vendas, no ranking e nas metas.
+Venda é oportunidade ganha, contada na **data do ganho** — o dia em que foi ganha. É assim que ela entra no relatório de vendas, no ranking e nas metas.
 
 Quando o funil exige auditoria, a venda ganha aparece no card como **🔍 Aguardando auditoria** e só conta depois de aprovada. Reprovada, ela volta para a etapa em que estava antes, com **⚠️ Reprovada na auditoria** e o motivo escrito no card.
 
 ## Corrigir a data do fechamento
 
-Lançou a venda no dia errado? Na oportunidade ganha ou perdida, o administrador vê o campo **Data do fechamento**. Nas palavras da tela: *"O dia do ganho ou da perda. Lançou no dia errado? Corrija aqui e a venda passa a contar no mês certo."* Escolha o dia certo e clique em **Salvar**.
+Lançou a venda no dia errado? Na aba **Dados Gerais** da oportunidade, o administrador vê o campo **Data do ganho**, na oportunidade ganha, ou **Data da perda**, na perdida. Na oportunidade em andamento, o campo não aparece. Nas palavras da tela: *"O dia do ganho ou da perda. Lançou no dia errado? Corrija aqui e a venda passa a contar no mês certo."* Escolha o dia certo e clique em **Salvar**.
 
 No Board, a venda passa para o mês da data nova, e o histórico da oportunidade registra *Data do fechamento alterada*, com a data antiga e a nova.
 
-Só o administrador corrige a **Data do fechamento**: para o supervisor, o campo aparece travado, com o aviso *"Só o administrador corrige a data do fechamento."*
+Só o administrador corrige a **Data do ganho** e a **Data da perda**: para o supervisor, o campo aparece travado, com o aviso *"Só o administrador corrige a data do fechamento."*
 
 ## O que trava depois
 
@@ -52,7 +52,7 @@ Só o administrador tira uma venda ganha ou perdida da etapa final e a devolve p
 >
 > **A venda ganha não aparece no ranking.** Se o funil exige auditoria, a venda só conta depois de aprovada. No card, ela aparece como **🔍 Aguardando auditoria** enquanto espera.
 >
-> **Lancei a venda ganha no dia errado. Como ela conta no mês certo?** Peça a um administrador para abrir a oportunidade e corrigir a **Data do fechamento**. No Board, a venda passa para o mês da data nova.
+> **Lancei a venda ganha no dia errado. Como ela conta no mês certo?** Peça a um administrador para abrir a oportunidade e corrigir a **Data do ganho**, na aba **Dados Gerais**. Na oportunidade perdida, o campo é a **Data da perda**. No Board, a venda passa para o mês da data nova.
 >
 > **Marquei Perdido dentro da oportunidade e abriu a janela Por que perdemos?. O que faço?** Escolha o **Motivo da perda** e clique em **Salvar**. A lista começa em **Não informar**, que também é aceito.
 >

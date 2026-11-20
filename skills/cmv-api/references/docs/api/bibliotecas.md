@@ -182,4 +182,4 @@
 
 ◽ Três chamadas de template saem pelo **Hub**, e não pela Conexão Oficial direta — o artigo de cada uma diz isso no selo.
 
-◽ O **Webchat** não é uma das três bibliotecas, e por isso não entra nestas tabelas: as duas chamadas dele têm artigo próprio, com o selo do Webchat.
+◽ Os canais que não são WhatsApp, como o **WebChat**, não são uma das três bibliotecas e por isso não entram nestas tabelas: cada chamada deles tem artigo próprio, com o selo do canal.

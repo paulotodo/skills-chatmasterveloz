@@ -52,7 +52,9 @@ Bearer {seutokenaqui}
 
 ➡️ **“body”:** URL do arquivo.
 
-◽ O Instagram aceita **PDF**. Outros documentos, como `.docx`, são recusados com **400** `ERR_IG_ANEXO_NAO_SUPORTADO`.
+◽ O Instagram aceita **PDF**. Outros documentos, como `.docx`, são recusados.
+
+➡️ **“assinaturaIa”:** opcional — acrescente ao corpo quando quem envia é a sua IA. Mande o nome da IA, com até 100 caracteres, ou `true`, que assina como **Assistente IA**. A mensagem fica marcada como enviada pela IA e aparece na conversa com o nome dela. Sem o campo, ou com `false`, o envio fica como sempre.
 
 #### Utilize o código em requisições HTTPS com ferramentas como cURL ou bibliotecas de integração.
 

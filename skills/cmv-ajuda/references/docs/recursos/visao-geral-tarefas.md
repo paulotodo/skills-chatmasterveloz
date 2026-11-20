@@ -18,6 +18,8 @@
 
 🔘 **Visualização:** alterne entre **Card**, **Lista** e **Calendário**.
 
+🔲 **AVISOS AO CLIENTE:** só para o administrador. Abre os textos das mensagens que o cliente recebe pelo WhatsApp quando a tarefa liga o aviso: ao ser criada e antes do horário.
+
 🔲 **EXCLUÍDAS:** abre **Tarefas excluídas**, com cada tarefa que foi excluída, quem excluiu e quando. É de lá que a tarefa é restaurada.
 
 🔲 **+ NOVA TAREFA:** botão para iniciar o cadastro de uma nova tarefa.
@@ -40,7 +42,7 @@
 
 **⚡ Filtros:** permite refinar o que é exibido na tela. São até seis filtros, lado a lado:
 
-**🔘 Status:** **Todas**, **Pendentes** ou **Concluídas**. A tela de **Tarefas** abre sempre em **Pendentes**, mesmo que da última vez você tenha escolhido outra opção. O **Status** não muda os números do **Dashboard**: com **Pendentes** escolhido, o topo continua mostrando o total, as concluídas e as pendentes de todas as tarefas.
+**🔘 Status:** **Todas**, **Pendentes**, **Atrasadas** ou **Concluídas**. **Atrasadas** mostra só as tarefas pendentes com o vencimento já passado. A tela de **Tarefas** abre sempre em **Pendentes**, mesmo que da última vez você tenha escolhido outra opção. O **Status** não muda os números do **Dashboard**: com **Pendentes** escolhido, o topo continua mostrando o total, as concluídas e as pendentes de todas as tarefas.
 
 **🔘 Prioridade:** **Alta**, **Média** ou **Baixa**.
 
@@ -58,7 +60,11 @@
 
 ◽ **Etiqueta Prioridade:** indica a prioridade dessa tarefa, sendo Alta = vermelha, Média = laranja, Baixa = verde.
 
-◽ **Ícone Conclusão:** círculo vazio indica tarefa pendente, círculo com check verde indica tarefa concluída.
+◽ **Ícone Conclusão:** círculo vazio indica tarefa pendente, círculo com check verde indica tarefa concluída. Reabrir a tarefa concluída é só do administrador: para o atendente, o círculo da tarefa concluída fica desativado.
+
+◽ **Situação:** a etiqueta **Pendente**, **Atrasada** ou **Concluída**, a mesma que aparece no título da tarefa aberta.
+
+◽ **Marcar tarefa:** a caixa para escolher a tarefa nas ações em massa, explicadas abaixo.
 
 ◽ **Data de Vencimento:** data limite esperada para finalizar a tarefa.
 
@@ -85,3 +91,21 @@
 🔲 **Ícone Editar:** botão para editar uma tarefa.
 
 🔲 **Ícone Excluir:** botão para excluir uma tarefa. A tarefa excluída vai para **Excluídas**, no topo da tela, e pode ser restaurada.
+
+## Páginas e ações em massa
+
+A lista de **Tarefas** mostra 50 tarefas por página. Embaixo, a tela indica onde você está, como *"Página 1 de 2 · 55 tarefas"*, com **Anterior** e **Próxima**.
+
+🔘 **Selecionar esta página:** marca as tarefas da página. Com a página marcada, aparece **Selecionar todas as N tarefas do filtro**, que marca todas as que o filtro mostra, também nas outras páginas. A tela mostra quantas estão marcadas, como *"50 selecionada(s)"*.
+
+🔘 **Concluir selecionadas:** conclui as tarefas marcadas, depois de perguntar *"Concluir N tarefa(s)?"*. As que se repetem já geram a próxima.
+
+🔘 **Excluir selecionadas:** exclui as tarefas marcadas, depois de perguntar *"Excluir N tarefa(s)?"*. Elas vão para **Excluídas**, de onde podem ser restauradas.
+
+🔘 **Limpar seleção:** desmarca as tarefas escolhidas.
+
+Durante a ação, a tela mostra o andamento, como *"Concluindo tarefas… 0 de 55"*, e no fim o resultado: quantas foram concluídas ou excluídas, e quantas já estavam concluídas.
+
+## Fora do menu
+
+🔘 **Tarefas**, no painel do contato: no atendimento, as tarefas daquele contato que ainda não foram concluídas, com o prazo, o responsável e a situação, o botão **Nova tarefa** e, nas reuniões, **Entrar na reunião**. **Ver concluídas** mostra também as já concluídas.

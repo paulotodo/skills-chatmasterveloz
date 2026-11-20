@@ -6,21 +6,21 @@
 
 ---
 
-🧩 As **Opções do PDV** decidem como o PDV se comporta na sua empresa: se vende sem estoque, por onde o cliente paga a distância, até quanto de desconto o atendente pode dar, o que o cliente recebe a cada etapa do pedido, quanto custa a entrega em cada bairro ou faixa de CEP, como o painel da cozinha marca os pedidos atrasados, o nome de cada etapa do painel e como o pedido é impresso na impressora térmica.
+🧩 As **Opções do PDV** decidem como o PDV se comporta na sua empresa: se vende sem estoque, por onde o cliente paga a distância, o desconto ou a taxa de cada forma de pagamento, até quanto de desconto o atendente pode dar, o que o cliente recebe a cada etapa do pedido, quanto custa a entrega em cada bairro, faixa de CEP ou pelos Correios, como o painel da cozinha marca os pedidos atrasados, o nome de cada etapa do painel, como o pedido é impresso na impressora térmica e, nas mesas do salão, a taxa de serviço e a comissão do garçom.
 
-As **Opções do PDV** ficam juntas no menu **Configurações  ›  Opções**, e só o administrador abre esse menu e as muda.
+As **Opções do PDV** ficam juntas no menu **Configurações  ›  Opções  ›  Vendas**, seção **PDV**, menos o **Webhook do PDV**, que fica na aba **Integrações e segurança**. Só o administrador abre esse menu e as muda.
 
 > **[RESUMO]**
 >
 > #### Resumo Prático
 >
-> ➡️ Acesse o menu **Configurações  ›  Opções** e desça até **PDV: vender sem estoque**.
+> ➡️ Acesse o menu **Configurações  ›  Opções  ›  Vendas**, seção **PDV**. A fileira de subtítulos no topo da aba leva direto a cada parte.
 >
 > ➡️ Ajuste cada opção e clique no **Salvar** dela. Os avisos são salvos juntos, em **Salvar avisos**.
 
 ## Vídeo Tutorial
 
-[Vídeo Voomly — id vZ6ol8kYECCPwg8AcEZGpsDJT5AODSaLoc1TAMISJ9nbyLE8L, tipo v]  
+[Vídeo Voomly — id kZUfA119QhPVl_1RmlYYSM7B0latVijI0sizeNQRVhjLxKYrR, tipo v]  
 
 ## As opções
 
@@ -40,9 +40,21 @@ As **Opções do PDV** ficam juntas no menu **Configurações  ›  Opções**, 
 
 O Mercado Pago, o PagSeguro e a PaggPix têm cada um o seu **Desconectar**. Sem as credenciais de um deles, o pedido oferece só os outros meios de pagamento, como os registrados à mão.
 
-🔘 **Desconto máximo do atendente (%):** em branco, sem limite. Acima do limite, o atendente salva o rascunho e um supervisor ou administrador confirma o pedido. Aceita de 0 a 100, com até duas casas, como 10 ou 12,5.
+🔘 **Desconto e taxa por forma de pagamento:** a tela explica: *"Dê um desconto ou cobre uma taxa conforme a forma de pagamento, em valor ou em %. A janela do pagamento, o balcão e a loja online (dinheiro, cartão e Pix na entrega) já mostram quanto cobrar. Em branco: sem desconto nem taxa."* Cada forma — **Dinheiro**, **Pix**, **Cartão**, **Boleto** e **Outro** — tem um **Desconto** e uma **Taxa**, em **%** ou em **Valor**. O campo vazio mostra *Sem*. Clique em **Salvar**.
 
-🔘 **Webhook do PDV:** o endereço do seu sistema que recebe os eventos de pedidos, pagamentos, caixa, estoque e entregas. Em branco, nada é enviado.
+◽ Com a regra salva, a lista **Forma** do **Balcão** já mostra o ajuste de cada forma, como *Pix · 5% de desconto* ou *Cartão · taxa de R$ 2,00*. Escolhida a forma, a venda ganha a linha **Desconto da forma de pagamento** ou **Taxa da forma de pagamento**, o **Total** já vem ajustado, e a tela avisa, como *"Pix: R$ 1,45 de desconto já no valor"*.
+
+◽ No pedido que o próprio cliente faz, a escolha do pagamento na entrega mostra o ajuste ao lado de cada forma, e o total da sacola muda com a forma escolhida, como *Desconto (Pix) - R$ 1,77*.
+
+◽ O desconto em % vai até 100, com até duas casas, e a taxa aceita até duas casas. Fora disso, a tela avisa *"Use um número com até duas casas (o % vai até 100)."* e o **Salvar** fica desativado.
+
+🔘 **Desconto máximo do atendente (%):** em branco, sem limite. Acima do limite, o atendente salva o rascunho e um supervisor ou administrador confirma o pedido. Aceita de 0 a 100, com até duas casas, como 10 ou 12,5. O limite vale também para o **Desconto na conta** da mesa.
+
+🔘 **Taxa de serviço da mesa (%):** em branco, sem taxa. A tela explica: *"A conta da mesa abre com este percentual sobre o consumo, e o caixa pode tirar a taxa de cada conta antes de receber."* Aceita de 0 a 30, com até duas casas, como 10 ou 12,5.
+
+🔘 **Comissão do garçom:** a tela explica: *"Calculada sobre as rodadas que cada garçom lançou nas mesas. Aparece no Relatório do PDV, e o garçom vê a dele. Mudar a regra vale para as rodadas confirmadas daqui para a frente."* **Parte da taxa de serviço (%)** vai de 0 a 100, e em branco 100% da taxa vai para quem lançou. **Comissão sobre o consumo (%)** vai de 0 a 30, e em branco não há comissão sobre o consumo. Clique em **Salvar comissão**.
+
+🔘 **Webhook do PDV:** fica no menu **Configurações  ›  Opções  ›  Integrações e segurança**, seção **Webhooks e integrações**. É o endereço do seu sistema que recebe os eventos de pedidos, pagamentos, caixa, estoque e entregas. Em branco, nada é enviado.
 
 🔘 **Taxa de entrega por bairro:** a tabela de bairros e taxas. No pedido com entrega, escolher o bairro preenche a taxa, e o atendente ainda pode ajustar o valor. Para incluir, preencha **Bairro** e **Taxa (R$)** e clique em **Acrescentar**.
 
@@ -55,6 +67,18 @@ O Mercado Pago, o PagSeguro e a PaggPix têm cada um o seu **Desconectar**. Sem 
 ◽ **Frete por faixa de CEP com a Taxa de entrega por bairro:** o CEP que cai numa faixa usa o frete e o prazo dela, mesmo com o bairro na tabela de bairros. O CEP fora das faixas usa a taxa do bairro. No pedido de **Retirada**, nem o CEP nem o frete entram. Sem nenhuma faixa cadastrada, vale só a tabela de bairros.
 
 ◽ No pedido que o próprio cliente faz, com faixas cadastradas, ele informa o CEP antes do endereço e vê o frete e o prazo da faixa, como *"R$ 7,50 · até 40 min"*. O CEP fora das faixas e sem um bairro da tabela fica fora da área de entrega, e o cliente vê *"Ainda não entregamos neste CEP."*
+
+🔘 **Frete pelos Correios (Loja Digital):** a tela explica: *"Use o contrato da sua empresa nos Correios: o cliente da Loja Digital vê o preço e o prazo do PAC e do SEDEX pelo CEP."* Ligue **Calcular o frete pelos Correios na loja** e preencha o contrato: **Usuário (Meu Correios)**, **Código de acesso à API**, **Cartão de postagem** e **CEP de origem**.
+
+◽ **Serviços:** cada serviço dos Correios tem o **Código**, com 5 dígitos, e o **Nome na loja**. O **PAC** (03298) e o **SEDEX** (03220) já vêm preenchidos; **Adicionar serviço** e **Remover** mudam a lista.
+
+◽ **Dias de manuseio:** aceita de 0 a 30 dias.
+
+◽ **Peso padrão (g)**, **Altura padrão (cm)**, **Largura padrão (cm)** e **Comprimento padrão (cm):** as medidas usadas no frete do produto que não tem as dele. O peso vai até 30.000 g, e cada medida, até 100 cm.
+
+◽ **Salvar** confere o contrato com os Correios na hora. Contrato recusado não é gravado, e a tela avisa *"Os Correios recusaram o usuário, o código de acesso ou o cartão de postagem."*
+
+◽ **Testar cotação:** fica ativo com o frete ligado e pede o **CEP para testar** e o **Peso (g)**.
 
 🔘 **Painel de pedidos:** **Atenção (minutos)** e **Atraso (minutos)** mudam a cor do card do pedido no painel, contando desde a confirmação: amarelo na atenção, vermelho no atraso. **Antecedência do agendado (minutos)** diz quanto tempo antes do horário combinado o pedido agendado entra em **Novo**. O atraso tem de ser maior que a atenção.
 
@@ -88,7 +112,9 @@ Os **Avisos do pedido ao cliente** são mensagens enviadas sozinhas na conversa 
 
 ◽ **Pagamento estornado:** quando o valor do pagamento é devolvido ao cliente, também no estorno de um pagamento registrado à mão, como o em dinheiro. Com o texto que vem na tela, o cliente recebe *"Estornamos o pagamento do pedido #75. O valor volta pela mesma forma de pagamento."*
 
-Os textos aceitam as variáveis `{{numero}}` (o número do pedido), `{{total}}`, `{{itens}}`, `{{endereco}}`, `{{bairro}}`, `{{agendado}}`, `{{rastreio}}`, `{{name}}` e `{{firstName}}` (o nome do cliente) e `{{ms}}`, que vira a saudação do horário, como *Bom dia*. **Voltar ao texto padrão** desfaz a mudança de um aviso.
+◽ **Pedido cancelado:** quando o pedido é cancelado ou recusado no **Painel de pedidos**, com o motivo escolhido ali. A tela avisa que ele vale para o pedido de entrega ou de retirada, e que o de mesa ou comanda não recebe. O texto que vem na tela leva o número do pedido e o motivo, como *"Olá! Seu pedido nº 38 foi cancelado. Motivo: Cliente desistiu. Se precisar, é só responder esta mensagem."*
+
+Os textos aceitam as variáveis `{{numero}}` (o número do pedido), `{{total}}`, `{{itens}}`, `{{endereco}}`, `{{bairro}}`, `{{agendado}}`, `{{rastreio}}`, `{{name}}` e `{{firstName}}` (o nome do cliente) e `{{ms}}`, que vira a saudação do horário, como *Bom dia*. O aviso **Pedido cancelado** aceita também `{{motivo}}`, o motivo escolhido no cancelamento. **Voltar ao texto padrão** desfaz a mudança de um aviso.
 
 📌 Exemplo: o aviso **Pedido confirmado** com o texto que vem na tela chega ao cliente como *"Bom dia! Seu pedido #11 foi confirmado. Total: R$ 43,40."*
 
@@ -97,6 +123,8 @@ Os textos aceitam as variáveis `{{numero}}` (o número do pedido), `{{total}}`,
 > #### Dúvidas Comuns
 >
 > **Liguei a opção Pronto para retirada e o cliente com entrega não recebeu o aviso.** É o esperado: o aviso **Pronto para retirada** vale só para o pedido de retirada no local. No pedido com entrega, o cliente recebe o aviso **Saiu para entrega**.
+>
+> **O aviso Pedido cancelado manda o motivo ao cliente?** Manda. O texto que vem na tela já traz `{{motivo}}`, que vira o motivo escolhido no **Painel de pedidos**, como *Cliente desistiu*, ou o que foi escrito em **Outro**.
 >
 > **A taxa de entrega por bairro trava o valor no pedido?** Não. Escolher o bairro preenche a taxa, e o atendente pode mudar o valor naquele pedido. A tabela continua igual.
 >
@@ -114,6 +142,10 @@ Os textos aceitam as variáveis `{{numero}}` (o número do pedido), `{{total}}`,
 >
 > **Como cadastro o frete de um CEP só no Frete por faixa de CEP?** Preencha o **CEP inicial** e deixe o **CEP final** vazio: a faixa fica com um CEP só.
 >
+> **Deixei a Comissão do garçom em branco. O garçom ganha comissão?** Com a **Parte da taxa de serviço (%)** em branco, 100% da taxa de serviço de cada rodada vai para quem lançou. Com a **Comissão sobre o consumo (%)** em branco, não há comissão sobre o consumo.
+>
+> **O Testar cotação dos Correios está desativado. Por quê?** O **Testar cotação** fica desativado com **Calcular o frete pelos Correios na loja** desligado. Ligue o frete, preencha o contrato dos Correios e clique em **Salvar**.
+>
 > **Quem pode mudar as Opções do PDV?** O administrador da empresa.
 
 > **[ERROS]**
@@ -122,8 +154,14 @@ Os textos aceitam as variáveis `{{numero}}` (o número do pedido), `{{total}}`,
 >
 > **Desconto máximo com vírgula errada:** o campo recusa e avisa *"Use um número de 0 a 100, com até duas casas (ex.: 10 ou 12,5)."* **Solução:** digite só o número, sem o sinal de porcentagem.
 >
+> **Taxa de serviço da mesa fora da faixa:** a taxa não é salva, e a tela avisa *"Use um número de 0 a 30, com até duas casas (ex.: 10 ou 12,5)."* **Solução:** use um número de 0 a 30, sem o sinal de porcentagem.
+>
 > **Atraso menor que a atenção:** o painel não salva e pede *"Use minutos de 1 a 1440, com o atraso maior que a atenção."* **Solução:** ponha no **Atraso (minutos)** um valor maior que o da **Atenção (minutos)**.
 >
 > **Faixa de CEP sobreposta:** a faixa não é salva, e a tela avisa *"Essa faixa cobre CEPs de outra faixa já cadastrada."* **Solução:** ajuste o **CEP inicial** e o **CEP final** para não cobrir a outra faixa, ou mude a faixa que já existe e clique no **Salvar** dela.
 >
 > **Acrescentar desativado no Frete por faixa de CEP:** a linha não é incluída. **Solução:** confira se os CEPs têm os 8 números e se o **CEP final** não vem antes do **CEP inicial**.
+>
+> **Frete pelos Correios sem os dados do contrato:** ligar o frete com algum campo vazio não salva, e a tela pede *"Para ligar o frete pelos Correios, preencha o usuário, o código de acesso, o cartão e o CEP de origem."* **Solução:** preencha os quatro campos do contrato e clique em **Salvar**.
+>
+> **Serviço dos Correios recusado:** a tela avisa *"Cada serviço dos Correios precisa de um código de 5 dígitos e um nome, sem repetir."* **Solução:** confira o **Código** de 5 dígitos e o **Nome na loja** de cada serviço, sem dois iguais.

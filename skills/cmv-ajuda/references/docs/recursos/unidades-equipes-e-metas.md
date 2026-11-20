@@ -30,11 +30,15 @@ Acesse o menu **CRM  ›  Minha evolução** e clique no ícone **Unidades e equ
 
 🔘 **Nova equipe:** dentro da unidade, com **Nome da equipe**, **Membros** e **Supervisores**. Para supervisor da equipe, a lista só oferece pessoas com perfil de administrador ou de supervisor.
 
+🔘 **Imagem da unidade e da equipe:** o círculo ao lado do nome de cada unidade e de cada equipe, com a dica *"Escolher a imagem (logo, brasão ou bandeira)"*, escolhe uma imagem em PNG, JPG ou WEBP. Sem imagem, o círculo mostra as iniciais do nome. A imagem escolhida também pode ser tirada ali, e a mudança vale ao clicar em **Salvar**.
+
 🔘 **Remover a equipe** e **Remover a unidade (e as equipes dela):** tiram da tela na hora, sem pedir confirmação. A mudança só vale depois de **Salvar**.
 
 Clique em **Salvar**. A tela confirma: *"Unidades e equipes salvas."*
 
 Só o administrador monta as unidades e as equipes.
+
+A imagem aparece no **Ranking**, no menu **CRM  ›  Ranking**, com o **Ranking por** em **Equipe** ou em **Unidade**: redonda no pódio e ao lado do nome na tabela.
 
 ## Metas da campanha
 
@@ -60,6 +64,18 @@ Acesse o menu **CRM  ›  Minha evolução** e clique no ícone **Painel de meta
 
 🔘 **Supervisor:** vê a unidade e só as equipes em que ele é supervisor, com os membros delas.
 
+## Venda de mais de uma unidade
+
+A oportunidade pode ter mais de uma unidade responsável, marcadas no campo **Unidades responsáveis** da própria oportunidade. Nesse caso, a venda conta nas metas da campanha e no **Ranking** de cada unidade marcada do jeito escolhido no menu **Configurações  ›  Opções  ›  Vendas**, seção **CRM**, em **Venda em várias unidades conta**:
+
+➡️ **O valor inteiro em cada unidade:** cada unidade recebe a venda com o valor completo.
+
+➡️ **O valor dividido igualmente entre elas:** cada unidade recebe a venda, e o valor é dividido em partes iguais.
+
+➡️ **Só na primeira unidade escolhida:** só a unidade marcada primeiro na oportunidade recebe a venda.
+
+Por exemplo, uma venda de R$ 100 com duas unidades responsáveis conta R$ 100 em cada uma com o valor inteiro, R$ 50 em cada uma com o valor dividido e R$ 100 só na primeira com a terceira regra. Com o valor inteiro e com o dividido, cada unidade conta uma venda.
+
 ## O que cada pessoa vê
 
 Durante a campanha, **Minha evolução** mostra a seção **Metas da campanha**, com **Minha meta**, **Minha equipe** e **Minha unidade**. Quem está em mais de uma equipe vê uma linha para cada equipe.
@@ -82,8 +98,12 @@ Embaixo das metas, o gráfico **Evolução na campanha** compara, dia a dia, o *
 >
 > **A mesma pessoa pode estar em duas equipes?** Pode. A venda dela conta para as duas equipes e entra uma vez só na unidade. Em **Minha evolução**, ela vê a meta de cada equipe.
 >
+> **Uma venda tem duas unidades responsáveis. Ela conta para as duas unidades?** Conta do jeito escolhido em **Venda em várias unidades conta**, no menu **Configurações  ›  Opções  ›  Vendas**, seção **CRM**: o valor inteiro em cada unidade, o valor dividido igualmente entre elas ou só na primeira unidade escolhida.
+>
 > **Não consigo cadastrar metas.** As metas precisam de uma campanha. Crie no ícone **Campanhas** e volte em **Metas da campanha**.
 >
 > **Qual a diferença para as metas do Ranking?** As do Ranking são do mês, por pessoa, no menu **CRM  ›  Ranking**; lá, a meta de uma equipe ou de uma unidade é a soma das metas do mês das pessoas que estão nela. As metas da campanha não entram no Ranking: valem para o período da campanha, em **Minha evolução**.
 >
 > **O que quer dizer Quase lá na minha meta da campanha?** É a faixa do percentual: **Quase lá** a partir de 70% da meta, e **Meta batida** ao chegar a 100%.
+>
+> **Onde aparece a imagem da unidade e da equipe?** No **Ranking**, com o **Ranking por** em **Equipe** ou em **Unidade**: redonda no pódio e ao lado do nome na tabela. Sem imagem, aparecem as iniciais do nome. A imagem é escolhida no ícone **Unidades e equipes**, ao lado do nome de cada uma.

@@ -6,7 +6,7 @@
 
 ---
 
-🧩 Envia **arquivos do seu computador** que aparecem apenas na página do **Modo Alternativo (chat externo por link)**, sem sair pelo canal.
+🧩 Envia **arquivos do seu computador** que aparecem apenas na página do **Modo Alternativo (chat externo por link)**, sem serem enviados pelo canal.
 
 **API:** Oficial
 
@@ -58,7 +58,9 @@ array(
 
 ⚠️ **A conexão do atendimento precisa estar em Modo Alternativo ou ser de Chat Externo.** Fora disso a chamada é recusada, porque a mensagem não teria como chegar ao cliente.
 
-◽ A mensagem aparece no painel do operador e na página do cliente, e **não sai** pelo WhatsApp.
+◽ A mensagem aparece no painel do operador e na página do cliente, e **não é enviada** pelo WhatsApp.
+
+➡️ **“assinaturaIa”:** opcional — acrescente aos campos do formulário quando quem envia é a sua IA, com o nome da IA (até 100 caracteres). A mensagem fica marcada como enviada pela IA e aparece na conversa com o nome dela. Sem o campo, o envio fica como sempre.
 
 #### Utilize o código em requisições HTTPS com ferramentas como cURL ou bibliotecas de integração.
 

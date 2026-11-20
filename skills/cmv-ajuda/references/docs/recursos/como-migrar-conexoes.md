@@ -8,6 +8,8 @@
 
 🧩 Todo atendimento nasce preso a duas coisas: o **Contato** e a **Conexão** por onde a conversa entrou. Se a Conexão for excluída, os atendimentos dela ficam órfãos — e o histórico daquele cliente se parte em dois. A **migração** existe para evitar isso: ela leva os atendimentos da Conexão antiga para a nova, junto com o que depende dela.
 
+Na conexão de WhatsApp por QR Code há um caminho mais curto: o **Clonar conexão** cria a conexão nova, leva os atendimentos e apaga a antiga numa ação só.
+
 Ideal para:
 
 ☑️ **Histórico inteiro:** O cliente continua com uma conversa só, em vez de começar do zero na Conexão nova.
@@ -69,6 +71,22 @@ Depois de **Confirmar Migração**, a tela avisa *"Tickets migrados com sucesso!
 
 🔘 **Também foram para a nova conexão:** quantos **Agendamentos**, **Campanhas**, **Usuários com a conexão padrão**, **Usuários com acesso**, **Loja do Cardápio Digital**, **Gatilhos de Webhook** e **Registros dos atendimentos** foram levados.
 
+## Clonar a conexão de WhatsApp por QR Code
+
+Na conexão de WhatsApp por QR Code, o card tem o botão **Clonar conexão**. Ele faz a troca numa ação só: nasce uma conexão nova com todas as configurações da atual, e o sistema faz o resto sozinho. A janela **Clonar a conexão** descreve cada passo antes de confirmar:
+
+➡️ Copia as mensagens, os Setores, os horários, os webhooks, o proxy e as integrações para a conexão nova.
+
+➡️ Passa para ela os atendimentos, os agendamentos que ainda vão sair, as campanhas que não terminaram, a conexão padrão e o acesso dos usuários, o Cardápio Digital e os gatilhos de webhook.
+
+➡️ Apaga a conexão atual. A nova fica com o mesmo nome e o mesmo token da API, e as integrações continuam funcionando.
+
+➡️ A conexão nova começa desconectada: no fim, leia o QR Code com o celular do número.
+
+⚠️ **A conexão atual é apagada, e não dá para desfazer.** A janela avisa isso antes do **CLONAR**; o **CANCELAR** fecha sem mudar nada.
+
+Depois do **CLONAR**, a janela mostra *"Pronto: … foi clonada."*, a contagem do que passou para a conexão nova e o botão **LER O QR CODE**, para conectar o número ali mesmo.
+
 ## Se a troca for do jeito de conectar
 
 Quando a mudança é na tecnologia da conexão de WhatsApp, e não só no número, **fale com a nossa equipe antes**.
@@ -90,6 +108,8 @@ Quando a mudança é na tecnologia da conexão de WhatsApp, e não só no númer
 > **Depois de migrar, quem tinha acesso à conexão antiga perde esse acesso?** Não. Com **Conexão padrão e acesso dos usuários** marcado, o usuário ganha o acesso à conexão nova e continua com o da antiga.
 >
 > **Quero manter os agendamentos na conexão antiga. Dá?** Dá. Na migração, desmarque **Agendamentos que ainda vão sair**: eles ficam na conexão antiga, e o resto que estiver marcado vai para a nova.
+>
+> **Clonar a conexão ou migrar os tickets?** O **Clonar conexão**, só no WhatsApp por QR Code, cria a conexão nova com as mesmas configurações, o mesmo nome e o mesmo token da API, leva tudo e apaga a antiga numa ação só. A migração leva os atendimentos para uma conexão que você já criou, deixa escolher o que vai junto e não apaga a antiga.
 >
 > **Preciso migrar toda vez que a conexão cai e pede o código de novo?** Não. Queda de sessão não é troca de conexão: é a mesma conexão esperando ser reconectada, e o histórico continua no lugar.
 

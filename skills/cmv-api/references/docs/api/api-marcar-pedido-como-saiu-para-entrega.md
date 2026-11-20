@@ -46,7 +46,7 @@ Bearer {seutokenaqui}
 
 ⚠️ **Só o pedido com entrega** sai: confirmado, em preparo ou pronto. Pedido de retirada no local, em rascunho ou já entregue é recusado.
 
-➡️ **O pedido ganha o link para acompanhar a entrega**, e o cliente recebe na conversa o aviso de saída com esse link quando o aviso está ligado nos **Avisos do pedido ao cliente**, em Configurações → Opções.
+➡️ **O pedido ganha o link para acompanhar a entrega**, e o cliente recebe na conversa o aviso de saída com esse link quando o aviso está ligado nos **Avisos do pedido ao cliente**, no menu **Configurações  ›  Opções  ›  Vendas**, seção **PDV**.
 
 #### Utilize o código em requisições HTTPS com ferramentas como cURL ou bibliotecas de integração.
 

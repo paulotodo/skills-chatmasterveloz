@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/sons-e-notificacoes-em-configuracoes
 - **Categoria:** Recursos
-- **Menu:** Configurações › Sons e Notificações em Configurações
+- **Menu:** Configurações › Geral em Configurações › Sons e Notificações em Configurações
 
 ---
 
@@ -12,7 +12,7 @@
 >
 > #### Resumo Prático
 >
-> ➡️ Acesse o menu **Configurações  ›  Opções** e localize **Sons e Notificações**.
+> ➡️ Acesse o menu **Configurações  ›  Opções  ›  Geral**, seção **Sons e Notificações**.
 >
 > ➡️ Escolha um som para cada evento — ou **Desativado** para silenciar grupos e transferências.
 

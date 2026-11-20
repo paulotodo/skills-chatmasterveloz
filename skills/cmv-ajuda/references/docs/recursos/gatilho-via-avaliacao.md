@@ -16,6 +16,8 @@ Ideal para:
 
 ☑️ **Indicação de quem gostou:** envia o link de avaliação pública ou de indicação só para quem deu nota alta.
 
+☑️ **Motivo da nota:** guarda na avaliação o que o cliente respondeu no fluxo, para a gestão ler no **Relatório de Avaliações**.
+
 > **[RESUMO]**
 >
 > #### Resumo Prático
@@ -25,6 +27,8 @@ Ideal para:
 > ➡️ Acesse o menu **Avaliações**, edite a avaliação e, em **Opções de Avaliação**, escolha o fluxo de cada nota em **Fluxo após esta nota**.
 >
 > ➡️ Encerre o atendimento enviando essa avaliação, escolhida em **Escolha um menu de avaliação**.
+>
+> ➡️ Para ler as respostas do cliente no fluxo da nota, acesse o menu **Relatório de Avaliações**.
 
 ## Como escolher o fluxo de cada nota
 
@@ -46,6 +50,18 @@ Acesse o menu **Avaliações** e edite a avaliação.
 
 ⚠️ **Se o cliente demorar para responder a pergunta, o fluxo pode não continuar.** O atendimento reabre do mesmo jeito, no Setor da conexão, para a equipe atender.
 
+## Onde ver as respostas do fluxo da nota
+
+A resposta de uma **Pergunta** do fluxo da nota seguida de um bloco **Variável** fica guardada na própria avaliação, junto com a nota que o cliente deu.
+
+Acesse o menu **Relatório de Avaliações**.
+
+🔘 **Selo na coluna Nota:** ao lado da nota, a avaliação com respostas guardadas leva um selo com o número de respostas. A dica do selo diz, por exemplo, *"1 resposta(s) do cliente no fluxo da nota"*.
+
+🔘 **Ver detalhes:** o botão da coluna **Ações** abre a janela **Detalhes da avaliação**. O bloco **Respostas do fluxo da nota** mostra, em cada resposta, a pergunta, a **Variável** que a guardou e a data, e embaixo o que o cliente respondeu.
+
+🔘 **Exportar CSV:** o arquivo traz a coluna **Respostas do fluxo**, com cada resposta no formato *pergunta: resposta*, várias separadas por `|`.
+
 > **[DUVIDAS]**
 >
 > #### Dúvidas Comuns
@@ -57,5 +73,7 @@ Acesse o menu **Avaliações** e edite a avaliação.
 > **O fluxo da nota da avaliação reabre o atendimento?** Não sozinho. O fluxo roda com o atendimento encerrado, e o atendimento reabre quando o cliente responde a uma pergunta do fluxo.
 >
 > **A nota da avaliação aparece na conversa do atendimento?** Não. A resposta do cliente não fica na conversa, para a equipe não ter acesso a ela: só o administrador consulta as notas.
+>
+> **Onde vejo as respostas que o cliente deu no fluxo da nota da avaliação?** No menu **Relatório de Avaliações**: a avaliação com respostas leva um selo na coluna **Nota**, e o botão **Ver detalhes** mostra o bloco **Respostas do fluxo da nota**, com a pergunta, a **Variável** e a data de cada resposta. O **Exportar CSV** traz as respostas na coluna **Respostas do fluxo**.
 >
 > **Onde fica a Mensagem de Avaliação da conexão?** No menu **Conexões**, ao editar a conexão, no campo **Mensagem de Avaliação**.

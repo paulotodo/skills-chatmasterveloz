@@ -46,6 +46,8 @@ Ideal para:
 
 ⚠️ Na lista e nos botões, cada opção tem no máximo **20 caracteres**. Ao trocar um menu em texto para lista ou botões, encurte as opções.
 
+◽ No **WebChat**, o **Menu em Lista** abre no chat do site pelo botão da lista, e o visitante toca na opção em vez de digitar.
+
 ## Como configurar o bloco Menu
 
 Acesse o menu **FlowBuilder Nativo  ›  editar fluxo  ›  +  ›  Menu**
@@ -96,7 +98,7 @@ Para todos os tipos:
 
 ## Dados e variáveis no texto do menu
 
-O bloco **Menu** aceita os dados do contato e do atendimento, como `{{ms}}` (a saudação), `{{firstName}}` (o primeiro nome) e `{{protocol}}` (o protocolo). Eles são trocados na mensagem, no cabeçalho, no rodapé, no texto do botão da lista e também nas opções: no **Menu em Lista**, uma opção *Olá * chega ao cliente como *Olá Maria*.
+O bloco **Menu** aceita os dados do contato e do atendimento, como `{{ms}}` (a saudação), `{{firstName}}` (o primeiro nome) e `{{protocol}}` (o protocolo). Eles são trocados na mensagem, no cabeçalho, no rodapé, no texto do botão da lista e também nas opções: no **Menu em Lista**, uma opção *Olá {{firstName}}* chega ao cliente como *Olá Maria*.
 
 As variáveis do próprio fluxo, escritas entre porcentagens, como `%nome%`, são trocadas na mensagem e **também nas opções**. Variável que o fluxo ainda não guardou aparece escrita como está.
 
@@ -134,7 +136,7 @@ Para guardar a escolha, ponha um bloco **Variável** logo depois do **Menu**: el
 >
 > **Como guardo a opção que o cliente escolheu no Menu?** Com um bloco **Variável** logo depois do **Menu**. Ela guarda a opção que o cliente escolheu, para usar adiante no fluxo.
 >
-> **O cliente respondeu a um menu antigo, depois que o fluxo já tinha seguido. O que vale?** A resposta vale para o bloco em que o fluxo está agora. Se o fluxo já seguiu pelo **Sem resposta** e voltou ao menu principal, por exemplo, é o menu principal que recebe a resposta.
+> **O cliente respondeu a um menu antigo, depois que o fluxo já tinha seguido. O que vale?** A resposta vale para o bloco em que o fluxo está agora. Se o fluxo já seguiu pelo **Sem resposta** e voltou ao menu principal, por exemplo, é o menu principal que recebe a resposta. No **WebChat**, só a última mensagem com opções aceita o toque: as opções das mensagens anteriores ficam desativadas no chat do site, e o toque numa delas é recusado.
 >
 > **Qual a diferença entre o Menu em Botões e o bloco Botões?** No **Menu em Botões**, cada botão tem a sua saída e leva a um caminho diferente. O bloco **Botões** tem uma saída só, e serve para enviar links, códigos para copiar e respostas prontas.
 

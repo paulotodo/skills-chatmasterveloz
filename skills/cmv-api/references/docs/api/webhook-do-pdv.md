@@ -6,7 +6,7 @@
 
 ---
 
-🧩 Quer que o seu sistema saiba na hora que um pedido foi confirmado, pago, despachado ou entregue — ou que um produto chegou ao estoque mínimo? O **Webhook do PDV** avisa o seu sistema a cada evento de pedido, pagamento, caixa, estoque, entrega, taxa de entrega e categoria do PDV.
+🧩 Quer que o seu sistema saiba na hora que um pedido foi confirmado, pago, despachado ou entregue — ou que um produto chegou ao estoque mínimo? O **Webhook do PDV** avisa o seu sistema a cada evento de pedido, pagamento, caixa, estoque, entrega, taxa de entrega, categoria e setor de produção do PDV.
 
 O **Webhook do PDV** cobre só o PDV. As conversas com os clientes são avisadas pelos webhooks da Conexão e do Setor.
 
@@ -14,7 +14,7 @@ O **Webhook do PDV** cobre só o PDV. As conversas com os clientes são avisadas
 >
 > #### Resumo Prático
 >
-> ➡️ Acesse o menu **Configurações  ›  Opções** e desça até **Webhook do PDV**.
+> ➡️ Acesse o menu **Configurações  ›  Opções  ›  Integrações e segurança** e, na seção **Webhooks e integrações**, encontre o **Webhook do PDV**.
 >
 > ➡️ Preencha o endereço do seu sistema e clique em **Salvar**.
 
@@ -26,7 +26,7 @@ O endereço precisa começar com http:// ou https://, sem espaços, e não pode 
 
 ## O campo que separa um aviso do outro
 
-Tudo chega no mesmo endereço, e é o **`acao`** que diz o que aconteceu no PDV:                                                                              
+Tudo chega no mesmo endereço, e é o **`acao`** que diz o que aconteceu no PDV:                                                                                  
 
 | `acao` | O que aconteceu |
 |---|---|
@@ -47,6 +47,7 @@ Tudo chega no mesmo endereço, e é o **`acao`** que diz o que aconteceu no PDV:
 | `taxa-de-entrega-criada` · `taxa-de-entrega-alterada` · `taxa-de-entrega-removida` | a tabela de taxas por bairro mudou |
 | `faixa-de-cep-criada` · `faixa-de-cep-alterada` · `faixa-de-cep-removida` | a tabela de frete por faixa de CEP mudou |
 | `categoria-criada` · `categoria-alterada` · `categoria-removida` | uma categoria de produto foi criada, mudou ou foi apagada |
+| `setor-criado` · `setor-alterado` · `setor-removido` | um setor de produção, como a cozinha ou o bar, foi criado, mudou ou foi apagado |
 
 Todo aviso do **Webhook do PDV** traz também:
 

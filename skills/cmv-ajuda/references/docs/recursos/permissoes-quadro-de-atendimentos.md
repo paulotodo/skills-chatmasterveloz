@@ -37,7 +37,7 @@ Na **coluna automática**, cada pessoa vê só os pendentes dos Setores dela. A 
 
 ## O que o atendente lê e abre no card
 
-Depende da opção **Operador Visualiza Prévias**, no menu **Configurações  ›  Opções**. Com ela ligada, o atendente lê a última mensagem nos cards e abre a conversa com dois cliques — o pendente inclusive, numa janela com o botão **Aceitar**.
+Depende da opção **Operador Visualiza Prévias**, no menu **Configurações  ›  Opções  ›  Atendimento**, seção **Atendimento e operador**. Com ela ligada, o atendente lê a última mensagem nos cards e abre a conversa com dois cliques — o pendente inclusive, numa janela com o botão **Aceitar**.
 
 Com a opção **Operador Visualiza Prévias** desligada, os cards não mostram a última mensagem ao atendente e o quadro não abre a conversa para ele: os dois cliques mostram *Mova o atendimento para atender antes de abrir a conversa*. Administrador e supervisor continuam lendo e abrindo.
 

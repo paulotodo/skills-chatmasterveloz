@@ -1,8 +1,8 @@
-<!-- gerado por _gerar.py · fonte: https://app.chatmasterveloz.com/catalogo-css/pt.json · versão WS-29.930.0 -->
+<!-- gerado por _gerar.py · fonte: https://app.chatmasterveloz.com/catalogo-css/pt.json · versão WS-30.141.0 -->
 
 # Páginas
 
-145 telas, uma âncora cada, no container:
+155 telas, uma âncora cada, no container:
 
 - `#custom-css-ai`
 - `#custom-css-amqp-messages`
@@ -10,6 +10,7 @@
 - `#custom-css-announcements`
 - `#custom-css-answer-from-ia`
 - `#custom-css-appbar`
+- `#custom-css-assistente`
 - `#custom-css-atendimento-report`
 - `#custom-css-atendimentos`
 - `#custom-css-audit-logs`
@@ -23,6 +24,7 @@
 - `#custom-css-campaigns-config`
 - `#custom-css-cardapio-digital`
 - `#custom-css-chats`
+- `#custom-css-clientes-pdv`
 - `#custom-css-comandas`
 - `#custom-css-companies`
 - `#custom-css-company-report`
@@ -77,16 +79,20 @@
 - `#custom-css-kanban-grupos`
 - `#custom-css-kanban-team`
 - `#custom-css-link-na-bio`
+- `#custom-css-links-de-agendamento`
 - `#custom-css-login`
 - `#custom-css-loja-digital`
+- `#custom-css-mail-marketing`
 - `#custom-css-menu-suspenso`
 - `#custom-css-mesas-do-garcom`
 - `#custom-css-messages-backup`
 - `#custom-css-meta-template-log-detalhe`
 - `#custom-css-meta-template-logs`
+- `#custom-css-meus-numeros`
 - `#custom-css-mikweb`
 - `#custom-css-minha-evolucao`
 - `#custom-css-minhas-entregas`
+- `#custom-css-monte-seu-plano`
 - `#custom-css-oportunidade-funil`
 - `#custom-css-oportunidades`
 - `#custom-css-painel-consultorio`
@@ -117,6 +123,9 @@
 - `#custom-css-reports-tickets`
 - `#custom-css-reports-tickets-duration`
 - `#custom-css-reports-tickets-duration-detail`
+- `#custom-css-reservas`
+- `#custom-css-reservas-agenda`
+- `#custom-css-reservas-publica`
 - `#custom-css-rodizios`
 - `#custom-css-sala-convidado`
 - `#custom-css-sales-ranking`
@@ -134,6 +143,7 @@
 - `#custom-css-subscription`
 - `#custom-css-survey`
 - `#custom-css-tags`
+- `#custom-css-tarefa-aviso-ao-cliente`
 - `#custom-css-task-agenda`
 - `#custom-css-thirdpart`
 - `#custom-css-ticket-embed`

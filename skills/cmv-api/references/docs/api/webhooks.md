@@ -18,7 +18,7 @@ O **Webhook** faz esse caminho: quando um evento acontece aqui, a plataforma avi
 
 ➡️ **O Webhook Trigger ENTRA.** Ele é um endereço nosso que um sistema externo chama — um pagamento aprovado, um lead cadastrado no site — e essa chamada inicia um fluxo de conversa aqui dentro.
 
-⚠️ **Conexão e Setor podem estar ligados ao mesmo tempo.** Quando isso acontece, um atendimento que está no Setor escolhido dispara **os dois** avisos. Vale conferir isso antes de culpar o seu sistema por mensagem duplicada.
+⚠️ **Conexão e Setor podem estar ligados ao mesmo tempo.** Quando isso acontece, um atendimento que está no Setor escolhido dispara **os dois** avisos. Os dois chegam com o mesmo código de evento, e é por ele que o seu sistema descarta o repetido.
 
 > **[DUVIDAS]**
 >

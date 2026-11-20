@@ -42,14 +42,14 @@ O formato da descrição é desta skill, não da plataforma. O formato do arquiv
 
 | `tipo` | Bloco no editor | Campos (os opcionais entre parênteses) | Saídas para usar em `ligacoes` |
 |---|---|---|---|
-| `conteudo` | Conteúdo | `itens`: lista em ordem de envio; texto é uma mensagem, número inteiro é um intervalo em segundos | uma só |
+| `conteudo` | Conteúdo | `itens`: lista em ordem de envio; texto é uma mensagem, número inteiro é um intervalo em segundos, de 1 a 120 | uma só |
 | `menu` | Menu, no tipo Menu em Lista | `mensagem`, `opcoes` (cada uma um título, ou `[título, descrição]`), (`botao`, padrão "Ver opções"), (`cabecalho`), (`rodape`), (`resposta_invalida`: `true` liga o Caminho alternativo), (`sem_resposta_minutos`) | `1`, `2`… pelo número da opção; `invalida`; `sem_resposta` |
 | `pergunta` | Pergunta | `mensagem` | uma só |
 | `variavel` | Variável | `nome` (com ou sem os `%`) | uma só |
 | `condicao` | Condição | `valor`, (`compara`: `resposta`, que é o padrão, ou `tags`) | `verdadeiro`, `falso` |
 | `switch` | Switch (tags) | `regras`: lista de `{"nome": …, "tag_id": …}`, na ordem de prioridade | o `nome` de cada regra; `nenhuma` |
 | `tag` | Tag | `nome`, (`id`) | uma só |
-| `intervalo` | Intervalo | `segundos` | uma só |
+| `intervalo` | Intervalo | `segundos`, de 1 a 120 (com mais de 2 minutos o bloco ganha a saída **Janela expirada**, sem formato observado) | uma só |
 | `msg_interna` | Msg Interna | `mensagem` | uma só |
 | `codigo_js` | Execução de Código JS | `codigo` | uma só |
 | `horario` | Horário de Expediente | `nome` do Setor que dá o horário, (`id`). Os dias e horas não vão no arquivo: o bloco lê a aba **Horários** desse Setor | `dentro`, `fora` |
@@ -76,4 +76,4 @@ Qualquer outro `tipo`, campo com nome diferente dos da tabela, apelido repetido 
 
 ## O que não cabe na descrição
 
-Imagem, áudio, vídeo e arquivo no Conteúdo; **Sem resposta** e **Mover de setor por inatividade** na Pergunta; Condição de horário, dia, feriado, conexão, status, protocolo, anúncio e postagem; as outras comparações do Switch (tags); **Setor vinculado ao fluxo** no Horário de Expediente; e todos os blocos da seção 9 de `references/formato-json.md`. Para isso: `marcador`, instrução de completar no editor, ou roteiro de montagem.
+Imagem, áudio, vídeo e arquivo no Conteúdo; **Sem resposta** e **Mover de setor por inatividade** na Pergunta; Condição de horário, dia, feriado, conexão, status, protocolo, anúncio e postagem; as outras comparações do Switch (tags); **Setor vinculado ao fluxo** no Horário de Expediente; Intervalo de mais de 2 minutos; e todos os blocos da seção 9 de `references/formato-json.md`. Para isso: `marcador`, instrução de completar no editor, ou roteiro de montagem.

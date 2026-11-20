@@ -24,7 +24,7 @@
 
 ## A coluna Contas
 
-🔘 Cada conta de e-mail aparece com o nome e o endereço, e com o número de mensagens não lidas na pasta aberta.
+🔘 Cada conta de e-mail aparece com o nome e o endereço, com a imagem da conta, quando ela tem uma, e com o número de mensagens não lidas na pasta aberta.
 
 🔘 Só aparecem as contas de e-mail que você pode usar; quem pode usar cada conta é decidido no cadastro dela, no menu **Contas de E-mail**.
 
@@ -40,7 +40,11 @@
 
 🔘 **Conta desativada:** com a **Conta ativa** desligada, **Nova mensagem** e **Sincronizar agora** ficam desativados, com a dica *"Esta conta está desativada: reative-a em Contas de E-mail para enviar e sincronizar."*
 
-🔘 **Pastas:** as abas acima da lista. **Caixa de entrada** e **Enviadas** são as pastas da própria caixa de e-mail, e em **Enviadas** fica o que a conta envia. Quando o administrador escolhe outras pastas da caixa no cadastro da conta de e-mail, elas aparecem como abas a mais, com o nome que têm no servidor de e-mail.
+🔘 **Pastas:** as abas acima da lista. **Caixa de entrada** e **Enviadas** são as pastas da própria caixa de e-mail, e em **Enviadas** ficam os e-mails que a equipe envia pela conta. Os e-mails das campanhas de e-mail em massa também são enviados pela conta de e-mail, mas não ficam em **Enviadas**. Quando o administrador escolhe outras pastas da caixa no cadastro da conta de e-mail, elas aparecem como abas a mais, com o nome que têm no servidor de e-mail.
+
+🔘 **Buscar por assunto ou remetente:** procura as mensagens pelo assunto ou pelo endereço de quem enviou — um pedaço do endereço já serve —, sem diferença entre maiúsculas e minúsculas. Sem nada encontrado, a lista avisa, por exemplo, *"Nenhum e-mail com "orçamento" no assunto ou no remetente."*
+
+🔘 **Trazer os anteriores do servidor:** com a busca sem resultado, a lista explica, nas palavras da tela: *"A busca procura nos e-mails que já vieram para a plataforma. Os mais antigos, ainda só no servidor, ficam de fora até serem trazidos."* Logo abaixo, o botão **Trazer os anteriores do servidor** traz da caixa de e-mail 50 mensagens por clique e refaz a busca. Quando não há mais o que trazer, o botão some.
 
 🔘 Cada linha da lista mostra quem enviou, a data, o assunto e o começo do texto. A mensagem não lida aparece em negrito, com uma bolinha, e o clipe indica que ela tem anexo.
 
@@ -92,6 +96,10 @@
 >
 > **Faltam mensagens antigas no meio da lista do E-mails.** Vá até o fim da lista, clique em **Carregar mais** até acabar e depois em **Buscar anteriores no servidor**: ele também traz as mensagens que faltam no meio da lista, 50 por clique. Repita até o botão sumir.
 >
+> **Como acho um e-mail pelo assunto na tela E-mails?** Digite o assunto, ou o endereço de quem enviou, no campo **Buscar por assunto ou remetente**. Maiúsculas e minúsculas tanto faz.
+>
+> **Busquei um e-mail antigo e a tela E-mails não achou. Ele sumiu?** Não necessariamente: a busca procura só nos e-mails que já vieram para a plataforma. Clique em **Trazer os anteriores do servidor**, logo abaixo do aviso, até o e-mail aparecer: cada clique traz 50 mensagens e refaz a busca.
+>
 > **Dá para marcar várias mensagens do E-mails de uma vez?** Dá. Marque a caixa de cada linha, ou use **Selecionar todos**, e escolha na barra **Marcar como lidos**, **Marcar como não lidos**, **Arquivar selecionados** ou **Excluir selecionados**. O **Selecionar todos** marca só as mensagens já carregadas na tela.
 >
 > **O Sincronizar agora mostra "Não foi possível concluir no servidor de e-mail".** O que vem depois dos dois-pontos é o motivo que o servidor de e-mail devolveu, como um endereço de servidor que não existe ou um acesso recusado. Peça ao administrador para conferir os dados da conta no menu **Contas de E-mail** e usar o **Testar conexão**.
@@ -99,3 +107,5 @@
 > **Excluí uma mensagem do E-mails sem querer. Dá para recuperar?** A mensagem excluída vai para a lixeira da caixa de e-mail, de onde pode ser recuperada pelo programa ou pelo site do seu provedor de e-mail.
 >
 > **Abri uma mensagem no E-mails. Ela aparece como lida no meu programa de e-mail?** Aparece. Abrir a mensagem na plataforma marca como lida no servidor de e-mail, e **Marcar como não lida** desfaz nos dois lugares.
+>
+> **Enviei uma campanha de e-mail em massa e os e-mails dela não aparecem em Enviadas no E-mails.** É o esperado: os e-mails das campanhas em massa são enviados pela conta de e-mail, mas não ficam na pasta **Enviadas**. O acompanhamento deles fica no relatório da própria campanha.

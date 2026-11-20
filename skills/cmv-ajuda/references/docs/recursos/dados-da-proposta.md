@@ -28,7 +28,7 @@
 
 🔘 **Observações padrão:** o texto da opção **Observação padrão da empresa**, que já vem marcada na janela **Gerar proposta**. Escolhida essa opção, ele vai na seção **Observações**, no fim do PDF. Quem gera pode apagar o texto na janela, e aquela proposta fica sem observação.
 
-🔘 **Agrupar os itens por cobrança (Única, Mensal, Anual) por padrão:** marcada, a caixa de agrupar já vem marcada na janela **Gerar proposta**, e quem gera pode desmarcar.
+🔘 **Agrupar os itens por cobrança (Única, Mensal, Anual) por padrão:** ligado, o interruptor de agrupar já vem ligado na janela **Gerar proposta**, e quem gera pode desligar.
 
 🔘 **Observações prontas:** nas palavras da tela, *"Textos para escolher na hora de gerar a proposta, no lugar da observação padrão."* **Nova observação pronta** acrescenta um texto, com **Título** e **Texto**, e **Remover** tira.
 

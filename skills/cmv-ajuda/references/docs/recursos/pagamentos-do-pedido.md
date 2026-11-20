@@ -60,6 +60,8 @@ Com o Asaas, o Mercado Pago e o PagSeguro conectados ao mesmo tempo, você escol
 
 ⚠️ O pagamento online não entra no esperado do caixa: o dinheiro cai na conta do provedor. O resumo do caixa mostra o link à parte, em **Recebido online (fora do caixa)**.
 
+⚠️ O pagamento online cobra em reais. Com a **Moeda** da empresa em outra moeda, no menu **Configurações  ›  Opções  ›  Geral**, seção **Empresa e região**, a parte de pagamentos do pedido avisa *"O pagamento online cobra em reais e fica indisponível na moeda da empresa."*
+
 ### O link do Asaas
 
 Com o token do Asaas nas Opções do PDV, o pedido confirmado ganha o botão **Gerar link do Asaas**:
@@ -107,6 +109,8 @@ O entregador registra o pagamento recebido na porta do cliente, pela tela **Minh
 > **A forma Pix do pedido gera o QR Code para o cliente?** Não. A forma **Pix** registra um Pix já recebido. Quem gera o Pix para o cliente é o pagamento online, com a PaggPix conectada nas Opções do PDV.
 >
 > **Sem nenhum pagamento online conectado, o pedido deixa de receber pagamento?** Não. O pedido continua com as formas registradas à mão.
+>
+> **O pedido avisa que o pagamento online fica indisponível na moeda da empresa. Por quê?** O pagamento online cobra em reais e só funciona com a **Moeda** da empresa em **Real brasileiro (BRL)**, no menu **Configurações  ›  Opções  ›  Geral**, seção **Empresa e região**.
 
 > **[ERROS]**
 >

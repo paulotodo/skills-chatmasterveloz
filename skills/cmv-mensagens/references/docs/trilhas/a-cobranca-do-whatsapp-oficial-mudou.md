@@ -16,9 +16,9 @@ Até agora funcionava assim: o cliente escrevia primeiro e abria uma janela de v
 >
 > #### Atenção
 >
-> **Até 30 de setembro de 2026 você precisa ter um meio de pagamento cadastrado na conta da Meta em que o seu número está.** Sem isso, a partir de 1º de outubro a Meta **para de entregar** as suas respostas.
+> **Até 30 de setembro de 2026 você precisa ter um meio de pagamento cadastrado na conta da Meta em que o seu número está.** Sem isso, a partir de 1º de outubro a Meta entrega as suas respostas só até acabar a franquia gratuita do mês, e nenhum template é enviado.
 >
-> Não é cobrança em atraso nem bloqueio depois de aviso: é entrega interrompida na virada da data.
+> Não é cobrança em atraso nem bloqueio depois de aviso: passada a franquia, as respostas param de ser entregues.
 >
 > Defina um meio de pagamento no seu cadastro com a Meta para não ter seu serviço interrompido.
 
@@ -50,11 +50,11 @@ A plataforma desenvolveu algumas alternativas — dá para usar todas ao mesmo t
 >
 > #### Dúvidas Comuns
 >
-> **Preciso fazer algo antes de 1º de outubro de 2026?** Uma ação é obrigatória: cadastrar um meio de pagamento na conta da Meta em que o seu número está, até 30 de setembro. Sem isso as suas respostas param de ser entregues.
+> **Preciso fazer algo antes de 1º de outubro de 2026?** Uma ação é obrigatória: cadastrar um meio de pagamento na conta da Meta em que o seu número está, até 30 de setembro. Sem isso, as respostas param de ser entregues quando acaba a franquia gratuita do mês.
 >
-> **Onde eu cadastro o meio de pagamento?** Na conta da Meta em que o seu número de WhatsApp Oficial está registrado. Se você não sabe qual é essa conta nem como chegar nela, solicite ajuda de nossa equipe.
+> **Onde eu cadastro o meio de pagamento?** No Meta Business Suite da empresa dona do número: em **Cobrança e pagamentos**, abra a aba **Contas de mensagens** e, na linha da conta do seu número, clique em **Adicionar forma de pagamento**. Se você não sabe qual é essa conta nem tem acesso a ela, solicite ajuda de nossa equipe.
 >
-> **Mil respostas por mês é muito ou pouco para mim?** Depende do seu volume, e você não precisa adivinhar: o contador da conexão na plataforma mostra quantas já saíram no ciclo atual e de meses anteriores.
+> **Mil respostas por mês é muito ou pouco para mim?** Depende do seu volume, e você não precisa adivinhar: o contador da conexão na plataforma mostra quantas já foram enviadas no ciclo atual e de meses anteriores.
 >
 > **Isso vale para a conexão por QR Code?** Não. A cobrança é da Meta e alcança só o canal oficial. A conexão por QR Code não tem custo por mensagem — em compensação, ela pode ser bloqueada e o número, perdido.
 >

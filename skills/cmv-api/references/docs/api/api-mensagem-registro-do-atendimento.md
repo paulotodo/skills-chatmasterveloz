@@ -47,7 +47,7 @@ Bearer {seutokenaqui}
 
 ➡️ **“userId”:** ID do usuário que fica como autor da linha. Opcional.
 
-⚠️ **Com o `userId`, o nome entra na frente do texto** — como nas linhas que a própria tela escreve. O `body` `emitiu a nota fiscal 123`, com a Maria, vira **Maria emitiu a nota fiscal 123**. Escreva o texto como a continuação de um nome. Sem o `userId`, a linha sai exatamente como você mandou.
+⚠️ **Com o `userId`, o nome entra na frente do texto** — como nas linhas que a própria tela escreve. O `body` `emitiu a nota fiscal 123`, com a Maria, vira **Maria emitiu a nota fiscal 123**. Escreva o texto como a continuação de um nome. Sem o `userId`, a linha fica exatamente como você mandou.
 
 ◽ Serve para a integração contar o que ela fez: a nota emitida, a entrega agendada, o pedido faturado.
 
@@ -59,7 +59,7 @@ Bearer {seutokenaqui}
 
 ⚠️ **A última mensagem do ticket passa a ser “AÇÃO EXECUTADA”** na lista de atendimentos, como acontece com qualquer linha do Registro.
 
-◽ Ticket que não existe, ou de outra empresa, responde `404`. `body` vazio e `userId` de outra empresa respondem `400`.
+◽ Ticket que não existe, ou de outra empresa, é recusado, assim como o `body` vazio e o `userId` de outra empresa.
 
 #### Utilize o código em requisições HTTPS com ferramentas como cURL ou bibliotecas de integração.
 

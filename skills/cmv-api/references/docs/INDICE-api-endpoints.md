@@ -1,4 +1,4 @@
-# Endpoints da API (233)
+# Endpoints da API (309)
 
 Uma linha por artigo que declara um endpoint, em ordem de endereço. Os artigos da categoria APIs que não estão aqui são conceituais (webhooks, autenticação, exemplos).
 
@@ -8,8 +8,8 @@ Uma linha por artigo que declara um endpoint, em ordem de endereço. Os artigos 
 | GET | `https://api2.chatmasterveloz.com/api/anuncios?dataInicio={dataInicio}&dataFim={dataFim}` | [API Relatório de Anúncios](api/api-relatorio-de-anuncios.md) |
 | POST | `https://api2.chatmasterveloz.com/api/chat-externo/enviar-link` | [API Modo Alternativo Enviar Link](api/api-modo-alternativo-enviar-link.md) |
 | POST | `https://api2.chatmasterveloz.com/api/chat-externo/mensagem` | [API Modo Alternativo Mensagem de Texto](api/api-modo-alternativo-mensagem-de-texto.md) |
-| POST | `https://api2.chatmasterveloz.com/api/chat-externo/mensagem` | [API Chat Externo Mensagem de Lista](api/api-chat-externo-mensagem-de-lista.md) |
 | POST | `https://api2.chatmasterveloz.com/api/chat-externo/mensagem` | [API Chat Externo Mensagem de Texto](api/api-chat-externo-mensagem-de-texto.md) |
+| POST | `https://api2.chatmasterveloz.com/api/chat-externo/mensagem` | [API Chat Externo Mensagem de Lista](api/api-chat-externo-mensagem-de-lista.md) |
 | POST | `https://api2.chatmasterveloz.com/api/chat-externo/mensagem` | [API Chat Externo Botão Quick Reply](api/api-chat-externo-botao-quick-reply.md) |
 | POST | `https://api2.chatmasterveloz.com/api/chat-externo/midia` | [API Modo Alternativo Enviar Arquivo por URL](api/api-modo-alternativo-enviar-arquivo-por-url.md) |
 | POST | `https://api2.chatmasterveloz.com/api/chat-externo/midia` | [API Chat Externo Enviar Arquivo por URL](api/api-chat-externo-enviar-arquivo-por-url.md) |
@@ -29,6 +29,20 @@ Uma linha por artigo que declara um endpoint, em ordem de endereço. Os artigos 
 | PUT | `https://api2.chatmasterveloz.com/api/companies/{companyId}/settings` | [API Atualizar Configurações da Empresa](api/api-atualizar-configuracoes-da-empresa.md) |
 | GET | `https://api2.chatmasterveloz.com/api/company/queues` | [API Listar Setores da Empresa](api/api-listar-setores-da-empresa.md) |
 | GET | `https://api2.chatmasterveloz.com/api/company/users` | [API Listar Usuários da Empresa](api/api-listar-usuarios-da-empresa.md) |
+| POST | `https://api2.chatmasterveloz.com/api/consultorio/agendamentos` | [API Marcar Consulta](api/api-marcar-consulta.md) |
+| POST | `https://api2.chatmasterveloz.com/api/consultorio/agendamentos/buscar` | [API Buscar Consultas do Contato](api/api-buscar-consultas-do-contato.md) |
+| GET | `https://api2.chatmasterveloz.com/api/consultorio/agendamentos/{consultaId}` | [API Obter uma Consulta](api/api-obter-uma-consulta.md) |
+| POST | `https://api2.chatmasterveloz.com/api/consultorio/agendamentos/{consultaId}/remarcar` | [API Remarcar Consulta](api/api-remarcar-consulta.md) |
+| POST | `https://api2.chatmasterveloz.com/api/consultorio/agendamentos/{consultaId}/status` | [API Atualizar o Status da Consulta](api/api-atualizar-o-status-da-consulta.md) |
+| GET | `https://api2.chatmasterveloz.com/api/consultorio/config` | [API Obter a Configuração da Agenda do Consultório](api/api-obter-a-configuracao-da-agenda-do-consultorio.md) |
+| GET | `https://api2.chatmasterveloz.com/api/consultorio/convenios` | [API Listar Convênios do Consultório](api/api-listar-convenios-do-consultorio.md) |
+| GET | `https://api2.chatmasterveloz.com/api/consultorio/horarios-livres?servicoId={servicoId}&de={dataInicio}&ate={dataFim}` | [API Listar Horários Livres do Consultório](api/api-listar-horarios-livres-do-consultorio.md) |
+| POST | `https://api2.chatmasterveloz.com/api/consultorio/pacientes` | [API Criar Paciente](api/api-criar-paciente.md) |
+| POST | `https://api2.chatmasterveloz.com/api/consultorio/pacientes/buscar` | [API Buscar Pacientes](api/api-buscar-pacientes.md) |
+| PUT | `https://api2.chatmasterveloz.com/api/consultorio/pacientes/{pacienteId}` | [API Ligar Paciente a um Contato](api/api-ligar-paciente-a-um-contato.md) |
+| GET | `https://api2.chatmasterveloz.com/api/consultorio/profissionais` | [API Listar Profissionais do Consultório](api/api-listar-profissionais-do-consultorio.md) |
+| GET | `https://api2.chatmasterveloz.com/api/consultorio/salas` | [API Listar Salas do Consultório](api/api-listar-salas-do-consultorio.md) |
+| GET | `https://api2.chatmasterveloz.com/api/consultorio/servicos` | [API Listar Serviços do Consultório](api/api-listar-servicos-do-consultorio.md) |
 | POST | `https://api2.chatmasterveloz.com/api/contact/update` | [API Atualizar Contato](api/api-atualizar-contato.md) |
 | POST | `https://api2.chatmasterveloz.com/api/contacts` | [API Criar Contato](api/api-criar-contato.md) |
 | GET | `https://api2.chatmasterveloz.com/api/contacts/all` | [API Listar Contatos](api/api-listar-contatos.md) |
@@ -60,6 +74,13 @@ Uma linha por artigo que declara um endpoint, em ordem de endereço. Os artigos 
 | GET | `https://api2.chatmasterveloz.com/api/gravacoes?pageNumber={pageNumber}&de={dataInicio}&ate={dataFim}&origem={origemDaGravacao}&ticketId={ticketId}&chatId={chatId}&estado={estadoDaGravacao}&busca={busca}` | [API Listar Gravações](api/api-listar-gravacoes.md) |
 | POST | `https://api2.chatmasterveloz.com/api/isValid` | [API Validar Contato](api/api-validar-contato.md) |
 | GET | `https://api2.chatmasterveloz.com/api/janela?number=5511955892164` | [API Janela de Atendimento pelo Número](api/api-janela-de-atendimento-pelo-numero.md) |
+| POST | `https://api2.chatmasterveloz.com/api/login-automatico` | [API Gerar Link de Login Automático](api/api-gerar-link-de-login-automatico.md) |
+| POST | `https://api2.chatmasterveloz.com/api/messages/channels/sendButtons` | [API WebChat Botão Quick Reply](api/api-webchat-botao-quick-reply.md) |
+| POST | `https://api2.chatmasterveloz.com/api/messages/channels/sendButtons` | [API Facebook Botão Quick Reply](api/api-facebook-botao-quick-reply.md) |
+| POST | `https://api2.chatmasterveloz.com/api/messages/channels/sendButtons` | [API Instagram Botão Quick Reply](api/api-instagram-botao-quick-reply.md) |
+| POST | `https://api2.chatmasterveloz.com/api/messages/channels/sendList` | [API WebChat Mensagem de Lista](api/api-webchat-mensagem-de-lista.md) |
+| POST | `https://api2.chatmasterveloz.com/api/messages/channels/sendList` | [API Facebook Mensagem de Lista](api/api-facebook-mensagem-de-lista.md) |
+| POST | `https://api2.chatmasterveloz.com/api/messages/channels/sendList` | [API Instagram Mensagem de Lista](api/api-instagram-mensagem-de-lista.md) |
 | POST | `https://api2.chatmasterveloz.com/api/messages/edit` | [API Editar Mensagem no Painel](api/api-editar-mensagem-no-painel.md) |
 | POST | `https://api2.chatmasterveloz.com/api/messages/finish` | [API Encerrar Ticket](api/api-encerrar-ticket.md) |
 | POST | `https://api2.chatmasterveloz.com/api/messages/flowbuilderStart` | [API Iniciar um Fluxo do Flowbuilder](api/api-iniciar-um-fluxo-do-flowbuilder.md) |
@@ -81,10 +102,10 @@ Uma linha por artigo que declara um endpoint, em ordem de endereço. Os artigos 
 | POST | `https://api2.chatmasterveloz.com/api/messages/official/sendMediaByURL` | [API Instagram Enviar Documento por URL](api/api-instagram-enviar-documento-por-url.md) |
 | POST | `https://api2.chatmasterveloz.com/api/messages/send` | [API Mensagem de Texto](api/api-mensagem-de-texto.md) |
 | POST | `https://api2.chatmasterveloz.com/api/messages/send` | [API Enviar Arquivo](api/api-enviar-arquivo.md) |
-| POST | `https://api2.chatmasterveloz.com/api/messages/sendBTN2` | [API Botão Quick Reply](api/botao-quick-reply-api.md) |
+| POST | `https://api2.chatmasterveloz.com/api/messages/sendBTN2` | [API Botão Quick Reply](api/api-botao-quick-reply.md) |
 | POST | `https://api2.chatmasterveloz.com/api/messages/sendCTAURL` | [API Oficial Botão URL](api/api-oficial-botao-url.md) |
 | POST | `https://api2.chatmasterveloz.com/api/messages/sendContact` | [API Enviar Contato](api/api-enviar-contato.md) |
-| POST | `https://api2.chatmasterveloz.com/api/messages/sendCopyPaste` | [API Botão Copia e Cola](api/botao-copia-e-cola-api.md) |
+| POST | `https://api2.chatmasterveloz.com/api/messages/sendCopyPaste` | [API Botão Copia e Cola](api/api-botao-copia-e-cola.md) |
 | POST | `https://api2.chatmasterveloz.com/api/messages/sendGroup` | [API Mensagem para Grupos](api/api-mensagem-para-grupos.md) |
 | POST | `https://api2.chatmasterveloz.com/api/messages/sendGupshupTemplate` | [API Gupshup Mensagem Template](api/api-gupshup-mensagem-template.md) |
 | POST | `https://api2.chatmasterveloz.com/api/messages/sendInteractive` | [API Oficial Mensagem de Lista](api/api-oficial-mensagem-de-lista.md) |
@@ -93,14 +114,12 @@ Uma linha por artigo que declara um endpoint, em ordem de endereço. Os artigos 
 | POST | `https://api2.chatmasterveloz.com/api/messages/sendMetaCustom` | [API Oficial Mensagem Template](api/api-oficial-mensagem-template.md) |
 | POST | `https://api2.chatmasterveloz.com/api/messages/sendMetaCustom` | [API Oficial Mensagem Template sem variável](api/api-oficial-mensagem-template-sem-variavel.md) |
 | POST | `https://api2.chatmasterveloz.com/api/messages/sendOfficial` | [API Oficial Template sem variável (Hub)](api/api-oficial-template-sem-variavel-hub.md) |
-| POST | `https://api2.chatmasterveloz.com/api/messages/sendOfficial` | [API Oficial Template com variável (Hub)](api/api-oficial-template-com-variavel-hub.md) |
-| POST | `https://api2.chatmasterveloz.com/api/messages/sendOfficialCustom` | [API Oficial Template Customizado (Hub)](api/api-oficial-template-customizado-hub.md) |
 | POST | `https://api2.chatmasterveloz.com/api/messages/sendOfficialData` | [API Oficial Mensagem](api/api-oficial-mensagem.md) |
 | POST | `https://api2.chatmasterveloz.com/api/messages/sendOfficialData` | [API Facebook Mensagem de Texto](api/api-facebook-mensagem-de-texto.md) |
 | POST | `https://api2.chatmasterveloz.com/api/messages/sendOfficialData` | [API Instagram Mensagem de Texto](api/api-instagram-mensagem-de-texto.md) |
 | POST | `https://api2.chatmasterveloz.com/api/messages/sendRcsTemplate` | [API RCS Mensagem Template](api/api-rcs-mensagem-template.md) |
 | POST | `https://api2.chatmasterveloz.com/api/messages/sendURLAudio` | [API Enviar Áudio por URL](api/api-enviar-audio-por-url.md) |
-| POST | `https://api2.chatmasterveloz.com/api/messages/sendURLBTN` | [API Botão URL](api/botao-url-api.md) |
+| POST | `https://api2.chatmasterveloz.com/api/messages/sendURLBTN` | [API Botão URL](api/api-botao-url.md) |
 | POST | `https://api2.chatmasterveloz.com/api/messages/sendURLDocument` | [API Enviar Documento por URL](api/api-enviar-documento-por-url.md) |
 | POST | `https://api2.chatmasterveloz.com/api/messages/sendURLImage` | [API Enviar Imagem por URL](api/api-enviar-imagem-por-url.md) |
 | POST | `https://api2.chatmasterveloz.com/api/messages/sendURLVideo` | [API Enviar Vídeo por URL](api/api-enviar-video-por-url.md) |
@@ -167,6 +186,11 @@ Uma linha por artigo que declara um endpoint, em ordem de endereço. Os artigos 
 | DELETE | `https://api2.chatmasterveloz.com/api/products` | [API Deletar Produto](api/api-deletar-produto.md) |
 | POST | `https://api2.chatmasterveloz.com/api/products` | [API Criar Produto](api/api-criar-produto.md) |
 | PUT | `https://api2.chatmasterveloz.com/api/products` | [API Atualizar Produto](api/api-atualizar-produto.md) |
+| GET | `https://api2.chatmasterveloz.com/api/products/sku/{sku}` | [API Obter um Produto pelo SKU](api/api-obter-um-produto-pelo-sku.md) |
+| GET | `https://api2.chatmasterveloz.com/api/products/{produtoId}` | [API Obter um Produto](api/api-obter-um-produto.md) |
+| POST | `https://api2.chatmasterveloz.com/api/products/{produtoId}/estoque` | [API Lançar Movimentação no Estoque](api/api-lancar-movimentacao-no-estoque.md) |
+| GET | `https://api2.chatmasterveloz.com/api/products/{produtoId}/estoque?tipo={tipoDoMovimento}&de={dataInicio}&ate={dataFim}&pageNumber={pageNumber}` | [API Listar Movimentações do Estoque](api/api-listar-movimentacoes-do-estoque.md) |
+| GET | `https://api2.chatmasterveloz.com/api/products?searchParam={searchParam}&pageNumber={pageNumber}&limit={limit}` | [API Listar Produtos](api/api-listar-produtos.md) |
 | GET | `https://api2.chatmasterveloz.com/api/projeto-modelos` | [API Listar Modelos de Projeto](api/api-listar-modelos-de-projeto.md) |
 | POST | `https://api2.chatmasterveloz.com/api/projetos` | [API Criar Projeto](api/api-criar-projeto.md) |
 | GET | `https://api2.chatmasterveloz.com/api/projetos/situacoes` | [API Listar Situações dos Projetos](api/api-listar-situacoes-dos-projetos.md) |
@@ -186,11 +210,31 @@ Uma linha por artigo que declara um endpoint, em ordem de endereço. Os artigos 
 | POST | `https://api2.chatmasterveloz.com/api/quick-messages` | [API Criar Resposta Rápida](api/api-criar-resposta-rapida.md) |
 | GET | `https://api2.chatmasterveloz.com/api/quick-messages?queueId={queueId}&userId={userId}&categoria={categoria}&searchParam={searchParam}&pageNumber={pageNumber}` | [API Listar Respostas Rápidas](api/api-listar-respostas-rapidas.md) |
 | GET | `https://api2.chatmasterveloz.com/api/ratings?dateStart={dateStart}&dateEnd={dateEnd}&pageNumber={pageNumber}&pageSize={pageSize}` | [API Listar Avaliações](api/api-listar-avaliacoes.md) |
+| POST | `https://api2.chatmasterveloz.com/api/reservas` | [API Criar Reserva](api/api-criar-reserva.md) |
+| GET | `https://api2.chatmasterveloz.com/api/reservas/config` | [API Obter a Configuração das Reservas](api/api-obter-a-configuracao-das-reservas.md) |
+| GET | `https://api2.chatmasterveloz.com/api/reservas/diarias?ofertaId={ofertaId}&de={dataInicio}&ate={dataFim}` | [API Listar Noites Livres da Diária](api/api-listar-noites-livres-da-diaria.md) |
+| GET | `https://api2.chatmasterveloz.com/api/reservas/horarios?ofertaId={ofertaId}&data={dataDaReserva}` | [API Listar Horários Livres das Reservas](api/api-listar-horarios-livres-das-reservas.md) |
+| GET | `https://api2.chatmasterveloz.com/api/reservas/ofertas` | [API Listar Ofertas das Reservas](api/api-listar-ofertas-das-reservas.md) |
+| GET | `https://api2.chatmasterveloz.com/api/reservas/pacotes` | [API Listar Pacotes das Reservas](api/api-listar-pacotes-das-reservas.md) |
+| POST | `https://api2.chatmasterveloz.com/api/reservas/pacotes-dos-clientes` | [API Vender Pacote ao Cliente](api/api-vender-pacote-ao-cliente.md) |
+| GET | `https://api2.chatmasterveloz.com/api/reservas/pacotes-dos-clientes?telefone={number}` | [API Obter o Saldo de Pacotes do Cliente](api/api-obter-o-saldo-de-pacotes-do-cliente.md) |
+| GET | `https://api2.chatmasterveloz.com/api/reservas/recursos` | [API Listar Recursos das Reservas](api/api-listar-recursos-das-reservas.md) |
+| GET | `https://api2.chatmasterveloz.com/api/reservas/relatorio?de={dataInicio}&ate={dataFim}` | [API Obter o Relatório das Reservas](api/api-obter-o-relatorio-das-reservas.md) |
+| POST | `https://api2.chatmasterveloz.com/api/reservas/series` | [API Criar Série de Reservas](api/api-criar-serie-de-reservas.md) |
+| POST | `https://api2.chatmasterveloz.com/api/reservas/series/previa` | [API Conferir as Datas de uma Série de Reservas](api/api-conferir-as-datas-de-uma-serie-de-reservas.md) |
+| GET | `https://api2.chatmasterveloz.com/api/reservas/series/{serieId}` | [API Obter uma Série de Reservas](api/api-obter-uma-serie-de-reservas.md) |
+| GET | `https://api2.chatmasterveloz.com/api/reservas/{reservaAgendaId}` | [API Obter uma Reserva](api/api-obter-uma-reserva.md) |
+| PUT | `https://api2.chatmasterveloz.com/api/reservas/{reservaAgendaId}` | [API Atualizar Reserva](api/api-atualizar-reserva.md) |
+| POST | `https://api2.chatmasterveloz.com/api/reservas/{reservaAgendaId}/situacao` | [API Atualizar a Situação de uma Reserva](api/api-atualizar-a-situacao-de-uma-reserva.md) |
+| GET | `https://api2.chatmasterveloz.com/api/reservas?de={dataInicio}&ate={dataFim}` | [API Listar Reservas](api/api-listar-reservas.md) |
 | GET | `https://api2.chatmasterveloz.com/api/rodizios` | [API Listar Rodízios](api/api-listar-rodizios.md) |
 | POST | `https://api2.chatmasterveloz.com/api/rodizios/{rodizioId}/distribuir` | [API Distribuir Atendimento por Rodízio](api/api-distribuir-atendimento-por-rodizio.md) |
 | GET | `https://api2.chatmasterveloz.com/api/rodizios/{rodizioId}/relatorio?dataInicio={dataInicio}&dataFim={dataFim}` | [API Obter o Relatório de um Rodízio](api/api-obter-o-relatorio-de-um-rodizio.md) |
 | POST | `https://api2.chatmasterveloz.com/api/schedules` | [API Criar Agendamento](api/api-criar-agendamento.md) |
 | POST | `https://api2.chatmasterveloz.com/api/schedules/delete` | [API Deletar Agendamento](api/api-deletar-agendamento.md) |
+| GET | `https://api2.chatmasterveloz.com/api/schedules/{agendamentoId}` | [API Obter um Agendamento](api/api-obter-um-agendamento.md) |
+| PUT | `https://api2.chatmasterveloz.com/api/schedules/{agendamentoId}` | [API Atualizar Agendamento](api/api-atualizar-agendamento.md) |
+| GET | `https://api2.chatmasterveloz.com/api/schedules?situacao={situacaoDoAgendamento}&contactId={contactId}&de={dataInicio}&ate={dataFim}&pageNumber={pageNumber}` | [API Listar Agendamentos](api/api-listar-agendamentos.md) |
 | POST | `https://api2.chatmasterveloz.com/api/tags` | [API Criar Tag](api/api-criar-tag.md) |
 | POST | `https://api2.chatmasterveloz.com/api/tags/add` | [API Atualizar Tags do Ticket](api/api-atualizar-tags-do-ticket.md) |
 | DELETE | `https://api2.chatmasterveloz.com/api/tags/{tagId}` | [API Deletar Tag](api/api-deletar-tag.md) |
@@ -199,9 +243,40 @@ Uma linha por artigo que declara um endpoint, em ordem de endereço. Os artigos 
 | POST | `https://api2.chatmasterveloz.com/api/tasks/create` | [API Criar Tarefa](api/api-criar-tarefa.md) |
 | GET | `https://api2.chatmasterveloz.com/api/tasks/list?status={statusDaTarefa}&priority={priorityDaTarefa}&userId={userId}` | [API Listar Tarefas](api/api-listar-tarefas.md) |
 | DELETE | `https://api2.chatmasterveloz.com/api/tasks/{tarefaId}` | [API Deletar Tarefa](api/api-deletar-tarefa.md) |
+| GET | `https://api2.chatmasterveloz.com/api/tasks/{tarefaId}` | [API Obter uma Tarefa](api/api-obter-uma-tarefa.md) |
 | PUT | `https://api2.chatmasterveloz.com/api/tasks/{tarefaId}` | [API Atualizar Tarefa](api/api-atualizar-tarefa.md) |
+| GET | `https://api2.chatmasterveloz.com/api/tasks/{tarefaId}/attachments` | [API Listar Anexos da Tarefa](api/api-listar-anexos-da-tarefa.md) |
+| DELETE | `https://api2.chatmasterveloz.com/api/tasks/{tarefaId}/attachments/{anexoId}` | [API Deletar Anexo da Tarefa](api/api-deletar-anexo-da-tarefa.md) |
+| POST | `https://api2.chatmasterveloz.com/api/tasks/{tarefaId}/attachments?userId={userId}` | [API Anexar Arquivo na Tarefa](api/api-anexar-arquivo-na-tarefa.md) |
+| GET | `https://api2.chatmasterveloz.com/api/tasks/{tarefaId}/comments` | [API Listar Comentários da Tarefa](api/api-listar-comentarios-da-tarefa.md) |
+| POST | `https://api2.chatmasterveloz.com/api/tasks/{tarefaId}/comments?userId={userId}` | [API Criar Comentário na Tarefa](api/api-criar-comentario-na-tarefa.md) |
 | POST | `https://api2.chatmasterveloz.com/api/tasks/{tarefaId}/complete` | [API Finalizar Tarefa](api/api-finalizar-tarefa.md) |
 | GET | `https://api2.chatmasterveloz.com/api/tasks/{tarefaId}/status` | [API Obter o Status de uma Tarefa](api/api-obter-o-status-de-uma-tarefa.md) |
+| GET | `https://api2.chatmasterveloz.com/api/ticket-quadros` | [API Listar Quadros](api/api-listar-quadros.md) |
+| POST | `https://api2.chatmasterveloz.com/api/ticket-quadros` | [API Criar Quadro](api/api-criar-quadro.md) |
+| DELETE | `https://api2.chatmasterveloz.com/api/ticket-quadros/colunas/{colunaId}` | [API Deletar Coluna do Quadro](api/api-deletar-coluna-do-quadro.md) |
+| PUT | `https://api2.chatmasterveloz.com/api/ticket-quadros/colunas/{colunaId}` | [API Atualizar Coluna do Quadro](api/api-atualizar-coluna-do-quadro.md) |
+| PUT | `https://api2.chatmasterveloz.com/api/ticket-quadros/regras/ordem?userId={userId}` | [API Reordenar Regras Pessoais do Quadro](api/api-reordenar-regras-pessoais-do-quadro.md) |
+| DELETE | `https://api2.chatmasterveloz.com/api/ticket-quadros/regras/{regraId}?userId={userId}` | [API Deletar Regra do Quadro](api/api-deletar-regra-do-quadro.md) |
+| PUT | `https://api2.chatmasterveloz.com/api/ticket-quadros/regras/{regraId}?userId={userId}` | [API Atualizar Regra do Quadro](api/api-atualizar-regra-do-quadro.md) |
+| GET | `https://api2.chatmasterveloz.com/api/ticket-quadros/regras?userId={userId}` | [API Listar Regras Pessoais do Quadro](api/api-listar-regras-pessoais-do-quadro.md) |
+| POST | `https://api2.chatmasterveloz.com/api/ticket-quadros/regras?userId={userId}` | [API Criar Regra Pessoal do Quadro](api/api-criar-regra-pessoal-do-quadro.md) |
+| PUT | `https://api2.chatmasterveloz.com/api/ticket-quadros/tickets/{ticketId}/fixar?userId={userId}` | [API Fixar Atendimento no Topo da Coluna](api/api-fixar-atendimento-no-topo-da-coluna.md) |
+| PUT | `https://api2.chatmasterveloz.com/api/ticket-quadros/tickets/{ticketId}/mover?userId={userId}` | [API Mover Atendimento de Coluna](api/api-mover-atendimento-de-coluna.md) |
+| PUT | `https://api2.chatmasterveloz.com/api/ticket-quadros/tickets/{ticketId}/tag?userId={userId}` | [API Trocar a Tag do Atendimento no Quadro](api/api-trocar-a-tag-do-atendimento-no-quadro.md) |
+| GET | `https://api2.chatmasterveloz.com/api/ticket-quadros/usuarios/{userId}` | [API Obter os Quadros de um Usuário](api/api-obter-os-quadros-de-um-usuario.md) |
+| PUT | `https://api2.chatmasterveloz.com/api/ticket-quadros/usuarios/{userId}` | [API Atualizar os Quadros de um Usuário](api/api-atualizar-os-quadros-de-um-usuario.md) |
+| DELETE | `https://api2.chatmasterveloz.com/api/ticket-quadros/{quadroId}` | [API Deletar Quadro](api/api-deletar-quadro.md) |
+| GET | `https://api2.chatmasterveloz.com/api/ticket-quadros/{quadroId}` | [API Obter um Quadro](api/api-obter-um-quadro.md) |
+| PUT | `https://api2.chatmasterveloz.com/api/ticket-quadros/{quadroId}` | [API Atualizar Quadro](api/api-atualizar-quadro.md) |
+| POST | `https://api2.chatmasterveloz.com/api/ticket-quadros/{quadroId}/colunas` | [API Criar Coluna do Quadro](api/api-criar-coluna-do-quadro.md) |
+| PUT | `https://api2.chatmasterveloz.com/api/ticket-quadros/{quadroId}/colunas/ordem` | [API Reordenar Colunas do Quadro](api/api-reordenar-colunas-do-quadro.md) |
+| GET | `https://api2.chatmasterveloz.com/api/ticket-quadros/{quadroId}/regras` | [API Listar Regras da Equipe do Quadro](api/api-listar-regras-da-equipe-do-quadro.md) |
+| POST | `https://api2.chatmasterveloz.com/api/ticket-quadros/{quadroId}/regras` | [API Criar Regra da Equipe do Quadro](api/api-criar-regra-da-equipe-do-quadro.md) |
+| POST | `https://api2.chatmasterveloz.com/api/ticket-quadros/{quadroId}/regras/executar` | [API Executar as Regras do Quadro](api/api-executar-as-regras-do-quadro.md) |
+| PUT | `https://api2.chatmasterveloz.com/api/ticket-quadros/{quadroId}/regras/ordem` | [API Reordenar Regras da Equipe do Quadro](api/api-reordenar-regras-da-equipe-do-quadro.md) |
+| GET | `https://api2.chatmasterveloz.com/api/ticket-quadros/{quadroId}/tickets` | [API Listar Atendimentos do Quadro](api/api-listar-atendimentos-do-quadro.md) |
+| GET | `https://api2.chatmasterveloz.com/api/ticket-quadros/{quadroId}/usuarios` | [API Listar Usuários do Quadro](api/api-listar-usuarios-do-quadro.md) |
 | POST | `https://api2.chatmasterveloz.com/api/tickets/changeconnection` | [API Transferir Tickets entre Conexões](api/api-transferir-tickets-entre-conexoes.md) |
 | POST | `https://api2.chatmasterveloz.com/api/tickets/changequeue` | [API Transferir Tickets para um Setor](api/api-transferir-tickets-para-um-setor.md) |
 | POST | `https://api2.chatmasterveloz.com/api/tickets/closeforced` | [API Encerrar Tickets da Conexão por "Dias de Inatividade"](api/api-encerrar-tickets-da-conexao-por-dias-de-inatividade.md) |
@@ -212,9 +287,9 @@ Uma linha por artigo que declara um endpoint, em ordem de endereço. Os artigos 
 | POST | `https://api2.chatmasterveloz.com/api/tickets/getproto` | [API Listar Protocolos de um Ticket](api/api-listar-protocolos-de-um-ticket.md) |
 | GET | `https://api2.chatmasterveloz.com/api/tickets/messages/{protocol}` | [API Listar Mensagens por Protocolo](api/api-listar-mensagens-por-protocolo.md) |
 | POST | `https://api2.chatmasterveloz.com/api/tickets/search` | [API Buscar Tickets por Filtro](api/api-buscar-tickets-por-filtro.md) |
-| POST | `https://api2.chatmasterveloz.com/api/tickets/updateAPI` | [API Obter um Ticket](api/api-obter-um-ticket.md) |
 | POST | `https://api2.chatmasterveloz.com/api/tickets/updateAPI` | [API Atualizar Ticket](api/api-atualizar-ticket.md) |
 | DELETE | `https://api2.chatmasterveloz.com/api/tickets/{ticketId}` | [API Apagar Ticket](api/api-apagar-ticket.md) |
+| GET | `https://api2.chatmasterveloz.com/api/tickets/{ticketId}` | [API Obter um Ticket](api/api-obter-um-ticket.md) |
 | GET | `https://api2.chatmasterveloz.com/api/tickets/{ticketId}/janela` | [API Janela de Atendimento](api/api-janela-de-atendimento.md) |
 | GET | `https://api2.chatmasterveloz.com/api/tickets/{ticketId}/messages?limit={limit}&pageNumber={pageNumber}` | [API Listar Mensagens do Ticket](api/api-listar-mensagens-do-ticket.md) |
 | POST | `https://api2.chatmasterveloz.com/api/tickets/{ticketId}/registro` | [API Mensagem Registro do Atendimento](api/api-mensagem-registro-do-atendimento.md) |
@@ -230,6 +305,7 @@ Uma linha por artigo que declara um endpoint, em ordem de endereço. Os artigos 
 | GET | `https://api2.chatmasterveloz.com/api/waba-templates?status={statusDoTemplate}&category={category}` | [API Listar Mensagens Template Meta](api/api-listar-mensagens-template-meta.md) |
 | POST | `https://api2.chatmasterveloz.com/api/webchat/messages/send` | [API WebChat Mensagem de Texto](api/api-webchat-mensagem-de-texto.md) |
 | POST | `https://api2.chatmasterveloz.com/api/webchat/messages/send` | [API WebChat Enviar Arquivo](api/api-webchat-enviar-arquivo.md) |
+| GET | `https://api2.chatmasterveloz.com/api/webhook-da-conexao/entregas?destino={destino}&desde={desde}&limite={limite}` | [API Listar Entregas do Webhook da Conexão](api/api-listar-entregas-do-webhook-da-conexao.md) |
 | POST | `https://api2.chatmasterveloz.com/api/whatsapp-restart` | [API Reiniciar Conexões](api/api-reiniciar-conexoes.md) |
 | POST | `https://api2.chatmasterveloz.com/api/whatsapp-status` | [API Status das Conexões](api/api-status-das-conexoes.md) |
 | POST | `https://api2.chatmasterveloz.com/api/whatsapp/importSession` | [API Importar Sessão](api/api-importar-sessao.md) |

@@ -85,7 +85,7 @@ Olá! Estou fora do computador agora e volto às [14h]. Pode deixar sua mensagem
 
 Onde: **Setores & Chatbot** › editar o Setor › aba **Mensagens** › campo **Mensagem de fora de expediente** (só aparece com o expediente por Setor ligado).
 
-Pergunte como está a opção **Abrir Tickets Fora do Expediente?** em **Configurações › Opções**, porque ela muda o que se pode prometer.
+Pergunte como está a opção **Abrir Atendimentos Fora do Expediente?** em **Configurações › Opções › Geral**, porque ela muda o que se pode prometer.
 
 Se está em **Sim** (a conversa entra no Setor e espera a equipe):
 
@@ -310,7 +310,7 @@ Obrigado pela nota! O que mais pesou para você escolher esse número?
 
 ### Pesquisa nativa da plataforma (Avaliações)
 
-Onde: menu **Avaliações** › **Adicionar** (`references/docs/recursos/avaliacoes.md`). O atendente envia pelo botão **Resolver e Enviar Avaliação**, depois de ligar **Enviar Avaliações** em **Configurações › Opções** (`references/docs/recursos/avaliacoes-em-configuracoes.md`).
+Onde: menu **Avaliações** › **Adicionar** (`references/docs/recursos/avaliacoes.md`). O atendente envia pelo botão **Resolver e Enviar Avaliação**, depois de ligar **Enviar Avaliações** em **Configurações › Opções › Automação**, seção **Avaliações** (`references/docs/recursos/avaliacoes-em-configuracoes.md`).
 
 Campo **Mensagem de Avaliação**:
 
@@ -421,7 +421,7 @@ Oi {{1}}, faz tempo que não nos falamos! Selecionamos uma oferta especial para 
 
 ### Mensagem de Aniversário automática
 
-Onde: **Configurações › Opções** › seção **Mensagem de Aniversário**. Enviada às 10h pela conexão marcada como **Padrão**, para contatos com o campo **Aniversário** preenchido. Sem variável, porque os artigos não documentam variáveis nesse campo.
+Onde: **Configurações › Opções › Automação** › seção **Mensagens automáticas**, campo **Mensagem de Aniversário**. Enviada às 10h, no fuso da empresa, pela conexão marcada como **Padrão**, para contatos com o campo **Aniversário** preenchido. Sem variável, porque os artigos não documentam variáveis nesse campo.
 
 ```
 Feliz aniversário! A equipe da [Nome da Empresa] deseja um dia muito especial para você. Para comemorar, separamos [presente], válido até [data]. Quer usar? Responda QUERO.
@@ -491,9 +491,9 @@ Olá {{1}}, seus produtos ainda estão no carrinho. Finalize agora e garanta 5% 
 
 ## Extra: encerramento
 
-### Mensagem de Conclusão da Conexão
+### Mensagem de conclusão da Conexão
 
-Onde: **Conexões › Editar › Mensagens › Mensagem de Conclusão**. Afirmação final, sem pergunta: se o cliente responder, abre um ticket novo.
+Onde: **Conexões › editar a conexão › aba Mensagens**, campo **Mensagem de conclusão**. Vale quando nem o atendente nem o Setor têm despedida própria. Afirmação final, sem pergunta: se o cliente responder, abre um ticket novo.
 
 ```
 Agradecemos o seu contato com a [Nome da Empresa]. Este atendimento foi encerrado. Sempre que precisar, é só nos chamar.
@@ -501,7 +501,7 @@ Agradecemos o seu contato com a [Nome da Empresa]. Este atendimento foi encerrad
 
 ### Mensagem de Despedida do atendente
 
-Onde: **Perfil › Mensagem de Despedida**. Só funciona se a Mensagem de Conclusão da Conexão também estiver preenchida.
+Onde: **Equipe › editar o usuário › aba Geral**, campo **Mensagem de Despedida**. Só funciona se a **Mensagem de conclusão** da Conexão também estiver preenchida. Para uma despedida por Setor, o campo é **Mensagem de despedida do setor**, na aba **Mensagens** do Setor.
 
 ```
 Foi um prazer te atender hoje! Estou encerrando este atendimento. Um ótimo dia para você.

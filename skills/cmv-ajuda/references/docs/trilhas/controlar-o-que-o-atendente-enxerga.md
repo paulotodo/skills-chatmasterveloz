@@ -10,7 +10,7 @@
 
 No sistema esse controle acontece em **duas camadas que se somam**. Elas não disputam entre si — cada uma governa uma coisa diferente:
 
-☑️ **As opções da empresa** definem o que a **função de atendente** pode fazer. Valem para todos os atendentes de uma vez, e ficam no menu **Configurações  ›  Opções**, na seção **Permissões e Visualização**. É delas que este artigo trata.
+☑️ **As opções da empresa** definem o que a **função de atendente** pode fazer. Valem para todos os atendentes de uma vez, e ficam no menu **Configurações  ›  Opções  ›  Atendimento**, na seção **Atendimento e operador** — a opção de importar e exportar contatos fica na aba **Contatos**. É delas que este artigo trata.
 
 ☑️ **O cadastro de cada pessoa** define o que **aquele usuário** alcança. É individual, e reúne o Tipo de Perfil, o Acesso Limitado e o acesso a áreas específicas. Você ajusta no menu **Equipe  ›  editar o usuário**.
 
@@ -22,13 +22,13 @@ No sistema esse controle acontece em **duas camadas que se somam**. Elas não di
 >
 > #### Resumo Prático
 >
-> ➡️ Acesse o menu **Configurações**.
+> ➡️ Acesse o menu **Configurações  ›  Opções  ›  Atendimento**.
 >
-> ➡️ Na aba **Opções**, desça até a seção **Permissões e Visualização**.
+> ➡️ Localize a seção **Atendimento e operador**.
 >
 > ➡️ Ajuste uma opção por vez e confira o efeito com um atendente antes de seguir para a próxima.
 >
-> ⚠️ Esta tela **não tem botão Salvar**: a mudança é gravada no instante em que você seleciona, e **passa a valer na hora** — o atendente não precisa recarregar a página nem sair e entrar. Não existe "experimentar e desistir".
+> ⚠️ Estas opções **não têm botão Salvar**: a mudança é gravada no instante em que você seleciona. Não existe "experimentar e desistir".
 
 ## Antes de ajustar opção por opção: o Acesso Limitado
 
@@ -41,6 +41,8 @@ Dentro da própria tela de conversas ele também perde o botão **Novo** — ou 
 ☑️ **Use quando:** a função daquela pessoa é receber e responder, e nada mais.
 
 ☑️ **Não use quando:** você quer bloquear só um ponto específico. Para isso, siga com as opções abaixo, que são cirúrgicas.
+
+Se o ponto é só impedir que a pessoa inicie atendimentos, o caminho fica no mesmo cadastro, aba **Permissões**: a opção **Pode iniciar novos atendimentos**. Com **NÃO**, o botão **Novo** some da lista de atendimentos dela, e cada linha de **Contatos** perde **Iniciar conversa** — sem cortar o menu. Aceitar, responder e transferir continuam iguais.
 
 ## Impedir que o atendente veja conversas que não são dele
 
@@ -56,11 +58,9 @@ Este é o pedido mais comum, e ele depende de três opções ao mesmo tempo. Dei
 
 🔘 **Operador Visualiza Históricos?** — controla se o atendente consegue abrir atendimentos já encerrados e ler o que foi conversado antes.
 
-⚠️ Existe também a opção **Operador Visualiza Tickets Fechados?**, marcada na própria tela como descontinuada. **Operador Visualiza Históricos?** é a versão nova dela: use a nova e deixe a antiga de lado.
-
 ## Proteger a base de contatos
 
-🔘 **Operador Importa / Exporta Contatos?** — em **Não**, o atendente perde os botões de importar e exportar. É a opção que impede alguém de levar a lista inteira de clientes embora num arquivo.
+🔘 **Operador Importa / Exporta Contatos?** — fica no menu **Configurações  ›  Opções  ›  Contatos**, seção **Contatos**. Em **Não**, o atendente perde os botões de importar e exportar. É a opção que impede alguém de levar a lista inteira de clientes embora num arquivo.
 
 ⚠️ Repare no alcance exato desta opção: ela tira **os botões de importar e exportar**, não o acesso à área de Contatos. Quem decide se a pessoa entra em Contatos é o cadastro dela, no menu **Equipe  ›  editar o usuário**. As duas têm nomes parecidos e governam alvos diferentes — um atendente pode continuar entrando em Contatos e mesmo assim não conseguir exportar nada.
 
@@ -68,35 +68,35 @@ Este é o pedido mais comum, e ele depende de três opções ao mesmo tempo. Dei
 
 ## Controlar o que o atendente decide ao responder
 
-🔘 **Operador Escolhe Conexão?** — em **Não**, o sistema define por qual número a mensagem sai, e o atendente não pode trocar.
+🔘 **Operador Escolhe Conexão?** — em **Não**, o sistema define por qual Conexão a mensagem é enviada, e o atendente não pode trocar.
 
-🔘 **Operador pode escolher ENVIAR Assinatura?** — define se o atendente pode ligar ou desligar a assinatura nas mensagens dele.
+🔘 **Operador Pode Escolher Enviar a Assinatura?** — define se o atendente pode ligar ou desligar a assinatura nas mensagens dele.
 
 🔘 **Operador Inicia Chat Interno?** — controla se o atendente pode puxar conversa com colegas pelo chat interno da plataforma.
 
 🔘 **Operador Visualiza Notificação Global?** — define se os avisos gerais da plataforma aparecem para o atendente.
 
-🔘 **Altera Aba ao Aceitar Ticket?** — em **Sim**, quando o atendente aceita um atendimento a tela dele muda sozinha da aba **Aguardando** para a aba **Atendendo**, já com o atendimento aceito aberto.
+🔘 **Muda de Aba ao Aceitar o Atendimento?** — em **Sim**, quando o atendente aceita um atendimento a tela dele muda sozinha da aba **Aguardando** para a aba **Atendendo**, já com o atendimento aceito aberto.
 
 ## Próximo Passo
 
 🧭 Definir o **Tipo de Perfil** de cada pessoa da equipe no menu **Equipe  ›  editar o usuário** — é a camada individual, que se soma a estas opções gerais.
 
-🧭 Revisar os demais campos da seção no menu **Configurações  ›  Opções  ›  Permissões e Visualização** — há mais opções ali do que as tratadas aqui.
+🧭 Revisar os demais campos da seção **Atendimento e operador**, no menu **Configurações  ›  Opções  ›  Atendimento** — há mais opções ali do que as tratadas aqui.
 
 > **[DUVIDAS]**
 >
 > #### Dúvidas Comuns
 >
-> **Consigo liberar uma permissão só para um atendente?** Não pela seção Permissões e Visualização. As opções dessa seção valem para todos os atendentes da empresa ao mesmo tempo. Para diferenciar pessoa a pessoa, use o cadastro daquele usuário no menu **Equipe  ›  editar o usuário** — é lá que ficam o Tipo de Perfil e o Acesso Limitado.
+> **Consigo liberar uma permissão só para um atendente?** Não pela seção **Atendimento e operador**. As opções dessa seção valem para todos os atendentes da empresa ao mesmo tempo. Para diferenciar pessoa a pessoa, use o cadastro daquele usuário no menu **Equipe  ›  editar o usuário** — é lá que ficam o Tipo de Perfil e o Acesso Limitado.
 >
-> **Liberei a permissão no cadastro do atendente e mesmo assim o botão não apareceu. Por quê?** Porque as opções da empresa são as únicas que podem remover uma capacidade da função de atendente, e o cadastro individual não devolve o que elas tiraram. Confira primeiro no menu **Configurações  ›  Opções  ›  Permissões e Visualização**.
+> **Liberei a permissão no cadastro do atendente e mesmo assim o botão não apareceu. Por quê?** Porque as opções da empresa são as únicas que podem remover uma capacidade da função de atendente, e o cadastro individual não devolve o que elas tiraram. Confira primeiro no menu **Configurações  ›  Opções  ›  Atendimento**, seção **Atendimento e operador**.
 >
 > **O atendente continua vendo as conversas antigas dele mesmo se eu bloquear o histórico?** A opção **Operador Visualiza Históricos?** controla o acesso a atendimentos encerrados. Os atendimentos abertos em nome dele continuam acessíveis normalmente.
 >
 > **Bloqueei tudo e o atendente ainda vê conversas de outros. Por quê?** Provavelmente uma das três opções de visualização ficou ligada. Confira **Operador Acessa Todos os Atendimentos do Setor?**, **Operador Pode Espiar Conversa? (Olhinho)** e **Operador Visualiza Prévias?** — as três juntas.
 >
-> **Qual a diferença entre o Acesso Limitado e desligar as opções uma a uma?** O Acesso Limitado é um corte geral: a pessoa fica só com a tela de conversas. As opções de Permissões e Visualização são cirúrgicas: você tira um recurso específico e mantém o resto. Use o primeiro quando a função é só responder; use as segundas quando quer ajustar um ponto.
+> **Qual a diferença entre o Acesso Limitado e desligar as opções uma a uma?** O Acesso Limitado é um corte geral: a pessoa fica só com a tela de conversas. As opções da seção **Atendimento e operador** são cirúrgicas: você tira um recurso específico e mantém o resto. Use o primeiro quando a função é só responder; use as segundas quando quer ajustar um ponto.
 >
 > **Antes eu via "Fila" e "Departamento" — sumiram?** Não sumiu o recurso, mudou o nome. Hoje a plataforma chama de **Setor** em todo lugar: o menu é **Setores & Chatbot** e o bloco do construtor de fluxos também virou Setor. A palavra "fila" continua aparecendo quando quer dizer *espera* — o cliente que aguarda atendimento está na fila de espera do Setor.
 >
@@ -112,6 +112,6 @@ Este é o pedido mais comum, e ele depende de três opções ao mesmo tempo. Dei
 >
 > **Bloquear só o "Olhinho" e achar que resolveu:** o atendente para de espiar, mas continua enxergando as conversas na lista se **Operador Acessa Todos os Atendimentos do Setor?** estiver em Sim. **Solução:** trate as três opções de visualização como um conjunto.
 >
-> **Usar o Acesso Limitado para resolver um bloqueio pequeno:** o campo corta o menu inteiro, e o atendente perde onze áreas de uma vez — inclusive a capacidade de iniciar um atendimento. **Solução:** para bloquear um ponto específico, use a opção correspondente em Permissões e Visualização.
+> **Usar o Acesso Limitado para resolver um bloqueio pequeno:** o campo corta o menu inteiro, e o atendente perde onze áreas de uma vez — inclusive a capacidade de iniciar um atendimento. **Solução:** para bloquear um ponto específico, use a opção correspondente no menu **Configurações  ›  Opções**; para tirar só o início de atendimentos, **Pode iniciar novos atendimentos** em **NÃO**, no menu **Equipe  ›  editar o usuário**.
 >
 > **Confundir "Operador Importa / Exporta Contatos?" com o acesso à área de Contatos:** desligar a primeira e esperar que o atendente perca a tela inteira. **Solução:** a opção da empresa tira os botões de importar e exportar; quem tira a área é o cadastro do usuário, no menu **Equipe  ›  editar o usuário**.

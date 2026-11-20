@@ -8,11 +8,13 @@
 
 🧩 Você divulga o WhatsApp num lugar, o site em outro e a loja em outro, e não sabe por onde o cliente chegou? Cada link a mais espalhado pelas redes é um lugar a mais para manter e uma informação a menos sobre o que funcionou.
 
-O **Link na Bio** é a página da empresa na internet, com um endereço só: foto, título, descrição e um botão para cada destino. Não é um link curto que leva a um lugar só: é uma página, e a plataforma conta quantas pessoas tocaram em cada botão e quantas viraram conversa.
+O **Link na Bio** é a página da empresa na internet: foto, título, descrição e um botão para cada destino. A empresa pode ter várias páginas, cada uma com o próprio endereço, e subpáginas dentro delas. Não é um link curto que leva a um lugar só: é uma página, e a plataforma conta quantas pessoas tocaram em cada botão e quantas viraram conversa.
 
 Ideal para:
 
 ☑️ **Bio das redes sociais:** Reúne os destinos da empresa num endereço só.
+
+☑️ **Páginas por campanha ou unidade:** Separa cada divulgação numa página própria, com o próprio endereço e os próprios botões.
 
 ☑️ **Medição da divulgação:** Mostra os toques de cada botão e quantos viraram conversa.
 
@@ -23,6 +25,8 @@ Ideal para:
 > #### Resumo Prático
 >
 > ➡️ Acesse o menu **Link na Bio**. Só o administrador tem esse menu.
+>
+> ➡️ Escolha a página em **Página**, ou crie outra em **Nova página**.
 >
 > ➡️ Preencha **Endereço da página**, **Título**, **Descrição** e **Foto (endereço da imagem)**.
 >
@@ -50,11 +54,27 @@ Acesse o menu **Link na Bio**:
 
 ⚠️ Trocar o **Endereço da página** tira o endereço antigo do ar na hora. Atualize o link nas redes e nos materiais de divulgação no mesmo momento. Os toques continuam nos botões.
 
+## As páginas e subpáginas do Link na Bio
+
+A empresa pode ter várias páginas no **Link na Bio**, cada uma com o próprio endereço, título e botões. No topo da tela:
+
+🔘 **Página:** escolhe a página aberta na tela. A subpágina aparece logo abaixo da página principal dela, com ↳ na frente.
+
+🔘 **Nova página:** abre a janela **Nova página**, com **Título** e **Endereço da página**. Cada página tem o próprio endereço.
+
+🔘 **Nova subpágina:** cria uma página dentro da página aberta, com o endereço da principal na frente — por exemplo `/bio/empresa/eventos`. Não existe subpágina de subpágina: com uma subpágina aberta, o botão fica desabilitado.
+
+🔘 **Apagar página:** apaga a página aberta e as subpáginas dela. A janela *"Apagar esta página?"* avisa que elas saem do ar e são apagadas, e isso não tem volta.
+
+Toda página nova do **Link na Bio** nasce **fora do ar**: monte os botões, ligue **Página no ar** e clique em **Salvar**.
+
+A subpágina só fica no ar com a página principal no ar. Com a principal desligada, quem abre a subpágina vê *"Esta página não está no ar."*, mesmo com a subpágina ligada. No topo da subpágina, um link com ← e o título da principal leva de volta a ela.
+
 ## Os botões do Link na Bio
 
 A página aceita até **30 botões**, mostrados um por linha, na mesma ordem da tela. Cada botão do **Link na Bio** tem:
 
-🔘 **Tipo:** o destino do botão, escolhido em **+ WhatsApp**, **+ Cardápio Digital**, **+ Link** ou **+ WebChat**.
+🔘 **Tipo:** o destino do botão, escolhido em **+ WhatsApp**, **+ Cardápio Digital**, **+ Link**, **+ WebChat** ou **+ Página**.
 
 🔘 **Texto do botão:** o que aparece na página, com até 60 caracteres. Todo botão precisa de um texto.
 
@@ -72,6 +92,8 @@ Cada tipo de botão leva a um destino:
 
 ➡️ **WebChat:** abre o chat do site ali mesmo, na página, pela **Conexão de WebChat** escolhida. O contato chega com a origem do botão.
 
+➡️ **Página:** leva a outra página ou subpágina do **Link na Bio**, escolhida em **Leva para a página**, na mesma aba. O botão só aparece com a página de destino no ar. Sem outra página criada, a tela pede *"Crie outra página para usar este botão."*
+
 ## Como saber que a conversa veio do Link na Bio
 
 Quando a conversa começa por um botão do **Link na Bio**, o painel do contato mostra o card **Veio do Link na Bio**, com o botão tocado, a data do toque e as marcações de campanha, quando houver.
@@ -83,6 +105,8 @@ Na conversa aberta pelo botão **WebChat**, a **nota interna** do atendimento ta
 No fim da tela, **Toques nos últimos 30 dias** mostra o total e uma tabela por botão:
 
 🔘 **Texto do botão:** o nome do botão.
+
+🔘 **Página:** a página onde o botão está.
 
 🔘 **Toques:** quantas vezes o botão foi tocado.
 
@@ -170,6 +194,10 @@ Os dois eventos trazem também `companyId`, o número da empresa, `enviadoEm`, a
 >
 > **Quem pode montar o Link na Bio?** Só o administrador. O menu **Link na Bio** não aparece para supervisor e atendente.
 >
+> **Dá para ter mais de uma página no Link na Bio?** Sim. Clique em **Nova página**: cada página tem o próprio endereço, e ela nasce fora do ar.
+>
+> **Apagar uma página do Link na Bio apaga as subpáginas?** Sim. As subpáginas saem do ar e são apagadas junto, e isso não tem volta.
+>
 > **Quem abre a página do Link na Bio precisa de login?** Não. A página é pública e abre no celular e no computador.
 >
 > **Troquei o Endereço da página do Link na Bio. O endereço antigo continua abrindo?** Não. O endereço antigo sai do ar na hora, e os toques continuam nos botões.
@@ -186,6 +214,8 @@ Os dois eventos trazem também `companyId`, o número da empresa, `enviadoEm`, a
 >
 > **A tela mostra "Todo botão precisa de um texto.":** há um botão com o **Texto do botão** em branco. **Solução:** preencha o texto ou remova o botão.
 >
-> **O botão não aparece na página do Link na Bio:** o botão está com **Ativo** desligado, ou é um botão **Cardápio Digital** com a loja fora do ar. **Solução:** ligue **Ativo** e clique em **Salvar**, ou coloque a loja no ar.
+> **O botão não aparece na página do Link na Bio:** o botão está com **Ativo** desligado, é um botão **Cardápio Digital** com a loja fora do ar, ou é um botão **Página** com a página de destino fora do ar. **Solução:** ligue **Ativo** e clique em **Salvar**, coloque a loja no ar, ou ligue **Página no ar** na página de destino.
+>
+> **A subpágina mostra "Esta página não está no ar.":** a página principal dela está fora do ar. **Solução:** ligue **Página no ar** na página principal e clique em **Salvar**.
 >
 > **A tela mostra "O webhook precisa ser um endereço http:// ou https:// de fora do servidor.":** o endereço do campo **Webhook do Link na Bio** não vale. **Solução:** informe o endereço público do outro sistema, começando com `http://` ou `https://`.

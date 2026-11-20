@@ -6,13 +6,27 @@
 
 ---
 
-![imagem](https://clihelper.chatmasterveloz.com/docs-imagem/23623-chats-informacoes-contato-1024x546.jpg)Ao clicar no contato do ticket, uma aba lateral é aberta com mais **informações sobre o contato**. Você pode **Editar o Contato** nessa parte lateral, assim como adicionar **Observações** sobre a conversa.
+![Painel Dados do contato aberto ao lado da conversa, com o contato, Editar contato e Observações do Contato](https://clihelper.chatmasterveloz.com/docs-imagem/23623-chats-informacoes-contato-1024x546.jpg)Ao clicar no nome do contato, no topo do ticket, uma aba lateral é aberta com mais **informações sobre o contato**. Clicar de novo no nome fecha a aba. Você pode **Editar o Contato** nessa parte lateral, assim como adicionar **Observações** sobre a conversa.
 
 Essa seção lateral pode ser personalizada para cada conexão, através de um iframe externo que recebe os dados do ticket, tornando a experiência ainda mais exclusiva.
 
+## Os cards do painel do contato
+
+O painel do contato mostra também estes cards, nesta ordem:
+
+🔘 **Pedidos:** aparece quando o **PDV** faz parte do seu plano, com os pedidos do contato. No topo do card, o botão **Novo pedido** abre a janela **Novo pedido**, com o pedido ligado a este atendimento. Com o atendimento encerrado, o card não mostra o **Novo pedido**.
+
+🔘 **Consultório:** aparece quando o **Consultório** faz parte do seu plano, com as consultas do contato.
+
+🔘 **Oportunidades:** aparece quando o **CRM** faz parte do seu plano, com as oportunidades do contato. No topo do card, o botão **Nova oportunidade** abre a janela **Adicionar Oportunidade**, com o contato da conversa já preenchido, e a oportunidade salva fica ligada a este atendimento. O botão continua no card mesmo com o atendimento encerrado.
+
+🔘 **Projetos:** aparece quando os **Projetos** fazem parte do seu plano, com os projetos do contato.
+
+🔘 **Tarefas:** as tarefas do contato que ainda não foram concluídas, com o botão **Nova tarefa**, que cria a tarefa já ligada a este atendimento.
+
 ## Iframe Externo de Contato
 
-Para adicionar um iframe lateral em uma conexão acesse → Conexões > editar Conexão
+Para adicionar um iframe lateral em uma conexão, acesse o menu **Conexões** e edite a conexão.
 
 No campo "**Iframe Externo - Integração / Contato**" digite a URL completa de sua página que será carregada na parte lateral via iframe.
 

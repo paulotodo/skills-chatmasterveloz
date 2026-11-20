@@ -14,7 +14,7 @@ Cada Setor tem o próprio expediente. O suporte pode atender de segunda a sábad
 >
 > #### Resumo Prático
 >
-> ➡️ No menu **Configurações  ›  Opções**, confira o **Fuso horário da empresa** e, em **Gerenciamento de Expediente**, escolha **Gerenciamento Por Setor**.
+> ➡️ No menu **Configurações  ›  Opções  ›  Geral**, confira o **Fuso horário da empresa**, na seção **Empresa e região**, e, em **Gerenciamento de Expediente**, escolha **Gerenciamento Por Setor**.
 >
 > ➡️ Volte ao menu **Setores & Chatbot**, edite o Setor e abra a aba **Horários**.
 >
@@ -24,15 +24,15 @@ Cada Setor tem o próprio expediente. O suporte pode atender de segunda a sábad
 
 Ao abrir a aba pela primeira vez, é comum encontrar só um aviso, sem campo nenhum:
 
-> *"Para gerir o horário de funcionamento do setor, habilite esta funcionalidade em "Configurações -> Opções -> Gerenciamento de Expediente""*
+> *"Para gerir o horário de funcionamento do setor, habilite esta funcionalidade em "Configurações → Opções → Geral → Gerenciamento de Expediente""*
 
-Isso não é erro. O controle de expediente é ligado uma vez para a empresa inteira, no menu **Configurações  ›  Opções**: na opção **Gerenciamento de Expediente**, escolha **Gerenciamento Por Setor**. Só depois disso cada Setor pode ter o seu. Enquanto a opção estiver em **Desabilitado**, todos os Setores atendem a qualquer hora.
+Isso não é erro. O controle de expediente é ligado uma vez para a empresa inteira, no menu **Configurações  ›  Opções  ›  Geral**: na opção **Gerenciamento de Expediente**, escolha **Gerenciamento Por Setor**. Só depois disso cada Setor pode ter o seu. Enquanto a opção estiver em **Desabilitado**, todos os Setores atendem a qualquer hora.
 
-Na mesma seção de Configurações ficam outros dois campos que mudam como o expediente se comporta, e vale ajustá-los antes de voltar aqui:
+Na mesma aba **Geral** ficam outros dois campos que mudam como o expediente se comporta, e vale ajustá-los antes de voltar aqui:
 
-🔘 **Fuso horário da empresa** — define em que fuso os horários que você digitar serão lidos. Vale para o expediente, para os agendamentos e para as campanhas. Sem escolha, o sistema usa o horário de Brasília: quem opera em Campo Grande veria o disparo ser enviado uma hora antes do marcado.
+🔘 **Fuso horário da empresa** (seção **Empresa e região**) — define em que fuso os horários que você digitar serão lidos. Vale para o expediente, para os agendamentos e para as campanhas. Sem escolha, o sistema usa o horário de Brasília: quem opera em Campo Grande veria o disparo ser enviado uma hora antes do marcado.
 
-🔘 **Abrir Tickets Fora do Expediente?** — decide o que acontece com a mensagem que chega com o Setor fechado. Em **Sim**, a conversa entra no Setor e o cliente recebe a **Mensagem de fora de expediente** e a saudação do Setor. Em **Não**, o cliente recebe só a **Mensagem de fora de expediente** e o atendimento é encerrado em seguida: a conversa não entra no Setor nem fica esperando na lista da equipe.
+🔘 **Abrir Atendimentos Fora do Expediente?** (seção **Gerenciamento de Expediente**) — decide o que acontece com a mensagem que chega com o Setor fechado. Em **Sim**, a conversa entra no Setor e o cliente recebe a **Mensagem de fora de expediente** e a saudação do Setor. Em **Não**, o cliente recebe só a **Mensagem de fora de expediente** e o atendimento é encerrado em seguida: a conversa não entra no Setor nem fica esperando na lista da equipe.
 
 ⚠️ O fuso é da **empresa inteira**, não de cada Setor. Não dá para ter um Setor em Brasília e outro em Campo Grande com horários próprios — todos leem o mesmo fuso.
 
@@ -78,7 +78,7 @@ O que o cliente lê quando escreve com o Setor fechado fica na aba **Mensagens**
 >
 > #### Dúvidas Comuns
 >
-> **A aba Horários está vazia, só com um aviso. O recurso não existe no meu plano?** Não é o plano. O controle de expediente precisa ser habilitado uma vez para a empresa no menu **Configurações  ›  Opções**, escolhendo **Gerenciamento Por Setor** na opção **Gerenciamento de Expediente**. Depois disso os campos aparecem em todos os Setores.
+> **A aba Horários está vazia, só com um aviso. O recurso não existe no meu plano?** Não é o plano. O controle de expediente precisa ser habilitado uma vez para a empresa no menu **Configurações  ›  Opções  ›  Geral**, escolhendo **Gerenciamento Por Setor** na opção **Gerenciamento de Expediente**. Depois disso os campos aparecem em todos os Setores.
 >
 > **O horário vale para a empresa inteira ou por Setor?** A opção que liga o recurso é da empresa; o horário em si é de cada Setor. Você pode ter o suporte atendendo aos sábados e o financeiro não.
 >
@@ -88,11 +88,11 @@ O que o cliente lê quando escreve com o Setor fechado fica na aba **Mensagens**
 >
 > **Como deixo um dia aberto o dia todo no Setor?** Deixe Horário Inicial e Horário Final daquele dia em branco. Com os dois em 00:00, o dia fica fechado.
 >
-> **O que acontece com quem manda mensagem fora do horário?** Depende da opção **Abrir Tickets Fora do Expediente?**, no menu **Configurações  ›  Opções**. Com ela em **Sim**, a conversa entra no Setor e o cliente recebe a **Mensagem de fora de expediente** e a saudação. Com ela em **Não**, o cliente recebe só a **Mensagem de fora de expediente** e o atendimento é encerrado, sem entrar no Setor.
+> **O que acontece com quem manda mensagem fora do horário?** Depende da opção **Abrir Atendimentos Fora do Expediente?**, no menu **Configurações  ›  Opções  ›  Geral**, seção **Gerenciamento de Expediente**. Com ela em **Sim**, a conversa entra no Setor e o cliente recebe a **Mensagem de fora de expediente** e a saudação. Com ela em **Não**, o cliente recebe só a **Mensagem de fora de expediente** e o atendimento é encerrado, sem entrar no Setor.
 >
-> **Com Abrir Tickets Fora do Expediente? em Não, a equipe vê a conversa que chegou fora do horário?** Não na lista de espera: o cliente recebe a **Mensagem de fora de expediente** e o atendimento é encerrado na hora. Para a conversa ficar esperando a equipe no dia seguinte, use **Sim**.
+> **Com Abrir Atendimentos Fora do Expediente? em Não, a equipe vê a conversa que chegou fora do horário?** Não na lista de espera: o cliente recebe a **Mensagem de fora de expediente** e o atendimento é encerrado na hora. Para a conversa ficar esperando a equipe no dia seguinte, use **Sim**.
 >
-> **Configurei 08:00 e o expediente começa em outro horário. Por quê?** Provavelmente o fuso. O campo **Fuso horário da empresa**, no menu **Configurações  ›  Opções**, define em que fuso os horários são lidos. Sem escolha, vale o horário de Brasília — quem opera em Campo Grande vê tudo uma hora deslocado.
+> **Configurei 08:00 e o expediente começa em outro horário. Por quê?** Provavelmente o fuso. O campo **Fuso horário da empresa**, no menu **Configurações  ›  Opções  ›  Geral**, seção **Empresa e região**, define em que fuso os horários são lidos. Sem escolha, vale o horário de Brasília — quem opera em Campo Grande vê tudo uma hora deslocado.
 >
 > **Cada Setor pode ter um fuso diferente?** Não. O fuso é da empresa inteira. Os horários de todos os Setores são lidos no mesmo fuso.
 
@@ -100,7 +100,7 @@ O que o cliente lê quando escreve com o Setor fechado fica na aba **Mensagens**
 >
 > #### Erros Comuns
 >
-> **Procurar os campos sem ter habilitado o expediente:** a aba mostra só um aviso e o administrador conclui que o recurso não está disponível. **Solução:** no menu **Configurações  ›  Opções**, escolha **Gerenciamento Por Setor** em **Gerenciamento de Expediente** e volte à aba.
+> **Procurar os campos sem ter habilitado o expediente:** a aba mostra só um aviso e o administrador conclui que o recurso não está disponível. **Solução:** no menu **Configurações  ›  Opções  ›  Geral**, escolha **Gerenciamento Por Setor** em **Gerenciamento de Expediente** e volte à aba.
 >
 > **Ligar o expediente sem conferir os Setores:** cada Setor passa a seguir o horário que já estava na aba **Horários** dele, e um Setor que deveria atender a qualquer hora começa a responder como fechado. **Solução:** antes de ligar, abra a aba **Horários** de cada Setor e ajuste — no Setor que atende o dia todo, deixe os dias em branco.
 >

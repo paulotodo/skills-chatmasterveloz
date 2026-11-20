@@ -36,6 +36,12 @@ Pelos dois caminhos, a plataforma pergunta *"Excluir tarefa?"* e avisa: *"A tare
 
 A tarefa sai da lista e vai para **Excluídas**, com os comentários e os anexos. O **Histórico** da tarefa ganha a linha *Excluiu a tarefa (foi para a lixeira)*, com quem fez e quando.
 
+## Excluir várias tarefas de uma vez
+
+Na lista de **Tarefas**, marque a caixa **Marcar tarefa** de cada tarefa, ou **Selecionar esta página** para marcar as tarefas da página. Com a página marcada, **Selecionar todas as N tarefas do filtro** marca todas as que o filtro mostra, também nas outras páginas.
+
+Clique em **Excluir selecionadas**. A plataforma pergunta *"Excluir N tarefa(s)?"* e avisa: *"Elas vão para Excluídas, e dá para restaurar depois."* Confirmando, a tela mostra o andamento e, no fim, quantas tarefas foram excluídas.
+
 ## Como restaurar uma Tarefa excluída
 
 Acesse o menu **Tarefas** e clique em **Excluídas**, no topo da tela.
@@ -55,6 +61,8 @@ A janela **Tarefas excluídas** mostra cada tarefa com quem excluiu e quando, no
 > **Excluí uma tarefa sem querer, tem como recuperar?** Sim. No menu **Tarefas**, clique em **Excluídas** e em **Restaurar**: a tarefa volta ao mesmo projeto e à mesma etapa, com o histórico. Só não dá para recuperar a tarefa apagada com **Excluir de vez**.
 >
 > **Excluir a tarefa apaga os comentários dela?** Não: os comentários e os anexos vão junto para **Excluídas**, e a tarefa restaurada volta com os comentários.
+>
+> **Dá para excluir várias tarefas de uma vez?** Dá. Na lista de **Tarefas**, marque as tarefas (ou **Selecionar esta página**) e clique em **Excluir selecionadas**. Todas vão para **Excluídas**, de onde podem ser restauradas.
 >
 > **Quem pode excluir uma tarefa?** Quem tem acesso a ela. Já o **Excluir de vez**, que apaga para sempre, é do administrador.
 >

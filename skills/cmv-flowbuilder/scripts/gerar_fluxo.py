@@ -30,7 +30,7 @@ UMA = {"": "a"}  # bloco de uma saída só: a ligação não precisa dizer a sa�
 # Fatos dos artigos bloco-horario-de-expediente.md e aba-horarios-em-setores-e-chatbot.md (references/docs/recursos/).
 HORARIO_NA_EMPRESA = [
     "O horário não vai no arquivo nem fica no bloco: vem da aba Horários do Setor escolhido no bloco (menu Setores & Chatbot › editar o Setor › aba Horários). Quem preenche é a pessoa, no painel: não ofereça arquivo “já com os horários” (no arquivo, horário só entra como texto de mensagem).",
-    "A aba Horários só aparece com o Gerenciamento de Expediente em Gerenciamento Por Setor, no menu Configurações › Opções. Sem isso, não há horário para o bloco conferir.",
+    "A aba Horários só aparece com o Gerenciamento de Expediente em Gerenciamento Por Setor, no menu Configurações › Opções › Geral. Sem isso, não há horário para o bloco conferir.",
     "Ligar o Gerenciamento Por Setor vale para a empresa inteira: todos os Setores passam a seguir o horário que já está na aba Horários de cada um, inclusive os que ninguém nunca abriu. Mande conferir a aba de todos os Setores, não só a do Setor do bloco.",
 ]
 
@@ -77,6 +77,8 @@ def construir(b):
         for item in b["itens"]:
             if isinstance(item, bool) or not isinstance(item, (str, int)) or item == "":
                 raise ValueError("cada item é um texto (mensagem) ou um número inteiro (segundos de intervalo)")
+            if isinstance(item, int) and not 1 <= item <= 120:
+                raise ValueError("o intervalo dentro do Conteúdo vai de 1 a 120 segundos; para esperar mais, use o bloco Intervalo")
             especie = "message" if isinstance(item, str) else "interval"
             itens.append({"type": especie, "value": str(item), "number": f"{especie}{conta[especie]}"})
             conta[especie] += 1
@@ -129,6 +131,8 @@ def construir(b):
     if tipo == "intervalo":
         if isinstance(b["segundos"], bool) or not isinstance(b["segundos"], int):
             raise ValueError("segundos é um número inteiro")
+        if not 1 <= b["segundos"] <= 120:
+            raise ValueError("segundos vai de 1 a 120: com mais de 2 minutos o bloco ganha a saída Janela expirada, que não tem formato observado; monte essa espera no editor")
         return "interval", {"label": f"Intervalo {b['segundos']} seg.", "sec": str(b["segundos"])}, 195, 92, UMA, None
     if tipo == "msg_interna":
         return "internal", {"message": b["mensagem"], "arrayOption": []}, 198, 92, UMA, None
@@ -319,7 +323,9 @@ def autoteste():
     recusa("saída não informada", lambda d: d["ligacoes"].append(["menu", "fim"]), "escreva [origem, saída, destino]")
     recusa("saída de bloco final", lambda d: d["ligacoes"].append(["fim", "ola"]), "bloco final")
     recusa("condição sem formato", lambda d: d["blocos"][6].update(compara="horario"), "não têm formato observado")
-    print("Autoteste do gerador: tudo certo (exemplo de assets, fluxo com os 14 tipos e 9 descrições recusadas).")
+    recusa("intervalo longo", lambda d: d["blocos"][4].update(segundos=300), "Janela expirada")
+    recusa("intervalo longo no Conteúdo", lambda d: d["blocos"][0].update(itens=["Olá", 300]), "de 1 a 120 segundos")
+    print("Autoteste do gerador: tudo certo (exemplo de assets, fluxo com os 14 tipos e 11 descrições recusadas).")
     return 0
 
 

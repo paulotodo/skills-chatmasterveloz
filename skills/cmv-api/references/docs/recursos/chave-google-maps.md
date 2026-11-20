@@ -18,7 +18,7 @@ A chave é opcional: com o **OpenStreetMap (grátis)**, o rastreio funciona sem 
 >
 > ➡️ Crie a **Chave de API** e restrinja ao endereço do seu painel.
 >
-> ➡️ Na plataforma, acesse o menu **Configurações  ›  Opções**, escolha **Google Maps** em **Mapa do rastreio da entrega**, cole a chave em **Chave da API do Google** e clique em **Salvar**.
+> ➡️ Na plataforma, acesse o menu **Configurações  ›  Opções  ›  Vendas**, seção **PDV**, escolha **Google Maps** em **Mapa do rastreio da entrega**, cole a chave em **Chave da API do Google** e clique em **Salvar**.
 
 ## Como criar a chave no Google Cloud
 
@@ -44,7 +44,7 @@ A chave é opcional: com o **OpenStreetMap (grátis)**, o rastreio funciona sem 
 
 ## Como integrar o Google Maps à nossa plataforma
 
-Acesse o menu **Configurações  ›  Opções**
+Acesse o menu **Configurações  ›  Opções  ›  Vendas**, seção **PDV**. No índice do topo da aba, **Mapa do rastreio da entrega** leva direto ao bloco.
 
 🔘 **Mapa do rastreio da entrega:** escolha **Google Maps**.
 

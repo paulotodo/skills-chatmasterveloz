@@ -4,13 +4,20 @@ subarvore:Agendamentos
 plataforma:recursos/mensagem-template.md
 plataforma:recursos/whatsapp-oficial-gestao-de-templates.md
 plataforma:recursos/bloco-template.md
+# Conexões › WhatsApp: criar template (plataforma e Meta), recusa e pausa, erros de entrega, limite e pagamento
+plataforma:recursos/criar-template-pela-plataforma.md
+plataforma:recursos/criar-template-no-gerenciador-do-whatsapp.md
+plataforma:recursos/template-recusado-pausado-ou-desabilitado.md
+plataforma:recursos/erros-de-entrega-do-whatsapp-oficial.md
+plataforma:recursos/qualidade-do-numero-e-limite-de-envio.md
+plataforma:recursos/forma-de-pagamento-do-whatsapp-oficial.md
 plataforma:recursos/janela-de-atendimento.md
 plataforma:recursos/limitador-de-mensagens.md
 plataforma:recursos/entenda-a-api-oficial.md
 plataforma:recursos/whatsapp-oficial-x-nao-oficial.md
 plataforma:recursos/numero-bloqueado-no-whatsapp.md
 plataforma:recursos/mensagem-de-aniversario.md
-plataforma:recursos/mensagem-de-aniversario-em-configuracoes.md
+plataforma:recursos/mensagens-automaticas-em-configuracoes.md   # Mensagem de Aniversário, Saída Forçada e Encaminhamento
 plataforma:recursos/gatilho-via-campanha.md
 plataforma:recursos/gatilho-via-resposta-rapida.md
 plataforma:recursos/aba-mensagens-em-setores-e-chatbot.md
@@ -31,3 +38,4 @@ plataforma:recursos/whatsapp-modo-hibrido-oficial-e-qrcode.md
 plataforma:recursos/adicionar-whatsapp-oficial.md
 plataforma:recursos/avaliacoes-em-configuracoes.md
 plataforma:recursos/remarketing-em-tags.md
+plataforma:recursos/editar-mensagem-enviada-ao-cliente.md   # corrigir a mensagem já enviada

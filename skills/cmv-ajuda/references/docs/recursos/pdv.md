@@ -18,9 +18,9 @@ O **PDV** (ponto de venda) junta tudo isso na plataforma: o pedido é montado na
 
 ⚡ **Vender** — o pedido na conversa, os pagamentos e a venda no balcão, sem atendimento.
 
-⚡ **Preparar e entregar** — o painel de pedidos da cozinha, os entregadores e o rastreio que o cliente acompanha.
+⚡ **Preparar e entregar** — o painel de pedidos da cozinha, que pode ser dividido por setor de produção, os entregadores e o rastreio que o cliente acompanha.
 
-⚡ **Acompanhar** — a lista de pedidos e o relatório do PDV.
+⚡ **Acompanhar** — a lista de pedidos, os clientes e o relatório do PDV.
 
 ## O que decidir antes de começar
 

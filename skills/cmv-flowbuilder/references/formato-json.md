@@ -233,7 +233,7 @@ Saídas: `regra-<id da regra>` para cada regra e `fallback` para **Nenhuma condi
 "data": { "label": "Intervalo 2 seg.", "sec": "2" }
 ```
 
-`sec` é o tempo em segundos, como texto; `label` repete o tempo. O artigo limita o bloco a 120 segundos. Saída: `a`.
+`sec` é o tempo em segundos, como texto; `label` repete o tempo. Saída: `a`. O artigo aceita hoje de 1 segundo a 24 horas, em **Segundos**, **Minutos** ou **Horas**, e dá ao bloco com mais de 2 minutos a saída **Janela expirada**; os arquivos observados são de antes disso, então a **Unidade**, a escolha **Se o cliente responder durante a espera** e essa saída não têm formato observado. O gerador fica em até 120 segundos.
 
 ### `internal` (Msg Interna)
 
@@ -314,9 +314,9 @@ Sem os IDs, use marcadores: `"sec": 0` e `"secName": "TROCAR: Setor Comercial"` 
 
 Para estes, **não gere JSON**. Use o roteiro de montagem, ou importe o que dá e complete no editor.
 
-Asaas, Avaliação do Atendimento, Botões, Carrossel de Produtos, Contato, É Seguidor?, Encerrar Mensagem Rápida, Enviar Figurinha, Enviar Localização, GPT Assistant (OpenAI), HTTP Request, Link do Chat Externo, Operador, Oportunidade, PDV (pedido no fluxo), Pixel META, Pular para, Randomizador, Remover Tag, Responder Comentário, Retornar último atendimento, Rodízio, Template, Trocar Fluxo, Typebot, Webview.
+Asaas, Avaliação do Atendimento, Botões, Carrossel de Produtos, Contato, É Seguidor?, Encerrar Mensagem Rápida, Enviar Figurinha, Enviar Localização, GPT Assistant (OpenAI), HTTP Request, Link do Chat Externo, Operador, Oportunidade, PDV (pedido no fluxo), Pixel META, Pular para, Randomizador, Remover Tag, Reservas (agendar no fluxo), Responder Comentário, Retornar último atendimento, Rodízio, Template, Trocar Fluxo, Typebot, Webview.
 
-Também sem formato observado, dentro de blocos conhecidos: Menu em Texto e Menu em Botões; itens Áudio, Vídeo e Arquivo do Conteúdo; os tipos de Condição fora dos três da seção 7; as comparações do Switch (tags) fora de **possui a tag**; **Sem resposta** na Pergunta; **Setor vinculado ao fluxo** no Horário de Expediente.
+Também sem formato observado, dentro de blocos conhecidos: Menu em Texto e Menu em Botões; itens Áudio, Vídeo e Arquivo do Conteúdo; os tipos de Condição fora dos três da seção 7; as comparações do Switch (tags) fora de **possui a tag**; **Sem resposta** na Pergunta; **Setor vinculado ao fluxo** no Horário de Expediente; Intervalo com mais de 2 minutos (saída **Janela expirada**), em **Minutos** ou **Horas**, ou com **Cancelar a espera (o fluxo para aqui)**.
 
 ## 10. Como gerar e conferir
 

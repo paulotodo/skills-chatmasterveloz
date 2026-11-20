@@ -36,7 +36,7 @@ Bearer {seutokenaqui}
 
 ➡️ Esta chamada não tem payload.
 
-◽ São as regras do bloco *Desconto e taxa por forma de pagamento*, no menu **Configurações  ›  Opções**, seção PDV.
+◽ São as regras do bloco *Desconto e taxa por forma de pagamento*, no menu **Configurações  ›  Opções  ›  Vendas**, seção **PDV**.
 
 ◽ Em `formas` vem uma chave por forma: `dinheiro`, `pix`, `cartao`, `boleto` e `outro`. A forma sem regra não vem.
 

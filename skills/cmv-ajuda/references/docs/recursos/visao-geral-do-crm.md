@@ -32,7 +32,7 @@
 
 🔘 **Produtos:** o catálogo usado nas oportunidades e nas propostas.
 
-🔘 **Oportunidades:** a lista das oportunidades da empresa, de todos os funis, com busca.
+🔘 **Oportunidades:** a lista das oportunidades, em cards ou numa tabela, com busca e filtros por período, vendedor, produto, cliente e situação.
 
 🔘 **Board:** o quadro de um funil, com uma coluna por etapa e um card por oportunidade.
 
@@ -40,7 +40,7 @@
 
 🔘 **Relatório de vendas:** o que foi vendido e perdido no período, com gráficos e a lista das vendas.
 
-🔘 **Ranking:** a classificação dos vendedores pelo que venderam.
+🔘 **Ranking:** a classificação do que foi vendido no período, por vendedor, equipe, unidade ou funil, com o pódio e as metas do mês.
 
 🔘 **Auditoria de Vendas:** a conferência das vendas ganhas em funil que exige auditoria. O item só entra no menu depois que alguma venda passa a esperar conferência.
 
@@ -52,6 +52,6 @@
 >
 > #### Dúvidas Comuns
 >
-> **O meu menu CRM tem menos itens que o do meu colega.** Os itens variam com o perfil: o atendente tem quatro telas; administrador e supervisor têm as demais.
+> **O meu menu CRM tem menos itens que o do meu colega.** Os itens variam com o perfil e com as permissões de cada pessoa, no cadastro dela, no menu **Equipe**.
 >
 > **Onde fica a Auditoria de Vendas?** No menu **CRM**, depois que alguma venda ganha passa a esperar conferência num funil que exige auditoria. Antes disso, o item não aparece.

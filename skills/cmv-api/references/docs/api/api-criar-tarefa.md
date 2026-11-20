@@ -38,7 +38,18 @@ Bearer {seutokenaqui}
     "priority": "high",
     "assignedTo": 4,
     "ticketId": 700,
-    "dueDate": "2028-12-30T23:59:59.000Z",
+    "dueDate": "2028-12-30",
+    "startTime": "09:00",
+    "endTime": "10:30",
+    "reminderMinutes": 15,
+    "tipo": "reuniao",
+    "sala": "nossa",
+    "sharedWith": [5],
+    "isRecurring": true,
+    "recurringPattern": "weekly",
+    "recurringOptions": {
+        "daysOfWeek": [1, 3]
+    },
     "checklist": [
         {
             "texto": "Separar a proposta"
@@ -53,7 +64,7 @@ Bearer {seutokenaqui}
 
 ➡️ **“createdBy”:** ID do atendente que está criando a tarefa. **Obrigatório.**
 
-◽ Este campo **não é conferido** contra a empresa: um id de outra empresa é gravado do mesmo jeito. Informe um atendente da sua.
+◽ Precisa ser um atendente da sua empresa: de outra, a chamada é recusada.
 
 ➡️ **“title”:** título da tarefa. **Obrigatório.**
 
@@ -67,17 +78,39 @@ Bearer {seutokenaqui}
 
 ➡️ **“ticketId”:** ID do Ticket ao qual a tarefa fica vinculada.
 
-➡️ **“dueDate”:** data de vencimento, no formato ISO 8601 — `AAAA-MM-DDTHH:mm:ss.sssZ`.
+➡️ **“dueDate”:** data de vencimento. Só a data, `AAAA-MM-DD`, é gravada ao meio-dia UTC, para não escorregar um dia por causa do fuso.
 
-◽ Também aceita só a data, `AAAA-MM-DD`: nesse caso ela é gravada ao meio-dia UTC, para não escorregar um dia por causa do fuso.
+◽ Também aceita data e hora no formato ISO 8601 — `AAAA-MM-DDTHH:mm:ss.sssZ`.
+
+➡️ **“startTime”:** horário de início, `HH:MM`, no fuso da empresa. Vazio ou `null`: a tarefa fica sem horário.
+
+➡️ **“endTime”:** horário de fim, no mesmo formato. Não pode vir antes do início.
+
+➡️ **“reminderMinutes”:** o lembrete, em minutos antes: `5`, `15`, `30`, `60`, `120` ou `1440` — as opções da janela **Editar Tarefa**. Vazio, `null` ou `0`: sem lembrete.
+
+➡️ **“tipo”:** `lembrete`, `reuniao`, `ligacao`, `email`, `visita` ou `tarefa`. Vazio: sem tipo.
+
+➡️ **“sala”:** só na reunião — `nossa` (a sala de vídeo da plataforma), `meet` (o Google Meet, pela agenda) ou `nenhuma`.
+
+➡️ **“sharedWith”:** os IDs dos atendentes da empresa com quem a tarefa é compartilhada.
+
+➡️ **“isRecurring”:** `true` para a tarefa se repetir: ao concluir, nasce a próxima. Com `true`, o `recurringPattern` é obrigatório.
+
+➡️ **“recurringPattern”:** `daily`, `weekly`, `monthly` ou `yearly`.
+
+➡️ **“recurringOptions”:** só no semanal — os dias em `daysOfWeek`, de `0` (domingo) a `6` (sábado).
 
 ➡️ **“checklist”:** os itens da tarefa, um objeto por item, com `texto` e, se quiser, `feito` (`true` quando o item já foi feito).
 
 ◽ No máximo 100 itens, de até 500 caracteres cada. Item sem texto é descartado.
 
+➡️ **“sincronizarAgenda”:** fora do exemplo. `true` põe a tarefa na agenda do Google do responsável, como a opção da janela; `false` tira.
+
 ◽ A tarefa nasce como **pendente**.
 
-◽ Qualquer falha responde **erro de servidor** — inclusive título vazio ou `createdBy` ausente. Não é sinal de que a plataforma está com problema.
+◽ A janela **Editar Tarefa** mostra o que a chamada gravou — o tipo, a sala, o lembrete e a repetição —, e o histórico da tarefa diz que ela foi criada *Pela API*.
+
+◽ Quando algo vem fora do esperado — título vazio, `createdBy` ausente ou de outra empresa, um valor que o campo não aceita —, a chamada é recusada e a resposta diz qual campo corrigir.
 
 #### Utilize o código em requisições HTTPS com ferramentas como cURL ou bibliotecas de integração.
 
@@ -102,7 +135,18 @@ curl_setopt_array($curl, array(
     "priority": "high",
     "assignedTo": 4,
     "ticketId": 700,
-    "dueDate": "2028-12-30T23:59:59.000Z",
+    "dueDate": "2028-12-30",
+    "startTime": "09:00",
+    "endTime": "10:30",
+    "reminderMinutes": 15,
+    "tipo": "reuniao",
+    "sala": "nossa",
+    "sharedWith": [5],
+    "isRecurring": true,
+    "recurringPattern": "weekly",
+    "recurringOptions": {
+        "daysOfWeek": [1, 3]
+    },
     "checklist": [
         {
             "texto": "Separar a proposta"
@@ -128,5 +172,5 @@ echo $response;
 cURL:
 
 ```bash
-curl -X POST 'https://api2.chatmasterveloz.com/api/tasks/create' -H 'Authorization: Bearer {seutokenaqui}' -H 'Content-Type: application/json' --data '{"createdBy":1,"title":"Nova tarefa via API","description":"Descrição da tarefa","priority":"high","assignedTo":4,"ticketId":700,"dueDate":"2028-12-30T23:59:59.000Z","checklist":[{"texto":"Separar a proposta"},{"texto":"Enviar ao cliente","feito":false}]}'
+curl -X POST 'https://api2.chatmasterveloz.com/api/tasks/create' -H 'Authorization: Bearer {seutokenaqui}' -H 'Content-Type: application/json' --data '{"createdBy":1,"title":"Nova tarefa via API","description":"Descrição da tarefa","priority":"high","assignedTo":4,"ticketId":700,"dueDate":"2028-12-30","startTime":"09:00","endTime":"10:30","reminderMinutes":15,"tipo":"reuniao","sala":"nossa","sharedWith":[5],"isRecurring":true,"recurringPattern":"weekly","recurringOptions":{"daysOfWeek":[1,3]},"checklist":[{"texto":"Separar a proposta"},{"texto":"Enviar ao cliente","feito":false}]}'
 ```

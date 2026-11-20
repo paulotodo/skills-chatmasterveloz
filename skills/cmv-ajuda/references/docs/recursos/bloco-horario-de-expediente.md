@@ -24,7 +24,7 @@ Ideal para:
 >
 > #### Resumo Prático
 >
-> ➡️ Ligue o **Gerenciamento de Expediente** no menu **Configurações  ›  Opções** e cadastre os horários do Setor.
+> ➡️ Ligue o **Gerenciamento de Expediente** no menu **Configurações  ›  Opções  ›  Geral** e cadastre os horários do Setor.
 >
 > ➡️ No menu **FlowBuilder Nativo**, abra o fluxo, clique no **+** e escolha **Horário de Expediente**.
 >
@@ -46,7 +46,7 @@ No desenho, o bloco mostra o Setor escolhido (ou *Setor vinculado ao fluxo*) e t
 
 O horário de cada Setor é cadastrado no menu **Setores & Chatbot  ›  editar o Setor  ›  aba Horários**.
 
-⚠️ A aba **Horários** do Setor só aparece com o **Gerenciamento de Expediente** ligado, no menu **Configurações  ›  Opções**. Sem ele, não há horário para o bloco conferir.
+⚠️ A aba **Horários** do Setor só aparece com o **Gerenciamento de Expediente** ligado, no menu **Configurações  ›  Opções  ›  Geral**. Sem ele, não há horário para o bloco conferir.
 
 > **[DUVIDAS]**
 >

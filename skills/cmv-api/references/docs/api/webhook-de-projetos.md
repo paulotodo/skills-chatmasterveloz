@@ -14,9 +14,9 @@ O **Webhook de Projetos** cobre só os projetos. As conversas com os clientes s�
 >
 > #### Resumo Prático
 >
-> ➡️ Acesse o menu **Configurações  ›  Opções** e desça até a seção **Projetos**.
+> ➡️ Acesse o menu **Configurações  ›  Opções  ›  Integrações e segurança** e, na seção **Webhooks e integrações**, encontre o campo **Webhook de Projetos**.
 >
-> ➡️ Preencha o endereço do seu sistema no campo **Webhook de Projetos**.
+> ➡️ Preencha o endereço do seu sistema e clique em **Salvar**.
 
 ## Onde ligar o Webhook de Projetos
 

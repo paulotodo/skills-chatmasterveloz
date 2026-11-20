@@ -1,7 +1,7 @@
 subarvore:FlowBuilder
 subarvore:Setores & Chatbot
 plataforma:recursos/n8n-via-flowbuilder.md
-plataforma:recursos/configuracoes-do-bot-em-configuracoes.md
+plataforma:recursos/bot-e-flowbuilder-em-configuracoes.md  # menu de Setores, saudação no setor único, concatenação e limite de mensagens do fluxo
 plataforma:recursos/gerenciamento-de-expediente-em-configuracoes.md
 plataforma:recursos/visao-geral-tags.md  # onde aparece o ID da tag (campo sec do bloco Tag no JSON)
 plataforma:recursos/transferir-ticket.md  # como o atendente transfere um atendimento (teste do robô)

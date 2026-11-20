@@ -120,7 +120,7 @@ Quando alguém aceita o atendimento, ele sai da lista **Aguardando** e passa par
 >
 > **O bot pode encerrar o ticket sem passar por Atendendo?** Pode. Depende da programação.
 >
-> **Posso pular Aguardando e atender direto?** Pode. Pelo botão **NOVO** você inicia uma conversa do zero — esse ticket nasce em 🟢 Atendendo, com você como dono. Ao digitar o nome do contato, cada opção mostra o nome, o identificador do contato e as tags dele, o que ajuda a escolher o certo quando dois contatos têm o mesmo nome.
+> **Posso pular Aguardando e atender direto?** Pode. Pelo botão **NOVO** você inicia uma conversa do zero — esse ticket nasce em 🟢 Atendendo, com você como dono. O botão **NOVO** só aparece para quem está com **Pode iniciar novos atendimentos** em **SIM**, na aba **Permissões** do cadastro. Ao digitar o nome do contato, cada opção mostra o nome, o identificador do contato e as tags dele, o que ajuda a escolher o certo quando dois contatos têm o mesmo nome.
 >
 > **Devolver ao setor é o mesmo que encerrar e reabrir?** Não. **Devolver ao setor** mantém o ticket aberto, sem atendente e altera os status para 🟡 Aguardando de novo, mantendo o protocolo atual, e o atendimento volta à lista **Aguardando** como se tivesse acabado de chegar. **Encerrar** fecha o ticket e o protocolo.
 >

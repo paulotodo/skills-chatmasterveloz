@@ -16,7 +16,7 @@ Termos que aparecem o tempo todo nas perguntas. Cada definição é um resumo do
 | Protocolo | Cada ciclo de abertura e fechamento dentro do ticket. Avaliação e tag de encerramento ficam no protocolo. | `recursos/ticket-x-protocolo.md` |
 | Aguardando | Ticket aberto sem atendente humano (pode ter robô conversando). | `recursos/aguardando-x-atendendo.md` |
 | Atendendo | Ticket aberto com atendente humano. | `recursos/aguardando-x-atendendo.md` |
-| Encerrado | Ticket fechado. Mensagem nova do cliente reabre em Aguardando, com protocolo novo. | `recursos/aguardando-x-atendendo.md` |
+| Encerrado | Ticket fechado. Mensagem nova do cliente reabre em Aguardando, com protocolo novo. Exceção: com **Retornar ao mesmo atendente** ligado no Setor, a resposta dentro de **Minutos para o retorno** volta em Atendendo, com o mesmo atendente. | `recursos/aguardando-x-atendendo.md`, `recursos/aba-geral-em-setores-e-chatbot.md` |
 | Carteira de Clientes | Contatos exclusivos de um atendente, o "Proprietário do Lead". | `recursos/carteira-de-clientes.md` |
 | Rodízio | Divisão dos atendimentos entre os atendentes. O Setor de transbordo recebe quando ninguém pode receber. | `recursos/rodizios.md` |
 | Mustaches | Variáveis do sistema entre chaves duplas, como `{{firstName}}`, trocadas pelo dado real na mensagem. | `recursos/mustaches.md` |
@@ -53,3 +53,15 @@ Termos que aparecem o tempo todo nas perguntas. Cada definição é um resumo do
 | Variável de fluxo | Dado guardado pelo fluxo, escrito entre `%`, como `%nome%`. | `recursos/bloco-variavel.md` |
 | Token da Conexão / Token da Empresa | Chaves para usar a API: uma por conexão, ou uma só para a empresa inteira. | `recursos/token-da-conexao.md`, `recursos/token-da-empresa-em-configuracoes.md` |
 | PWA | A forma de usar a plataforma como aplicativo no celular, instalada pelo navegador. | `recursos/aplicativo.md` |
+
+## Módulos com nomes parecidos
+
+| Termo | O que é | Artigo |
+|---|---|---|
+| Dashboard / Dashboard (legado) / Meus números | O Dashboard é a tela de números da gestão (administrador e supervisor). O legado é a versão anterior, com outras regras de contagem. Meus números é a página do atendente, só com os números dele. | `recursos/dashboard.md`, `recursos/meus-numeros-do-atendente.md` |
+| Agendamentos × Links de agendamento | Agendamento é a mensagem programada para sair depois. Link de agendamento é a página em que o cliente marca uma reunião sozinho; a reunião entra nas Tarefas. | `recursos/agendamentos.md`, `recursos/links-de-agendamento.md` |
+| Reservas (recurso, oferta) × Reserva de mesa | Reservas é o módulo de hora marcada ou diária: o recurso recebe a reserva (profissional, mesa, sala, quarto), a oferta é o que o cliente escolhe. Reserva de mesa é do PDV, na página do salão. | `recursos/reservas.md`, `recursos/reservas-de-mesa.md` |
+| Campanhas × Mail Marketing | Campanhas são envios em massa pela conexão. Mail Marketing envia e-mails em massa pelas contas de e-mail da empresa, com listas, modelos e relatório próprios. | `recursos/campanhas.md`, `recursos/mail-marketing.md` |
+| GPT Assistant × Assistente de IA | O GPT Assistant é o prompt de IA que responde clientes num Setor. O Assistente de IA responde perguntas da equipe sobre os dados da plataforma e não muda nada. | `recursos/gpt-assistant.md`, `recursos/assistente-de-ia.md` |
+| Base de Conhecimento | Material da empresa (horários, preços, políticas) que a IA consulta antes de responder; é vinculada a um prompt. | `recursos/base-de-conhecimento-do-gpt-assistant.md` |
+| Consultório | Módulo de clínica: agenda das consultas, recepção, pacientes e prontuário, ligados às conversas. | `recursos/consultorio.md` |

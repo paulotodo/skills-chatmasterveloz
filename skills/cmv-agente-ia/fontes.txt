@@ -1,9 +1,10 @@
 subarvore:Inteligência Artificial
-plataforma:recursos/avaliacao-pela-ia.md
+# A subárvore já traz o Copiloto de mensagens, a Sugestão de resposta IA e a Base de Conhecimento do GPT Assistant.
+subarvore:Avaliação pela IA       # o artigo principal e os doze de como ligar, alertas, relatório, permissões, webhook...
+subarvore:Assistente de IA        # o menu de consultas da equipe e os artigos de CRM, reservas e vendas perdidas nele
 plataforma:recursos/token-openai.md
+plataforma:recursos/provedor-de-ia.md   # card Provedor de IA (Integrações), que vale para os prompts
 plataforma:recursos/bloco-gpt-assistant-openai.md
-plataforma:outros/copiloto-de-mensagens.md
-plataforma:outros/sugestao-de-resposta-ia.md
 # Acrescentados pela autoria da skill: onde o assistente é ligado ao Setor e à Conexão,
 # onde ficam os IDs usados nos comandos, quem enxerga os menus de IA e a atualização
 # que mudou a janela do prompt (Modelo da IA, Comandos da IA, Agente OpenAI desligado).
@@ -25,6 +26,15 @@ plataforma:recursos/atualizacoes-2026-10-20.md
 plataforma:recursos/atualizacoes-2026-10-22.md
 plataforma:recursos/atualizacoes-2026-11-07.md
 plataforma:recursos/atualizacoes-2026-11-10.md
+# 12/11 a 19/11: IA nos grupos pelo Setor, telas de IA do plano, excluir prompt em uso, mensagens seguidas,
+# Provedor de IA, Avaliação pela IA (alertas, rodadas, fora da avaliação, vendas perdidas) e Assistente de IA.
+# 15/11 e 16/11 só trazem o Assistente de IA nas reservas, já no artigo Reservas no Assistente de IA.
+plataforma:recursos/atualizacoes-2026-11-12.md
+plataforma:recursos/atualizacoes-2026-11-13.md
+plataforma:recursos/atualizacoes-2026-11-14.md
+plataforma:recursos/atualizacoes-2026-11-17.md
+plataforma:recursos/atualizacoes-2026-11-18.md
+plataforma:recursos/atualizacoes-2026-11-19.md
 plataforma:recursos/gravacoes-das-chamadas.md   # IA nas gravações das chamadas (usa o Token OpenAI)
 # Para o roteiro de teste e para o que acontece com o status do atendimento (Aguardando x Atendendo,
 # transferir a conversa de teste ao Setor da IA, devolver ao Setor) e a única menção a listar Setores.

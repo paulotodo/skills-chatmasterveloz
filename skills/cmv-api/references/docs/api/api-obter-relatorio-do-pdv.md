@@ -54,11 +54,17 @@ Bearer {seutokenaqui}
 
 ◽ O `porDia` traz todos os dias do período, também os sem venda.
 
-➡️ **A `comissao` dos garçons** vem junto, calculada pela regra de **Comissão do garçom**, no menu **Configurações  ›  Opções**.
+➡️ **A `comissao` dos garçons** vem junto, calculada pela regra de **Comissão do garçom**, no menu **Configurações  ›  Opções  ›  Vendas**, seção **PDV**.
 
 ◽ Em `regra`, o `repasseDaTaxa` é quanto da taxa de serviço vai para o garçom que lançou a rodada, em %, e o `sobreOConsumo` é o percentual sobre o consumo da rodada.
 
-◽ Em `porGarcom`, cada garçom traz o `userId`, o `nome`, as `rodadas` que lançou e as `mesas` em que lançou, o `consumo` e a `taxaServico` dessas rodadas e a `comissao`, em reais. O `total` soma os mesmos números da equipe.
+◽ Em `porGarcom`, cada garçom traz o `userId`, o `nome`, as `rodadas` que lançou e as `mesas` em que lançou, o `consumo` e a `taxaServico` dessas rodadas e a `comissao`, em reais. O `total` soma os mesmos números de todas as linhas.
+
+◽ O pedido feito pelo cliente no QR Code da mesa não tem garçom: entra em `porGarcom` numa linha com `"semGarcom": true`, o `userId` e o `nome` nulos e a `comissao` zero.
+
+◽ A `comissao` de cada garçom é somada rodada a rodada e arredondada uma vez, no total dele.
+
+◽ Cada rodada usa a regra que valia quando foi confirmada. A `regra` é a de agora, e `vigencias` lista todas as que já valeram, cada uma com o `repasseDaTaxa`, o `sobreOConsumo` e o `desde`: a data e a hora em que passou a valer, em UTC. A primeira vem com o `desde` nulo: é a regra de antes da primeira mudança.
 
 ◽ Com o filtro `userId`, a `comissao` também fica só a daquele usuário.
 

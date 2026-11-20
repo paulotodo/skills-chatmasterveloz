@@ -44,6 +44,8 @@ A lista mostra **Nº**, **Quando**, **Cliente**, **Vendido por**, **Total**, **S
 
 As ações da linha são **Abrir pedido**, **Reenviar nota** e **Abrir conversa**, que leva ao atendimento do pedido. O botão **Venda de balcão**, no topo, abre o Balcão.
 
+No pedido cancelado, a janela do **Abrir pedido** mostra quem cancelou e o motivo, como *"Cancelado por Ana — Cliente desistiu"*.
+
 ## Importar os endereços dos clientes
 
 No topo da tela **Pedidos**, administrador e supervisor veem também **Modelo de endereços** e **Importar endereços**, que guardam de uma vez os endereços de entrega dos clientes. O atendente não vê os dois botões.
@@ -69,6 +71,8 @@ Os endereços importados aparecem no pedido da conversa, na lista de endereços 
 > **O atendente não vê todos os pedidos.** É o esperado: o atendente vê só os pedidos que ele vendeu. Administrador e supervisor veem todos.
 >
 > **Por que o pedido do fluxo diz Nota não enviada?** O pedido feito pelo cliente no fluxo de atendimento não envia a nota do pedido. Para mandar, abra o pedido e use **Reenviar nota**.
+>
+> **Onde vejo quem cancelou um pedido e por quê?** Na tela **Pedidos**, filtre a **Situação** por **Cancelado** e clique em **Abrir pedido**: a janela mostra quem cancelou e o motivo. No **Relatório do PDV**, a lista **Cancelados no período** traz os mesmos dados de todos os cancelados do período.
 >
 > **O atendente não vê o botão Importar endereços na tela Pedidos.** É o esperado: **Modelo de endereços** e **Importar endereços** são do administrador e do supervisor.
 

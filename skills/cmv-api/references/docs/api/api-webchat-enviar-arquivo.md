@@ -54,6 +54,8 @@ array(
 
 ◽ Tipos MIME aceitos: `image/*`, `video/*`, `audio/*`, `application/pdf`, `application/msword`, entre outros. Tipo fora da lista é recusado com *"Tipo de arquivo não permitido no WebChat: …"*.
 
+➡️ **“assinaturaIa”:** opcional — acrescente aos campos do formulário quando quem envia é a sua IA, com o nome da IA (até 100 caracteres). A mensagem fica marcada como enviada pela IA e aparece na conversa com o nome dela. Sem o campo, o envio fica como sempre.
+
 #### Utilize o código em requisições HTTPS com ferramentas como cURL ou bibliotecas de integração.
 
 ```php

@@ -1,22 +1,43 @@
-# Artigos incluídos nesta skill (393)
+# Artigos incluídos nesta skill (518)
 
 - [Chat Master Veloz — documentação da plataforma (Central de Ajuda)](00-LEIA-PRIMEIRO.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs>
-- [Índice — artigos fora do menu (5)](INDICE-outros.md)
-- [Índice — Recursos (370 artigos)](INDICE-recursos.md)
+- [Índice — artigos fora do menu (3)](INDICE-outros.md)
+- [Índice — Recursos (497 artigos)](INDICE-recursos.md)
 - [Índice — Trilhas (14 artigos)](INDICE-trilhas.md)
 - [Adicionar Tag](outros/adicionar-tag.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/adicionar-tag>
-- [Copiloto de mensagens](outros/copiloto-de-mensagens.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/copiloto-de-mensagens>
-- [Sugestão de resposta IA](outros/sugestao-de-resposta-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/sugestao-de-resposta-ia>
 - [Telegram](outros/telegram.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/telegram>
 - [Tipos de Tags](outros/tipos-de-tags.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/tipos-de-tags>
+- [Aba Avisos em Reservas](recursos/aba-avisos-em-reservas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-avisos-em-reservas>
+- [Aba Bloqueios em Reservas](recursos/aba-bloqueios-em-reservas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-bloqueios-em-reservas>
+- [Aba Confirmação em Cadastros do Consultório](recursos/aba-confirmacao-em-cadastros-do-consultorio.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-confirmacao-em-cadastros-do-consultorio>
+- [Aba Convênios em Cadastros do Consultório](recursos/aba-convenios-em-cadastros-do-consultorio.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-convenios-em-cadastros-do-consultorio>
+- [Aba Documentos em Cadastros do Consultório](recursos/aba-documentos-em-cadastros-do-consultorio.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-documentos-em-cadastros-do-consultorio>
+- [Aba Evolução da Avaliação pela IA](recursos/aba-evolucao-da-avaliacao-pela-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-evolucao-da-avaliacao-pela-ia>
 - [Aba Geral em Equipe](recursos/aba-geral-em-equipe.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-geral-em-equipe>
 - [Aba Geral em Setores & Chatbot](recursos/aba-geral-em-setores-e-chatbot.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-geral-em-setores-e-chatbot>
+- [Aba Hoje da Avaliação pela IA](recursos/aba-hoje-da-avaliacao-pela-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-hoje-da-avaliacao-pela-ia>
+- [Aba Horários em Reservas](recursos/aba-horarios-em-reservas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-horarios-em-reservas>
 - [Aba Horários em Setores & Chatbot](recursos/aba-horarios-em-setores-e-chatbot.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-horarios-em-setores-e-chatbot>
+- [Aba Integrações em Cadastros do Consultório](recursos/aba-integracoes-em-cadastros-do-consultorio.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-integracoes-em-cadastros-do-consultorio>
 - [Aba Integrações em Setores & Chatbot](recursos/aba-integracoes-em-setores-e-chatbot.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-integracoes-em-setores-e-chatbot>
+- [Aba Marcação em Cadastros do Consultório](recursos/aba-marcacao-em-cadastros-do-consultorio.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-marcacao-em-cadastros-do-consultorio>
 - [Aba Mensagens em Setores & Chatbot](recursos/aba-mensagens-em-setores-e-chatbot.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-mensagens-em-setores-e-chatbot>
+- [Aba Ofertas em Reservas](recursos/aba-ofertas-em-reservas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-ofertas-em-reservas>
+- [Aba Pacotes em Reservas](recursos/aba-pacotes-em-reservas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-pacotes-em-reservas>
+- [Aba Página em Reservas](recursos/aba-pagina-em-reservas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-pagina-em-reservas>
+- [Aba Painéis da TV em Cadastros do Consultório](recursos/aba-paineis-da-tv-em-cadastros-do-consultorio.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-paineis-da-tv-em-cadastros-do-consultorio>
 - [Aba Permissões em Equipe](recursos/aba-permissoes-em-equipe.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-permissoes-em-equipe>
+- [Aba Profissionais em Cadastros do Consultório](recursos/aba-profissionais-em-cadastros-do-consultorio.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-profissionais-em-cadastros-do-consultorio>
+- [Aba Prontuário em Cadastros do Consultório](recursos/aba-prontuario-em-cadastros-do-consultorio.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-prontuario-em-cadastros-do-consultorio>
+- [Aba Recursos em Reservas](recursos/aba-recursos-em-reservas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-recursos-em-reservas>
+- [Aba Relatório em Reservas](recursos/aba-relatorio-em-reservas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-relatorio-em-reservas>
+- [Aba Repasse em Cadastros do Consultório](recursos/aba-repasse-em-cadastros-do-consultorio.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-repasse-em-cadastros-do-consultorio>
+- [Aba Salas em Cadastros do Consultório](recursos/aba-salas-em-cadastros-do-consultorio.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-salas-em-cadastros-do-consultorio>
+- [Aba Serviços em Cadastros do Consultório](recursos/aba-servicos-em-cadastros-do-consultorio.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-servicos-em-cadastros-do-consultorio>
 - [Aba Setores e Conexões em Equipe](recursos/aba-setores-e-conexoes-em-equipe.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-setores-e-conexoes-em-equipe>
+- [Aba Termo de Consentimento em Cadastros do Consultório](recursos/aba-termo-de-consentimento-em-cadastros-do-consultorio.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-termo-de-consentimento-em-cadastros-do-consultorio>
 - [Aba VoIP / Chamadas em Equipe](recursos/aba-voip-chamadas-em-equipe.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-voip-chamadas-em-equipe>
+- [Abandono e reabertura no Dashboard](recursos/abandono-e-reabertura-no-dashboard.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/abandono-e-reabertura-no-dashboard>
 - [Abrir Chat por Link Personalizado](recursos/abrir-chat-por-link-personalizado.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/abrir-chat-por-link-personalizado>
 - [Access Token Mercado Pago](recursos/access-token-mercado-pago.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/access-token-mercado-pago>
 - [Access Token Meta](recursos/access-token-meta.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/access-token-meta>
@@ -31,14 +52,23 @@
 - [Adicionar WhatsApp Oficial](recursos/adicionar-whatsapp-oficial.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/adicionar-whatsapp-oficial>
 - [Adicionar WhatsApp QRCode](recursos/adicionar-whatsapp-qrcode.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/adicionar-whatsapp-qrcode>
 - [Adicionar WhatsApp sem aparelho celular](recursos/adicionar-whatsapp-sem-aparelho-celular.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/adicionar-whatsapp-sem-aparelho-celular>
+- [Administradores da Conta na Meta](recursos/administradores-da-conta-na-meta.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/administradores-da-conta-na-meta>
+- [Agenda de Reservas](recursos/agenda-de-reservas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/agenda-de-reservas>
+- [Agenda do Consultório](recursos/agenda-do-consultorio.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/agenda-do-consultorio>
+- [Agenda do Google nas Reservas](recursos/agenda-do-google-nas-reservas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/agenda-do-google-nas-reservas>
 - [Agendamentos](recursos/agendamentos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/agendamentos>
 - [Aguardando mensagem. Essa ação pode levar alguns instantes.](recursos/aguardando-mensagem-essa-acao-pode-levar-alguns-instantes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aguardando-mensagem-essa-acao-pode-levar-alguns-instantes>
 - [Aguardando x Atendendo](recursos/aguardando-x-atendendo.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aguardando-x-atendendo>
+- [Alertas da Avaliação pela IA](recursos/alertas-da-avaliacao-pela-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/alertas-da-avaliacao-pela-ia>
 - [Alertas Vermelhos no Chat](recursos/alertas-vermelhos-no-chat.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/alertas-vermelhos-no-chat>
 - [Análise de Atendimento](recursos/analise-de-atendimento.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/analise-de-atendimento>
+- [Aniversariantes no Dashboard](recursos/aniversariantes-no-dashboard.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aniversariantes-no-dashboard>
 - [API não funciona](recursos/api-nao-funciona.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-nao-funciona>
 - [Aplicativo](recursos/aplicativo.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aplicativo>
 - [Armazenamento Remoto de Arquivos](recursos/armazenamento-remoto-de-arquivos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/armazenamento-remoto-de-arquivos>
+- [Assistente de IA](recursos/assistente-de-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/assistente-de-ia>
+- [Atendimento e operador em Configurações](recursos/atendimento-e-operador-em-configuracoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atendimento-e-operador-em-configuracoes>
+- [Atendimento em Configurações](recursos/atendimento-em-configuracoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atendimento-em-configuracoes>
 - [Atendimento Otimizado](recursos/atendimento-otimizado.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atendimento-otimizado>
 - [Atividades da Oportunidade](recursos/atividades-da-oportunidade.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atividades-da-oportunidade>
 - [15/10/2026](recursos/atualizacoes-2026-10-15.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-10-15>
@@ -67,10 +97,19 @@
 - [09/11/2026](recursos/atualizacoes-2026-11-09.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-09>
 - [10/11/2026](recursos/atualizacoes-2026-11-10.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-10>
 - [11/11/2026](recursos/atualizacoes-2026-11-11.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-11>
+- [12/11/2026](recursos/atualizacoes-2026-11-12.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-12>
+- [13/11/2026](recursos/atualizacoes-2026-11-13.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-13>
+- [14/11/2026](recursos/atualizacoes-2026-11-14.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-14>
+- [15/11/2026](recursos/atualizacoes-2026-11-15.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-15>
+- [16/11/2026](recursos/atualizacoes-2026-11-16.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-16>
+- [17/11/2026](recursos/atualizacoes-2026-11-17.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-17>
+- [18/11/2026](recursos/atualizacoes-2026-11-18.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-18>
+- [19/11/2026](recursos/atualizacoes-2026-11-19.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-19>
 - [Novembro 2026](recursos/atualizacoes-2026-11.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11>
 - [Atualizações](recursos/atualizacoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes>
 - [Auditoria de Vendas](recursos/auditoria-de-vendas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/auditoria-de-vendas>
-- [Autenticação em Dois Fatores em Configurações](recursos/autenticacao-em-dois-fatores-em-configuracoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/autenticacao-em-dois-fatores-em-configuracoes>
+- [Aulas da Avaliação pela IA](recursos/aulas-da-avaliacao-pela-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aulas-da-avaliacao-pela-ia>
+- [Automação em Configurações](recursos/automacao-em-configuracoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/automacao-em-configuracoes>
 - [Automação "Eu quero"](recursos/automacao-eu-quero.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/automacao-eu-quero>
 - [Automação ou Atendente Humano](recursos/automacao-ou-atendente-humano.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/automacao-ou-atendente-humano>
 - [Automações Rápidas](recursos/automacoes-rapidas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/automacoes-rapidas>
@@ -78,7 +117,11 @@
 - [Avaliações em Configurações](recursos/avaliacoes-em-configuracoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/avaliacoes-em-configuracoes>
 - [Avaliações](recursos/avaliacoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/avaliacoes>
 - [Avise-me](recursos/avise-me.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/avise-me>
+- [Aviso dos alertas do Dashboard](recursos/aviso-dos-alertas-do-dashboard.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aviso-dos-alertas-do-dashboard>
+- [Avisos ao Cliente em Projetos](recursos/avisos-ao-cliente-em-projetos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/avisos-ao-cliente-em-projetos>
+- [Avisos ao Cliente em Tarefas](recursos/avisos-ao-cliente-em-tarefas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/avisos-ao-cliente-em-tarefas>
 - [Avisos da Meta na Conexão](recursos/avisos-da-meta-na-conexao.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/avisos-da-meta-na-conexao>
+- [Base de Conhecimento do GPT Assistant](recursos/base-de-conhecimento-do-gpt-assistant.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/base-de-conhecimento-do-gpt-assistant>
 - [Asaas](recursos/bloco-asaas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-asaas>
 - [Avaliação do Atendimento](recursos/bloco-avaliacao-do-atendimento.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-avaliacao-do-atendimento>
 - [Botões](recursos/bloco-botoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-botoes>
@@ -120,16 +163,18 @@
 - [Blocos](recursos/blocos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/blocos>
 - [Bloquear Contato](recursos/bloquear-contato.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloquear-contato>
 - [Board de Oportunidades](recursos/board-de-oportunidades.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/board-de-oportunidades>
+- [Bot e FlowBuilder em Configurações](recursos/bot-e-flowbuilder-em-configuracoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bot-e-flowbuilder-em-configuracoes>
 - [Cadastros do CRM](recursos/cadastros-do-crm.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/cadastros-do-crm>
 - [Caixa de E-mail Compartilhada: Pastas e Endereços Aceitos](recursos/caixa-de-e-mail-compartilhada-pastas-e-enderecos-aceitos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/caixa-de-e-mail-compartilhada-pastas-e-enderecos-aceitos>
 - [Caixa do PDV](recursos/caixa-do-pdv.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/caixa-do-pdv>
+- [Campanhas de E-mail](recursos/campanhas-de-e-mail.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/campanhas-de-e-mail>
 - [Campanhas](recursos/campanhas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/campanhas>
 - [Cardápio Digital](recursos/cardapio-digital.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/cardapio-digital>
 - [Carteira de Clientes](recursos/carteira-de-clientes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/carteira-de-clientes>
-- [Carteiras de Clientes em Configurações](recursos/carteiras-de-clientes-em-configuracoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/carteiras-de-clientes-em-configuracoes>
 - [Categorias de Fluxos](recursos/categorias-de-fluxos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/categorias-de-fluxos>
 - [Categorias de Setores](recursos/categorias-de-setores.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/categorias-de-setores>
 - [Categorias do PDV](recursos/categorias-do-pdv.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/categorias-do-pdv>
+- [Chamadas em Configurações](recursos/chamadas-em-configuracoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/chamadas-em-configuracoes>
 - [Chamadas no Chat Interno](recursos/chamadas-no-chat-interno.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/chamadas-no-chat-interno>
 - [Chat Externo](recursos/chat-externo.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/chat-externo>
 - [Chat Interno](recursos/chat-interno.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/chat-interno>
@@ -137,7 +182,9 @@
 - [Chats / Tickets](recursos/chats-tickets.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/chats-tickets>
 - [Chats – Visão Geral](recursos/chats-visao-geral.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/chats-visao-geral>
 - [Chave Google Maps](recursos/chave-google-maps.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/chave-google-maps>
-- [Cloudflare R2 em Armazenamento Remoto](recursos/cloudflare-r2-em-armazenamento-remoto.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/cloudflare-r2-em-armazenamento-remoto>
+- [Clientes do PDV](recursos/clientes-do-pdv.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/clientes-do-pdv>
+- [- Cloudflare R2 em Armazenamento Remoto](recursos/cloudflare-r2-em-armazenamento-remoto.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/cloudflare-r2-em-armazenamento-remoto>
+- [Cobrança da Consulta](recursos/cobranca-da-consulta.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/cobranca-da-consulta>
 - [Colunas do Quadro de Atendimentos](recursos/colunas-do-quadro-de-atendimentos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/colunas-do-quadro-de-atendimentos>
 - [Comandos GPT Assistant](recursos/comandos-gpt-assistant.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/comandos-gpt-assistant>
 - [Comentar Tarefa](recursos/comentar-tarefa.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/comentar-tarefa>
@@ -145,6 +192,7 @@
 - [Comentários](recursos/comentarios.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/comentarios>
 - [Como atualizar o cache](recursos/como-atualizar-o-cache.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/como-atualizar-o-cache>
 - [Como Instalar o PWA](recursos/como-instalar-o-pwa.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/como-instalar-o-pwa>
+- [Como Ligar a Avaliação pela IA](recursos/como-ligar-a-avaliacao-pela-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/como-ligar-a-avaliacao-pela-ia>
 - [Como Migrar Conexões](recursos/como-migrar-conexoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/como-migrar-conexoes>
 - [Como o Fluxo Roda](recursos/como-o-fluxo-roda.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/como-o-fluxo-roda>
 - [Como Usar o Editor de Fluxos](recursos/como-usar-o-editor-de-fluxos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/como-usar-o-editor-de-fluxos>
@@ -154,34 +202,48 @@
 - [Conexão desconectada](recursos/conexao-desconectada.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/conexao-desconectada>
 - [Conexão não lê o QR CODE](recursos/conexao-nao-le-o-qr-code.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/conexao-nao-le-o-qr-code>
 - [Conexões](recursos/conexoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/conexoes>
-- [Configurações de Sistema em Configurações](recursos/configuracoes-de-sistema-em-configuracoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/configuracoes-de-sistema-em-configuracoes>
-- [Configurações do Bot em Configurações](recursos/configuracoes-do-bot-em-configuracoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/configuracoes-do-bot-em-configuracoes>
+- [Configurações do Mail Marketing](recursos/configuracoes-do-mail-marketing.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/configuracoes-do-mail-marketing>
 - [Configurações](recursos/configuracoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/configuracoes>
 - [Configurar Campanhas](recursos/configurar-campanhas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/configurar-campanhas>
+- [Consultório no Atendimento](recursos/consultorio-no-atendimento.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/consultorio-no-atendimento>
+- [Consultório](recursos/consultorio.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/consultorio>
+- [Conta da Mesa](recursos/conta-da-mesa.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/conta-da-mesa>
 - [Contas de E-mail](recursos/contas-de-e-mail.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/contas-de-e-mail>
 - [Contato para Suporte](recursos/contato-para-suporte.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/contato-para-suporte>
-- [Contatos e Campos Adicionais em Configurações](recursos/contatos-e-campos-adicionais-em-configuracoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/contatos-e-campos-adicionais-em-configuracoes>
+- [Contatos em Configurações](recursos/contatos-em-configuracoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/contatos-em-configuracoes>
+- [Contatos Internos na Avaliação pela IA](recursos/contatos-internos-na-avaliacao-pela-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/contatos-internos-na-avaliacao-pela-ia>
 - [Contatos](recursos/contatos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/contatos>
+- [Conversa em Configurações](recursos/conversa-em-configuracoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/conversa-em-configuracoes>
 - [Convidar Operadores na Conversa](recursos/convidar-operadores-na-conversa.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/convidar-operadores-na-conversa>
 - [Copilot da Raia](recursos/copilot-da-raia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/copilot-da-raia>
+- [Copiloto de mensagens](recursos/copiloto-de-mensagens.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/copiloto-de-mensagens>
 - [Credenciais PaggPix](recursos/credenciais-paggpix.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/credenciais-paggpix>
 - [Criar e Editar Funil](recursos/criar-e-editar-funil.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/criar-e-editar-funil>
 - [Criar Oportunidade](recursos/criar-oportunidade.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/criar-oportunidade>
+- [Criar Template no Gerenciador do WhatsApp](recursos/criar-template-no-gerenciador-do-whatsapp.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/criar-template-no-gerenciador-do-whatsapp>
+- [Criar Template pela Plataforma](recursos/criar-template-pela-plataforma.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/criar-template-pela-plataforma>
 - [Criar um Projeto](recursos/criar-um-projeto.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/criar-um-projeto>
+- [CRM no Assistente de IA](recursos/crm-no-assistente-de-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/crm-no-assistente-de-ia>
 - [CRM](recursos/crm.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/crm>
 - [Cupons, Cashback e Fidelidade do Cardápio Digital](recursos/cupons-cashback-e-fidelidade-do-cardapio-digital.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/cupons-cashback-e-fidelidade-do-cardapio-digital>
 - [Dados da Proposta](recursos/dados-da-proposta.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/dados-da-proposta>
+- [Dashboard](recursos/dashboard.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/dashboard>
+- [Descadastros do Mail Marketing](recursos/descadastros-do-mail-marketing.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/descadastros-do-mail-marketing>
 - [– Devolver ao Setor](recursos/devolver-ao-setor.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/devolver-ao-setor>
 - [Direct](recursos/direct.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/direct>
+- [Distribuição e rodízio em Configurações](recursos/distribuicao-e-rodizio-em-configuracoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/distribuicao-e-rodizio-em-configuracoes>
+- [Documentos e Receitas do Consultório](recursos/documentos-e-receitas-do-consultorio.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/documentos-e-receitas-do-consultorio>
 - [E-mails](recursos/e-mails.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/e-mails>
 - [Editar Agendamento](recursos/editar-agendamento.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/editar-agendamento>
 - [Editar Contato](recursos/editar-contato.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/editar-contato>
 - [Editar Link](recursos/editar-link.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/editar-link>
+- [Editar Mensagem Enviada ao Cliente](recursos/editar-mensagem-enviada-ao-cliente.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/editar-mensagem-enviada-ao-cliente>
 - [Editar Perfil ou Alterar Senha](recursos/editar-perfil-ou-alterar-senha.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/editar-perfil-ou-alterar-senha>
 - [Editar Resposta Rápida](recursos/editar-resposta-rapida.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/editar-resposta-rapida>
 - [Editar Tag](recursos/editar-tag.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/editar-tag>
 - [Editar Tarefa](recursos/editar-tarefa.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/editar-tarefa>
 - [Editor de Fluxos](recursos/editor-de-fluxos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/editor-de-fluxos>
+- [Empresa e região em Configurações](recursos/empresa-e-regiao-em-configuracoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/empresa-e-regiao-em-configuracoes>
 - [Encadear para Outro Funil](recursos/encadear-para-outro-funil.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/encadear-para-outro-funil>
 - [Encerrar por Inatividade (Atendendo)](recursos/encerrar-por-inatividade.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/encerrar-por-inatividade>
 - [– Encerrar Ticket](recursos/encerrar-ticket.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/encerrar-ticket>
@@ -189,9 +251,12 @@
 - [Entendendo PABX](recursos/entendendo-pabx.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/entendendo-pabx>
 - [Entendendo VoIP](recursos/entendendo-voip.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/entendendo-voip>
 - [Entregas e Entregadores](recursos/entregas-e-entregadores.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/entregas-e-entregadores>
+- [Equipe & Canais no Dashboard](recursos/equipe-canais-no-dashboard.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/equipe-canais-no-dashboard>
 - [Equipe](recursos/equipe.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/equipe>
+- [Erros de Entrega do WhatsApp Oficial](recursos/erros-de-entrega-do-whatsapp-oficial.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/erros-de-entrega-do-whatsapp-oficial>
 - [Erros do Fluxo](recursos/erros-do-fluxo.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/erros-do-fluxo>
 - [Escrever, Responder e Encaminhar E-mails](recursos/escrever-responder-e-encaminhar-e-mails.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/escrever-responder-e-encaminhar-e-mails>
+- [Estatísticas e Informações do Dashboard](recursos/estatisticas-e-informacoes-do-dashboard.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/estatisticas-e-informacoes-do-dashboard>
 - [Etapas do Funil](recursos/etapas-do-funil.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/etapas-do-funil>
 - [Excluir Agendamento](recursos/excluir-agendamento.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/excluir-agendamento>
 - [Excluir Contato](recursos/excluir-contato.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/excluir-contato>
@@ -202,8 +267,10 @@
 - [Exportar Contatos](recursos/exportar-contatos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/exportar-contatos>
 - [Facebook Messenger](recursos/facebook-messenger.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/facebook-messenger>
 - [Favoritos no Menu](recursos/favoritos-no-menu.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/favoritos-no-menu>
+- [Filtros do Dashboard](recursos/filtros-do-dashboard.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/filtros-do-dashboard>
 - [FlowBuilder](recursos/flowbuilder.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/flowbuilder>
 - [Fontes de Contatos para Campanhas](recursos/fontes-de-contatos-para-campanhas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/fontes-de-contatos-para-campanhas>
+- [Forma de Pagamento do WhatsApp Oficial](recursos/forma-de-pagamento-do-whatsapp-oficial.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/forma-de-pagamento-do-whatsapp-oficial>
 - [Funis do CRM](recursos/funis-do-crm.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/funis-do-crm>
 - [Ganhar, Perder e Devolver Oportunidade ao Funil](recursos/ganhar-perder-e-devolver-oportunidade-ao-funil.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/ganhar-perder-e-devolver-oportunidade-ao-funil>
 - [Gatilho via API](recursos/gatilho-via-api.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/gatilho-via-api>
@@ -215,9 +282,9 @@
 - [Gatilho via Remarketing de Tag](recursos/gatilho-via-remarketing-de-tag.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/gatilho-via-remarketing-de-tag>
 - [Gatilho via Resposta Rápida](recursos/gatilho-via-resposta-rapida.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/gatilho-via-resposta-rapida>
 - [Gatilho via Webhooks Trigger](recursos/gatilho-via-webhooks-trigger.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/gatilho-via-webhooks-trigger>
+- [Geral em Configurações](recursos/geral-em-configuracoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/geral-em-configuracoes>
 - [Gerar e Enviar Proposta](recursos/gerar-e-enviar-proposta.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/gerar-e-enviar-proposta>
 - [Gerenciador de Arquivos](recursos/gerenciador-de-arquivos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/gerenciador-de-arquivos>
-- [Gerenciamento de Chamadas em Configurações](recursos/gerenciamento-de-chamadas-em-configuracoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/gerenciamento-de-chamadas-em-configuracoes>
 - [Gerenciamento de Expediente em Configurações](recursos/gerenciamento-de-expediente-em-configuracoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/gerenciamento-de-expediente-em-configuracoes>
 - [Gerenciamento de Grupos em Configurações](recursos/gerenciamento-de-grupos-em-configuracoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/gerenciamento-de-grupos-em-configuracoes>
 - [Gestão de atendimentos](recursos/gestao-de-atendimentos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/gestao-de-atendimentos>
@@ -225,17 +292,19 @@
 - [GPT Assistant em Grupos](recursos/gpt-assistant-em-grupos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/gpt-assistant-em-grupos>
 - [GPT Assistant](recursos/gpt-assistant.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/gpt-assistant>
 - [Gravações das Chamadas](recursos/gravacoes-das-chamadas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/gravacoes-das-chamadas>
-- [Hetzner Object Storage em Armazenamento Remoto](recursos/hetzner-object-storage-em-armazenamento-remoto.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/hetzner-object-storage-em-armazenamento-remoto>
+- [- Hetzner Object Storage em Armazenamento Remoto](recursos/hetzner-object-storage-em-armazenamento-remoto.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/hetzner-object-storage-em-armazenamento-remoto>
 - [Histórico da Oportunidade](recursos/historico-da-oportunidade.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/historico-da-oportunidade>
+- [Horários de pico no Dashboard](recursos/horarios-de-pico-no-dashboard.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/horarios-de-pico-no-dashboard>
 - [Ideias de Respostas Rápidas](recursos/ideias-de-respostas-rapidas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/ideias-de-respostas-rapidas>
 - [Importar Contatos (planilha)](recursos/importar-contatos-planilha.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/importar-contatos-planilha>
 - [Importar Contatos (telefone)](recursos/importar-contatos-telefone.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/importar-contatos-telefone>
 - [Importar do CRM v1](recursos/importar-do-crm-v1.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/importar-do-crm-v1>
-- [Incorporar Atendimento em Outro Sistema](recursos/incorporar-atendimento-em-outro-sistema.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/incorporar-atendimento-em-outro-sistema>
+- [- Incorporar Atendimento em Outro Sistema](recursos/incorporar-atendimento-em-outro-sistema.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/incorporar-atendimento-em-outro-sistema>
 - [Informações do Contato](recursos/informacoes-do-contato.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/informacoes-do-contato>
 - [Informações do Ticket](recursos/informacoes-do-ticket.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/informacoes-do-ticket>
 - [Iniciar Conversa com um Contato](recursos/iniciar-conversa-com-um-contato.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/iniciar-conversa-com-um-contato>
 - [Instagram](recursos/instagram.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/instagram>
+- [Integrações e segurança em Configurações](recursos/integracoes-e-seguranca-em-configuracoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/integracoes-e-seguranca-em-configuracoes>
 - [Integrações](recursos/integracoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/integracoes>
 - [Inteligência Artificial](recursos/inteligencia-artificial.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/inteligencia-artificial>
 - [Itens e Valor da Oportunidade](recursos/itens-e-valor-da-oportunidade.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/itens-e-valor-da-oportunidade>
@@ -245,54 +314,75 @@
 - [Ligações](recursos/ligacoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/ligacoes>
 - [Limitador de Mensagens](recursos/limitador-de-mensagens.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/limitador-de-mensagens>
 - [Limite de Atendimentos Simultâneos](recursos/limite-de-atendimentos-simultaneos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/limite-de-atendimentos-simultaneos>
+- [Linha do Tempo do Dashboard](recursos/linha-do-tempo-do-dashboard.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/linha-do-tempo-do-dashboard>
 - [Link na Bio](recursos/link-na-bio.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/link-na-bio>
+- [Links de Agendamento](recursos/links-de-agendamento.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/links-de-agendamento>
+- [Lista de Espera das Reservas](recursos/lista-de-espera-das-reservas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/lista-de-espera-das-reservas>
 - [Lista de Oportunidades](recursos/lista-de-oportunidades.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/lista-de-oportunidades>
+- [Listas de atendimentos do Dashboard](recursos/listas-de-atendimentos-do-dashboard.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/listas-de-atendimentos-do-dashboard>
+- [Listas de Envio do Mail Marketing](recursos/listas-de-envio-do-mail-marketing.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/listas-de-envio-do-mail-marketing>
 - [Logs e Monitoramento em Configurações](recursos/logs-e-monitoramento-em-configuracoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/logs-e-monitoramento-em-configuracoes>
 - [Loja Digital](recursos/loja-digital.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/loja-digital>
-- [Mensagem de Aniversário em Configurações](recursos/mensagem-de-aniversario-em-configuracoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/mensagem-de-aniversario-em-configuracoes>
+- [Mail Marketing](recursos/mail-marketing.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/mail-marketing>
 - [Mensagem de Aniversário](recursos/mensagem-de-aniversario.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/mensagem-de-aniversario>
 - [Mensagem de Ausência](recursos/mensagem-de-ausencia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/mensagem-de-ausencia>
 - [Mensagem de Encerramento](recursos/mensagem-de-encerramento.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/mensagem-de-encerramento>
 - [Mensagem não aparece no Aguardando](recursos/mensagem-nao-aparece-no-aguardando.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/mensagem-nao-aparece-no-aguardando>
 - [Mensagem Template](recursos/mensagem-template.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/mensagem-template>
+- [Mensagens automáticas em Configurações](recursos/mensagens-automaticas-em-configuracoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/mensagens-automaticas-em-configuracoes>
 - [Mesas e Comandas](recursos/mesas-e-comandas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/mesas-e-comandas>
+- [Metas e limites do Dashboard](recursos/metas-e-limites-do-dashboard.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/metas-e-limites-do-dashboard>
 - [Meu Perfil](recursos/meu-perfil.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/meu-perfil>
+- [Meus números do atendente](recursos/meus-numeros-do-atendente.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/meus-numeros-do-atendente>
 - [Minha Evolução](recursos/minha-evolucao.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/minha-evolucao>
 - [Missing Body in Payload](recursos/missing-body-in-payload.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/missing-body-in-payload>
+- [Modelos de E-mail: Blocos e HTML](recursos/modelos-de-e-mail-blocos-e-html.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/modelos-de-e-mail-blocos-e-html>
 - [Modelos de Projeto](recursos/modelos-de-projeto.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/modelos-de-projeto>
 - [Modo Alternativo (chat externo por link)](recursos/modo-alternativo-chat-externo-por-link.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/modo-alternativo-chat-externo-por-link>
 - [Mover após (Aguardando)](recursos/mover-apos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/mover-apos>
 - [Mustaches](recursos/mustaches.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/mustaches>
 - [n8n via Flowbuilder](recursos/n8n-via-flowbuilder.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/n8n-via-flowbuilder>
 - [n8n via Webhook](recursos/n8n-via-webhook.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/n8n-via-webhook>
+- [Nome de Exibição do WhatsApp Oficial](recursos/nome-de-exibicao-do-whatsapp-oficial.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/nome-de-exibicao-do-whatsapp-oficial>
 - [Notificações Push](recursos/notificacoes-push.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/notificacoes-push>
 - [Nova Campanha API Oficial](recursos/nova-campanha-api-oficial.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/nova-campanha-api-oficial>
 - [Nova Campanha](recursos/nova-campanha.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/nova-campanha>
 - [– Nova Oportunidade](recursos/nova-oportunidade.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/nova-oportunidade>
 - [Novo Chat](recursos/novo-chat.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/novo-chat>
 - [Número bloqueado no WhatsApp](recursos/numero-bloqueado-no-whatsapp.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/numero-bloqueado-no-whatsapp>
-- [Opções de Permissões e Visualização do Atendente](recursos/opcoes-de-permissoes-e-visualizacao-do-atendente.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/opcoes-de-permissoes-e-visualizacao-do-atendente>
 - [Opções do PDV](recursos/opcoes-do-pdv.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/opcoes-do-pdv>
-- [Opções em Configurações](recursos/opcoes-em-configuracoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/opcoes-em-configuracoes>
 - [Oportunidade no CRM](recursos/oportunidade-no-crm.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/oportunidade-no-crm>
 - [PABX -> Ligação VoIP](recursos/pabx-ligacao-voip.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/pabx-ligacao-voip>
 - [PABX -> WhatsApp (QR Code)](recursos/pabx-ligacao-whatsapp-qr-code.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/pabx-ligacao-whatsapp-qr-code>
 - [PABX -> Ramais](recursos/pabx-ramais.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/pabx-ramais>
 - [PABX -> WhatsApp Oficial](recursos/pabx-whatsapp-oficial.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/pabx-whatsapp-oficial>
+- [Pacientes do Consultório](recursos/pacientes-do-consultorio.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/pacientes-do-consultorio>
+- [Pacotes dos Clientes nas Reservas](recursos/pacotes-dos-clientes-nas-reservas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/pacotes-dos-clientes-nas-reservas>
+- [Pagamento da Reserva](recursos/pagamento-da-reserva.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/pagamento-da-reserva>
 - [Pagamentos do Pedido](recursos/pagamentos-do-pedido.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/pagamentos-do-pedido>
+- [Página de Reservas do Cliente](recursos/pagina-de-reservas-do-cliente.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/pagina-de-reservas-do-cliente>
 - [Painel de Pedidos](recursos/painel-de-pedidos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/painel-de-pedidos>
 - [PDV (pedido no fluxo)](recursos/pdv-pedido-no-fluxo.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/pdv-pedido-no-fluxo>
 - [PDV](recursos/pdv.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/pdv>
 - [Pedido na Conversa](recursos/pedido-na-conversa.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/pedido-na-conversa>
+- [Pedido pelo Cardápio Digital](recursos/pedido-pelo-cardapio-digital.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/pedido-pelo-cardapio-digital>
 - [Pedidos do PDV](recursos/pedidos-do-pdv.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/pedidos-do-pdv>
 - [Perfil do Número](recursos/perfil-do-numero.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/perfil-do-numero>
+- [Perfil Garçom e Comissão](recursos/perfil-garcom-e-comissao.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/perfil-garcom-e-comissao>
 - [Perguntas Frequentes](recursos/perguntas-frequentes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/perguntas-frequentes>
+- [Permissões Avaliação pela IA](recursos/permissoes-avaliacao-pela-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/permissoes-avaliacao-pela-ia>
+- [Permissões Configurações](recursos/permissoes-configuracoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/permissoes-configuracoes>
+- [Permissões Consultório](recursos/permissoes-consultorio.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/permissoes-consultorio>
+- [Permissões Dashboard](recursos/permissoes-dashboard.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/permissoes-dashboard>
 - [Permissões E-mails](recursos/permissoes-e-mails.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/permissoes-e-mails>
+- [Permissões Mail Marketing](recursos/permissoes-mail-marketing.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/permissoes-mail-marketing>
 - [Permissões PDV](recursos/permissoes-pdv.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/permissoes-pdv>
 - [Permissões Projetos](recursos/permissoes-projetos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/permissoes-projetos>
 - [Permissões Quadro de Atendimentos](recursos/permissoes-quadro-de-atendimentos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/permissoes-quadro-de-atendimentos>
+- [Permissões Reservas](recursos/permissoes-reservas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/permissoes-reservas>
 - [Pesquisar Atendimentos](recursos/pesquisar-atendimentos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/pesquisar-atendimentos>
 - [Pesquisar Contato](recursos/pesquisar-contato.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/pesquisar-contato>
+- [Pesquisar opção em Configurações](recursos/pesquisar-opcao-em-configuracoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/pesquisar-opcao-em-configuracoes>
 - [Pixel Meta em Tags](recursos/pixel-meta-em-tags.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/pixel-meta-em-tags>
 - [Pontos de Entrada (Gatilho)](recursos/pontos-de-entrada.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/pontos-de-entrada>
 - [Portfólio Empresarial (BM)](recursos/portfolio-empresarial-bm.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/portfolio-empresarial-bm>
@@ -300,43 +390,65 @@
 - [* Pré-Requisitos IA](recursos/pre-requisitos-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/pre-requisitos-ia>
 - [Prêmios e Resgates](recursos/premios-e-resgates.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/premios-e-resgates>
 - [Problema / Solução](recursos/problema-solucao.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/problema-solucao>
+- [Processos de Atendimento da Avaliação pela IA](recursos/processos-de-atendimento-da-avaliacao-pela-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/processos-de-atendimento-da-avaliacao-pela-ia>
 - [Produtos do CRM](recursos/produtos-do-crm.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/produtos-do-crm>
 - [Produtos e Estoque do PDV](recursos/produtos-e-estoque-do-pdv.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/produtos-e-estoque-do-pdv>
 - [Projeto Criado ao Ganhar a Venda](recursos/projeto-criado-ao-ganhar-a-venda.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/projeto-criado-ao-ganhar-a-venda>
 - [Projetos](recursos/projetos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/projetos>
+- [Prontuário do Paciente](recursos/prontuario-do-paciente.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/prontuario-do-paciente>
 - [Propostas do CRM](recursos/propostas-do-crm.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/propostas-do-crm>
+- [Provedor de IA](recursos/provedor-de-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/provedor-de-ia>
 - [Quadro de Atendimentos por Tags](recursos/quadro-de-atendimentos-por-tags.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/quadro-de-atendimentos-por-tags>
 - [Quadro de Atendimentos](recursos/quadro-de-atendimentos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/quadro-de-atendimentos>
 - [Quadro do Projeto](recursos/quadro-do-projeto.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/quadro-do-projeto>
+- [Qualidade do Número e Limite de Envio](recursos/qualidade-do-numero-e-limite-de-envio.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/qualidade-do-numero-e-limite-de-envio>
+- [Quanto a automação resolve no Dashboard](recursos/quanto-a-automacao-resolve-no-dashboard.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/quanto-a-automacao-resolve-no-dashboard>
 - [Quem Acessa o Funil](recursos/quem-acessa-o-funil.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/quem-acessa-o-funil>
 - [Permissões CRM](recursos/quem-visualiza-o-que-no-crm.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/quem-visualiza-o-que-no-crm>
 - [Ranking de Vendas](recursos/ranking-de-vendas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/ranking-de-vendas>
+- [Recepção do Consultório](recursos/recepcao-do-consultorio.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/recepcao-do-consultorio>
 - [Recuperar Senha](recursos/recuperar-senha.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/recuperar-senha>
 - [Registro de Atividades](recursos/registro-de-atividades.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/registro-de-atividades>
 - [Regras do Quadro de Atendimentos](recursos/regras-do-quadro-de-atendimentos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/regras-do-quadro-de-atendimentos>
+- [Relatório da Avaliação pela IA](recursos/relatorio-da-avaliacao-pela-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/relatorio-da-avaliacao-pela-ia>
+- [Relatório da Campanha de E-mail](recursos/relatorio-da-campanha-de-e-mail.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/relatorio-da-campanha-de-e-mail>
 - [Relatório de Vendas](recursos/relatorio-de-vendas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/relatorio-de-vendas>
 - [Relatório do Link](recursos/relatorio-do-link.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/relatorio-do-link>
 - [Relatório do PDV](recursos/relatorio-do-pdv.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/relatorio-do-pdv>
 - [Relatório do Rodízio](recursos/relatorio-do-rodizio.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/relatorio-do-rodizio>
+- [Relatórios Detalhados do Dashboard](recursos/relatorios-detalhados-do-dashboard.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/relatorios-detalhados-do-dashboard>
 - [Remarketing em Tags](recursos/remarketing-em-tags.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/remarketing-em-tags>
+- [Reservas (agendar no fluxo)](recursos/reservas-agendar-no-fluxo.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/reservas-agendar-no-fluxo>
+- [Reservas de Mesa](recursos/reservas-de-mesa.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/reservas-de-mesa>
+- [Reservas em Turma](recursos/reservas-em-turma.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/reservas-em-turma>
+- [Reservas no Assistente de IA](recursos/reservas-no-assistente-de-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/reservas-no-assistente-de-ia>
+- [Reservas por Diária](recursos/reservas-por-diaria.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/reservas-por-diaria>
+- [Reservas que se Repetem](recursos/reservas-que-se-repetem.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/reservas-que-se-repetem>
+- [Reservas](recursos/reservas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/reservas>
 - [Resposta Rápida de Fluxo](recursos/resposta-rapida-de-fluxo.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/resposta-rapida-de-fluxo>
 - [Resposta Rápida Envio de Contato](recursos/resposta-rapida-envio-de-contato.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/resposta-rapida-envio-de-contato>
 - [Resposta Rápida Envio de Localização](recursos/resposta-rapida-envio-de-localizacao.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/resposta-rapida-envio-de-localizacao>
 - [Resposta Rápida Envio de Mídia](recursos/resposta-rapida-envio-de-midia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/resposta-rapida-envio-de-midia>
 - [Resposta Rápida Envio de Texto](recursos/resposta-rapida-envio-de-texto.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/resposta-rapida-envio-de-texto>
 - [Respostas Rápidas](recursos/respostas-rapidas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/respostas-rapidas>
+- [Resumo automático do Dashboard](recursos/resumo-automatico-do-dashboard.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/resumo-automatico-do-dashboard>
 - [Rodízio de Atendimento](recursos/rodizio-de-atendimento.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/rodizio-de-atendimento>
 - [Rodízios](recursos/rodizios.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/rodizios>
+- [Segurança em Configurações](recursos/seguranca-em-configuracoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/seguranca-em-configuracoes>
 - [Setor Único com Fluxo Automático](recursos/setor-unico-com-fluxo-automatico.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/setor-unico-com-fluxo-automatico>
+- [Setores de Produção do PDV](recursos/setores-de-producao-do-pdv.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/setores-de-producao-do-pdv>
 - [Setores & Chatbot](recursos/setores-e-chatbot.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/setores-e-chatbot>
 - [Siga-me](recursos/siga-me.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/siga-me>
 - [Sons e Notificações em Configurações](recursos/sons-e-notificacoes-em-configuracoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/sons-e-notificacoes-em-configuracoes>
 - [Status do Perfil](recursos/status-do-perfil.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/status-do-perfil>
+- [Sugestão de resposta IA](recursos/sugestao-de-resposta-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/sugestao-de-resposta-ia>
 - [Tags de Atendimento](recursos/tags-de-atendimento.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/tags-de-atendimento>
 - [Tags de CRM](recursos/tags-de-crm.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/tags-de-crm>
 - [Tags de Encerramento](recursos/tags-de-encerramento.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/tags-de-encerramento>
 - [Tags](recursos/tags.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/tags>
 - [Tarefas](recursos/tarefas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/tarefas>
+- [Teleconsulta](recursos/teleconsulta.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/teleconsulta>
+- [Template Recusado, Pausado ou Desabilitado](recursos/template-recusado-pausado-ou-desabilitado.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/template-recusado-pausado-ou-desabilitado>
 - [Ticket em Atendimento voltando para o Aguardando](recursos/ticket-em-atendimento-voltando-para-o-aguardando.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/ticket-em-atendimento-voltando-para-o-aguardando>
 - [Ticket x Protocolo](recursos/ticket-x-protocolo.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/ticket-x-protocolo>
 - [Tipo Prompt](recursos/tipo-prompt.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/tipo-prompt>
@@ -353,30 +465,43 @@
 - [Unidades, Equipes e Metas](recursos/unidades-equipes-e-metas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/unidades-equipes-e-metas>
 - [Usuário Não Consegue Entrar na Plataforma](recursos/usuario-nao-consegue-entrar-na-plataforma.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/usuario-nao-consegue-entrar-na-plataforma>
 - [Venda no Balcão](recursos/venda-no-balcao.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/venda-no-balcao>
+- [Vendas em Configurações](recursos/vendas-em-configuracoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/vendas-em-configuracoes>
+- [Vendas Perdidas na Avaliação pela IA](recursos/vendas-perdidas-na-avaliacao-pela-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/vendas-perdidas-na-avaliacao-pela-ia>
+- [Vendas Perdidas no Assistente de IA](recursos/vendas-perdidas-no-assistente-de-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/vendas-perdidas-no-assistente-de-ia>
 - [Verificar agora e Reconectar](recursos/verificar-agora-e-reconectar.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/verificar-agora-e-reconectar>
 - [Verificar e Resumo do Fluxo](recursos/verificar-e-resumo-do-fluxo.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/verificar-e-resumo-do-fluxo>
 - [Videochamada com o Cliente](recursos/videochamada-com-o-cliente.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/videochamada-com-o-cliente>
 - [Visão Geral Agendamentos](recursos/visao-geral-agendamentos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/visao-geral-agendamentos>
+- [Visão Geral Avaliação pela IA](recursos/visao-geral-avaliacao-pela-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/visao-geral-avaliacao-pela-ia>
 - [Visão Geral Conexões](recursos/visao-geral-conexoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/visao-geral-conexoes>
+- [Visão Geral Configurações](recursos/visao-geral-configuracoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/visao-geral-configuracoes>
+- [Visão Geral Consultório](recursos/visao-geral-consultorio.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/visao-geral-consultorio>
 - [Visão Geral Contatos](recursos/visao-geral-contatos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/visao-geral-contatos>
+- [Visão Geral Dashboard](recursos/visao-geral-dashboard.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/visao-geral-dashboard>
 - [Visão Geral do CRM](recursos/visao-geral-do-crm.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/visao-geral-do-crm>
 - [Visão Geral E-mails](recursos/visao-geral-e-mails.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/visao-geral-e-mails>
 - [Visão Geral Equipe](recursos/visao-geral-equipe.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/visao-geral-equipe>
 - [Visão Geral FlowBuilder](recursos/visao-geral-flowbuilder.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/visao-geral-flowbuilder>
 - [Visão Geral Gestão de Links](recursos/visao-geral-gestao-de-links.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/visao-geral-gestao-de-links>
+- [Visão Geral Mail Marketing](recursos/visao-geral-mail-marketing.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/visao-geral-mail-marketing>
 - [Visão Geral PDV](recursos/visao-geral-pdv.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/visao-geral-pdv>
 - [Visão Geral Projetos](recursos/visao-geral-projetos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/visao-geral-projetos>
 - [Visão Geral Quadro de Atendimentos](recursos/visao-geral-quadro-de-atendimentos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/visao-geral-quadro-de-atendimentos>
+- [Visão Geral Reservas](recursos/visao-geral-reservas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/visao-geral-reservas>
 - [Visão Geral Rodízios](recursos/visao-geral-rodizios.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/visao-geral-rodizios>
 - [Visão Geral Setores & Chatbot](recursos/visao-geral-setores-e-chatbot.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/visao-geral-setores-e-chatbot>
 - [Visão Geral Tags](recursos/visao-geral-tags.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/visao-geral-tags>
 - [Visão Geral Tarefas](recursos/visao-geral-tarefas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/visao-geral-tarefas>
+- [Visões do Dashboard](recursos/visoes-do-dashboard.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/visoes-do-dashboard>
+- [Vitrine do Cardápio Digital](recursos/vitrine-do-cardapio-digital.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/vitrine-do-cardapio-digital>
 - [Web Chat](recursos/web-chat.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/web-chat>
+- [Webhook da Avaliação pela IA](recursos/webhook-da-avaliacao-pela-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/webhook-da-avaliacao-pela-ia>
 - [Webhook do Funil](recursos/webhook-do-funil.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/webhook-do-funil>
-- [Webhooks e Eventos em Configurações](recursos/webhooks-e-eventos-em-configuracoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/webhooks-e-eventos-em-configuracoes>
+- [Webhooks e integrações em Configurações](recursos/webhooks-e-integracoes-em-configuracoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/webhooks-e-integracoes-em-configuracoes>
 - [Modo Híbrido (Coex + QR CODE)](recursos/whatsapp-modo-hibrido-oficial-e-qrcode.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/whatsapp-modo-hibrido-oficial-e-qrcode>
 - [Gestão de Templates](recursos/whatsapp-oficial-gestao-de-templates.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/whatsapp-oficial-gestao-de-templates>
 - [Oficial x Não Oficial](recursos/whatsapp-oficial-x-nao-oficial.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/whatsapp-oficial-x-nao-oficial>
+- [WhatsApp QR Code](recursos/whatsapp-qr-code.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/whatsapp-qr-code>
 - [WhatsApp](recursos/whatsapp.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/whatsapp>
 - [A cobrança do WhatsApp Oficial mudou](trilhas/a-cobranca-do-whatsapp-oficial-mudou.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/a-cobranca-do-whatsapp-oficial-mudou>
 - [Adicionar a Primeira Conexão](trilhas/adicionar-a-primeira-conexao.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/adicionar-a-primeira-conexao>

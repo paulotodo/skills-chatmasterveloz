@@ -3,15 +3,15 @@
 Cópia em Markdown da Central de Ajuda, para consulta por agentes: como cada recurso funciona, passo a passo de uso e a referência da API.
 
 - **Fonte:** <https://clihelper.chatmasterveloz.com/docs>
-- **Copiado em:** 12/11/2026
-- **Conteúdo:** 661 artigos (14 de Trilhas, 369 de Recursos, 273 de APIs, 5 fora do menu), 233 endpoints e 17 vídeos
+- **Copiado em:** a cópia é refeita por `_gerar.py`; a data é a dos arquivos
+- **Conteúdo:** os artigos de Trilhas, Recursos e APIs, os que estão fora do menu, os endpoints e os vídeos; as contagens atuais estão nos índices
 - **Para atualizar:** `python3 _gerar.py` baixa o site de novo e regenera tudo, menos este arquivo.
 
 Para CSS e JS de customização do painel (seletores, atributos `data-*`), a referência é outra: `../docs-css-chatmasterveloz/`.
 
 ## Não leia tudo: ache o artigo e leia só ele
 
-São cerca de 4 MB em 661 arquivos, um por artigo. O caminho é: índice ou `grep` → abrir o artigo.
+São centenas de arquivos, um por artigo. O caminho é: índice ou `grep` → abrir o artigo.
 
 | Preciso de… | Onde |
 |---|---|

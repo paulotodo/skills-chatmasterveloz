@@ -70,7 +70,11 @@ def carregar_catalogo():
     eventos, versao_catalogo = set(), "?"
     for arq in sorted(DOCS.glob("[0-9][0-9]-*.md")):
         n, texto = arq.name[:2], arq.read_text(encoding="utf-8")
-        if n == "00":
+        # o 00 é escrito à mão e pode ficar para trás; vale a versão do cabeçalho dos arquivos gerados
+        m = re.match(r"<!-- gerado por _gerar\.py .*?versão (\S+) -->", texto)
+        if m:
+            versao_catalogo = m.group(1)
+        if n == "00":  # lido primeiro (ordem do nome); os gerados, lidos depois, sobrepõem a versão
             m = re.search(r"Versão do catálogo:\*\*\s*(\S+)", texto)
             versao_catalogo = m.group(1) if m else "?"
             continue

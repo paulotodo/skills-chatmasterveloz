@@ -58,7 +58,7 @@ Bearer {seutokenaqui}
 
 ➡️ **“oportunidadeId”:** ID da oportunidade — vai no próprio endereço, no lugar de `{oportunidadeId}`. **Obrigatório.**
 
-⚠️ **O exemplo acima traz tudo o que a chamada aceita, para você escolher** — não é obrigatório enviar inteiro. Os campos que você não enviar ficam como estão.
+⚠️ **O exemplo acima traz o que a chamada aceita, para você escolher** — não é obrigatório enviar inteiro. Os campos que você não enviar ficam como estão.
 
 ➡️ **“name”:** título do card.
 
@@ -72,11 +72,19 @@ Bearer {seutokenaqui}
 
 ➡️ **“produto”:** nome do produto, em texto livre. **“productId”:** o produto do catálogo.
 
-➡️ **“motivoPerdaId”:** o motivo da perda, que só faz sentido em raia de perda. É **obrigatório** quando o `laneId` leva a oportunidade para uma raia de perda: sem ele, a chamada é recusada com **400** `ERR_CRM_MOTIVO_DA_PERDA_OBRIGATORIO`.
+➡️ **“motivoPerdaId”:** o motivo da perda, que só faz sentido em raia de perda. É **obrigatório** quando o `laneId` leva a oportunidade para uma raia de perda: sem ele, a chamada é recusada.
 
 ➡️ **“origemVendaId”:** a origem da venda.
 
 ➡️ **“previsaoFechamento”:** data prevista de fechamento.
+
+➡️ **“wonAt”:** o dia do ganho, no formato `AAAA-MM-DD` ou com a hora (ISO 8601, como `2026-11-11T15:30:00-03:00`). Sem a hora, vale o meio-dia de Brasília. Só vale na oportunidade que fica **ganha**: a que já está ganha, ou a que vai para uma raia de ganho pelo `laneId` na mesma chamada. Na perdida ou na aberta, a chamada é recusada.
+
+➡️ **“lostAt”:** o dia da perda, no mesmo formato. Só vale na oportunidade **perdida**; na ganha ou na aberta, a chamada é recusada.
+
+◽ As duas datas ficam fora do exemplo porque cada uma só vale numa etapa. Mande uma só por chamada: `wonAt` e `lostAt` juntos são recusados, e a data no futuro ou que não existe também.
+
+◽ Cada troca da data entra no **Histórico** da oportunidade (o evento `CLOSE_DATE_CHANGED`).
 
 ➡️ **“fonte”** e **“campanha”:** de onde a oportunidade veio.
 

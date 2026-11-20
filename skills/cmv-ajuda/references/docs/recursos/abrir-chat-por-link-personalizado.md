@@ -30,7 +30,7 @@ Ideal para:
 >
 > ➡️ Acesse o menu **Conexões** e anote o número que aparece como **ID** no card da conexão.
 >
-> ➡️ Monte o endereço na ordem **/ atendente / setor / conexão / telefone**
+> ➡️ Monte o endereço na ordem **/ atendente / setor / conexão / telefone**.
 >
 > ➡️ Abra o endereço no navegador, já conectado à plataforma.
 
@@ -39,14 +39,16 @@ Ideal para:
 Depois do endereço que você usa para entrar na plataforma vêm quatro informações, sempre nesta ordem:
 
 ```
-https://ENDERECO-DA-PLATAFORMA/ATENDENTE/SETOR/CONEXAO/TELEFONE
+https://{FRONTEND_URL}/ATENDENTE/SETOR/CONEXAO/TELEFONE
 ```
 
 Com os números no lugar:
 
 ```
-https://ENDERECO-DA-PLATAFORMA/5/3/12/5511967296849
+https://{FRONTEND_URL}/5/3/12/5511967296849
 ```
+
+🔘 **Endereço da plataforma:** o começo do link, `{FRONTEND_URL}`, é o endereço em que você entra na plataforma. Se ele aparecer como `{FRONTEND_URL}`, troque pelo endereço que aparece na barra do navegador quando você está na plataforma.
 
 🔘 **Atendente:** o número do Atendente. Está no menu **Equipe**, como **ID**, no card de cada pessoa. Não precisa ser você — o link pode apontar para outro operador, e o atendimento nasce no nome dele.
 
@@ -86,7 +88,7 @@ https://ENDERECO-DA-PLATAFORMA/5/3/12/5511967296849
 >
 > **Serve para número que ainda não é contato?** Sim. O cadastro nasce junto com o atendimento, usando o número como nome.
 >
-> **O cliente recebe alguma mensagem quando abro o atendimento assim?** Não. A conversa abre vazia do lado dele; nada sai até você escrever.
+> **O cliente recebe alguma mensagem quando abro o atendimento assim?** Não. A conversa abre vazia do lado dele; nada é enviado até você escrever.
 >
 > **A tela disse que criou um ticket novo, mas a conversa antiga está lá. Está errado?** Não. Quando já houve atendimento com aquele contato naquela conexão, o link reabre a mesma conversa — o aviso é só o texto da tela.
 

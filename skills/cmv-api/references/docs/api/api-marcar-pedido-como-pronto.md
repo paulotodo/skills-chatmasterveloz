@@ -40,7 +40,7 @@ Bearer {seutokenaqui}
 
 ⚠️ **Só o pedido confirmado ou em preparo** fica pronto — dá para pular o preparo. Em rascunho, ou depois de sair para entrega, a chamada é recusada.
 
-➡️ **Pedido de retirada:** o cliente recebe na conversa o aviso de que o pedido está pronto para retirar, quando esse aviso está ligado nos **Avisos do pedido ao cliente**, em Configurações → Opções.
+➡️ **Pedido de retirada:** o cliente recebe na conversa o aviso de que o pedido está pronto para retirar, quando esse aviso está ligado nos **Avisos do pedido ao cliente**, no menu **Configurações  ›  Opções  ›  Vendas**, seção **PDV**.
 
 ◽ Pedido com entrega fica esperando sair, sem aviso ao cliente.
 

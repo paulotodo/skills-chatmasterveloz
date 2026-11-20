@@ -6,9 +6,9 @@
 
 ---
 
-🧩 A aba **Mensagens** cuida do que o cliente lê ao chegar neste Setor. É aqui que você escreve a primeira resposta que ele recebe e, quando o Setor tem expediente, o que ele lê se escrever com o Setor fechado.
+🧩 A aba **Mensagens** cuida do que o cliente lê ao chegar neste Setor e quando o atendimento é encerrado. É aqui que você escreve a primeira resposta que ele recebe, a despedida do Setor e, quando o Setor tem expediente, o que ele lê se escrever com o Setor fechado.
 
-São três campos. A **Mensagem de saudação** recebe quem chegou; a **Mensagem de fora de expediente** responde quem chegou fora do horário; e as **Palavras-Chave e Gatilhos** guardam as palavras que levam o cliente direto a este Setor.
+A **Mensagem de saudação** recebe quem chegou; a **Despedida ao encerrar** e a **Mensagem de despedida do setor** cuidam da despedida dos atendimentos deste Setor; a **Mensagem de fora de expediente** responde quem chegou fora do horário; e as **Palavras-Chave e Gatilhos** guardam as palavras que levam o cliente direto a este Setor.
 
 > **[RESUMO]**
 >
@@ -18,7 +18,9 @@ São três campos. A **Mensagem de saudação** recebe quem chegou; a **Mensagem
 >
 > ➡️ Abra a aba **Mensagens**.
 >
-> ➡️ Escreva a saudação e, se o Setor tiver expediente, a mensagem de fora de expediente. Clique em **Salvar**.
+> ➡️ Escreva a saudação e, se o Setor tiver expediente, a mensagem de fora de expediente.
+>
+> ➡️ Para a despedida própria do Setor, escolha a regra em **Despedida ao encerrar** e escreva a **Mensagem de despedida do setor**. Clique em **Salvar**.
 
 ## Os campos
 
@@ -28,7 +30,11 @@ Uma boa saudação faz três coisas em poucas linhas: diz onde a pessoa chegou, 
 
 Para usar o nome do cliente, escreva `{{name}}` no ponto do texto em que o nome deve aparecer: na hora de enviar, o sistema troca pelo nome do contato. Por exemplo, `Olá, {{name}}! Você está no Suporte.`
 
-🔘 **Mensagem de fora de expediente:** o texto que o cliente recebe quando escreve com o Setor fechado. O campo só aparece nesta aba quando a empresa usa o expediente por Setor — no menu **Configurações  ›  Opções**, **Gerenciamento de Expediente** em **Gerenciamento Por Setor**. O horário de cada Setor fica na aba **Horários**.
+🔘 **Despedida ao encerrar:** a regra da despedida nos atendimentos deste Setor. **Seguir a da conexão e da empresa** deixa a decisão para a Conexão e, depois, para a empresa; **Sempre enviar a despedida (obrigatória)** faz o atendente só encerrar com a despedida, e o **Resolver sem Mensagem de Encerramento** some; **Nunca enviar despedida** encerra sem enviar a despedida ao cliente. Nas palavras da tela: *"Vale a primeira que não segue: a do usuário, a do setor, a da conexão; sem nenhuma, a da empresa (Opções)."* Ou seja, a regra do atendente, no cadastro dele, vence a do Setor, e a do Setor vence a da Conexão.
+
+🔘 **Mensagem de despedida do setor:** o texto da despedida nos atendimentos deste Setor. Nas palavras da tela: *"Vale quando o atendente não tem a dele; sem nenhuma, vai a Mensagem de Finalização da conexão."* Ou seja, a **Mensagem de Despedida** do atendente vem antes; sem nenhuma das duas, vai o texto de encerramento da Conexão.
+
+🔘 **Mensagem de fora de expediente:** o texto que o cliente recebe quando escreve com o Setor fechado. O campo só aparece nesta aba quando a empresa usa o expediente por Setor — no menu **Configurações  ›  Opções  ›  Geral**, **Gerenciamento de Expediente** em **Gerenciamento Por Setor**. O horário de cada Setor fica na aba **Horários**.
 
 🔘 **Palavras-Chave e Gatilhos:** palavras ligadas ao assunto deste Setor, separadas por vírgula, como `boleto,fatura`. Quando a Conexão tem o menu de Setores e o cliente escreve uma delas — já na primeira mensagem ou no lugar de escolher uma opção do menu —, a conversa vai direto para este Setor e o cliente recebe a **Mensagem de saudação** dele. Basta a palavra aparecer no meio da frase, sem diferença de maiúsculas, minúsculas e acento.
 
@@ -54,11 +60,15 @@ Quando a Conexão do Instagram encaminha comentários de publicações para o Se
 >
 > **O cliente volta a escrever outro dia. Recebe a Mensagem de saudação de novo?** Sim. Quando o cliente volta a escrever depois de o atendimento ter sido encerrado, a conversa chega de novo ao Setor pela Conexão e a saudação é enviada outra vez.
 >
-> **Onde fica a Mensagem de fora de expediente?** Nesta aba **Mensagens**. O campo só aparece quando a empresa usa o expediente por Setor: no menu **Configurações  ›  Opções**, **Gerenciamento de Expediente** em **Gerenciamento Por Setor**. Os horários ficam na aba **Horários** do Setor.
+> **Onde fica a Mensagem de fora de expediente?** Nesta aba **Mensagens**. O campo só aparece quando a empresa usa o expediente por Setor: no menu **Configurações  ›  Opções  ›  Geral**, **Gerenciamento de Expediente** em **Gerenciamento Por Setor**. Os horários ficam na aba **Horários** do Setor.
 >
 > **Onde as Palavras-Chave e Gatilhos fazem efeito?** Em dois lugares. Na Conexão com o menu de Setores: o cliente que escreve uma das palavras, na primeira mensagem ou no lugar de escolher uma opção, vai direto para este Setor e recebe a saudação dele. E nos comentários de publicações do Instagram encaminhados para este Setor: o fluxo do Setor responde ao comentário que tem uma das palavras e ignora o que não tem.
 >
 > **O cliente precisa escrever a Palavra-Chave do Setor igualzinho ao cadastro?** Não. A palavra vale no meio da frase, com ou sem acento e com qualquer mistura de maiúsculas e minúsculas: com `boleto` na lista, *Quero a segunda via do BOLETO* leva o cliente ao Setor.
+>
+> **A Mensagem de despedida do setor substitui a do atendente?** Não. Ela vale quando o atendente não tem a **Mensagem de Despedida** dele; sem nenhuma das duas, vai o texto de encerramento da Conexão.
+>
+> **Como obrigo a despedida só nos atendimentos deste Setor?** Em **Despedida ao encerrar**, escolha **Sempre enviar a despedida (obrigatória)**: nos atendimentos do Setor, o **Resolver sem Mensagem de Encerramento** some. O atendente com regra própria no cadastro dele, no menu **Equipe  ›  editar o usuário  ›  aba Geral**, segue a dele.
 
 > **[ERROS]**
 >

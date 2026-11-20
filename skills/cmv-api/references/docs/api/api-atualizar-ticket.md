@@ -50,11 +50,17 @@ Bearer {seutokenaqui}
 
 ◽ O **25678** é o protocolo, e não serve nesta chamada.
 
+◽ Só muda o que vier no payload; o que ficar de fora continua como está.
+
 ➡️ **“status”:** `open`, `pending` ou `closed`.
+
+◽ Num ticket já encerrado, mandar `closed` de novo, ou só o `ticketId`, não abre protocolo novo.
 
 ➡️ **“userId”:** ID do atendente, ou `null`.
 
 ➡️ **“queueId”:** ID do Setor, ou `null`.
+
+◽ A troca de Setor é avisada no webhook da Conexão, com `origemDoEvento: "api"`, e no webhook do Setor novo.
 
 ➡️ **“typebot_sessionId”:** ID da sessão do Typebot. Campo livre, letras e números.
 
@@ -65,6 +71,16 @@ Bearer {seutokenaqui}
 ➡️ **“customC”:** informação livre C, em JSON.
 
 ➡️ **“customD”:** informação livre D, em JSON.
+
+➡️ **“retornoAoAtendente”:** `true` ou `false`, só no encerramento, com `"status": "closed"`. `true` liga o retorno ao mesmo atendente neste encerramento, mesmo com a opção desligada no Setor: se o cliente responder dentro do prazo, o ticket volta como `open` para o mesmo atendente. `false` encerra sem o retorno, e a resposta do cliente segue o caminho de sempre de um ticket encerrado.
+
+➡️ **“minutosDoRetorno”:** só no encerramento. O prazo, em minutos, para a resposta do cliente trazer o ticket de volta ao mesmo atendente, de 1 a 10080 (7 dias). Vale para este encerramento, no lugar do prazo do Setor.
+
+➡️ **“setorDeTransbordoId”:** só no encerramento. ID do Setor de transbordo: se o cliente responder dentro do prazo com o atendente offline, o ticket vai para este Setor, como `pending` e sem atendente.
+
+◽ O que não vier na chamada segue a opção **Retornar ao mesmo atendente** do Setor do ticket.
+
+◽ Valor fora do aceito é recusado, e nada muda no ticket: minutos fora de 1 a 10080, `retornoAoAtendente` que não seja `true` ou `false`, ou um Setor de transbordo que não existe.
 
 #### Utilize o código em requisições HTTPS com ferramentas como cURL ou bibliotecas de integração.
 

@@ -1,13 +1,15 @@
-<!-- gerado por _gerar.py · fonte: bundle WS-29.930.0 -->
+<!-- gerado por _gerar.py · fonte: bundle WS-30.141.0 -->
 
-# Rotas (URLs) do frontend (134)
+# Rotas (URLs) do frontend (148)
 
 Lidas do roteador do bundle, na ordem em que são declaradas. Servem para o JS decidir pela `location.pathname`. O catálogo **não** publica qual `#custom-css-<página>` pertence a qual rota: confirme inspecionando a tela. `:param` é parâmetro; `?` no fim é opcional.
 
 | Rota | Exige login |
 |---|---|
 | `/login` | não |
+| `/login-automatico` | não |
 | `/signup` | não |
+| `/monte-seu-plano` | não |
 | `/survey` | não |
 | `/forgotpassword` | não |
 | `/embed/ticket/:ticketId` | não |
@@ -17,11 +19,16 @@ Lidas do roteador do bundle, na ordem em que são declaradas. Servem para o JS d
 | `/documento/:codigo` | não |
 | `/cardapio/:slug` | não |
 | `/bio/:slug` | não |
+| `/bio/:slug/:sub` | não |
 | `/loja/:slug` | não |
 | `/loja/:slug/p/:produto` | não |
+| `/reservas/:slug` | não |
+| `/agendar/:codigo` | não |
+| `/reservas/:slug/minha/:codigo` | não |
 | `/api-docs` | não |
 | `/css-docs` | não |
 | `/` | sim |
+| `/dashboard` | sim |
 | `/dashboard_legado` | sim |
 | `/tickets/:ticketId?` | sim |
 | `/quadro-de-atendimentos` | sim |
@@ -114,16 +121,23 @@ Lidas do roteador do bundle, na ordem em que são declaradas. Servem para o JS d
 | `/amqp-messages` | sim |
 | `/sip-logs` | sim |
 | `/gravacoes` | sim |
+| `/links-de-agendamento` | sim |
+| `/assistente` | sim |
 | `/pedidos` | sim |
 | `/painel-de-pedidos` | sim |
 | `/balcao` | sim |
 | `/caixa` | sim |
 | `/relatorio-pdv` | sim |
+| `/pdv-clientes` | sim |
 | `/avaliacao-ia` | sim |
+| `/mail-marketing` | sim |
+| `/meus-numeros` | sim |
 | `/cardapio-digital` | sim |
 | `/link-na-bio` | sim |
 | `/loja-digital` | sim |
 | `/consultorio` | sim |
+| `/reservas` | sim |
+| `/reservas-agenda` | sim |
 | `/consultorio-pacientes` | sim |
 | `/consultorio-agenda` | sim |
 | `/consultorio-recepcao` | sim |

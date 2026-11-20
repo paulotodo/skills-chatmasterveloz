@@ -53,7 +53,7 @@ Se o pedido já traz o suficiente, não trave: escreva, declare as suposições 
 | Mandar algo para um contato em data futura, ou todo mês | Agendamento | Na oficial, só com template |
 | Parabenizar no dia do aniversário | Mensagem de Aniversário | Um texto só, enviado às 10h |
 | O que o cliente lê ao chegar ou fora do horário | Mensagens do Setor (e da Conexão) | Saudação, fora de expediente |
-| Aviso de que o atendente saiu; despedida | Mensagem de Ausência; Mensagem de Conclusão/Despedida | Campos do Perfil e da Conexão |
+| Aviso de que o atendente saiu; despedida | Mensagem de Ausência; Mensagem de conclusão/Despedida | Campos do Perfil, do atendente, do Setor e da Conexão |
 
 Um pedido pode render mais de um tipo. "Campanha de reativação" na oficial, por exemplo, é um template de Marketing mais a lista com os campos extras preenchidos.
 
@@ -80,7 +80,7 @@ A cópia da Central de Ajuda está em `references/docs/` (um arquivo por artigo)
 Regras de honestidade, e o motivo de cada uma:
 
 - **Só afirme o que está no artigo.** O usuário vai colar o texto e disparar para clientes; uma variável inventada chega ao cliente como texto literal com chaves, e um caminho de menu errado faz a pessoa desistir.
-- **Imagens não foram transcritas.** Vários formulários (como o de **NOVO TEMPLATE**) só aparecem em imagem. Não descreva campos que você não leu em texto.
+- **Imagens não foram transcritas.** Alguns formulários só aparecem em imagem. Não descreva campos que você não leu em texto.
 - **Diga "a documentação não cobre isso"** quando for o caso, e proponha um teste antes do envio real (ver "Teste antes do envio").
 - **Não misture variantes de conexão.** O que vale para a oficial não vale para a por QR Code, e vice-versa. Os artigos dizem por extenso a que conexão se aplicam ("conexão oficial", "por QR Code"); a comparação está em `references/docs/recursos/whatsapp-oficial-x-nao-oficial.md`.
 - **Não cite preços nem planos.** A cobrança é da Meta e muda; diga que existe, quem cobra e o que conta (ver "Quando perguntarem quanto custa").
@@ -104,18 +104,23 @@ Regras de honestidade, e o motivo de cada uma:
 | Banco de ideias de respostas rápidas por área | `references/docs/recursos/ideias-de-respostas-rapidas.md` |
 | Template: categorias, modelos, erros | `references/docs/recursos/mensagem-template.md` |
 | Template: onde criar, sincronizar, grupos, erros de envio | `references/docs/recursos/whatsapp-oficial-gestao-de-templates.md` |
+| Template: o formulário **NOVO TEMPLATE** e a criação na Meta | `references/docs/recursos/criar-template-pela-plataforma.md`, `references/docs/recursos/criar-template-no-gerenciador-do-whatsapp.md` |
+| Template recusado, pausado ou desabilitado; códigos de erro de entrega | `references/docs/recursos/template-recusado-pausado-ou-desabilitado.md`, `references/docs/recursos/erros-de-entrega-do-whatsapp-oficial.md` |
 | Campanha por QR Code | `references/docs/recursos/nova-campanha.md`, `references/docs/recursos/configurar-campanhas.md` |
 | Campanha oficial e a planilha com extras | `references/docs/recursos/nova-campanha-api-oficial.md` |
 | Listas de contatos | `references/docs/recursos/fontes-de-contatos-para-campanhas.md` |
 | Agendamentos | `references/docs/recursos/adicionar-agendamento.md` |
-| Aniversário | `references/docs/recursos/mensagem-de-aniversario.md`, `references/docs/recursos/mensagem-de-aniversario-em-configuracoes.md` |
+| Aniversário | `references/docs/recursos/mensagem-de-aniversario.md`, `references/docs/recursos/mensagens-automaticas-em-configuracoes.md` |
+| Mensagens automáticas da empresa (Saída Forçada, Encaminhamento, Aniversário) | `references/docs/recursos/mensagens-automaticas-em-configuracoes.md` |
 | Saudação e fora de expediente do Setor | `references/docs/recursos/aba-mensagens-em-setores-e-chatbot.md`, `references/docs/recursos/aba-horarios-em-setores-e-chatbot.md` |
 | Mensagens da Conexão (saudação, conclusão, fora de expediente, avaliação, inatividade) e menu de Setores | `references/docs/recursos/adicionar-whatsapp-qrcode.md`, `references/docs/recursos/adicionar-whatsapp-oficial.md`, `references/docs/recursos/chatbot-e-menu-de-setores-na-conexao.md` |
-| Ausência, encerramento e despedida | `references/docs/recursos/mensagem-de-ausencia.md`, `references/docs/recursos/mensagem-de-encerramento.md` |
+| Ausência, encerramento e despedida (da Conexão, do Setor e do atendente) | `references/docs/recursos/mensagem-de-ausencia.md`, `references/docs/recursos/mensagem-de-encerramento.md` |
 | Pesquisa de satisfação (Avaliações) | `references/docs/recursos/avaliacoes.md`, `references/docs/recursos/avaliacoes-em-configuracoes.md` |
 | Janela de 24h e de 72h | `references/docs/recursos/janela-de-atendimento.md` |
 | Cobrança da API Oficial e onde acompanhar o consumo | `references/docs/trilhas/a-cobranca-do-whatsapp-oficial-mudou.md`, `references/docs/trilhas/medir-quanto-voce-ja-enviou-no-mes.md`, `references/docs/recursos/limitador-de-mensagens.md` |
-| Bloqueio de número, opt-in, limites de envio | `references/docs/recursos/numero-bloqueado-no-whatsapp.md` |
+| Bloqueio de número, opt-in, limites de envio | `references/docs/recursos/numero-bloqueado-no-whatsapp.md`, `references/docs/recursos/qualidade-do-numero-e-limite-de-envio.md` |
+| Meio de pagamento na Meta | `references/docs/recursos/forma-de-pagamento-do-whatsapp-oficial.md` |
+| Corrigir uma mensagem já enviada ao cliente | `references/docs/recursos/editar-mensagem-enviada-ao-cliente.md` |
 
 ## Armadilhas encontradas na documentação
 
@@ -123,7 +128,7 @@ Cada uma já causou, ou causaria, uma entrega errada. Confira antes de responder
 
 1. **Três sintaxes de variável.** `{{firstName}}` (mustache da plataforma), `{{1}}` (template) e `{nome}` / `%variavel%` (preenchimento do bloco Template no FlowBuilder) não são intercambiáveis. `{{nome}}` não existe em nenhuma delas.
 2. **Mustache é exato** (`references/docs/recursos/mustaches.md`). Maiúsculas contam (`{{firstName}}`, não `{{firstname}}`), não pode haver espaço dentro das chaves e não dá para inventar código: o que o sistema não reconhece vai literal para o cliente.
-3. **Nem todo campo confirma variáveis.** O artigo do Setor confirma `{{name}}` na saudação; o da resposta rápida confirma que há variáveis. Para mensagem simples de campanha, agendamento, aniversário, fora de expediente, ausência e conclusão, o artigo do campo não diz nada. Nesses, escreva sem variável ou avise que é para testar.
+3. **Nem todo campo confirma variáveis.** O artigo do Setor confirma `{{name}}` na saudação; o da resposta rápida confirma que há variáveis (exemplo `{{firstName}}`); o de Mensagens automáticas confirma `{{ms}}` e `{{name}}` na **Mensagem de Encaminhamento**. Para mensagem simples de campanha, agendamento, aniversário, fora de expediente, ausência e conclusão, o artigo do campo não diz nada. Nesses, escreva sem variável ou avise que é para testar.
 4. **Utilidade contaminada.** Uma única frase de oferta num template de Utilidade faz o modelo inteiro virar Marketing; e Utilidade com linguagem vendedora é recusada. Cobrança e aviso: informe e pare. A oferta vai em outro template.
 5. **Editar template aprovado tira ele do ar** até nova aprovação, e excluir apaga também na Meta. Ao revisar um template em uso, sugira criar um novo em vez de editar.
 6. **Na campanha oficial o extra2 é a `{{1}}`.** O extra1 é a imagem do cabeçalho. Só há campos para `{{1}}` a `{{5}}`: template para campanha não deve ter mais de cinco variáveis no corpo. Template com variável exige **Lista de Contato** com os extras preenchidos; variável vazia faz a Meta recusar.
@@ -134,13 +139,13 @@ Cada uma já causou, ou causaria, uma entrega errada. Confira antes de responder
 11. **Saudação da Conexão e saudação do Setor somam.** Com as duas preenchidas o cliente recebe as duas. Pergunte qual já existe antes de escrever outra.
 12. **Mensagem de encerramento não pode terminar em pergunta:** a resposta do cliente abre um ticket novo.
 13. **Mensagem de ausência repete** a cada mensagem do cliente enquanto o status estiver Ausente. Escreva um texto que não irrite na terceira vez e diga quando o atendente volta.
-14. **Fora de expediente depende de uma opção.** Com **Abrir Tickets Fora do Expediente?** em **Não**, o atendimento é encerrado: não escreva "sua mensagem ficou registrada".
+14. **Fora de expediente depende de uma opção.** Com **Abrir Atendimentos Fora do Expediente?** (**Configurações › Opções › Geral**) em **Não**, o atendimento é encerrado: não escreva "sua mensagem ficou registrada".
 15. **Colchetes em resposta rápida.** No campo **Mensagem**, `[nome do atalho]` é o código das respostas de mídia e de fluxo. Em resposta de texto, nenhum `[...]` fica no texto salvo. O que é fixo do negócio (nome da empresa, endereço, chave Pix) o usuário troca antes de salvar. O que muda a cada cliente (valor, data, link) não vai entre colchetes: escreva em MAIÚSCULAS (VALOR, DATA) e diga que o atendente troca na hora de enviar.
 16. **A cobrança mudou em 1º de outubro de 2026.** Desde então a Meta cobra também o texto livre enviado dentro da janela (há uma franquia mensal por número) e o template de Utilidade com a janela aberta. O artigo de Agendamento ainda traz a regra antiga numa dúvida comum. Na oficial, uma mensagem completa custa menos que três curtas: redija assim.
 17. **O Limitador de Mensagens só informa.** Não o apresente como trava de gasto.
 18. **A lista de campanha é uma foto.** Quem entrou na tag depois de a lista ser criada não recebe. Em campanha que se repete, oriente a criar a lista de novo.
 19. **Risco de bloqueio na conexão por QR Code nunca é zero**, mesmo com intervalos e variações. Não prometa segurança; mostre o que o artigo recomenda e deixe a decisão com o usuário.
-20. **O fuso horário da empresa vale para agendamentos e campanhas** (**Configurações › Opções**). Sem escolha, o sistema usa o horário de Brasília. Em envio com hora marcada, lembre de conferir.
+20. **O fuso horário da empresa vale para agendamentos, campanhas e a mensagem de aniversário** (**Configurações › Opções › Geral**, seção **Empresa e região**). Sem escolha, o sistema usa o horário de Brasília. Em envio com hora marcada, lembre de conferir.
 21. **Palavra de saída: PARAR, não SAIR.** No menu de opções do chatbot do Setor a plataforma acrescenta a linha **SAIR - Encerrar Atendimento**, e quem responde SAIR encerra o atendimento (`references/docs/recursos/chatbot-e-menu-de-setores-na-conexao.md`). Na **Mensagem de Descadastramento** da campanha e na opção de saída do template, escreva "responda PARAR".
 
 ## Quando perguntarem quanto custa
@@ -201,7 +206,7 @@ Caminho de arquivo desta skill (o que começa por `references/` ou `assets/`) n�
 - **Template de Utilidade de texto fixo**, em bloco de código, para o agendamento (**Repetir a cada** › **Todo dia...**, com a data inicial num dia 5 e o fuso conferido).
 - **Template de Utilidade com `{{1}}` a `{{5}}`** (nome, referência, valor, vencimento, link), em bloco de código, com exemplo de valor e o campo extra de cada variável, para campanha pela API Oficial.
 - **"Que não seja reprovado":** a lista única da ficha de template (sem oferta, sem linguagem vendedora, sem link encurtado, sem urgência artificial, categoria certa), dizendo que a aprovação é da Meta e não pode ser garantida, e o que os artigos não trazem sobre formato.
-- **Passo a passo:** **Conexões** › card da conexão oficial › **Gestão de Templates** › **NOVO TEMPLATE** (os campos do formulário não estão descritos em texto) e depois **Agendamentos** › **+ Nova Agendamento**.
+- **Passo a passo:** **Conexões** › card da conexão oficial › **Gestão de Templates** › **NOVO TEMPLATE** (os três passos do assistente, com **Exemplo para variável** preenchido) e depois **Agendamentos** › **+ Nova Agendamento**.
 - **Custo:** o roteiro sem valores e onde acompanhar no **Limitador de Mensagens**.
 
 **Pedido:** "quero disparar uma campanha pra reativar cliente que sumiu"

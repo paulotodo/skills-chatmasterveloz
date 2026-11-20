@@ -64,7 +64,7 @@ Não são regras da plataforma; são o que faz um robô de atendimento ser toler
 
 ## 4. Agendamento
 
-A documentação desta skill não traz bloco de agenda. O fluxo coleta o pedido e entrega a uma pessoa, ou consulta um sistema externo.
+Com ofertas cadastradas no menu **Reservas**, o bloco **Reservas (agendar no fluxo)** deixa o cliente escolher a oferta, o dia e o horário livre e confirmar sozinho (Reservas (agendar no fluxo) (`references/docs/recursos/reservas-agendar-no-fluxo.md`)): `Início → Conteúdo → Reservas (agendar no fluxo) [Reservou] → Conteúdo (agradecimento) → Encerrar; [Não reservou] → Conteúdo (aviso) → Setor; [Sem resposta] → Encerrar`. Esse bloco não tem formato observado: roteiro. Sem ele, o fluxo coleta o pedido e entrega a uma pessoa, ou consulta um sistema externo.
 
 - **Esqueleto:**
   ```
@@ -75,7 +75,7 @@ A documentação desta skill não traz bloco de agenda. O fluxo coleta o pedido 
   ```
 - **Variação com sistema externo:** no lugar da passagem, HTTP Request ou Execução de Código JS consulta a agenda e uma Condição decide o caminho. A chamada é assunto da `cmv-api`.
 - **Cuidado:** não prometa horário confirmado se quem confirma é uma pessoa.
-- **JSON:** sim, na versão com passagem para a equipe.
+- **JSON:** sim, na versão com passagem para a equipe; não com o bloco Reservas (agendar no fluxo).
 
 ## 5. Cobrança e segunda via
 
@@ -95,7 +95,7 @@ A documentação desta skill não traz bloco de agenda. O fluxo coleta o pedido 
 - **Entrada:** tag com remarketing (por exemplo, 24 horas depois), ou a nota da avaliação do encerramento (Gatilho via Avaliação (`references/docs/recursos/gatilho-via-avaliacao.md`)).
 - **Esqueleto por nota:** um fluxo por nota. Nota baixa: `Início → Conteúdo (desculpas) → Pergunta (o que faltou) → Variável → Msg Interna → Setor`. Nota alta: `Início → Conteúdo (agradecimento e link) → Encerrar`.
 - **Esqueleto com pesquisa no fluxo:** `… → Avaliação do Atendimento → [resposta] Conteúdo (agradecimento) → Encerrar; [Sem resposta] → Encerrar`.
-- **Cuidado:** a avaliação do encerramento só é enviada com o atendimento em **Atendendo**. O bloco Avaliação do Atendimento não encerra sozinho.
+- **Cuidado:** a avaliação do encerramento só é enviada com o atendimento em **Atendendo**. O bloco Avaliação do Atendimento não encerra sozinho. No fluxo da nota, a resposta de uma Pergunta seguida de Variável fica guardada na avaliação e aparece no menu **Relatório de Avaliações**.
 - **JSON:** sim para os fluxos de nota; a Avaliação do Atendimento não tem formato observado.
 
 ## 7. Remarketing por tag

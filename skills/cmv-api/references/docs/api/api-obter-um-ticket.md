@@ -6,20 +6,20 @@
 
 ---
 
-🧩 Obter **um ticket específico**.
+🧩 Obter **um ticket específico**, sem alterar nada nele.
 
 **API:** Todas
 
 ##### Endpoint
 
 ```
-https://api2.chatmasterveloz.com/api/tickets/updateAPI
+https://api2.chatmasterveloz.com/api/tickets/{ticketId}
 ```
 
 ##### Método
 
 ```
-POST
+GET
 ```
 
 ##### Autenticação
@@ -30,19 +30,21 @@ Bearer {seutokenaqui}
 
 ##### Payload
 
-```javascript
-{
-    "ticketId": "2003"
-  }
+```
+// sem payload — o ticketId vai no endereço
 ```
 
-➡️ **“ticketId”:** ID do Ticket.
+➡️ **“ticketId”:** ID do Ticket — vai no próprio endereço, no lugar de `{ticketId}`. **Obrigatório.**
 
 ◽ É o número entre parênteses no cabeçalho da conversa. Em **João da Silva (52) | #25678**, o ticketId é o **52**.
 
 ◽ O **25678** é o protocolo, e não serve nesta chamada.
 
-⚠️ Esta chamada usa o **mesmo endereço da atualização de ticket**. Enviando apenas o `ticketId`, nada é alterado: o ticket só é devolvido. Qualquer outro campo que você incluir no payload **será gravado** no ticket.
+◽ A resposta traz o ticket completo, com o contato inteiro: todos os campos do cadastro e os campos personalizados.
+
+◽ É só leitura: o ticket continua como estava, aberto ou encerrado — o status, a última atualização e os protocolos não mudam.
+
+◽ Um `ticketId` que não existe é recusado.
 
 #### Utilize o código em requisições HTTPS com ferramentas como cURL ou bibliotecas de integração.
 
@@ -52,17 +54,14 @@ Bearer {seutokenaqui}
 $curl = curl_init();
 
 curl_setopt_array($curl, array(
-  CURLOPT_URL => 'https://api2.chatmasterveloz.com/api/tickets/updateAPI',
+  CURLOPT_URL => 'https://api2.chatmasterveloz.com/api/tickets/{ticketId}',
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => '',
   CURLOPT_MAXREDIRS => 10,
   CURLOPT_TIMEOUT => 0,
   CURLOPT_FOLLOWLOCATION => true,
   CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-  CURLOPT_CUSTOMREQUEST => 'POST',
-  CURLOPT_POSTFIELDS =>'{
-    "ticketId": "2003" // Informe o ID do Ticket
-}',
+  CURLOPT_CUSTOMREQUEST => 'GET',
   CURLOPT_HTTPHEADER => array(
     'Content-Type: application/json',
     'Authorization: Bearer {seutokenaqui}' //Token cadastrado na conexão
@@ -78,5 +77,5 @@ echo $response;
 cURL:
 
 ```bash
-curl -X POST 'https://api2.chatmasterveloz.com/api/tickets/updateAPI' -H 'Authorization: Bearer {seutokenaqui}' -H 'Content-Type: application/json' --data '{"ticketId":"2003"}'
+curl -X GET 'https://api2.chatmasterveloz.com/api/tickets/{ticketId}' -H 'Authorization: Bearer {seutokenaqui}'
 ```

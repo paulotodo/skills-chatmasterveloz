@@ -5,7 +5,7 @@ description: "Use para dúvidas de uso do painel do Chat Master Veloz (chatmaste
 
 # Ajuda do Chat Master Veloz
 
-Esta skill responde dúvidas de uso do Chat Master Veloz (CMV) com base na cópia da Central de Ajuda que está em `references/docs/`: 388 artigos (369 de recursos, 14 de trilhas, 5 fora do menu) e a lista de vídeos, copiados em 12/11/2026. Quem pergunta costuma ser administrador, supervisor ou atendente sem formação técnica.
+Esta skill responde dúvidas de uso do Chat Master Veloz (CMV) com base na cópia da Central de Ajuda que está em `references/docs/`: 513 artigos (496 de recursos, 14 de trilhas, 3 fora do menu) e a lista de vídeos, copiados em 20/11/2026. Quem pergunta costuma ser administrador, supervisor ou atendente sem formação técnica.
 
 A documentação é grande. Ler tudo gasta contexto e não melhora a resposta: o trabalho é achar o artigo certo, ler o trecho que responde e passar isso adiante em linguagem simples, dizendo de onde veio.
 
@@ -58,7 +58,7 @@ Para "como faço", o `[RESUMO]` mais a seção do passo costumam bastar. Para "p
 
 ### 4. Confira atualizações e divergências
 
-Os artigos `recursos/atualizacoes-AAAA-MM-DD.md` registram o que mudou a cada dia, e nem toda mudança foi levada ao artigo do recurso. Quando o assunto for IA, PDV, CRM, FlowBuilder, conexões ou algo que a pessoa chama de "novo", busque também nas atualizações. Busque pelo nome do recurso ou do botão ("Clonar conexão", "Limitador de Mensagens"), não por um termo genérico: "QR Code", por exemplo, aparece nas atualizações quase só em assuntos do PDV e traz ruído. Se a atualização e o artigo divergirem, vale a atualização: diga isso e cite a data.
+Os artigos `recursos/atualizacoes-AAAA-MM-DD.md` registram o que mudou a cada dia, e nem toda mudança foi levada ao artigo do recurso. Quando o assunto for IA, PDV, CRM, FlowBuilder, conexões, Dashboard, Consultório ou algo que a pessoa chama de "novo", busque também nas atualizações. Busque pelo nome do recurso ou do botão ("Clonar conexão", "Limitador de Mensagens"), não por um termo genérico: "QR Code", por exemplo, aparece nas atualizações quase só em assuntos do PDV e traz ruído. Se a atualização e o artigo divergirem, vale a atualização: diga isso e cite a data.
 
 Dois artigos do mesmo assunto também podem dar passos diferentes (o caso conhecido é reconectar o WhatsApp por QR Code: veja "Armadilhas"). A documentação não diz qual dos dois vale, então não funda os dois num procedimento único como se ele estivesse documentado. Apresente os dois caminhos, cada um com a sua fonte, comece pelo menos destrutivo (o que não apaga sessão, conexão nem dados) e diga que a documentação diverge.
 
@@ -77,13 +77,13 @@ Antes de concluir que não está documentado, abra todos os artigos que o mapa o
 | `references/mapa-por-objetivo.md` | "Quero fazer isto" → artigos, para os pedidos mais comuns |
 | `references/glossario.md` | O que significa cada termo do produto, com o artigo de origem |
 | `references/docs/00-LEIA-PRIMEIRO.md` | Convenções dos artigos (ver aviso abaixo) |
-| `references/docs/INDICE-recursos.md` | Os 369 artigos de recursos, na hierarquia do menu do site |
+| `references/docs/INDICE-recursos.md` | Os 496 artigos de recursos, na hierarquia do menu do site |
 | `references/docs/INDICE-trilhas.md` | As 3 trilhas (14 artigos), em ordem de leitura |
-| `references/docs/INDICE-outros.md` | 5 artigos que não estão em nenhum menu |
+| `references/docs/INDICE-outros.md` | 3 artigos que não estão em nenhum menu |
 | `references/docs/INDICE.md` | Lista corrida de tudo, título e caminho |
 | `references/docs/videos.md` | 17 vídeos tutoriais no YouTube |
 
-**Aviso sobre o `00-LEIA-PRIMEIRO.md`:** ele descreve a documentação completa e cita `INDICE-api.md`, `INDICE-api-endpoints.md`, a pasta `api/`, a pasta `../docs-css-chatmasterveloz/` e o script `_gerar.py`. Nada disso está nesta skill. A referência da API fica na skill `cmv-api` e a de CSS e JS, na `cmv-painel-css-js`. Os números "661 artigos" e "4 MB" também são do conjunto completo.
+**Aviso sobre o `00-LEIA-PRIMEIRO.md`:** ele descreve a documentação completa e cita `INDICE-api.md`, `INDICE-api-endpoints.md`, a pasta `api/`, a pasta `../docs-css-chatmasterveloz/` e o script `_gerar.py`. Nada disso está nesta skill. A referência da API fica na skill `cmv-api` e a de CSS e JS, na `cmv-painel-css-js`.
 
 ### Áreas do menu (primeiro nível de `INDICE-recursos.md`)
 
@@ -92,40 +92,46 @@ Os arquivos de entrada ficam em `references/docs/recursos/`. A coluna "Artigos" 
 | Área | Entrada | Artigos | O que tem |
 |---|---|---|---|
 | Meu Perfil | `meu-perfil.md` | 5 | status, senha, recuperar senha, favoritos |
-| Chats / Tickets | `chats-tickets.md` | 19 | ticket × protocolo, Aguardando × Atendendo, transferir, devolver, encerrar, videochamada, alertas vermelhos, Pesquisar, Gestão de atendimentos |
+| Chats / Tickets | `chats-tickets.md` | 20 | ticket × protocolo, Aguardando × Atendendo, transferir, devolver, encerrar, editar mensagem enviada, videochamada, alertas vermelhos, Pesquisar, Gestão de atendimentos |
 | Atendimento Otimizado | `atendimento-otimizado.md` | 13 | mensagens de ausência, encerramento e aniversário, Mustaches, Mover após, inatividade, Avise-me, Siga-me, Avaliações, carteira, rodízio por Setores |
 | Quadro de Atendimentos | `quadro-de-atendimentos.md` | 6 | colunas, visão por tags, regras, permissões |
+| Dashboard | `dashboard.md` | 18 | números de agora e do período, filtros, metas e limites, relatórios, alertas, resumo automático, Meus números do atendente |
 | E-mails | `e-mails.md` | 6 | contas, escrever e responder, caixa compartilhada, permissões |
-| Rodízios | `rodizios.md` | 3 | cadastro de rodízios, relatório |
+| Mail Marketing | `mail-marketing.md` | 9 | e-mail em massa: listas, modelos, campanhas de e-mail, relatório, descadastros |
 | Ligações | `ligacoes.md` | 7 | VoIP, PABX, ramais, ligação pelo WhatsApp |
+| Rodízios | `rodizios.md` | 3 | cadastro de rodízios, relatório |
 | Contatos | `contatos.md` | 11 | adicionar, editar, bloquear, importar, exportar |
-| Conexões | `conexoes.md` | 30 | WhatsApp oficial e por QR Code, templates, Instagram, Messenger, Web Chat, Chat Externo, migrar, Concatenador |
-| Setores & Chatbot | `setores-e-chatbot.md` | 9 | abas do Setor, categorias, menu do chatbot na conexão |
-| Configurações | `configuracoes.md` | 22 | cada seção de Configurações › Opções, armazenamento remoto, webhooks, 2FA, Token da Empresa |
-| Gerenciador de Arquivos | `gerenciador-de-arquivos.md` | 1 | biblioteca de arquivos da empresa |
-| Tarefas | `tarefas.md` | 9 | criar, editar, comentar, compartilhar, concluir |
-| Agendamentos | `agendamentos.md` | 5 | mensagens programadas |
 | Tags | `tags.md` | 10 | tipos de tag, Kanban de Tags, Pixel Meta, remarketing |
-| Equipe | `equipe.md` | 11 | tipos de perfil, abas do cadastro, permissões, ações sobre o usuário, Registro de Atividades |
-| CRM | `crm.md` | 32 | funis, oportunidades, Board, propostas, relatórios, ranking, Minha evolução |
 | Respostas Rápidas | `respostas-rapidas.md` | 9 | texto, mídia, contato, localização, fluxo |
+| Links de Agendamento | `links-de-agendamento.md` | 1 | página em que o cliente marca reunião; a reunião entra nas Tarefas |
+| Agendamentos | `agendamentos.md` | 5 | mensagens programadas |
+| Campanhas | `campanhas.md` | 5 | configurar, listas, nova campanha (um artigo por canal) |
+| Conexões | `conexoes.md` | 39 | WhatsApp oficial (templates, forma de pagamento, nome de exibição, qualidade e limite, erros de entrega) e por QR Code, Instagram, Messenger, Web Chat, Chat Externo, migrar, Concatenador |
+| Setores & Chatbot | `setores-e-chatbot.md` | 9 | abas do Setor, categorias, menu do chatbot na conexão |
+| FlowBuilder | `flowbuilder.md` | 60 | editor, 9 pontos de entrada (`gatilho-via-*.md`), blocos (`bloco-*.md` e `reservas-agendar-no-fluxo.md`) |
+| Equipe | `equipe.md` | 11 | tipos de perfil, abas do cadastro, permissões, ações sobre o usuário, Registro de Atividades |
 | Chat Interno | `chat-interno.md` | 2 | conversas e chamadas entre a equipe |
 | Gravações das Chamadas | `gravacoes-das-chamadas.md` | 1 | página Gravações |
-| PDV | `pdv.md` | 18 | produtos, caixa, balcão, pedido na conversa, pagamentos, entregas, cardápio, mesas, loja |
-| Projetos | `projetos.md` | 7 | modelos, criar projeto, quadro do projeto |
-| Avaliação pela IA | `avaliacao-pela-ia.md` | 1 | nota da IA para atendimentos encerrados |
-| Campanhas | `campanhas.md` | 5 | configurar, listas, nova campanha (um artigo por canal) |
-| Inteligência Artificial | `inteligencia-artificial.md` | 8 | pré-requisitos, transcrição, análise, GPT Assistant |
-| FlowBuilder | `flowbuilder.md` | 59 | editor, 9 pontos de entrada (`gatilho-via-*.md`), blocos (`bloco-*.md`) |
+| Configurações | `configuracoes.md` | 30 | busca de opção, uma entrada por aba de Configurações › Opções (Geral, Atendimento, Contatos, Automação, Chamadas, Vendas, Integrações e segurança) e suas seções, armazenamento remoto, webhooks, 2FA, Token da Empresa |
+| Tarefas | `tarefas.md` | 10 | criar, editar, comentar, compartilhar, concluir, avisos ao cliente |
+| Projetos | `projetos.md` | 8 | modelos, criar projeto, quadro do projeto, avisos ao cliente |
+| CRM | `crm.md` | 32 | funis, oportunidades, Board, propostas, relatórios, ranking, Minha evolução |
+| PDV | `pdv.md` | 25 | produtos, caixa, balcão, pedido na conversa, pagamentos, entregas, setores de produção, clientes, cardápio, mesas e conta da mesa, reservas de mesa, garçom, loja |
+| Consultório | `consultorio.md` | 23 | clínica: cadastros, agenda, recepção, pacientes, prontuário, documentos e receitas, cobrança, teleconsulta, repasse |
+| Reservas | `reservas.md` | 20 | profissional, mesa, sala ou quarto com hora marcada ou diária: agenda, página do cliente, lista de espera, pagamento, pacotes |
+| Gerenciador de Arquivos | `gerenciador-de-arquivos.md` | 1 | biblioteca de arquivos da empresa |
+| Inteligência Artificial | `inteligencia-artificial.md` | 11 | pré-requisitos, transcrição, análise, GPT Assistant e Base de Conhecimento, Sugestão de resposta, Copiloto |
+| Assistente de IA | `assistente-de-ia.md` | 4 | perguntas sobre os dados da plataforma (atendimentos, CRM, reservas, vendas perdidas) |
+| Avaliação pela IA | `avaliacao-pela-ia.md` | 13 | nota da IA para atendimentos encerrados: como ligar, processos, alertas, aulas, relatório, vendas perdidas |
 | Gestão de Links | `gestao-de-links.md` | 6 | links curtos com relatório de cliques |
 | Link na Bio | `link-na-bio.md` | 1 | página de links |
-| Integrações | `integracoes.md` | 11 | tokens e chaves (conexão, OpenAI, Meta, pagamentos, Google Maps), n8n |
+| Integrações | `integracoes.md` | 12 | tokens e chaves (conexão, OpenAI, Meta, pagamentos, Google Maps), Provedor de IA, n8n |
 | Perguntas Frequentes | `perguntas-frequentes.md` | 2 | só "Como atualizar o cache" |
 | Problema / Solução | `problema-solucao.md` | 8 | 7 problemas conhecidos |
 | Aplicativo | `aplicativo.md` | 3 | PWA, notificações push |
 | Vídeos | `../videos.md` | 1 | lista de vídeos |
 | Contato para Suporte | `contato-para-suporte.md` | 1 | canal do suporte |
-| Atualizações | `atualizacoes.md` | 28 | 2 índices de mês e 25 dias |
+| Atualizações | `atualizacoes.md` | 36 | 2 índices de mês e 33 dias |
 
 ### Para quem está começando
 
@@ -133,14 +139,15 @@ Os arquivos de entrada ficam em `references/docs/recursos/`. A coluna "Artigos" 
 
 ### Dúvidas e problemas
 
-- **Problema / Solução** tem só 7 artigos e **Perguntas Frequentes**, só 1. A maior parte das respostas a "por que não funciona" está nos blocos `[DUVIDAS]` (273 artigos) e `[ERROS]` (94 artigos) do artigo de cada recurso.
+- **Problema / Solução** tem só 7 artigos e **Perguntas Frequentes**, só 1. A maior parte das respostas a "por que não funciona" está nos blocos `[DUVIDAS]` (400 artigos) e `[ERROS]` (122 artigos) do artigo de cada recurso.
 - "Vermelho" são dois sintomas diferentes; pergunte qual, se não estiver claro. **Recado vermelho dentro da conversa** é erro de envio: `recursos/alertas-vermelhos-no-chat.md` lista os textos, a maioria em inglês. **Conversas com fundo vermelho na lista** é conexão desconectada, segundo `recursos/conexao-desconectada.md`: vá para a linha "Conexão caiu" da tabela em "Armadilhas".
 - Pessoa que não consegue entrar: `recursos/usuario-nao-consegue-entrar-na-plataforma.md`.
-- "A tela está vazia" ou "o item não aparece": quase sempre é permissão. Veja `recursos/tipos-de-perfil.md` e o artigo de permissões do módulo (em `recursos/`: `permissoes-e-mails.md`, `permissoes-pdv.md`, `permissoes-projetos.md`, `permissoes-quadro-de-atendimentos.md`, `quem-visualiza-o-que-no-crm.md`).
+- Mensagem ou template do WhatsApp Oficial que não chega ao cliente: `recursos/erros-de-entrega-do-whatsapp-oficial.md` (códigos de erro da Meta) e `recursos/template-recusado-pausado-ou-desabilitado.md`.
+- "A tela está vazia" ou "o item não aparece": quase sempre é permissão. Veja `recursos/tipos-de-perfil.md` e o artigo de permissões do módulo (em `recursos/`: `permissoes-configuracoes.md`, `permissoes-dashboard.md`, `permissoes-e-mails.md`, `permissoes-mail-marketing.md`, `permissoes-pdv.md`, `permissoes-consultorio.md`, `permissoes-reservas.md`, `permissoes-projetos.md`, `permissoes-avaliacao-pela-ia.md`, `permissoes-quadro-de-atendimentos.md`, `quem-visualiza-o-que-no-crm.md`).
 
 ### O que mudou
 
-`recursos/atualizacoes.md` → índice do mês (`atualizacoes-2026-11.md`, `atualizacoes-2026-10.md`) → um arquivo por dia, de 15/10/2026 a 11/11/2026. Para "o que mudou esta semana", liste os arquivos dos dias e leia o topo de cada um (Novidades, Melhorias, Correções). A seção "O que você precisa fazer", no fim, diz se a mudança exige ação. Não há registro anterior a 15/10/2026 nem posterior à data da cópia: diga isso se perguntarem.
+`recursos/atualizacoes.md` → índice do mês (`atualizacoes-2026-11.md`, `atualizacoes-2026-10.md`) → um arquivo por dia, de 15/10/2026 a 19/11/2026. Para "o que mudou esta semana", liste os arquivos dos dias e leia o topo de cada um (Novidades, Melhorias, Correções). A seção "O que você precisa fazer", no fim, diz se a mudança exige ação. Não há registro anterior a 15/10/2026 nem posterior à data da cópia: diga isso se perguntarem.
 
 ### Vídeos
 
@@ -154,7 +161,7 @@ Nesta seção, arquivo citado sem pasta está em `references/docs/recursos/`.
 
 **O nome da área na ajuda nem sempre é o nome do menu no painel.** Confirmados nos artigos: FlowBuilder → menu **FlowBuilder Nativo**; GPT Assistant → menu **Prompts OPEN.AI**; pesquisar atendimentos → menu **Pesquisar**; Gravações das Chamadas → menu **Gravações**. Há dois itens **Categorias** no painel: um para Setores (`categorias-de-setores.md`), outro para fluxos (`categorias-de-fluxos.md`).
 
-**Algumas telas não estão no menu lateral.** Gestão de Templates, Limitador de Mensagens, Concatenador, Modo Híbrido e Perfil do número abrem por botões no card da conexão. O Relatório do Rodízio abre pelo botão **Ver relatório** na tela Rodízios, que só aparece com a opção "Exibir o Relatório do Rodízio" em **Sim** em Configurações › Opções (`relatorio-do-rodizio.md`).
+**Algumas telas não estão no menu lateral.** Gestão de Templates, Limitador de Mensagens, Concatenador, Modo Híbrido e Perfil do número abrem por botões no card da conexão. O Relatório do Rodízio abre pelo botão **Ver relatório** na tela Rodízios, que só aparece com a opção **Exibir o Relatório do Rodízio (botão Ver relatório, na tela Rodízios)?** em **Sim** em Configurações › Opções › Atendimento, seção Distribuição e rodízio (`relatorio-do-rodizio.md`).
 
 **Um mesmo assunto, um artigo por canal.** Misturar os dois dá instrução errada:
 
@@ -177,12 +184,14 @@ Janela de atendimento, templates e Limitador só existem na conexão oficial. Em
 - Web Chat (código colado no site) × Chat Externo (página aberta por link) × Modo Alternativo (continua numa página a conversa que começou no WhatsApp Oficial).
 - Avaliações (o cliente dá a nota) × Avaliação pela IA (a IA dá a nota) × Análise de Atendimento.
 - Rodízios (menu, usado pelo bloco Rodízio do fluxo) × Rodízio de Atendimento (montado com dois Setores).
+- Agendamentos (mensagem programada) × Links de agendamento (o cliente marca uma reunião) × Reservas (módulo de hora marcada ou diária) × Reservas de mesa (PDV) × Agenda do Consultório.
+- Campanhas × Mail Marketing (e-mail em massa); GPT Assistant (responde clientes) × Assistente de IA (responde perguntas da equipe sobre os dados); Dashboard × Dashboard (legado), que conta diferente.
 - Token da Conexão × Token da Empresa; Produtos do CRM × Produtos do PDV; Tarefas × tarefas de um Projeto × Atividades da Oportunidade.
-- `X.md` × `X-em-configuracoes.md`: o primeiro explica o recurso, o segundo descreve a seção em Configurações › Opções (avaliações, mensagem de aniversário, carteiras).
+- `X.md` × `X-em-configuracoes.md`: o primeiro explica o recurso, o segundo descreve a aba ou a seção em Configurações › Opções. Ex.: `avaliacoes.md` × `avaliacoes-em-configuracoes.md`; `carteira-de-clientes.md` × `contatos-em-configuracoes.md` (seção Carteiras de Clientes); `mensagem-de-aniversario.md` × `mensagens-automaticas-em-configuracoes.md`.
 
-**Cinco artigos ficam em `outros/` e não aparecem em `INDICE-recursos.md`:** Adicionar Tag, Tipos de Tags, Telegram, Copiloto de mensagens e Sugestão de resposta IA. Por isso as buscas incluem `outros`.
+**Três artigos ficam em `outros/` e não aparecem em `INDICE-recursos.md`:** Adicionar Tag, Tipos de Tags e Telegram. Por isso as buscas incluem `outros`.
 
-**Busca com e sem acento.** O texto dos artigos tem acento; os nomes de arquivo, não. `grep -i 'rodizio'` acha 5 artigos, `grep -i 'rodízio'` acha 25. Busque com acento ou com `rod[ií]zio`. Termos curtos casam dentro de outras palavras: use `grep -w`.
+**Busca com e sem acento.** O texto dos artigos tem acento; os nomes de arquivo, não. `grep -i 'rodizio'` acha 7 artigos, `grep -i 'rodízio'` acha 31. Busque com acento ou com `rod[ií]zio`. Termos curtos casam dentro de outras palavras: use `grep -w`.
 
 **Mensagens de erro vêm em inglês.** Busque o texto exato com `grep -F`, sem traduzir.
 
@@ -190,7 +199,7 @@ Janela de atendimento, templates e Limitador só existem na conexão oficial. Em
 
 **Os artigos quase não têm links entre si.** Quando um artigo manda ver outro pelo nome ("saiba como em Pré-Requisitos de IA"), ache-o pelo título no índice.
 
-**Onde fica uma opção.** `recursos/configuracoes.md` dá a regra: o que vale para a empresa inteira fica em Configurações; o que é por pessoa, no cadastro em Equipe; o que é por canal, em Conexões. As opções de Configurações salvam sozinhas, sem botão Salvar.
+**Onde fica uma opção.** `recursos/configuracoes.md` dá a regra: o que vale para a empresa inteira fica em Configurações; o que é por pessoa, no cadastro em Equipe; o que é por canal, em Conexões. Em Configurações › Opções, as abas são Geral, Atendimento, Contatos, Automação, Chamadas, Vendas e Integrações e segurança, e o campo **Pesquisar opção**, acima das abas, acha a opção pelo nome (`visao-geral-configuracoes.md`). A maioria das opções grava sozinha; alguns blocos têm botão próprio, como **SALVAR**.
 
 **Item que não aparece pode ser plano, não permissão.** `recursos/tipos-de-perfil.md` diz que o que o plano da empresa não libera não aparece para ninguém. A documentação não lista planos nem preços: não cite nenhum. Sobre a cobrança da Meta no WhatsApp Oficial, repita só o que o artigo diz, com as datas dele.
 
@@ -215,10 +224,13 @@ Janela de atendimento, templates e Limitador só existem na conexão oficial. Em
 | pesquisa de satisfação, nota do atendimento | Avaliações | `avaliacoes.md` |
 | horário de atendimento, fora do horário | Expediente, aba Horários do Setor | `aba-horarios-em-setores-e-chatbot.md` |
 | distribuição automática | Rodízio | `rodizios.md` |
+| indicadores, métricas do atendimento, painel de números | Dashboard; para o atendente, Meus números | `dashboard.md`, `meus-numeros-do-atendente.md` |
+| e-mail marketing, newsletter, e-mail em massa | Mail Marketing | `mail-marketing.md` |
+| marcar horário, agenda online | depende do que se marca: reunião (Links de agendamento), consulta (Consultório), mesa, sala, quarto ou serviço (Reservas). Pergunte | `links-de-agendamento.md`, `consultorio.md`, `reservas.md` |
 | boas-vindas | Mensagem de saudação | `chatbot-e-menu-de-setores-na-conexao.md`, `aba-mensagens-em-setores-e-chatbot.md` |
 | aplicativo, app | PWA | `aplicativo.md` |
 | chat do site, widget | Web Chat ou Chat Externo | `web-chat.md`, `chat-externo.md` |
-| verificação em duas etapas, 2FA | no login do painel: Autenticação em Dois Fatores (2FA). No número do WhatsApp: é da Meta, e aparece na migração de número | `autenticacao-em-dois-fatores-em-configuracoes.md`, `trazer-um-numero-da-api-oficial-de-outra-plataforma.md` |
+| verificação em duas etapas, 2FA | no login do painel: **Habilitar 2FA na empresa**, na seção Segurança de Configurações. No número do WhatsApp: é da Meta, e aparece na migração de número | `seguranca-em-configuracoes.md`, `trazer-um-numero-da-api-oficial-de-outra-plataforma.md` |
 | número banido, bloqueado | número bloqueado, restrição | `numero-bloqueado-no-whatsapp.md` |
 
 Os arquivos da última coluna ficam em `references/docs/recursos/`. Mais termos em `references/glossario.md`.

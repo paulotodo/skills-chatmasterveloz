@@ -16,13 +16,13 @@ Diferente de um link de pagamento, o Pix da PaggPix chega pronto na conversa: o 
 >
 > ➡️ Separe o **Client ID** e o **Client Secret** que a PaggPix entregou no cadastro da sua conta.
 >
-> ➡️ Na plataforma, acesse o menu **Configurações  ›  Opções**, preencha **Client ID da PaggPix** e **Client Secret da PaggPix** e clique em **Salvar**.
+> ➡️ Na plataforma, acesse o menu **Configurações  ›  Opções  ›  Vendas**, seção **PDV**, preencha **Client ID da PaggPix** e **Client Secret da PaggPix** e clique em **Salvar**.
 >
 > ➡️ Se a conta PaggPix tiver mais de um CNPJ ou CPF, escolha em **CNPJ/CPF que recebe os pagamentos** qual deles recebe e clique em **Salvar** de novo.
 
 ## Como integrar a PaggPix à nossa plataforma
 
-Acesse o menu **Configurações  ›  Opções**
+Acesse o menu **Configurações  ›  Opções  ›  Vendas**, seção **PDV**.
 
 🔘 **Client ID da PaggPix** e **Client Secret da PaggPix:** cole as duas credenciais e clique em **Salvar**. A tela confirma que a PaggPix foi conectada e mostra o CNPJ ou CPF que recebe os pagamentos.
 

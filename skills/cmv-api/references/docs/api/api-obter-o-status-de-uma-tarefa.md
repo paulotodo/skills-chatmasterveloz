@@ -40,7 +40,7 @@ Bearer {seutokenaqui}
 
 ◽ Só leitura: esta chamada não altera nada.
 
-◽ Tarefa que não existe, ou de outra empresa, responde **erro de servidor** — e não "não encontrada". É assim mesmo: não é sinal de que a plataforma está com problema.
+◽ Tarefa que não existe, ou de outra empresa, responde **não encontrada**.
 
 #### Utilize o código em requisições HTTPS com ferramentas como cURL ou bibliotecas de integração.
 

@@ -38,7 +38,7 @@ Abaixo vem a lista, do mais recente para o mais antigo. Cada registro é um card
 
 🔘 **Ação:** o nome fixo do que aconteceu, no topo do card — por exemplo **LOGIN** para uma entrada bem-sucedida e **LOGIN_FAILED** para uma tentativa recusada. Ao lado, uma etiqueta com o tipo da requisição, como **POST** ou **PUT**.
 
-🔘 **Quem:** o nome da pessoa e o e-mail dela.
+🔘 **Quem:** o nome da pessoa e o e-mail dela. Nos registros feitos pela própria plataforma, como a reabertura de um atendimento quando o cliente volta a escrever, aparece **Sistema**, com a etiqueta **SISTEMA** no lugar do tipo da requisição e *sistema* no **Endereço IP** e no **User Agent**.
 
 🔘 **Data/Hora:** o momento exato.
 
@@ -56,11 +56,21 @@ Abaixo vem a lista, do mais recente para o mais antigo. Cada registro é um card
 
 ⚠️ Tentativa de login com um e-mail que **não existe** na plataforma **não gera registro**. É de propósito: se gerasse, o histórico revelaria quais e-mails têm conta.
 
+## A reabertura de atendimentos
+
+Quando um atendimento encerrado é reaberto — por exemplo, porque o cliente voltou a escrever —, o **Registro de Atividades** ganha um registro **TICKET_REOPENED**, em nome do **Sistema**. Esse registro entra mesmo com a opção **Registrar Logs de Ação dos Atendimentos?** em **Não**.
+
+O **Ver payload** da reabertura traz:  
+- `ticketId` — o número do atendimento.
+- `de` e `para` — a situação antes e depois: de `closed` (encerrado) para `pending` (aguardando), ou para `open` (em atendimento), quando o atendimento volta direto para o atendente.
+- `origem` — o que reabriu o atendimento, como *mensagem recebida*, quando foi o cliente que voltou a escrever.
+- `emMassa` — se a reabertura foi feita em massa (`true`) ou não (`false`).
+
 ## Os filtros
 
 🔘 **Buscar por IP ou detalhes:** encontra os registros pelo endereço de quem fez a ação ou por um trecho do que foi enviado.
 
-🔘 **Ação:** o tipo do registro. A lista mostra os nomes técnicos das ações registradas na sua empresa — como **LOGIN**, **LOGOUT**, **CREATE_USER**, **CREATE_TAG**, **UPDATE_CONNECTION** e **DELETE_CONTACT**.
+🔘 **Ação:** o tipo do registro. A lista mostra os nomes técnicos das ações registradas na sua empresa — como **LOGIN**, **LOGOUT**, **CREATE_USER**, **CREATE_TAG**, **UPDATE_CONNECTION**, **DELETE_CONTACT** e **TICKET_REOPENED**.
 
 🔘 **Usuário:** só os registros de uma pessoa.
 
@@ -95,3 +105,7 @@ Abaixo vem a lista, do mais recente para o mais antigo. Cada registro é um card
 > **Posso ver o que exatamente foi alterado numa ação?** Abra **Ver payload** no registro: ele mostra o conteúdo enviado, campo a campo, inclusive o que o formulário não exibe na tela.
 >
 > **O menu Registro de Atividades não aparece para mim.** O **Registro de Atividades** é do administrador: supervisor e atendente não têm o item no menu.
+>
+> **Quem é o Sistema que aparece no Registro de Atividades?** É a própria plataforma: **Sistema** aparece nos registros feitos por ela, como a reabertura de um atendimento quando o cliente volta a escrever (**TICKET_REOPENED**). Nesses registros, a etiqueta é **SISTEMA**, e o **Endereço IP** e o **User Agent** dizem *sistema*.
+>
+> **Como vejo quando um atendimento encerrado foi reaberto?** No filtro **Ação**, escolha **TICKET_REOPENED**. Cada registro mostra quando o atendimento voltou, e o **Ver payload** traz o número do atendimento, de qual situação para qual ele foi e a origem, como *mensagem recebida*.

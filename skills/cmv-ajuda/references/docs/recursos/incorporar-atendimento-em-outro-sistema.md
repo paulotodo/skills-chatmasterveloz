@@ -1,8 +1,8 @@
-# Incorporar Atendimento em Outro Sistema
+# - Incorporar Atendimento em Outro Sistema
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/incorporar-atendimento-em-outro-sistema
 - **Categoria:** Recursos
-- **Menu:** Configurações › Incorporar Atendimento em Outro Sistema
+- **Menu:** Configurações › Integrações e segurança em Configurações › - Incorporar Atendimento em Outro Sistema
 
 ---
 
@@ -20,7 +20,7 @@ Ideal para:
 >
 > #### Resumo Prático
 >
-> ➡️ Acesse o menu **Configurações  ›  Opções** e localize a seção **Webhooks | Eventos**.
+> ➡️ Acesse o menu **Configurações  ›  Opções  ›  Integrações e segurança**, seção **Segurança**.
 >
 > ➡️ Em **Token de Validação (incorporar atendimento)**, clique em **GERAR** e copie o token.
 >
@@ -32,7 +32,7 @@ Ideal para:
 
 ## Como gerar o Token de Validação
 
-Acesse o menu **Configurações  ›  Opções**, seção **Webhooks | Eventos**. Essa tela é do perfil **Administrador**.
+Acesse o menu **Configurações  ›  Opções  ›  Integrações e segurança**, seção **Segurança**. Essa tela é do perfil **Administrador**.
 
 🔘 **Token de Validação (incorporar atendimento):** é a senha que libera o link do atendimento. **Com o campo vazio, o recurso fica desligado** e todo link é recusado. Se a empresa não usa o atendimento incorporado, deixe o campo vazio. Para desligar um token que já existe, apague o campo: ao sair dele, a mudança já fica gravada.
 
@@ -42,13 +42,13 @@ Acesse o menu **Configurações  ›  Opções**, seção **Webhooks | Eventos**
 
 ## Como montar o link do atendimento
 
-O link tem sempre este formato. Copie e troque as quatro partes em MAIÚSCULAS:
+O link tem sempre este formato. Copie e troque as partes em MAIÚSCULAS:
 
 ```
-https://ENDERECO_DO_PAINEL/embed/ticket/NUMERO_DO_TICKET?token=SEU_TOKEN&userId=ID_DO_OPERADOR
+https://{FRONTEND_URL}/embed/ticket/NUMERO_DO_TICKET?token=SEU_TOKEN&userId=ID_DO_OPERADOR
 ```
 
-🔘 **ENDERECO_DO_PAINEL:** o endereço em que você entra na plataforma, o mesmo que aparece na barra do navegador.
+🔘 **Endereço do painel:** o começo do link, `{FRONTEND_URL}`, é o endereço em que você entra na plataforma. Se ele aparecer como `{FRONTEND_URL}`, troque pelo endereço que aparece na barra do navegador quando você está na plataforma.
 
 🔘 **NUMERO_DO_TICKET:** o número entre parênteses no topo da conversa, ao lado do nome do contato. Em `Maria Silva (417) | #755`, o ticket é **417**. O `#755` é o protocolo, que é outro número. Se o nome aparecer cortado, feche o painel **Informações**. O código comprido do endereço da conversa no navegador, o que vem depois de `/tickets/`, também funciona no lugar do número.
 
@@ -59,7 +59,7 @@ https://ENDERECO_DO_PAINEL/embed/ticket/NUMERO_DO_TICKET?token=SEU_TOKEN&userId=
 Exemplo preenchido, para o ticket 417 e o operador de ID 18:
 
 ```
-https://ENDERECO_DO_PAINEL/embed/ticket/417?token=SEU_TOKEN&userId=18
+https://{FRONTEND_URL}/embed/ticket/417?token=SEU_TOKEN&userId=18
 ```
 
 Para testar, cole o link na barra de endereço de uma aba nova. A conversa abre sem pedir login, mesmo com a plataforma aberta em outra aba.
@@ -69,7 +69,7 @@ Para testar, cole o link na barra de endereço de uma aba nova. A conversa abre 
 Cole este código no HTML da página, no lugar em que a conversa deve aparecer, e troque o endereço pelo link que você montou:
 
 ```
-<iframe allow="microphone; clipboard-write" src="https://ENDERECO_DO_PAINEL/embed/ticket/417?token=SEU_TOKEN&userId=18" width="100%" height="700" style="border:0"></iframe>
+<iframe allow="microphone; clipboard-write" src="https://{FRONTEND_URL}/embed/ticket/417?token=SEU_TOKEN&userId=18" width="100%" height="700" style="border:0"></iframe>
 ```
 
 🔘 **width:** a largura da janela. `100%` ocupa todo o espaço disponível.
@@ -83,7 +83,7 @@ Quando a página é gerada por programação, este exemplo em PHP monta o mesmo 
 ```php
 <?php
 
-$painel   = 'https://ENDERECO_DO_PAINEL';
+$painel   = 'https://{FRONTEND_URL}';
 $token    = 'SEU_TOKEN';
 $ticket   = 417; // número do ticket
 $operador = 18;  // ID do operador
@@ -133,7 +133,7 @@ curl -X POST "https://api2.chatmasterveloz.com/api/tickets/createTicketAPI" -H "
 
 A resposta traz o ticket, e o número dele vem no campo `id`. Abrir o ticket pela API não envia nenhuma mensagem ao cliente.
 
-Com o número do ticket e o ID do operador, o seu sistema monta o link no formato `https://ENDERECO_DO_PAINEL/embed/ticket/NUMERO_DO_TICKET?token=SEU_TOKEN&userId=ID_DO_OPERADOR`.
+Com o número do ticket e o ID do operador, o seu sistema monta o link no formato `https://{FRONTEND_URL}/embed/ticket/NUMERO_DO_TICKET?token=SEU_TOKEN&userId=ID_DO_OPERADOR`.
 
 ### Outros jeitos de pegar os números
 
@@ -181,11 +181,29 @@ O link respeita o perfil e os Setores do operador informado nele:
 
 ➡️ **Ticket encerrado:** fica sem Setor, por isso só Administrador e Supervisor abrem.
 
+## Quando o seu sistema precisa do painel inteiro
+
+O **Token de Validação** abre a tela de um atendimento e nada além dela. Quando o seu sistema precisa abrir o painel inteiro já logado, com as listas, os menus e as permissões da pessoa, o caminho é o **Login automático**, no menu **Configurações  ›  Opções  ›  Integrações e segurança**, seção **Segurança**, bloco **Login automático (integrações e iframes)**.
+
+Com o **Login automático** ligado, o servidor do seu sistema pede à plataforma, com o **Token da Empresa**, um link de uso único para a pessoa que vai entrar, e abre esse link, também dentro de um iframe. O link vale uma vez só e expira em 60 segundos, ou em até 5 minutos se o pedido escolher. A pessoa entra com o status que já tinha, ou com o que o pedido escolher: **Online**, **Ausente** ou **Offline**.
+
+O pedido do link leva o e-mail de quem vai entrar. No lugar de `TOKEN_DA_EMPRESA` vai o **Token da Empresa**, gerado no menu **Configurações  ›  Token da Empresa**:
+
+```
+curl -X POST "https://api2.chatmasterveloz.com/api/login-automatico" -H "Authorization: Bearer TOKEN_DA_EMPRESA" -H "Content-Type: application/json" -d '{"email":"atendente@empresa.com","destino":"/tickets"}'
+```
+
+A resposta traz o link no campo `url`. Use esse link como `src` do iframe, no lugar do link do atendimento, antes que ele vença. No lugar do `email` vale o `userId`, com o **ID** do card da pessoa no menu **Equipe**. O `destino` é a tela em que a pessoa chega; sem ele, ela chega à **Página inicial após o login** escolhida no cadastro dela, ou aos **Chats** quando não há uma escolhida.
+
+⚠️ **Peça o link no servidor do seu sistema, nunca no navegador.** O Token da Empresa dá acesso à empresa inteira, e no código de uma página ele fica à vista de quem abrir.
+
 > **[DUVIDAS]**
 >
 > #### Dúvidas Comuns
 >
 > **O Token de Validação é o mesmo Token da Empresa?** Não. O **Token de Validação** só abre o link do atendimento e não funciona na API. Para a API, use o **Token da Empresa** ou o token de uma Conexão.
+>
+> **Qual a diferença entre o Token de Validação e o Login automático?** O **Token de Validação** abre só a tela de um atendimento, com o operador informado no link. O **Login automático** abre o painel inteiro já logado, com as permissões da pessoa que entra, por um link que o seu sistema pede à plataforma com o **Token da Empresa**.
 >
 > **O operador precisa entrar na plataforma para abrir o link do atendimento?** Não. O link já abre a conversa com o operador informado nele.
 >
@@ -203,7 +221,7 @@ O link respeita o perfil e os Setores do operador informado nele:
 >
 > **Link incompleto:** aparece *"Link incompleto: falta o token de validação ou o usuário."*. Falta o `token` ou o `userId` no link. **Solução:** confira se o link tem os dois, no formato do exemplo.
 >
-> **Token inválido:** aparece *"Token de validação inválido ou recurso desativado para esta empresa."*. O token do link está errado, foi trocado por um novo ou o campo está vazio. **Solução:** acesse o menu **Configurações  ›  Opções**, copie o token atual e atualize o link.
+> **Token inválido:** aparece *"Token de validação inválido ou recurso desativado para esta empresa."*. O token do link está errado, foi trocado por um novo ou o campo está vazio. **Solução:** acesse o menu **Configurações  ›  Opções  ›  Integrações e segurança**, seção **Segurança**, copie o token atual e atualize o link.
 >
 > **Atendimento não encontrado:** aparece *"Atendimento não encontrado para esta empresa."*. O número não é de um ticket desta empresa. **Solução:** confira se você não usou o protocolo, que é o número com `#`, no lugar do número entre parênteses.
 >

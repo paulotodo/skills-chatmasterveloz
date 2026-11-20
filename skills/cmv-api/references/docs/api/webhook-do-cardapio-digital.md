@@ -14,7 +14,7 @@ Os avisos do Cardápio Digital chegam no mesmo endereço do **Webhook do PDV**, 
 >
 > #### Resumo Prático
 >
-> ➡️ Acesse o menu **Configurações  ›  Opções** e desça até **Webhook do PDV**.
+> ➡️ Acesse o menu **Configurações  ›  Opções  ›  Integrações e segurança** e, na seção **Webhooks e integrações**, encontre o **Webhook do PDV**.
 >
 > ➡️ Preencha o endereço do seu sistema e clique em **Salvar**.
 >
@@ -164,7 +164,7 @@ Todo aviso do **Webhook do Cardápio Digital** traz o cabeçalho `X-Pdv-Evento`,
 >
 > #### Dúvidas Comuns
 >
-> **O Webhook do Cardápio Digital tem um campo próprio?** Não. Os avisos do Cardápio Digital chegam no endereço preenchido em **Webhook do PDV**, no menu **Configurações  ›  Opções**, e o `acao` separa um aviso do outro.
+> **O Webhook do Cardápio Digital tem um campo próprio?** Não. Os avisos do Cardápio Digital chegam no endereço preenchido em **Webhook do PDV**, no menu **Configurações  ›  Opções  ›  Integrações e segurança**, seção **Webhooks e integrações**, e o `acao` separa um aviso do outro.
 >
 > **Como meu sistema sabe que uma mesa pediu a conta?** Pelo aviso `comanda-conta-pedida`, com a mesa, o total, o que foi pago e o saldo em `comanda`.
 >

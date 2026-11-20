@@ -16,7 +16,7 @@ Este rodízio é montado com **dois Setores** e funciona no **menu do chatbot** 
 >
 > ➡️ Crie o Setor de **Atendimento Randomizado** e dê acesso a ele aos atendentes que vão participar.
 >
-> ➡️ No menu **Configurações  ›  Opções**, escolha quem entra no sorteio em **Modo de Randomização de Atendimento**.
+> ➡️ No menu **Configurações  ›  Opções  ›  Atendimento**, seção **Distribuição e rodízio**, escolha quem entra no sorteio em **Modo de Randomização de Atendimento**.
 >
 > ➡️ Crie o Setor de **Rodízio**, sem nenhum atendente, com **Rodízio de Atendentes** ligado, o **Tempo de Escala** e o **Mover** apontando para o Setor de Atendimento Randomizado.
 >
@@ -48,7 +48,7 @@ Acesse o menu **Equipe  ›  editar o usuário**
 
 ## Quem entra no sorteio
 
-Acesse o menu **Configurações  ›  Opções**
+Acesse o menu **Configurações  ›  Opções  ›  Atendimento**, seção **Distribuição e rodízio**
 
 🔘 **Modo de Randomização de Atendimento:** **Somente Usuários Online** sorteia só entre quem está on-line no momento; **Usuários Online e Offline** inclui também quem está off-line.
 
@@ -84,7 +84,7 @@ Quando o cliente escolhe o Setor de Rodízio no menu, a conversa espera o **Temp
 
 Quando a conversa é sorteada, o cliente recebe a **Mensagem de Encaminhamento** — por exemplo, *"Bom dia Maria, em alguns instantes um atendente irá prosseguir com seu atendimento."* A saudação do Setor de Atendimento Randomizado não é enviada.
 
-O texto da Mensagem de Encaminhamento vale para toda a empresa e se ajusta no menu **Configurações  ›  Opções**, em **Configurações de Sistema**.
+O texto da Mensagem de Encaminhamento vale para toda a empresa e se ajusta no menu **Configurações  ›  Opções  ›  Automação**, seção **Mensagens automáticas**.
 
 ## Como avisar o atendente no WhatsApp
 
@@ -98,7 +98,7 @@ Acesse o menu **Setores & Chatbot  ›  editar o Setor**
 
 ![Opção Notificar Operador no WhatsApp no cadastro do Setor](https://clihelper.chatmasterveloz.com/docs-imagem/18291-rodizio_notificar_atendente.jpg)
 
-O texto do aviso é a **Mensagem de Notificação Externa** — por exemplo, *"Existe atendimento aguardando sua atenção na plataforma."* Ele se ajusta no menu **Configurações  ›  Opções**, em **Configurações de Sistema**.
+O texto do aviso é a **Mensagem de Notificação Externa** — por exemplo, *"Existe atendimento aguardando sua atenção na plataforma."* Ele se ajusta no menu **Configurações  ›  Opções  ›  Automação**, seção **Mensagens automáticas**.
 
 > **[DUVIDAS]**
 >
@@ -106,11 +106,11 @@ O texto do aviso é a **Mensagem de Notificação Externa** — por exemplo, *"E
 >
 > **O rodízio de atendimento funciona numa Conexão com um Setor só?** Não. O rodízio de Setores depende do menu do chatbot, que só existe com dois ou mais Setores na Conexão. Com um Setor só, a distribuição é feita pelo bloco **Rodízio** no menu **FlowBuilder Nativo**.
 >
-> **Quem está off-line entra no rodízio de atendimento?** Depende da opção **Modo de Randomização de Atendimento**, no menu **Configurações  ›  Opções**: em **Somente Usuários Online**, não; em **Usuários Online e Offline**, sim.
+> **Quem está off-line entra no rodízio de atendimento?** Depende da opção **Modo de Randomização de Atendimento**, no menu **Configurações  ›  Opções  ›  Atendimento**, seção **Distribuição e rodízio**: em **Somente Usuários Online**, não; em **Usuários Online e Offline**, sim.
 >
 > **Quanto tempo a conversa espera antes do rodízio?** O **Tempo de Escala** do Setor de Rodízio — de 2 a 60 minutos.
 >
-> **Que mensagem o cliente recebe quando o rodízio passa a conversa para um atendente?** A **Mensagem de Encaminhamento**, ajustada no menu **Configurações  ›  Opções**, em **Configurações de Sistema**. A saudação do Setor de Atendimento Randomizado não é enviada.
+> **Que mensagem o cliente recebe quando o rodízio passa a conversa para um atendente?** A **Mensagem de Encaminhamento**, ajustada no menu **Configurações  ›  Opções  ›  Automação**, seção **Mensagens automáticas**. A saudação do Setor de Atendimento Randomizado não é enviada.
 >
 > **O cliente escolheu o Setor de Rodízio no menu e a conversa não foi distribuída. O que conferir?** Se o Setor de Rodízio tem **Rodízio de Atendentes** ligado, um **Tempo de Escala** escolhido e o **Mover** apontando para o Setor de Atendimento Randomizado, e se algum atendente com acesso a esse Setor entra no sorteio — on-line, quando o **Modo de Randomização de Atendimento** está em **Somente Usuários Online**.
 >

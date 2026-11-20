@@ -16,7 +16,7 @@
 >
 > ➡️ Escolha o **Funil** no topo da tela.
 >
-> ➡️ Para mudar o período, o operador ou as tags, clique em **Filtrar Oportunidades**, escolha e clique em **Aplicar**.
+> ➡️ Para mudar o período, o operador ou as tags, clique em **Filtrar Oportunidades** e escolha: o quadro muda na hora.
 >
 > ➡️ Arraste os cards de uma etapa para outra conforme a negociação avança.
 >
@@ -24,7 +24,7 @@
 
 ## Vídeo Tutorial
 
-[Vídeo Voomly — id zN0cBlqdQNWdj6YQetlIyDAbeMxo1W-ez090eEl-FY66aiNVI, tipo v]  
+[Vídeo Voomly — id gDve82xLJELjH1Vs6QVDBuQQIVBTb3YTsa9RORoMPUqDJgz0d, tipo v]  
 
 ## O topo do Board
 
@@ -50,9 +50,9 @@ Os filtros ficam no painel que abre em **Filtrar Oportunidades**.
 
 🔘 **Período por:** qual data decide se a oportunidade entra no período — **Fechamento (abertas: todas)**, **Etapa (ganho, perda ou data)**, **Data da oportunidade**, **Data de ganho** ou **Data de perda**. O Board abre em **Fechamento (abertas: todas)**: as vendas ganhas e perdidas contam pela data do fechamento, e as oportunidades em andamento aparecem todas, seja qual for a data.
 
-🔘 **Buscar oportunidade...:** acha a oportunidade pelo nome.
+🔘 **Buscar oportunidade...:** acha a oportunidade pelo nome, ao clicar em **Aplicar** ou teclar Enter.
 
-Clique em **Aplicar** para usar os filtros. Ao recarregar a página, o Board volta ao mês atual e sem filtros.
+**Operador**, **Tags**, **De**, **Até**, **Período por** e **Mês atual** mudam o quadro assim que são escolhidos; só a busca espera o **Aplicar**. Ao recarregar a página, o Board volta ao mês atual e sem filtros.
 
 ## Os números do quadro
 
@@ -76,7 +76,7 @@ Na coluna que tem cards, o cabeçalho também tem o botão **Ação em massa na 
 
 O card mostra o nome da oportunidade, com o contato embaixo — ou só o contato, quando a oportunidade não tem nome —, o produto, o responsável e o valor. Quando a oportunidade não tem responsável, esse espaço fica vazio. Com vários itens, o card mostra a quantidade de itens e a lista deles — por exemplo, *2 itens* com *2x* de um produto mensal e *1x* de outro.
 
-🔘 **Abrir conversa:** aparece só quando a oportunidade está ligada a uma conversa, e abre essa conversa por cima do Board.
+🔘 **Abrir conversa:** aparece só quando a oportunidade está ligada a uma conversa, e abre essa conversa por cima do Board — também quando o atendimento já foi encerrado. Nesse caso a janela traz as mensagens e o botão **Reabrir**, e o campo de digitar avisa *"Reabra ou aceite esse ticket para enviar uma mensagem."*
 
 Para ver e editar a oportunidade inteira, clique duas vezes no card.
 
@@ -88,9 +88,9 @@ Arraste o card para outra coluna. Numa etapa de ganho, a venda é marcada na hor
 
 Clique em **Ação em massa na etapa**, no cabeçalho da coluna. A janela mostra o nome da etapa e quantos cards e contatos ela tem — por exemplo, *"6 card(s) nesta etapa, de 3 contato(s). Quem aparece em mais de um card recebe uma vez."* — e oferece duas ações.
 
-🔘 **Quem recebe:** em **Operador**, deixe **Todos** ou limite aos cards de uma pessoa, ou aos que estão **Sem operador**; em **Conexão das oportunidades**, limite aos cards de uma Conexão. A contagem da janela muda conforme a escolha, e a ação vale só para os cards contados.
+🔘 **Quem recebe:** em **Operador**, deixe **Todos** ou limite aos cards de uma pessoa, ou aos que estão **Sem operador**; em **Conexão das oportunidades**, limite aos cards de uma Conexão. A contagem da janela muda conforme a escolha, e a ação vale só para os cards contados. A janela também avisa quais filtros do quadro valem para a ação — por exemplo, *"Também valem os filtros do quadro: período."* — e quantos cards ficam de fora por não ter contato, como em *"1 sem contato ficam de fora."*
 
-🔘 **Enviar mensagem:** escolha a **Conexão** por onde as mensagens são enviadas, escreva a **Mensagem** e escolha o **Intervalo entre os envios**: **15 segundos**, **30 segundos**, **1 minuto**, **2 minutos** ou **5 minutos**. Para o nome de cada contato, escreva `{{name}}` ou `{{firstName}}` no texto. Clique em **Agendar para N contato(s)**.
+🔘 **Enviar mensagem:** escolha a **Conexão** por onde as mensagens são enviadas, escreva a **Mensagem** e escolha o **Intervalo entre os envios**: **15 segundos**, **30 segundos**, **1 minuto**, **2 minutos** ou **5 minutos**. Para o nome de cada contato, escreva `{{name}}` ou `{{firstName}}` no texto. Clique em **Agendar para N contato(s)**. A janela confirma quantas mensagens foram agendadas e a hora da primeira e da última — por exemplo, *"1 mensagem(ns) agendada(s), da primeira às 14:37 à última às 14:37."* — e lembra: *"Acompanhe e cancele em Agendamentos."*
 
 🔘 **Aplicar tag:** escolha a **Tag** e clique em **Aplicar em N card(s)**. Nas palavras da tela: *"A tag entra no atendimento de cada card (ou no último atendimento do contato) e dispara o remarketing dela, se houver."*
 
@@ -118,13 +118,15 @@ Num funil **Individual**, o atendente vê só as próprias oportunidades, com o 
 >
 > **Toda vez que entro no Board aparece outro funil.** O Board abre sempre no funil padrão ou, sem funil padrão, no primeiro da lista. Para escolher, acesse o menu **CRM  ›  Funis**, edite o funil desejado e marque **Funil padrão**.
 >
-> **O botão Abrir conversa não aparece no card.** Ele só aparece quando a oportunidade está ligada a uma conversa. Oportunidade criada direto no Board fica *Sem conversa vinculada*.
+> **O botão Abrir conversa não aparece no card.** Ele só aparece quando a oportunidade está ligada a uma conversa. Oportunidade criada direto no Board fica *Sem conversa vinculada* — para ligar, abra a oportunidade e escolha a conexão em **Alterar conexão**.
+>
+> **O atendimento da oportunidade já foi encerrado. Consigo ver a conversa pelo Board?** Consegue. O **Abrir conversa** do card abre a conversa encerrada por cima do Board, com as mensagens e o botão **Reabrir**.
 >
 > **Não vejo as colunas de ganho e perda.** O funil está com **Ocultar ganhas e perdidas do vendedor** ligado, e o seu perfil é de atendente. Você continua marcando ganho e perda pela própria oportunidade.
 >
 > **Onde ficaram os filtros de Operador, Tags e período do Board?** No painel que abre em **Filtrar Oportunidades**, no topo da tela. Com o painel fechado, o botão mostra quantos filtros estão valendo.
 >
-> **Filtrei o Board, recarreguei a página e o filtro sumiu.** É assim: a cada carga o Board volta ao mês atual e sem filtros. Abra **Filtrar Oportunidades** e aplique de novo.
+> **Filtrei o Board, recarreguei a página e o filtro sumiu.** É assim: a cada carga o Board volta ao mês atual e sem filtros. Abra **Filtrar Oportunidades** e escolha de novo.
 >
 > **Uma venda de outro mês não aparece no Board.** O Board abre no mês atual, e a venda ganha ou perdida conta pela data do fechamento. Em **Filtrar Oportunidades**, mude **De** e **Até** para o mês da venda; **Mês atual** volta para o mês corrente.
 >

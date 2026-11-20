@@ -22,7 +22,7 @@ O sistema está tentando enviar alguma **mensagem automática**, porém essa men
 
 Segue uma lista de condições e campos de mensagens que você deve observar:
 
-➡️ No menu **Configurações**, a opção **Mensagem de Saudação do Operador** marcada como **Sim** e o **Texto de Saudação** vazio.
+➡️ No menu **Configurações  ›  Opções  ›  Atendimento**, seção **Atendimento e operador**, a opção **Mensagem de Saudação do Operador?** marcada como **Sim** e o **Texto de Saudação** vazio.
 
 #### 🚨 "#1 Error sending message to LID: failed to encrypt message: can't encrypt message for device: no signal session established with xxxxxxxxxxx"
 
@@ -105,4 +105,4 @@ Você tentou enviar uma **Mensagem Template** que contém uma imagem ou arquivo 
 
 O sistema tentou acessar uma página inexistente, gerando um **Erro 404**. O alerta traz um bloco de detalhes; nele, o endereço exato que falhou está no campo **"url"**, e o campo **"data"** contém os detalhes do evento disparado.
 
-☑️ Acesse o menu **Configurações  ›  Opções  ›  Webhooks | Eventos** e identifique qual evento está vinculado a essa URL problemática.
+☑️ Acesse o menu **Configurações  ›  Opções  ›  Integrações e segurança**, seção **Webhooks e integrações**, e identifique qual evento está vinculado a essa URL problemática.

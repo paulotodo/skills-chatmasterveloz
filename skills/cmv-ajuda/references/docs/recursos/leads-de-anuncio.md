@@ -18,6 +18,8 @@ Só entram aqui os contatos que chegaram por um anúncio de clique para o WhatsA
 >
 > ➡️ Ajuste o período em **De** e **Até**. A tela abre nos últimos 30 dias.
 >
+> ➡️ Em **Anúncio**, escolha um anúncio ou deixe **Todos os anúncios**.
+>
 > ➡️ Clique no número de **Leads** de um anúncio para ver quem chegou por ele.
 >
 > ➡️ Para levar os dados para uma planilha, use **Baixar CSV**.
@@ -32,6 +34,8 @@ Só entram aqui os contatos que chegaram por um anúncio de clique para o WhatsA
 
 Mudar **De** ou **Até** já atualiza a tela. O **Atualizar**, no alto, ao lado do **Baixar CSV**, busca de novo com o mesmo período.
 
+Ao lado do período, o filtro **Anúncio** escolhe um anúncio da lista ou **Todos os anúncios**.
+
 ## Os números
 
 🔘 **Leads de anúncio:** quantos contatos chegaram por anúncio no período.
@@ -41,6 +45,14 @@ Mudar **De** ou **Até** já atualiza a tela. O **Atualizar**, no alto, ao lado 
 🔘 **Receita desses leads:** o valor das vendas desses contatos.
 
 Com leads demais no período, a tela avisa que os números são de uma amostra: *"Muitos leads no período: os números abaixo são de uma amostra, não do total. Reduza o intervalo para ver o número exato."*
+
+## A chegada de leads por hora
+
+Abaixo dos números, o bloco **Chegada de leads por hora** mostra quando os leads de anúncio chegam: *"Veja os horários de maior movimento para planejar a escala da equipe de atendimento."*
+
+Com leads no período, a **Chegada de leads por hora** separa os leads **por dia da semana e hora** e destaca o **Horário de pico**, com o intervalo de horas e quantos leads chegaram nele.
+
+Sem lead no período, o bloco avisa: *"Sem leads no período para mostrar os horários."*
 
 ## Cada anúncio
 
@@ -65,5 +77,7 @@ A tela é de administrador e supervisor. Para os outros perfis, ela avisa: *"Est
 > #### Dúvidas Comuns
 >
 > **A tela está vazia, mas a empresa anuncia.** Só entram contatos que chegaram por anúncio de clique para o WhatsApp.
+>
+> **Em que horário chegam mais leads de anúncio?** O bloco **Chegada de leads por hora** mostra os leads por dia da semana e hora, com o **Horário de pico** em destaque — serve para planejar a escala da equipe de atendimento.
 >
 > **Por que uma venda de depois do período entrou na conta?** O período escolhe os leads pela data de chegada; as vendas desses leads contam mesmo quando fechadas depois.

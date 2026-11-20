@@ -20,7 +20,7 @@
 >
 > ➡️ Preencha o **dia e o mês do aniversário** ao editar um contato.
 >
-> ➡️ Em **Configurações**, configure sua **Mensagem de Aniversário**.
+> ➡️ No menu **Configurações  ›  Opções  ›  Automação**, seção **Mensagens automáticas**, escreva sua **Mensagem de Aniversário**.
 >
 > ➡️ A mensagem é enviada pela **Conexão definida como Padrão** no dia do aniversário do contato às **10h da manhã**.
 
@@ -32,7 +32,7 @@ Ao **Editar um Contato**, no campo **Aniversário**, escolha o **Dia** e o **Mê
 
 ## Como configurar a mensagem de aniversário
 
-Acesse o menu **Configurações  ›  Mensagem de Aniversário** para configurar uma mensagem personalizada, que será enviada às **10h da manhã** no **dia do aniversário** registrado no cadastro do Contato.
+Acesse o menu **Configurações  ›  Opções  ›  Automação**, seção **Mensagens automáticas**, e escreva no campo **Mensagem de Aniversário** a mensagem personalizada, que será enviada às **10h da manhã**, no fuso horário da empresa, no **dia do aniversário** registrado no cadastro do Contato.
 
 ![imagem](https://clihelper.chatmasterveloz.com/docs-imagem/24913-mensagem-aniversario.jpg)
 
@@ -46,7 +46,7 @@ No menu **Conexões  ›  Editar  ›  Geral**, defina a conexão desejada como 
 >
 > #### Dúvidas Comuns
 >
-> **Posso mudar o horário de disparo (10h da manhã)?** Não. Atualmente, o gatilho interno do sistema é programado para disparar pontualmente às 10h da manhã. É um horário estratégico e comercialmente validado para não incomodar o cliente de madrugada.
+> **Posso mudar o horário de disparo (10h da manhã)?** Não. Atualmente, o gatilho interno do sistema é programado para disparar pontualmente às 10h da manhã, no **Fuso horário da empresa** (no menu **Configurações  ›  Opções  ›  Geral**, seção **Empresa e região**). É um horário estratégico e comercialmente validado para não incomodar o cliente de madrugada.
 >
 > **O que acontece se eu não souber o ano em que o cliente nasceu?** Deixe o **Ano** em branco: ele é opcional no campo **Aniversário**. O disparo leva em consideração apenas o **Dia** e o **Mês** para enviar a mensagem anual.
 >

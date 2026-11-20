@@ -16,80 +16,37 @@ Ideal para:
 
 ☑️ **Visão da gestão:** Reúne a nota média, o índice e os números por atendente e por Setor num relatório só.
 
+☑️ **Quem precisa de atenção:** Mostra, logo na abertura da tela, os atendentes abaixo do esperado e o motivo de cada um.
+
 ☑️ **Atendimentos que pedem atenção:** Separa as notas baixas na faixa **Detratores**, com acesso direto à conversa.
 
-> **[RESUMO]**
->
-> #### Resumo Prático
->
-> ➡️ Acesse o menu **Configurações  ›  Opções** e ligue **Avaliar os atendimentos pela IA**. Só o administrador tem essa opção.
->
-> ➡️ Em **Horários das rodadas**, informe de 1 a 4 horários e clique em **Salvar**.
->
-> ➡️ Depois da rodada, acesse o menu **Avaliação pela IA** para ver o **Relatório** e as **Aulas**.
+☑️ **Contatos internos:** Deixa de avaliar as conversas com os colegas que falam com a empresa pela Conexão, e tira as notas deles das métricas.
 
-## Como ligar a Avaliação pela IA
+☑️ **Processo por área:** Avalia cada Setor ou Conexão pelo processo de atendimento daquela área.
 
-Acesse o menu **Configurações  ›  Opções**. O bloco **Avaliação dos atendimentos pela IA** aparece só para o administrador:
+☑️ **Vendas perdidas:** Junta os produtos que o atendente disse não ter em estoque, com quantas vezes isso aconteceu e para quantos clientes.
 
-🔘 **Avaliar os atendimentos pela IA:** liga a avaliação. A opção é gravada na hora, sem precisar de **Salvar**, e a tela confirma com *"Avaliação pela IA salva."*
+## Como a Avaliação pela IA se organiza
 
-🔘 **Horários das rodadas:** de 1 a 4 horários, separados por vírgula, por exemplo `12:00, 23:00`. Nesses horários, a IA da empresa dá a nota aos atendimentos encerrados, aponta o que melhorar e escreve uma aula curta para cada atendente.
+⚡ **Visão Geral e Permissões** — o que cada aba faz e o que cada perfil vê na **Avaliação pela IA**.
 
-🔘 **Webhook da avaliação:** o endereço de outro sistema que recebe os eventos da avaliação. A tela lista três: `atendimento-avaliado`, `avaliacao-falhou` e `aula-gerada`. O endereço precisa começar com `http://` ou `https://`, sem espaços, e não pode apontar para a rede interna.
+⚡ **Montar** — ligar a avaliação e escolher os horários das rodadas, o processo de atendimento que a IA usa para comparar, os avisos à gestão e o envio dos eventos a outro sistema.
 
-🔘 **Salvar:** grava os horários e o webhook.
+⚡ **Usar no dia a dia** — quem do time precisa de atenção, as aulas de cada atendente e os contatos internos fora da avaliação.
 
-🔘 **Avaliar agora:** começa uma rodada sem esperar o horário, com o aviso *"A avaliação começou. Os resultados aparecem no relatório em alguns minutos."* O botão fica desativado enquanto **Avaliar os atendimentos pela IA** estiver desligado.
+⚡ **Acompanhar** — o relatório, a evolução semana a semana e os produtos que estão perdendo venda.
 
-## Quem vê o quê na Avaliação pela IA                                    
+## O que decidir antes de começar
 
-| Perfil | Menu **Avaliação pela IA** | O que abre | Bloco no menu **Configurações › Opções** |
-|---|---|---|---|
-| Administrador | Sim | **Relatório** e **Aulas**, com **Exportar CSV** | Sim |
-| Supervisor | Sim | **Relatório** e **Aulas**, com **Exportar CSV** | Não |
-| Atendente | Sim | **Minhas aulas** | Não |
-| Atendente com acesso limitado | Não | Sem o item no menu | Não |
+➡️ **Os horários das rodadas.** A **Avaliação pela IA** dá a nota em rodadas, de 1 a 4 por dia, nos horários que a empresa escolhe. A nota de um atendimento aparece depois da rodada, e não na hora em que ele é encerrado.
 
-## O Relatório da Avaliação pela IA
+➡️ **O processo de atendimento.** Sem processo, a IA avalia no jeito geral. Com o processo ideal descrito, ela diz em qual etapa o atendente seguiu ou não, e cada Setor ou Conexão pode ter um processo próprio.
 
-Acesse o menu **Avaliação pela IA**, aba **Relatório**. A tela abre nos últimos 30 dias:
+➡️ **Quem recebe os avisos.** Os avisos de quem sai do processo ou tira nota baixa vão para o sino de quem gerencia a equipe, e o cadastro de cada usuário escolhe se ele recebe esses avisos.
 
-🔘 **Filtros:** **De**, **Até**, **Atendente**, **Setor** e **Faixa da nota**. O período aceita no máximo um ano.
+➡️ **Os contatos internos.** Colegas que falam com a empresa pela Conexão também recebem nota. Tirar esses contatos da avaliação evita que as conversas internas distorçam as métricas da equipe.
 
-🔘 **Nota média** e **Atendimentos avaliados:** a média das notas e a quantidade de atendimentos avaliados no que está filtrado.
-
-🔘 **Faixas da nota:** **Promotores (9-10)**, **Neutros (7-8)** e **Detratores (0-6)**, com a quantidade de atendimentos em cada faixa.
-
-🔘 **Índice (estilo NPS):** a parcela de promotores menos a de detratores, de -100 a 100. Com 1 promotor e 6 detratores em 7 atendimentos, o índice é -71.
-
-🔘 **Distribuição das notas** e **Evolução por dia:** os gráficos de quantos atendimentos receberam cada nota, de 0 a 10, e de como a média andou a cada dia.
-
-🔘 **Por atendente** e **Por Setor:** as tabelas com **Nome**, **Média**, **Atendimentos** e **Índice**.
-
-🔘 **Atendimentos avaliados:** a lista com **Encerrado em**, **Contato**, **Atendente**, **Setor**, **Nota** e **Pontos de atenção**. O botão **Abrir conversa** leva à conversa encerrada daquele atendimento.
-
-## Como exportar o CSV da Avaliação pela IA
-
-Na aba **Relatório**, clique em **Exportar CSV**. O arquivo traz os atendimentos do período filtrado, com as colunas separadas por ponto e vírgula: **Encerrado em**, **Protocolo**, **Contato**, **Atendente**, **Setor**, **Nota**, **Pontos de atenção**, **Pontos fortes**, **Próximo passo** e **Resumo**.
-
-Quando há mais de um ponto na mesma célula, eles vêm separados por `|`.
-
-## As aulas da Avaliação pela IA
-
-Depois das rodadas, cada atendente ganha uma aula feita a partir dos atendimentos dele. O administrador e o supervisor veem as aulas na aba **Aulas**, com filtro por **Atendente**. O atendente vê só as dele, na aba **Minhas aulas**.
-
-Cada aula traz:
-
-🔘 **Identificação:** o título, o atendente, quantos atendimentos entraram, a média e o período.
-
-🔘 **Continue fazendo:** o que o atendente já faz bem.
-
-🔘 **Evite:** o que deixar de fazer.
-
-🔘 **Um exemplo real:** **A situação**, **Como foi** e **Como fica melhor**.
-
-🔘 **Marcar como vista:** registra a leitura, que passa a aparecer como *"Vista por"*, com o nome e a data. O supervisor enxerga quem já viu.
+➡️ **Os produtos em falta.** O registro das vendas perdidas só começa quando é ligado, e não traz de volta os atendimentos que já foram avaliados.
 
 > **[DUVIDAS]**
 >
@@ -99,22 +56,4 @@ Cada aula traz:
 >
 > **A Avaliação pela IA é a mesma coisa que a pesquisa de avaliação enviada ao cliente?** Não. Na pesquisa, quem dá a nota é o cliente. Na **Avaliação pela IA**, quem dá a nota é a IA, lendo o atendimento encerrado.
 >
-> **O atendente vê a própria nota na Avaliação pela IA?** O atendente não abre o **Relatório**. Ele vê as próprias aulas na aba **Minhas aulas**, cada uma com a média do período dela.
->
-> **O supervisor pode mudar os Horários das rodadas da Avaliação pela IA?** Não. O bloco **Avaliação dos atendimentos pela IA**, no menu **Configurações  ›  Opções**, aparece só para o administrador.
->
-> **O botão Avaliar agora avalia um atendimento escolhido?** Não. A tela não pede atendimento nenhum: **Avaliar agora** começa a rodada da empresa.
->
-> **Um mesmo ticket pode ter mais de uma nota na Avaliação pela IA?** Pode. A avaliação é por protocolo: um ticket com dois protocolos avaliados tem duas notas, uma para cada protocolo.
-
-> **[ERROS]**
->
-> #### Erros Comuns
->
-> **A tela mostra "A avaliação pela IA não faz parte do seu plano.":** a página não mostra o relatório nem as aulas. **Solução:** peça a liberação da **Avaliação pela IA** no plano da empresa.
->
-> **O Relatório mostra "Nenhum atendimento avaliado no período.":** o período ou o filtro escolhido não tem nenhuma avaliação. **Solução:** amplie **De** e **Até**, volte **Faixa da nota** para **Todas** e confira se **Avaliar os atendimentos pela IA** está ligado no menu **Configurações  ›  Opções**.
->
-> **O campo Horários das rodadas mostra "Use de 1 a 4 horários no formato HH:MM":** o **Salvar** fica desativado. **Solução:** informe de 1 a 4 horários, separados por vírgula, como `12:00, 23:00`. O campo não aceita ficar vazio.
->
-> **O Relatório mostra "Confira o período do relatório":** a data inicial passou da final, ou o período tem mais de um ano, e os números continuam os da busca anterior. **Solução:** corrija **De** e **Até**.
+> **A Avaliação pela IA funciona sem descrever um processo de atendimento?** Funciona. Sem processo nenhum, a avaliação segue no jeito geral; o processo é o que permite saber em qual etapa o time perde.

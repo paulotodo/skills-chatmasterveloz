@@ -26,6 +26,8 @@ O **Projetos** organiza esse trabalho na plataforma: cada projeto tem o cliente,
 
 ➡️ **O que vira modelo.** O trabalho que se repete de cliente para cliente vira modelo, com as etapas, as tarefas, o prazo de cada uma e o checklist.
 
+➡️ **O que o cliente fica sabendo.** O cliente do projeto pode receber uma mensagem quando o projeto entra numa situação, como **Em andamento** ou **Concluído**. A gestão escolhe as situações que avisam e o texto de cada uma.
+
 > **[DUVIDAS]**
 >
 > #### Dúvidas Comuns

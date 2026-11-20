@@ -38,19 +38,19 @@ Ideal para:
 
 🔘 **WhatsApp da loja:** o número que recebe o pedido quando a loja está com **Os pedidos seguem pelo WhatsApp**.
 
-🔘 **Endereço físico da loja**, os prazos mínimo e máximo de entrega, em minutos, e **Pedido mínimo (R$):** o endereço da loja, o prazo de entrega e o valor mínimo do pedido.
+🔘 **Endereço físico da loja**, os prazos mínimo e máximo de entrega, em minutos, e **Pedido mínimo (R$):** o endereço da loja, o prazo de entrega e o valor mínimo do pedido. O símbolo do rótulo acompanha a **Moeda** da empresa.
 
 🔘 **Exemplo no campo de observação do produto:** o exemplo que o cliente vê no campo de observação do produto, com até 120 letras. Em branco, o campo fica sem exemplo.
 
-🔘 **Faz entrega** e **Aceita retirada no local:** as formas de receber que o cliente vê na sacola. A taxa de entrega é a do PDV, cadastrada no menu **Configurações  ›  Opções**, e o cliente vê as taxas em **Horários e informações**.
+🔘 **Faz entrega** e **Aceita retirada no local:** as formas de receber que o cliente vê na sacola. A taxa de entrega é a do PDV, cadastrada no menu **Configurações  ›  Opções  ›  Vendas**, seção **PDV**, e o cliente vê as taxas em **Horários e informações**.
 
 🔘 **Horários** e **Dias fechados:** os horários em que a loja abre e os dias em que ela não abre. Sem horário, a tela avisa *"Sem horário: a loja aparece sempre aberta"*.
 
 🔘 **Conexão do código e do atendimento:** a Conexão que envia ao cliente o código de entrada pelo WhatsApp. A lista tem *A conexão padrão da empresa* e as Conexões da empresa.
 
-🔘 **Pagamento online:** por onde o cliente paga pela página. Sem nenhum meio de pagamento conectado nas Opções do PDV, a única opção é *Só o pagamento na entrega*.
+🔘 **Pagamento online:** por onde o cliente paga pela página. Sem nenhum meio de pagamento conectado nas Opções do PDV, a única opção é *Só o pagamento na entrega*. O pagamento online cobra em reais: com a **Moeda** da empresa em outra moeda, no menu **Configurações  ›  Opções  ›  Geral**, seção **Empresa e região**, o campo avisa *"O pagamento online cobra em reais e fica indisponível na moeda da empresa."*
 
-🔘 **Cashback** e **Cupons de desconto:** os blocos de cashback e de cupons da loja. **Cupons de desconto** aparece depois do primeiro salvamento.
+🔘 **Cashback** e **Cupons de desconto:** os blocos de cashback e de cupons da loja. **Cupons de desconto** aparece depois do primeiro salvamento. O cashback dos pedidos da Loja Digital usa o percentual do bloco **Cashback** da própria Loja Digital.
 
 Trocar o **Endereço da loja** tira o link antigo do ar: quem abre o endereço antigo vê *"Esta loja não está no ar"*.
 
@@ -59,6 +59,8 @@ Trocar o **Endereço da loja** tira o link antigo do ar: quem abre o endereço a
 🔘 **Loja fora do ar** × **Loja no ar:** o texto do interruptor diz como a loja **está**. Fora do ar, quem abre o link vê *"Esta loja não está no ar"*.
 
 🔘 **Pedidos pela loja:** com **Os pedidos seguem pelo WhatsApp**, a sacola pede a entrega ou a retirada, o **Endereço**, o **Bairro**, **Seu nome** e uma **Observação do pedido**, e o botão **Enviar pedido pelo WhatsApp** abre o **WhatsApp da loja** com o pedido numa mensagem, que começa com `*Pedido pela loja*` e o nome da loja. Sem o endereço da entrega, a sacola avisa *"Informe o endereço da entrega."*; depois do envio, *"Pedido enviado para o WhatsApp da loja. É só enviar a mensagem por lá."* Na outra posição, o pedido é feito pela própria sacola da loja.
+
+Quando a empresa dá desconto ou cobra taxa por forma de pagamento, a sacola mostra o ajuste ao lado de cada forma de pagar na entrega, como *Pix 5% de desconto*, e o total muda com a forma escolhida.
 
 ⚠️ Leia o texto do interruptor antes de salvar: para publicar a Loja Digital, ele tem de mostrar **Loja no ar**.
 
@@ -80,11 +82,25 @@ No topo, a capa com o nome da loja, a escolha de tema (**Tema do sistema**, **Te
 
 ➡️ A ordem dos produtos: **Mais relevantes**, **Menor preço**, **Maior preço** ou **Nome (A a Z)**, e o filtro **Só disponíveis**.
 
-➡️ Os **Departamentos**, que são as categorias do PDV, numa coluna à esquerda no computador, e a seção **Mais vendidos**.
+➡️ Os **Departamentos**, que são as categorias do PDV, numa coluna à esquerda no computador, e a seção **Mais vendidos**. A categoria com imagem, escolhida no **Editar categoria** do menu **PDV  ›  Produtos  ›  Categorias**, mostra a foto ao lado do nome.
 
 ➡️ Uma barra no rodapé, com **Início** e **Carrinho**.
 
 Na janela do produto, a **Galeria de fotos** do cadastro vira uma faixa de fotos para arrastar, como *"11 fotos · arraste para ver"*, e a **Ficha técnica** aparece como uma tabela de características. Na pizza, a janela mostra *"vale a média dos sabores"*, com o preço de cada sabor no tamanho. As fotos e a ficha técnica são cadastradas no produto, no menu **PDV  ›  Produtos**.
+
+## Produto sob encomenda ou em pré-venda
+
+O produto pode continuar à venda na Loja Digital quando o estoque acaba, ou ficar sempre à venda, como numa pré-venda. Isso se escolhe no cadastro do produto, no menu **PDV  ›  Produtos**, no bloco **Sob encomenda / pré-venda**:
+
+🔘 **Venda sob encomenda:** **Não (esgotou, fica indisponível)**, **Quando acabar o estoque** ou **Sempre (pré-venda ou feito sob encomenda)**.
+
+🔘 **Aviso do prazo:** o texto que o cliente vê, com até 120 letras, como *Prazo de produção: até 15 dias*. A tela explica: *"Aparece na Loja Digital, no produto e na sacola. Em branco: só "Sob encomenda"."*
+
+Na Loja Digital, o produto sob encomenda ganha o selo **Sob encomenda** no card, na janela e na página do produto, com o aviso do prazo abaixo. Na sacola, o item mostra *Sob encomenda* e o aviso do prazo.
+
+O produto em **Não**, com o estoque zerado, aparece como **Indisponível** no card, com *"Indisponível no momento"* na janela, e o botão para pôr na sacola fica desativado.
+
+⚠️ **Quando acabar o estoque** só faz efeito no produto que controla estoque. No produto sem controle de estoque, o cadastro avisa: *"Este produto não controla estoque: ele nunca zera, então o aviso não vai aparecer. Ligue o controle de estoque ou escolha "Sempre"."*
 
 ## O link de cada produto
 
@@ -132,7 +148,7 @@ Só o administrador da empresa monta a Loja Digital. Supervisor e atendente não
 
 ## Avisos para o seu sistema
 
-Com o **Webhook do PDV** preenchido no menu **Configurações  ›  Opções**, o seu sistema recebe o aviso `loja-alterada` a cada **Salvar** da Loja Digital, mesmo quando nada mudou. O aviso está na lista **Eventos enviados**, logo abaixo do campo do **Webhook do PDV**.
+Com o **Webhook do PDV** preenchido no menu **Configurações  ›  Opções  ›  Integrações e segurança**, seção **Webhooks e integrações**, o seu sistema recebe o aviso `loja-alterada` a cada **Salvar** da Loja Digital, mesmo quando nada mudou. O aviso está na lista **Eventos enviados**, logo abaixo do campo do **Webhook do PDV**.
 
 O `loja-alterada` traz `companyId`, `origem` (como `painel`), `enviadoEm`, `backendURL` e, em `loja`, a configuração da Loja Digital como está na tela:
 
@@ -170,7 +186,7 @@ Ligar ou desligar a Loja Digital não tem aviso próprio: chega o `loja-alterada
 
 ◽ **Cupom usado** (`cupom-usado`): um cupom foi usado num pedido da Loja Digital.
 
-◽ **Pedidos:** o pedido feito pela sacola chega pelos avisos de pedido do **Webhook do PDV**, como `pedido-criado` e `pedido-confirmado`. O cupom usado vem no `pedido-confirmado`.
+◽ **Pedidos:** o pedido feito pela sacola chega pelos avisos de pedido do **Webhook do PDV**, como `pedido-criado` e `pedido-confirmado`. O cupom usado vem no `pedido-confirmado`. Os avisos de pedido trazem `pedido.loja`, com `id`, `slug` e `tipo` `loja`, e `pedido.cardapioId`: é por eles que o seu sistema separa o pedido da Loja Digital.
 
 > **[DUVIDAS]**
 >
@@ -190,6 +206,10 @@ Ligar ou desligar a Loja Digital não tem aviso próprio: chega o `loja-alterada
 >
 > **Atualizei a prévia do front da Loja Digital e a loja publicada não mudou. Por quê?** **Atualizar a prévia** mostra a mudança só na prévia. Para publicar, clique em **Salvar**.
 >
+> **Como continuo vendendo na Loja Digital um produto que acabou?** No cadastro do produto, em **Sob encomenda / pré-venda**, escolha **Quando acabar o estoque** e escreva o **Aviso do prazo**. Com o estoque zerado, o produto segue à venda com o selo **Sob encomenda** e o prazo.
+>
+> **Como faço uma pré-venda na Loja Digital?** No cadastro do produto, em **Sob encomenda / pré-venda**, escolha **Sempre (pré-venda ou feito sob encomenda)** e escreva o **Aviso do prazo**. O produto fica à venda mesmo sem estoque, com o selo **Sob encomenda** e o prazo no produto e na sacola.
+>
 > **Onde cadastro as fotos e a ficha técnica que aparecem na Loja Digital?** No cadastro de cada produto, no menu **PDV  ›  Produtos**, em **Galeria de fotos** e **Ficha técnica**.
 >
 > **Meu sistema fica sabendo quando a Loja Digital é salva?** Sim. Com o **Webhook do PDV** preenchido, cada **Salvar** da Loja Digital envia o aviso `loja-alterada`, com a configuração da loja em `loja`, mesmo quando nada mudou.
@@ -197,5 +217,9 @@ Ligar ou desligar a Loja Digital não tem aviso próprio: chega o `loja-alterada
 > **Meu sistema fica sabendo quando a Loja Digital fica fora do ar?** Sim. Ligar ou desligar a loja e salvar envia o aviso `loja-alterada`, com `ativo` em `false` quando a loja fica fora do ar e `true` quando volta.
 >
 > **Meu sistema recebe o Tenho interesse da Loja Digital?** Sim. Cada interesse envia o aviso `loja-interesse`, com a oportunidade criada, o produto, o cliente, a mensagem dele e o atendimento.
+>
+> **Meu sistema sabe que o pedido veio da Loja Digital?** Sim. Os avisos de pedido do **Webhook do PDV** trazem `pedido.loja`, com o `tipo` `loja` e o `slug` da loja.
+>
+> **O Pagamento online da Loja Digital ficou indisponível. Por quê?** O pagamento online cobra em reais. Com outra **Moeda** escolhida no menu **Configurações  ›  Opções  ›  Geral**, seção **Empresa e região**, o campo avisa *"O pagamento online cobra em reais e fica indisponível na moeda da empresa."*
 >
 > **Quem pode editar a Loja Digital?** Só o administrador da empresa. Para os outros perfis, a tela avisa *"Só o administrador da empresa edita a loja."*

@@ -36,7 +36,7 @@ Bearer {seutokenaqui}
 }
 ```
 
-⚠️ A validação só funciona com duas condições atendidas: no menu **Configurações  ›  Ignorar Validação de Contatos?** o valor precisa ser **Não**, e no menu **Conexões** precisa haver uma Conexão marcada como **Padrão**.
+⚠️ A validação só funciona com duas condições atendidas: no menu **Configurações  ›  Opções  ›  Contatos**, seção **Contatos**, a opção **Ignorar Validação de Contatos?** precisa estar em **Não**, e no menu **Conexões** precisa haver uma Conexão marcada como **Padrão**.
 
 ➡️ **“number”:** telefone do contato no formato ddi ddd numero (somente números).
 

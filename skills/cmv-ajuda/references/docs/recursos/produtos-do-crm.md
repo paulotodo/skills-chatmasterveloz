@@ -24,7 +24,7 @@ Com o catálogo montado, ninguém precisa digitar o mesmo produto de jeitos dife
 
 ## Vídeo Tutorial
 
-[Vídeo Voomly — id Y1w0H13hyscf2oA4D9IKuh-M0UpBztu7V4w0SVrJhq8H1NE7f, tipo v]  
+[Vídeo Voomly — id i55dr0JwITRjbySxblUJL9MfJIQeZClSn35xzX5gUTLqLzZUO, tipo v]  
 
 ## Os campos do produto
 
@@ -46,15 +46,19 @@ Com o catálogo montado, ninguém precisa digitar o mesmo produto de jeitos dife
 
 ## A lista de produtos
 
-Cada produto aparece num card com a imagem, o nome, a marca e o SKU (quando têm), o preço e a descrição — a cobrança padrão não aparece no card. No card, o lápis edita e a lixeira apaga — a plataforma pergunta antes de apagar.
+Cada produto aparece num card com a imagem, o nome, a marca e o SKU (quando têm), o preço e a descrição — a cobrança padrão não aparece no card. No card, o lápis edita, o **Duplicar** cria um produto novo a partir daquele e a lixeira apaga — a plataforma pergunta antes de apagar.
+
+O **Duplicar**, o ícone entre o lápis e a lixeira, abre a janela **Duplicar produto** já preenchida com o produto do card: o nome ganha *(cópia)* no fim, o **SKU** fica vazio, e a marca, a descrição, o preço e a **Cobrança padrão** vêm iguais. Ajuste o que for diferente e clique em **Adicionar**. O produto original continua como estava.
 
 O campo **Pesquisar produtos...** procura pelo nome, pelo SKU e pela marca — basta digitar parte do código.
 
 O filtro **Marca** mostra só os produtos de uma marca, ou os **Sem marca**. Ele aparece depois que algum produto tem marca.
 
+O produto sem **Marca** e com a característica *Marca* na ficha técnica do cadastro usa a marca da ficha: o card mostra *Marca: Acme (da ficha técnica)*, e o produto entra no filtro **Marca** e na busca por ela. Com o campo **Marca** vazio, a ajuda do campo mostra a marca que vem da ficha.
+
 ## Como cadastrar produtos por planilha
 
-[Vídeo Voomly — id sciGhQ8fSDbN2VsfWgoxs9KJXEpPAci2jzTROUFW06_Y2hL7P, tipo v]  
+[Vídeo Voomly — id tYsbMz5S4J2AjAlb2AYVydU2SNlZGIq10mdJXTmJGhKib2Q1K, tipo v]  
 
 Acesse o menu **CRM  ›  Produtos**
 
@@ -88,6 +92,18 @@ Ao terminar, a janela **Resultado da importação** mostra quantos produtos fora
 
 As linhas com problema não entram e aparecem numa tabela com a **Linha** da planilha, o **SKU** e o **Motivo**. As outras entram normalmente: corrija só as recusadas e importe a planilha de novo — o que já entrou é atualizado, sem duplicar.
 
+### Exportar e substituir o catálogo
+
+Para mexer no catálogo inteiro de uma vez, a lista de **Produtos** tem mais dois botões:
+
+🔘 **Exportar planilha:** baixa o catálogo em *produtos.xlsx*, com todos os produtos, ativos e inativos. A aba **Produtos** tem as colunas **ID**, **SKU**, **Nome**, **Preço**, **Descrição**, **Detalhes**, **Cobrança**, **URL da imagem** e **Marca**. A aba **Instruções** explica: *"A coluna ID diz qual produto é cada linha: não a altere. Com ela, até o SKU e o nome podem ser trocados, e o produto continua o mesmo…"*
+
+🔘 **Substituir catálogo:** pergunta *"Substituir o catálogo pela planilha"* e avisa: *"Escolha a planilha (de preferência a exportada, com a coluna ID). Os produtos dela são criados ou atualizados, e os que NÃO estiverem nela serão apagados. Se alguma linha tiver problema, nada é apagado."* Com **OK**, escolha o arquivo.
+
+O resultado mostra também quantos produtos foram **Removidos**. Com alguma linha com problema, nenhum produto é apagado, e a janela avisa *"Nada foi apagado: há linhas com problema. Corrija a planilha e substitua de novo."* As linhas sem problema entram como atualizadas mesmo assim.
+
+⚠️ O **Substituir catálogo** apaga do cadastro todo produto que não está na planilha. Para só criar e atualizar, sem apagar nada, use **Importar planilha**.
+
 ## Onde o produto é usado
 
 ➡️ Na oportunidade, em **Produto / Serviço**, com Item Único ou Múltiplos Itens. O campo também acha o produto pelo SKU.
@@ -106,6 +122,8 @@ A tela de Produtos é de administrador e supervisor.
 >
 > **Quais campos são obrigatórios?** Só **Nome do Produto** e **Preço**.
 >
+> **Como cadastro um produto parecido com outro que já existe?** No card do produto, clique em **Duplicar**, o ícone entre o lápis e a lixeira. A janela **Duplicar produto** vem preenchida com os dados dele, com *(cópia)* no nome e o **SKU** vazio: troque o que for diferente e clique em **Adicionar**.
+>
 > **Importei a mesma planilha duas vezes. Duplicou?** Não. O SKU identifica o produto: na segunda vez, todos entram como **Atualizados**.
 >
 > **Deixei células em branco. O produto perdeu a descrição?** Não. Na atualização, célula em branco não muda nada.
@@ -115,6 +133,10 @@ A tela de Produtos é de administrador e supervisor.
 > **Na planilha o código está em minúsculas e no cadastro em maiúsculas. Duplica?** Não. Maiúscula e minúscula não fazem diferença: o produto é atualizado e continua com o código do cadastro.
 >
 > **Posso cadastrar um produto com cobrança anual pela planilha?** Pode. Escreva **Anual** na coluna **Cobrança**, do mesmo jeito que **Única** e **Mensal**.
+>
+> **Como tiro do catálogo de Produtos vários produtos de uma vez pela planilha?** Clique em **Exportar planilha**, apague da aba **Produtos** as linhas dos produtos que vão sair, sem mexer na coluna **ID**, e use **Substituir catálogo** com essa planilha. Os produtos que não estão nela são apagados.
+>
+> **Usei o Substituir catálogo e nenhum produto foi apagado. Por quê?** Alguma linha da planilha teve problema: nesse caso, o **Substituir catálogo** não apaga nada e avisa *"Nada foi apagado: há linhas com problema."* Corrija as linhas da tabela de problemas e substitua de novo.
 >
 > **Como vejo só os produtos de uma marca?** No filtro **Marca** da lista de produtos, escolha a marca, ou **Sem marca** para os produtos que ainda não têm. O campo **Pesquisar produtos...** também acha pela marca.
 

@@ -72,9 +72,11 @@ Bearer {seutokenaqui}
 
 ◽ **“title”:** o texto do botão, até 20 caracteres.
 
-⚠️ Campo acima do limite é recusado, e a resposta diz qual — por exemplo, `ERR_CAMPO_INVALIDO: buttons[0].title (até 20 caracteres)`.
+⚠️ Campo acima do limite é recusado, e a resposta diz qual campo corrigir.
 
 ◽ Quando o cliente toca num botão, o título dele entra no atendimento como mensagem do cliente e chega no webhook com `"type": "button_reply"` e `interactive` (o `id`, o `title` e o `messageId` da mensagem com os botões).
+
+➡️ **“assinaturaIa”:** opcional — acrescente ao corpo quando quem envia é a sua IA. Mande o nome da IA, com até 100 caracteres, ou `true`, que assina como **Assistente IA**. A mensagem fica marcada como enviada pela IA e aparece na conversa com o nome dela. Sem o campo, ou com `false`, o envio fica como sempre.
 
 #### Utilize o código em requisições HTTPS com ferramentas como cURL ou bibliotecas de integração.
 

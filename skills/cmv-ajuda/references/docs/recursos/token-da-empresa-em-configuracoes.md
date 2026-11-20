@@ -52,7 +52,7 @@ Com o Token da Empresa, **informar a Conexão é obrigatório em toda chamada �
 
 ◽ **A chamada que lista as Conexões da empresa também vai sem Conexão.** Com o Token da Empresa, o `POST /api/whatsapp-status` traz todas as Conexões da empresa, com o id de cada uma — é por ela que a sua integração descobre os ids que vai usar nas outras chamadas. Se você informar uma Conexão nessa chamada, ela precisa ser desta empresa.
 
-A aba traz a lista **Conexões desta empresa**, com o **ID**, o **Nome** e a **Situação** de cada uma. São esses os valores a usar na chamada.
+A tela do **Token da Empresa** traz a lista **Conexões desta empresa**, com o **ID**, o **Nome** e a **Situação** de cada uma. São esses os valores a usar na chamada.
 
 ## Token da Empresa e Token da Conexão convivem
 
@@ -70,7 +70,7 @@ A aba traz a lista **Conexões desta empresa**, com o **ID**, o **Nome** e a **S
 >
 > **Posso usar os dois ao mesmo tempo?** Pode. São credenciais independentes, e numa chamada em que as duas apareçam vale a Conexão.
 >
-> **Onde eu acho o ID da Conexão?** Na própria aba, na lista **Conexões desta empresa**. Pela API, o `POST /api/whatsapp-status` com o Token da Empresa traz todas as Conexões com o id de cada uma, sem precisar informar Conexão nenhuma.
+> **Onde eu acho o ID da Conexão?** Na tela do **Token da Empresa**, na lista **Conexões desta empresa**. Pela API, o `POST /api/whatsapp-status` com o Token da Empresa traz todas as Conexões com o id de cada uma, sem precisar informar Conexão nenhuma.
 
 > **[ERROS]**
 >
@@ -82,4 +82,4 @@ A aba traz a lista **Conexões desta empresa**, com o **ID**, o **Nome** e a **S
 >
 > **A chamada volta com 401 "Acesso não permitido" mesmo com o token certo de uma Conexão:** ela é das que só aceitam o Token da Empresa — o artigo dela avisa logo no início. Use o Token da Empresa, sem informar a Conexão.
 >
-> **As integrações pararam logo depois de você mexer nesta aba:** gerar um novo token ou revogar derruba o anterior imediatamente. Cole o token novo no seu sistema para elas voltarem.
+> **As integrações pararam logo depois de você mexer no Token da Empresa:** gerar um novo token ou revogar derruba o anterior imediatamente. Cole o token novo no seu sistema para elas voltarem.

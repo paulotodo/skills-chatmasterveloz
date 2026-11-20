@@ -54,7 +54,7 @@ Para escolher o dono, acesse o menu **Tags**, clique em **Atribuir dono**, marqu
 
 ◽ Só as tags de atendimento mudam de visibilidade; as de CRM e de Encerramento ficam como estão.
 
-🔘 **Tags de atendimento visíveis só para quem criou?** Fica em **Configurações → Opções**. Ligado, cada operador visualiza apenas as tags de atendimento que ele mesmo criou; as tags antigas, sem autor registrado, continuam visíveis para todos. Administradores e supervisores continuam visualizando tudo.
+🔘 **Tags de atendimento visíveis só para quem criou?** Fica no menu **Configurações  ›  Opções  ›  Atendimento**, seção **Atendimento e operador**. Ligado, cada operador visualiza apenas as tags de atendimento que ele mesmo criou; as tags antigas, sem autor registrado, continuam visíveis para todos. Administradores e supervisores continuam visualizando tudo.
 
 > **[DUVIDAS]**
 >

@@ -28,9 +28,9 @@ Acesse o menu **Projetos  ›  Novo projeto**
 
 🔘 **Cliente:** o contato para quem o projeto é feito.
 
-🔘 **Responsável:** quem responde pelo projeto.
+🔘 **Responsável:** quem responde pelo projeto. Ao escolher um modelo que tem **Responsável padrão**, o campo já vem preenchido com ele.
 
-🔘 **Situação:** **Planejamento**, **Em andamento**, **Pausado** ou **Concluído**. É por ela que a lista de projetos filtra.
+🔘 **Situação:** uma das situações dos projetos da empresa — as colunas do quadro por situação, escolhidas pela gestão no botão **Situações**, no menu **Projetos**. O projeto novo já vem com a primeira situação da lista. É por ela que a lista de projetos filtra.
 
 🔘 **Equipe:** as pessoas que trabalham no projeto. A própria janela avisa: *Só a equipe (e a gestão) vê o projeto.* Quem cria o projeto e o **Responsável** entram na equipe sozinhos.
 
@@ -58,7 +58,7 @@ No atendimento, o painel do contato tem a seção **Projetos**, com o botão **N
 
 ➡️ Os arquivos de **Anexos** são enviados e aparecem no projeto, no painel **Sobre o projeto**, na aba **Descrição e anexos**.
 
-➡️ Depois, o botão **Editar**, no quadro do projeto, abre a mesma janela para mudar qualquer campo.
+➡️ Depois, **Editar**, na engrenagem **Ações do projeto**, no topo do quadro do projeto, abre a mesma janela para mudar qualquer campo.
 
 > **[DUVIDAS]**
 >
@@ -66,8 +66,12 @@ No atendimento, o painel do contato tem a seção **Projetos**, com o botão **N
 >
 > **O campo Modelo não aparece na janela Novo projeto.** O campo **Modelo** só aparece quando a empresa tem pelo menos um modelo de projeto. Crie o modelo no menu **Projetos  ›  Modelos**.
 >
+> **Escolhi o modelo e o Responsável do projeto veio preenchido. Por quê?** O modelo de projeto tem um **Responsável padrão**: ao escolher o modelo, o campo **Responsável** já vem com ele.
+>
 > **O prazo das tarefas do projeto conta de quando?** Do dia em que o projeto é criado: uma tarefa de 7 dias num projeto criado em 31/10 vence em 07/11.
 >
 > **Quando os anexos do projeto são enviados?** Ao clicar em **Salvar**. Até lá, a janela do projeto só lista os arquivos escolhidos em **Anexos**.
 >
 > **Criei o projeto e não me coloquei na Equipe. Vou conseguir ver o projeto?** Sim. Quem cria o projeto e o **Responsável** entram na **Equipe** sozinhos.
+>
+> **A situação que eu queria não aparece no campo Situação do projeto.** O campo mostra as situações dos projetos da empresa. A gestão cria uma situação nova no botão **Situações**, no menu **Projetos**, e ela passa a aparecer no campo.

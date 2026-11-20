@@ -16,7 +16,7 @@ A mesma chave serve aos dois recursos que usam o Asaas, se estiverem disponívei
 >
 > ➡️ No Asaas, gere a chave de API em **Integrações → Chaves de API**.
 >
-> ➡️ Na plataforma, acesse o menu **Configurações  ›  Opções**, cole a chave em **Token do Asaas da empresa (links de pagamento do PDV)** e clique em **Salvar**.
+> ➡️ Na plataforma, acesse o menu **Configurações  ›  Opções  ›  Vendas**, seção **PDV**, cole a chave em **Token do Asaas da empresa (links de pagamento do PDV)** e clique em **Salvar**.
 >
 > ➡️ Copie o endereço do campo **Aviso do Asaas para o PDV (webhook)** e cadastre nos webhooks do Asaas.
 
@@ -44,7 +44,7 @@ A mesma chave serve aos dois recursos que usam o Asaas, se estiverem disponívei
 
 ## Como integrar o Asaas à nossa plataforma
 
-Acesse o menu **Configurações  ›  Opções**
+Acesse o menu **Configurações  ›  Opções  ›  Vendas**, seção **PDV**.
 
 🔘 **Token do Asaas da empresa (links de pagamento do PDV):** cole a chave e clique em **Salvar**. O botão ao lado do campo mostra ou esconde o token.
 

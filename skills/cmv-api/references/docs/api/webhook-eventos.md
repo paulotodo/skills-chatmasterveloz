@@ -12,7 +12,7 @@ São quatro avisos independentes, cada um com o seu próprio endereço — você
 
 ## Onde ligar
 
-Acesse o menu **Configurações  ›  Opções** e localize a seção **Webhooks | Eventos**. Lá existe um campo para cada tipo:
+Acesse o menu **Configurações  ›  Opções  ›  Integrações e segurança**, seção **Webhooks e integrações**. Lá existe um campo para cada tipo:
 
 ◽ **Eventos de Mensagens Internas** — quando alguém escreve uma mensagem interna num atendimento.
 
@@ -31,3 +31,5 @@ Acesse o menu **Configurações  ›  Opções** e localize a seção **Webhooks
 > **Como o meu sistema distingue um aviso do outro?** Pelo campo `acao`, dentro de `body`. Cada tipo traz um valor próprio, e é a primeira coisa que a sua integração deve ler.
 >
 > **Posso mandar os quatro para o mesmo endereço?** Pode — basta repetir a mesma URL nos quatro campos. O `acao` continua separando os avisos do outro lado.
+>
+> **A mensagem interna também chega ao webhook da Conexão?** Chega. A mensagem interna e as linhas do Registro do atendimento são avisadas ao webhook da Conexão e ao do Setor como `comunicacao_interna`, com os dados em `comunicacaoInterna`: `id`, `wid`, `texto`, `tipo` (`nota` para a mensagem interna, `registro` para a linha do Registro), `autor` e `criadaEm`.

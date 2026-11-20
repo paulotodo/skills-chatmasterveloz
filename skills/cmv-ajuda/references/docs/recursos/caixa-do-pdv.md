@@ -20,7 +20,7 @@
 
 ## Vídeo Tutorial
 
-[Vídeo Voomly — id yzWIyZkM0Z-B3ARM12wzavx5nGoYKGzHmsd8CT6pQi0TRPAFL, tipo v]  
+[Vídeo Voomly — id Si7HCJ17NG9_anhiSWxBzo8QcGV6aySKt9QnDX9gSyty5V8Zc, tipo v]  
 
 ## O caixa aberto
 

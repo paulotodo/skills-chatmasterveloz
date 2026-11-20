@@ -20,7 +20,7 @@ Ideal para:
 >
 > #### Resumo Prático
 >
-> ➡️ Acesse o menu **Configurações  ›  Opções** e escolha **Sim** em **Exibir o Relatório do Rodízio (botão Ver relatório, na tela Rodízios)?**
+> ➡️ Acesse o menu **Configurações  ›  Opções  ›  Atendimento** e, na seção **Distribuição e rodízio**, escolha **Sim** em **Exibir o Relatório do Rodízio (botão Ver relatório, na tela Rodízios)?**
 >
 > ➡️ Acesse o menu **Rodízios** e clique em **Ver relatório**, no topo da tela.
 >
@@ -28,7 +28,7 @@ Ideal para:
 
 ## Como ligar o relatório
 
-O **Relatório do Rodízio** fica escondido até um administrador ligar. Acesse o menu **Configurações  ›  Opções** e, em **Exibir o Relatório do Rodízio (botão Ver relatório, na tela Rodízios)?**, escolha **Sim**. A tela do menu **Rodízios** ganha o botão **Ver relatório** no topo, que abre a **Distribuição do rodízio**.
+O **Relatório do Rodízio** fica escondido até um administrador ligar. Acesse o menu **Configurações  ›  Opções  ›  Atendimento** e, na seção **Distribuição e rodízio**, em **Exibir o Relatório do Rodízio (botão Ver relatório, na tela Rodízios)?**, escolha **Sim**. A tela do menu **Rodízios** ganha o botão **Ver relatório** no topo, que abre a **Distribuição do rodízio**.
 
 Com a opção em **Não**, o botão **Ver relatório** some da tela do menu **Rodízios**.
 
@@ -52,7 +52,7 @@ Para cada nó de rodízio, uma tabela traz **Operador**, **Atendimentos**, **Par
 >
 > #### Dúvidas Comuns
 >
-> **Não encontro o Relatório do Rodízio no menu.** O relatório não tem item próprio no menu: ele abre pelo botão **Ver relatório**, no topo da tela do menu **Rodízios**. O botão fica escondido até um administrador escolher **Sim** em **Exibir o Relatório do Rodízio (botão Ver relatório, na tela Rodízios)?**, no menu **Configurações  ›  Opções**. Atendentes não veem o menu **Rodízios**.
+> **Não encontro o Relatório do Rodízio no menu.** O relatório não tem item próprio no menu: ele abre pelo botão **Ver relatório**, no topo da tela do menu **Rodízios**. O botão fica escondido até um administrador escolher **Sim** em **Exibir o Relatório do Rodízio (botão Ver relatório, na tela Rodízios)?**, no menu **Configurações  ›  Opções  ›  Atendimento**, seção **Distribuição e rodízio**. Atendentes não veem o menu **Rodízios**.
 >
 > **O Relatório do Rodízio está vazio.** A mensagem *"Nenhum atendimento distribuído pelo rodízio no período."* aparece quando nenhum atendimento passou por um nó de rodízio nas datas escolhidas. Amplie o período em **De** e **Até**, ou confira se o fluxo usa o bloco **Rodízio**.
 >

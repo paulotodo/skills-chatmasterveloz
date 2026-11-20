@@ -3,8 +3,8 @@
 Referência para agentes que escrevem CSS e JS de customização do painel `app.chatmasterveloz.com`.
 
 - **Fonte:** <https://app.chatmasterveloz.com/css-docs>, que lê tudo de <https://app.chatmasterveloz.com/catalogo-css/pt.json>
-- **Versão do catálogo:** WS-29.930.0
-- **Conteúdo:** 145 páginas · 331 modais · 1620 âncoras específicas · 68 classes sem prefixo · 341 atributos `data-*` · Chat Externo: 95 âncoras e 29 atributos
+- **Versão do catálogo:** a que aparece no cabeçalho de cada arquivo gerado (`versão WS-…`); muda a cada atualização da plataforma
+- **Conteúdo:** páginas, modais, âncoras específicas, classes sem prefixo, atributos `data-*` e o Chat Externo; as contagens atuais estão no `01-fundamentos.md`
 - **Cópia bruta do catálogo:** `catalogo-css.pt.json`
 - **Para atualizar:** `python3 _gerar.py` baixa a versão atual e regenera os arquivos numerados (menos este e o `02`).
 

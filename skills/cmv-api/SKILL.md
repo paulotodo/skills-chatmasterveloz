@@ -16,8 +16,8 @@ Todo fato sobre o produto vem da cópia da Central de Ajuda em `references/docs/
 | `references/mapa-da-api.md` | Tabela de decisão: operação × tipo de conexão → artigo; webhooks; de onde vem cada identificador. Comece por aqui. |
 | `references/moldes-de-codigo.md` | A mesma chamada em cURL, Node, Python, PHP e n8n, com token em variável de ambiente e tratamento de erro; variações (GET, multipart, Token da Empresa) e a receita de receber um aviso de webhook e responder (n8n ou receptor próprio), com a tabela sintoma → causa → artigo. |
 | `scripts/buscar_endpoint.py` | Busca endpoints por palavra, método e tipo de conexão. Existe porque o índice de endpoints não mostra o selo da conexão; o script lê o selo em cada artigo. |
-| `references/docs/INDICE-api-endpoints.md` | Os 233 endpoints, uma linha por artigo, com método e endereço. |
-| `references/docs/INDICE-api.md` | Os 273 artigos de API por assunto, incluindo webhooks e conceitos. |
+| `references/docs/INDICE-api-endpoints.md` | Os 309 endpoints, uma linha por artigo, com método e endereço. |
+| `references/docs/INDICE-api.md` | Os 357 artigos de API por assunto, incluindo webhooks e conceitos. |
 | `references/docs/api/` e `references/docs/recursos/` | Os artigos. As páginas de seção (`api/api-mensagem.md`, `api/api-midias.md`, `api/api-botoes.md`…) listam os artigos com o selo de conexão ao lado. |
 
 Daqui em diante, caminhos escritos como `api/...` e `recursos/...` ficam dentro de `references/docs/`.
@@ -41,10 +41,10 @@ O tipo de conexão decide o artigo. Enviar uma imagem, por exemplo, tem um ender
 
 > "A conexão por onde isso vai sair é WhatsApp por QR Code, WhatsApp API Oficial da Meta, Instagram, Messenger ou Web Chat? Se for QR Code, é a conexão Básica ou a Pro? Se for a API Oficial, é direta ou pelo Hub?"
 
-- Pule a pergunta quando a operação tiver selo **Todas** (tickets, contatos, tags, CRM, agendamento: seção 5 do mapa) ou quando o artigo valer para as duas de QR Code (texto e arquivo anexado têm selo "Básica, Pro").
+- Pule a pergunta quando a operação tiver selo **Todas** (tickets, contatos, tags, CRM, produtos, agendamento, Quadro de Atendimentos, Reservas: seção 5 do mapa) ou quando o artigo valer para as duas de QR Code (texto e arquivo anexado têm selo "Básica, Pro").
 - A documentação não descreve como ver na tela se uma conexão de QR Code é Básica ou Pro. Se a pessoa não souber, diga isso, entregue as duas versões em blocos separados e rotulados, e sugira confirmar com o Suporte. Nunca funda as duas num pedido só.
 - Na Oficial, pergunte também se a conversa está dentro da janela de atendimento: texto, mídia, lista e botões exigem a janela aberta; fora dela o caminho é template. Exceção: quando a integração responde a uma mensagem que acabou de chegar (um webhook que dispara a resposta), não pergunte. A regra do artigo é de 24 horas contadas da última mensagem do cliente (`api/api-janela-de-atendimento.md`), então a janela está aberta.
-- Na Oficial pelo **Hub**, só existem três artigos, todos de template (seção 4 do mapa). Para texto, mídia, lista e botões pelo Hub não há artigo: diga que não está documentado se as chamadas da Oficial direta valem. Em template, direta ou Hub muda o pedido inteiro: a direta usa `/api/messages/sendMetaCustom`, com `template` em componentes (`header`, `body`, `button`); pelo Hub, o template com variável usa `/api/messages/sendOfficial`, com uma entrada por variável (`type`, `parameter_name`, `text`), em `api/api-oficial-template-com-variavel-hub.md`. Se a pessoa não disser qual das duas é, entregue o da Oficial direta e avise, em uma linha, que pelo Hub o endereço e o payload são outros.
+- Na Oficial pelo **Hub**, só existe um artigo: o de template sem variável (seção 4 do mapa). Para texto, mídia, lista, botões e template com variáveis pelo Hub não há artigo: diga que não está documentado se as chamadas da Oficial direta valem. Em template, direta ou Hub muda o pedido inteiro: a direta usa `/api/messages/sendMetaCustom`, com `template` em componentes (`header`, `body`, `button`); pelo Hub, o template sem variável usa `/api/messages/sendOfficial`, só com `number`, `name` e `language` (`api/api-oficial-template-sem-variavel-hub.md`). Se a pessoa não disser qual das duas é, entregue o da Oficial direta e avise, em uma linha, que pelo Hub o endereço e o payload são outros.
 - Para CRM, a pergunta é outra: CRM novo (múltiplos funis) ou antigo (funil único). Os artigos são diferentes (seção 5 do mapa).
 
 ### 3. Ache o artigo
@@ -67,7 +67,7 @@ grep -rn -i 'ERR_' references/docs/api/                          # frases e cód
 
 Os artigos são curtos. Confira, nesta ordem:
 
-- a linha `**API:**` (o selo): tem de bater com a conexão da pessoa. Valores: `Básica`, `Pro`, `Oficial`, `Todas`, `Empresa`, `WebChat`, `Instagram`, `Facebook`, `Chat Externo`, `Gupshup`, `RCS`. Os de Hub trazem `Oficial` no selo e "(Hub)" no título;
+- a linha `**API:**` (o selo): tem de bater com a conexão da pessoa. Valores: `Básica`, `Pro`, `Oficial`, `Oficial Hub`, `Todas`, `Empresa`, `WebChat`, `Instagram`, `Facebook`, `Chat Externo`, `Gupshup`, `RCS`. O de Hub traz `Oficial Hub` no selo e "(Hub)" no título;
 - avisos no topo, como "Esta chamada usa o Token da Empresa";
 - `Endpoint`, `Método` e `Payload`, e a explicação de **cada** campo: o que é obrigatório, o formato e, principalmente, o efeito de `openTicket` e `queueId`, que muda de artigo para artigo;
 - as linhas com ⚠️ e ◽ depois do payload: é ali que estão os limites, os erros nomeados e os efeitos colaterais;
@@ -141,7 +141,6 @@ Outras credenciais que aparecem na conversa e não são token de API: o **Token 
 
 - **"Transferir ticket" tem dois artigos com efeitos opostos.** Transferir **um** atendimento é `api/api-atualizar-ticket.md` (muda `queueId` e `userId`). `api/api-transferir-tickets-para-um-setor.md` move **todos** os atendimentos da conexão, inclusive encerrados.
 - **Tags: adicionar × definir × apagar.** `api/api-adicionar-tags-ao-ticket.md` soma; `api/api-atualizar-tags-do-ticket.md` substitui todas; `api/api-deletar-tag.md` apaga a tag da empresa inteira.
-- **Obter ticket usa o endereço da atualização:** qualquer campo além do `ticketId` é gravado.
 - **`openTicket` não significa a mesma coisa em todo lugar.** Em vários artigos `0` é "não abre ticket"; no de template com variáveis da Oficial, `0` encerra o ticket; em lista e botões da Oficial, sem `openTicket` o atendimento fica como estava. Explique o efeito segundo o artigo da chamada.
 - **Na Oficial, `ticketId` não substitui `number`.** O `number` continua obrigatório.
 - **Nos botões da Pro, sucesso na resposta não é entrega.** Os artigos de botões da Pro avisam que a recusa do envio vira nota interna e a resposta ainda volta como sucesso. Os outros artigos não dizem isso: não estenda o aviso a outras chamadas.
@@ -165,7 +164,7 @@ Escolha o webhook pelo alcance (`api/qual-webhook-usar.md`), diga onde colar o e
 ## Exemplos de pedido → entrega
 
 **"Preciso que meu sistema de pedidos mande um WhatsApp pro cliente quando o pedido for aprovado."**
-Pergunte o tipo de conexão. Se for QR Code: `api/api-mensagem-de-texto.md` (vale para Básica e Pro). Se for Oficial: explique a janela de atendimento; como o cliente pode não ter falado nas últimas 24 horas, o caminho seguro é template (`api/api-oficial-mensagem-template.md`; pelo Hub, os artigos de template com "(Hub)" no título). Entregue: (1) onde definir o token; (2) como guardar em `CMV_TOKEN`; (3) o cURL com o payload do artigo e os valores a trocar; (4) o comando do teste com Status da Conexão; (5) a fonte.
+Pergunte o tipo de conexão. Se for QR Code: `api/api-mensagem-de-texto.md` (vale para Básica e Pro). Se for Oficial: explique a janela de atendimento; como o cliente pode não ter falado nas últimas 24 horas, o caminho seguro é template (`api/api-oficial-mensagem-template.md`; pelo Hub, só o template sem variável tem artigo). Entregue: (1) onde definir o token; (2) como guardar em `CMV_TOKEN`; (3) o cURL com o payload do artigo e os valores a trocar; (4) o comando do teste com Status da Conexão; (5) a fonte.
 
 **"Como transfiro um atendimento pro setor Financeiro pela API?"**
 Selo Todas: não precisa perguntar a conexão. Use `api/api-atualizar-ticket.md` com `ticketId` e `queueId`, e avise que existe uma chamada de nome parecido que move todos os tickets da conexão e não é a que ela quer. Diga de onde vêm o `ticketId` (número entre parênteses no cabeçalho da conversa; se é um sistema que precisa achá-lo sozinho, o `chamadoId` do webhook ou a API Listar Tickets do Contato) e o `queueId` (a chamada que lista os Setores).

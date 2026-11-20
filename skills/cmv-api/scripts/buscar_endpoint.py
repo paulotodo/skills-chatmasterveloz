@@ -67,7 +67,7 @@ def filtrar(itens, palavras=(), metodo=None, conexao=None, exato=False):
 
 def autoteste():
     itens = carregar()
-    assert len(itens) == 233, f"esperava 233 endpoints no índice, achei {len(itens)}"
+    assert len(itens) == 309, f"esperava 309 endpoints no índice, achei {len(itens)}"
     faltando = [it["artigo"] for it in itens if not (DOCS / it["artigo"]).exists()]
     assert not faltando, f"artigos do índice que não existem: {faltando}"
     sem_api = [it["artigo"] for it in itens if it["api"] == "?"]

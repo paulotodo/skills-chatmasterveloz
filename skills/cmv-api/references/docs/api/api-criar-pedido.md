@@ -99,7 +99,7 @@ Bearer {seutokenaqui}
 
 ➡️ **“cepEntrega”:** CEP da entrega — por exemplo, `80010-000`.
 
-◽ É o CEP que as faixas de CEP do frete da empresa usam, as mesmas de **Frete por faixa de CEP**, no menu **Configurações  ›  Opções**.
+◽ É o CEP que as faixas de CEP do frete da empresa usam, as mesmas de **Frete por faixa de CEP**, no menu **Configurações  ›  Opções  ›  Vendas**, seção **PDV**.
 
 ➡️ **“agendadoPara”:** data e horário combinados com o cliente, no formato ISO 8601 — por exemplo, `2026-11-05T15:00:00-03:00` (o `-03:00` é o fuso de Brasília).
 

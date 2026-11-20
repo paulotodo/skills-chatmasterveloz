@@ -42,6 +42,10 @@ Bearer {seutokenaqui}
 
 ◽ As desativadas também vêm, com `ativa` em `false`.
 
+◽ O `setorId` é o setor de produção que prepara os produtos da categoria. Vem `null` na categoria sem setor — na subcategoria, vale então o da categoria de cima.
+
+◽ A `imagem` é o endereço da imagem da categoria, a que aparece no Cardápio e na Loja. Vem `null` na categoria sem imagem.
+
 #### Utilize o código em requisições HTTPS com ferramentas como cURL ou bibliotecas de integração.
 
 ```php

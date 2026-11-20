@@ -20,7 +20,7 @@ Esse atendente passa a ser o "Proprietário do Lead", tendo com isso:
 >
 > #### Resumo Prático
 >
-> ➡️ Habilite **Carteira de Cliente** em **Configurações**.
+> ➡️ Habilite **Carteira de Clientes** no menu **Configurações  ›  Opções  ›  Contatos**, seção **Carteiras de Clientes**.
 >
 > ➡️ Crie um **Setor** exclusivo para a carteira do atendente.
 >
@@ -32,7 +32,7 @@ Esse atendente passa a ser o "Proprietário do Lead", tendo com isso:
 
 ### ⚡ Passo 01
 
-Habilite a **Carteira de Clientes** no menu → Configurações
+Habilite a **Carteira de Clientes** no menu **Configurações  ›  Opções  ›  Contatos**, seção **Carteiras de Clientes**.
 
 Defina também quem pode **alterar a Propriedade do Lead**: se somente Admins ou se o perfil de Usuário também pode alterar.
 

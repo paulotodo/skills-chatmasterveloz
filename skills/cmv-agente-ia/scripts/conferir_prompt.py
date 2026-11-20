@@ -13,18 +13,18 @@ Dois modos, porque a skill permite entregar um rascunho com lacunas:
   --final   qualquer marcador reprova.
 
 Ordem de uso: os marcadores de dados do negócio são preenchidos antes de colar;
-o prompt pode ir ao painel levando só marcadores de ID de comando (e o do comando
-de agenda), que se trocam lá, pela janela Comandos da IA; o --final roda na
-versão definitiva, depois que os IDs entraram, antes dos testes.
+o prompt pode ir ao painel levando só os marcadores de comando, que se trocam lá,
+pela janela COMANDOS DA IA; o --final roda na versão definitiva, depois do
+INSERIR NO PROMPT, antes dos testes.
 
 O que confere nos dois modos (referência: references/docs/recursos/comandos-gpt-assistant.md):
-  - cada comando #{...} tem a mesma forma dos blocos de código do artigo
+  - cada comando #{...} tem a mesma forma dos blocos do artigo
     (#{ colado, aspas retas, pares "chave": "valor") e usa chaves documentadas;
   - os IDs são números entre aspas, como no artigo;
   - não há variável {{...}}, que não está documentada para o campo Prompt;
-  - existe no texto a regra de manter o código (dica do artigo de comandos).
+  - existe no texto a regra dos códigos (precaução desta skill).
 
-A documentação só mostra a forma #{"chave": "544"}. Ela não diz que o código é
+A documentação só mostra a forma #{"chave": "10"}. Ela não diz que o código é
 JSON nem o que acontece com outras formas (espaço depois do #, aspas curvas, ID
 sem aspas). As verificações de forma são precaução desta skill: o script acusa o
 que difere do artigo, não o que "não funciona".
@@ -35,13 +35,13 @@ import json
 import re
 import sys
 
-# Combinações de chaves que o artigo "Comandos GPT Assistant" mostra.
+# Combinações de chaves que o artigo "Comandos GPT Assistant" mostra. Os blocos
+# "oportunidade" e "agenda" o artigo cita sem mostrar a forma: caem no aviso.
 DOCUMENTADAS = {
-    ("queueId",): "Transferir Fila",
-    ("queueId", "userId"): "Transferir para Operador",
-    ("tagId",): "Atribuir Tag",
-    ("removeTag",): "Remover Tag",
-    ("closeTicket",): "Encerrar Ticket",
+    ("queueId",): "Transferir para um setor",
+    ("queueId", "userId"): "Transferir para um operador",
+    ("tagId",): "Marcar com uma tag",
+    ("closeTicket",): "Encerrar o atendimento",
 }
 EFEITO = "A documentação não diz o efeito; corrija para ficar igual ao artigo."
 ASPAS_CURVAS = "“”„‟″‶‘’′"
@@ -75,19 +75,20 @@ def conferir(texto, final=False):
             # para a forma ser conferida mesmo antes de o ID existir.
             dados = json.loads(MARCADOR.sub("0", corpo))
         except ValueError:
-            erros.append(f"{onde} -> difere da forma mostrada no artigo de comandos, #{{\"chave\": \"544\"}}. {EFEITO}")
+            erros.append(f"{onde} -> difere da forma mostrada no artigo de comandos, #{{\"chave\": \"10\"}}. {EFEITO}")
             continue
         chaves = tuple(sorted(dados))
         nome = DOCUMENTADAS.get(chaves)
         if nome is None:
             avisos.append(
                 f"{onde} -> chave(s) {', '.join(chaves) or '(nenhuma)'} fora do artigo Comandos GPT Assistant. "
-                "Se veio da janela Comandos da IA do painel, mantenha como o painel inseriu; se foi digitado, remova."
+                "Se veio da janela COMANDOS DA IA do painel, mantenha como o painel inseriu; se foi digitado, remova "
+                "e insira o comando pela janela."
             )
             continue
         for chave, valor in dados.items():
             if not (isinstance(valor, str) and valor.isdigit()):
-                erros.append(f"{onde} -> o valor de {chave} difere do artigo de comandos, que mostra um número entre aspas, como \"544\". {EFEITO}")
+                erros.append(f"{onde} -> o valor de {chave} difere do artigo de comandos, que mostra um número entre aspas, como \"10\". {EFEITO}")
         if chaves == ("closeTicket",) and dados["closeTicket"] != "1":
             avisos.append(f"{onde} -> o artigo mostra closeTicket com o valor \"1\".")
         if com_marcador:
@@ -111,8 +112,8 @@ def conferir(texto, final=False):
         )
     if COMANDO.search(texto) and not re.search(r"c[óo]digo", texto, re.I):
         avisos.append(
-            "o prompt tem comandos, mas não achei a regra de manter o código no texto enviado "
-            "(dica do artigo Comandos GPT Assistant)."
+            "o prompt tem comandos, mas não achei a regra dos códigos (precaução desta skill: "
+            "incluir o código só na situação da instrução, sem alterar nenhum caractere)."
         )
     return erros, pendencias, avisos, resumo
 
@@ -134,8 +135,8 @@ def relatorio(texto, final=False):
     elif pendencias:
         print(
             f"\nRascunho conferido: {len(pendencias)} pendência(s) a preencher. Preencha os dados do negócio antes de colar no painel; "
-            "marcador de ID de comando pode ir ao painel e ser trocado pela janela Comandos da IA. "
-            "Rode com --final na versão definitiva, depois que os IDs entrarem, antes dos testes."
+            "marcador de comando pode ir ao painel e ser trocado pela janela COMANDOS DA IA. "
+            "Rode com --final na versão definitiva, depois do INSERIR NO PROMPT, antes dos testes."
         )
     elif not final:
         print("\nSem erros e sem pendências: o resultado é o mesmo do modo --final. Falta o teste: o script não prova que os IDs existem.")
@@ -148,13 +149,13 @@ def autoteste():
     bom = (
         'REGRA: mantenha o código. Diga: Transferindo para o #{"queueId": "544"} Suporte.\n'
         'Diga: Transferindo para o #{"queueId": "544", "userId":"3"} João.\n'
-        'Diga: temos #{"tagId": "71"} Notebook. Diga: foi #{"removeTag": "71"} cancelada.\n'
+        'Diga: temos #{"tagId": "71"} Notebook.\n'
         'Diga: encerrando #{"closeTicket": "1"} agora.\n'
         'Os trechos que começam com #{ e terminam com } são códigos.\n'
     )
     for final in (False, True):
         erros, pendencias, avisos, resumo = conferir(bom, final)
-        assert not erros and not pendencias and not avisos and len(resumo) == 5, (final, erros, pendencias, avisos)
+        assert not erros and not pendencias and not avisos and len(resumo) == 4, (final, erros, pendencias, avisos)
 
     # Rascunho: marcador é pendência, e a forma do comando com marcador é conferida.
     rascunho = 'código. Você é [[NOME_DA_IA]]. Diga: indo para o #{"queueId": "[[ID_DO_SETOR]]"} setor.'
@@ -181,6 +182,7 @@ def autoteste():
 
     casos_de_aviso = {
         "chave desconhecida": 'código: #{"agenda": "1"}',
+        "removeTag, que saiu do artigo": 'código: #{"removeTag": "71"}',
         "variável": "Olá, {{name}}.",
         "sem regra do código": 'Diga: #{"tagId": "71"} ok.',
         "closeTicket diferente de 1": 'código: #{"closeTicket": "2"}',

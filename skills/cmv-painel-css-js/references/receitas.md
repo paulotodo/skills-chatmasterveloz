@@ -1,6 +1,6 @@
 # Receitas prontas de CSS e JS do painel
 
-Todos os seletores, atributos e variáveis destas receitas foram conferidos com `scripts/conferir_seletores.py` contra o catálogo WS-29.930.0 (`references/docs/`): os nomes existem, e os valores de atributo estão entre os que o `06` e o `12` listam (o script deixa um aviso só para `data-menu="contacts"`, porque o catálogo não lista os valores de `data-menu`). O que **não** foi feito: testar o resultado visual num painel de verdade. Por isso, ao entregar uma receita, peça para a pessoa olhar o resultado depois de salvar e avisar se algo não mudou (o motivo mais comum é faltar `!important` para vencer o Material-UI).
+Todos os seletores, atributos e variáveis destas receitas foram conferidos com `scripts/conferir_seletores.py` contra o catálogo WS-30.141.0 (`references/docs/`): os nomes existem, e os valores de atributo estão entre os que o `06` e o `12` listam (o script deixa um aviso só para `data-menu="contacts"`, porque o catálogo não lista os valores de `data-menu`). O que **não** foi feito: testar o resultado visual num painel de verdade. Por isso, ao entregar uma receita, peça para a pessoa olhar o resultado depois de salvar e avisar se algo não mudou (o motivo mais comum é faltar `!important` para vencer o Material-UI).
 
 Cores, tamanhos e textos são exemplos: troque pelos da pessoa. Se mudar ou acrescentar um seletor, rode o script de novo.
 
@@ -468,7 +468,7 @@ O seletor não tem escopo de tela de propósito: o `06` cita o valor `resolve` s
 **Pedido típico:** "quando chegar ligação, quero o título da aba piscando o número."
 **Campo:** JS pós-login. **Fonte:** `05-eventos-js.md`, `06-atributos-data.md` (`data-sip-call`).
 
-`sip:state` é o único evento do catálogo. Antes de escrever JS, veja se CSS resolve: o `<body>` já traz `data-sip-call` e `data-sip-registration` (receita 13).
+`sip:state` é um dos dois eventos do catálogo (o outro, `atendimentos:buscado`, avisa o fim de uma busca na Pesquisar). Antes de escrever JS, veja se CSS resolve: o `<body>` já traz `data-sip-call` e `data-sip-registration` (receita 13).
 
 ```js
 /* CMV-INICIO título da aba durante a chamada */

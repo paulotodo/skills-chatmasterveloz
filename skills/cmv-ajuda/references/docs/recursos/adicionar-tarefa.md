@@ -52,6 +52,10 @@ Acesse o menu **Tarefas**, clique em **+ Nova Tarefa** e preencha o formulário:
 
 🔘 **Repetir:** a frequência com que a tarefa se repete.
 
+🔘 **Avisar o cliente pelo WhatsApp:** liga as mensagens ao cliente da tarefa, uma quando a tarefa é criada e um lembrete antes do horário, para um contato cadastrado ou um contato novo, só com nome e WhatsApp. Diferente do **Notificar antes (minutos)**, que avisa a equipe, este aviso vai para o cliente. Sem **Horários**, só o aviso ao criar fica disponível, e a tela explica: *"O aviso antes do horário precisa da data e da hora de início."* Os textos das mensagens ficam no menu **Tarefas**, no botão **Avisos ao cliente**.
+
+⚠️ O aviso ao cliente vai só para um contato de WhatsApp. A busca do cliente lista também os contatos do Messenger e do Instagram, mas, com um deles, a tarefa é criada e o aviso não é enviado: aberta em **Editar**, a tarefa mostra o motivo, como *"Não foi enviado: o cliente é um contato do Messenger e não tem número de WhatsApp — escolha na tarefa um contato de WhatsApp"*. Ao criar, a tela confirma só *"Tarefa criada com sucesso!"*.
+
 🔘 **Anexos:** o botão **Anexar arquivo** só funciona depois que a tarefa é salva. Antes disso, a tela avisa *"Salve o registro para poder anexar arquivos."*
 
 🔲 Para finalizar, clique em **Criar Tarefa**.
@@ -77,6 +81,10 @@ Clicar no aviso abre a tarefa na janela **Editar Tarefa**, e a notificação fic
 > **Dá para dividir uma tarefa entre duas pessoas?** Sim: escolha uma em **Atribuir para** e as outras em **Outros responsáveis**. Todas recebem o aviso, veem a tarefa na lista e acompanham os comentários; a agenda fica com quem está em **Atribuir para**.
 >
 > **A pessoa precisa recarregar a tela para ver a tarefa que atribuí a ela?** Não. O aviso *📋 Nova tarefa para você* chega na hora, em qualquer tela, e clicar nele abre a tarefa na janela **Editar Tarefa**.
+>
+> **Como aviso o cliente pelo WhatsApp quando crio a tarefa?** Na **Nova Tarefa**, ligue **Avisar o cliente pelo WhatsApp**, escolha o cliente e marque **Avisar ao criar a tarefa**. Para o lembrete, preencha os **Horários** e marque **Avisar antes do horário**.
+>
+> **Escolhi um contato do Instagram ou do Messenger na tarefa. O cliente recebe o aviso?** Não. O aviso das tarefas vai só para um contato de WhatsApp. A tarefa é criada e, aberta em **Editar**, mostra *Não foi enviado* com o motivo. Troque o cliente por um contato de WhatsApp e clique em **Atualizar** com **Avisar ao salvar (se ainda não avisou)** marcado.
 >
 > **Posso editar a tarefa depois de criada?** Sim, basta clicar no ícone **Editar** do card na lista de tarefas.
 >

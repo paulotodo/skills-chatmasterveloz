@@ -31,11 +31,15 @@ cp -r skills/cmv-* ~/.claude/skills/
 
 ### Diga ao Claude que você usa o Chat Master Veloz
 
-Nos modelos menores (Haiku e, às vezes, Sonnet), um pedido que não cita o nome da plataforma pode ser respondido sem carregar skill nenhuma. Uma linha de contexto resolve quase tudo: no teste cego, o Haiku foi de 78 para 83 acertos em 84 com ela, sem passar a acionar em pedidos sobre outras ferramentas.
+Nos modelos menores (Haiku e, às vezes, Sonnet), um pedido que não cita o nome da plataforma pode ser respondido sem carregar skill nenhuma. Um parágrafo de contexto resolve a maior parte:
 
-- **Como plugin:** já vem pronto. O plugin tem um gancho de início de sessão (`hooks/hooks.json`) que entrega esta linha, guardada em `hooks/contexto.json`: "Esta empresa usa a plataforma Chat Master Veloz (CMV) para atender clientes pelo WhatsApp e outros canais."
-- **Skills copiadas para `~/.claude/skills/` ou `.claude/skills/`:** ponha essa mesma linha no `CLAUDE.md` do projeto ou em `~/.claude/CLAUDE.md`.
-- **claude.ai:** ponha a linha nas instruções do projeto ou nas suas preferências de perfil.
+> Esta empresa usa a plataforma Chat Master Veloz (CMV) para atender clientes pelo WhatsApp e outros canais. Pedidos sobre atendimento, painel, tickets, fluxos, mensagens, IA ou integrações que não citem outra ferramenta são sobre o CMV: carregue com a ferramenta Skill a skill cmv-* que trata do assunto antes de responder, mesmo que o pedido não cite a plataforma. Pedido que cita outra ferramenta ou plataforma (ManyChat, Typebot, Zapier, Chatwoot, o aplicativo WhatsApp Business e semelhantes) não é do CMV: responda sem as skills cmv-*.
+
+- **Como plugin:** já vem pronto. O plugin tem um gancho de início de sessão (`hooks/hooks.json`) que entrega esse texto, guardado em `hooks/contexto.json`.
+- **Skills copiadas para `~/.claude/skills/` ou `.claude/skills/`:** ponha o texto no `CLAUDE.md` do projeto ou em `~/.claude/CLAUDE.md`.
+- **claude.ai:** ponha o texto nas instruções do projeto ou nas suas preferências de perfil.
+
+O que foi medido com esse texto, no teste cego de 84 pedidos: Haiku 82, Sonnet 83, Opus 84, e nenhum dos três carregou skill em pedido sobre outra ferramenta (12 de 12). Sem contexto nenhum o Haiku faz 78. Numa tarefa de API que não cita o produto, o Haiku passou a carregar a skill em 3 de 3 execuções (antes, nenhuma). O custo: no Haiku aumentam os casos em que ele carrega a skill certa e mais uma irmã junto. A versão sem a última frase (a exceção para outras ferramentas) não serve: com ela o Haiku passou a carregar skills em pedidos sobre ManyChat, Zapier e o aplicativo WhatsApp Business.
 
 ## Como atualizar quando a plataforma mudar
 
@@ -64,7 +68,7 @@ As descrições (o texto que faz o Claude escolher a skill) foram otimizadas e m
 | Sonnet 5.5 | 81/84 | 82/84 |
 | Haiku 5.5 | 74/84 | 78/84 |
 
-Com a linha de contexto da seção "Diga ao Claude que você usa o Chat Master Veloz", o Haiku chega a 83/84 (instruções do projeto) e 82/84 (gancho do plugin); pelo plugin o Opus dá 84/84. Nos 240 pedidos das medições anteriores (`roteamento/antigos.json`), as descrições atuais dão 238 no Haiku e 239 no Opus.
+Com o texto de contexto da seção "Diga ao Claude que você usa o Chat Master Veloz", o Haiku chega a 82/84, o Sonnet a 83/84 e o Opus a 84/84. Nos 240 pedidos das medições anteriores (`roteamento/antigos.json`), as descrições atuais dão 238 no Haiku e 239 no Opus.
 
 Em nenhuma medição uma skill foi carregada em pedido sobre outra plataforma (12 de 12 em todos os modelos). O ponto fraco que resta é o Haiku responder direto, sem carregar skill, em parte dos pedidos que não citam o Chat Master Veloz; o número dele oscila uns 2 pedidos entre medições. As descrições anteriores e as novas estão em `descricoes/`, para comparar ou voltar atrás com `ferramenta/candidata.py <arquivo> --aplicar`.
 

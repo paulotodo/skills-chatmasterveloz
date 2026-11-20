@@ -68,11 +68,15 @@ Bearer {seutokenaqui}
 
 ➡️ **“tagIds”:** opcional. Lista de ids das etiquetas. Aceita `[3, 4]` e `"3,4"`.
 
+➡️ **“wonAt”:** opcional, só na oportunidade criada direto numa raia de ganho. O dia do ganho, no formato `AAAA-MM-DD`; a data vale ao meio-dia de Brasília. Fora da raia de ganho, a chamada é recusada.
+
+➡️ **“lostAt”:** opcional, só na oportunidade criada direto numa raia de perda. O dia da perda, no mesmo formato. Fora da raia de perda, a chamada é recusada.
+
 ◽ A oportunidade entra no **topo** da raia.
 
 ◽ A situação vem da raia: criada direto numa raia de ganho, a oportunidade já nasce ganha; numa raia de perda, já nasce perdida.
 
-◽ Para criar direto numa raia de perda, informe o motivo em `motivoPerdaId`: sem ele, a chamada é recusada com **400** `ERR_CRM_MOTIVO_DA_PERDA_OBRIGATORIO`.
+◽ Para criar direto numa raia de perda, informe o motivo em `motivoPerdaId`: sem ele, a chamada é recusada.
 
 ◽ A empresa vem do token, e todo id é conferido contra ela antes de gravar — funil, raia, motivo, origem e responsável.
 

@@ -30,7 +30,7 @@ Ideal para:
 
 🔘 **Adicionar aos favoritos:** a estrela aparece à direita do nome quando o mouse passa sobre o item. Clicada, ela fica marcada e o item entra na seção **Favoritos**. Item que fica dentro de um grupo do menu também pode ser marcado: abra o grupo, passe o mouse sobre o item e clique na estrela.
 
-🔘 **Favoritos:** a seção aparece no topo do menu, acima dos outros grupos, assim que o primeiro item é marcado. Os itens ficam na ordem em que foram marcados.
+🔘 **Favoritos:** a seção aparece no topo do menu, acima dos outros grupos, assim que o primeiro item é marcado. Os itens ficam na ordem em que foram marcados. Logo depois de marcado, o item novo aparece em destaque na seção, e o menu rola até ele; o destaque some em poucos segundos.
 
 🔘 **Remover dos favoritos:** clique de novo na estrela do item. Sem nenhum favorito, a seção **Favoritos** some do menu.
 

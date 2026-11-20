@@ -36,11 +36,13 @@ Clique em Adicionar
 
 **➡️ Opções de Avaliação** clique em "+ Adicionar Opção" para criar as opções de respostas à sua avaliação.
 
+➡️ Em cada opção, o campo **Fluxo após esta nota** escolhe o fluxo que começa quando o cliente responde com aquela nota. Em **Nenhum (envia a Mensagem de Avaliação da conexão)**, a nota não começa fluxo e o cliente recebe a **Mensagem de Avaliação** da conexão.
+
 ## ![imagem](https://clihelper.chatmasterveloz.com/docs-imagem/20817-avaliacao-adicionar.jpg)Definir Mensagem de pós Avaliação
 
 No menu Conexões
 
-Ao editar uma conexão, defina sua mensagem de pós avaliação no campo "**Mensagem de Avaliação**". Essa mensagem será enviada após a escolha de um **número** na avaliação.
+Ao editar uma conexão, defina sua mensagem de pós avaliação no campo "**Mensagem de Avaliação**". Essa mensagem é enviada depois que o cliente escolhe a nota, quando a opção dessa nota está em **Nenhum** no campo **Fluxo após esta nota**. A nota com fluxo começa o fluxo, e a **Mensagem de Avaliação** não é enviada.
 
 ## Configurar Avaliação
 
@@ -90,4 +92,12 @@ Após o envio de uma avaliação interna, a **primeira resposta** que o cliente 
 
 Garantindo que o atendente não tenha acesso direto a resposta da avaliação.
 
-Para ver a avaliação, o Admin deve acessar o menu → Pesquisar
+Para ver a avaliação, o administrador acessa o menu **Relatório de Avaliações**.
+
+## Relatório de Avaliações
+
+Acesse o menu **Relatório de Avaliações**. Cada linha traz a **Data**, o **Cliente**, o **Operador**, o **Setor**, o **Modelo** de avaliação, a **Opção** escolhida e a **Nota**.
+
+Quando o fluxo da nota guarda a resposta de uma **Pergunta** num bloco **Variável** logo depois, a resposta fica na avaliação. A coluna **Nota** ganha um selo com o número de respostas, com a dica *"1 resposta(s) do cliente no fluxo da nota"*, e o botão **Ver detalhes**, na coluna **Ações**, abre a janela **Detalhes da avaliação**: o bloco **Respostas do fluxo da nota** mostra a pergunta, a **Variável** e a data de cada resposta, e embaixo o que o cliente respondeu.
+
+O botão **Exportar CSV** baixa as avaliações num arquivo, que traz também a coluna **Respostas do fluxo**.

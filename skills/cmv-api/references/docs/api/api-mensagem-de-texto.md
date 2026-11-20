@@ -47,6 +47,12 @@ Bearer {seutokenaqui}
 
 ➡️ **“body”:** mensagem.
 
+➡️ **“assinaturaIa”:** opcional — acrescente ao corpo quando quem envia é a sua IA. Mande o nome da IA, com até 100 caracteres, ou `true`, que assina como **Assistente IA**. A mensagem fica marcada como enviada pela IA e aparece na conversa com o nome dela. Sem o campo, ou com `false`, o envio fica como sempre.
+
+➡️ **“quotedMsgId”:** opcional — acrescente ao corpo para a mensagem chegar **citando** uma mensagem do contato, como a resposta a uma pergunta dele. Mande o `id` da mensagem citada. Mensagem que não existe, ou que é de outro contato, faz a chamada ser recusada, e nada é enviado.
+
+⚠️ Esta chamada é só para Conexões de **WhatsApp**. Com o token de outro canal ela é recusada, e a resposta diz o endereço certo para aquele canal.
+
 #### Utilize o código em requisições HTTPS com ferramentas como cURL ou bibliotecas de integração.
 
 ```php

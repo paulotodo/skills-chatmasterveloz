@@ -54,9 +54,11 @@ No topo de cada conversa do **Chat Interno**, os botões **Chamada de áudio** e
 
 ## Gravação, transcrição e análise da chamada
 
-🔘 **Gravação:** depende da opção **Gravação das chamadas da equipe**, no menu **Configurações  ›  Opções**. Com a gravação pelo botão, a janela tem **Gravar a chamada**: enquanto grava, todos na chamada veem **Gravando** e o aviso *"Esta chamada está sendo gravada"*, e qualquer um deles pode tocar **Parar a gravação**. Com **Gravar sempre**, a gravação começa sozinha. Quando a chamada termina, a gravação entra na conversa com o texto **Gravação da chamada**: a da chamada de vídeo, como vídeo; a da chamada de voz, só com o áudio.
+🔘 **Gravação:** depende da opção **Gravação das chamadas da equipe**, no menu **Configurações  ›  Opções  ›  Chamadas**, seção **Chamadas**. Com a gravação pelo botão, a janela tem **Gravar a chamada**: enquanto grava, todos na chamada veem **Gravando** e o aviso *"Esta chamada está sendo gravada"*, e qualquer um deles pode tocar **Parar a gravação**. Com **Gravar sempre**, a gravação começa sozinha. Quando a chamada termina, a gravação entra na conversa com o texto **Gravação da chamada**: a da chamada de vídeo, como vídeo; a da chamada de voz, só com o áudio.
 
-🔘 **Transcrição e análise:** com a opção **IA nas gravações das chamadas** ligada, no menu **Configurações  ›  Opções**, chegam à mesma conversa, logo depois da gravação, as mensagens **Transcrição da chamada** e **Análise da chamada**. A análise traz **Resumo**, **Decisões**, **Tarefas** e **Pendências**, e o vídeo ganha legenda. A IA usa o **Token OpenAI** da empresa, cadastrado no menu **Integrações**. Com a opção em **Somente a análise**, chega só a **Análise da chamada**, sem a transcrição, e o vídeo continua com a legenda.
+🔘 **Transcrição e análise:** com a opção **IA nas gravações das chamadas** ligada, no menu **Configurações  ›  Opções  ›  Chamadas**, seção **Chamadas**, chegam à mesma conversa, logo depois da gravação, as mensagens **Transcrição da chamada** e **Análise da chamada**. A análise traz **Resumo**, **Decisões**, **Tarefas** e **Pendências**, e o vídeo ganha legenda. A IA usa o **Token OpenAI** da empresa, cadastrado no menu **Integrações**, ou a chave de IA que a conta já tem configurada — nesse caso, o card **OPEN.AI** avisa. Com a opção em **Somente a análise**, chega só a **Análise da chamada**, sem a transcrição, e o vídeo continua com a legenda.
+
+🔘 **Mensagens do sistema:** a **Gravação da chamada**, a **Transcrição da chamada**, a **Análise da chamada** e o aviso de quando a transcrição ou a análise não foram feitas chegam num balão destacado, diferente das mensagens da equipe, sempre do lado esquerdo da conversa — mesmo quando foi você quem gravou a chamada.
 
 > **[DUVIDAS]**
 >
@@ -70,7 +72,7 @@ No topo de cada conversa do **Chat Interno**, os botões **Chamada de áudio** e
 >
 > **Onde fica a gravação de uma chamada do Chat Interno?** Na própria conversa, com o texto **Gravação da chamada**: como vídeo, ou só com o áudio quando a chamada é de voz. O administrador também encontra a gravação no menu **Gravações**.
 >
-> **A transcrição de uma chamada do Chat Interno não apareceu.** Confira com o administrador a opção **IA nas gravações das chamadas**, no menu **Configurações  ›  Opções**, e o **Token OpenAI**, no menu **Integrações**: é essa chave que a IA das gravações usa. Com a opção em **Somente a análise**, é o esperado: a conversa recebe só a **Análise da chamada**.
+> **A transcrição de uma chamada do Chat Interno não apareceu.** Confira com o administrador a opção **IA nas gravações das chamadas**, no menu **Configurações  ›  Opções  ›  Chamadas**, seção **Chamadas**, e o **Token OpenAI**, no menu **Integrações**: é essa chave que a IA das gravações usa, ou a chave de IA que a conta já tem configurada — nesse caso, o card **OPEN.AI** avisa. Com a opção em **Somente a análise**, é o esperado: a conversa recebe só a **Análise da chamada**.
 >
 > **Dá para trocar o microfone no meio de uma chamada do Chat Interno?** Dá. Na janela da chamada, o botão **Câmera, microfone e alto-falante** abre as listas de aparelhos; a troca vale na hora, sem sair da chamada, e a próxima chamada no mesmo navegador começa com o aparelho escolhido.
 >

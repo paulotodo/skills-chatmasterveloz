@@ -47,13 +47,23 @@ Bearer {seutokenaqui}
 
 ◽ O ticket encerrado fica sem Setor e sem operador, e o protocolo dele é fechado.
 
+◽ O ticket que já estava encerrado continua como está: não ganha protocolo novo. Repetir a chamada não muda nada.
+
 ◽ Cada ticket que fecha agora ganha uma linha no Registro do atendimento: com o `userId`, assinada pela pessoa; sem ele, como encerramento pela API. O que já estava encerrado não ganha linha.
 
-⚠️ **Nada é enviado ao cliente** — não sai mensagem de despedida nem pedido de avaliação.
+⚠️ **Nada é enviado ao cliente** — nem mensagem de despedida, nem pedido de avaliação.
 
 ◽ A resposta traz só o total de tickets que entraram na varredura.
 
 ◽ Um `userId` que não existe, ou que é de outra empresa, é recusado **antes** de encerrar qualquer ticket.
+
+➡️ **“retornoAoAtendente”:** `true` liga o retorno ao mesmo atendente nos tickets que esta chamada encerra, mesmo com a opção desligada no Setor; `false` encerra sem o retorno. Opcional.
+
+➡️ **“minutosDoRetorno”:** o prazo, em minutos, para a resposta do cliente trazer o ticket de volta ao mesmo atendente, de 1 a 10080 (7 dias). Opcional.
+
+➡️ **“setorDeTransbordoId”:** ID do Setor de transbordo: se o cliente responder dentro do prazo com o atendente offline, o ticket vai para este Setor, sem atendente. Opcional.
+
+◽ Com o retorno, a resposta do cliente dentro do prazo volta para o atendente que o atendia, no Setor em que o ticket estava, mesmo com o ticket encerrado por esta chamada sem Setor e sem operador.
 
 #### Utilize o código em requisições HTTPS com ferramentas como cURL ou bibliotecas de integração.
 

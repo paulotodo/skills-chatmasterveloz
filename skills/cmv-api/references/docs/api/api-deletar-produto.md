@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/api-deletar-produto
 - **Categoria:** APIs
-- **Menu:** APIs › CRM › API Deletar Produto
+- **Menu:** APIs › Produtos › API Deletar Produto
 
 ---
 

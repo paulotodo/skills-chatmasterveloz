@@ -60,13 +60,17 @@ A tela avisa que os cupons de boas-vindas e de aniversário *"aparecem sozinhos 
 
 🔘 **Usos por cliente (vazio: sem limite):** só no tipo **Por código**.
 
+🔘 **Mostrar no carrinho (com o botão Usar) para quem ainda pode usar:** marcado, o cupom aparece pronto na sacola de quem pode usar, em **Cupons para você**, e o cliente aplica o desconto com um toque, sem digitar o código.
+
+🔘 **Só para estes clientes:** a tela explica: *"Busque pelo nome ou pelo número. Vazio: todos os clientes. Os escolhidos veem o cupom no carrinho e só eles usam."* O cupom de outro cliente não aparece em **Cupons para você**, e quem digita o código recebe o aviso *"Este cupom é só para alguns clientes."*
+
 🔘 **Descrição (opcional, o cliente vê):** o texto do cupom para o cliente.
 
 🔘 **Ativo:** liga ou desliga o cupom.
 
 ## A lista de cupons
 
-Cada cupom mostra o código, o tipo, o desconto, os usos, como *"0 de ∞ usos"*, e a descrição, com o interruptor, **Editar** e **Remover**.
+Cada cupom mostra o código, o tipo, o desconto, os usos, como *"0 de ∞ usos"*, e a descrição, com o interruptor, **Editar** e **Remover**. O cupom que aparece na sacola leva *no carrinho*, e o cupom de alguns clientes leva quantos são, como *só de 1 cliente(s)*.
 
 **Remover** pergunta *"Excluir o cupom PROMO10?"* e avisa: *"Os pedidos que já usaram o cupom continuam com o desconto e o código."*
 
@@ -80,7 +84,13 @@ O bloco **Cashback** fica na tela do Cardápio Digital. A tela explica: *"Devolv
 
 🔘 **Expira após quantos dias sem pedido:** quantos dias sem pedido até o saldo expirar.
 
+🔘 **Categorias que geram cashback:** a tela explica: *"Só os produtos dessas categorias geram cashback (a categoria de cima leva as subcategorias). Nenhuma marcada: todas."* No pedido com produtos de várias categorias, o cashback é calculado só sobre os produtos das categorias escolhidas.
+
+🔘 **O cashback pode pagar a taxa de entrega:** desligado, *"o saldo do cliente abate só os produtos; a taxa de entrega é paga à parte."* Ligado, *"o saldo do cliente abate os produtos e também a taxa de entrega."*
+
 Clique no **Salvar** da loja, e a tela confirma *"Loja salva"*.
+
+O cashback entra no saldo do cliente quando o pedido fica **entregue**. Se o pedido é cancelado depois, o cashback dele é anulado.
 
 ## O que o cliente vê na sacola
 
@@ -88,7 +98,7 @@ Os cupons e o cashback aparecem para o cliente que entrou na loja com o código 
 
 🔘 **Cupom de desconto:** o campo para digitar o código, com o botão **Aplicar**.
 
-🔘 **Cupons para você:** os cupons de boas-vindas e de aniversário que o cliente pode usar.
+🔘 **Cupons para você:** os cupons de boas-vindas e de aniversário que o cliente pode usar e os cupons marcados para aparecer no carrinho. O botão **Usar** aplica o cupom: a sacola mostra o cupom com **Remover** e a linha do desconto, como *Cupom PROMO10 - R$ 3,54*.
 
 🔘 **Usar meu cashback:** a opção com o saldo do cliente, como *"Usar meu cashback (R$ 12,00)"*. Abaixo do saldo mínimo, a sacola mostra *"Seu cashback: R$ 3,00 · dá para usar a partir de R$ 5,00"*.
 
@@ -98,7 +108,7 @@ Os cupons e o cashback aparecem para o cliente que entrou na loja com o código 
 
 ## Avisos para o seu sistema
 
-Com o **Webhook do PDV** preenchido no menu **Configurações  ›  Opções**, o seu sistema recebe também os avisos de cupom e de cashback: `cupom-criado`, `cupom-alterado`, `cupom-removido`, `cupom-usado`, `cashback-creditado`, `cashback-usado`, `cashback-estornado` e `cashback-expirado`. Eles estão na lista **Eventos enviados**, logo abaixo do campo do **Webhook do PDV**.
+Com o **Webhook do PDV** preenchido no menu **Configurações  ›  Opções  ›  Integrações e segurança**, seção **Webhooks e integrações**, o seu sistema recebe também os avisos de cupom e de cashback: `cupom-criado`, `cupom-alterado`, `cupom-removido`, `cupom-usado`, `cashback-creditado`, `cashback-usado`, `cashback-estornado` e `cashback-expirado`. Eles estão na lista **Eventos enviados**, logo abaixo do campo do **Webhook do PDV**.
 
 > **[DUVIDAS]**
 >
@@ -109,6 +119,12 @@ Com o **Webhook do PDV** preenchido no menu **Configurações  ›  Opções**, 
 > **O cliente da mesa pode usar cupom ou cashback do Cardápio Digital?** Não. A sacola da mesa não tem cupom nem cashback: eles valem para a sacola da loja.
 >
 > **Onde cadastro o cartão fidelidade do Cardápio Digital?** Em **Novo cupom**, com o **Tipo** **Fidelidade**. Preencha **A cada quantos pedidos entregues** e o desconto. Depois do uso, a contagem do cliente recomeça.
+>
+> **Como faço um cupom do Cardápio Digital só para alguns clientes?** No **Novo cupom**, busque cada cliente pelo nome ou pelo número em **Só para estes clientes**. Só os escolhidos veem o cupom e conseguem usar. Com o campo vazio, o cupom vale para todos os clientes.
+>
+> **O cupom não aparece em Cupons para você na sacola. Por quê?** O cupom por código só aparece ali com **Mostrar no carrinho (com o botão Usar) para quem ainda pode usar** marcado, e para o cliente que ainda pode usar. Sem a opção, o cliente digita o código em **Cupom de desconto**.
+>
+> **O cashback do Cardápio Digital vale para todos os produtos?** Vale com **Categorias que geram cashback** sem nenhuma categoria marcada. Marcadas as categorias, só os produtos delas geram cashback, e a categoria de cima leva as subcategorias.
 >
 > **Excluí um cupom do Cardápio Digital. O que acontece com os pedidos que já usaram?** Eles continuam com o desconto e o código.
 >

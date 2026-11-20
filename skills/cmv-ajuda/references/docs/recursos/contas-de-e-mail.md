@@ -8,7 +8,7 @@
 
 🧩 No menu **Contas de E-mail** o administrador liga as caixas de e-mail da empresa à plataforma. Cada conta de e-mail é uma caixa do servidor: a plataforma recebe as mensagens por **IMAP** e envia por **SMTP**, com o usuário e a senha da própria caixa.
 
-Depois de cadastrada, a conta de e-mail é usada no menu **E-mails** por quem a cadastrou e pelas pessoas escolhidas em **Usuários vinculados**.
+Depois de cadastrada, a conta de e-mail é usada no menu **E-mails** por quem a cadastrou e pelas pessoas escolhidas em **Usuários vinculados**. As contas de e-mail ativas também enviam as campanhas de e-mail em massa.
 
 > **[RESUMO]**
 >
@@ -24,7 +24,7 @@ Depois de cadastrada, a conta de e-mail é usada no menu **E-mails** por quem a 
 
 ## A lista de contas de e-mail
 
-🔘 Cada linha mostra o **Nome**, o **E-mail**, o servidor de **IMAP** e o de **SMTP** (com **(SSL)** quando ligado), os **Usuários** vinculados e o **Status**: **Ativa** ou **Inativa**.
+🔘 Cada linha mostra o **Nome**, com a imagem da conta quando ela tem uma, o **E-mail**, o servidor de **IMAP** e o de **SMTP** (com **(SSL)** quando ligado), os **Usuários** vinculados e o **Status**: **Ativa** ou **Inativa**.
 
 🔘 **Restrita**, no **Status**, marca a conta de e-mail cadastrada por outro administrador em que você não está vinculado: você vê a linha, mas não usa a conta no menu **E-mails**.
 
@@ -47,6 +47,8 @@ Acesse o menu **Contas de E-mail  ›  Adicionar conta**
 | UOL Host e Locaweb | conferir com o provedor se IMAP e SMTP estão habilitados na conta |
 | Hostinger / cPanel | trocar os dois hosts pelo `mail.` do seu domínio e usar o e-mail completo como usuário |
 | Custom (preencher manualmente) | preencher host, porta e SSL/TLS à mão |
+
+🔘 **Escolher imagem:** a imagem da conta de e-mail, como o logotipo da empresa. Nas palavras da tela: *"Aparece na lista de contas e na caixa de entrada (JPG, PNG ou WEBP)."* A imagem aparece na lista do menu **Contas de E-mail** e na coluna **Contas** do menu **E-mails**. A janela mostra a imagem escolhida, e o **X** tira a imagem. Em outro formato, a tela avisa *"Escolha uma imagem JPG, PNG ou WEBP para a conta de e-mail."*; com a imagem grande demais, *"A imagem da conta de e-mail é grande demais. Escolha uma menor."*
 
 🔘 **Nome:** como a conta de e-mail aparece na lista e na coluna **Contas** do menu **E-mails**, como *Comercial* ou *Suporte*.
 
@@ -82,7 +84,7 @@ Logo depois de cadastrada, a conta de e-mail traz para o menu **E-mails** as 30 
 
 ## Editar e excluir
 
-🔘 **Editar** abre a mesma janela, sem o **Provedor (modelo)**. A senha vira **Nova senha (opcional)**: em branco, a senha salva continua valendo.
+🔘 **Editar** abre a mesma janela, sem o **Provedor (modelo)**. A senha vira **Nova senha (opcional)**: em branco, a senha salva continua valendo. Para tirar a imagem da conta, clique no **X** da imagem e em **Atualizar**.
 
 🔘 **Excluir** pede confirmação, *"Confirma a exclusão da conta … ? Essa ação não pode ser desfeita."*, e com **OK** a conta de e-mail some da lista. Excluir a conta tira a caixa da plataforma, mas não apaga nada no servidor de e-mail: as mensagens continuam na caixa.
 
@@ -104,7 +106,11 @@ Logo depois de cadastrada, a conta de e-mail traz para o menu **E-mails** as 30 
 >
 > **Desativar uma conta de e-mail libera vaga no limite do plano?** Libera. Só as contas de e-mail ativas contam no limite do plano: com a **Conta ativa** desligada, a conta fica **Inativa** e não ocupa vaga.
 >
+> **A conta de e-mail também envia as campanhas de e-mail em massa?** Envia: a campanha escolhe uma das contas de e-mail ativas da empresa para enviar. Os e-mails da campanha não ficam na pasta **Enviadas** da conta.
+>
 > **Troquei a senha da caixa de e-mail. O que mudo na plataforma?** Edite a conta no menu **Contas de E-mail** e preencha **Nova senha (opcional)** com a senha nova. Em branco, a plataforma continua com a senha antiga e, depois de alguns minutos sem conseguir entrar, a conta de e-mail fica **Inativa**.
+>
+> **A imagem da conta de e-mail não foi aceita.** A conta aceita imagem JPG, PNG ou WEBP; em outro formato, como GIF, a tela avisa *"Escolha uma imagem JPG, PNG ou WEBP para a conta de e-mail."*. Imagem grande demais também é recusada: escolha um arquivo menor.
 >
 > **Excluir a conta de e-mail apaga os e-mails da caixa?** Não. Excluir a conta no menu **Contas de E-mail** só tira a caixa da plataforma; as mensagens continuam no servidor de e-mail, e a caixa pode ser cadastrada de novo.
 

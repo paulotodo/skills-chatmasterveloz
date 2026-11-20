@@ -38,11 +38,11 @@ O botão **Convidar operadores** aparece para quem está com o atendimento e par
 
 ## O que acontece ao finalizar
 
-Quando o atendimento é finalizado, o que acontece com os convidados depende da opção **Remover convidados ao finalizar o atendimento?**, no menu **Configurações  ›  Opções**, seção **Permissões e Visualização**. Em **Sim**, os operadores convidados saem da conversa no momento em que ela é finalizada. Em **Não**, eles continuam na conversa.
+Quando o atendimento é finalizado, o que acontece com os convidados depende da opção **Remover convidados ao finalizar o atendimento?**, no menu **Configurações  ›  Opções  ›  Atendimento**, seção **Atendimento e operador**. Em **Sim**, os operadores convidados saem da conversa no momento em que ela é finalizada. Em **Não**, eles continuam na conversa.
 
 ## O registro dos convites
 
-Com **Registrar Logs de Ação dos Atendimentos?** em **Sim**, na seção **Logs e Monitoramento** do menu **Configurações  ›  Opções**, cada convite deixa uma linha na conversa, só para a equipe: *"Fulano convidou Beltrano para a conversa"*, *"Fulano removeu Beltrano da conversa"* e, quando o atendimento é finalizado com a remoção ligada, *"Beltrano saiu da conversa: o atendimento foi finalizado"*. Com a opção em **Não**, o convite funciona do mesmo jeito, mas sem essas linhas.
+Com **Registrar Logs de Ação dos Atendimentos?** em **Sim**, na seção **Logs e Monitoramento** do menu **Configurações  ›  Opções  ›  Integrações e segurança**, cada convite deixa uma linha na conversa, só para a equipe: *"Fulano convidou Beltrano para a conversa"*, *"Fulano removeu Beltrano da conversa"* e, quando o atendimento é finalizado com a remoção ligada, *"Beltrano saiu da conversa: o atendimento foi finalizado"*. Com a opção em **Não**, o convite funciona do mesmo jeito, mas sem essas linhas.
 
 > **[DUVIDAS]**
 >

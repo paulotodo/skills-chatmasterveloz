@@ -28,7 +28,9 @@ Ideal para:
 
 ## Os filtros
 
-🔘 **Usuários**, **Conexão**, **Status**, **Tags**, **Contato** e **Setores:** limitam a busca.
+🔘 **Usuários**, **Conexão**, **Status**, **Tags**, **Filtro por Contato** e **Setores:** limitam a busca.
+
+🔘 **Filtro por Contato:** acha o contato pelo nome, pelo CPF ou CNPJ, pelo e-mail ou pelo valor de uma informação adicional do cadastro. O CPF ou o CNPJ acha inteiro, com ou sem pontuação, ou por um pedaço digitado com a pontuação, como `111.444`; o e-mail, inteiro ou por uma parte; a informação adicional, sem diferença entre maiúsculas e minúsculas.
 
 🔘 **Tags:** lista as tags de atendimento e as tags de CRM juntas. Uma tag de CRM traz os atendimentos das conversas dos contatos que têm uma oportunidade marcada com ela, de qualquer data — para limitar, use também o período. Contato que nunca conversou com a empresa não aparece. Com mais de uma tag, basta o atendimento ter uma delas.
 
@@ -39,6 +41,8 @@ Ideal para:
 🔘 **Protocolo:** o número do protocolo.
 
 🔘 **Data Inicial** e **Data Final**, com **Período pela data de:** o período conta pela **Abertura** ou pelo **Encerramento** do atendimento.
+
+⚠️ O período vai até **60 dias**. Um intervalo maior é recusado com o aviso *"O intervalo entre Data Inicial e Data Final não pode ser maior que 60 dias."*, e as datas dos filtros voltam ao período que está na tabela — o resultado continua o mesmo.
 
 🔘 **Valor mínimo (R$):** só atendimentos encerrados com venda a partir desse valor.
 
@@ -68,6 +72,8 @@ Os filtros em uso aparecem acima do resultado, e **Limpar filtros** tira todos d
 
 🔘 **Avaliações:** baixa uma planilha com o número de cada atendimento e a nota da avaliação.
 
+A planilha de **Atendimentos** é sempre do período que está na tabela. Mudou as datas dos filtros? Clique em **Buscar Atendimentos** antes de baixar, para a tabela e a planilha ficarem com o mesmo período.
+
 > **[DUVIDAS]**
 >
 > #### Dúvidas Comuns
@@ -81,3 +87,9 @@ Os filtros em uso aparecem acima do resultado, e **Limpar filtros** tira todos d
 > **Como vejo as conversas de quem está numa negociação do CRM?** No filtro **Tags**, escolha a tag de CRM usada nas oportunidades. A pesquisa traz os atendimentos das conversas desses contatos.
 >
 > **Escolhi duas tags e vieram mais atendimentos do que com uma. Por quê?** Com várias tags, a busca soma: entra o atendimento que tiver qualquer uma delas.
+>
+> **Por que a pesquisa não aceitou o período que escolhi?** O período vai até 60 dias entre **Data Inicial** e **Data Final**. Com um intervalo maior, a tela avisa e as datas voltam ao período da tabela. Para um período mais longo, faça a busca em partes de até 60 dias.
+>
+> **Baixei a planilha de Atendimentos e ela veio com outro período. Por quê?** A planilha é do período que está na tabela, e não das datas digitadas nos filtros. Clique em **Buscar Atendimentos** com as datas novas e baixe de novo.
+>
+> **Dá para achar os atendimentos de um cliente pelo CPF ou pelo e-mail na Pesquisa?** Sim. No **Filtro por Contato**, digite o CPF ou o CNPJ, com ou sem pontuação, o e-mail ou o valor de uma informação adicional do cadastro, escolha o contato na lista e clique em **Buscar Atendimentos**.

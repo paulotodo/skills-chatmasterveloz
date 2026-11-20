@@ -26,7 +26,7 @@
 
 🔘 **Status e sessão:** muda o status da pessoa e pode tirá-la do painel na hora. Detalhe abaixo.
 
-🔘 **Trocar Senha:** abre **Trocar Senha do Usuário**, que mostra *Alterando a senha de:* e o nome da pessoa — confira antes de salvar. Define a senha nova sem precisar da antiga. Use quando ela esqueceu, ou quando você precisa cortar o acesso de quem sabia a senha. Com **Exigir senha forte** ligada no menu **Configurações  ›  Opções**, a janela mostra o que falta e recusa senha com menos de 8 caracteres ou sem maiúscula, minúscula, número e caractere especial.
+🔘 **Trocar Senha:** abre **Trocar Senha do Usuário**, que mostra *Alterando a senha de:* e o nome da pessoa — confira antes de salvar. Define a senha nova sem precisar da antiga. Use quando ela esqueceu, ou quando você precisa cortar o acesso de quem sabia a senha. Quando a plataforma exige senha forte (opção **Exigir senha forte**), a janela mostra o que falta e recusa senha com menos de 8 caracteres ou sem maiúscula, minúscula, número e caractere especial.
 
 🔘 **Editar:** abre o cadastro, com as quatro abas.
 

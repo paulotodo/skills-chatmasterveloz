@@ -1,8 +1,425 @@
-<!-- gerado por _gerar.py · fonte: https://app.chatmasterveloz.com/catalogo-css/pt.json · versão WS-29.930.0 -->
+<!-- gerado por _gerar.py · fonte: https://app.chatmasterveloz.com/catalogo-css/pt.json · versão WS-30.141.0 -->
 
 # Histórico
 
 O que MUDOU em elemento que já tinha gancho, e se foi acréscimo ou troca. De fora não há como saber se um atributo novo substituiu algo — e a diferença é um realce que some sem ninguém entender por quê.
+
+### 30.53.0
+
+- Notificações: o comentário que a notificação apontou fica em destaque com `.custom-css-comentario-em-destaque` (cada comentário traz `data-comentario-id`), na tarefa (também a do projeto, que agora abre na página do projeto), na oportunidade e no diálogo de comentários da página de Tarefas.
+
+### 30.52.0
+
+- Opções → Geral → Expediente: o bloco do expediente dos usuários `.custom-css-settings-expediente-dos-usuarios`, o liga/desliga do horário padrão `.custom-css-settings-expediente-padrao-ativo`, os dias do horário padrão `.custom-css-settings-expediente-padrao-semana`, o liga/desliga do status automático `.custom-css-settings-expediente-status-automatico` e o botão `.custom-css-settings-expediente-gravar`.
+
+### 30.50.0
+
+- Projetos: os produtos da venda de onde o projeto nasceu, no cartão `.custom-css-projetos-cartao-produtos`.
+
+### 30.49.0
+
+- Gravações: o tamanho do arquivo ao lado do Baixar `.custom-css-gravacoes-tamanho` (com `data-tamanho`, em bytes) e o botão Baixar da janela da gravação `.custom-css-gravacoes-baixar`.
+
+### 30.47.0
+
+- Contraste e âncoras (segunda rodada). Na janela da tarefa, os atalhos `.custom-css-tarefa-abrir-oportunidade`, `.custom-css-tarefa-abrir-projeto` e `.custom-css-tarefa-abrir-atendimento`; nos Prompts, o cartão `.custom-css-prompts-cartao` e o título `.custom-css-prompts-titulo`; em Contatos, o ícone `.custom-css-empty-state-icone` e o título `.custom-css-empty-state-titulo` da lista vazia, as colunas `.custom-css-contacts-coluna-carteira` e `.custom-css-contacts-coluna-email` (as células `.custom-css-contacts-carteira` e `.custom-css-contacts-email`), e o `.custom-css-contacts-avatar` também no resumo do contato e nos duplicados; nos Projetos, o `.custom-css-projetos-cartao` também na lista, e na página do projeto o quadro `.custom-css-projeto-quadro`, as colunas `.custom-css-projeto-coluna` e as tarefas `.custom-css-projeto-tarefa`; nos modelos, a lista vazia `.custom-css-projeto-modelos-vazio`; no Quadro de Atendimentos, o vazio `.custom-css-quadro-vazio` (o texto em `.custom-css-quadro-vazio-texto`); no E-mail, as colunas `.custom-css-emails-pastas`, `.custom-css-emails-lista` e `.custom-css-emails-leitura`; na Gestão de Atendimentos, o chip `.custom-css-gestao-setor-chip`; nas Oportunidades, os botões `.custom-css-oportunidades-cartao-editar` e `.custom-css-oportunidades-cartao-excluir`; o vazio das reservas da mesa `.custom-css-reservas-da-mesa-vazio` e o do histórico de comandas `.custom-css-comandas-historico-vazio`; e, no Chat Interno, a folga da direita de cada item na variável `--custom-css-chats-item-folga`.
+
+### 30.46.0
+
+- Monte seu plano: a página pública `#custom-css-monte-seu-plano` com o título `.custom-css-monte-seu-plano-titulo`, as escolhas `.custom-css-monte-seu-plano-escolhas` (cada quantidade `.custom-css-monte-seu-plano-quantidade`, cada módulo `.custom-css-monte-seu-plano-modulo`), o resumo `.custom-css-monte-seu-plano-resumo` (cada linha `.custom-css-monte-seu-plano-item`, os totais `.custom-css-monte-seu-plano-total-mensal` e `.custom-css-monte-seu-plano-total-implantacao`, a primeira fatura `.custom-css-monte-seu-plano-primeira-fatura`, o erro `.custom-css-monte-seu-plano-erro`), o botão `.custom-css-monte-seu-plano-contratar`, o aviso do cadastro fechado `.custom-css-monte-seu-plano-cadastro-fechado` e a página desligada `.custom-css-monte-seu-plano-indisponivel`. Na página de cadastro, o plano montado `.custom-css-signup-plano-montado` (cada linha `.custom-css-signup-plano-montado-item`, o total `.custom-css-signup-plano-montado-total`, a primeira fatura `.custom-css-signup-plano-montado-primeira-fatura`) e o aviso `.custom-css-signup-plano-montado-invalido`. Na tela de planos, a tabela `.custom-css-planos-monte-seu-plano` com o liga/desliga `.custom-css-planos-monte-ativo`, o endereço `.custom-css-planos-monte-link`, os campos `.custom-css-planos-monte-campo`, os módulos inclusos `.custom-css-planos-monte-inclusos`, cada módulo à venda `.custom-css-planos-monte-modulo` (o remover `.custom-css-planos-monte-remover`) e os botões `.custom-css-planos-monte-adicionar` e `.custom-css-planos-monte-gravar`.
+
+### 30.45.0
+
+- Planos e cadastro: o link de cadastro de cada plano. Na tela de planos, o bloco `.custom-css-planos-link-de-cadastro` (com `data-plano`) com o endereço `.custom-css-planos-link-de-cadastro-endereco` e os botões `.custom-css-planos-link-de-cadastro-copiar` e `.custom-css-planos-link-de-cadastro-trocar`, e a ajuda do "Uso Interno" `.custom-css-planos-uso-interno-ajuda`. Na página de cadastro, o plano escolhido pelo link `.custom-css-signup-plano-do-link` (o nome em `.custom-css-signup-plano-do-link-nome`) e o aviso do link que não vale mais `.custom-css-signup-link-invalido`.
+
+### 30.41.0
+
+- Pedido do PDV: o campo do motivo do cancelamento `.custom-css-pedido-pdv-motivo-do-cancelamento`, agora obrigatório fora do rascunho.
+
+### 30.39.0
+
+- Reservas: a agenda do Google do recurso. Na janela do recurso, a seção `.custom-css-reservas-recurso-agenda-google` com a agenda escolhida `.custom-css-reservas-recurso-agenda-google-agenda`, o estado `.custom-css-reservas-recurso-agenda-google-estado` (a conta `.custom-css-reservas-recurso-agenda-google-conta`, o motivo `.custom-css-reservas-recurso-agenda-google-motivo`, a última sincronia `.custom-css-reservas-recurso-agenda-google-sincronia` e o último problema `.custom-css-reservas-recurso-agenda-google-erro`) e o botão `.custom-css-reservas-recurso-agenda-google-sincronizar`. Na agenda, o horário ocupado por um compromisso de fora usa o mesmo `.custom-css-reservas-agenda-bloqueio`, com `data-externo`.
+
+### 30.38.0
+
+- Reservas: o relatório. No cadastro, a aba Relatório `.custom-css-reservas-relatorio` com os filtros `.custom-css-reservas-relatorio-filtros` (o atualizar `.custom-css-reservas-relatorio-atualizar` e o CSV `.custom-css-reservas-relatorio-csv`), os números `.custom-css-reservas-relatorio-numero`, as situações, as origens, as ofertas, a ocupação dos recursos `.custom-css-reservas-relatorio-recurso`, as barras por dia e por hora `.custom-css-reservas-relatorio-barra` e os clientes `.custom-css-reservas-relatorio-cliente`.
+
+### 30.37.0
+
+- Reservas: as reservas que se repetem. No agendar da equipe, a opção de repetir `.custom-css-reservas-reserva-repetir` (com `data-ligada`), a frequência `.custom-css-reservas-serie-frequencia`, as vezes `.custom-css-reservas-serie-vezes`, o pular as ocupadas `.custom-css-reservas-serie-pular`, o botão `.custom-css-reservas-serie-ver-datas` e a prévia `.custom-css-reservas-serie-datas` com cada data `.custom-css-reservas-serie-data`; no detalhe, a marca da série `.custom-css-reservas-reserva-serie` e, no cancelar, a escolha `.custom-css-reservas-cancelar-escopo`.
+
+### 30.36.0
+
+- Reservas: os pacotes. No cadastro, a aba `.custom-css-reservas-pacotes` (cada pacote `.custom-css-reservas-pacote` com `data-quantidade`), o botão `.custom-css-reservas-adicionar-pacote` e a janela `.custom-css-modal-reservas-pacote` (a quantidade `.custom-css-reservas-pacote-quantidade`, o vencimento `.custom-css-reservas-pacote-validade`, as ofertas `.custom-css-reservas-pacote-ofertas` e o salvar `.custom-css-reservas-pacote-salvar`); na agenda, o botão `.custom-css-reservas-agenda-pacotes` abre `.custom-css-modal-reservas-pacotes-dos-clientes` (a busca `.custom-css-reservas-pacotes-busca`, o vender `.custom-css-reservas-pacotes-vender`, a venda `.custom-css-reservas-pacotes-venda` com `.custom-css-reservas-pacotes-confirmar-venda`, cada pacote vendido `.custom-css-reservas-pacote-do-cliente` com `data-estado` e `data-restantes`, o cancelar `.custom-css-reservas-pacote-cancelar` e `.custom-css-reservas-pacote-confirmar-cancelamento`, e a lista vazia `.custom-css-reservas-pacotes-vazio`); no agendar, a escolha do pacote `.custom-css-reservas-reserva-pacote`; no detalhe da reserva, a marca `.custom-css-reservas-reserva-pacote-usado` com `data-pacote`.
+
+### 30.35.0
+
+- Reservas: as turmas. Na oferta, as vagas por sessão `.custom-css-reservas-oferta-vagas` (com o tipo `.custom-css-reservas-oferta-modo` em "Turma"); nos horários do agendar da equipe e da página pública, as vagas que sobram na sessão `.custom-css-reservas-reserva-vagas` e `.custom-css-reservas-publica-vagas`, e o botão do horário ganha `data-vagas`; na lista de ofertas, `data-modo="turma"`.
+
+### 30.33.0
+
+- Reservas: a marca da origem no detalhe da reserva, `.custom-css-reservas-reserva-origem`, passa a aparecer também na reserva feita pela conversa (`data-origem="fluxo"`) e pela integração (`data-origem="api"`), além da página (`data-origem="pagina"`).
+
+### 30.32.0
+
+- Reservas: o bloco Reservas do FlowBuilder. No editor, o bloco `.custom-css-flow-node-reservas` e a janela `.custom-css-modal-flow-reservas` (com a escolha da oferta `.custom-css-flow-reservas-oferta`, cada oferta escolhida `.custom-css-flow-reservas-escolhida` com `data-oferta` e o botão de salvar `.custom-css-flow-reservas-salvar`).
+
+### 30.31.0
+
+- Reservas: as diárias. Na oferta, o tipo `.custom-css-reservas-oferta-modo`, a entrada `.custom-css-reservas-oferta-checkin` e a saída `.custom-css-reservas-oferta-checkout`; no agendar da equipe, a data de saída `.custom-css-reservas-reserva-saida` e o resumo da estadia `.custom-css-reservas-reserva-estadia`; na página pública, o calendário das noites `.custom-css-reservas-publica-noites` (cada noite `.custom-css-reservas-publica-noite` com `data-dia` e `data-livre`, os botões `.custom-css-reservas-publica-noites-antes` e `.custom-css-reservas-publica-noites-depois`, o resumo da estadia `.custom-css-reservas-publica-estadia` com `data-noites`); na lista de ofertas e na agenda, `data-modo` e `data-noites`.
+
+### 30.30.0
+
+- Reservas: o pagamento do sinal. No detalhe da reserva, o bloco `.custom-css-reservas-reserva-pagamento` com `data-situacao` (a situação `.custom-css-reservas-reserva-pagamento-situacao`, os valores `.custom-css-reservas-reserva-pagamento-valores`, o prazo `.custom-css-reservas-reserva-pagamento-prazo`, cada pagamento `.custom-css-reservas-reserva-pagamento-linha` com `data-situacao` e `data-forma`, os botões `.custom-css-reservas-reserva-pagamento-registrar`, `.custom-css-reservas-reserva-pagamento-gerar`, `.custom-css-reservas-reserva-pagamento-conferir`, `.custom-css-reservas-reserva-pagamento-cancelar` e `.custom-css-reservas-reserva-pagamento-estornar`, o formulário `.custom-css-reservas-reserva-pagamento-formulario` com `.custom-css-reservas-reserva-pagamento-salvar`, a escolha do provedor `.custom-css-reservas-reserva-pagamento-provedor` com `.custom-css-reservas-reserva-pagamento-gerar-agora` e o link gerado `.custom-css-reservas-reserva-pagamento-link` com `data-forma`); na página pública, o bloco `.custom-css-reservas-publica-sinal` com `data-situacao` (o prazo `.custom-css-reservas-publica-sinal-prazo`, cada forma `.custom-css-reservas-publica-sinal-forma` com `data-forma`, o Pix `.custom-css-reservas-publica-sinal-pix`, o botão `.custom-css-reservas-publica-sinal-ir`, o `.custom-css-reservas-publica-sinal-atualizar`, o erro `.custom-css-reservas-publica-sinal-erro` e o sinal pago `.custom-css-reservas-publica-sinal-pago`); na aba da página, `.custom-css-reservas-pagina-sinal-obrigatorio` e `.custom-css-reservas-pagina-prazo-do-sinal`.
+
+### 30.29.0
+
+- Reservas: a lista de espera. Na agenda, o painel `.custom-css-reservas-agenda-espera` (o total `.custom-css-reservas-agenda-espera-total`, o botão `.custom-css-reservas-agenda-espera-nova`, o formulário `.custom-css-reservas-agenda-espera-formulario` com `.custom-css-reservas-agenda-espera-salvar`, o vazio `.custom-css-reservas-agenda-espera-vazia`, cada dia `.custom-css-reservas-agenda-espera-dia` com `data-dia`, cada pessoa `.custom-css-reservas-agenda-espera-item` com `data-situacao`, a situação `.custom-css-reservas-agenda-espera-situacao`, o último aviso `.custom-css-reservas-agenda-espera-ultimo-aviso` e os botões `.custom-css-reservas-agenda-espera-avisar`, `.custom-css-reservas-agenda-espera-atendido` e `.custom-css-reservas-agenda-espera-remover`); na página pública, o formulário `.custom-css-reservas-publica-espera` (o botão `.custom-css-reservas-publica-espera-entrar` e o erro `.custom-css-reservas-publica-espera-erro`) e a confirmação `.custom-css-reservas-publica-espera-feita` com `data-repetida`; na aba dos avisos, a mensagem da vaga `.custom-css-reservas-aviso-vaga` com `data-ativo` e as variáveis dela `.custom-css-reservas-avisos-variaveis-da-vaga`.
+
+### 30.28.0
+
+- Reservas: a aba dos avisos `.custom-css-reservas-avisos` (cada aviso `.custom-css-reservas-aviso` com `data-tipo`, as variáveis `.custom-css-reservas-avisos-variaveis`, cada lembrete `.custom-css-reservas-lembrete` com `data-antes`, os botões `.custom-css-reservas-lembrete-novo`, `.custom-css-reservas-lembrete-tirar` e `.custom-css-reservas-avisos-salvar`); no detalhe da reserva, o histórico das mensagens `.custom-css-reservas-reserva-avisos` (cada uma `.custom-css-reservas-reserva-aviso` com `data-situacao`).
+
+### 30.27.0
+
+- Reservas: a página pública `.custom-css-page-reservas-publica` (`/reservas/<endereço>`), com as ofertas `.custom-css-reservas-publica-oferta` (`data-oferta`), os dias `.custom-css-reservas-publica-dia` (`data-dia`), os horários `.custom-css-reservas-publica-horario` (`data-hora`) e o botão `.custom-css-reservas-publica-reservar`; a reserva feita `.custom-css-reservas-publica-feita` e o "minha reserva" `.custom-css-reservas-publica-minha` (`data-situacao` em `.custom-css-reservas-publica-situacao`, cancelar em `.custom-css-reservas-publica-cancelar`); no painel, o interruptor `.custom-css-reservas-pagina-confirmacao` e a marca `.custom-css-reservas-reserva-origem` (`data-origem`) da reserva feita pela página.
+
+### 30.26.0
+
+- Reservas: a nova agenda `.custom-css-page-reservas-agenda` (barra `.custom-css-reservas-agenda-barra`, visão `.custom-css-reservas-agenda-dia` por recurso e `.custom-css-reservas-agenda-semana` por dia, colunas `.custom-css-reservas-agenda-coluna` com `data-recurso` ou `data-dia`, reservas `.custom-css-reservas-agenda-reserva` com `data-situacao` e bloqueios `.custom-css-reservas-agenda-bloqueio`); as janelas `.custom-css-modal-reservas-reserva` (horários `.custom-css-reservas-reserva-horario` com `data-hora`) e `.custom-css-modal-reservas-reserva-detalhe` (botões `.custom-css-reservas-reserva-acao` com `data-acao`).
+
+### 30.25.0
+
+- Reservas: a nova página `.custom-css-page-reservas` (abas `.custom-css-reservas-abas`) com as seções `.custom-css-reservas-pagina`, `.custom-css-reservas-recursos`, `.custom-css-reservas-ofertas`, `.custom-css-reservas-horarios`, `.custom-css-reservas-bloqueios` e `.custom-css-reservas-webhook`; as linhas `.custom-css-reservas-recurso` (com `data-tipo`), `.custom-css-reservas-oferta` (com `data-sinal`) e `.custom-css-reservas-bloqueio`; cada dia da grade `.custom-css-reservas-horarios-dia` (com `data-dia`); e as janelas `.custom-css-modal-reservas-recurso`, `.custom-css-modal-reservas-oferta` e `.custom-css-modal-reservas-bloqueio`.
+
+### 30.24.0
+
+- Dashboard: a tendência dos indicadores ganha a âncora `.custom-css-kpi-tendencia` (com `data-sentido` positiva, negativa ou neutra), os botões de PDF dos relatórios ganham `.custom-css-relatorio-operador-pdf` e `.custom-css-relatorio-periodo-pdf`, e a nota do atendente no painel antigo ganha `.custom-css-atendente-avaliacao`.
+
+### 30.23.0
+
+- Usuários: o campo "Pode iniciar novos atendimentos" da janela do usuário ganha a âncora `.custom-css-usuario-pode-iniciar-atendimentos`.
+
+### 30.21.0
+
+- Projetos → avisos ao cliente: a linha das variáveis (`.custom-css-avisos-do-projeto-variaveis`) volta a mostrar as variáveis do projeto e as da conversa, cada uma como código (`code.custom-css-avisos-do-projeto-variavel`).
+
+### 30.20.0
+
+- Chat interno: a mensagem do sistema (a gravação, a transcrição e a análise da chamada) ganha cor própria — o balão `.custom-css-chats-msg-sistema`, junto de `.custom-css-chats-msg`, com `data-origem="sistema"` —, do lado das mensagens recebidas (`data-fromme="false"`), mesmo quando foi escrita em nome de quem está olhando.
+
+### 30.19.0
+
+- Painel do contato (a lateral da conversa): o cartão Tarefas (`.custom-css-contato-tarefas`, com o topo `.custom-css-contato-tarefas-topo`, o título `.custom-css-contato-tarefas-titulo`, o botão "Nova tarefa" `.custom-css-contato-tarefas-nova`, o aviso de lista vazia `.custom-css-contato-tarefas-vazio` e o botão das concluídas `.custom-css-contato-tarefas-concluidas`); cada tarefa (`.custom-css-contato-tarefa`, com `data-tarefa`, `data-situacao` e `data-tipo`) tem o título `.custom-css-contato-tarefa-titulo`, o detalhe `.custom-css-contato-tarefa-detalhe`, a situação `.custom-css-contato-tarefa-situacao` e, na reunião pendente, o botão de entrar na sala `.custom-css-contato-tarefa-entrar` (com `data-sala`).
+
+### 30.18.0
+
+- Projetos: a cobrança ao lado do valor da venda (`.custom-css-projeto-venda-cobranca`, com `data-cobrancas`); os links clicáveis na descrição, nos comentários e na descrição da etapa (`.custom-css-projeto-link`); no modelo de projeto, o responsável padrão (`.custom-css-projeto-modelo-responsavel`) e a cópia da descrição e dos anexos da venda (`.custom-css-projeto-modelo-copiar-da-venda`); o mesmo na regra de projeto da etapa do funil (`.custom-css-crm-regra-projeto-responsavel`, `.custom-css-crm-regra-projeto-copiar-da-venda`) e na ação "Criar projeto" do Copilot (`.custom-css-copilot-acao-projeto-responsavel`, `.custom-css-copilot-acao-projeto-copiar-da-venda`) — cada usuário com `data-usuario`.
+
+### 30.17.0
+
+- Projetos: a descrição da etapa — embaixo do nome da coluna, em letra menor (`.custom-css-projeto-etapa-descricao`), e o campo dela na janela da etapa (`.custom-css-projeto-etapa-descricao-campo`); no modelo de projeto, cada etapa (`.custom-css-projeto-modelo-etapa`) com o campo da descrição (`.custom-css-projeto-modelo-etapa-descricao`) e, no "ao ganhar", a escolha dos produtos (`.custom-css-projeto-modelo-produtos`, cada produto com `data-produto`) com a explicação `.custom-css-projeto-modelo-produtos-ajuda`.
+
+### 30.16.0
+
+- Painel de Pedidos: o Cancelar pedido no cartão (`.custom-css-painel-cancelar`, `data-action="cancelar-pedido-do-painel"`, de Em preparo a Saiu) e a janela do motivo `.custom-css-modal-cancelar-pedido-do-painel` (com `data-modo`; o Recusar de Novo abre a mesma janela), com os motivos `.custom-css-cancelar-pedido-motivos` (cada um `.custom-css-cancelar-pedido-motivo`, com `data-motivo`), o campo do Outro `.custom-css-cancelar-pedido-outro`, o aviso do pedido pago `.custom-css-cancelar-pedido-pago` e a linha do cliente `.custom-css-cancelar-pedido-cliente` (com `data-mensagem`). O motivo e quem cancelou aparecem no Ver do painel (`.custom-css-ver-pedido-cancelamento`), no pedido (`.custom-css-pedido-cancelamento`), no histórico do contato (`.custom-css-historico-pedido-cancelamento`) e na lista Cancelados do Relatório do PDV (`.custom-css-relatorio-pdv-cancelados`, cada linha `.custom-css-relatorio-pdv-cancelado` com `data-pedido`); nas Opções do PDV, a explicação do aviso Pedido cancelado `.custom-css-aviso-do-pedido-cancelado-ajuda`.
+
+### 30.10.0
+
+- Consultório: a aba "Quem vê qual agenda" dos Cadastros (`.custom-css-consultorio-acessos`), com uma linha por usuário (`.custom-css-consultorio-acesso`, com `data-modo`, `data-admin` e `data-padrao`), a escolha das agendas, os profissionais de "Estas" e o Salvar; e o aviso da agenda de quem ainda não vê nenhuma (`.custom-css-consultorio-agenda-sem-acesso`) — âncoras novas: custom-css-consultorio-acessos, custom-css-consultorio-acesso, custom-css-consultorio-acesso-modo, custom-css-consultorio-acesso-profissionais, custom-css-consultorio-acesso-salvar, custom-css-consultorio-agenda-sem-acesso.
+
+### 30.9.0
+
+- Consultório: o "Ao enviar" do lembrete e da confirmação manual (`.custom-css-consultorio-ao-enviar`, com `data-ao-enviar`) — não abrir atendimento ou abrir no setor, com o status e o usuário — e o setor onde cai a resposta do paciente (`.custom-css-consultorio-setor-da-resposta`, com `data-setor-da-resposta`); e o que cada botão faz (`.custom-css-consultorio-acoes-dos-botoes`, com `data-cancelar` e `data-remarcar`) — âncoras novas: custom-css-consultorio-ao-enviar, custom-css-consultorio-setor-da-resposta, custom-css-consultorio-acoes-dos-botoes.
+
+### 30.8.0
+
+- Consultório: em cada regra de lembrete, por onde ela sai (`.custom-css-consultorio-lembrete-conexao`, com `data-tipo-conexao`) — como antes, a do atendimento do paciente ou uma fixa, e a reserva — e, na API oficial, o modelo aprovado (`.custom-css-consultorio-modelo`, com `data-modelo` e `data-faltas`; o aviso das conexões sem o modelo com `data-conexoes`), também na confirmação manual — âncoras novas: custom-css-consultorio-lembrete-conexao, custom-css-consultorio-modelo, custom-css-consultorio-modelo-corpo, custom-css-consultorio-modelo-aviso, custom-css-consultorio-modelo-faltas.
+
+### 30.7.0
+
+- PDV: a comissão do entregador nas Opções do PDV — a regra geral (com `data-tipo`) e as regras próprias de cada entregador (com `data-entregador-id`) — e, no Relatório do PDV, a tabela da comissão dos entregadores (cada linha com `data-entregador-id` e `data-regra-propria`) — âncoras novas: custom-css-opcoes-comissao-do-entregador, custom-css-comissao-do-entregador-geral, custom-css-comissao-do-entregador-propria, custom-css-comissao-do-entregador-remover, custom-css-comissao-do-entregador-nova, custom-css-relatorio-pdv-comissao-entregador, custom-css-relatorio-pdv-comissao-entregador-como, custom-css-relatorio-pdv-comissao-entregador-linha, custom-css-relatorio-pdv-comissao-entregador-total.
+
+### 30.6.0
+
+- PDV e Cardápio Digital: em Desconto e taxa por forma de pagamento, as caixas Balcão e Delivery de cada regra (com `data-canal`); no Cashback, as regras por categoria — cada uma com o nome, o % e as categorias, a categoria que já está noutra regra marcada (`data-em-outra-regra`) e o aviso do que falta (`data-problema`) — âncoras novas: custom-css-ajustes-das-formas-canais-ajuda, custom-css-ajuste-da-forma-canais, custom-css-ajuste-da-forma-canal, custom-css-cardapio-cashback-regras, custom-css-cardapio-cashback-regra, custom-css-cardapio-cashback-regra-remover, custom-css-cardapio-cashback-regra-nova, custom-css-cardapio-cashback-regras-erro.
+
+### 30.5.0
+
+- Produtos e PDV: o Preço Delivery no cadastro do produto e em cada variação, e o botão Ativa em cada adicional e sabor (com `data-ativa`); na escolha do item, o aviso do grupo sem nenhuma opção ativa — âncoras novas: custom-css-produto-preco-delivery, custom-css-produto-variacao-preco-delivery, custom-css-produto-opcao-ativa, custom-css-escolha-do-item-sem-opcao.
+
+### 30.4.1
+
+- Pesquisar: ganchos estáveis na tabela, nos campos e nos estados da busca — âncoras novas: custom-css-atendimentos-tabela, custom-css-atendimentos-linha, custom-css-atendimentos-vazio, custom-css-atendimentos-carregando, custom-css-atendimentos-paginacao, custom-css-atendimentos-filtro-protocolo, custom-css-atendimentos-filtro-data-inicial, custom-css-atendimentos-filtro-data-final, custom-css-atendimentos-filtro-texto, custom-css-atendimentos-filtro-transferencias (os campos de Protocolo, Datas e Texto e a caixa Incluir transferências ganham a própria classe, além da `.custom-css-atendimentos-filtro` de fora, que continua). E a `window` passa a disparar o evento `atendimentos:buscado` quando a busca termina (ver Eventos); nada muda no desenho.
+
+### 30.4.0
+
+- Consultório: os lembretes automáticos viram uma lista de até 6 regras na aba Confirmação (cada uma com o nome, o prazo em minutos, horas ou dias antes, a hora do envio, os serviços, quem recebe e o texto) — âncoras novas: custom-css-consultorio-lembretes, custom-css-consultorio-lembretes-lista, custom-css-consultorio-lembrete, custom-css-consultorio-lembrete-editar, custom-css-consultorio-lembrete-remover, custom-css-consultorio-lembretes-adicionar, custom-css-modal-consultorio-lembrete, custom-css-consultorio-lembrete-prazo, custom-css-consultorio-lembrete-status, custom-css-consultorio-lembrete-servicos, custom-css-consultorio-lembrete-salvar. A `.custom-css-consultorio-lembrete-ativo` passou do interruptor único de antes para o interruptor de cada regra.
+
+### 30.3.0
+
+- Consultório: a API de escrita — a aba Integrações com as chaves da API (o nome da integração, os escopos atendente, clínica e pacientes, revogar; a chave inteira aparece uma vez só) e o código da consulta na janela do agendamento — âncoras novas: custom-css-consultorio-chaves, custom-css-consultorio-chaves-nova, custom-css-consultorio-chaves-escopo, custom-css-consultorio-chaves-criar, custom-css-consultorio-chaves-lista, custom-css-consultorio-chave, custom-css-consultorio-chave-revogar, custom-css-modal-consultorio-chave-segredo, custom-css-consultorio-chaves-segredo, custom-css-consultorio-chaves-copiar, custom-css-consultorio-agenda-codigo.
+
+### 30.2.1
+
+- Atendimento: abrir uma conversa durante um disparo grande de campanha não mostra mais "Ticket encerrado com sucesso" nem devolve para a lista — a tela só considera os avisos do servidor depois que o atendimento carregou; nenhuma âncora nova.
+
+### 30.2.0
+
+- Consultório: a marcação de fora — a aba Marcação (a antecedência e o horizonte da tela e da API), a marca "aceita marcação pela API" no serviço e no profissional, a regra da API só do serviço e o aviso do horizonte na marcação da recepção — âncoras novas: custom-css-consultorio-marcacao, custom-css-consultorio-marcacao-porta, custom-css-consultorio-marcacao-api, custom-css-consultorio-marcacao-salvar, custom-css-consultorio-servico-marcacao-externa, custom-css-consultorio-profissional-marcacao-externa, custom-css-consultorio-agenda-alem-do-horizonte.
+
+### 30.1.1
+
+- Projetos: a lista e a página de um projeto voltam a rolar — a lista (na grade e no quadro) e a página do projeto inteira (com a descrição, os comentários e a visão) rolam dentro do custom-css-page-panel, e o quadro do projeto não é mais espremido pela descrição; nenhuma âncora nova.
+
+### 30.1.0
+
+- Consultório: o webhook confiável — novas tentativas com espera crescente, o aviso no sino quando elas acabam, a URL só por https:// e sempre assinada, e a aba do webhook com o aviso da URL parada e a política de entrega — âncoras novas: custom-css-consultorio-webhook-bloqueado, custom-css-consultorio-webhook-entrega.
+
+### 30.0.0
+
+- Consultório: o contato do WhatsApp na ficha do paciente (escolher, trocar e abrir a conversa), o registro da consulta que já passou (atendida ou falta), o aviso da chegada adiantada, o fim antes do início marcado no expediente, a lista de usuários vazia explicada e as tabelas de volta no celular (o CSS que as escondia valia para o painel inteiro) — âncoras novas: custom-css-consultorio-paciente-contato, custom-css-consultorio-paciente-contato-nome, custom-css-consultorio-paciente-abrir-conversa, custom-css-consultorio-paciente-trocar-contato, custom-css-consultorio-paciente-sem-contato, custom-css-consultorio-paciente-buscar-contato, custom-css-modal-consultorio-consulta-passada, custom-css-consultorio-registrar-passado, custom-css-consultorio-profissional-sem-usuarios.
+
+### 29.999.0
+
+- Link na Bio: várias páginas e subpáginas (/bio/empresa/eventos), o botão Página e o rodapé da instância (no fim da página ou selo no canto) — âncoras novas: custom-css-link-na-bio-paginas, custom-css-link-na-bio-pagina-opcao, custom-css-link-na-bio-nova-principal, custom-css-link-na-bio-nova-subpagina, custom-css-link-na-bio-apagar-pagina, custom-css-link-na-bio-nova-pagina, custom-css-link-na-bio-aviso-subpagina, custom-css-link-na-bio-selo, custom-css-rodape-do-link-na-bio.
+
+### 29.998.0
+
+- API de Produtos: a lista com busca, filtros e páginas, o produto por id ou por SKU, o estoque (lançar e consultar) e o cadastro com o Token da Empresa — sem âncora nova (é só servidor).
+
+### 29.997.0
+
+- API de Tarefas: a tarefa completa, comentários com menções, anexos, e a lista com vencimento, páginas e 400 no filtro inválido — sem âncora nova (é só servidor).
+
+### 29.996.0
+
+- API de Agendamentos: listar com filtros e páginas, ver um (com o motivo do erro) e editar o que ainda não saiu — sem âncora nova (é só servidor).
+
+### 29.995.0
+
+- Leads de anúncio: filtro por anúncio, lista dos leads do anúncio na página e chegada por hora (gráfico + mapa de calor) — âncoras novas: custom-css-relatorio-anuncios-filtro-anuncio, custom-css-relatorio-anuncios-chegada, custom-css-relatorio-anuncios-pico, custom-css-relatorio-anuncios-mapa-de-calor, custom-css-relatorio-anuncios-leads-do-filtro.
+
+### 29.994.0
+
+- API do Quadro de atendimentos: as funções da tela do Quadro pelo token da conexão ou da empresa — sem âncora nova (é só servidor).
+
+### 29.993.0
+
+- Relatório da campanha: os cartões Enviados, falhas e Retentativas contam a campanha inteira, não só as linhas carregadas na lista — sem âncora nova (os cartões já tinham as suas).
+
+### 29.992.0
+
+- Webhook da conexão: as mudanças feitas pela API (updateAPI, createTicketAPI, changequeue, closestatus, closeforced) e a reabertura pelo contato mandam o mesmo aviso do painel, com a origem (api ou contato) — sem âncora nova (nenhuma tela mudou).
+
+### 29.991.0
+
+- Prompt de IA no grupo do WhatsApp: sem prompt no contato do grupo, responde o prompt do Setor (só pelo gatilho), o grupo entra no Setor único da conexão e a IA lê as mensagens seguidas juntas; o campo de gatilho ganhou uma ajuda — sem âncora nova (o campo já tinha a do modal).
+
+### 29.990.0
+
+- Junção de contatos: os envios de campanha ficam no item da lista deles — a junção não quebra mais com o erro de chave do envio, e a campanha pula o contato que saiu da lista enquanto nascia — sem âncora nova (nenhuma tela mudou).
+
+### 29.989.0
+
+- API (whatsapp_whatsmeow_pro): o áudio em base64 é convertido para OGG/Opus antes do envio, e o carrossel grava sem a nota de erro interno — sem âncora nova (nenhuma tela mudou).
+
+### 29.988.0
+
+- Webhook da conexão: cada aviso leva também de onde veio (`origemDoEvento`: painel, celular, api, flowbuilder, chatbot, campanha, agendamento, ia, sistema ou contato) — sem âncora nova (nenhuma tela mudou).
+
+### 29.987.0
+
+- Webhook da conexão: cada aviso leva o código do evento, o número da entrega por destino e a assinatura, e as entregas podem ser buscadas de novo pela API — sem âncora nova (nenhuma tela mudou).
+
+### 29.986.1
+
+- Configurações → Empresas (a lista do super): a lista abre rápido mesmo com muitas empresas, configurações e conexões — sem âncora nova (a tela é a de sempre).
+
+### 29.986.0
+
+- Criar Template (WABA): o aviso da prévia de exemplo `.custom-css-waba-template-previa-exemplo` (`data-previa="exemplo"` e a aba em `data-categoria-do-template`), o erro do texto do botão longo `.custom-css-waba-template-erro-botao` e o limite no campo Texto do botão (`data-limite`).
+
+### 29.985.0
+
+- Conversa do atendimento: a marca da transcrição `.custom-css-mensagem-transcricao` (`data-transcricao="sim"`), em cima do texto que transcreveu um áudio — o do Transcrever Áudio e o da transcrição automática do Setor, no WhatsApp, no WebChat e no Chat Externo.
+
+### 29.984.0
+
+- Avaliação pela IA (painel do dia e evolução): a aba Hoje `.custom-css-avaliacao-ia-hoje`, com cada vendedor que precisa de você `.custom-css-avaliacao-ia-precisa` (`data-atendente`, e cada motivo em `data-motivo`) e os que estão em dia `.custom-css-avaliacao-ia-em-dia`; a aba Evolução `.custom-css-avaliacao-ia-evolucao-semanal`, com a tabela `[data-grafico="evolucao-semanal"]` (cada célula `data-semana`, a média `data-media`, a variação `data-variacao`); a janela da avaliação aberta pelo alerta do sino `.custom-css-avaliacao-ia-detalhe` (`data-avaliacao-detalhe`). Nas Opções, os alertas à gestão `.custom-css-avaliacao-ia-alertas`.
+
+### 29.983.0
+
+- Avaliação pela IA (processo ideal): nas Opções, o bloco `.custom-css-avaliacao-ia-processo`, com as etapas `.custom-css-avaliacao-ia-etapas` e cada etapa `.custom-css-avaliacao-ia-etapa`. No relatório: o filtro `.custom-css-avaliacao-ia-filtro-etapa`, a tabela Onde o time perde `.custom-css-avaliacao-ia-por-etapa` (`[data-ranking="etapa"]`), o motivo da nota `.custom-css-avaliacao-ia-motivo`, a aderência `.custom-css-avaliacao-ia-aderencia` e as etapas de cada avaliação `.custom-css-avaliacao-ia-etapas-da-avaliacao`, cada uma `.custom-css-avaliacao-ia-etapa-avaliada` (com `data-etapa` e a situação em `data-situacao`). Nas aulas, o foco `.custom-css-avaliacao-ia-aula-foco`.
+
+### 29.981.0
+
+- Produto: o bloco "Peso e medidas" `.custom-css-produto-peso-e-medidas` (só com a Loja Digital), com cada campo `.custom-css-produto-medida`. Opções do PDV: o frete pelos Correios `.custom-css-correios-do-pdv`, com o liga e desliga `.custom-css-correios-ativo`, o contrato `.custom-css-correios-contrato`, os serviços `.custom-css-correios-servicos` (com `.custom-css-correios-adicionar-servico` e `.custom-css-correios-remover-servico`), os dias e as medidas padrão `.custom-css-correios-medidas`, o Salvar `.custom-css-correios-salvar`, o teste `.custom-css-correios-teste` com `.custom-css-correios-testar` e o resultado `.custom-css-correios-resultado`.
+
+### 29.980.0
+
+- Produto: o bloco "Sob encomenda / pré-venda" `.custom-css-produto-encomenda` (só com a Loja Digital), com a escolha do modo `.custom-css-produto-encomenda-modo`, o aviso do prazo `.custom-css-produto-encomenda-prazo` e o lembrete do produto sem controle de estoque `.custom-css-produto-encomenda-sem-controle`.
+
+### 29.979.0
+
+- Oportunidade: na faixa da conexão, o botão "Alterar conexão" `.custom-css-oportunidade-alterar-conexao`; aberta, a troca `.custom-css-oportunidade-troca-de-conexao`, com a escolha da conexão `.custom-css-oportunidade-nova-conexao`, o Trocar `.custom-css-oportunidade-confirmar-conexao` e o Cancelar `.custom-css-oportunidade-cancelar-conexao`.
+
+### 29.978.0
+
+- Usuários: a permissão "Pode acessar os Projetos" no cadastro do usuário `.custom-css-usuario-acesso-projetos` (só com o módulo Projetos). Com o "Acesso Limitado", o menu limitado ganha o item Projetos de quem tem a permissão; sem ela, o item some dos dois menus e do painel do contato.
+
+### 29.977.0
+
+- CRM: pelo Funil e pelo Board da v2, o vendedor abre o atendimento já encerrado da oportunidade (o histórico da conversa), mesmo de outro setor — sem âncora nova (a janela do atendimento é a de sempre).
+
+### 29.976.0
+
+- Oportunidades, modo lista: no celular em pé, cada oportunidade é um bloco (`.custom-css-oportunidades-lista-compacta`, a linha com `data-compacta`); deitado ou no computador, a tabela rola de lado (`.custom-css-oportunidades-tabela-rolagem`).
+
+### 29.975.0
+
+- PDV: o link de pagamento do pedido feito no Balcão (ou na página de Pedidos) com o cliente escolhido vai para ele pelo WhatsApp — sem âncora nova (a janela de pagamentos é a de sempre).
+
+### 29.974.0
+
+- Cardápio Digital: a galeria de fotos do produto na janela do produto (`.galeria`, com a contagem `.galeria-contagem`), nos modelos Original, Moderno e Vitrine — antes só na Loja.
+
+### 29.973.0
+
+- Tarefas: a situação ao lado do título da janela (`.custom-css-tarefa-situacao`, com `data-situacao`) e o botão "Reabrir" do administrador (`.custom-css-tarefa-btn-reabrir`).
+
+### 29.972.0
+
+- Avaliação pela IA: o filtro por conexão no relatório (`.custom-css-avaliacao-ia-filtro-conexao`, ao lado de Atendente e Setor).
+- Painel, Aniversariantes: o ícone de cada contato (`.custom-css-aniversariantes-conversar`) abre a janela de Novo ticket com ele.
+
+### 29.971.0
+
+- Produtos: os botões "Exportar planilha" (`.custom-css-produtos-exportar`) e "Substituir catálogo" (`.custom-css-produtos-substituir`), a confirmação da substituição (`.custom-css-modal-confirmation-produtos-substituir-catalogo`) e, no resultado da importação (`.custom-css-modal-product-import`, agora com `data-substituicao`), os avisos `.custom-css-product-import-substituicao-cancelada` e `.custom-css-product-import-nao-removidos`.
+
+### 29.970.0
+
+- Conexões: o botão "Clonar conexão" (`[data-connection-action="clone"]`, `.custom-css-connection-clonar`) no cartão das conexões de QR Code, ao lado do Editar, e a janela dele (`.custom-css-modal-clonar-conexao`, com `data-clone-estado`): a explicação e os passos (`.custom-css-clonar-conexao-passos`, um `.custom-css-clonar-conexao-passo-*` por passo), o aviso, o resultado (`.custom-css-clonar-conexao-resultado`, uma `.custom-css-clonar-conexao-linha` por item) e os botões Cancelar, Clonar, Fechar e Ler o QR Code.
+
+### 29.968.0
+
+- Configurações → Opções: os nomes antigos `aniversario` e `2fa` voltam (`.custom-css-settings-secao.custom-css-settings-secao-antiga`, com `data-settings-secao`), agora em volta do campo que essas seções tinham — a mensagem de aniversário, dentro de `mensagens`, e a verificação em duas etapas, dentro de `seguranca`. O CSS que mirava as seções antigas volta a achar o alvo.
+
+### 29.965.0
+
+- Configurações → Opções ganha a opção "Despedida obrigatória ao encerrar?" (`.custom-css-opcao-despedida-obrigatoria`, com `data-ligada`); ligada, o "sem despedida" some do atendimento.
+
+### 29.963.0
+
+- O prompt do tipo Agente OpenAI mostra o aviso de que a OpenAI desligou os agentes e passa a usar as instruções escritas (`.custom-css-prompt-agente-desligado`, com `data-desligado`).
+
+### 29.962.0
+
+- A escolha do modelo do prompt abre com a opção "Modelo do provedor", que segue o provedor de IA da empresa (`.custom-css-prompt-modelo-do-provedor`, com `data-modelo`).
+
+### 29.960.0
+
+- A janela Comandos da IA avisa o que falta escolher (setor, pessoa ou tag) antes de inserir o comando (`.custom-css-comandos-ia-falta`, com `data-falta`).
+
+### 29.959.0
+
+- A confirmação de apagar um prompt avisa onde ele está em uso: os setores e quantos atendimentos abertos estão com ele (`.custom-css-prompt-excluir-em-uso`, com `data-em-uso`).
+
+### 29.957.0
+
+- Âncoras estáveis onde só havia texto ou posição: as faixas de seção do cadastro de Planos (`.custom-css-planos-secao`, com `data-section`), o painel de exportar contatos (`.custom-css-contacts-exportar`), o cabeçalho dos dias da semana na Agenda (`.custom-css-agenda-dia-da-semana`, com `data-weekday`), os selos de prioridade da tarefa (`.custom-css-task-prioridade`) e de situação do agendamento (`.custom-css-agenda-evento-status`), a descrição no cartão da tarefa (`.custom-css-task-descricao`), os títulos das seções da janela de contato (`.custom-css-contact-modal-secao`, com `data-section`) e os estados vazios de Atendimentos e Contatos (`.custom-css-empty-state`, com `data-empty`).
+
+### 29.956.0
+
+- Contatos: a célula do nome na lista (`.custom-css-contacts-nome`, com `data-sem-nome` quando o cadastro não tem nome) e o ícone de pessoa no avatar quando o nome não começa com letra (`.custom-css-contacts-avatar-icone`).
+
+### 29.955.0
+
+- E-mails: o corpo do e-mail abre num quadro isolado (`.custom-css-emails-corpo`, com `data-email-isolado`) — o estilo do e-mail não muda o painel, e o CSS da empresa não alcança o conteúdo do e-mail.
+
+### 29.953.0
+
+- Menu: o favorito recém-marcado, no topo, fica em destaque por um instante (`.custom-css-menu-favorito-novo`, com `data-favorito-novo`), e a rolagem do menu vai até ele.
+
+### 29.952.0
+
+- Celular: a faixa "Ticket / Atendimentos" (`.custom-css-mobile-tabs-caixa`) pode ser escondida com `display:none` e a conversa ocupa a tela inteira — a grade do `.custom-css-mobile-shell` passou a `auto 1fr`, com cada parte na sua linha (antes a conversa subia para a linha fixa de 56px).
+
+### 29.950.0
+
+- Produtos: a cobrança padrão (`.custom-css-produto-cobranca`) e os detalhes da proposta (`.custom-css-produto-detalhes`) na janela do produto, só com o CRM no plano; e a marca do cartão (`.custom-css-product-card-marca`) com `data-marca-da-ficha` quando vem da ficha técnica.
+
+### 29.948.0
+
+- Tarefas: a barra da seleção em massa (`.custom-css-tarefas-selecao`, com `data-selecionadas`), o marcar da página (`.custom-css-tarefas-selecao-pagina`), o "selecionar todas" (`.custom-css-tarefas-selecao-todas`), o concluir, o excluir e o limpar (`.custom-css-tarefas-selecao-concluir`, `.custom-css-tarefas-selecao-excluir`, `.custom-css-tarefas-selecao-limpar`), o marcar de cada tarefa (`.custom-css-task-selecionar`), a janela do andamento (`.custom-css-tarefas-em-massa-andamento`) e a paginação (`.custom-css-tarefas-paginacao`).
+
+### 29.947.0
+
+- Texto de antes da edição, no balão (atendimento e chat interno): a caixa das versões (`.custom-css-edicao-versoes`, com `data-edicao-lugar`), cada versão (`.custom-css-edicao-versao`, com `data-edicao-versao`), o título com a data e quem editou (`.custom-css-edicao-versao-titulo`) e o texto que saiu (`.custom-css-edicao-versao-texto`).
+
+### 29.946.0
+
+- Assistente de IA (página nova): a página (`.custom-css-page-assistente`), a conversa (`.custom-css-assistente-conversa`), cada mensagem (`.custom-css-assistente-mensagem`, com `data-papel`), as boas-vindas e as sugestões (`.custom-css-assistente-boas-vindas`, `.custom-css-assistente-sugestao`), o "consultando" (`.custom-css-assistente-pensando`), a tabela da resposta e o exportar (`.custom-css-assistente-tabela`, `.custom-css-assistente-exportar`), o campo e o enviar (`.custom-css-assistente-envio`, `.custom-css-assistente-enviar`) e o limpar (`.custom-css-assistente-limpar`).
+
+### 29.944.0
+
+- Cardápio e Loja → Cupons: na janela do cupom, a chave "Mostrar no carrinho" (`.custom-css-cupom-no-carrinho`) e a escolha dos clientes do cupom (`.custom-css-cupom-clientes`).
+
+### 29.943.0
+
+- PDV → o desconto e a taxa por forma de pagamento: as opções (`.custom-css-ajustes-das-formas`, cada forma em `.custom-css-ajuste-da-forma`), a linha do ajuste e o aviso da forma no balcão (`.custom-css-balcao-ajuste-da-forma`, `.custom-css-balcao-regra-da-forma`) e na janela do pedido (`.custom-css-pedido-ajuste-da-forma`, `.custom-css-pedido-regra-da-forma`).
+
+### 29.942.0
+
+- PDV → Clientes, a consulta do cliente: a página (`#custom-css-clientes-pdv`), a busca (`.custom-css-clientes-pdv-busca`), os clientes achados (`.custom-css-clientes-pdv-achados`), o resumo (`.custom-css-clientes-pdv-resumo`) e os blocos do cashback, do resumo, dos mais pedidos, dos cupons e dos pedidos (`.custom-css-clientes-pdv-cashback`, `-totais`, `-mais-pedidos`, `-cupons`, `-pedidos`); no Cardápio, as categorias que geram cashback (`.custom-css-cardapio-cashback-categorias`) e a chave do cashback na taxa de entrega (`.custom-css-cardapio-cashback-entrega`).
+
+### 29.941.0
+
+- Os setores de produção: a janela (`.custom-css-setores-do-pdv`), cada setor da lista (`.custom-css-setor-do-pdv`, com `data-setor`) e o botão Setores em Produtos (`.custom-css-produtos-setores`); na categoria, o setor ao lado do nome (`.custom-css-categoria-setor`) e o campo do setor no Editar (`.custom-css-categoria-setor-campo`); no Painel de Pedidos, o filtro do setor (`.custom-css-painel-de-pedidos-setor`), o setor de cada item (`.custom-css-painel-item-setor`) e o aviso dos itens de outros setores (`.custom-css-painel-outros-setores`).
+
+### 29.940.0
+
+- Produtos → Categorias: a imagem da categoria na lista (`.custom-css-categoria-imagem`, ao lado da cor) e, no Editar, o campo da imagem (`.custom-css-categoria-imagem-campo`), com a prévia, o escolher ou trocar e o tirar.
+
+### 29.939.0
+
+- Configurações → Opções → Moeda: a confirmação de trocar para uma moeda sem centavos (`.custom-css-modal-confirmation-moeda-sem-centavos`), que avisa que os preços com centavos vão ser arredondados.
+
+### 29.938.0
+
+- Conversa: a mensagem que a empresa editou fica na própria mensagem, com o texto novo e o "Editada" ao lado da hora (`.message-edited`, e `[data-edited="user"]` no balão) — antes vinha um balão novo citando a original.
+
+### 29.937.0
+
+- E-mails: na busca sem resultado, o aviso de que ela procura só no que já foi trazido (`.custom-css-emails-busca-so-trazidos`) e o botão que traz os anteriores do servidor (`.custom-css-emails-busca-trazer-anteriores`).
+
+### 29.936.0
+
+- Configurações → Opções reorganizadas: as seções da empresa agora são `empresa` · `expediente` · `permissoes` · `rodizio` · `transferencias` · `bot` · `avaliacoes` · `chamadas` · `grupos` · `contatos-campos` · `mensagens` · `sons-notificacoes` · `carteiras` · `pdv` · `webhooks` · `crm` · `armazenamento` · `seguranca` · `logs` · `sistema` (o `data-settings-secao`). `aniversario` virou parte de `mensagens` e `2fa`, de `seguranca`; as que continuam mantêm o nome.
+- O subtítulo dentro de uma seção (`.custom-css-settings-subtitulo`): "Avaliação pelo cliente", "Chamadas do WhatsApp", "Chamadas da plataforma", "Saudação e despedida do operador", "Assinatura".
+- Armazenamento remoto: o olho do S3 SECRET (`.custom-css-armazenamento-olho`), que agora começa escondido, e a ajuda da seção (`.custom-css-armazenamento-ajuda`). Avaliação pela IA: o webhook à parte, em Webhooks (`.custom-css-avaliacao-ia-webhook`).
+
+### 29.935.0
+
+- Firebase Push (super): o aviso de onde o arquivo fica (`.custom-css-firebase-guardado`) — no lugar do caminho do arquivo no servidor.
+
+### 29.934.0
+
+- FlowBuilder: o bloco Intervalo em segundos, minutos ou horas (até 24 horas) — o tempo e a unidade na janela (`.custom-css-flow-intervalo-tempo`), "se o cliente responder" (`.custom-css-flow-intervalo-ao-responder`), o aviso da janela de 24h (`.custom-css-flow-intervalo-janela`); no cartão, o tempo legível (`.custom-css-flow-node-interval-tempo`) e a saída "Janela expirada" (`.custom-css-flow-node-interval-janela`, rótulo `.custom-css-flow-node-interval-janela-rotulo`).
+
+### 29.933.0
+
+- Cardápio e Loja Digital: o botão "Usar o padrão" do exemplo da observação (`.custom-css-cardapio-exemplo-padrao`) — volta ao exemplo do tipo do negócio escolhido em Configurações.
+
+### 29.932.0
+
+- Mesas e Comandas: o aviso da busca sem resultado (`.custom-css-comandas-busca-vazia`) — aparece quando a busca não acha nenhuma mesa ou comanda, no lugar de "Nenhuma mesa cadastrada".
+- Relatório do PDV: a explicação da comissão do garçom (`.custom-css-relatorio-pdv-comissao-como`) — como a conta é feita, o arredondamento uma vez no total e a regra valendo de cada rodada em diante.
+- Integrações: o campo Token OpenAI agora é de senha (`.custom-css-integracoes-chave-openai`), com o olho para mostrar e esconder a chave.
+
+### 29.931.0
+
+- Produtos: a marca do produto — o campo no cadastro (`.custom-css-produto-marca`, com as marcas já usadas como sugestão), a marca no card da lista (`.custom-css-product-card-marca`) e o filtro por marca (`.custom-css-produtos-filtro-marca`).
 
 ### 29.930.0
 

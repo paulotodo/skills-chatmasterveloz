@@ -16,7 +16,7 @@ Na página do Mercado Pago, o cliente escolhe como pagar: Pix, cartão ou boleto
 >
 > ➡️ No Mercado Pago, em **Suas integrações**, copie o **Access Token** das **Credenciais de produção** da sua aplicação.
 >
-> ➡️ Na plataforma, acesse o menu **Configurações  ›  Opções**, cole o token em **Access Token do Mercado Pago da empresa (links de pagamento do PDV)** e clique em **Salvar**.
+> ➡️ Na plataforma, acesse o menu **Configurações  ›  Opções  ›  Vendas**, seção **PDV**, cole o token em **Access Token do Mercado Pago da empresa (links de pagamento do PDV)** e clique em **Salvar**.
 
 ## Como pegar o Access Token no Mercado Pago
 
@@ -32,7 +32,7 @@ Na página do Mercado Pago, o cliente escolhe como pagar: Pix, cartão ou boleto
 
 ## Como integrar o Mercado Pago à nossa plataforma
 
-Acesse o menu **Configurações  ›  Opções**
+Acesse o menu **Configurações  ›  Opções  ›  Vendas**, seção **PDV**.
 
 🔘 **Access Token do Mercado Pago da empresa (links de pagamento do PDV):** cole o Access Token e clique em **Salvar**. A tela confirma que o Mercado Pago foi conectado.
 

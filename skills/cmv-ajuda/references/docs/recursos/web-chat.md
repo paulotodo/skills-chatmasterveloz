@@ -76,6 +76,16 @@ Só aparece com conteúdo **depois de salvar** a conexão: no cadastro novo, a a
 
 ⚠️ O código identifica a sua conexão. Quem tem o código consegue abrir chats na sua operação; não publique fora do seu site.
 
+## Botões e menu do fluxo no Web Chat
+
+Quando o Setor da conexão roda um fluxo do **FlowBuilder**, o bloco **Botões** e o **Menu em Lista** chegam clicáveis no chat do site: o visitante toca na opção em vez de digitar, e o fluxo segue na hora. No **Menu em Lista**, o botão da lista abre as opções dentro do chat.
+
+Só a última mensagem com opções aceita o toque: as opções das mensagens anteriores ficam desativadas no chat do site, e o toque numa delas é recusado.
+
+Com **Abrir ticket automaticamente ao visitar** ligado, o fluxo começa quando o visitante abre a página, antes de ele escrever.
+
+Os avisos *Visitante acessou o site* e *Visitante preencheu o formulário* aparecem no atendimento como **mensagem interna** e não respondem o fluxo: o bloco que espera um toque continua esperando o visitante.
+
 > **[DUVIDAS]**
 >
 > #### Dúvidas Comuns
@@ -85,6 +95,8 @@ Só aparece com conteúdo **depois de salvar** a conexão: no cadastro novo, a a
 > **De onde vêm os visitantes que aparecem antes de escrever?** De **Abrir ticket automaticamente ao visitar**. Desligue para só abrir atendimento na primeira mensagem. O mapa fica no menu **Visitantes ao Vivo**.
 >
 > **O chat abre sozinho no site.** É **Abrir o widget automaticamente após**. Coloque **0**.
+>
+> **O visitante do Web Chat pode tocar nos botões do fluxo?** Pode. O bloco **Botões** e o **Menu em Lista** chegam clicáveis no chat do site, e o fluxo segue na hora. Só a última mensagem com opções aceita o toque.
 >
 > **Posso pedir só o nome?** Sim. Em **Campos do formulário inicial**, deixe só **Nome** marcado.
 >

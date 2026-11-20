@@ -20,25 +20,29 @@
 >
 > ➡️ Acesse o menu **Agendamentos**. Clique no nome ou ícone **lápis** (✏️) para Editar.
 >
-> ➡️ Ou dentro da conversa do cliente, clique no botão superior de **Agendamento** e após no nome para Editar.
+> ➡️ Ou, dentro da conversa do cliente, clique em **Agendamento** nas ações do topo do ticket e depois no nome para Editar. Quando ele não está à mostra, fica no botão **⋯** do topo, junto com as outras ações.
 >
 > ➡️ Edite os **campos** desejados e clique no botão **Salvar**.
 
 ## Como editar um Agendamento
 
 Você pode editar um agendamento, que ainda não foi enviado, de duas formas:  
-1. Através do menu → Agendamentos > Editar
+1. Acesse o menu **Agendamentos** e clique no nome do agendamento ou no ícone **lápis** (✏️).
 2. Ou diretamente em um Chat, na área de Ações do Ticket no canto superior, enquanto atende um cliente.
 
-![Ticket - Resumo do Contato](https://clihelper.chatmasterveloz.com/docs-imagem/29353-resumo-do-contato.jpg)⚡ **Informação do Contato**
+No Chat, o **Agendamento** fica nas ações do topo do ticket: à mostra ou, quando não cabe, no botão **⋯**. Com a opção **Ações do topo do ticket** em *Agrupadas*, no menu **Configurações  ›  Opções**, aba **Atendimento**, só **Resolver** e **Transferir** ficam à mostra: o **Agendamento** fica no botão **Mais**, no grupo **ATENDIMENTO**, e o campo **Buscar ação** do **Mais** acha a ação pelo nome.
 
-🔘 **Contato:** Busque o cliente digitando pelo menos 3 letras. (Se usou o atalho do chat, pule esta etapa).
+![Ticket - Resumo do Contato](https://clihelper.chatmasterveloz.com/docs-imagem/29353-resumo-do-contato.jpg)
 
-⚡ **Conexão e Fila**
+⚡ **Informações do Contato**
+
+🔘 **Contato:** Busque o cliente digitando pelo menos 3 letras. A busca acha o contato pelo nome, pelo CPF ou CNPJ (com ou sem pontuação), pelo e-mail ou pelo valor de uma informação adicional do cadastro. (Se usou o atalho do chat, pule esta etapa).
+
+⚡ **Conexão e Setor**
 
 🔘 **Conexão:** Selecione qual conexão enviará a mensagem.
 
-🔘 **Fila:** (Opcional) Vincule a mensagem a um departamento específico. **Funciona apenas** se escolher Abrir Ticket.
+🔘 **Setor:** (Opcional) Vincule a mensagem a um **Setor**. **Funciona apenas** se escolher Abrir Ticket.
 
 #### API Oficial
 
@@ -87,6 +91,8 @@ Você pode também optar por enviar a cada **Ano** a partir da data selecionada 
 > #### Dúvidas Comuns
 >
 > **Posso editar um agendamento que já foi enviado?** Não. O sistema mantém o registro do que já foi enviado como um histórico imutável para sua segurança e auditoria. Se precisar enviar novamente com correções, você deve criar um novo agendamento.
+>
+> **Não acho o botão Agendamento no topo da conversa.** Ele pode estar no botão **⋯** do topo, com as ações que não couberam. Com as ações do topo agrupadas, o **Agendamento** fica no botão **Mais**, no grupo **ATENDIMENTO** — digite *agenda* no campo **Buscar ação**.
 >
 > **O que acontece se eu excluir um agendamento recorrente na metade do caminho?** O sistema interrompe o ciclo imediatamente. Nenhuma das mensagens futuras programadas para aquele "pacote" de repetições será enviada.
 
