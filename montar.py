@@ -14,7 +14,7 @@ Linhas de fontes.txt (o que vem depois de # é comentário):
   css:*.md
   subarvore:FlowBuilder              o item de menu com esse título, nos índices, e tudo abaixo dele
 """
-import io
+import json
 import re
 import shutil
 import sys
@@ -116,10 +116,10 @@ def conferir(pasta):
 
 
 LIMITE_CLAUDE_AI = 200  # o claude.ai recusa o envio: "Zip contains too many files (maximum 200)"
-NOTA_COMPACTADA = """> **Nesta instalação os artigos vêm compactados.** A pasta `references/docs/` não existe aqui: os artigos estão em `references/docs.zip`, porque o claude.ai aceita no máximo 200 arquivos por skill. Antes de ler ou buscar qualquer artigo, rode uma vez, trocando `PASTA` pela pasta desta skill (a que contém este SKILL.md):
+NOTA_COMPACTADA = """> **Nesta instalação os artigos vêm compactados.** A pasta `references/docs/` não existe aqui: os artigos estão todos num arquivo só, `references/docs.json`, porque o claude.ai aceita no máximo 200 arquivos por skill. Antes de ler ou buscar qualquer artigo, rode uma vez, trocando `PASTA` pela pasta desta skill (a que contém este SKILL.md):
 >
 > ```bash
-> python3 -c "import zipfile,tempfile,os; d=os.path.join(tempfile.gettempdir(),'{skill}','docs'); zipfile.ZipFile('PASTA/references/docs.zip').extractall(d); print(d)"
+> python3 -c "import json,tempfile,pathlib; d=pathlib.Path(tempfile.gettempdir(),'{skill}','docs'); [(p:=d/k, p.parent.mkdir(parents=True,exist_ok=True), p.write_text(v,encoding='utf-8')) for k,v in json.load(open('PASTA/references/docs.json',encoding='utf-8')).items()]; print(d)"
 > ```
 >
 > O comando imprime a pasta onde os artigos ficaram. Daí em diante, todo caminho `references/docs/...` citado nesta skill fica nessa pasta: leia, liste e busque ali.{scripts} Na resposta, continue citando o título do artigo e o link, nunca esses caminhos.
@@ -138,12 +138,9 @@ def empacotar(skill):
         if compactar:
             # Os artigos viram um arquivo só, e o SKILL.md do pacote ganha a nota que manda abri-lo.
             # A pasta skills/ não muda: no Claude Code os artigos continuam soltos.
-            dentro = io.BytesIO()
-            with zipfile.ZipFile(dentro, "w", zipfile.ZIP_DEFLATED) as zd:
-                for arq in arquivos:
-                    if docs in arq.parents:
-                        zd.write(arq, arq.relative_to(docs))
-            z.writestr(f"{skill}/references/docs.zip", dentro.getvalue(), zipfile.ZIP_STORED)
+            # Em JSON (caminho -> texto) e não em .zip: o claude.ai recusa "nested zip files".
+            dentro = {arq.relative_to(docs).as_posix(): arq.read_text(encoding="utf-8") for arq in arquivos if docs in arq.parents}
+            z.writestr(f"{skill}/references/docs.json", json.dumps(dentro, ensure_ascii=False))
         for arq in arquivos:
             destino = str(Path(skill) / arq.relative_to(pasta))
             if compactar and docs in arq.parents:
@@ -158,7 +155,7 @@ def empacotar(skill):
     assert total <= LIMITE_CLAUDE_AI, f"{skill}: {total} arquivos no pacote, o claude.ai aceita {LIMITE_CLAUDE_AI}"
     # a ajuda do claude.ai só documenta o envio de .zip; o .skill é o mesmo arquivo com outro nome
     shutil.copyfile(saida, saida.with_suffix(".zip"))
-    print(f"{saida.relative_to(AQUI)}: {saida.stat().st_size // 1024} KB, {total} arquivos" + (", artigos em references/docs.zip" if compactar else ""))
+    print(f"{saida.relative_to(AQUI)}: {saida.stat().st_size // 1024} KB, {total} arquivos" + (", artigos em references/docs.json" if compactar else ""))
 
 
 if __name__ == "__main__":

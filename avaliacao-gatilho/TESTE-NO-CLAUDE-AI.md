@@ -13,11 +13,11 @@ Conferido em 19/11/2026 na Central de Ajuda (`support.claude.com`, artigo "What 
 | `name` | Até 64 caracteres, minúsculas, números e hífens; sem "anthropic" nem "claude" | Conferido |
 | `description` | Até 1.024 caracteres, sem tags XML | A maior tem 1.009 caracteres (1.024 bytes) |
 | Tamanho | 30 MB descompactados (regra da API; o claude.ai não publica limite próprio) | O maior pacote tem 2,7 MB descompactado |
-| Quantidade de arquivos | Não documentado. Visto no envio de 21/11/2026: "Zip contains too many files (maximum 200)" | `cmv-ajuda` (519 artigos) e `cmv-api` (380) passam do limite: o `montar.py` põe os artigos delas num arquivo só, `references/docs.zip`, e o `SKILL.md` do pacote ganha a nota que manda abri-lo. Os pacotes ficam com 4 e 5 arquivos |
+| Quantidade de arquivos | Não documentado. Visto nos envios de 21/11/2026: "Zip contains too many files (maximum 200)" e, com os artigos num zip interno, "Zip cannot contain nested zip files" | `cmv-ajuda` (519 artigos) e `cmv-api` (380) passam do limite: o `montar.py` põe os artigos delas num arquivo de texto só, `references/docs.json`, e o `SKILL.md` do pacote ganha a nota que manda extraí-los. Os pacotes ficam com 4 e 5 arquivos |
 | Pré-requisito | Execução de código ligada | Ver passo 1 |
 | Critério de acionamento | A `description` é comparada com o pedido, como no Claude Code | Não há garantia de comportamento idêntico |
 
-Não documentado, e por isso só o teste responde: o que o claude.ai faz com uma descrição perto do limite, se ele aceita um `.zip` dentro do pacote, se as skills `cmv-ajuda` e `cmv-api` conseguem abrir os artigos compactados no ambiente dele e se o acionamento é igual ao do Claude Code. No Claude Code, com os dois pacotes instalados como o claude.ai os recebe, Haiku e Sonnet abriram os artigos e responderam com a fonte certa (uma execução por modelo e por skill).
+Não documentado, e por isso só o teste responde: o que o claude.ai faz com uma descrição perto do limite, se ele aceita um arquivo de 2,7 MB dentro do pacote, se as skills `cmv-ajuda` e `cmv-api` conseguem extrair os artigos no ambiente dele e se o acionamento é igual ao do Claude Code. No Claude Code, com os dois pacotes instalados como o claude.ai os recebe, Haiku e Sonnet abriram os artigos e responderam com a fonte certa (uma execução por modelo e por skill, ainda com o zip interno; com o `docs.json` só foi conferido que o comando da nota e o buscador devolvem os artigos idênticos aos originais).
 
 ## Passo 1: instalar
 
@@ -29,8 +29,8 @@ Não documentado, e por isso só o teste responde: o que o claude.ai faz com uma
 
 | Pacote | Aceito? | Mensagem, se recusado |
 |---|---|---|
-| cmv-ajuda.zip | Recusado em 21/11 (pacote antigo, 522 arquivos). Reenviar o pacote novo | "Zip contains too many files (maximum 200)" |
-| cmv-api.zip | Recusado em 21/11 (pacote antigo, 384 arquivos). Reenviar o pacote novo | "Zip contains too many files (maximum 200)" |
+| cmv-ajuda.zip | Recusado duas vezes em 21/11 (522 arquivos; depois, zip interno). Reenviar o pacote com `docs.json` | "Zip contains too many files (maximum 200)"; "Zip cannot contain nested zip files" |
+| cmv-api.zip | Recusado duas vezes em 21/11 (384 arquivos; depois, zip interno). Reenviar o pacote com `docs.json` | "Zip contains too many files (maximum 200)"; "Zip cannot contain nested zip files" |
 | cmv-flowbuilder.zip | Aceito em 21/11 | |
 | cmv-agente-ia.zip | Aceito em 21/11 | |
 | cmv-mensagens.zip | Aceito em 21/11 | |

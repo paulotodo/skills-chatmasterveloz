@@ -27,7 +27,7 @@ claude --plugin-dir /caminho/para/skills-chatmasterveloz
 cp -r skills/cmv-* ~/.claude/skills/
 ```
 
-**claude.ai (aplicativo e site):** gere os pacotes com `python3 montar.py --zip` e envie cada arquivo `dist/<nome>.zip` em **Customize › Skills › + › Create skill › Upload a skill**. É preciso ter a execução de código ligada em **Settings › Capabilities**. O `dist/<nome>.skill` é o mesmo arquivo com outra extensão. O claude.ai recusa pacote com mais de 200 arquivos; por isso, nos pacotes da `cmv-ajuda` e da `cmv-api` os artigos vão compactados em `references/docs.zip`, e o `SKILL.md` do pacote manda abri-los antes de ler. A pasta `skills/` não muda.
+**claude.ai (aplicativo e site):** gere os pacotes com `python3 montar.py --zip` e envie cada arquivo `dist/<nome>.zip` em **Customize › Skills › + › Create skill › Upload a skill**. É preciso ter a execução de código ligada em **Settings › Capabilities**. O `dist/<nome>.skill` é o mesmo arquivo com outra extensão. O claude.ai recusa pacote com mais de 200 arquivos e também recusa zip dentro do pacote; por isso, nos pacotes da `cmv-ajuda` e da `cmv-api` os artigos vão todos num arquivo de texto, `references/docs.json`, e o `SKILL.md` do pacote manda extraí-los antes de ler. A pasta `skills/` não muda.
 
 ### Diga ao Claude que você usa o Chat Master Veloz
 

@@ -21,14 +21,16 @@ from collections import Counter
 from pathlib import Path
 
 DOCS = Path(__file__).resolve().parent.parent / "references" / "docs"
-if not DOCS.is_dir() and DOCS.with_suffix(".zip").is_file():
-    # Pacote do claude.ai (máximo de 200 arquivos): os artigos vêm em references/docs.zip.
+if not DOCS.is_dir() and DOCS.with_suffix(".json").is_file():
+    # Pacote do claude.ai (máximo de 200 arquivos, sem zip dentro): os artigos vêm em references/docs.json.
+    import json
     import tempfile
-    import zipfile
-    compactado, DOCS = DOCS.with_suffix(".zip"), Path(tempfile.gettempdir()) / "cmv-api" / "docs"
+    compactado, DOCS = DOCS.with_suffix(".json"), Path(tempfile.gettempdir()) / "cmv-api" / "docs"
     # shortcut: não reextrai se a pasta já existe; no claude.ai cada conversa começa vazia. Se o pacote for trocado na mesma máquina, apagar a pasta.
     if not (DOCS / "INDICE-api-endpoints.md").is_file():
-        zipfile.ZipFile(compactado).extractall(DOCS)
+        for caminho, texto in json.loads(compactado.read_text(encoding="utf-8")).items():
+            (DOCS / caminho).parent.mkdir(parents=True, exist_ok=True)
+            (DOCS / caminho).write_text(texto, encoding="utf-8")
 LINHA = re.compile(r"^\| (GET|POST|PUT|DELETE|PATCH) \| `([^`]+)` \| \[(.+)\]\(([^)]+)\) \|$")
 BASE = "https://api2.chatmasterveloz.com"
 
