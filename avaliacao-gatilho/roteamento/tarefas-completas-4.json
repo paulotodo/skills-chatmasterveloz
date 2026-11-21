@@ -1,0 +1,38 @@
+[
+ {
+  "id": "c-ajuda",
+  "skill": "cmv-ajuda",
+  "pedido": "a dra. Helena vai tirar férias de 5 a 20 de janeiro. como bloqueio a agenda dela no Consultório pra ninguém conseguir marcar nesse período? e o que acontece com quem já estava marcado?",
+  "contexto": "Esta empresa usa a plataforma Chat Master Veloz (CMV) para atender clientes pelo WhatsApp e outros canais. Pedidos sobre atendimento, painel, tickets, fluxos, mensagens, IA ou integrações que não citem outra ferramenta são sobre o CMV: carregue com a ferramenta Skill a skill cmv-* que trata do assunto antes de responder, mesmo que o pedido não cite a plataforma. Pedido que cita outra ferramenta ou plataforma (ManyChat, Typebot, Zapier, Chatwoot, o aplicativo WhatsApp Business e semelhantes) não é do CMV: responda sem as skills cmv-*."
+ },
+ {
+  "id": "c-api",
+  "skill": "cmv-api",
+  "pedido": "Nosso site de restaurante tem um formulário de reserva de mesa. Quero que, quando o cliente enviar, a reserva seja criada direto no Chat Master Veloz, conferindo antes se o horário está livre. Em Node.",
+  "contexto": "Esta empresa usa a plataforma Chat Master Veloz (CMV) para atender clientes pelo WhatsApp e outros canais. Pedidos sobre atendimento, painel, tickets, fluxos, mensagens, IA ou integrações que não citem outra ferramenta são sobre o CMV: carregue com a ferramenta Skill a skill cmv-* que trata do assunto antes de responder, mesmo que o pedido não cite a plataforma. Pedido que cita outra ferramenta ou plataforma (ManyChat, Typebot, Zapier, Chatwoot, o aplicativo WhatsApp Business e semelhantes) não é do CMV: responda sem as skills cmv-*."
+ },
+ {
+  "id": "c-mensagens",
+  "skill": "cmv-mensagens",
+  "pedido": "faz um email convidando a base de alunos pro workshop de sábado, com o nome da pessoa no começo e um botão de inscrição. vai sair pelo Mail Marketing, lista 'alunos ativos'",
+  "contexto": "Esta empresa usa a plataforma Chat Master Veloz (CMV) para atender clientes pelo WhatsApp e outros canais. Pedidos sobre atendimento, painel, tickets, fluxos, mensagens, IA ou integrações que não citem outra ferramenta são sobre o CMV: carregue com a ferramenta Skill a skill cmv-* que trata do assunto antes de responder, mesmo que o pedido não cite a plataforma. Pedido que cita outra ferramenta ou plataforma (ManyChat, Typebot, Zapier, Chatwoot, o aplicativo WhatsApp Business e semelhantes) não é do CMV: responda sem as skills cmv-*."
+ },
+ {
+  "id": "c-agente-ia",
+  "skill": "cmv-agente-ia",
+  "pedido": "já tenho o GPT Assistant atendendo. agora quero que ele marque a visita técnica na agenda quando o cliente escolher o dia e registre a oportunidade no CRM com o valor do orçamento. como coloco isso no prompt?",
+  "contexto": "Esta empresa usa a plataforma Chat Master Veloz (CMV) para atender clientes pelo WhatsApp e outros canais. Pedidos sobre atendimento, painel, tickets, fluxos, mensagens, IA ou integrações que não citem outra ferramenta são sobre o CMV: carregue com a ferramenta Skill a skill cmv-* que trata do assunto antes de responder, mesmo que o pedido não cite a plataforma. Pedido que cita outra ferramenta ou plataforma (ManyChat, Typebot, Zapier, Chatwoot, o aplicativo WhatsApp Business e semelhantes) não é do CMV: responda sem as skills cmv-*."
+ },
+ {
+  "id": "c-flowbuilder",
+  "skill": "cmv-flowbuilder",
+  "pedido": "Preciso de um fluxo de pós-venda: manda a mensagem perguntando se o pedido chegou certo, espera 3 horas e, se a pessoa não respondeu, manda um lembrete; se respondeu, transfere pro setor Pós-venda. Gera o arquivo pra importar.",
+  "contexto": "Esta empresa usa a plataforma Chat Master Veloz (CMV) para atender clientes pelo WhatsApp e outros canais. Pedidos sobre atendimento, painel, tickets, fluxos, mensagens, IA ou integrações que não citem outra ferramenta são sobre o CMV: carregue com a ferramenta Skill a skill cmv-* que trata do assunto antes de responder, mesmo que o pedido não cite a plataforma. Pedido que cita outra ferramenta ou plataforma (ManyChat, Typebot, Zapier, Chatwoot, o aplicativo WhatsApp Business e semelhantes) não é do CMV: responda sem as skills cmv-*."
+ },
+ {
+  "id": "c-painel-css-js",
+  "skill": "cmv-painel-css-js",
+  "pedido": "no Dashboard eu queria esconder o bloco de aniversariantes e deixar os números do topo com a letra maior, pra passar na TV da sala. dá pra fazer com css?",
+  "contexto": "Esta empresa usa a plataforma Chat Master Veloz (CMV) para atender clientes pelo WhatsApp e outros canais. Pedidos sobre atendimento, painel, tickets, fluxos, mensagens, IA ou integrações que não citem outra ferramenta são sobre o CMV: carregue com a ferramenta Skill a skill cmv-* que trata do assunto antes de responder, mesmo que o pedido não cite a plataforma. Pedido que cita outra ferramenta ou plataforma (ManyChat, Typebot, Zapier, Chatwoot, o aplicativo WhatsApp Business e semelhantes) não é do CMV: responda sem as skills cmv-*."
+ }
+]

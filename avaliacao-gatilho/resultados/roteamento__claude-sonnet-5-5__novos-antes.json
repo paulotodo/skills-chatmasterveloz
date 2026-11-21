@@ -1,0 +1,1673 @@
+{
+  "modelo": "claude-sonnet-5-5",
+  "conjunto": "novos",
+  "resultados": [
+    {
+      "id": "n-001",
+      "pedido": "No Chat Master Veloz, a TV da recepção do consultório não fala o nome do paciente quando a recepcionista clica em Chamar, só mostra na tela. Já marquei Falar o nome na aba Painéis da TV. O que mais pode ser?",
+      "destino": "cmv-ajuda",
+      "aceitavel": [],
+      "tipo": "com-nome-do-produto",
+      "modulo": "consultorio",
+      "cita_produto": true,
+      "motivo": "recursos/aba-paineis-da-tv-em-cadastros-do-consultorio.md: som só toca depois do toque em 'Toque para ativar o som'.",
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-002",
+      "pedido": "a recepcao nao acha o botao chamar no card do paciente, ele ta em A chegar ainda. como faz",
+      "destino": "cmv-ajuda",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "modulo": "consultorio",
+      "cita_produto": false,
+      "motivo": "recursos/recepcao-do-consultorio.md: Dúvidas Comuns, é preciso clicar em Chegou antes de Chamar.",
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-003",
+      "pedido": "Sou secretária de uma clínica de fisioterapia. Preciso marcar uma paciente às 10h com a Dra. Paula, mas o horário já está ocupado e é urgente. Pela Agenda do Consultório dá para encaixar mesmo assim?",
+      "destino": "cmv-ajuda",
+      "aceitavel": [],
+      "tipo": "fronteira",
+      "modulo": "consultorio",
+      "cita_produto": false,
+      "motivo": "recursos/agenda-do-consultorio.md: opção Encaixe na marcação pela tela.",
+      "cargas": [
+        [],
+        [],
+        []
+      ],
+      "acertos": 0,
+      "repeticoes": 3,
+      "passou": false
+    },
+    {
+      "id": "n-004",
+      "pedido": "Tenho um sistema próprio da clínica em Node e quero buscar os horários livres do serviço 'Avaliação odontológica' no CMV para mostrar no nosso site e depois marcar a consulta pela API. Me passa o código das duas chamadas usando a chave do Consultório.",
+      "destino": "cmv-api",
+      "aceitavel": [],
+      "tipo": "fronteira",
+      "modulo": "consultorio",
+      "cita_produto": true,
+      "motivo": "api/api-listar-horarios-livres-do-consultorio.md e api/api-marcar-consulta.md.",
+      "cargas": [
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-005",
+      "pedido": "Já preenchi a URL na aba Webhook dos Cadastros do consultório. Preciso de um endpoint em PHP que receba os eventos: quando vier agendamento-cancelado, libera a vaga no nosso ERP; quando vier pagamento-confirmado, dá baixa no financeiro.",
+      "destino": "cmv-api",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "modulo": "consultorio",
+      "cita_produto": false,
+      "motivo": "api/webhook-do-consultorio.md: campo evento e lista de eventos.",
+      "cargas": [
+        [],
+        [],
+        []
+      ],
+      "acertos": 0,
+      "repeticoes": 3,
+      "passou": false
+    },
+    {
+      "id": "n-006",
+      "pedido": "Escreve pra mim o texto da Mensagem da consulta da confirmação, com {{paciente}}, {{data}}, {{hora}} e {{profissional}}, num tom acolhedor de clínica pediátrica. Quero também as respostas para quando a mãe confirma, pede para remarcar e cancela, e os três botões com até 20 letras.",
+      "destino": "cmv-mensagens",
+      "aceitavel": [],
+      "tipo": "fronteira",
+      "modulo": "consultorio",
+      "cita_produto": false,
+      "motivo": "recursos/aba-confirmacao-em-cadastros-do-consultorio.md: campos de texto e variáveis da confirmação; o pedido é o texto pronto.",
+      "cargas": [
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-007",
+      "pedido": "Onde eu configuro no Chat Master Veloz para os lembretes da consulta saírem 1 dia antes e 2 horas antes, e por um número diferente daquele em que a gente atende?",
+      "destino": "cmv-ajuda",
+      "aceitavel": [],
+      "tipo": "fronteira",
+      "modulo": "consultorio",
+      "cita_produto": true,
+      "motivo": "recursos/aba-confirmacao-em-cadastros-do-consultorio.md: Lembretes automáticos e campo Por onde o lembrete é enviado.",
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-008",
+      "pedido": "No consultório do chatmasterveloz o relatório de repasse não mostra a consulta de hoje da Dra. Luana. Ela atendeu normalmente. Por quê?",
+      "destino": "cmv-ajuda",
+      "aceitavel": [],
+      "tipo": "com-nome-do-produto",
+      "modulo": "consultorio",
+      "cita_produto": true,
+      "motivo": "recursos/aba-repasse-em-cadastros-do-consultorio.md: só entram consultas quitadas.",
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-009",
+      "pedido": "Quero que o meu atendente de IA no CMV marque consulta sozinho pela conversa do WhatsApp, usando a API do Consultório. Qual escopo de chave eu crio na aba Integrações e como fica a chamada de marcar consulta passando o telefone do contato?",
+      "destino": "cmv-api",
+      "aceitavel": [
+        "cmv-agente-ia"
+      ],
+      "tipo": "com-nome-do-produto",
+      "modulo": "consultorio",
+      "cita_produto": true,
+      "motivo": "recursos/aba-integracoes-em-cadastros-do-consultorio.md (escopo Atendente) e api/api-marcar-consulta.md.",
+      "cargas": [
+        [
+          "cmv-agente-ia",
+          "cmv-api"
+        ],
+        [
+          "cmv-agente-ia",
+          "cmv-api"
+        ],
+        [
+          "cmv-agente-ia"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-010",
+      "pedido": "Tenho uma pousada e criei a oferta por diária do Chalé 2, mas na página de reservas o cliente não consegue escolher o dia 28. Não tem nenhuma estadia nesse dia. O que pode estar travando?",
+      "destino": "cmv-ajuda",
+      "aceitavel": [],
+      "tipo": "fronteira",
+      "modulo": "reservas",
+      "cita_produto": false,
+      "motivo": "recursos/reservas-por-diaria.md: na diária só bloqueio ou outra estadia fecham a data (aba Bloqueios).",
+      "cargas": [
+        [],
+        [],
+        []
+      ],
+      "acertos": 0,
+      "repeticoes": 3,
+      "passou": false
+    },
+    {
+      "id": "n-011",
+      "pedido": "Preciso criar reservas no Chat Master Veloz a partir do app da minha academia: toda terça às 7h, aula funcional, durante 3 meses. Dá para mandar isso de uma vez pela API? Quero o exemplo em Python.",
+      "destino": "cmv-api",
+      "aceitavel": [],
+      "tipo": "fronteira",
+      "modulo": "reservas",
+      "cita_produto": true,
+      "motivo": "api/api-criar-serie-de-reservas.md.",
+      "cargas": [
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-012",
+      "pedido": "Monta os textos da aba Avisos para a minha barbearia: Reserva confirmada, Reserva remarcada, Reserva cancelada usando o {{motivo}} e um lembrete de 2 horas antes. Linguagem descontraída, sem exagerar nos emojis.",
+      "destino": "cmv-mensagens",
+      "aceitavel": [],
+      "tipo": "fronteira",
+      "modulo": "reservas",
+      "cita_produto": false,
+      "motivo": "recursos/aba-avisos-em-reservas.md: avisos e variáveis; o pedido é o texto pronto.",
+      "cargas": [
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-013",
+      "pedido": "cliente reservou pela pagina e nao recebeu nenhuma mensagem de confirmação no whats. onde eu ligo esses avisos das reservas no cmv?",
+      "destino": "cmv-ajuda",
+      "aceitavel": [],
+      "tipo": "fronteira",
+      "modulo": "reservas",
+      "cita_produto": true,
+      "motivo": "recursos/aba-avisos-em-reservas.md: menu Reservas, aba Avisos, e o bloco Mensagens ao cliente.",
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-014",
+      "pedido": "Quero que o cliente agende o corte pelo próprio WhatsApp, dentro do fluxo do robô do CMV, e que depois de reservar receba um agradecimento e caia no setor Barbearia. Como monto isso?",
+      "destino": "cmv-flowbuilder",
+      "aceitavel": [],
+      "tipo": "com-nome-do-produto",
+      "modulo": "reservas",
+      "cita_produto": true,
+      "motivo": "recursos/reservas-agendar-no-fluxo.md: bloco Reservas (agendar no fluxo) e saída Reservou.",
+      "cargas": [
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-015",
+      "pedido": "Restaurante aqui. Em PDV › Mesas e Comandas, na aba Reservas, o garçom clicou em Chegou numa reserva com Mesa a definir e não abriu conta nenhuma. É bug?",
+      "destino": "cmv-ajuda",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "modulo": "reservas",
+      "cita_produto": false,
+      "motivo": "recursos/reservas-de-mesa.md: na reserva com Mesa a definir só a chegada é marcada.",
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-016",
+      "pedido": "Nosso site de restaurante tem um formulário de reserva. Quero que ele crie a reserva de mesa direto no PDV pela API (POST /api/pdv/reservas) e avise o cliente se a mesa já estiver ocupada naquele horário. Código em JavaScript, por favor.",
+      "destino": "cmv-api",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "modulo": "reservas",
+      "cita_produto": false,
+      "motivo": "api/api-criar-reserva-de-mesa.md: mesma mesa não aceita reservas que se cruzam.",
+      "cargas": [
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-017",
+      "pedido": "Liguei a URL na aba Webhook das Reservas do CMV. Como faço no n8n para, quando chegar sinal-expirado, avisar o gerente, e quando chegar pacote-esgotado, oferecer um pacote novo ao cliente?",
+      "destino": "cmv-api",
+      "aceitavel": [],
+      "tipo": "com-nome-do-produto",
+      "modulo": "reservas",
+      "cita_produto": true,
+      "motivo": "api/webhook-das-reservas.md: eventos sinal-expirado e pacote-esgotado.",
+      "cargas": [
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-018",
+      "pedido": "Preciso do texto do e-mail da campanha de Black Friday que vou disparar pelo Mail Marketing do Chat Master Veloz: assunto, pré-cabeçalho e corpo usando {{primeiro_nome}}. É uma loja de roupas femininas, desconto de 30%.",
+      "destino": "cmv-mensagens",
+      "aceitavel": [
+        "cmv-ajuda"
+      ],
+      "tipo": "fronteira",
+      "modulo": "mail-marketing",
+      "cita_produto": true,
+      "motivo": "recursos/modelos-de-e-mail-blocos-e-html.md: assunto, pré-cabeçalho e variáveis; o pedido é o texto pronto.",
+      "cargas": [
+        [],
+        [],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 1,
+      "repeticoes": 3,
+      "passou": false
+    },
+    {
+      "id": "n-019",
+      "pedido": "escreve um email de reativação pra mandar na campanha pra lista 'clientes inativos 2025', com {{primeiro_nome}} e {{cidade}} (tenho essa coluna na planilha). é escola de inglês",
+      "destino": "cmv-mensagens",
+      "aceitavel": [
+        "cmv-ajuda"
+      ],
+      "tipo": "fronteira",
+      "modulo": "mail-marketing",
+      "cita_produto": false,
+      "motivo": "recursos/listas-de-envio-do-mail-marketing.md: colunas da planilha viram variáveis; o pedido é o texto.",
+      "cargas": [
+        [],
+        [],
+        []
+      ],
+      "acertos": 0,
+      "repeticoes": 3,
+      "passou": false
+    },
+    {
+      "id": "n-020",
+      "pedido": "No CMV, onde eu mudo o rodapé dos e-mails e o ritmo padrão de e-mails por minuto das campanhas? Os campos aparecem cinza para mim.",
+      "destino": "cmv-ajuda",
+      "aceitavel": [],
+      "tipo": "fronteira",
+      "modulo": "mail-marketing",
+      "cita_produto": true,
+      "motivo": "recursos/configuracoes-do-mail-marketing.md: só o administrador altera as Configurações.",
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-021",
+      "pedido": "Criei a campanha no Mail Marketing, escolhi duas listas e agendei para amanhã às 9h, mas quero mandar um teste para o meu e-mail antes e a Conta de e-mail que envia vem vazia. O que falta configurar?",
+      "destino": "cmv-ajuda",
+      "aceitavel": [],
+      "tipo": "fronteira",
+      "modulo": "mail-marketing",
+      "cita_produto": false,
+      "motivo": "recursos/campanhas-de-e-mail.md: contas cadastradas no menu Contas de E-mail; Enviar teste.",
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-022",
+      "pedido": "Cliente ligou pedindo para não receber mais nossos e-mails. Usei o Tirar da lista na aba Contatos e ele recebeu a campanha de hoje mesmo assim. Fiz errado?",
+      "destino": "cmv-ajuda",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "modulo": "mail-marketing",
+      "cita_produto": false,
+      "motivo": "recursos/descadastros-do-mail-marketing.md: Tirar da lista não é descadastro.",
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-023",
+      "pedido": "Quero receber no meu CRM quando alguém abre ou clica nos e-mails do Mail Marketing do chatmasterveloz. Me ajuda a validar a assinatura X-Assinatura-MailMarketing num endpoint Node/Express e tratar email-aberto e link-clicado?",
+      "destino": "cmv-api",
+      "aceitavel": [],
+      "tipo": "com-nome-do-produto",
+      "modulo": "mail-marketing",
+      "cita_produto": true,
+      "motivo": "api/webhook-do-mail-marketing.md: eventos e cabeçalhos de assinatura.",
+      "cargas": [
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-024",
+      "pedido": "Monta o HTML do modelo de e-mail (modo HTML do Mail Marketing do CMV) para a newsletter mensal da clínica: logo no topo, três blocos de dica de saúde e um botão 'Agende sua consulta', com o {{descadastro}} no rodapé.",
+      "destino": "cmv-mensagens",
+      "aceitavel": [
+        "cmv-ajuda"
+      ],
+      "tipo": "com-nome-do-produto",
+      "modulo": "mail-marketing",
+      "cita_produto": true,
+      "motivo": "recursos/modelos-de-e-mail-blocos-e-html.md: modo HTML e variáveis; o pedido é o conteúdo do e-mail.",
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-025",
+      "pedido": "Por que o card Fechados do Dashboard do Chat Master Veloz mostra 48 mil se hoje a gente fechou uns 200?",
+      "destino": "cmv-ajuda",
+      "aceitavel": [],
+      "tipo": "com-nome-do-produto",
+      "modulo": "dashboard",
+      "cita_produto": true,
+      "motivo": "recursos/visao-geral-dashboard.md: Fechados conta todos os encerrados desde sempre.",
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-026",
+      "pedido": "como faço o dashboard já abrir filtrado no setor Comercial e em Esta semana toda vez que eu entro? cansei de escolher de novo",
+      "destino": "cmv-ajuda",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "modulo": "dashboard",
+      "cita_produto": false,
+      "motivo": "recursos/visoes-do-dashboard.md: Abrir o Dashboard nesta visão.",
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-027",
+      "pedido": "Quero esconder o painel Aniversariantes e o card Fechados do Dashboard para os supervisores no CMV, só visualmente mesmo. Dá para fazer com CSS na customização do painel?",
+      "destino": "cmv-painel-css-js",
+      "aceitavel": [],
+      "tipo": "com-nome-do-produto",
+      "modulo": "dashboard",
+      "cita_produto": true,
+      "motivo": "Mudança visual do painel por CSS; o Dashboard em recursos/visao-geral-dashboard.md não tem opção de esconder cards.",
+      "cargas": [
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-028",
+      "pedido": "Configurei o Prazo do SLA em 2 horas nas Metas e limites e o alerta aparece com 'Limite: 100 min'. Está errado?",
+      "destino": "cmv-ajuda",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "modulo": "dashboard",
+      "cita_produto": false,
+      "motivo": "recursos/metas-e-limites-do-dashboard.md: alerta dispara quando falta 1/6 do prazo.",
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-029",
+      "pedido": "Gostaria que o resumo automático do Dashboard do Chat Master Veloz chegasse toda segunda às 8h para a diretora, apenas com os números do setor Financeiro. Como configuro?",
+      "destino": "cmv-ajuda",
+      "aceitavel": [],
+      "tipo": "com-nome-do-produto",
+      "modulo": "dashboard",
+      "cita_produto": true,
+      "motivo": "recursos/resumo-automatico-do-dashboard.md: Semanal e Usar os filtros que estão na tela.",
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-030",
+      "pedido": "No Modo TV do Dashboard do CMV, que fica na TV da sala do comercial, queria aumentar a fonte dos números e deixar o fundo preto. Consigo isso com o CSS personalizado do painel?",
+      "destino": "cmv-painel-css-js",
+      "aceitavel": [],
+      "tipo": "com-nome-do-produto",
+      "modulo": "dashboard",
+      "cita_produto": true,
+      "motivo": "Mudança visual do Modo TV (recursos/visao-geral-dashboard.md) por CSS do painel.",
+      "cargas": [
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-031",
+      "pedido": "O cliente marcou uma reunião pelo link de agendamento e eu não acho em lugar nenhum. Onde aparece? E dá para ele receber um lembrete 1 hora antes no WhatsApp?",
+      "destino": "cmv-ajuda",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "modulo": "links-agendamento",
+      "cita_produto": false,
+      "motivo": "recursos/links-de-agendamento.md: reunião vira tarefa em Tarefas; aviso Antes da reunião.",
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-032",
+      "pedido": "Me escreve os avisos ao cliente do link 'Consultoria gratuita 30 min' do Chat Master Veloz: um Ao marcar, um Antes da reunião (1 dia) e um Depois da reunião pedindo feedback. Pode usar {{cliente}}, {{data}}, {{hora}}, {{responsavel}} e {{link}}.",
+      "destino": "cmv-mensagens",
+      "aceitavel": [],
+      "tipo": "com-nome-do-produto",
+      "modulo": "links-agendamento",
+      "cita_produto": true,
+      "motivo": "recursos/links-de-agendamento.md: Avisos e automações, Texto com variáveis da reunião.",
+      "cargas": [
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-033",
+      "pedido": "Preciso que o webhook do agendamento mande o agendamento-criado para o meu Make e crie um evento no Google Agenda da vendedora. Como trato esse payload no cenário do Make?",
+      "destino": "cmv-api",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "modulo": "links-agendamento",
+      "cita_produto": false,
+      "motivo": "recursos/links-de-agendamento.md: bloco Webhook do agendamento (agendamento-criado).",
+      "cargas": [
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-034",
+      "pedido": "Criei a Base de Conhecimento no GPT Assistant do Chat Master Veloz com horários e política de trocas, mas a IA continua inventando o horário de sábado. O que eu confiro?",
+      "destino": "cmv-agente-ia",
+      "aceitavel": [
+        "cmv-ajuda"
+      ],
+      "tipo": "com-nome-do-produto",
+      "modulo": "base-conhecimento",
+      "cita_produto": true,
+      "motivo": "recursos/base-de-conhecimento-do-gpt-assistant.md: base ligada ao prompt e título dos itens.",
+      "cargas": [
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-035",
+      "pedido": "Tenho um PDF de 40 páginas com a tabela de preços da ótica. Como organizo isso em itens da base de conhecimento para a IA achar certo? Me sugere os títulos, sabendo que o título pesa mais na busca.",
+      "destino": "cmv-agente-ia",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "modulo": "base-conhecimento",
+      "cita_produto": false,
+      "motivo": "recursos/base-de-conhecimento-do-gpt-assistant.md: NOVO ITEM, ENVIAR ARQUIVO e peso do título.",
+      "cargas": [
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-036",
+      "pedido": "subi uma foto do cardapio no ENVIAR ARQUIVO da base e nao leu nada. so aceita pdf?",
+      "destino": "cmv-agente-ia",
+      "aceitavel": [
+        "cmv-ajuda"
+      ],
+      "tipo": "sem-nome-do-produto",
+      "modulo": "base-conhecimento",
+      "cita_produto": false,
+      "motivo": "recursos/base-de-conhecimento-do-gpt-assistant.md: aceita .pdf, .docx, .txt, .md e .csv; imagem não é lida.",
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-037",
+      "pedido": "Escreve para mim o conteúdo dos itens da Base de Conhecimento do CMV para uma escola de idiomas: matrícula, valores das turmas, política de reposição de aula e feriados. E me diz como ligar a base ao prompt.",
+      "destino": "cmv-agente-ia",
+      "aceitavel": [],
+      "tipo": "com-nome-do-produto",
+      "modulo": "base-conhecimento",
+      "cita_produto": true,
+      "motivo": "recursos/base-de-conhecimento-do-gpt-assistant.md: itens Título/Conteúdo e campo Base de conhecimento do prompt.",
+      "cargas": [
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-038",
+      "pedido": "Quero trocar a IA do Chat Master Veloz de OpenAI para DeepSeek para baratear. No card Provedor de IA, o que coloco em Modelo e na chave? E a transcrição de áudio continua funcionando?",
+      "destino": "cmv-agente-ia",
+      "aceitavel": [
+        "cmv-ajuda"
+      ],
+      "tipo": "com-nome-do-produto",
+      "modulo": "provedor-ia",
+      "cita_produto": true,
+      "motivo": "recursos/provedor-de-ia.md: Modelo, Chave de API do provedor e Modelo de transcrição.",
+      "cargas": [
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-039",
+      "pedido": "troquei o provedor pra groq e a ia parou de responder os clientes. onde vejo o erro?",
+      "destino": "cmv-agente-ia",
+      "aceitavel": [
+        "cmv-ajuda"
+      ],
+      "tipo": "sem-nome-do-produto",
+      "modulo": "provedor-ia",
+      "cita_produto": false,
+      "motivo": "recursos/provedor-de-ia.md: Erros do Sistema e chave do provedor novo.",
+      "cargas": [
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-040",
+      "pedido": "Temos um servidor com Ollama na rede da empresa. Dá para usar ele no Provedor de IA, na opção Local (Ollama / vLLM)? Que URL do servidor eu coloco?",
+      "destino": "cmv-agente-ia",
+      "aceitavel": [
+        "cmv-ajuda"
+      ],
+      "tipo": "sem-nome-do-produto",
+      "modulo": "provedor-ia",
+      "cita_produto": false,
+      "motivo": "recursos/provedor-de-ia.md: URL do servidor com /v1 no final.",
+      "cargas": [
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-041",
+      "pedido": "No CMV, o card OPEN.AI em Integrações diz que a conta usa a chave da plataforma. Ainda assim preciso gerar um Token OpenAI para transcrever as gravações das chamadas?",
+      "destino": "cmv-agente-ia",
+      "aceitavel": [
+        "cmv-ajuda"
+      ],
+      "tipo": "com-nome-do-produto",
+      "modulo": "provedor-ia",
+      "cita_produto": true,
+      "motivo": "recursos/token-openai.md: com a chave da plataforma não há token a criar.",
+      "cargas": [
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-042",
+      "pedido": "Colei o token da OpenAI no campo do Provedor de IA, mas as gravações das ligações não são transcritas. Era para colar em outro lugar?",
+      "destino": "cmv-agente-ia",
+      "aceitavel": [
+        "cmv-ajuda"
+      ],
+      "tipo": "sem-nome-do-produto",
+      "modulo": "provedor-ia",
+      "cita_produto": false,
+      "motivo": "recursos/token-openai.md: gravações usam só o campo Token OpenAI do card OPEN.AI.",
+      "cargas": [
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-043",
+      "pedido": "No Relatório da Avaliação pela IA do Chat Master Veloz não aparece o quadro 'Onde o time perde', que eu vi num vídeo. Como faço aparecer e como leio esse quadro?",
+      "destino": "cmv-agente-ia",
+      "aceitavel": [
+        "cmv-ajuda"
+      ],
+      "tipo": "fronteira",
+      "modulo": "avaliacao-ia",
+      "cita_produto": true,
+      "motivo": "recursos/relatorio-da-avaliacao-pela-ia.md: quadro só aparece com processo salvo.",
+      "cargas": [
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-044",
+      "pedido": "minha atendente diz que nao ve a nota dela, so as aulas. e como eu sei se ela leu a aula da semana?",
+      "destino": "cmv-agente-ia",
+      "aceitavel": [
+        "cmv-ajuda"
+      ],
+      "tipo": "fronteira",
+      "modulo": "avaliacao-ia",
+      "cita_produto": false,
+      "motivo": "recursos/aulas-da-avaliacao-pela-ia.md: Minhas aulas e marca 'Vista por'.",
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-045",
+      "pedido": "Sou gerente de uma loja de materiais de construção. Quero ser avisado quando um vendedor tirar nota até 5 na avaliação da IA, mas sem que os supervisores recebam esse alerta. Como faço?",
+      "destino": "cmv-agente-ia",
+      "aceitavel": [
+        "cmv-ajuda"
+      ],
+      "tipo": "fronteira",
+      "modulo": "avaliacao-ia",
+      "cita_produto": false,
+      "motivo": "recursos/alertas-da-avaliacao-pela-ia.md: Avisar também com nota até e campo Alertas da Avaliação pela IA em Equipe.",
+      "cargas": [
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-046",
+      "pedido": "Me ajuda a escrever o Processo ideal de atendimento do CMV para a nossa imobiliária, com as etapas e o que se espera em cada uma (saudação, qualificação, envio de imóveis, agendamento de visita, follow-up), para a IA comparar as conversas?",
+      "destino": "cmv-agente-ia",
+      "aceitavel": [],
+      "tipo": "com-nome-do-produto",
+      "modulo": "avaliacao-ia",
+      "cita_produto": true,
+      "motivo": "recursos/processos-de-atendimento-da-avaliacao-pela-ia.md: Etapa e O que se espera nesta etapa.",
+      "cargas": [
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-047",
+      "pedido": "Os vendedores conversam com a empresa pelo próprio WhatsApp deles e essas conversas estão puxando a nota do time para baixo na Avaliação pela IA. Dá para tirar?",
+      "destino": "cmv-agente-ia",
+      "aceitavel": [
+        "cmv-ajuda"
+      ],
+      "tipo": "sem-nome-do-produto",
+      "modulo": "avaliacao-ia",
+      "cita_produto": false,
+      "motivo": "recursos/contatos-internos-na-avaliacao-pela-ia.md: Tirar da avaliação.",
+      "cargas": [
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-048",
+      "pedido": "Quero mandar para o nosso Slack cada alerta à gestão da Avaliação pela IA do chatmasterveloz. Onde configuro o Webhook da avaliação e como fica um receptor em Python que filtra só os alertas?",
+      "destino": "cmv-api",
+      "aceitavel": [],
+      "tipo": "com-nome-do-produto",
+      "modulo": "avaliacao-ia",
+      "cita_produto": true,
+      "motivo": "recursos/webhook-da-avaliacao-pela-ia.md: eventos do Webhook da avaliação.",
+      "cargas": [
+        [
+          "cmv-agente-ia",
+          "cmv-api"
+        ],
+        [
+          "cmv-agente-ia",
+          "cmv-api"
+        ],
+        [
+          "cmv-agente-ia",
+          "cmv-api"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-049",
+      "pedido": "Liguei Registrar os produtos em falta ontem. A aba Vendas perdidas está vazia, não deveria mostrar o mês todo?",
+      "destino": "cmv-agente-ia",
+      "aceitavel": [
+        "cmv-ajuda"
+      ],
+      "tipo": "sem-nome-do-produto",
+      "modulo": "avaliacao-ia",
+      "cita_produto": false,
+      "motivo": "recursos/vendas-perdidas-na-avaliacao-pela-ia.md: só entram conversas avaliadas depois de ligar.",
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-050",
+      "pedido": "No GPT Assistant do Chat Master Veloz, quero que a IA transfira para o setor Financeiro quando o cliente falar de boleto ou segunda via. Como uso a janela COMANDOS DA IA para isso?",
+      "destino": "cmv-agente-ia",
+      "aceitavel": [],
+      "tipo": "com-nome-do-produto",
+      "modulo": "comandos-ia",
+      "cita_produto": true,
+      "motivo": "recursos/comandos-gpt-assistant.md: comando Transferir para um setor.",
+      "cargas": [
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-051",
+      "pedido": "A IA registra a oportunidade no CRM e o cliente fica sem resposta naquela mensagem. Configurei pelo Comandos da IA, em Registrar oportunidade no CRM. O que está faltando?",
+      "destino": "cmv-agente-ia",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "modulo": "comandos-ia",
+      "cita_produto": false,
+      "motivo": "recursos/comandos-gpt-assistant.md: Transferir depois de registrar.",
+      "cargas": [
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-052",
+      "pedido": "Quero que o assistente marque visita técnica na agenda e também saiba desmarcar se o cliente pedir. Escreve o 'Quando a IA deve fazer isso' para mim; somos uma empresa de instalação de ar-condicionado.",
+      "destino": "cmv-agente-ia",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "modulo": "comandos-ia",
+      "cita_produto": false,
+      "motivo": "recursos/comandos-gpt-assistant.md: Marcar ou desmarcar na agenda e Ensinar a IA a cancelar o compromisso.",
+      "cargas": [
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-053",
+      "pedido": "inseri o comando de encerrar o atendimento no prompt do cmv mas a ia nunca encerra. tem q salvar depois do INSERIR NO PROMPT?",
+      "destino": "cmv-agente-ia",
+      "aceitavel": [],
+      "tipo": "com-nome-do-produto",
+      "modulo": "comandos-ia",
+      "cita_produto": true,
+      "motivo": "recursos/comandos-gpt-assistant.md: Dúvidas Comuns, salvar o prompt depois de inserir.",
+      "cargas": [
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-054",
+      "pedido": "No FlowBuilder do Chat Master Veloz quero mandar o orçamento e, se o cliente não responder em 20 horas, mandar uma mensagem de follow-up. Uso o Intervalo? E o que faço com a saída Janela expirada na API oficial?",
+      "destino": "cmv-flowbuilder",
+      "aceitavel": [],
+      "tipo": "com-nome-do-produto",
+      "modulo": "intervalo",
+      "cita_produto": true,
+      "motivo": "recursos/bloco-intervalo.md: até 24 h, Cancelar a espera e saída Janela expirada.",
+      "cargas": [
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-055",
+      "pedido": "meu bloco intervalo ganhou uma saida nova 'Janela expirada' do nada. deixo solta ou ligo em algo?",
+      "destino": "cmv-flowbuilder",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "modulo": "intervalo",
+      "cita_produto": false,
+      "motivo": "recursos/bloco-intervalo.md: saída aparece acima de 2 minutos; sem ligação, o fluxo para com aviso.",
+      "cargas": [
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-056",
+      "pedido": "Monta para mim o fluxo de pós-venda: Conteúdo agradecendo a compra, espera de 3 horas, Pergunta pedindo nota de 0 a 10 e Variável guardando a resposta. Se o cliente escrever antes das 3 horas, quero cancelar a espera.",
+      "destino": "cmv-flowbuilder",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "modulo": "intervalo",
+      "cita_produto": false,
+      "motivo": "recursos/bloco-intervalo.md: Cancelar a espera (o fluxo para aqui).",
+      "cargas": [
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-057",
+      "pedido": "Coloquei um Intervalo de 2 horas no fluxo do CMV, mas o atendente aceitou o ticket no meio da espera e o resto do fluxo não rodou. Tem como fazer continuar mesmo assim?",
+      "destino": "cmv-flowbuilder",
+      "aceitavel": [
+        "cmv-ajuda"
+      ],
+      "tipo": "com-nome-do-produto",
+      "modulo": "intervalo",
+      "cita_produto": true,
+      "motivo": "recursos/bloco-intervalo.md: atendimento aceito, transferido ou encerrado interrompe o fluxo.",
+      "cargas": [
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-058",
+      "pedido": "Estou recebendo mensagens duplicadas no meu backend porque liguei o webhook da Conexão e o do Setor no Chat Master Veloz. Como deduplico pelo eventoId? Quero exemplo em Node com Redis.",
+      "destino": "cmv-api",
+      "aceitavel": [],
+      "tipo": "com-nome-do-produto",
+      "modulo": "webhook",
+      "cita_produto": true,
+      "motivo": "api/webhooks-da-conexao.md e api/webhook-de-setor.md: eventoId igual nos dois endereços.",
+      "cargas": [
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-059",
+      "pedido": "No n8n, como faço para ignorar aviso repetido do webhook da conexão? Eu estava usando o mensagem.wid e continua duplicando.",
+      "destino": "cmv-api",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "modulo": "webhook",
+      "cita_produto": false,
+      "motivo": "api/webhooks-da-conexao.md: wid não serve para descartar repetido; usar eventoId.",
+      "cargas": [
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-060",
+      "pedido": "Recebi a sequencia 41 e depois a 43 no meu endpoint. Como busco a 42 que se perdeu? Quero um script que chame a listagem de entregas do webhook da conexão a partir do 'desde' e reprocesse.",
+      "destino": "cmv-api",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "modulo": "webhook",
+      "cita_produto": false,
+      "motivo": "api/api-listar-entregas-do-webhook-da-conexao.md: parâmetro desde e campo sequencia.",
+      "cargas": [
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-061",
+      "pedido": "Escreve o e-mail da nossa campanha de Black Friday no Mailchimp, com merge tag *|FNAME|* no assunto e no corpo. Loja de calçados.",
+      "destino": "nenhuma",
+      "aceitavel": [],
+      "tipo": "outra-ferramenta",
+      "modulo": "mail-marketing",
+      "cita_produto": false,
+      "motivo": "Campanha de e-mail no Mailchimp, fora do CMV.",
+      "cargas": [
+        [],
+        [],
+        []
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-062",
+      "pedido": "No RD Station Marketing, como crio uma segmentação só com quem abriu os últimos três e-mails e excluo os descadastrados?",
+      "destino": "nenhuma",
+      "aceitavel": [],
+      "tipo": "outra-ferramenta",
+      "modulo": "mail-marketing",
+      "cita_produto": false,
+      "motivo": "Configuração do RD Station Marketing, fora do CMV.",
+      "cargas": [
+        [],
+        [],
+        []
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-063",
+      "pedido": "Como coloco 15 minutos de folga entre as reuniões no Calendly e limito a 4 reuniões por dia?",
+      "destino": "nenhuma",
+      "aceitavel": [],
+      "tipo": "outra-ferramenta",
+      "modulo": "links-agendamento",
+      "cita_produto": false,
+      "motivo": "Link de agendamento do Calendly, fora do CMV.",
+      "cargas": [
+        [],
+        [],
+        []
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-064",
+      "pedido": "Na Doctoralia, como bloqueio a agenda do Dr. Marcos nas férias de janeiro sem cancelar quem já está marcado?",
+      "destino": "nenhuma",
+      "aceitavel": [],
+      "tipo": "outra-ferramenta",
+      "modulo": "consultorio",
+      "cita_produto": false,
+      "motivo": "Agenda da Doctoralia, fora do CMV.",
+      "cargas": [
+        [],
+        [],
+        []
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-065",
+      "pedido": "Preciso de um texto curto de confirmação de consulta para configurar no iClinic, aquele que vai por WhatsApp um dia antes. Clínica de dermatologia.",
+      "destino": "nenhuma",
+      "aceitavel": [],
+      "tipo": "outra-ferramenta",
+      "modulo": "consultorio",
+      "cita_produto": false,
+      "motivo": "Mensagem configurada no iClinic, fora do CMV.",
+      "cargas": [
+        [],
+        [],
+        []
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-066",
+      "pedido": "Uso o GetIn para as reservas do restaurante. Como tiro o relatório de no-show do mês passado lá?",
+      "destino": "nenhuma",
+      "aceitavel": [],
+      "tipo": "outra-ferramenta",
+      "modulo": "reservas",
+      "cita_produto": false,
+      "motivo": "Reserva de mesa em outro sistema (GetIn).",
+      "cargas": [
+        [],
+        [],
+        []
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-067",
+      "pedido": "No Google Analytics 4, como monto um relatório de exploração com as conversões por campanha dos últimos 30 dias?",
+      "destino": "nenhuma",
+      "aceitavel": [],
+      "tipo": "outra-ferramenta",
+      "modulo": "dashboard",
+      "cita_produto": false,
+      "motivo": "Dashboard do Google Analytics, fora do CMV.",
+      "cargas": [
+        [],
+        [],
+        []
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-068",
+      "pedido": "Me ajuda com uma medida DAX no Power BI que calcule o tempo médio de atendimento por atendente a partir de uma planilha com hora de abertura e de fechamento.",
+      "destino": "nenhuma",
+      "aceitavel": [],
+      "tipo": "outra-ferramenta",
+      "modulo": "dashboard",
+      "cita_produto": false,
+      "motivo": "Dashboard no Power BI a partir de planilha, sem relação com o CMV.",
+      "cargas": [
+        [],
+        [],
+        []
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-069",
+      "pedido": "Criei um GPT personalizado no site do ChatGPT para a minha loja. Como subo os PDFs de política de trocas no Knowledge dele e faço ele citar só esses arquivos?",
+      "destino": "nenhuma",
+      "aceitavel": [],
+      "tipo": "outra-ferramenta",
+      "modulo": "base-conhecimento",
+      "cita_produto": false,
+      "motivo": "Base de conhecimento de GPT personalizado no ChatGPT, fora do CMV.",
+      "cargas": [
+        [],
+        [],
+        []
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-070",
+      "pedido": "Vou mandar pelo Gmail um e-mail para um cliente pedindo desculpas pelo atraso na entrega do pedido 4521. Pode redigir?",
+      "destino": "nenhuma",
+      "aceitavel": [],
+      "tipo": "outra-ferramenta",
+      "modulo": "outro",
+      "cita_produto": false,
+      "motivo": "E-mail avulso pelo Gmail, fora do CMV.",
+      "cargas": [
+        [],
+        [],
+        []
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-071",
+      "pedido": "No Zapier, como coloco um Delay de 24 horas entre o formulário e o envio do e-mail, e cancelo o resto do Zap se a pessoa já tiver respondido?",
+      "destino": "nenhuma",
+      "aceitavel": [],
+      "tipo": "outra-ferramenta",
+      "modulo": "intervalo",
+      "cita_produto": false,
+      "motivo": "Espera no Zapier, fora do CMV.",
+      "cargas": [
+        [],
+        [],
+        []
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-072",
+      "pedido": "Como instalo o Ollama num Ubuntu 22.04 com GPU NVIDIA e deixo o llama3 rodando como serviço?",
+      "destino": "nenhuma",
+      "aceitavel": [],
+      "tipo": "outra-ferramenta",
+      "modulo": "provedor-ia",
+      "cita_produto": false,
+      "motivo": "Instalação do Ollama no servidor, sem relação com o CMV.",
+      "cargas": [
+        [],
+        [],
+        []
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    }
+  ]
+}

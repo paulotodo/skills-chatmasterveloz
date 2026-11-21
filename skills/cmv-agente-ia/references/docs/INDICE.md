@@ -1,9 +1,10 @@
-# Artigos incluídos nesta skill (56)
+# Artigos incluídos nesta skill (57)
 
 - [API Listar Setores da Empresa](api/api-listar-setores-da-empresa.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-listar-setores-da-empresa>
 - [Aba Evolução da Avaliação pela IA](recursos/aba-evolucao-da-avaliacao-pela-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-evolucao-da-avaliacao-pela-ia>
 - [Aba Geral em Setores & Chatbot](recursos/aba-geral-em-setores-e-chatbot.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-geral-em-setores-e-chatbot>
 - [Aba Hoje da Avaliação pela IA](recursos/aba-hoje-da-avaliacao-pela-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-hoje-da-avaliacao-pela-ia>
+- [Aba Integrações em Cadastros do Consultório](recursos/aba-integracoes-em-cadastros-do-consultorio.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-integracoes-em-cadastros-do-consultorio>
 - [Aba Mensagens em Setores & Chatbot](recursos/aba-mensagens-em-setores-e-chatbot.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-mensagens-em-setores-e-chatbot>
 - [Aguardando x Atendendo](recursos/aguardando-x-atendendo.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aguardando-x-atendendo>
 - [Alertas da Avaliação pela IA](recursos/alertas-da-avaliacao-pela-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/alertas-da-avaliacao-pela-ia>

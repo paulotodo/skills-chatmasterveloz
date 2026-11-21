@@ -16,6 +16,8 @@ O cliente decide se lê pela prévia da notificação. A primeira linha precisa 
 |---|---|
 | "Oi, tudo bem? Posso falar com você?" | "Oi, Ana! Aqui é a Júlia, da Clínica Sorriso. Seu retorno está marcado para quinta, às 14h." |
 
+No e-mail do Mail Marketing, essa prévia é o **Nome do remetente**, o **Assunto** e o **Pré-cabeçalho**, lidos juntos na caixa de entrada. O remetente diz quem fala; o assunto, o motivo; o pré-cabeçalho completa o assunto em vez de repeti-lo.
+
 ## 2. Uma ideia por mensagem
 
 Cada mensagem deve ter um único objetivo. Cobrança é cobrança; oferta é oferta; pesquisa é pesquisa. Mensagem com dois assuntos costuma ter os dois ignorados, e o cliente não sabe o que responder.
@@ -38,6 +40,7 @@ Em mensagem que a empresa inicia para muitas pessoas, diga como parar de receber
 
 - Texto simples e sem ironia: "Se não quiser mais receber nossas mensagens, responda PARAR."
 - Combine antes com o usuário o que a equipe fará quando alguém pedir para sair (por exemplo, marcar o contato e não incluí-lo nas próximas listas). Prometer a saída e continuar enviando é pior do que não oferecer.
+- No e-mail do Mail Marketing não há palavra de saída: a saída é o link de descadastro, que a plataforma põe sozinha no rodapé. Não escreva "responda PARAR" no e-mail.
 - Prefira PARAR a SAIR como palavra de descadastramento. Este ponto vem da documentação: no menu de opções do chatbot do Setor, a plataforma acrescenta a linha "SAIR - Encerrar Atendimento", e quem responde SAIR encerra o atendimento (`references/docs/recursos/chatbot-e-menu-de-setores-na-conexao.md`).
 
 ## 5. Tamanho
@@ -85,7 +88,7 @@ Em mensagem que a empresa inicia para muitas pessoas, diga como parar de receber
 3. O cliente sabe exatamente o que fazer em seguida?
 4. Dá para ler em poucos segundos no celular?
 5. A frase continua boa se a variável vier vazia?
-6. Se a empresa iniciou a conversa em massa, há opção de saída?
+6. Se a empresa iniciou a conversa em massa, há opção de saída? (No e-mail do Mail Marketing, o link do rodapé já cumpre.)
 7. O texto promete só o que a operação cumpre?
 8. As variáveis estão na sintaxe do tipo de mensagem certo (conferir em `references/regras-por-tipo-de-mensagem.md`)?
 
@@ -108,3 +111,6 @@ Só para estes pontos é correto dizer "a documentação diz", citando o artigo.
 | Chamada para ação | Mensagem de aniversário só com "Feliz aniversário" é erro comum: envie um link, ofereça um mimo ou faça uma pergunta. | `references/docs/recursos/mensagem-de-aniversario.md` |
 | Não pedir nada em mensagem que encerra | Pergunta na mensagem de encerramento faz o cliente responder e abre um ticket novo. | `references/docs/recursos/mensagem-de-encerramento.md` |
 | Dizer quando volta | Mensagem de ausência sem previsão de retorno é erro comum listado no artigo. | `references/docs/recursos/mensagem-de-ausencia.md` |
+| Opção de saída e quem fala, no e-mail | Todo e-mail do Mail Marketing leva o link de descadastro no rodapé, e entra sozinho se o modelo não tiver. O **Rodapé dos e-mails** é para "nome da empresa, endereço e por que a pessoa recebe". | `references/docs/recursos/visao-geral-mail-marketing.md`, `references/docs/recursos/configuracoes-do-mail-marketing.md` |
+| Primeira linha que conta, no e-mail | O **Pré-cabeçalho** é "o texto curto que aparece ao lado do assunto na caixa de entrada". | `references/docs/recursos/modelos-de-e-mail-blocos-e-html.md` |
+| Cadência, no e-mail | Na campanha de e-mail: "Comece devagar com uma conta nova e aumente aos poucos"; "o ritmo protege a reputação da sua conta de e-mail". | `references/docs/recursos/configuracoes-do-mail-marketing.md`, `references/docs/recursos/campanhas-de-e-mail.md` |

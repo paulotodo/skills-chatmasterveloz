@@ -1,4 +1,4 @@
-# Artigos incluídos nesta skill (55)
+# Artigos incluídos nesta skill (64)
 
 - [Aba Horários em Setores & Chatbot](recursos/aba-horarios-em-setores-e-chatbot.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-horarios-em-setores-e-chatbot>
 - [Aba Mensagens em Setores & Chatbot](recursos/aba-mensagens-em-setores-e-chatbot.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-mensagens-em-setores-e-chatbot>
@@ -9,12 +9,15 @@
 - [Avaliações em Configurações](recursos/avaliacoes-em-configuracoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/avaliacoes-em-configuracoes>
 - [Avaliações](recursos/avaliacoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/avaliacoes>
 - [Template](recursos/bloco-template.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-template>
+- [Campanhas de E-mail](recursos/campanhas-de-e-mail.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/campanhas-de-e-mail>
 - [Campanhas](recursos/campanhas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/campanhas>
 - [Chatbot e Menu de Setores na Conexão](recursos/chatbot-e-menu-de-setores-na-conexao.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/chatbot-e-menu-de-setores-na-conexao>
 - [Concatenador de Mensagens](recursos/concatenador-de-mensagens.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/concatenador-de-mensagens>
+- [Configurações do Mail Marketing](recursos/configuracoes-do-mail-marketing.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/configuracoes-do-mail-marketing>
 - [Configurar Campanhas](recursos/configurar-campanhas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/configurar-campanhas>
 - [Criar Template no Gerenciador do WhatsApp](recursos/criar-template-no-gerenciador-do-whatsapp.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/criar-template-no-gerenciador-do-whatsapp>
 - [Criar Template pela Plataforma](recursos/criar-template-pela-plataforma.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/criar-template-pela-plataforma>
+- [Descadastros do Mail Marketing](recursos/descadastros-do-mail-marketing.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/descadastros-do-mail-marketing>
 - [Editar Agendamento](recursos/editar-agendamento.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/editar-agendamento>
 - [Editar Mensagem Enviada ao Cliente](recursos/editar-mensagem-enviada-ao-cliente.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/editar-mensagem-enviada-ao-cliente>
 - [Editar Resposta Rápida](recursos/editar-resposta-rapida.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/editar-resposta-rapida>
@@ -30,16 +33,21 @@
 - [Ideias de Respostas Rápidas](recursos/ideias-de-respostas-rapidas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/ideias-de-respostas-rapidas>
 - [Janela de Atendimento](recursos/janela-de-atendimento.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/janela-de-atendimento>
 - [Limitador de Mensagens](recursos/limitador-de-mensagens.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/limitador-de-mensagens>
+- [Listas de Envio do Mail Marketing](recursos/listas-de-envio-do-mail-marketing.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/listas-de-envio-do-mail-marketing>
+- [Mail Marketing](recursos/mail-marketing.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/mail-marketing>
 - [Mensagem de Aniversário](recursos/mensagem-de-aniversario.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/mensagem-de-aniversario>
 - [Mensagem de Ausência](recursos/mensagem-de-ausencia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/mensagem-de-ausencia>
 - [Mensagem de Encerramento](recursos/mensagem-de-encerramento.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/mensagem-de-encerramento>
 - [Mensagem Template](recursos/mensagem-template.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/mensagem-template>
 - [Mensagens automáticas em Configurações](recursos/mensagens-automaticas-em-configuracoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/mensagens-automaticas-em-configuracoes>
+- [Modelos de E-mail: Blocos e HTML](recursos/modelos-de-e-mail-blocos-e-html.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/modelos-de-e-mail-blocos-e-html>
 - [Mustaches](recursos/mustaches.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/mustaches>
 - [Nova Campanha API Oficial](recursos/nova-campanha-api-oficial.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/nova-campanha-api-oficial>
 - [Nova Campanha](recursos/nova-campanha.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/nova-campanha>
 - [Número bloqueado no WhatsApp](recursos/numero-bloqueado-no-whatsapp.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/numero-bloqueado-no-whatsapp>
+- [Permissões Mail Marketing](recursos/permissoes-mail-marketing.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/permissoes-mail-marketing>
 - [Qualidade do Número e Limite de Envio](recursos/qualidade-do-numero-e-limite-de-envio.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/qualidade-do-numero-e-limite-de-envio>
+- [Relatório da Campanha de E-mail](recursos/relatorio-da-campanha-de-e-mail.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/relatorio-da-campanha-de-e-mail>
 - [Remarketing em Tags](recursos/remarketing-em-tags.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/remarketing-em-tags>
 - [Resposta Rápida de Fluxo](recursos/resposta-rapida-de-fluxo.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/resposta-rapida-de-fluxo>
 - [Resposta Rápida Envio de Contato](recursos/resposta-rapida-envio-de-contato.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/resposta-rapida-envio-de-contato>
@@ -49,6 +57,7 @@
 - [Respostas Rápidas](recursos/respostas-rapidas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/respostas-rapidas>
 - [Template Recusado, Pausado ou Desabilitado](recursos/template-recusado-pausado-ou-desabilitado.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/template-recusado-pausado-ou-desabilitado>
 - [Visão Geral Agendamentos](recursos/visao-geral-agendamentos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/visao-geral-agendamentos>
+- [Visão Geral Mail Marketing](recursos/visao-geral-mail-marketing.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/visao-geral-mail-marketing>
 - [Modo Híbrido (Coex + QR CODE)](recursos/whatsapp-modo-hibrido-oficial-e-qrcode.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/whatsapp-modo-hibrido-oficial-e-qrcode>
 - [Gestão de Templates](recursos/whatsapp-oficial-gestao-de-templates.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/whatsapp-oficial-gestao-de-templates>
 - [Oficial x Não Oficial](recursos/whatsapp-oficial-x-nao-oficial.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/whatsapp-oficial-x-nao-oficial>

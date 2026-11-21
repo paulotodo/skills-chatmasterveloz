@@ -42,3 +42,6 @@ plataforma:recursos/aguardando-x-atendendo.md
 plataforma:recursos/transferir-ticket.md
 plataforma:recursos/devolver-ao-setor.md
 plataforma:api/api-listar-setores-da-empresa.md
+# Única outra via documentada de "atendente de IA" marcar horário: a chave de API do Consultório
+# (comandos-e-capacidades.md, seção 4, para dizer que não é o comando de agenda do GPT Assistant).
+plataforma:recursos/aba-integracoes-em-cadastros-do-consultorio.md

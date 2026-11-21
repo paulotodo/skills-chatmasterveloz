@@ -6,7 +6,7 @@ Os caminhos `references/docs/...` são relativos à pasta da skill. Ao citar um 
 
 ## Sumário
 
-- [0. Variáveis: três sintaxes que não se misturam](#0-variáveis-três-sintaxes-que-não-se-misturam)
+- [0. Variáveis: quatro sintaxes que não se misturam](#0-variáveis-quatro-sintaxes-que-não-se-misturam)
 - [1. Resposta rápida](#1-resposta-rápida)
 - [2. Template da API Oficial](#2-template-da-api-oficial)
 - [3. Campanha comum (conexão por QR Code)](#3-campanha-comum-conexão-por-qr-code)
@@ -17,16 +17,18 @@ Os caminhos `references/docs/...` são relativos à pasta da skill. Ao citar um 
 - [8. Complementares: mensagens da Conexão e do Perfil](#8-complementares-mensagens-da-conexão-e-do-perfil)
 - [9. Riscos que valem para vários tipos](#9-riscos-que-valem-para-vários-tipos)
 - [10. Divergências entre artigos](#10-divergências-entre-artigos)
+- [11. E-mail do Mail Marketing](#11-e-mail-do-mail-marketing)
 
 ---
 
-## 0. Variáveis: três sintaxes que não se misturam
+## 0. Variáveis: quatro sintaxes que não se misturam
 
 | Onde se usa | Sintaxe | Quem troca pelo valor | Artigo |
 |---|---|---|---|
 | Textos automáticos e mensagens da plataforma (mustaches) | `{{codigo}}`, por exemplo `{{firstName}}` | O sistema, no momento do envio | `references/docs/recursos/mustaches.md` |
 | Texto de um template da API Oficial | `{{1}}`, `{{2}}`, `{{3}}`… numeradas em sequência | Quem envia: a campanha (campos extras da lista), o bloco Template, a integração | `references/docs/recursos/mensagem-template.md` |
 | Valor digitado numa variável do bloco Template (FlowBuilder) | `{nome}`, `{email}`, `{extra1}` (campos do webhook) e `%variavel%` (variáveis do fluxo) | O fluxo | `references/docs/recursos/bloco-template.md` |
+| Assunto e textos do modelo do Mail Marketing (e-mail) | `{{nome}}`, `{{primeiro_nome}}`, `{{email}}`, `{{descadastro}}` e `{{coluna}}` (colunas a mais da planilha da lista) | O Mail Marketing, no envio de cada e-mail | `references/docs/recursos/modelos-de-e-mail-blocos-e-html.md` (seção 11) |
 
 ### Lista oficial de mustaches (artigo Mustaches)
 
@@ -467,3 +469,76 @@ Quando dois artigos discordam, ou um artigo se contradiz, diga isso ao usuário 
 | Campos extras 7 a 10 na lista de campanha | Nova Campanha API Oficial: extra7, extra8 e extra9 são o texto do 1º, 2º e 3º botão. | Fontes de Contatos para Campanhas: 7 e 8 são os valores dos botões; 9 e 10 são livres. | Para até dois botões os artigos concordam. Com três botões, avise da divergência e peça um teste com uma lista só com o número do próprio usuário. |
 | Fonte de contatos da campanha | Nova Campanha: escolha entre Lista de Contato, Tags, Grupos ou Aniversário. | Fontes de Contatos: a campanha sempre usa uma Lista de Contatos; para alcançar uma tag, cria-se a lista **Por Tag**. | Oriente pelo caminho da lista (**Campanhas › Criar Listas**), que atende aos dois. |
 | Prazo de aprovação de template | Mensagem Template (Dúvidas Comuns): "em geral algumas horas, mas pode ser dias". | Criar Template pela Plataforma e Template Recusado, Pausado ou Desabilitado: a análise "pode levar até 24 horas". | Diga que costuma levar horas, que os artigos falam em até 24 horas e em dias, e que o prazo é da Meta. |
+
+---
+
+## 11. E-mail do Mail Marketing
+
+Campanha de e-mail em massa, enviada pelo menu **Mail Marketing** do CMV a partir de uma conta de e-mail da empresa. Não tem relação com conexão de WhatsApp, janela de atendimento, template da Meta nem cobrança da Meta: nada das seções 2, 4 e 9 vale aqui. E-mail enviado fora do Mail Marketing (Gmail, Outlook, outra ferramenta) não é desta skill.
+
+**Quem pode:** o menu **Mail Marketing** é do Administrador e do Supervisor; o atendente não vê o menu. A aba **Configurações** (rodapé e texto do link de descadastro) só o Administrador altera; o Supervisor vê os campos desativados.
+
+**Onde se cadastra:** o texto do e-mail é o **modelo**: **Mail Marketing › Modelos › Novo modelo** › **Salvar**. O envio é a **campanha**: **Mail Marketing › Campanhas › Nova campanha**, que junta a conta que envia, o modelo e uma ou mais listas. As listas ficam em **Mail Marketing › Listas** (não são as listas de **Campanhas › Criar Listas**, que são das campanhas de WhatsApp).
+
+**O que se redige, campo por campo**
+
+| Onde | Campo | O que o artigo diz |
+|---|---|---|
+| Modelo | **Nome do modelo** | Interno: aparece na escolha do modelo da campanha. Obrigatório para salvar. |
+| Modelo | **Assunto** | O assunto do e-mail. Aceita variável. A campanha usa este quando o **Assunto** dela fica em branco. |
+| Modelo | **Pré-cabeçalho** | "O texto curto que aparece ao lado do assunto na caixa de entrada." |
+| Modelo | **Blocos** ou **HTML** | Alternador do topo: monta o e-mail com blocos, sem código, ou com o HTML de um e-mail pronto colado num campo só. |
+| Modelo, blocos | **Título** | Texto, **Tamanho** (Grande, Médio ou Pequeno) e **Alinhamento**. |
+| Modelo, blocos | **Texto** | Várias linhas e **Alinhamento**; aceita `**negrito**`, `_itálico_` e `[texto do link](https://...)`. |
+| Modelo, blocos | **Botão** | Texto, **Link**, **Alinhamento** e **Cor do botão**. |
+| Modelo, blocos | **Imagem** | **Endereço da imagem** (público, começando com `https://`; não recebe arquivo do computador), **Link**, **Descrição da imagem** e **Largura (%)**, de 10 a 100. |
+| Modelo, blocos | **Colunas**, **Divisor**, **Espaço**, **HTML livre** | Duas ou três colunas com imagem, título, texto e link; uma linha divisória; um respiro de 4 a 120 px; um trecho de HTML no meio dos blocos. |
+| Modelo | Estilo | Cores (**Fundo**, **Conteúdo**, **Texto**, **Destaque**), **Fonte** (Arial, Georgia, Trebuchet MS, Verdana ou Courier New) e **Endereço da logo (opcional)**. Não existe no modo HTML. |
+| Campanha | **Assunto** | "Em branco, vale o assunto do modelo." Preenchido, vale o da campanha. |
+| Campanha | **Nome do remetente** | O nome que o cliente vê junto do endereço da conta de e-mail. O endereço é o da conta escolhida em **Conta de e-mail que envia** (contas do menu **Contas de E-mail**). |
+| Campanha | **Responder para (opcional)** | O endereço que recebe as respostas, quando não deve ser o da própria conta. |
+| Configurações | **Rodapé dos e-mails** | "Nome da empresa, endereço e por que a pessoa recebe. Aparece em todo e-mail, acima do link de descadastro." Vale para todos os e-mails da empresa e aparece na prévia. Só o Administrador salva. |
+| Configurações | **Texto do link de descadastro** | O texto do link no fim de todo e-mail. Em branco, volta para um texto pronto ao salvar. Só o Administrador salva. |
+
+O modelo novo já abre com blocos de exemplo (**Título**, **Texto**, **Botão**): oriente a trocar o conteúdo, não a somar.
+
+**Variáveis (lista do artigo Modelos de E-mail: Blocos e HTML)**
+
+| Variável | No e-mail enviado |
+|---|---|
+| `{{nome}}` | O nome da pessoa, como está na lista |
+| `{{primeiro_nome}}` | A primeira palavra do nome |
+| `{{email}}` | O endereço de e-mail da pessoa |
+| `{{descadastro}}` | O link para a pessoa não receber mais (opcional: sem ele, o link entra sozinho no rodapé) |
+| `{{cidade}}`, `{{plano}}`… | Cada coluna a mais da planilha da lista, com o nome da coluna entre chaves duplas |
+
+- A variável funciona "no assunto e nos textos do e-mail". O editor mostra as variáveis em botões; clicar copia o código. Copie de lá, não de memória.
+- Coluna sem valor para aquela pessoa: o e-mail vai com o espaço em branco. Escreva a frase de modo que continue boa sem o dado.
+- Os mustaches da plataforma (`{{firstName}}`, `{{name}}`, seção 0) não aparecem nos artigos do Mail Marketing: não use no e-mail. O primeiro nome aqui é `{{primeiro_nome}}`.
+- A coluna precisa existir na planilha com o mesmo nome da variável. Cabeçalho da planilha: `email`, `nome` e as outras colunas, separadas por ponto e vírgula, vírgula ou tabulação (exemplo do artigo: `email;nome;cidade;plano`). Se o nome da coluna diferencia maiúsculas ou aceita acento e espaço: **não documentado**. Recomendação desta skill: nome curto, minúsculo, sem acento e sem espaço.
+- As colunas a mais só existem quando os contatos vêm de planilha; quem entrou por **Adicionar um** (e-mail e nome) ou **Do atendimento** recebe o espaço em branco no lugar delas.
+
+**Descadastro**
+
+- Todo e-mail de campanha leva no rodapé o link de descadastro, com o texto das **Configurações**. Se o modelo não tem `{{descadastro}}`, o link entra sozinho no fim; no modo HTML, o rodapé é somado ao fim do HTML colado. Não precisa escrever o link no texto.
+- Abrir o link não descadastra: a página pergunta "Não receber mais estes e-mails?" e só o botão **Confirmar o descadastro** conclui.
+- O descadastro vale para todas as campanhas da empresa, em qualquer lista, até a equipe usar **Voltar a enviar** (só a pedido da pessoa). **Tirar da lista** não descadastra.
+- Não escreva "responda PARAR" no e-mail: o caminho documentado é o link. Que uma resposta ao e-mail descadastre alguém não está documentado; quem pedir por outro canal é descadastrado pela equipe, na aba **Descadastros**.
+
+**Teste (documentado, diferente do WhatsApp)**
+
+- **Prévia** do modelo: mostra o desenho com o rodapé e o link de descadastro, em largura de computador e de celular, mas não troca as variáveis (`{{primeiro_nome}}` aparece escrito).
+- **Enviar um teste** (aparece depois de salvar o modelo) e **Enviar teste** (na campanha): o e-mail chega com **[Teste]** na frente do assunto, **Maria** no `{{primeiro_nome}}`, **Maria Silva** no `{{nome}}`, o endereço do teste no `{{email}}` e as colunas da planilha em branco. O link de descadastro não funciona no teste, e o teste não entra no relatório. O teste da campanha usa o **Nome do remetente** e o **Responder para** dela.
+
+**Limites e avisos**
+
+- **E-mails por minuto:** de 1 a 600. A tela orienta: "Comece devagar com uma conta nova e aumente aos poucos" e "O ritmo protege a reputação da sua conta de e-mail."
+- Para agendar, a campanha precisa de conta de e-mail, modelo, assunto (do modelo ou da campanha) e listas com contatos (linha "Falta para agendar:").
+- Quem está em mais de uma lista recebe uma vez só; quem está nos **Descadastros** fica de fora.
+- Os links do modelo em HTML "são rastreados"; o relatório mostra aberturas, cliques, **Links mais clicados** e descadastros por campanha.
+- O e-mail da campanha não fica na pasta de enviados da conta; o registro fica no relatório.
+- Remover um modelo não muda campanhas já agendadas, que "guardam a cópia delas". **Duplicar** cria uma cópia do modelo ou da campanha (com "(cópia)" no nome): é o caminho documentado para reaproveitar um e-mail já enviado.
+- Custo: o artigo Mail Marketing diz que não é preciso contratar serviço de envio à parte, porque o envio sai pelas contas de e-mail da empresa. Preço e plano não fazem parte desta skill.
+- **Não documentado:** tamanho máximo do assunto, do pré-cabeçalho e do texto; anexos (não há campo de anexo descrito); se as variáveis funcionam no **Pré-cabeçalho**, no **Nome do remetente**, no **Assunto** da campanha e dentro do HTML colado (o artigo fala em "assunto e textos"); o que vai no lugar de `{{nome}}` quando a lista não tem nome; o texto pronto do link de descadastro; se editar um modelo muda uma campanha já agendada; repetição automática de campanha; o fuso da hora do envio. Nesses casos, diga que a Central não informa e mande conferir com **Enviar teste**.
+
+**Artigos:** [Mail Marketing](https://clihelper.chatmasterveloz.com/docs/mail-marketing) (`references/docs/recursos/mail-marketing.md`), [Visão Geral Mail Marketing](https://clihelper.chatmasterveloz.com/docs/visao-geral-mail-marketing) (`references/docs/recursos/visao-geral-mail-marketing.md`), [Modelos de E-mail: Blocos e HTML](https://clihelper.chatmasterveloz.com/docs/modelos-de-e-mail-blocos-e-html) (`references/docs/recursos/modelos-de-e-mail-blocos-e-html.md`), [Campanhas de E-mail](https://clihelper.chatmasterveloz.com/docs/campanhas-de-e-mail) (`references/docs/recursos/campanhas-de-e-mail.md`), [Listas de Envio do Mail Marketing](https://clihelper.chatmasterveloz.com/docs/listas-de-envio-do-mail-marketing) (`references/docs/recursos/listas-de-envio-do-mail-marketing.md`), [Descadastros do Mail Marketing](https://clihelper.chatmasterveloz.com/docs/descadastros-do-mail-marketing) (`references/docs/recursos/descadastros-do-mail-marketing.md`), [Configurações do Mail Marketing](https://clihelper.chatmasterveloz.com/docs/configuracoes-do-mail-marketing) (`references/docs/recursos/configuracoes-do-mail-marketing.md`), [Permissões Mail Marketing](https://clihelper.chatmasterveloz.com/docs/permissoes-mail-marketing) (`references/docs/recursos/permissoes-mail-marketing.md`), [Relatório da Campanha de E-mail](https://clihelper.chatmasterveloz.com/docs/relatorio-da-campanha-de-e-mail) (`references/docs/recursos/relatorio-da-campanha-de-e-mail.md`).

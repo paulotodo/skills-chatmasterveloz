@@ -26,6 +26,8 @@ Se a pessoa não souber qual usa, ensine a conferir: no menu **Conexões**, o ca
 
 Artigos: `references/docs/recursos/whatsapp-oficial-x-nao-oficial.md`, `references/docs/recursos/entenda-a-api-oficial.md`, `references/docs/recursos/janela-de-atendimento.md`.
 
+E-mail só entra quando vai pelo **Mail Marketing** do CMV, e aí esta pergunta não se aplica: siga para o passo 2 e para a seção 11 de `references/regras-por-tipo-de-mensagem.md`. E-mail avulso (Gmail, Outlook, outra ferramenta) fica fora desta skill.
+
 ### 2. Levante o contexto com poucas perguntas
 
 Pergunte de uma vez só, e apenas o que falta:
@@ -54,6 +56,7 @@ Se o pedido já traz o suficiente, não trave: escreva, declare as suposições 
 | Parabenizar no dia do aniversário | Mensagem de Aniversário | Um texto só, enviado às 10h |
 | O que o cliente lê ao chegar ou fora do horário | Mensagens do Setor (e da Conexão) | Saudação, fora de expediente |
 | Aviso de que o atendente saiu; despedida | Mensagem de Ausência; Mensagem de conclusão/Despedida | Campos do Perfil, do atendente, do Setor e da Conexão |
+| Mandar um e-mail em massa (promoção, novidade, convite) pelo CMV | E-mail do Mail Marketing | Modelo (assunto, pré-cabeçalho, blocos ou HTML) e campanha; variáveis próprias |
 
 Um pedido pode render mais de um tipo. "Campanha de reativação" na oficial, por exemplo, é um template de Marketing mais a lista com os campos extras preenchidos.
 
@@ -85,7 +88,7 @@ Regras de honestidade, e o motivo de cada uma:
 - **Não misture variantes de conexão.** O que vale para a oficial não vale para a por QR Code, e vice-versa. Os artigos dizem por extenso a que conexão se aplicam ("conexão oficial", "por QR Code"); a comparação está em `references/docs/recursos/whatsapp-oficial-x-nao-oficial.md`.
 - **Não cite preços nem planos.** A cobrança é da Meta e muda; diga que existe, quem cobra e o que conta (ver "Quando perguntarem quanto custa").
 - **Não afirme regra da Meta de memória.** Aprovação de template é decisão da Meta e não pode ser garantida; o que os artigos dizem sobre reprovação está reunido numa lista única na ficha de template.
-- **Variável `{{...}}` se copia, não se digita de memória.** A referência da sintaxe e da lista de códigos é `references/docs/recursos/mustaches.md`. Antes de entregar, confira cada variável do texto contra a lista desse artigo, letra por letra.
+- **Variável `{{...}}` se copia, não se digita de memória.** A referência da sintaxe e da lista de códigos é `references/docs/recursos/mustaches.md`. Antes de entregar, confira cada variável do texto contra a lista desse artigo, letra por letra. No e-mail do Mail Marketing, a lista é a de `references/docs/recursos/modelos-de-e-mail-blocos-e-html.md`.
 
 ## Mapa do material
 
@@ -93,7 +96,7 @@ Regras de honestidade, e o motivo de cada uma:
 |---|---|
 | Campos, variáveis, limites e avisos de cada tipo | `references/regras-por-tipo-de-mensagem.md` |
 | Sintaxe e lista oficial das variáveis `{{...}}` (mustaches) | `references/docs/recursos/mustaches.md` |
-| As três sintaxes de variável e o que cada campo confirma | `references/regras-por-tipo-de-mensagem.md`, seção 0 |
+| As quatro sintaxes de variável e o que cada campo confirma | `references/regras-por-tipo-de-mensagem.md`, seção 0 |
 | O que causa reprovação de template, pausa ou bloqueio (lista única) | `references/regras-por-tipo-de-mensagem.md`, seção 2 |
 | Roteiro de custo da API Oficial, sem valores | `references/regras-por-tipo-de-mensagem.md`, seção 9 |
 | Pontos em que os artigos se contradizem | `references/regras-por-tipo-de-mensagem.md`, seção 10 |
@@ -121,12 +124,13 @@ Regras de honestidade, e o motivo de cada uma:
 | Bloqueio de número, opt-in, limites de envio | `references/docs/recursos/numero-bloqueado-no-whatsapp.md`, `references/docs/recursos/qualidade-do-numero-e-limite-de-envio.md` |
 | Meio de pagamento na Meta | `references/docs/recursos/forma-de-pagamento-do-whatsapp-oficial.md` |
 | Corrigir uma mensagem já enviada ao cliente | `references/docs/recursos/editar-mensagem-enviada-ao-cliente.md` |
+| E-mail do Mail Marketing: modelo, variáveis, campanha, listas, descadastro | `references/regras-por-tipo-de-mensagem.md`, seção 11; `references/docs/recursos/modelos-de-e-mail-blocos-e-html.md`, `references/docs/recursos/campanhas-de-e-mail.md` |
 
 ## Armadilhas encontradas na documentação
 
 Cada uma já causou, ou causaria, uma entrega errada. Confira antes de responder.
 
-1. **Três sintaxes de variável.** `{{firstName}}` (mustache da plataforma), `{{1}}` (template) e `{nome}` / `%variavel%` (preenchimento do bloco Template no FlowBuilder) não são intercambiáveis. `{{nome}}` não existe em nenhuma delas.
+1. **Quatro sintaxes de variável.** `{{firstName}}` (mustache da plataforma), `{{1}}` (template), `{nome}` / `%variavel%` (preenchimento do bloco Template no FlowBuilder) e `{{primeiro_nome}}` / `{{nome}}` (só no e-mail do Mail Marketing) não são intercambiáveis. Fora do e-mail, `{{nome}}` não existe.
 2. **Mustache é exato** (`references/docs/recursos/mustaches.md`). Maiúsculas contam (`{{firstName}}`, não `{{firstname}}`), não pode haver espaço dentro das chaves e não dá para inventar código: o que o sistema não reconhece vai literal para o cliente.
 3. **Nem todo campo confirma variáveis.** O artigo do Setor confirma `{{name}}` na saudação; o da resposta rápida confirma que há variáveis (exemplo `{{firstName}}`); o de Mensagens automáticas confirma `{{ms}}` e `{{name}}` na **Mensagem de Encaminhamento**. Para mensagem simples de campanha, agendamento, aniversário, fora de expediente, ausência e conclusão, o artigo do campo não diz nada. Nesses, escreva sem variável ou avise que é para testar.
 4. **Utilidade contaminada.** Uma única frase de oferta num template de Utilidade faz o modelo inteiro virar Marketing; e Utilidade com linguagem vendedora é recusada. Cobrança e aviso: informe e pare. A oferta vai em outro template.
@@ -147,6 +151,7 @@ Cada uma já causou, ou causaria, uma entrega errada. Confira antes de responder
 19. **Risco de bloqueio na conexão por QR Code nunca é zero**, mesmo com intervalos e variações. Não prometa segurança; mostre o que o artigo recomenda e deixe a decisão com o usuário.
 20. **O fuso horário da empresa vale para agendamentos, campanhas e a mensagem de aniversário** (**Configurações › Opções › Geral**, seção **Empresa e região**). Sem escolha, o sistema usa o horário de Brasília. Em envio com hora marcada, lembre de conferir.
 21. **Palavra de saída: PARAR, não SAIR.** No menu de opções do chatbot do Setor a plataforma acrescenta a linha **SAIR - Encerrar Atendimento**, e quem responde SAIR encerra o atendimento (`references/docs/recursos/chatbot-e-menu-de-setores-na-conexao.md`). Na **Mensagem de Descadastramento** da campanha e na opção de saída do template, escreva "responda PARAR".
+22. **E-mail do Mail Marketing não sai com "responda PARAR".** O link de descadastro entra sozinho no rodapé e vale para todas as campanhas de e-mail da empresa. Negrito no bloco **Texto** é `**assim**`, e imagem só por endereço `https://`.
 
 ## Quando perguntarem quanto custa
 
@@ -158,8 +163,10 @@ Sugerir um teste é recomendação desta skill; os artigos não descrevem um rec
 
 - Agendamento só aceita destinatário já cadastrado em **Contatos**: para testar, o número de teste precisa estar lá.
 - Lista de campanha pode ser uma **Lista Manual** com um contato só (botão **Novo**), com os campos extras preenchidos.
-- A **Gestão de Templates** mostra uma prévia do texto de cada modelo, e o botão **Erros de Template** mostra por que um envio foi recusado.
+- A **Gestão de Templates** mostra uma prévia do texto de cada modelo. O botão **Erros de Template** mostra por que um **envio** de template já aprovado foi recusado. O motivo de um template **rejeitado na análise** não aparece ali: chega por e-mail a quem administra a conta de mensagens e fica na **Página Inicial do Suporte para Empresas**, na Meta (Template Recusado, Pausado ou Desabilitado).
 - Na oficial, todo template enviado é cobrado, inclusive o do teste.
+
+No e-mail do Mail Marketing o teste é documentado: **Enviar um teste** no modelo e **Enviar teste** na campanha (seção 11 da ficha).
 
 O resto é prática, e deve ser dito assim: usar um número de teste diferente do número da conexão e conferir a mensagem recebida antes de disparar para clientes.
 
@@ -182,6 +189,7 @@ Use sempre esta estrutura, porque ela separa o que colar, onde colar e o que pod
 - Texto com mais de um parágrafo: mantenha a linha na tabela e repita o texto logo abaixo, num bloco de código com o mesmo nome, para a pessoa copiar com as quebras de linha.
 - Campanha com variações longas (as cinco da campanha por QR Code, cada uma com mais de um parágrafo): a tabela é opcional, porque o texto não cabe nela. No lugar dela, diga uma vez o tipo, as variáveis usadas e onde cadastrar, e entregue um bloco de código por variação ("Variação 1" a "Variação 5"), mais um para a **Mensagem de Descadastramento**.
 - Template: ponha sempre o texto num bloco de código próprio, mesmo com um parágrafo só, e deixe na tabela apenas o resumo (nome, categoria, para que serve). O texto do template é copiado para uma tela de aprovação, e qualquer caractere a mais ou a menos muda o que a Meta analisa.
+- E-mail do Mail Marketing: na tabela, só o resumo; abaixo, um bloco de código para **Assunto**, um para **Pré-cabeçalho** e um por bloco do e-mail, na ordem (Título, Texto, Botão com texto e link), ou o HTML inteiro num bloco só. Diga a que coluna da planilha corresponde cada `{{coluna}}`.
 - Para template, acrescente por mensagem: categoria, nome sugerido, o significado de cada `{{n}}` com um valor de exemplo e, se for para campanha, o campo extra correspondente.
 
 **3. Passo a passo numerado para cadastrar**, com o caminho do menu em negrito, na ordem em que a pessoa clica. Um bloco de passos por tipo de mensagem, não por mensagem.
@@ -220,6 +228,7 @@ Caminho de arquivo desta skill (o que começa por `references/` ou `assets/`) n�
 | Desenhar o fluxo do chatbot, escolher blocos, configurar o bloco Template dentro de um fluxo | `cmv-flowbuilder` |
 | Enviar template ou mensagem por API, webhook, n8n, payload | `cmv-api` |
 | Escrever o prompt do GPT Assistant ou de outro recurso de IA | `cmv-agente-ia` |
-| Dúvida de uso do painel que não envolve redigir mensagem (conectar número, permissões, erro de tela) | `cmv-ajuda` |
+| Dúvida de uso do painel que não envolve redigir mensagem (conectar número, permissões, erro de tela, configurar o Mail Marketing) | `cmv-ajuda` |
+| E-mail que não vai pelo Mail Marketing do CMV (Gmail, Outlook, outra ferramenta) | Nenhuma: fora desta skill |
 
 Quando o pedido mistura as duas coisas (por exemplo, "campanha que dispara um fluxo"), entregue aqui os textos e a parte de campanha, e diga com clareza qual parte cabe à outra skill. Os textos de dentro de um fluxo podem ser redigidos aqui; a montagem do fluxo, não.

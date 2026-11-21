@@ -91,7 +91,7 @@ Documentado sobre o uso ([Comandos]):
 
 ### Forma do código (precaução desta skill)
 
-Nos blocos do artigo, a forma é sempre `#{"chave": "número"}`: `#` colado na chave de abertura, aspas retas, ID numérico entre aspas. O artigo não diz que o código é JSON nem o que acontece com outras formas (espaço depois do `#`, aspas curvas, ID sem aspas). Inserindo pela janela, a forma vem dela. Se a pessoa digitar ou editar um bloco à mão, a skill adota uma precaução, e deve apresentá-la como precaução: o código fica idêntico ao bloco do artigo. O `scripts/conferir_prompt.py` acusa o que difere dessa forma; sem terminal, confira código por código.
+Nos blocos do artigo, a forma é sempre `#{"chave": "número"}`: `#` colado na chave de abertura, aspas retas, ID numérico entre aspas. O artigo não diz que o código é JSON nem o que acontece com outras formas (espaço depois do `#`, aspas curvas, ID sem aspas). Inserindo pela janela, a forma vem dela. Se a pessoa digitar ou editar um bloco à mão, a skill adota uma precaução, e deve apresentá-la como precaução: o código fica idêntico ao bloco do artigo. O `scripts/conferir_prompt.py` acusa o que difere dessa forma; sem terminal, confira código por código. Os blocos `agenda` e `oportunidade` ficam fora dessa conferência (seção 4).
 
 ### Turnos sem mensagem ao cliente
 
@@ -119,7 +119,9 @@ Caminho: menu **Prompts OPEN.AI** › abrir o prompt pelo ícone **Editar** do c
 - Com o sim, cria o compromisso como uma tarefa do tipo escolhido, com a duração definida, ligada ao atendimento, e avisa a equipe numa nota interna da conversa. Se o horário já estiver ocupado, a instrução diz que "o sistema recusa e avisa o operador".
 - A IA "grava o compromisso e põe no Google Calendar"; sem o Google Calendar conectado, o compromisso fica só na plataforma.
 
-Não documentado: a forma dos blocos `agenda` e `oportunidade`, o texto exato das instruções que a janela insere e o que o cliente recebe quando o horário pedido está ocupado. Nunca escreva de cabeça esses blocos. O roteiro está em `references/configuracao-painel.md`, etapa 5; as duas variantes de agendamento, em `assets/modelo-prompt.md`.
+Não documentado: a forma dos blocos `agenda` e `oportunidade` (o artigo só diz que "a IA completa com o que ouviu do cliente — o valor, o resumo e as respostas; a data, a hora e o tipo"), o texto exato das instruções que a janela insere e o que o cliente recebe quando o horário pedido está ocupado. Nenhum outro artigo da Central mostra esses blocos (conferido em 21/11/2026 em toda a documentação, inclusive CRM, Consultório, Reservas e Links de agendamento). Nunca escreva de cabeça esses blocos nem os corrija à mão. O que dizer à pessoa, e o que o `scripts/conferir_prompt.py` diz quando acha um deles (pelo nome no bloco ou pelo nome do comando no título da seção): "insira pelo botão da janela COMANDOS DA IA e não edite o bloco à mão; a Central de Ajuda não mostra a forma dele". O script não confere esses dois blocos, nem acusa erro neles: só avisa, e quem prova que funcionam é o teste do comando. O roteiro está em `references/configuracao-painel.md`, etapa 5; as duas variantes de agendamento, em `assets/modelo-prompt.md`.
+
+O artigo não liga esse comando às agendas do **Consultório** nem das **Reservas**: o compromisso vira uma tarefa ([Comandos]). O Consultório tem outra via, a de um "atendente de IA que marca consultas pela conversa" por uma chave de API criada em **Consultório › Cadastros do consultório**, aba **Integrações** (Aba Integrações em Cadastros do Consultório, https://clihelper.chatmasterveloz.com/docs/aba-integracoes-em-cadastros-do-consultorio). É integração por API, com a `cmv-api`; a documentação não diz que o GPT Assistant usa essa chave.
 
 ## 5. Onde achar os IDs dos comandos
 

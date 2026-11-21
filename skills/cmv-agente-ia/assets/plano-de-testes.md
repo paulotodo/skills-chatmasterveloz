@@ -1,6 +1,6 @@
 # Plano de testes do atendente de IA
 
-Modelo para montar o plano de testes de um prompt entregue. A lista de cenários e o jeito de testar são método desta skill; o que é comportamento da plataforma vem com o artigo. Os pontos em aberto da documentação que o teste precisa responder (primeira mensagem, transbordo junto com comando) e os turnos sem mensagem ao cliente estão explicados em `references/comandos-e-capacidades.md`, seções 3, 6 e 7; aqui eles só aparecem como cenários.
+Modelo para montar o plano de testes de um prompt entregue. A lista de cenários e o jeito de testar são método desta skill; o que é comportamento da plataforma vem com o artigo. Os pontos em aberto da documentação que o teste precisa responder (primeira mensagem, transbordo junto com comando) e os turnos sem mensagem ao cliente estão explicados em `references/comandos-e-capacidades.md`, seções 3, 6 e 7; aqui eles só aparecem como cenários. Os caminhos entre parênteses neste arquivo são para quem monta o plano; na resposta, cite o título do artigo e o link.
 
 Entregue o plano com as falas do negócio da pessoa: ela vai copiar cada mensagem no WhatsApp e comparar com o esperado. Mande o plano quando o prompt já estiver colado no painel; antes disso, ele é só mais texto para ler.
 
@@ -15,7 +15,7 @@ O assistente só atua com a conversa no Setor dele e em **Aguardando**, e não r
 3. Confira que a conversa ficou em **Aguardando**: o artigo diz que o atendimento transferido para outro Setor sem ser aceito continua em Aguardando (`references/docs/recursos/aguardando-x-atendendo.md`). Se ela aparecer em **Atendendo**, use **Devolver ao Setor**, também em "Ações do Ticket", que devolve o atendimento a Aguardando mantendo o Setor (`references/docs/recursos/devolver-ao-setor.md`).
 4. Do celular, mande uma nova mensagem. É a partir dela que o roteiro de teste começa.
 
-**Rota 2: apontar a Conexão para o Setor da IA.** É o caminho definitivo (`references/configuracao-painel.md`, etapa 9), e enquanto estiver assim os clientes reais também caem na IA. Recomendações desta skill, não da documentação: anotar antes quais Setores estavam marcados em **Setores & Tempos**, para voltar atrás; fazer em horário de pouco movimento; desfazer se o caminho principal falhar.
+**Rota 2: apontar a Conexão para o Setor da IA.** É um dos caminhos para pôr no ar (`references/configuracao-painel.md`, etapa 9); o que os artigos Tipo Prompt e GPT Assistant recomendam é o bloco **GPT Assistant (OpenAI)** do FlowBuilder. Com a Conexão apontada, os clientes reais também caem na IA. Recomendações desta skill, não da documentação: anotar antes quais Setores estavam marcados em **Setores & Tempos**, para voltar atrás; fazer em horário de pouco movimento; desfazer se o caminho principal falhar.
 
 **A primeira mensagem.** Na rota 2, a conversa já nasce no Setor da IA. O artigo diz que mensagens anteriores à troca de Setor não são respondidas, mas não diz se a primeira mensagem de uma conversa que nasce nesse Setor é respondida. Por isso toda conversa de teste começa com uma mensagem de chegada ("oi") cujo resultado só se anota: se a saudação do Setor chegou e se a IA respondeu. O roteiro conta a partir da mensagem seguinte.
 

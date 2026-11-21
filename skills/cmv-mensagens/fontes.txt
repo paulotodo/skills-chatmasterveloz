@@ -39,3 +39,5 @@ plataforma:recursos/adicionar-whatsapp-oficial.md
 plataforma:recursos/avaliacoes-em-configuracoes.md
 plataforma:recursos/remarketing-em-tags.md
 plataforma:recursos/editar-mensagem-enviada-ao-cliente.md   # corrigir a mensagem já enviada
+# Mail Marketing: campanhas de e-mail (modelo, variáveis, listas, descadastro, teste); o webhook fica com a cmv-api
+subarvore:Mail Marketing

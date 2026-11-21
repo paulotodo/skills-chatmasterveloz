@@ -61,7 +61,8 @@ Leia o que a pessoa já disse e pergunte, numa mensagem só, o que falta desta l
 | Resposta inválida | **Caminho alternativo (ELSE)** marcado → um texto curto de "não entendi" → volta ao mesmo Menu |
 | Passagem para a equipe | uma opção "Falar com atendente" no menu principal; antes de cada Setor, um texto avisando da passagem e uma Msg Interna com o que o cliente escolheu |
 | Fora do horário | se a pessoa não falou de horário, não ponha bloco de horário: escreva o aviso da passagem sem prometer resposta imediata ("assim que possível, dentro do nosso horário"). Se falou: **Horário de Expediente** antes do menu; na saída **Fora do Horário**, aviso com o horário e bloco **Setor**, onde a conversa fica para a equipe responder na volta. Qual Setor, nos dois blocos (o que dá o horário e o que recebe a conversa): o que a pessoa indicou; se não indicou, não pergunte: cada bloco vai com marcador (linha abaixo) e ela escolhe no editor |
-| Setor sem ID informado | marcador `TROCAR: Setor <nome que a pessoa usou>`; sem nome, o papel do Setor, como `TROCAR: Setor que recebe fora do horário` |
+| Setor sem ID informado | na descrição, `"nome"` com o nome que a pessoa usou ou, sem nome, o papel do Setor **sem a palavra Setor** (`"nome": "que recebe fora do horário"`). O gerador acrescenta `TROCAR: Setor` e o bloco sai como `TROCAR: Setor que recebe fora do horário` |
+| Dado do negócio que a pessoa não deu (cardápio, preços, endereço, link) | no texto do bloco, `TROCAR: <o que entra>` (por exemplo `TROCAR: cardápio com os preços`), para o validador listar em VALORES A TROCAR e o `--final` barrar. Nunca exemplo inventado (sabores, `R$ 00,00`) nem colchetes |
 | Tags | só se a pessoa já usa tags |
 | Entre dois textos seguidos | Intervalo de 2 segundos |
 
