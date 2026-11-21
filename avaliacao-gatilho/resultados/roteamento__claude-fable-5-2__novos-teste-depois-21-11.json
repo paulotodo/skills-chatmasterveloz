@@ -1,0 +1,1176 @@
+{
+  "modelo": "claude-fable-5-2",
+  "conjunto": "novos-teste",
+  "resultados": [
+    {
+      "id": "n-002",
+      "pedido": "a recepcao nao acha o botao chamar no card do paciente, ele ta em A chegar ainda. como faz",
+      "destino": "cmv-ajuda",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "modulo": "consultorio",
+      "cita_produto": false,
+      "motivo": "recursos/recepcao-do-consultorio.md: Dúvidas Comuns, é preciso clicar em Chegou antes de Chamar.",
+      "aceitavel_original": [],
+      "segundo_anotador": {
+        "destino": "cmv-ajuda",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Onde fica o botão Chamar no card do paciente."
+      },
+      "concordancia": "igual",
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-003",
+      "pedido": "Sou secretária de uma clínica de fisioterapia. Preciso marcar uma paciente às 10h com a Dra. Paula, mas o horário já está ocupado e é urgente. Pela Agenda do Consultório dá para encaixar mesmo assim?",
+      "destino": "cmv-ajuda",
+      "aceitavel": [],
+      "tipo": "fronteira",
+      "modulo": "consultorio",
+      "cita_produto": false,
+      "motivo": "recursos/agenda-do-consultorio.md: opção Encaixe na marcação pela tela.",
+      "aceitavel_original": [],
+      "segundo_anotador": {
+        "destino": "cmv-ajuda",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Encaixe de horário na Agenda do Consultório."
+      },
+      "concordancia": "igual",
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-004",
+      "pedido": "Tenho um sistema próprio da clínica em Node e quero buscar os horários livres do serviço 'Avaliação odontológica' no CMV para mostrar no nosso site e depois marcar a consulta pela API. Me passa o código das duas chamadas usando a chave do Consultório.",
+      "destino": "cmv-api",
+      "aceitavel": [],
+      "tipo": "fronteira",
+      "modulo": "consultorio",
+      "cita_produto": true,
+      "motivo": "api/api-listar-horarios-livres-do-consultorio.md e api/api-marcar-consulta.md.",
+      "aceitavel_original": [],
+      "segundo_anotador": {
+        "destino": "cmv-api",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Código Node para horários livres e marcação pela API do Consultório."
+      },
+      "concordancia": "igual",
+      "cargas": [
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-007",
+      "pedido": "Onde eu configuro no Chat Master Veloz para os lembretes da consulta saírem 1 dia antes e 2 horas antes, e por um número diferente daquele em que a gente atende?",
+      "destino": "cmv-ajuda",
+      "aceitavel": [],
+      "tipo": "fronteira",
+      "modulo": "consultorio",
+      "cita_produto": true,
+      "motivo": "recursos/aba-confirmacao-em-cadastros-do-consultorio.md: Lembretes automáticos e campo Por onde o lembrete é enviado.",
+      "aceitavel_original": [],
+      "segundo_anotador": {
+        "destino": "cmv-ajuda",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Configurar lembretes da consulta e número de envio."
+      },
+      "concordancia": "igual",
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-008",
+      "pedido": "No consultório do chatmasterveloz o relatório de repasse não mostra a consulta de hoje da Dra. Luana. Ela atendeu normalmente. Por quê?",
+      "destino": "cmv-ajuda",
+      "aceitavel": [],
+      "tipo": "com-nome-do-produto",
+      "modulo": "consultorio",
+      "cita_produto": true,
+      "motivo": "recursos/aba-repasse-em-cadastros-do-consultorio.md: só entram consultas quitadas.",
+      "aceitavel_original": [],
+      "segundo_anotador": {
+        "destino": "cmv-ajuda",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Por que a consulta não aparece no relatório de repasse."
+      },
+      "concordancia": "igual",
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-010",
+      "pedido": "Tenho uma pousada e criei a oferta por diária do Chalé 2, mas na página de reservas o cliente não consegue escolher o dia 28. Não tem nenhuma estadia nesse dia. O que pode estar travando?",
+      "destino": "cmv-ajuda",
+      "aceitavel": [],
+      "tipo": "fronteira",
+      "modulo": "reservas",
+      "cita_produto": false,
+      "motivo": "recursos/reservas-por-diaria.md: na diária só bloqueio ou outra estadia fecham a data (aba Bloqueios).",
+      "aceitavel_original": [],
+      "segundo_anotador": {
+        "destino": "cmv-ajuda",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Dia bloqueado na página de reservas da pousada."
+      },
+      "concordancia": "igual",
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-013",
+      "pedido": "cliente reservou pela pagina e nao recebeu nenhuma mensagem de confirmação no whats. onde eu ligo esses avisos das reservas no cmv?",
+      "destino": "cmv-ajuda",
+      "aceitavel": [],
+      "tipo": "fronteira",
+      "modulo": "reservas",
+      "cita_produto": true,
+      "motivo": "recursos/aba-avisos-em-reservas.md: menu Reservas, aba Avisos, e o bloco Mensagens ao cliente.",
+      "aceitavel_original": [],
+      "segundo_anotador": {
+        "destino": "cmv-ajuda",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Onde ligar os avisos das reservas."
+      },
+      "concordancia": "igual",
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-015",
+      "pedido": "Restaurante aqui. Em PDV › Mesas e Comandas, na aba Reservas, o garçom clicou em Chegou numa reserva com Mesa a definir e não abriu conta nenhuma. É bug?",
+      "destino": "cmv-ajuda",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "modulo": "reservas",
+      "cita_produto": false,
+      "motivo": "recursos/reservas-de-mesa.md: na reserva com Mesa a definir só a chegada é marcada.",
+      "aceitavel_original": [],
+      "segundo_anotador": {
+        "destino": "cmv-ajuda",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Comportamento do Chegou nas reservas do PDV."
+      },
+      "concordancia": "igual",
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-017",
+      "pedido": "Liguei a URL na aba Webhook das Reservas do CMV. Como faço no n8n para, quando chegar sinal-expirado, avisar o gerente, e quando chegar pacote-esgotado, oferecer um pacote novo ao cliente?",
+      "destino": "cmv-api",
+      "aceitavel": [],
+      "tipo": "com-nome-do-produto",
+      "modulo": "reservas",
+      "cita_produto": true,
+      "motivo": "api/webhook-das-reservas.md: eventos sinal-expirado e pacote-esgotado.",
+      "aceitavel_original": [],
+      "segundo_anotador": {
+        "destino": "cmv-api",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Quer o fluxo no n8n tratando eventos do webhook das Reservas."
+      },
+      "concordancia": "igual",
+      "cargas": [
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-018",
+      "pedido": "Preciso do texto do e-mail da campanha de Black Friday que vou disparar pelo Mail Marketing do Chat Master Veloz: assunto, pré-cabeçalho e corpo usando {{primeiro_nome}}. É uma loja de roupas femininas, desconto de 30%.",
+      "destino": "cmv-mensagens",
+      "aceitavel": [
+        "cmv-ajuda"
+      ],
+      "tipo": "fronteira",
+      "modulo": "mail-marketing",
+      "cita_produto": true,
+      "motivo": "recursos/modelos-de-e-mail-blocos-e-html.md: assunto, pré-cabeçalho e variáveis; o pedido é o texto pronto.",
+      "aceitavel_original": [
+        "cmv-ajuda"
+      ],
+      "segundo_anotador": {
+        "destino": "cmv-mensagens",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Texto do e-mail de campanha pelo Mail Marketing do CMV."
+      },
+      "concordancia": "igual",
+      "cargas": [
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-019",
+      "pedido": "escreve um email de reativação pra mandar na campanha pra lista 'clientes inativos 2025', com {{primeiro_nome}} e {{cidade}} (tenho essa coluna na planilha). é escola de inglês",
+      "destino": "cmv-mensagens",
+      "aceitavel": [
+        "cmv-ajuda"
+      ],
+      "tipo": "fronteira",
+      "modulo": "mail-marketing",
+      "cita_produto": false,
+      "motivo": "recursos/listas-de-envio-do-mail-marketing.md: colunas da planilha viram variáveis; o pedido é o texto.",
+      "aceitavel_original": [
+        "cmv-ajuda"
+      ],
+      "segundo_anotador": {
+        "destino": "cmv-mensagens",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Texto do e-mail de reativação para campanha com variáveis da lista."
+      },
+      "concordancia": "igual",
+      "cargas": [
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ],
+        [
+          "cmv-mensagens"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-022",
+      "pedido": "Cliente ligou pedindo para não receber mais nossos e-mails. Usei o Tirar da lista na aba Contatos e ele recebeu a campanha de hoje mesmo assim. Fiz errado?",
+      "destino": "cmv-ajuda",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "modulo": "mail-marketing",
+      "cita_produto": false,
+      "motivo": "recursos/descadastros-do-mail-marketing.md: Tirar da lista não é descadastro.",
+      "aceitavel_original": [],
+      "segundo_anotador": {
+        "destino": "cmv-ajuda",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Dúvida sobre o Tirar da lista do Mail Marketing na tela."
+      },
+      "concordancia": "igual",
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-023",
+      "pedido": "Quero receber no meu CRM quando alguém abre ou clica nos e-mails do Mail Marketing do chatmasterveloz. Me ajuda a validar a assinatura X-Assinatura-MailMarketing num endpoint Node/Express e tratar email-aberto e link-clicado?",
+      "destino": "cmv-api",
+      "aceitavel": [],
+      "tipo": "com-nome-do-produto",
+      "modulo": "mail-marketing",
+      "cita_produto": true,
+      "motivo": "api/webhook-do-mail-marketing.md: eventos e cabeçalhos de assinatura.",
+      "aceitavel_original": [],
+      "segundo_anotador": {
+        "destino": "cmv-api",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Validar assinatura do webhook do Mail Marketing em Node/Express."
+      },
+      "concordancia": "igual",
+      "cargas": [
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-026",
+      "pedido": "como faço o dashboard já abrir filtrado no setor Comercial e em Esta semana toda vez que eu entro? cansei de escolher de novo",
+      "destino": "cmv-ajuda",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "modulo": "dashboard",
+      "cita_produto": false,
+      "motivo": "recursos/visoes-do-dashboard.md: Abrir o Dashboard nesta visão.",
+      "aceitavel_original": [],
+      "segundo_anotador": {
+        "destino": "cmv-ajuda",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Dashboard abrir com filtro padrão via Visões."
+      },
+      "concordancia": "igual",
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-029",
+      "pedido": "Gostaria que o resumo automático do Dashboard do Chat Master Veloz chegasse toda segunda às 8h para a diretora, apenas com os números do setor Financeiro. Como configuro?",
+      "destino": "cmv-ajuda",
+      "aceitavel": [],
+      "tipo": "com-nome-do-produto",
+      "modulo": "dashboard",
+      "cita_produto": true,
+      "motivo": "recursos/resumo-automatico-do-dashboard.md: Semanal e Usar os filtros que estão na tela.",
+      "aceitavel_original": [],
+      "segundo_anotador": {
+        "destino": "cmv-ajuda",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Configurar o resumo automático do Dashboard por e-mail."
+      },
+      "concordancia": "igual",
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-030",
+      "pedido": "No Modo TV do Dashboard do CMV, que fica na TV da sala do comercial, queria aumentar a fonte dos números e deixar o fundo preto. Consigo isso com o CSS personalizado do painel?",
+      "destino": "cmv-painel-css-js",
+      "aceitavel": [],
+      "tipo": "com-nome-do-produto",
+      "modulo": "dashboard",
+      "cita_produto": true,
+      "motivo": "Mudança visual do Modo TV (recursos/visao-geral-dashboard.md) por CSS do painel.",
+      "aceitavel_original": [],
+      "segundo_anotador": {
+        "destino": "cmv-painel-css-js",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Mudar fonte e fundo do Modo TV com CSS personalizado."
+      },
+      "concordancia": "igual",
+      "cargas": [
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-031",
+      "pedido": "O cliente marcou uma reunião pelo link de agendamento e eu não acho em lugar nenhum. Onde aparece? E dá para ele receber um lembrete 1 hora antes no WhatsApp?",
+      "destino": "cmv-ajuda",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "modulo": "links-agendamento",
+      "cita_produto": false,
+      "motivo": "recursos/links-de-agendamento.md: reunião vira tarefa em Tarefas; aviso Antes da reunião.",
+      "aceitavel_original": [],
+      "segundo_anotador": {
+        "destino": "cmv-ajuda",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Onde aparece a reunião do link de agendamento e como ligar o lembrete."
+      },
+      "concordancia": "igual",
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-034",
+      "pedido": "Criei a Base de Conhecimento no GPT Assistant do Chat Master Veloz com horários e política de trocas, mas a IA continua inventando o horário de sábado. O que eu confiro?",
+      "destino": "cmv-agente-ia",
+      "aceitavel": [
+        "cmv-ajuda"
+      ],
+      "tipo": "com-nome-do-produto",
+      "modulo": "base-conhecimento",
+      "cita_produto": true,
+      "motivo": "recursos/base-de-conhecimento-do-gpt-assistant.md: base ligada ao prompt e título dos itens.",
+      "aceitavel_original": [
+        "cmv-ajuda"
+      ],
+      "segundo_anotador": {
+        "destino": "cmv-agente-ia",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "IA ignora a Base de Conhecimento do GPT Assistant."
+      },
+      "concordancia": "igual",
+      "cargas": [
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-036",
+      "pedido": "subi uma foto do cardapio no ENVIAR ARQUIVO da base e nao leu nada. so aceita pdf?",
+      "destino": "cmv-agente-ia",
+      "aceitavel": [
+        "cmv-ajuda"
+      ],
+      "tipo": "sem-nome-do-produto",
+      "modulo": "base-conhecimento",
+      "cita_produto": false,
+      "motivo": "recursos/base-de-conhecimento-do-gpt-assistant.md: aceita .pdf, .docx, .txt, .md e .csv; imagem não é lida.",
+      "aceitavel_original": [
+        "cmv-ajuda"
+      ],
+      "segundo_anotador": {
+        "destino": "cmv-agente-ia",
+        "aceitavel": [
+          "cmv-ajuda"
+        ],
+        "confianca": "alta",
+        "motivo": "Arquivos aceitos no ENVIAR ARQUIVO da Base de Conhecimento."
+      },
+      "concordancia": "igual",
+      "cargas": [
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-039",
+      "pedido": "troquei o provedor pra groq e a ia parou de responder os clientes. onde vejo o erro?",
+      "destino": "cmv-agente-ia",
+      "aceitavel": [
+        "cmv-ajuda"
+      ],
+      "tipo": "sem-nome-do-produto",
+      "modulo": "provedor-ia",
+      "cita_produto": false,
+      "motivo": "recursos/provedor-de-ia.md: Erros do Sistema e chave do provedor novo.",
+      "aceitavel_original": [
+        "cmv-ajuda"
+      ],
+      "segundo_anotador": {
+        "destino": "cmv-agente-ia",
+        "aceitavel": [
+          "cmv-ajuda"
+        ],
+        "confianca": "alta",
+        "motivo": "Erro após trocar o Provedor de IA para Groq."
+      },
+      "concordancia": "igual",
+      "cargas": [
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-041",
+      "pedido": "No CMV, o card OPEN.AI em Integrações diz que a conta usa a chave da plataforma. Ainda assim preciso gerar um Token OpenAI para transcrever as gravações das chamadas?",
+      "destino": "cmv-agente-ia",
+      "aceitavel": [
+        "cmv-ajuda"
+      ],
+      "tipo": "com-nome-do-produto",
+      "modulo": "provedor-ia",
+      "cita_produto": true,
+      "motivo": "recursos/token-openai.md: com a chave da plataforma não há token a criar.",
+      "aceitavel_original": [
+        "cmv-ajuda"
+      ],
+      "segundo_anotador": {
+        "destino": "cmv-agente-ia",
+        "aceitavel": [
+          "cmv-ajuda"
+        ],
+        "confianca": "alta",
+        "motivo": "Token OpenAI para transcrição das gravações."
+      },
+      "concordancia": "igual",
+      "cargas": [
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-044",
+      "pedido": "minha atendente diz que nao ve a nota dela, so as aulas. e como eu sei se ela leu a aula da semana?",
+      "destino": "cmv-agente-ia",
+      "aceitavel": [
+        "cmv-ajuda"
+      ],
+      "tipo": "fronteira",
+      "modulo": "avaliacao-ia",
+      "cita_produto": false,
+      "motivo": "recursos/aulas-da-avaliacao-pela-ia.md: Minhas aulas e marca 'Vista por'.",
+      "aceitavel_original": [
+        "cmv-ajuda"
+      ],
+      "segundo_anotador": {
+        "destino": "cmv-agente-ia",
+        "aceitavel": [
+          "cmv-ajuda"
+        ],
+        "confianca": "média",
+        "motivo": "Notas e aulas da Avaliação pela IA, recurso de IA; resposta é explicação de tela."
+      },
+      "concordancia": "igual",
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-045",
+      "pedido": "Sou gerente de uma loja de materiais de construção. Quero ser avisado quando um vendedor tirar nota até 5 na avaliação da IA, mas sem que os supervisores recebam esse alerta. Como faço?",
+      "destino": "cmv-agente-ia",
+      "aceitavel": [
+        "cmv-ajuda"
+      ],
+      "tipo": "fronteira",
+      "modulo": "avaliacao-ia",
+      "cita_produto": false,
+      "motivo": "recursos/alertas-da-avaliacao-pela-ia.md: Avisar também com nota até e campo Alertas da Avaliação pela IA em Equipe.",
+      "aceitavel_original": [
+        "cmv-ajuda"
+      ],
+      "segundo_anotador": {
+        "destino": "cmv-agente-ia",
+        "aceitavel": [
+          "cmv-ajuda"
+        ],
+        "confianca": "média",
+        "motivo": "Alertas à gestão da Avaliação pela IA, recurso de IA; configuração de tela."
+      },
+      "concordancia": "igual",
+      "cargas": [
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-049",
+      "pedido": "Liguei Registrar os produtos em falta ontem. A aba Vendas perdidas está vazia, não deveria mostrar o mês todo?",
+      "destino": "cmv-agente-ia",
+      "aceitavel": [
+        "cmv-ajuda"
+      ],
+      "tipo": "sem-nome-do-produto",
+      "modulo": "avaliacao-ia",
+      "cita_produto": false,
+      "motivo": "recursos/vendas-perdidas-na-avaliacao-pela-ia.md: só entram conversas avaliadas depois de ligar.",
+      "aceitavel_original": [
+        "cmv-ajuda"
+      ],
+      "segundo_anotador": {
+        "destino": "cmv-agente-ia",
+        "aceitavel": [
+          "cmv-ajuda"
+        ],
+        "confianca": "média",
+        "motivo": "Vendas perdidas é recurso de IA; pergunta é sobre a tela vazia."
+      },
+      "concordancia": "igual",
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-050",
+      "pedido": "No GPT Assistant do Chat Master Veloz, quero que a IA transfira para o setor Financeiro quando o cliente falar de boleto ou segunda via. Como uso a janela COMANDOS DA IA para isso?",
+      "destino": "cmv-agente-ia",
+      "aceitavel": [],
+      "tipo": "com-nome-do-produto",
+      "modulo": "comandos-ia",
+      "cita_produto": true,
+      "motivo": "recursos/comandos-gpt-assistant.md: comando Transferir para um setor.",
+      "aceitavel_original": [],
+      "segundo_anotador": {
+        "destino": "cmv-agente-ia",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Uso dos Comandos da IA no GPT Assistant para transferir setor."
+      },
+      "concordancia": "igual",
+      "cargas": [
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-053",
+      "pedido": "inseri o comando de encerrar o atendimento no prompt do cmv mas a ia nunca encerra. tem q salvar depois do INSERIR NO PROMPT?",
+      "destino": "cmv-agente-ia",
+      "aceitavel": [],
+      "tipo": "com-nome-do-produto",
+      "modulo": "comandos-ia",
+      "cita_produto": true,
+      "motivo": "recursos/comandos-gpt-assistant.md: Dúvidas Comuns, salvar o prompt depois de inserir.",
+      "aceitavel_original": [],
+      "segundo_anotador": {
+        "destino": "cmv-agente-ia",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Comando de encerrar inserido no prompt da IA não funciona."
+      },
+      "concordancia": "igual",
+      "cargas": [
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-056",
+      "pedido": "Monta para mim o fluxo de pós-venda: Conteúdo agradecendo a compra, espera de 3 horas, Pergunta pedindo nota de 0 a 10 e Variável guardando a resposta. Se o cliente escrever antes das 3 horas, quero cancelar a espera.",
+      "destino": "cmv-flowbuilder",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "modulo": "intervalo",
+      "cita_produto": false,
+      "motivo": "recursos/bloco-intervalo.md: Cancelar a espera (o fluxo para aqui).",
+      "aceitavel_original": [],
+      "segundo_anotador": {
+        "destino": "cmv-flowbuilder",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Montar fluxo de pós-venda com espera e pergunta."
+      },
+      "concordancia": "igual",
+      "cargas": [
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-057",
+      "pedido": "Coloquei um Intervalo de 2 horas no fluxo do CMV, mas o atendente aceitou o ticket no meio da espera e o resto do fluxo não rodou. Tem como fazer continuar mesmo assim?",
+      "destino": "cmv-flowbuilder",
+      "aceitavel": [
+        "cmv-ajuda"
+      ],
+      "tipo": "com-nome-do-produto",
+      "modulo": "intervalo",
+      "cita_produto": true,
+      "motivo": "recursos/bloco-intervalo.md: atendimento aceito, transferido ou encerrado interrompe o fluxo.",
+      "aceitavel_original": [
+        "cmv-ajuda"
+      ],
+      "segundo_anotador": {
+        "destino": "cmv-flowbuilder",
+        "aceitavel": [
+          "cmv-ajuda"
+        ],
+        "confianca": "média",
+        "motivo": "Comportamento do Intervalo no fluxo quando o atendente aceita o ticket."
+      },
+      "concordancia": "igual",
+      "cargas": [
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-058",
+      "pedido": "Estou recebendo mensagens duplicadas no meu backend porque liguei o webhook da Conexão e o do Setor no Chat Master Veloz. Como deduplico pelo eventoId? Quero exemplo em Node com Redis.",
+      "destino": "cmv-api",
+      "aceitavel": [],
+      "tipo": "com-nome-do-produto",
+      "modulo": "webhook",
+      "cita_produto": true,
+      "motivo": "api/webhooks-da-conexao.md e api/webhook-de-setor.md: eventoId igual nos dois endereços.",
+      "aceitavel_original": [],
+      "segundo_anotador": {
+        "destino": "cmv-api",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Quer código Node com Redis para deduplicar webhooks pelo eventoId."
+      },
+      "concordancia": "igual",
+      "cargas": [
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-059",
+      "pedido": "No n8n, como faço para ignorar aviso repetido do webhook da conexão? Eu estava usando o mensagem.wid e continua duplicando.",
+      "destino": "cmv-api",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "modulo": "webhook",
+      "cita_produto": false,
+      "motivo": "api/webhooks-da-conexao.md: wid não serve para descartar repetido; usar eventoId.",
+      "aceitavel_original": [],
+      "segundo_anotador": {
+        "destino": "cmv-api",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Deduplicação de eventos do webhook da conexão no n8n."
+      },
+      "concordancia": "igual",
+      "cargas": [
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-061",
+      "pedido": "Escreve o e-mail da nossa campanha de Black Friday no Mailchimp, com merge tag *|FNAME|* no assunto e no corpo. Loja de calçados.",
+      "destino": "nenhuma",
+      "aceitavel": [],
+      "tipo": "outra-ferramenta",
+      "modulo": "mail-marketing",
+      "cita_produto": false,
+      "motivo": "Campanha de e-mail no Mailchimp, fora do CMV.",
+      "aceitavel_original": [],
+      "segundo_anotador": {
+        "destino": "nenhuma",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "E-mail para o Mailchimp, fora do CMV."
+      },
+      "concordancia": "igual",
+      "cargas": [
+        [],
+        [],
+        []
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-063",
+      "pedido": "Como coloco 15 minutos de folga entre as reuniões no Calendly e limito a 4 reuniões por dia?",
+      "destino": "nenhuma",
+      "aceitavel": [],
+      "tipo": "outra-ferramenta",
+      "modulo": "links-agendamento",
+      "cita_produto": false,
+      "motivo": "Link de agendamento do Calendly, fora do CMV.",
+      "aceitavel_original": [],
+      "segundo_anotador": {
+        "destino": "nenhuma",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Configuração do Calendly, fora do CMV."
+      },
+      "concordancia": "igual",
+      "cargas": [
+        [],
+        [],
+        []
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-064",
+      "pedido": "Na Doctoralia, como bloqueio a agenda do Dr. Marcos nas férias de janeiro sem cancelar quem já está marcado?",
+      "destino": "nenhuma",
+      "aceitavel": [],
+      "tipo": "outra-ferramenta",
+      "modulo": "consultorio",
+      "cita_produto": false,
+      "motivo": "Agenda da Doctoralia, fora do CMV.",
+      "aceitavel_original": [],
+      "segundo_anotador": {
+        "destino": "nenhuma",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Bloqueio de agenda na Doctoralia, fora do CMV."
+      },
+      "concordancia": "igual",
+      "cargas": [
+        [],
+        [],
+        []
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-066",
+      "pedido": "Uso o GetIn para as reservas do restaurante. Como tiro o relatório de no-show do mês passado lá?",
+      "destino": "nenhuma",
+      "aceitavel": [],
+      "tipo": "outra-ferramenta",
+      "modulo": "reservas",
+      "cita_produto": false,
+      "motivo": "Reserva de mesa em outro sistema (GetIn).",
+      "aceitavel_original": [],
+      "segundo_anotador": {
+        "destino": "nenhuma",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "Relatório no GetIn, fora do CMV."
+      },
+      "concordancia": "igual",
+      "cargas": [
+        [],
+        [],
+        []
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-069",
+      "pedido": "Criei um GPT personalizado no site do ChatGPT para a minha loja. Como subo os PDFs de política de trocas no Knowledge dele e faço ele citar só esses arquivos?",
+      "destino": "nenhuma",
+      "aceitavel": [],
+      "tipo": "outra-ferramenta",
+      "modulo": "base-conhecimento",
+      "cita_produto": false,
+      "motivo": "Base de conhecimento de GPT personalizado no ChatGPT, fora do CMV.",
+      "aceitavel_original": [],
+      "segundo_anotador": {
+        "destino": "nenhuma",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "GPT personalizado no site do ChatGPT, fora do CMV."
+      },
+      "concordancia": "igual",
+      "cargas": [
+        [],
+        [],
+        []
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "n-070",
+      "pedido": "Vou mandar pelo Gmail um e-mail para um cliente pedindo desculpas pelo atraso na entrega do pedido 4521. Pode redigir?",
+      "destino": "nenhuma",
+      "aceitavel": [],
+      "tipo": "outra-ferramenta",
+      "modulo": "outro",
+      "cita_produto": false,
+      "motivo": "E-mail avulso pelo Gmail, fora do CMV.",
+      "aceitavel_original": [],
+      "segundo_anotador": {
+        "destino": "nenhuma",
+        "aceitavel": [],
+        "confianca": "alta",
+        "motivo": "E-mail avulso pelo Gmail, não pelo Mail Marketing do CMV."
+      },
+      "concordancia": "igual",
+      "cargas": [
+        [],
+        [],
+        []
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 
 O roteamento mede se a skill certa é carregada. Esta avaliação mede o passo seguinte: se a resposta entregue está correta. Cada tarefa rodou no Haiku 5.5 e no Sonnet 5.5, com as seis skills instaladas como cópias reais (`ferramenta/ponta_a_ponta.py`). Um agente avaliador independente conferiu cada resposta contra os artigos de `references/docs/`, rodou os validadores das skills nos arquivos e no código entregue e separou defeito da skill de defeito do modelo.
 
-## Resultado das sete rodadas
+## Resultado das oito rodadas
 
 | Rodada | Pedidos | Aprovadas | Com ressalvas | Reprovadas |
 |---|---|---|---|---|
@@ -13,6 +13,7 @@ O roteamento mede se a skill certa é carregada. Esta avaliação mede o passo s
 | 5 | 13 respostas, só as tarefas das skills corrigidas depois da rodada 4 | 6 | 6 | 1 |
 | 6 | 24 respostas: os pedidos dos conjuntos 2 e 3, depois da sincronização com a documentação de 20/11 | 16 | 8 | 0 |
 | 7 | 12 respostas: `roteamento/tarefas-completas-4.json` (módulos novos) | 6 | 5 | 1 |
+| 8 | 6 respostas: as três tarefas das skills corrigidas depois da rodada 7 | 3 | 3 | 0 |
 
 Tirando a reprovada da rodada 5, a skill certa foi carregada em todas as execuções, todos os validadores passaram (fluxo, seletores de CSS, prompt) e nenhuma resposta violou os limites de segurança (token só em variável de ambiente, nenhum segredo em JS, nenhum preço).
 
@@ -24,7 +25,8 @@ A rodada 5 confirmou as correções da rodada 4 (etapa de perguntas da IA, maiú
 
 A rodada 6 é a avaliação por leitura das 24 respostas geradas depois da sincronização com a documentação de 20/11/2026, com o texto de contexto novo. O Sonnet teve as 12 aprovadas; as 8 ressalvas são do Haiku (omissão de pré-requisito, caminho de arquivo da skill citado como fonte, um fluxo gravado fora da pasta de trabalho). O que mudou na sincronização e foi exercitado saiu certo: `eventoId` e `origemDoEvento` nos webhooks, card OPEN.AI, janela COMANDOS DA IA, Configurações em abas.
 
-A rodada 7 cobriu os módulos novos: bloquear a agenda de um profissional no Consultório, criar reserva de mesa por código, e-mail de campanha do Mail Marketing, comandos de agenda e de oportunidade na IA, fluxo com espera de 3 horas e CSS no Dashboard. Nenhuma resposta inventou a forma dos blocos de agenda e de oportunidade, e os dois e-mails do Mail Marketing foram aprovados. A reprovada foi o Haiku na reserva de mesa: usou a API do módulo Reservas no lugar da Reserva de Mesa do PDV, sem perguntar. Era defeito da skill (o mapa só trazia o módulo Reservas) e foi corrigido. Depois das correções da rodada 7 não houve nova avaliação.
+A rodada 7 cobriu os módulos novos: bloquear a agenda de um profissional no Consultório, criar reserva de mesa por código, e-mail de campanha do Mail Marketing, comandos de agenda e de oportunidade na IA, fluxo com espera de 3 horas e CSS no Dashboard. Nenhuma resposta inventou a forma dos blocos de agenda e de oportunidade, e os dois e-mails do Mail Marketing foram aprovados. A reprovada foi o Haiku na reserva de mesa: usou a API do módulo Reservas no lugar da Reserva de Mesa do PDV, sem perguntar. Era defeito da skill (o mapa só trazia o módulo Reservas) e foi corrigido. 
+A rodada 8 refez as três tarefas das skills corrigidas depois da rodada 7 (reserva de mesa por código, fluxo com espera de 3 horas, CSS no Dashboard). As correções pegaram: as duas respostas de API usaram a Reserva de Mesa do PDV e citaram o módulo Reservas, nenhuma resposta errou o limite do Intervalo, e os dois CSS usaram só a Dashboard nova, com o `data-modo-tv`. As ressalvas são outras: o Haiku mandou o telefone em `number` no lugar de `clienteTelefone` e voltou a encerrar o fluxo logo depois do lembrete; o Sonnet disse que o Token da Empresa serve sem informar a Conexão (a skill ensina o contrário) e filtrou a listagem por `dia` sem cuidar do fuso. Um defeito era da skill: a receita de teste do FlowBuilder mandava apontar a Conexão para o Setor mesmo em fluxo que a empresa inicia. Depois das correções da rodada 8 não houve nova avaliação.
 
 ## O que foi corrigido nas skills
 
@@ -57,6 +59,12 @@ Depois da rodada 7:
 - **cmv-api:** o mapa ganhou a Reserva de Mesa do PDV (`/api/pdv/reservas`), e o `SKILL.md` ensina a separá-la do módulo Reservas e a perguntar quando não der para saber qual a empresa usa.
 - **cmv-painel-css-js:** receita nova de Dashboard e Modo TV, com o aviso de não misturar âncoras da Dashboard legada com o id da nova.
 - **cmv-flowbuilder:** o limite de 120 segundos do Intervalo vale só no arquivo gerado; no editor o bloco vai até 24 horas.
+
+Depois da rodada 8:
+
+- **cmv-flowbuilder:** fluxo que a empresa inicia (remarketing, pós-venda, campanha) é testado pelo próprio gatilho, sem apontar a Conexão; a receita de pós-venda ganhou o esqueleto com lembrete, em que o Encerrar só vem depois de um segundo Menu.
+- **cmv-api:** na reserva de mesa, quem não é contato vai em `clienteNome` e `clienteTelefone`; para conferir conflito, buscar também o dia anterior e o seguinte, porque o artigo não diz o fuso dos filtros de data; avisar que o Cardápio Digital já tem um formulário de reserva.
+- **cmv-painel-css-js:** a receita do Dashboard diz o que usar na Dashboard legada.
 
 ## O que ainda aparece
 

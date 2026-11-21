@@ -61,7 +61,7 @@ grep -n -i 'reserva' references/docs/INDICE-api.md               # busca simples
 grep -rn -i 'ERR_' references/docs/api/                          # frases e códigos de erro citados nos artigos
 ```
 
-"Reserva" tem dois recursos com APIs diferentes. Restaurante, salão, mesa: **Reserva de Mesa do PDV** (`/api/pdv/reservas`). Serviço, sala, quarto, quadra ou diária com ofertas e recursos: **módulo Reservas** (`/api/reservas`). Quando o pedido diz "mesa" ou "restaurante", use o PDV e diga em uma linha que existe o outro módulo. Se não der para saber qual a empresa usa, pergunte antes de escrever o código.
+"Reserva" tem dois recursos com APIs diferentes. Restaurante, salão, mesa: **Reserva de Mesa do PDV** (`/api/pdv/reservas`). Serviço, sala, quarto, quadra ou diária com ofertas e recursos: **módulo Reservas** (`/api/reservas`). Quando o pedido diz "mesa" ou "restaurante", use o PDV e diga em uma linha que existe o outro módulo. Diga também que o Cardápio Digital do PDV já tem um formulário de reserva de mesa para o cliente, com antecedência mínima e máximo de pessoas (artigo Reservas de Mesa, da `cmv-ajuda`); os artigos da API não dizem se essas regras valem para a reserva criada por API. Se não der para saber qual a empresa usa, pergunte antes de escrever o código.
 
 `--conexao pro` traz os artigos com selo Pro e também os de selo Todas; acrescente `--exato` para ver só os específicos. Sem terminal (claude.ai), abra `references/docs/INDICE-api.md`, vá à seção do assunto e escolha o artigo pelo título; os títulos com "Oficial", "(Hub)", "WebChat", "Instagram", "Facebook" e "Chat Externo" já indicam a conexão, e os iguais (dois "API Mensagem de Lista") se separam pelo nome do arquivo (`-pro`) e pelo selo dentro do artigo.
 

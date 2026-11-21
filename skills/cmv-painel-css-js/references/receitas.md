@@ -540,5 +540,5 @@ O `05` lista os campos do `detail` (`registration`, `call`, `direction`, `muted`
 
 - O `data-dash-view` vale `estatisticas`, `linha-do-tempo`, `equipe`, `relatorios` ou `aniversariantes`, e está no cartão "O que você gostaria de ver?" e no bloco que ele abre (`.custom-css-dashboard-painel`). O seletor sem a classe do painel esconde os dois; com `.custom-css-dashboard-painel` na frente, só o bloco.
 - Sem `[data-modo-tv="ligado"]`, a regra vale também fora do Modo TV.
-- A área chamada só `Dashboard` no catálogo é a Dashboard legada (`#custom-css-dashboard-legado`). Não junte âncoras dela, como `.custom-css-aniversariantes`, com o id da Dashboard nova: o seletor nunca casa.
+- A área chamada só `Dashboard` no catálogo é a Dashboard legada (`#custom-css-dashboard-legado`). Não junte âncoras dela, como `.custom-css-aniversariantes`, com o id da Dashboard nova: o seletor nunca casa. Se a pessoa usa a legada (endereço `/dashboard_legado`), as regras são `#custom-css-dashboard-legado .custom-css-aniversariantes` e `#custom-css-dashboard-legado .custom-css-stat-card-valor`, sem Modo TV: o `data-modo-tv` só existe na nova.
 - O catálogo não diz em que posição da tela cada cartão de número fica: peça para a pessoa conferir no painel.

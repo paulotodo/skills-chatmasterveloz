@@ -72,7 +72,7 @@ As descrições (o texto que faz o Claude escolher a skill) foram otimizadas e m
 
 | Modelo | Antigo (84): 18/11 | 19/11 | 21/11 (atuais) | Novo (36): 19/11 | 21/11 (atuais) |
 |---|---|---|---|---|---|
-| Fable 5.2 | 84 | 84 | não medido | não medido | não medido |
+| Fable 5.2 | 84 | 84 | 84 | não medido | 36 |
 | Opus 5.5 | 83 | 83 | 83 | 35 | 36 |
 | Sonnet 5.5 | 81 | 82 | 82 | 32 | 36 |
 | Haiku 5.5 | 74 | 78 | 81 | 30 | 34 |
@@ -90,7 +90,7 @@ python3 rotear.py --modelo claude-haiku-5-5 --conjunto ../roteamento/desenvolvim
 
 Ao mudar uma descrição, ajuste pelo conjunto de desenvolvimento e só confira no teste cego no fim; depois rode também `roteamento/antigos.json` (os 240 pedidos das medições anteriores), que serve de conferência de regressão.
 
-**Tarefas completas.** O acionamento é metade do caminho; o resultado de sete rodadas de avaliação das respostas em Haiku e Sonnet, o que foi corrigido nas skills e o que ainda aparece estão em `avaliacao-gatilho/TAREFAS-COMPLETAS.md`. O `ferramenta/ponta_a_ponta.py` roda uma tarefa real por skill (`roteamento/tarefas-completas.json`) com as skills instaladas como cópias de verdade e guarda a resposta e os arquivos gerados, para alguém dar a nota contra a documentação. Opções do `rotear.py` além das mostradas acima: `--plugin` mede pelo caminho de instalação como plugin e `--contexto "texto"` simula as instruções do projeto.
+**Tarefas completas.** O acionamento é metade do caminho; o resultado de oito rodadas de avaliação das respostas em Haiku e Sonnet, o que foi corrigido nas skills e o que ainda aparece estão em `avaliacao-gatilho/TAREFAS-COMPLETAS.md`. O `ferramenta/ponta_a_ponta.py` roda uma tarefa real por skill (`roteamento/tarefas-completas.json`) com as skills instaladas como cópias de verdade e guarda a resposta e os arquivos gerados, para alguém dar a nota contra a documentação. Opções do `rotear.py` além das mostradas acima: `--plugin` mede pelo caminho de instalação como plugin e `--contexto "texto"` simula as instruções do projeto.
 
 **Para revisar os pedidos:** abra `avaliacao-gatilho/REVISAO-ROTEAMENTO.md` (gerado por `ferramenta/revisao_roteamento.py`). Os 168 pedidos vêm numerados, começando pelos que pedem decisão sua, e a resposta é pelo chat, com o número do pedido. `AUDITORIA.md` traz o que uma auditoria independente achou nos conjuntos antigos.
 
