@@ -14,6 +14,7 @@ Linhas de fontes.txt (o que vem depois de # é comentário):
   css:*.md
   subarvore:FlowBuilder              o item de menu com esse título, nos índices, e tudo abaixo dele
 """
+import io
 import re
 import shutil
 import sys
@@ -114,17 +115,50 @@ def conferir(pasta):
         sys.exit(f"{pasta.name}: caminhos citados que não existem:\n" + "\n".join(sorted(quebrados)))
 
 
+LIMITE_CLAUDE_AI = 200  # o claude.ai recusa o envio: "Zip contains too many files (maximum 200)"
+NOTA_COMPACTADA = """> **Nesta instalação os artigos vêm compactados.** A pasta `references/docs/` não existe aqui: os artigos estão em `references/docs.zip`, porque o claude.ai aceita no máximo 200 arquivos por skill. Antes de ler ou buscar qualquer artigo, rode uma vez, trocando `PASTA` pela pasta desta skill (a que contém este SKILL.md):
+>
+> ```bash
+> python3 -c "import zipfile,tempfile,os; d=os.path.join(tempfile.gettempdir(),'{skill}','docs'); zipfile.ZipFile('PASTA/references/docs.zip').extractall(d); print(d)"
+> ```
+>
+> O comando imprime a pasta onde os artigos ficaram. Daí em diante, todo caminho `references/docs/...` citado nesta skill fica nessa pasta: leia, liste e busque ali.{scripts} Na resposta, continue citando o título do artigo e o link, nunca esses caminhos.
+
+"""
+
+
 def empacotar(skill):
     pasta = AQUI / "skills" / skill
     saida = AQUI / "dist" / f"{skill}.skill"
     saida.parent.mkdir(exist_ok=True)
+    arquivos = [a for a in sorted(pasta.rglob("*")) if a.is_file() and a.name != "fontes.txt" and "__pycache__" not in a.parts]
+    docs = pasta / "references" / "docs"
+    compactar = len(arquivos) > LIMITE_CLAUDE_AI
     with zipfile.ZipFile(saida, "w", zipfile.ZIP_DEFLATED) as z:
-        for arq in sorted(pasta.rglob("*")):
-            if arq.is_file() and arq.name != "fontes.txt" and "__pycache__" not in arq.parts:
-                z.write(arq, Path(skill) / arq.relative_to(pasta))
+        if compactar:
+            # Os artigos viram um arquivo só, e o SKILL.md do pacote ganha a nota que manda abri-lo.
+            # A pasta skills/ não muda: no Claude Code os artigos continuam soltos.
+            dentro = io.BytesIO()
+            with zipfile.ZipFile(dentro, "w", zipfile.ZIP_DEFLATED) as zd:
+                for arq in arquivos:
+                    if docs in arq.parents:
+                        zd.write(arq, arq.relative_to(docs))
+            z.writestr(f"{skill}/references/docs.zip", dentro.getvalue(), zipfile.ZIP_STORED)
+        for arq in arquivos:
+            destino = str(Path(skill) / arq.relative_to(pasta))
+            if compactar and docs in arq.parents:
+                continue
+            if compactar and arq == pasta / "SKILL.md":
+                _, frente, corpo = arq.read_text().split("---\n", 2)
+                scripts = " Os scripts desta skill já acham os artigos sozinhos." if (pasta / "scripts").is_dir() else ""
+                z.writestr(destino, f"---\n{frente}---\n\n{NOTA_COMPACTADA.format(skill=skill, scripts=scripts)}{corpo.lstrip()}")
+            else:
+                z.write(arq, destino)
+        total = len(z.namelist())
+    assert total <= LIMITE_CLAUDE_AI, f"{skill}: {total} arquivos no pacote, o claude.ai aceita {LIMITE_CLAUDE_AI}"
     # a ajuda do claude.ai só documenta o envio de .zip; o .skill é o mesmo arquivo com outro nome
     shutil.copyfile(saida, saida.with_suffix(".zip"))
-    print(f"{saida.relative_to(AQUI)}: {saida.stat().st_size // 1024} KB")
+    print(f"{saida.relative_to(AQUI)}: {saida.stat().st_size // 1024} KB, {total} arquivos" + (", artigos em references/docs.zip" if compactar else ""))
 
 
 if __name__ == "__main__":

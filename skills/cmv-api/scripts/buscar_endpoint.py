@@ -21,6 +21,14 @@ from collections import Counter
 from pathlib import Path
 
 DOCS = Path(__file__).resolve().parent.parent / "references" / "docs"
+if not DOCS.is_dir() and DOCS.with_suffix(".zip").is_file():
+    # Pacote do claude.ai (máximo de 200 arquivos): os artigos vêm em references/docs.zip.
+    import tempfile
+    import zipfile
+    compactado, DOCS = DOCS.with_suffix(".zip"), Path(tempfile.gettempdir()) / "cmv-api" / "docs"
+    # shortcut: não reextrai se a pasta já existe; no claude.ai cada conversa começa vazia. Se o pacote for trocado na mesma máquina, apagar a pasta.
+    if not (DOCS / "INDICE-api-endpoints.md").is_file():
+        zipfile.ZipFile(compactado).extractall(DOCS)
 LINHA = re.compile(r"^\| (GET|POST|PUT|DELETE|PATCH) \| `([^`]+)` \| \[(.+)\]\(([^)]+)\) \|$")
 BASE = "https://api2.chatmasterveloz.com"
 
