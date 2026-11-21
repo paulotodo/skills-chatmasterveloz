@@ -125,7 +125,7 @@ Cada uma está explicada por inteiro em um só lugar; aqui fica o lembrete.
 
 - **Forma do código e aspas curvas; turno da tag:** `references/comandos-e-capacidades.md`, seção 3.
 - **Agente OpenAI desligado:** seção 1 do mesmo arquivo.
-- **Janela COMANDOS DA IA, comando de agenda e ID do Setor:** seções 4 e 5; roteiro em `references/configuracao-painel.md`, etapa 5. A Central não mostra a forma dos blocos `agenda` e `oportunidade`: diga para inserir pelo botão da janela e não editar o bloco à mão; o conferidor só avisa neles, e o teste é que prova.
+- **Janela COMANDOS DA IA, comando de agenda e ID do Setor:** seções 4 e 5; roteiro em `references/configuracao-painel.md`, etapa 5. A Central não mostra a forma dos blocos `agenda` e `oportunidade`; a seção 4 traz a forma observada num painel, que serve para explicar a seção e reconhecer um bloco inteiro, não para escrevê-lo. Diga para inserir pelo botão da janela e não editar o bloco à mão; o conferidor só avisa neles, e o teste é que prova.
 - **Quando a IA atua, Setor de transbordo sem prompt, dois motores no mesmo Setor, primeira mensagem:** seção 6.
 - **Transbordo e comando de transferir ao mesmo tempo:** seção 7.
 - **Nomes que mudaram.** O campo **GPT Model** virou **Modelo da IA** (a imagem do artigo Tipo Prompt ainda mostra o nome antigo); o gatilho de grupo agora se chama **Gatilho para Acionar em Grupos**, e o exemplo da tela é `#meubot`. Cite os dois nomes para a pessoa reconhecer o que vê.

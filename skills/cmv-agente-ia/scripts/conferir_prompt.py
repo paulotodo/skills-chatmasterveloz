@@ -25,7 +25,9 @@ O que confere nos dois modos (referência: references/docs/recursos/comandos-gpt
   - existe no texto a regra dos códigos (precaução desta skill);
   - os blocos "agenda" e "oportunidade" (comandos Marcar ou desmarcar na agenda e
     Registrar oportunidade no CRM), que o artigo cita sem mostrar a forma, são
-    reconhecidos e NÃO conferidos: viram um aviso para inserir pela janela.
+    reconhecidos e comparados só com a forma observada num painel em 21/11/2026
+    (references/comandos-e-capacidades.md, seção 4): nunca viram erro, viram um
+    aviso para inserir pela janela, que diz também quando o bloco difere dela.
 
 A documentação só mostra a forma #{"chave": "10"}. Ela não diz que o código é
 JSON nem o que acontece com outras formas (espaço depois do #, aspas curvas, ID
@@ -45,13 +47,22 @@ DOCUMENTADAS = {
     ("tagId",): "Marcar com uma tag",
     ("closeTicket",): "Encerrar o atendimento",
 }
-# Blocos que o mesmo artigo cita pelo nome sem mostrar a forma: o script os reconhece,
-# não os confere e avisa. Chave: nome do bloco no artigo; valor: nome do comando na janela.
+# Blocos que o mesmo artigo cita pelo nome sem mostrar a forma: o script os reconhece, compara
+# com a forma observada e só avisa. Chave: nome do bloco no artigo; valor: nome do comando na janela.
 SEM_FORMA = {"agenda": "Marcar ou desmarcar na agenda", "oportunidade": "Registrar oportunidade no CRM"}
+# Título que a janela pôs na seção em 21/11/2026; só vale em linha de título, porque em prosa a frase é comum.
+TITULO_OBSERVADO = {
+    "agenda": re.compile(r"^#+[ \t]*Marcar na agenda[ \t]*$", re.I | re.M),
+    "oportunidade": re.compile(r"^#+[ \t]*Registrar a oportunidade no CRM[ \t]*$", re.I | re.M),
+}
 AVISO_SEM_FORMA = (
     "insira pelo botão INSERIR NO PROMPT da janela COMANDOS DA IA e não edite o bloco à mão; "
-    "a Central de Ajuda não mostra a forma dele, então este script não o confere. "
+    "a Central de Ajuda não mostra a forma dele, então este script só o compara com a forma observada num painel em 21/11/2026. "
     "Se foi digitado ou alterado, apague a seção e insira de novo pela janela; o teste do comando é que mostra se funciona."
+)
+DIFERE = (
+    ' Na(s) linha(s) {linhas} o bloco difere da forma observada, #{{"{chave}": {{...}}}} com aspas retas e todas as chaves fechadas: '
+    "é sinal de bloco digitado ou alterado."
 )
 EFEITO = "A documentação não diz o efeito; corrija para ficar igual ao artigo."
 ASPAS_CURVAS = "“”„‟″‶‘’′"
@@ -65,7 +76,7 @@ LINHA_EM_BRANCO = re.compile(r"[ \t]*(?:\n|$)")
 def fim_do_bloco(texto, inicio):
     """Fim de um bloco aberto em `inicio`: onde as chaves se fecham, ou antes da primeira linha em branco.
 
-    shortcut: a forma dos blocos agenda e oportunidade não é documentada; se a Central mostrar, trocar por ela.
+    shortcut: a forma dos blocos agenda e oportunidade é só a observada num painel; se a Central mostrar, trocar por ela.
     """
     nivel = 0
     for i in range(inicio, len(texto)):
@@ -86,10 +97,11 @@ def conferir(texto, final=False):
     falta = erros if final else pendencias  # onde vai o marcador por preencher
     linha_de = lambda pos: texto.count("\n", 0, pos) + 1
 
-    # Blocos agenda e oportunidade: reconhecidos pelo nome dentro do bloco ou pelo nome do
-    # comando, que a janela põe no título da seção. São apagados (com as quebras de linha
-    # mantidas) antes das outras conferências, para a forma desconhecida não virar erro.
+    # Blocos agenda e oportunidade: reconhecidos pelo nome dentro do bloco, pelo nome do comando
+    # ou pelo título que a janela põe na seção. São apagados (com as quebras de linha mantidas)
+    # antes das outras conferências, para a forma não documentada não virar erro.
     achados = {chave: set() for chave in SEM_FORMA}
+    diferem = {chave: set() for chave in SEM_FORMA}
     partes, pos = [], 0
     for m in INICIO.finditer(texto):
         if m.start() < pos:
@@ -100,6 +112,12 @@ def conferir(texto, final=False):
         if chave is None:
             continue
         achados[chave].add(linha_de(m.start()))
+        try:
+            igual = isinstance(json.loads(MARCADOR.sub("0", bloco[bloco.index("{"):])).get(chave), dict)
+        except ValueError:
+            igual = False
+        if not igual:
+            diferem[chave].add(linha_de(m.start()))
         for mk in MARCADOR.finditer(bloco):
             falta.append(f"linha {linha_de(m.start() + mk.start())}: preencher {mk.group(0)}")
         partes += [texto[pos:m.start()], re.sub(r"[^\n]", " ", bloco)]
@@ -108,9 +126,11 @@ def conferir(texto, final=False):
     fora_de_marcador = MARCADOR.sub(lambda m: " " * len(m.group(0)), texto)  # o marcador do rascunho não conta
     for chave, nome in SEM_FORMA.items():
         achados[chave].update(linha_de(m.start()) for m in re.finditer(re.escape(nome), fora_de_marcador, re.I))
+        achados[chave].update(linha_de(m.start()) for m in TITULO_OBSERVADO[chave].finditer(fora_de_marcador))
         if achados[chave]:
-            linhas = ", ".join(map(str, sorted(achados[chave])))
-            avisos.append(f"linha(s) {linhas}: comando {nome} (bloco \"{chave}\") -> {AVISO_SEM_FORMA}")
+            junta = lambda numeros: ", ".join(map(str, sorted(numeros)))
+            difere = DIFERE.format(linhas=junta(diferem[chave]), chave=chave) if diferem[chave] else ""
+            avisos.append(f"linha(s) {junta(achados[chave])}: comando {nome} (bloco \"{chave}\") -> {AVISO_SEM_FORMA}{difere}")
 
     for m in COMANDO.finditer(mascarado):
         bruto, linha = m.group(0), linha_de(m.start())
@@ -249,26 +269,42 @@ def autoteste():
 
     # Blocos agenda e oportunidade: a forma não está na Central. Qualquer forma (uma linha,
     # aninhada, várias linhas, aspas curvas) é reconhecida, nunca vira erro e sempre avisa.
+    # O aviso diz "difere" quando o bloco não bate com a forma observada num painel em 21/11/2026
+    # (os dois primeiros textos de cada lista são seções inseridas pela janela, com ids e nomes trocados).
     seco = lambda frase: "COMANDOS DA IA" in frase and "não edite" in frase and "Central de Ajuda não mostra" in frase
     sem_forma = {
         "agenda": [
-            'código: #{"agenda": "1"}',
-            'código: #{"agenda": {"data": "25/12/2026", "hora": "14:00", "tipo": "Visita"}}',
-            'código: #{“agendar”: “1”}',
-            '### Marcar ou desmarcar na agenda\nQuando o cliente confirmar, responda incluindo o bloco abaixo:\n(bloco)',
+            (False, '## Marcar na agenda\n\nQuando o cliente já tiver confirmado o dia e a hora, responda incluindo o bloco abaixo:\n\n'
+                    '#{"agenda": {"acao": "marcar", "titulo": "<assunto>", "data": "<AAAA-MM-DD>", "hora": "<HH:MM>", "duracao": 30, "tipo": "reuniao"}}\n\n'
+                    'Para CANCELAR o compromisso já marcado, use:\n\n#{"agenda": {"acao": "desmarcar"}}\n\nSe o horário já estiver ocupado, o sistema recusa.'),
+            (False, '## Marcar na agenda\n\nQuando o cliente confirmar, responda incluindo o bloco abaixo:'),
+            (False, 'código: #{"agenda": {"data": "25/12/2026", "hora": "14:00", "tipo": "Visita"}}'),
+            (True, 'código: #{"agenda": "1"}'),
+            (True, 'código: #{“agendar”: “1”}'),
+            (True, 'código: #{"agenda": {"acao": "marcar", "titulo": "<assunto>"}'),
+            (False, '### Marcar ou desmarcar na agenda\nQuando o cliente confirmar, responda incluindo o bloco abaixo:\n(bloco)'),
         ],
         "oportunidade": [
-            'código: #{"oportunidade": "1"}',
-            'código:\n#{\n  "acao": "oportunidade",\n  "valor": {"total": "0"}\n}\nDepois siga.',
-            '### Registrar oportunidade no CRM\nQuando o cliente pedir orçamento, responda incluindo o bloco abaixo:',
+            (False, '## Registrar a oportunidade no CRM\n\nQuando o cliente demonstrar interesse, inclua na sua resposta o bloco abaixo,\nexatamente neste formato:\n\n'
+                    '#{"oportunidade": {"productId": 7, "valor": "<valor combinado, ex: 1200,00>", "pipelineId": 5, "laneId": 9, '
+                    '"resumo": "<uma frase com o que o cliente quer>", "respostas": {"Necessidade": "<resposta do cliente>", "Prazo": "<resposta do cliente>"}}, "queueId": "6"}\n\n'
+                    'Use productId 7 (Plano Exemplo) só se for esse o produto.\nDepois de registrar, o atendimento vai para Comercial.'),
+            (False, '## Registrar a oportunidade no CRM\n\nQuando o cliente pedir orçamento, inclua o bloco abaixo:'),
+            (True, 'código: #{"oportunidade": "1"}'),
+            (True, 'código:\n#{\n  "acao": "oportunidade",\n  "valor": {"total": "0"}\n}\nDepois siga.'),
+            (False, '### Registrar oportunidade no CRM\nQuando o cliente pedir orçamento, responda incluindo o bloco abaixo:'),
         ],
     }
     for chave, textos in sem_forma.items():
-        for texto in textos:
+        for difere, texto in textos:
             for final in (False, True):
                 erros, pendencias, avisos, resumo = conferir(texto, final)
                 assert not erros and not pendencias and not resumo, (texto, erros, pendencias)
-                assert len(avisos) == 1 and f'"{chave}"' in avisos[0] and seco(avisos[0]), (texto, avisos)
+                dele = [frase for frase in avisos if seco(frase)]  # a seção inteira da janela traz também o aviso da regra dos códigos
+                assert len(dele) == 1 and f'"{chave}"' in dele[0] and len(avisos) <= 2, (texto, avisos)
+                assert ("difere da forma observada" in dele[0]) == difere, (texto, avisos)
+    # Em prosa, a frase do título observado não é o comando.
+    assert not conferir("Você não enxerga a agenda. Não diga que vai marcar na agenda nem registrar a oportunidade no CRM.")[2]
     # Junto com os comandos documentados: os quatro continuam contados, e um erro fora do bloco continua erro.
     erros, _, avisos, resumo = conferir(bom + '\n#{"agenda": {"data": "x"}}\nDiga: #{"tagId": "abc"}', final=True)
     assert len(resumo) == 4 and len(erros) == 1 and "tagId" in erros[0] and len(avisos) == 1, (erros, avisos, resumo)

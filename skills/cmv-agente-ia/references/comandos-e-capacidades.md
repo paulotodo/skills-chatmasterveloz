@@ -76,8 +76,8 @@ Os **Comandos da IA** são as ações que a IA executa no atendimento. Nas palav
 | **Transferir para um operador** | **Setor** e **Operador** | Passa o atendimento para o Setor e já atribui a pessoa: o atendimento fica aberto com ela. | `#{"queueId": "9", "userId": "18"}` |
 | **Marcar com uma tag** | **Tag** | Aplica a tag no atendimento. | `#{"tagId": "16"}` |
 | **Encerrar o atendimento** | (nenhum além do momento) | Fecha o atendimento quando o assunto terminou. | `#{"closeTicket": "1"}` |
-| **Registrar oportunidade no CRM** | **Produto do catálogo (opcional)**, **Funil**, **Etapa**, **Transferir depois de registrar**, **Respostas a gravar** | Cria a oportunidade na etapa escolhida, ligada ao atendimento, com o valor, um resumo e as respostas (as quatro primeiras também nos campos livres). | bloco `oportunidade`, que o artigo cita sem mostrar a forma |
-| **Marcar ou desmarcar na agenda** | **Tipo do compromisso**, **Duração (minutos)**, **Ensinar a IA a cancelar o compromisso** | Seção 4. | bloco `agenda`, que o artigo cita sem mostrar a forma |
+| **Registrar oportunidade no CRM** | **Produto do catálogo (opcional)**, **Funil**, **Etapa**, **Transferir depois de registrar**, **Respostas a gravar** | Cria a oportunidade na etapa escolhida, ligada ao atendimento, com o valor, um resumo e as respostas (as quatro primeiras também nos campos livres). | bloco `oportunidade`, que o artigo cita sem mostrar a forma (a observada está na seção 4) |
+| **Marcar ou desmarcar na agenda** | **Tipo do compromisso**, **Duração (minutos)**, **Ensinar a IA a cancelar o compromisso** | Seção 4. | bloco `agenda`, que o artigo cita sem mostrar a forma (a observada está na seção 4) |
 
 Os números são exemplos: a janela **COMANDOS DA IA** põe os ids da empresa, e o artigo recomenda inserir pela janela "em vez de digitar o bloco à mão" ([Comandos]). Por isso o prompt que esta skill entrega leva, no lugar de cada comando, um marcador com o que escolher na janela e o texto de **Quando a IA deve fazer isso** (`assets/modelo-prompt.md`).
 
@@ -119,7 +119,25 @@ Caminho: menu **Prompts OPEN.AI** › abrir o prompt pelo ícone **Editar** do c
 - Com o sim, cria o compromisso como uma tarefa do tipo escolhido, com a duração definida, ligada ao atendimento, e avisa a equipe numa nota interna da conversa. Se o horário já estiver ocupado, a instrução diz que "o sistema recusa e avisa o operador".
 - A IA "grava o compromisso e põe no Google Calendar"; sem o Google Calendar conectado, o compromisso fica só na plataforma.
 
-Não documentado: a forma dos blocos `agenda` e `oportunidade` (o artigo só diz que "a IA completa com o que ouviu do cliente — o valor, o resumo e as respostas; a data, a hora e o tipo"), o texto exato das instruções que a janela insere e o que o cliente recebe quando o horário pedido está ocupado. Nenhum outro artigo da Central mostra esses blocos (conferido em 21/11/2026 em toda a documentação, inclusive CRM, Consultório, Reservas e Links de agendamento). Nunca escreva de cabeça esses blocos nem os corrija à mão. O que dizer à pessoa, e o que o `scripts/conferir_prompt.py` diz quando acha um deles (pelo nome no bloco ou pelo nome do comando no título da seção): "insira pelo botão da janela COMANDOS DA IA e não edite o bloco à mão; a Central de Ajuda não mostra a forma dele". O script não confere esses dois blocos, nem acusa erro neles: só avisa, e quem prova que funcionam é o teste do comando. O roteiro está em `references/configuracao-painel.md`, etapa 5; as duas variantes de agendamento, em `assets/modelo-prompt.md`.
+Não documentado: a forma dos blocos `agenda` e `oportunidade` (o artigo só diz que "a IA completa com o que ouviu do cliente — o valor, o resumo e as respostas; a data, a hora e o tipo") e o texto exato das instruções que a janela insere. Nenhum artigo da Central mostra esses blocos (conferido em 21/11/2026 em toda a documentação, inclusive CRM, Consultório, Reservas e Links de agendamento).
+
+**Forma observada, não oficial.** O que a janela inseriu num painel em 21/11/2026 (ids e nomes trocados aqui). Pode mudar com a versão da plataforma. Serve para explicar o que a seção faz e para reconhecer um bloco inteiro; não serve para escrever o bloco à mão, porque os ids vêm da conta e só a janela os põe.
+
+A seção de agenda chega com o título **Marcar na agenda**, e a de oportunidade com **Registrar a oportunidade no CRM** (não com o nome do comando na janela):
+
+```
+#{"agenda": {"acao": "marcar", "titulo": "<assunto>", "data": "<AAAA-MM-DD>", "hora": "<HH:MM>", "duracao": 30, "tipo": "reuniao"}}
+#{"agenda": {"acao": "desmarcar"}}
+#{"oportunidade": {"productId": 7, "valor": "<valor combinado, ex: 1200,00>", "pipelineId": 5, "laneId": 9, "resumo": "<uma frase com o que o cliente quer>", "respostas": {"<pergunta>": "<resposta do cliente>"}}, "queueId": "6"}
+```
+
+- Os trechos entre `<` e `>` são para a IA completar na conversa. Não são marcadores para a pessoa trocar: ficam como a janela os pôs.
+- Agenda: `duracao` e `tipo` vêm de **Duração (minutos)** e **Tipo do compromisso**. No bloco, a data vai como AAAA-MM-DD e a hora como HH:MM em 24 h; ao cliente, a data vai como DD/MM/AAAA. O bloco de desmarcar só vem com **Ensinar a IA a cancelar o compromisso** ligado.
+- Agenda com horário ocupado: a instrução inserida diz à IA que "o sistema recusa e avisa o operador — você não recebe essa resposta" e manda oferecer outro horário se o cliente voltar ao assunto. Ou seja, a IA não fica sabendo da recusa no mesmo turno. O que o cliente recebe nesse turno continua sem documentação: é item do teste.
+- Oportunidade: `productId`, `pipelineId` e `laneId` são números sem aspas, de **Produto do catálogo**, **Funil** e **Etapa**. O `queueId`, entre aspas e fora do objeto `oportunidade`, só aparece com um Setor em **Transferir depois de registrar**. As chaves de `respostas` são as perguntas de **Respostas a gravar**.
+- Oportunidade, instruções que vêm junto: escrever a mensagem ao cliente antes do bloco, que é removido antes do envio; usar o `productId` só se for esse o produto e nunca inventar um; se o produto for outro, usar `"produto": "<nome>"`.
+
+Nunca escreva de cabeça esses blocos nem os corrija à mão. O que dizer à pessoa, e o que o `scripts/conferir_prompt.py` diz quando acha um deles (pelo nome no bloco, pelo nome do comando ou pelo título da seção): "insira pelo botão da janela COMANDOS DA IA e não edite o bloco à mão; a Central de Ajuda não mostra a forma dele". O script nunca acusa erro nesses dois blocos: compara com a forma observada e, se o bloco difere dela (aspas curvas, chave sem fechar), diz isso no mesmo aviso. Quem prova que funcionam é o teste do comando. O roteiro está em `references/configuracao-painel.md`, etapa 5; as duas variantes de agendamento, em `assets/modelo-prompt.md`.
 
 O artigo não liga esse comando às agendas do **Consultório** nem das **Reservas**: o compromisso vira uma tarefa ([Comandos]). O Consultório tem outra via, a de um "atendente de IA que marca consultas pela conversa" por uma chave de API criada em **Consultório › Cadastros do consultório**, aba **Integrações** (Aba Integrações em Cadastros do Consultório, https://clihelper.chatmasterveloz.com/docs/aba-integracoes-em-cadastros-do-consultorio). É integração por API, com a `cmv-api`; a documentação não diz que o GPT Assistant usa essa chave.
 
