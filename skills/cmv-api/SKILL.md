@@ -1,6 +1,6 @@
 ---
 name: cmv-api
-description: "Integra sistemas externos ao Chat Master Veloz (CMV, chatmasterveloz) pela API REST e por webhooks: acha o endpoint certo para o tipo de conexão (WhatsApp Básica, Pro, Oficial, Hub, Instagram, Facebook, Webchat) e entrega o pedido pronto em cURL, Node, Python, PHP ou nó HTTP Request do n8n. Use quando a pessoa quiser enviar mensagem, mídia, template, lista ou botões por código; criar, transferir ou encerrar ticket; cadastrar contato; aplicar tag; mexer no CRM; agendar mensagem; receber eventos por webhook; ligar o CMV ao n8n, Make ou Zapier; ou quando o código que chama a API esbarra em token, endpoint, payload ou erro 400/401. Quem tem esta skill usa o CMV: sistema, ERP ou script que precisa agir no atendimento, sem citar outra API, é com ela, mesmo sem a palavra API. Não cobre erro que aparece na tela do painel, mesmo técnico, nem configurar recursos (cmv-ajuda), fluxos (cmv-flowbuilder), redigir templates e campanhas (cmv-mensagens) nem CSS/JS (cmv-painel-css-js)."
+description: "Integra sistemas externos ao Chat Master Veloz (CMV, chatmasterveloz) por API e webhooks: acha o endpoint por conexão (WhatsApp Básica, Pro, Oficial, Hub, Instagram, Facebook, Webchat) e entrega o código pronto (cURL, Node, Python, PHP, n8n). Use quando a pessoa quiser enviar mensagem, mídia, template, lista ou botões por código; criar, transferir ou encerrar ticket; mexer em contato, tag ou CRM; agendar mensagem; criar consulta ou reserva; receber eventos por webhook (também de Consultório, Reservas, PDV, Links de agendamento, Mail Marketing); ligar o CMV a n8n, Make ou Zapier; ou quando o código que chama a API esbarra em token, payload ou erro 400/401. Quem tem esta skill usa o CMV: sistema, site, ERP ou script que precisa agir no CMV, sem citar outra API, é com ela, mesmo sem a palavra API. Não cobre erro que aparece na tela do painel, mesmo técnico, nem configurar recursos (cmv-ajuda), fluxos (cmv-flowbuilder), redigir templates e campanhas (cmv-mensagens) nem CSS/JS (cmv-painel-css-js)."
 ---
 
 # Integrações por API e webhooks do Chat Master Veloz
@@ -60,6 +60,8 @@ python3 scripts/buscar_endpoint.py --conexoes                    # valores poss�
 grep -n -i 'reserva' references/docs/INDICE-api.md               # busca simples no índice por assunto
 grep -rn -i 'ERR_' references/docs/api/                          # frases e códigos de erro citados nos artigos
 ```
+
+"Reserva" tem dois recursos com APIs diferentes. Restaurante, salão, mesa: **Reserva de Mesa do PDV** (`/api/pdv/reservas`). Serviço, sala, quarto, quadra ou diária com ofertas e recursos: **módulo Reservas** (`/api/reservas`). Quando o pedido diz "mesa" ou "restaurante", use o PDV e diga em uma linha que existe o outro módulo. Se não der para saber qual a empresa usa, pergunte antes de escrever o código.
 
 `--conexao pro` traz os artigos com selo Pro e também os de selo Todas; acrescente `--exato` para ver só os específicos. Sem terminal (claude.ai), abra `references/docs/INDICE-api.md`, vá à seção do assunto e escolha o artigo pelo título; os títulos com "Oficial", "(Hub)", "WebChat", "Instagram", "Facebook" e "Chat Externo" já indicam a conexão, e os iguais (dois "API Mensagem de Lista") se separam pelo nome do arquivo (`-pro`) e pelo selo dentro do artigo.
 

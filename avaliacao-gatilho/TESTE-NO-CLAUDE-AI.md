@@ -11,12 +11,12 @@ Conferido em 19/11/2026 na Central de Ajuda (`support.claude.com`, artigo "What 
 | Arquivo de envio | "Upload a ZIP file containing your skill folder". O formato `.skill` não é citado. | `dist/<skill>.zip`, gerado por `python3 montar.py --zip` |
 | Pasta dentro do zip | O nome da pasta precisa ser igual ao `name` da skill | Conferido nos seis pacotes |
 | `name` | Até 64 caracteres, minúsculas, números e hífens; sem "anthropic" nem "claude" | Conferido |
-| `description` | Até 1.024 caracteres, sem tags XML | A maior tem 983 caracteres (1.005 bytes) |
-| Tamanho | 30 MB descompactados (regra da API; o claude.ai não publica limite próprio) | O maior pacote tem 1,8 MB descompactado |
+| `description` | Até 1.024 caracteres, sem tags XML | A maior tem 1.009 caracteres (1.024 bytes) |
+| Tamanho | 30 MB descompactados (regra da API; o claude.ai não publica limite próprio) | O maior pacote tem 2,7 MB descompactado |
 | Pré-requisito | Execução de código ligada | Ver passo 1 |
 | Critério de acionamento | A `description` é comparada com o pedido, como no Claude Code | Não há garantia de comportamento idêntico |
 
-Não documentado, e por isso só o teste responde: o que o claude.ai faz com uma descrição perto do limite, se há limite de quantidade de arquivos (a `cmv-ajuda` tem 397) e se o acionamento é igual ao do Claude Code.
+Não documentado, e por isso só o teste responde: o que o claude.ai faz com uma descrição perto do limite, se há limite de quantidade de arquivos (a `cmv-ajuda` tem 523) e se o acionamento é igual ao do Claude Code.
 
 ## Passo 1: instalar
 
@@ -24,7 +24,7 @@ Não documentado, e por isso só o teste responde: o que o claude.ai faz com uma
 2. Em **Customize › Skills**, clique em **+**, depois **Create skill** e **Upload a skill**.
 3. Envie os seis arquivos de `dist/`, um por vez: `cmv-ajuda.zip`, `cmv-api.zip`, `cmv-flowbuilder.zip`, `cmv-agente-ia.zip`, `cmv-mensagens.zip`, `cmv-painel-css-js.zip`.
 4. Anote na tabela abaixo se algum envio foi recusado e a mensagem exata.
-5. Nas instruções do projeto (ou nas preferências do perfil), cole o texto de contexto que está no README, na seção "Diga ao Claude que você usa o Chat Master Veloz". No Claude Code ele levou o Haiku de 78 para 82 acertos em 84 e fez a skill de API ser carregada num pedido que não cita o produto. Se quiser medir o efeito no claude.ai, faça os pedidos pares do passo 2 uma vez sem o texto e uma vez com ele.
+5. Nas instruções do projeto (ou nas preferências do perfil), cole o texto de contexto que está no README, na seção "Diga ao Claude que você usa o Chat Master Veloz". No Claude Code ele levou o Haiku de 81 para 83 acertos em 84 e fez a skill de API ser carregada num pedido que não cita o produto. Se quiser medir o efeito no claude.ai, faça os pedidos pares do passo 2 uma vez sem o texto e uma vez com ele.
 
 | Pacote | Aceito? | Mensagem, se recusado |
 |---|---|---|

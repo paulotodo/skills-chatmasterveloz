@@ -49,7 +49,7 @@ O formato da descrição é desta skill, não da plataforma. O formato do arquiv
 | `condicao` | Condição | `valor`, (`compara`: `resposta`, que é o padrão, ou `tags`) | `verdadeiro`, `falso` |
 | `switch` | Switch (tags) | `regras`: lista de `{"nome": …, "tag_id": …}`, na ordem de prioridade | o `nome` de cada regra; `nenhuma` |
 | `tag` | Tag | `nome`, (`id`) | uma só |
-| `intervalo` | Intervalo | `segundos`, de 1 a 120 (com mais de 2 minutos o bloco ganha a saída **Janela expirada**, sem formato observado) | uma só |
+| `intervalo` | Intervalo | `segundos`, de 1 a 120 **no arquivo**. No editor, o bloco vai de 1 segundo a 24 horas; acima de 2 minutos ganha a saída **Janela expirada**, que não tem formato observado. Espera maior que 120 s: gere o fluxo sem ela e diga para pôr o Intervalo no editor. Para esperar a resposta do cliente com prazo, use **Sem resposta** do Menu ou da Pergunta | uma só |
 | `msg_interna` | Msg Interna | `mensagem` | uma só |
 | `codigo_js` | Execução de Código JS | `codigo` | uma só |
 | `horario` | Horário de Expediente | `nome` do Setor que dá o horário, (`id`). Os dias e horas não vão no arquivo: o bloco lê a aba **Horários** desse Setor | `dentro`, `fora` |

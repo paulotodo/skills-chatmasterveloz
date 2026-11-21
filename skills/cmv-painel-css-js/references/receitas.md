@@ -27,6 +27,7 @@ Cores, tamanhos e textos são exemplos: troque pelos da pessoa. Se mudar ou acre
 | 17 | JS: lembrete ao clicar num botão (delegação de evento) | JS pós-login |
 | 18 | JS: reagir ao evento `sip:state` | JS pós-login |
 | 19 | Chat Externo | CSS do Chat Externo |
+| 20 | Dashboard e Modo TV | CSS pós-login |
 
 ## Como aplicar e como desfazer (vale para todas)
 
@@ -521,3 +522,23 @@ O `05` lista os campos do `detail` (`registration`, `call`, `direction`, `muted`
 - A referência não documenta campo de JS para o Chat Externo, nem tema escuro nessa página.
 - O fundo da caixa do campo lê `--wa-input`, e o da caixa dos emojis e o da folha de opções, `--wa-popup` (branco, sem customização). O `12` não diz em que seletor defini-las.
 - O visitante vê esta página: nada de informação interna em `content:` de CSS.
+
+## 20. Dashboard e Modo TV
+
+**Pedido típico:** "no Dashboard, esconde o bloco de aniversariantes e aumenta os números, para passar na TV."
+**Campo:** CSS pós-login. **Fonte:** `07-paginas.md`, `06-atributos-data.md` (`data-dash-view`, `data-modo-tv`).
+
+```css
+/* CMV-INICIO Dashboard na TV */
+/* números do topo maiores, só no Modo TV */
+#custom-css-dashboard[data-modo-tv="ligado"] .custom-css-stat-card-valor { font-size: 48px !important; }
+#custom-css-dashboard[data-modo-tv="ligado"] .custom-css-stat-card-rotulo { font-size: 18px !important; }
+/* esconde a seção de aniversariantes e o cartão que a abre */
+#custom-css-dashboard [data-dash-view="aniversariantes"] { display: none !important; }
+/* CMV-FIM */
+```
+
+- O `data-dash-view` vale `estatisticas`, `linha-do-tempo`, `equipe`, `relatorios` ou `aniversariantes`, e está no cartão "O que você gostaria de ver?" e no bloco que ele abre (`.custom-css-dashboard-painel`). O seletor sem a classe do painel esconde os dois; com `.custom-css-dashboard-painel` na frente, só o bloco.
+- Sem `[data-modo-tv="ligado"]`, a regra vale também fora do Modo TV.
+- A área chamada só `Dashboard` no catálogo é a Dashboard legada (`#custom-css-dashboard-legado`). Não junte âncoras dela, como `.custom-css-aniversariantes`, com o id da Dashboard nova: o seletor nunca casa.
+- O catálogo não diz em que posição da tela cada cartão de número fica: peça para a pessoa conferir no painel.

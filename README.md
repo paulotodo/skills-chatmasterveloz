@@ -39,7 +39,7 @@ Nos modelos menores (Haiku e, às vezes, Sonnet), um pedido que não cita o nome
 - **Skills copiadas para `~/.claude/skills/` ou `.claude/skills/`:** ponha o texto no `CLAUDE.md` do projeto ou em `~/.claude/CLAUDE.md`.
 - **claude.ai:** ponha o texto nas instruções do projeto ou nas suas preferências de perfil.
 
-O que foi medido com esse texto, no teste cego de 84 pedidos: Haiku 82, Sonnet 83, Opus 84, e nenhum dos três carregou skill em pedido sobre outra ferramenta (12 de 12). Sem contexto nenhum o Haiku faz 78. Numa tarefa de API que não cita o produto, o Haiku passou a carregar a skill em 3 de 3 execuções (antes, nenhuma). O custo: no Haiku aumentam os casos em que ele carrega a skill certa e mais uma irmã junto. A versão sem a última frase (a exceção para outras ferramentas) não serve: com ela o Haiku passou a carregar skills em pedidos sobre ManyChat, Zapier e o aplicativo WhatsApp Business.
+O que foi medido com esse texto e as descrições atuais (de 21/11), no Haiku: 83 de 84 no teste cego antigo e 35 de 36 no teste cego dos módulos novos, sem carregar skill em nenhum pedido sobre outra ferramenta (18 de 18). Sem contexto nenhum ele faz 81 e 34. Com as descrições de 19/11 e este texto, Sonnet e Opus tinham feito 83 e 84 de 84; não foram medidos de novo com o texto. Numa tarefa de API que não cita o produto, o Haiku passou a carregar a skill em 3 de 3 execuções (antes, nenhuma). O custo: no Haiku aumentam os casos em que ele carrega a skill certa e mais uma irmã junto. A versão sem a última frase (a exceção para outras ferramentas) não serve: com ela o Haiku passou a carregar skills em pedidos sobre ManyChat, Zapier e o aplicativo WhatsApp Business.
 
 ## Como atualizar quando a plataforma mudar
 
@@ -68,18 +68,18 @@ O que cada skill copia está em `skills/<nome>/fontes.txt`. Os arquivos escritos
 
 As descrições (o texto que faz o Claude escolher a skill) foram otimizadas e medidas com pedidos de teste, com as seis skills instaladas juntas e sem a configuração pessoal da máquina. Tudo fica em `avaliacao-gatilho/`.
 
-**Medição atual: roteamento.** O `ferramenta/rotear.py` instala as seis skills de verdade e registra qual delas cada pedido carrega. Os pedidos estão em `roteamento/`: `desenvolvimento.json` (84, usados para ajustar as descrições) e `teste.json` (84, o teste cego, nunca usado para ajustar). Foram escritos por dois agentes separados e rotulados de novo por um terceiro, que concordou em 167 de 168. A maioria não cita o nome do produto. Resultado no teste cego, 3 repetições por pedido:
+**Medição atual: roteamento.** O `ferramenta/rotear.py` instala as seis skills de verdade e registra qual delas cada pedido carrega. Os pedidos estão em `roteamento/`: `desenvolvimento.json` (84, usados para ajustar as descrições) e `teste.json` (84, o teste cego). Foram escritos por dois agentes separados e rotulados de novo por um terceiro, que concordou em 167 de 168. A maioria não cita o nome do produto. Em 21/11 entraram `novos-desenvolvimento.json` e `novos-teste.json` (36 cada), sobre os módulos que a plataforma ganhou em 20/11 (Consultório, Reservas, Mail Marketing, Dashboard, Links de agendamento, Base de Conhecimento, Provedor de IA), escritos por um agente que não viu as descrições e rotulados às cegas por outro, que concordou no destino dos 72. Resultado nos testes cegos, 3 repetições por pedido:
 
-| Modelo | Descrições de 18/11 | Descrições de 19/11 (atuais) |
-|---|---|---|
-| Fable 5.2 | 84/84 | 84/84 |
-| Opus 5.5 | 83/84 | 83/84 |
-| Sonnet 5.5 | 81/84 | 82/84 |
-| Haiku 5.5 | 74/84 | 78/84 |
+| Modelo | Antigo (84): 18/11 | 19/11 | 21/11 (atuais) | Novo (36): 19/11 | 21/11 (atuais) |
+|---|---|---|---|---|---|
+| Fable 5.2 | 84 | 84 | não medido | não medido | não medido |
+| Opus 5.5 | 83 | 83 | 83 | 35 | 36 |
+| Sonnet 5.5 | 81 | 82 | 82 | 32 | 36 |
+| Haiku 5.5 | 74 | 78 | 81 | 30 | 34 |
 
-Com o texto de contexto da seção "Diga ao Claude que você usa o Chat Master Veloz", o Haiku chega a 82/84, o Sonnet a 83/84 e o Opus a 84/84. Nos 240 pedidos das medições anteriores (`roteamento/antigos.json`), as descrições atuais dão 238 no Haiku e 239 no Opus.
+As descrições de 21/11 mudaram em quatro skills (`cmv-ajuda`, `cmv-api`, `cmv-agente-ia`, `cmv-mensagens`): passaram a citar os módulos novos, a `cmv-mensagens` passou a aceitar o e-mail que vai pelo Mail Marketing e a `cmv-agente-ia` ganhou a frase "quem tem esta skill usa o CMV", que as outras já tinham. Todas estão a até 5 bytes do limite de 1.024: incluir qualquer coisa pede cortar outra. Nos 240 pedidos das medições anteriores (`roteamento/antigos.json`) o Haiku fez 238 antes e 238 depois. Uma versão intermediária foi descartada porque fazia um erro técnico que aparece na tela ("Missing Body in Payload") cair na `cmv-api`; a versão final foi conferida no teste cego depois desse ajuste, então o teste cego antigo já não é totalmente cego e o novo foi usado duas vezes.
 
-Em nenhuma medição uma skill foi carregada em pedido sobre outra plataforma (12 de 12 em todos os modelos). O ponto fraco que resta é o Haiku responder direto, sem carregar skill, em parte dos pedidos que não citam o Chat Master Veloz; o número dele oscila uns 2 pedidos entre medições. As descrições anteriores e as novas estão em `descricoes/`, para comparar ou voltar atrás com `ferramenta/candidata.py <arquivo> --aplicar`.
+Em nenhuma medição uma skill foi carregada em pedido sobre outra plataforma (12 de 12 no conjunto antigo e 6 de 6 no novo, em todos os modelos medidos). O ponto fraco que resta é o Haiku responder direto, sem carregar skill, em parte dos pedidos que não citam o Chat Master Veloz (nos módulos novos, as dúvidas de uso da Avaliação pela IA); o número dele oscila uns 2 pedidos entre medições, e o texto de contexto da seção "Diga ao Claude que você usa o Chat Master Veloz" cobre boa parte disso. As descrições anteriores e as novas estão em `descricoes/`, para comparar ou voltar atrás com `ferramenta/candidata.py <arquivo> --aplicar`.
 
 ```bash
 cd avaliacao-gatilho/ferramenta
@@ -90,7 +90,7 @@ python3 rotear.py --modelo claude-haiku-5-5 --conjunto ../roteamento/desenvolvim
 
 Ao mudar uma descrição, ajuste pelo conjunto de desenvolvimento e só confira no teste cego no fim; depois rode também `roteamento/antigos.json` (os 240 pedidos das medições anteriores), que serve de conferência de regressão.
 
-**Tarefas completas.** O acionamento é metade do caminho; o resultado de três rodadas de avaliação das respostas em Haiku e Sonnet, o que foi corrigido nas skills e o que ainda aparece estão em `avaliacao-gatilho/TAREFAS-COMPLETAS.md`. O `ferramenta/ponta_a_ponta.py` roda uma tarefa real por skill (`roteamento/tarefas-completas.json`) com as skills instaladas como cópias de verdade e guarda a resposta e os arquivos gerados, para alguém dar a nota contra a documentação. Opções do `rotear.py` além das mostradas acima: `--plugin` mede pelo caminho de instalação como plugin e `--contexto "texto"` simula as instruções do projeto.
+**Tarefas completas.** O acionamento é metade do caminho; o resultado de sete rodadas de avaliação das respostas em Haiku e Sonnet, o que foi corrigido nas skills e o que ainda aparece estão em `avaliacao-gatilho/TAREFAS-COMPLETAS.md`. O `ferramenta/ponta_a_ponta.py` roda uma tarefa real por skill (`roteamento/tarefas-completas.json`) com as skills instaladas como cópias de verdade e guarda a resposta e os arquivos gerados, para alguém dar a nota contra a documentação. Opções do `rotear.py` além das mostradas acima: `--plugin` mede pelo caminho de instalação como plugin e `--contexto "texto"` simula as instruções do projeto.
 
 **Para revisar os pedidos:** abra `avaliacao-gatilho/REVISAO-ROTEAMENTO.md` (gerado por `ferramenta/revisao_roteamento.py`). Os 168 pedidos vêm numerados, começando pelos que pedem decisão sua, e a resposta é pelo chat, com o número do pedido. `AUDITORIA.md` traz o que uma auditoria independente achou nos conjuntos antigos.
 
@@ -103,6 +103,6 @@ Ao mudar uma descrição, ajuste pelo conjunto de desenvolvimento e só confira 
 - As skills só afirmam o que a documentação diz. Imagens e vídeos da Central de Ajuda não foram transcritos, e preços e planos não são citados.
 - O arquivo de fluxo que a `cmv-flowbuilder` gera segue o formato observado em um fluxo exportado, não um formato publicado pela plataforma: teste o fluxo importado antes de ligá-lo a uma conexão que atende clientes.
 - As receitas de CSS foram conferidas contra o catálogo de seletores, não em um painel real.
-- As descrições das skills (o texto que decide o acionamento) são de antes da atualização de 20/11/2026 e não citam os módulos novos da plataforma: Consultório, Reservas, Mail Marketing, Dashboard, Links de agendamento, Base de Conhecimento e Provedor de IA. Os corpos das skills já os cobrem. Mudar uma descrição pede medir o acionamento de novo, com um teste cego novo.
-- O Mail Marketing (campanhas de e-mail) é explicado pela `cmv-ajuda`, mas nenhuma skill redige e-mails: a `cmv-mensagens` trata só do que vai por mensagem.
-- Na `cmv-agente-ia`, os comandos do GPT Assistant passaram a ser inseridos pela janela **COMANDOS DA IA**, como o artigo novo recomenda. O artigo não mostra a forma dos blocos de agenda e de oportunidade, então o conferidor de prompt não foi testado com eles.
+- O e-mail do Mail Marketing é redigido pela `cmv-mensagens` só quando vai por esse módulo; e-mail avulso (Gmail, Outlook, outra ferramenta) fica fora. A Central de Ajuda não informa tamanho máximo de assunto e de texto, em quais campos a variável funciona nem regras de consentimento: a skill manda conferir com **Enviar teste**.
+- Na `cmv-agente-ia`, a Central de Ajuda não mostra a forma dos blocos de agenda e de oportunidade do GPT Assistant. A skill manda inseri-los pela janela **COMANDOS DA IA**, e o conferidor de prompt reconhece esses blocos, não os confere e avisa. Ele não foi testado com um bloco real inserido pelo painel.
+- A reserva de mesa do PDV e o módulo Reservas têm APIs diferentes; a `cmv-api` separa os dois e pergunta quando o pedido não deixa claro, mas a documentação não traz o formato da resposta nem o código de erro de horário ocupado da reserva de mesa.
