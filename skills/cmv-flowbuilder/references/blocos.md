@@ -195,7 +195,7 @@ O artigo n8n via Flowbuilder (`references/docs/recursos/n8n-via-flowbuilder.md`)
 
 **Encerrar** · `references/docs/recursos/bloco-encerrar.md` · JSON: `close`
 - Use para: terminar o fluxo e fechar o atendimento, com mensagem final opcional.
-- Visto numa conversa de teste em 22/11/2026: ligado à saída **Sem resposta** de um Menu com 2 minutos, a mensagem do bloco chegou cerca de 3 minutos depois do menu. A mensagem que o cliente mandou 9 minutos depois não recomeçou o fluxo (causa não identificada).
+- Visto numa conversa de teste em 22/11/2026: ligado à saída **Sem resposta** de um Menu com 2 minutos, a mensagem do bloco chegou cerca de 3 minutos depois do menu. A mensagem que o cliente mandou 9 minutos depois, sem **SAIR** antes, não recomeçou o fluxo; depois do **SAIR**, a mensagem seguinte recomeçou.
 
 **Encerrar Mensagem Rápida** · `references/docs/recursos/bloco-encerrar-mensagem-rapida.md` · JSON: não
 - Use para: terminar o fluxo chamado por uma resposta rápida e devolver a conversa ao atendente. Um Encerrar comum fecharia o atendimento no meio da conversa da equipe.

@@ -100,7 +100,7 @@ Os detalhes estão em `references/docs/02-campos-css-js.md`. O resumo para decid
 
 - A ordem de carga é pré-login → pós-login → empresa; em empate, vence o da empresa.
 - Na dúvida entre pré e pós-login, é pós-login: o pré-login é público, e só deve ter o visual das telas públicas.
-- Ao salvar, a página recarrega. O JS da empresa vale no próximo carregamento. No campo **CSS desta empresa**, num teste de 22/11/2026, salvar a empresa não recarregou a página: a regra só apareceu depois de recarregar à mão. Mande recarregar (F5) para conferir.
+- Ao salvar, a página recarrega. O JS da empresa vale no próximo carregamento. No campo **CSS desta empresa**, num teste de 22/11/2026, salvar a empresa não recarregou a página: a regra só apareceu depois de recarregar à mão. Mande recarregar (F5) para conferir. No mesmo dia, no **JS desta empresa**: salvar também não recarregou a página; depois de recarregar, o script estava em `<script id="custom-js-company">`, no fim do `<body>`, depois do `custom-js-poslogin`, rodou uma vez e não rodou de novo ao trocar de tela. Depois de apagar o código do campo e salvar, o primeiro recarregamento ainda rodou o script e só no segundo ele não existia mais: ao desfazer um JS da empresa, mande recarregar duas vezes. No **CSS pré-login**, salvar recarregou a página, e a regra chegou à tela de login aberta sem sessão.
 
 ## Segurança, e o porquê de cada regra
 
