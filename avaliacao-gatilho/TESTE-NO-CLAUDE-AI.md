@@ -17,7 +17,9 @@ Conferido em 19/11/2026 na Central de Ajuda (`support.claude.com`, artigo "What 
 | Pré-requisito | Execução de código ligada | Ver passo 1 |
 | Critério de acionamento | A `description` é comparada com o pedido, como no Claude Code | Não há garantia de comportamento idêntico |
 
-Não documentado, e por isso só o teste responde: o que o claude.ai faz com uma descrição perto do limite, se as skills `cmv-ajuda` e `cmv-api` conseguem extrair os artigos no ambiente dele e se o acionamento é igual ao do Claude Code. No Claude Code, com os dois pacotes instalados como o claude.ai os recebe, Haiku e Sonnet abriram os artigos e responderam com a fonte certa (uma execução por modelo e por skill, repetida em 22/11 com o `docs.json`; os artigos extraídos saíram idênticos aos originais).
+Não documentado, e por isso só o teste responde: o que o claude.ai faz com uma descrição perto do limite, e se o acionamento é igual ao do Claude Code. No Claude Code, com os dois pacotes instalados como o claude.ai os recebe, Haiku e Sonnet abriram os artigos e responderam com a fonte certa (uma execução por modelo e por skill, repetida em 22/11 com o `docs.json`; os artigos extraídos saíram idênticos aos originais).
+
+Visto em 22/11/2026, nos pedidos 1 a 4 (uma conversa nova por pedido, Fable 5.2, sem projeto): o claude.ai carregou a skill certa, extraiu os artigos do `docs.json` e citou a fonte nas quatro respostas.
 
 ## Passo 1: instalar
 
@@ -42,10 +44,10 @@ Abra uma **conversa nova para cada pedido**, cole o texto e veja qual skill o Cl
 
 | # | Pedido | Deve usar | Usou |
 |---|---|---|---|
-| 1 | No Chat Master Veloz, consigo colocar a logo e a cor do meu restaurante no Cardápio Digital? Onde fica essa configuração? | cmv-ajuda | |
-| 2 | desde ontem um monte de conversa ficou com fundo vermelho na lista de atendimentos e cliente reclamando que não recebe resposta. o que é isso e como resolve?? | cmv-ajuda | |
-| 3 | Já tenho o template lembrete_consulta aprovado na Meta. Preciso do curl pra enviar ele pelo CMV preenchendo o nome do paciente e o horário nas variáveis. | cmv-api | |
-| 4 | quando o pedido é marcado como entregue no nosso sistema eu queria encerrar o ticket do cliente sozinho, sem o atendente ter que clicar em Resolver. dá pra fazer isso por requisição? em php de preferência | cmv-api | |
+| 1 | No Chat Master Veloz, consigo colocar a logo e a cor do meu restaurante no Cardápio Digital? Onde fica essa configuração? | cmv-ajuda | cmv-ajuda (22/11, Fable 5.2; fonte: Cardápio Digital) |
+| 2 | desde ontem um monte de conversa ficou com fundo vermelho na lista de atendimentos e cliente reclamando que não recebe resposta. o que é isso e como resolve?? | cmv-ajuda | cmv-ajuda (22/11, Fable 5.2; fontes: Conexão desconectada e mais duas) |
+| 3 | Já tenho o template lembrete_consulta aprovado na Meta. Preciso do curl pra enviar ele pelo CMV preenchendo o nome do paciente e o horário nas variáveis. | cmv-api | cmv-api (22/11, Fable 5.2; fonte: API Oficial Mensagem Template) |
+| 4 | quando o pedido é marcado como entregue no nosso sistema eu queria encerrar o ticket do cliente sozinho, sem o atendente ter que clicar em Resolver. dá pra fazer isso por requisição? em php de preferência | cmv-api | cmv-api (22/11, Fable 5.2; fontes: API Encerrar Ticket e API Listar Tickets do Contato) |
 | 5 | Me gera o arquivo pra importar no Chat Master Veloz: fluxo de uma escola de idiomas com menu Matrícula, Financeiro e Secretaria, e quem escrever fora do horário recebe aviso de que respondemos no próximo dia útil. | cmv-flowbuilder | |
 | 6 | importei o fluxo ontem, salvei, ele aparece na lista do FlowBuilder Nativo, mas quando mando mensagem de teste não acontece nada, a conversa cai direto em Aguardando sem resposta. o que falta? | cmv-flowbuilder | |
 | 7 | No Chat Master Veloz, o GPT Assistant consegue responder dentro de um grupo de WhatsApp? Queria que ele só falasse quando alguém chamasse por um comando. | cmv-agente-ia | |
