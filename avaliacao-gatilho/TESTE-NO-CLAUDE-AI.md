@@ -19,7 +19,7 @@ Conferido em 19/11/2026 na Central de Ajuda (`support.claude.com`, artigo "What 
 
 Não documentado, e por isso só o teste responde: o que o claude.ai faz com uma descrição perto do limite, e se o acionamento é igual ao do Claude Code. No Claude Code, com os dois pacotes instalados como o claude.ai os recebe, Haiku e Sonnet abriram os artigos e responderam com a fonte certa (uma execução por modelo e por skill, repetida em 22/11 com o `docs.json`; os artigos extraídos saíram idênticos aos originais).
 
-Visto em 22/11/2026, nos pedidos 1 a 4 (uma conversa nova por pedido, Fable 5.2, sem projeto): o claude.ai carregou a skill certa, extraiu os artigos do `docs.json` e citou a fonte nas quatro respostas.
+Visto em 22/11/2026, nos 14 pedidos (uma conversa nova por pedido, Fable 5.2, esforço Médio, sem projeto, enviados pelo navegador): 14 de 14 com a skill esperada, nenhuma nos pedidos 13 e 14. Nos pedidos 1 a 4 o claude.ai extraiu os artigos do `docs.json` e citou a fonte; no 5 rodou o `validar_fluxo.py` e no 11 o `conferir_seletores.py`. Ressalvas: a memória do claude.ai da conta estava ligada e pode ter ajudado nos pedidos que não citam o CMV; os pedidos 10 a 13 foram digitados sem os acentos por falha da automação.
 
 ## Passo 1: instalar
 
@@ -48,16 +48,16 @@ Abra uma **conversa nova para cada pedido**, cole o texto e veja qual skill o Cl
 | 2 | desde ontem um monte de conversa ficou com fundo vermelho na lista de atendimentos e cliente reclamando que não recebe resposta. o que é isso e como resolve?? | cmv-ajuda | cmv-ajuda (22/11, Fable 5.2; fontes: Conexão desconectada e mais duas) |
 | 3 | Já tenho o template lembrete_consulta aprovado na Meta. Preciso do curl pra enviar ele pelo CMV preenchendo o nome do paciente e o horário nas variáveis. | cmv-api | cmv-api (22/11, Fable 5.2; fonte: API Oficial Mensagem Template) |
 | 4 | quando o pedido é marcado como entregue no nosso sistema eu queria encerrar o ticket do cliente sozinho, sem o atendente ter que clicar em Resolver. dá pra fazer isso por requisição? em php de preferência | cmv-api | cmv-api (22/11, Fable 5.2; fontes: API Encerrar Ticket e API Listar Tickets do Contato) |
-| 5 | Me gera o arquivo pra importar no Chat Master Veloz: fluxo de uma escola de idiomas com menu Matrícula, Financeiro e Secretaria, e quem escrever fora do horário recebe aviso de que respondemos no próximo dia útil. | cmv-flowbuilder | |
-| 6 | importei o fluxo ontem, salvei, ele aparece na lista do FlowBuilder Nativo, mas quando mando mensagem de teste não acontece nada, a conversa cai direto em Aguardando sem resposta. o que falta? | cmv-flowbuilder | |
-| 7 | No Chat Master Veloz, o GPT Assistant consegue responder dentro de um grupo de WhatsApp? Queria que ele só falasse quando alguém chamasse por um comando. | cmv-agente-ia | |
-| 8 | a ia do atendimento tá inventando preço de procedimento que não existe e às vezes responde textão enorme. a tabela de valores tá certinha no prompt lá em Prompts OPEN.AI, temperatura em 1. onde eu mexo? | cmv-agente-ia | |
-| 9 | Vou fazer minha primeira campanha no CMV pra avisar que a loja mudou de endereço. Escreve as variações do texto e a mensagem de descadastramento? É conexão por QR Code. | cmv-mensagens | |
-| 10 | preciso de uma msg pra mandar pros pais avisando q a rematrícula vence dia 10 e quem não renovar perde a vaga. escola infantil, uns 180 responsáveis, número conectado por qr code | cmv-mensagens | |
-| 11 | O painel do Chat Master Veloz vem todo no verde padrão. Preciso deixar a barra de cima e os botões em azul marinho (#0b1f3a), que é a cor da minha revenda, também no tema escuro. | cmv-painel-css-js | |
-| 12 | quero reordenar o menu lateral: Tickets, Contatos e CRM lá em cima e o resto embaixo. tem como sem pedir pro suporte? | cmv-painel-css-js | |
-| 13 | meu fluxo no manychat parou de responder comentário no instagram desde ontem. o gatilho por palavra-chave tá ativo e a conta tá conectada. o que pode ser? | nenhuma | |
-| 14 | preciso de um css pra esconder o rodapé do tema Astra no meu site em wordpress e trocar a cor do botão do formulário de contato pra laranja | nenhuma | |
+| 5 | Me gera o arquivo pra importar no Chat Master Veloz: fluxo de uma escola de idiomas com menu Matrícula, Financeiro e Secretaria, e quem escrever fora do horário recebe aviso de que respondemos no próximo dia útil. | cmv-flowbuilder | cmv-flowbuilder (22/11; arquivo gerado, validador rodou: estrutura sem erros, 7 valores a trocar) |
+| 6 | importei o fluxo ontem, salvei, ele aparece na lista do FlowBuilder Nativo, mas quando mando mensagem de teste não acontece nada, a conversa cai direto em Aguardando sem resposta. o que falta? | cmv-flowbuilder | cmv-flowbuilder (22/11) |
+| 7 | No Chat Master Veloz, o GPT Assistant consegue responder dentro de um grupo de WhatsApp? Queria que ele só falasse quando alguém chamasse por um comando. | cmv-agente-ia | cmv-agente-ia (22/11) |
+| 8 | a ia do atendimento tá inventando preço de procedimento que não existe e às vezes responde textão enorme. a tabela de valores tá certinha no prompt lá em Prompts OPEN.AI, temperatura em 1. onde eu mexo? | cmv-agente-ia | cmv-agente-ia (22/11) |
+| 9 | Vou fazer minha primeira campanha no CMV pra avisar que a loja mudou de endereço. Escreve as variações do texto e a mensagem de descadastramento? É conexão por QR Code. | cmv-mensagens | cmv-mensagens (22/11) |
+| 10 | preciso de uma msg pra mandar pros pais avisando q a rematrícula vence dia 10 e quem não renovar perde a vaga. escola infantil, uns 180 responsáveis, número conectado por qr code | cmv-mensagens | cmv-mensagens (22/11; pedido chegou sem acentos) |
+| 11 | O painel do Chat Master Veloz vem todo no verde padrão. Preciso deixar a barra de cima e os botões em azul marinho (#0b1f3a), que é a cor da minha revenda, também no tema escuro. | cmv-painel-css-js | cmv-painel-css-js (22/11; pedido chegou sem acentos; conferidor rodou: 0 problemas, 0 avisos) |
+| 12 | quero reordenar o menu lateral: Tickets, Contatos e CRM lá em cima e o resto embaixo. tem como sem pedir pro suporte? | cmv-painel-css-js | cmv-painel-css-js (22/11; pedido chegou sem acentos) |
+| 13 | meu fluxo no manychat parou de responder comentário no instagram desde ontem. o gatilho por palavra-chave tá ativo e a conta tá conectada. o que pode ser? | nenhuma | nenhuma (22/11; pedido chegou sem acentos) |
+| 14 | preciso de um css pra esconder o rodapé do tema Astra no meu site em wordpress e trocar a cor do botão do formulário de contato pra laranja | nenhuma | nenhuma (22/11) |
 
 ## Passo 3: uma tarefa completa
 
