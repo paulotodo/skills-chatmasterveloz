@@ -183,6 +183,8 @@ A plataforma nunca define essas duas variáveis (`03`). Em que tema elas valem o
 
 Cada caixa (o menu, cada seção, cada submenu) põe primeiro os citados; os outros seguem na ordem de sempre. O catálogo não diz em que seção cada item fica nem lista os identificadores dos itens: se nada mudou, peça para a pessoa conferir o `data-menu` do item pelo Inspecionar.
 
+O item citado sobe só **dentro da seção dele**: para ele ir ao topo do menu inteiro, cite também a seção, antes dos itens. Observado num painel em 22/11/2026 (não é lista oficial, confirme pelo Inspecionar): **Chats** é `tickets`, **Contatos** é `contacts`, **CRM** é o submenu `crm`, e os três ficam na seção `atendimentos`. Lá, `--menu-ordem: atendimentos, tickets, contacts, crm` levou os três ao topo; sem `atendimentos`, eles só passaram à frente dentro da seção, abaixo da seção Principal.
+
 ## 6. Fonte e cores dos balões da conversa
 
 **Pedido típico:** "aumenta a letra das mensagens", "muda a cor do balão do atendente."
