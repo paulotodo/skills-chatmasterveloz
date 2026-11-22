@@ -17,7 +17,7 @@ Conferido em 19/11/2026 na Central de Ajuda (`support.claude.com`, artigo "What 
 | Pré-requisito | Execução de código ligada | Ver passo 1 |
 | Critério de acionamento | A `description` é comparada com o pedido, como no Claude Code | Não há garantia de comportamento idêntico |
 
-Não documentado, e por isso só o teste responde: o que o claude.ai faz com uma descrição perto do limite, se ele aceita um arquivo de 2,7 MB dentro do pacote, se as skills `cmv-ajuda` e `cmv-api` conseguem extrair os artigos no ambiente dele e se o acionamento é igual ao do Claude Code. No Claude Code, com os dois pacotes instalados como o claude.ai os recebe, Haiku e Sonnet abriram os artigos e responderam com a fonte certa (uma execução por modelo e por skill, repetida em 22/11 com o `docs.json`; os artigos extraídos saíram idênticos aos originais).
+Não documentado, e por isso só o teste responde: o que o claude.ai faz com uma descrição perto do limite, se as skills `cmv-ajuda` e `cmv-api` conseguem extrair os artigos no ambiente dele e se o acionamento é igual ao do Claude Code. No Claude Code, com os dois pacotes instalados como o claude.ai os recebe, Haiku e Sonnet abriram os artigos e responderam com a fonte certa (uma execução por modelo e por skill, repetida em 22/11 com o `docs.json`; os artigos extraídos saíram idênticos aos originais).
 
 ## Passo 1: instalar
 
@@ -29,8 +29,8 @@ Não documentado, e por isso só o teste responde: o que o claude.ai faz com uma
 
 | Pacote | Aceito? | Mensagem, se recusado |
 |---|---|---|
-| cmv-ajuda.zip | Recusado duas vezes em 21/11 (522 arquivos; depois, zip interno). Reenviar o pacote com `docs.json` | "Zip contains too many files (maximum 200)"; "Zip cannot contain nested zip files" |
-| cmv-api.zip | Recusado duas vezes em 21/11 (384 arquivos; depois, zip interno). Reenviar o pacote com `docs.json` | "Zip contains too many files (maximum 200)"; "Zip cannot contain nested zip files" |
+| cmv-ajuda.zip | Recusado duas vezes em 21/11 (522 arquivos; depois, zip interno). Aceito em 22/11 com os artigos em `docs.json` | "Zip contains too many files (maximum 200)"; "Zip cannot contain nested zip files" |
+| cmv-api.zip | Recusado duas vezes em 21/11 (384 arquivos; depois, zip interno). Aceito em 22/11 com os artigos em `docs.json` | "Zip contains too many files (maximum 200)"; "Zip cannot contain nested zip files" |
 | cmv-flowbuilder.zip | Aceito em 21/11 | |
 | cmv-agente-ia.zip | Aceito em 21/11 | |
 | cmv-mensagens.zip | Aceito em 21/11 | |
