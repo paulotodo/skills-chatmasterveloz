@@ -1,4 +1,4 @@
-# Artigos incluídos nesta skill (75)
+# Artigos incluídos nesta skill (76)
 
 - [Aba Geral em Setores & Chatbot](recursos/aba-geral-em-setores-e-chatbot.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-geral-em-setores-e-chatbot>
 - [Aba Horários em Setores & Chatbot](recursos/aba-horarios-em-setores-e-chatbot.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-horarios-em-setores-e-chatbot>
@@ -16,6 +16,7 @@
 - [É Seguidor?](recursos/bloco-e-seguidor.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-e-seguidor>
 - [Encerrar Mensagem Rápida](recursos/bloco-encerrar-mensagem-rapida.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-encerrar-mensagem-rapida>
 - [Encerrar](recursos/bloco-encerrar.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-encerrar>
+- [Enviar e-mail](recursos/bloco-enviar-e-mail.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-enviar-e-mail>
 - [Enviar figurinha](recursos/bloco-enviar-figurinha.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-enviar-figurinha>
 - [Enviar Localização](recursos/bloco-enviar-localizacao.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-enviar-localizacao>
 - [Execução de Código JS](recursos/bloco-execucao-de-codigo-js.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-execucao-de-codigo-js>

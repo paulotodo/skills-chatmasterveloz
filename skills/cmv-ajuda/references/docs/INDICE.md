@@ -1,8 +1,8 @@
-# Artigos incluídos nesta skill (518)
+# Artigos incluídos nesta skill (521)
 
 - [Chat Master Veloz — documentação da plataforma (Central de Ajuda)](00-LEIA-PRIMEIRO.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs>
 - [Índice — artigos fora do menu (3)](INDICE-outros.md)
-- [Índice — Recursos (497 artigos)](INDICE-recursos.md)
+- [Índice — Recursos (500 artigos)](INDICE-recursos.md)
 - [Índice — Trilhas (14 artigos)](INDICE-trilhas.md)
 - [Adicionar Tag](outros/adicionar-tag.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/adicionar-tag>
 - [Telegram](outros/telegram.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/telegram>
@@ -105,6 +105,8 @@
 - [17/11/2026](recursos/atualizacoes-2026-11-17.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-17>
 - [18/11/2026](recursos/atualizacoes-2026-11-18.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-18>
 - [19/11/2026](recursos/atualizacoes-2026-11-19.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-19>
+- [20/11/2026](recursos/atualizacoes-2026-11-20.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-20>
+- [21/11/2026](recursos/atualizacoes-2026-11-21.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-21>
 - [Novembro 2026](recursos/atualizacoes-2026-11.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11>
 - [Atualizações](recursos/atualizacoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes>
 - [Auditoria de Vendas](recursos/auditoria-de-vendas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/auditoria-de-vendas>
@@ -132,6 +134,7 @@
 - [É Seguidor?](recursos/bloco-e-seguidor.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-e-seguidor>
 - [Encerrar Mensagem Rápida](recursos/bloco-encerrar-mensagem-rapida.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-encerrar-mensagem-rapida>
 - [Encerrar](recursos/bloco-encerrar.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-encerrar>
+- [Enviar e-mail](recursos/bloco-enviar-e-mail.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-enviar-e-mail>
 - [Enviar figurinha](recursos/bloco-enviar-figurinha.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-enviar-figurinha>
 - [Enviar Localização](recursos/bloco-enviar-localizacao.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-enviar-localizacao>
 - [Execução de Código JS](recursos/bloco-execucao-de-codigo-js.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-execucao-de-codigo-js>

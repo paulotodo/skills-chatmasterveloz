@@ -6,6 +6,8 @@
 
 ---
 
+- [**21/11/2026** Ver conteúdo](../recursos/atualizacoes-2026-11-21.md)
+- [**20/11/2026** Ver conteúdo](../recursos/atualizacoes-2026-11-20.md)
 - [**19/11/2026** Ver conteúdo](../recursos/atualizacoes-2026-11-19.md)
 - [**18/11/2026** Ver conteúdo](../recursos/atualizacoes-2026-11-18.md)
 - [**17/11/2026** Ver conteúdo](../recursos/atualizacoes-2026-11-17.md)

@@ -1,4 +1,4 @@
-# Índice — Recursos (497 artigos)
+# Índice — Recursos (500 artigos)
 
 Na ordem e na hierarquia do menu do site.
 
@@ -212,6 +212,7 @@ Na ordem e na hierarquia do menu do site.
     - [Avaliação do Atendimento](recursos/bloco-avaliacao-do-atendimento.md)
     - [Webview](recursos/bloco-webview.md)
     - [Responder Comentário](recursos/bloco-responder-comentario.md)
+    - [Enviar e-mail](recursos/bloco-enviar-e-mail.md)
     - [Intervalo](recursos/bloco-intervalo.md)
     - [Msg Interna](recursos/bloco-msg-interna.md)
     - [Tag](recursos/bloco-tags.md)
@@ -465,6 +466,8 @@ Na ordem e na hierarquia do menu do site.
 - [Contato para Suporte](recursos/contato-para-suporte.md)
 - [Atualizações](recursos/atualizacoes.md)
   - [Novembro 2026](recursos/atualizacoes-2026-11.md)
+    - [21/11/2026](recursos/atualizacoes-2026-11-21.md)
+    - [20/11/2026](recursos/atualizacoes-2026-11-20.md)
     - [19/11/2026](recursos/atualizacoes-2026-11-19.md)
     - [18/11/2026](recursos/atualizacoes-2026-11-18.md)
     - [17/11/2026](recursos/atualizacoes-2026-11-17.md)
