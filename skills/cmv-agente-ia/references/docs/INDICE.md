@@ -4,7 +4,7 @@
 - [Aba Evolução da Avaliação pela IA](recursos/aba-evolucao-da-avaliacao-pela-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-evolucao-da-avaliacao-pela-ia>
 - [Aba Geral em Setores & Chatbot](recursos/aba-geral-em-setores-e-chatbot.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-geral-em-setores-e-chatbot>
 - [Aba Hoje da Avaliação pela IA](recursos/aba-hoje-da-avaliacao-pela-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-hoje-da-avaliacao-pela-ia>
-- [Aba Integrações em Cadastros do Consultório](recursos/aba-integracoes-em-cadastros-do-consultorio.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-integracoes-em-cadastros-do-consultorio>
+- [Aba Integrações em Cadastros do consultório](recursos/aba-integracoes-em-cadastros-do-consultorio.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-integracoes-em-cadastros-do-consultorio>
 - [Aba Mensagens em Setores & Chatbot](recursos/aba-mensagens-em-setores-e-chatbot.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-mensagens-em-setores-e-chatbot>
 - [Aguardando x Atendendo](recursos/aguardando-x-atendendo.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aguardando-x-atendendo>
 - [Alertas da Avaliação pela IA](recursos/alertas-da-avaliacao-pela-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/alertas-da-avaliacao-pela-ia>
@@ -13,15 +13,15 @@
 - [15/10/2026](recursos/atualizacoes-2026-10-15.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-10-15>
 - [20/10/2026](recursos/atualizacoes-2026-10-20.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-10-20>
 - [22/10/2026](recursos/atualizacoes-2026-10-22.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-10-22>
-- [07/11/2026](recursos/atualizacoes-2026-11-07.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-07>
-- [10/11/2026](recursos/atualizacoes-2026-11-10.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-10>
-- [11/11/2026](recursos/atualizacoes-2026-11-11.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-11>
-- [12/11/2026](recursos/atualizacoes-2026-11-12.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-12>
-- [13/11/2026](recursos/atualizacoes-2026-11-13.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-13>
-- [14/11/2026](recursos/atualizacoes-2026-11-14.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-14>
-- [17/11/2026](recursos/atualizacoes-2026-11-17.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-17>
-- [18/11/2026](recursos/atualizacoes-2026-11-18.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-18>
-- [19/11/2026](recursos/atualizacoes-2026-11-19.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-19>
+- [Atualizações 07/11/2026](recursos/atualizacoes-2026-11-07.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-07>
+- [Atualizações 10/11/2026](recursos/atualizacoes-2026-11-10.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-10>
+- [Atualizações 11/11/2026](recursos/atualizacoes-2026-11-11.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-11>
+- [Atualizações 12/11/2026](recursos/atualizacoes-2026-11-12.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-12>
+- [Atualizações 13/11/2026](recursos/atualizacoes-2026-11-13.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-13>
+- [Atualizações 14/11/2026](recursos/atualizacoes-2026-11-14.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-14>
+- [Atualizações 17/11/2026](recursos/atualizacoes-2026-11-17.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-17>
+- [Atualizações 18/11/2026](recursos/atualizacoes-2026-11-18.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-18>
+- [Atualizações 19/11/2026](recursos/atualizacoes-2026-11-19.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-19>
 - [Aulas da Avaliação pela IA](recursos/aulas-da-avaliacao-pela-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aulas-da-avaliacao-pela-ia>
 - [Avaliação pela IA](recursos/avaliacao-pela-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/avaliacao-pela-ia>
 - [Base de Conhecimento do GPT Assistant](recursos/base-de-conhecimento-do-gpt-assistant.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/base-de-conhecimento-do-gpt-assistant>

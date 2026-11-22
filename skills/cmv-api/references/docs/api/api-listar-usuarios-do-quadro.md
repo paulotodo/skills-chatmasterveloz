@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/api-listar-usuarios-do-quadro
 - **Categoria:** APIs
-- **Menu:** APIs › Quadro de Atendimentos › API Listar Usuários do Quadro
+- **Menu:** APIs › Quadro de atendimentos › API Listar Usuários do Quadro
 
 ---
 

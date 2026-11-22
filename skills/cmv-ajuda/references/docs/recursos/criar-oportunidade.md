@@ -22,7 +22,7 @@
 
 ## Os campos da oportunidade
 
-🔘 **Nome da oportunidade (opcional):** o primeiro campo. Nas palavras da tela: *"Ajuda a diferenciar várias oportunidades do mesmo contato. Sem nome, aparece o nome do contato."* O nome aparece no card do Board, na busca do Board, no Relatório de Vendas e no PDF da proposta, na linha **Oportunidade:**.
+🔘 **Nome da oportunidade (opcional):** o primeiro campo. Nas palavras da tela: *"Ajuda a diferenciar várias oportunidades do mesmo contato. Sem nome, aparece o nome do contato."* O nome aparece no card do Board, na busca do Board, no Relatório de vendas e no PDF da proposta, na linha **Oportunidade:**.
 
 🔘 **Contato:** o cliente da negociação, buscado pelo nome. Se ele ainda não está cadastrado, digite o nome ou o telefone e escolha *Cadastrar "…" como novo contato*: abre o cadastro do contato já com o que você digitou, e ele volta escolhido na oportunidade. Depois de salvar a oportunidade, o contato não muda mais.
 

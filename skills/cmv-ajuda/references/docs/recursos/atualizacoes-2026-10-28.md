@@ -1,4 +1,4 @@
-# 28/10/2026
+# Atualizações 28/10/2026
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-10-28
 - **Categoria:** Recursos
@@ -20,7 +20,7 @@
 
 ⚡️ **Avisos do pedido ao cliente:** pedido confirmado, pagamento recebido, em preparo, pronto para retirada, saiu para entrega e entregue, cada um com texto próprio e liga e desliga.
 
-⚡️ **Venda pelo fluxo:** no FlowBuilder, o bloco **PDV (pedido no fluxo)** deixa o cliente escolher os produtos numa lista numerada e confirmar o pedido sozinho; o pedido chega confirmado no atendimento.
+⚡️ **Venda pelo fluxo:** no FlowBuilder Nativo, o bloco **PDV (pedido no fluxo)** deixa o cliente escolher os produtos numa lista numerada e confirmar o pedido sozinho; o pedido chega confirmado no atendimento.
 
 ⚡️ **Pedidos no painel do contato:** os últimos pedidos do cliente, quantas compras ele fez e quanto já gastou, com o botão **Repetir pedido**, que repete um pedido antigo com o preço de hoje.
 
@@ -98,7 +98,7 @@ No menu **Configurações  ›  Opções**, a seção **Avisos do pedido ao clie
 
 ## Venda pelo fluxo
 
-O FlowBuilder ganhou o bloco **PDV (pedido no fluxo)**. O cliente escolhe um produto pelo número, diz a quantidade, adiciona outro ou finaliza e, no fim, vê o resumo com o preço do cadastro e confirma. O 0 desiste em qualquer passo.
+O FlowBuilder Nativo ganhou o bloco **PDV (pedido no fluxo)**. O cliente escolhe um produto pelo número, diz a quantidade, adiciona outro ou finaliza e, no fim, vê o resumo com o preço do cadastro e confirma. O 0 desiste em qualquer passo.
 
 🔘 **Texto antes da lista:** a frase que vem antes dos produtos. Em branco, o bloco usa "Escolha um produto pelo número:".
 

@@ -6,11 +6,11 @@
 
 ---
 
-- [**31/10/2026** Ver conteúdo](../recursos/atualizacoes-2026-10-31.md)
-- [**30/10/2026** Ver conteúdo](../recursos/atualizacoes-2026-10-30.md)
-- [**29/10/2026** Ver conteúdo](../recursos/atualizacoes-2026-10-29.md)
-- [**28/10/2026** Ver conteúdo](../recursos/atualizacoes-2026-10-28.md)
-- [**27/10/2026** Ver conteúdo](../recursos/atualizacoes-2026-10-27.md)
+- [**Atualizações 31/10/2026** Ver conteúdo](../recursos/atualizacoes-2026-10-31.md)
+- [**Atualizações 30/10/2026** Ver conteúdo](../recursos/atualizacoes-2026-10-30.md)
+- [**Atualizações 29/10/2026** Ver conteúdo](../recursos/atualizacoes-2026-10-29.md)
+- [**Atualizações 28/10/2026** Ver conteúdo](../recursos/atualizacoes-2026-10-28.md)
+- [**Atualizações 27/10/2026** Ver conteúdo](../recursos/atualizacoes-2026-10-27.md)
 - [**26/10/2026** Ver conteúdo](../recursos/atualizacoes-2026-10-26.md)
 - [**22/10/2026** Ver conteúdo](../recursos/atualizacoes-2026-10-22.md)
 - [**21/10/2026** Ver conteúdo](../recursos/atualizacoes-2026-10-21.md)

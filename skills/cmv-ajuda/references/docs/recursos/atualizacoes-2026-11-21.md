@@ -1,8 +1,8 @@
-# 21/11/2026
+# Atualizações 21/11/2026
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-21
 - **Categoria:** Recursos
-- **Menu:** Atualizações › Novembro 2026 › 21/11/2026
+- **Menu:** Atualizações › Novembro 2026 › Atualizações 21/11/2026
 
 ---
 
@@ -12,7 +12,7 @@ Todas as novidades abaixo estão disponíveis a partir da versão **WS-30.149.0*
 
 #### Novidades
 
-⚡️ **Mensagem a todos os atendimentos:** no Atendimento, o **Quadro de Atendimentos** ganhou, na coluna de cada pessoa, o envio de uma mensagem a todos os atendimentos dela, com os envios em **Agendamentos**.
+⚡️ **Mensagem a todos os atendimentos:** no Atendimento, o **Quadro de atendimentos** ganhou, na coluna de cada pessoa, o envio de uma mensagem a todos os atendimentos dela, com os envios em **Agendamentos**.
 
 ☑️ **Transferir pelo Quadro:** arrastar o card até a coluna de alguém pergunta antes e, confirmado, o card vai na hora para a coluna da pessoa, com o selo **Aguardando aceitar**.
 
@@ -50,11 +50,11 @@ Todas as novidades abaixo estão disponíveis a partir da versão **WS-30.149.0*
 
 ◽ **Dashboard:** o bloco **API Oficial: envios e custo** só aparece para quem tem conexão oficial do WhatsApp, e o **Resumo automático** mostra as duas médias com a mesma regra.
 
-◽ **Link na bio:** cada toque num botão conta como **Lead** no Pixel da Meta e no Google Analytics.
+◽ **Link na Bio:** cada toque num botão conta como **Lead** no Pixel da Meta e no Google Analytics.
 
 ◽ **Conversa privada:** no Chat Interno, quem é de fora não consegue mais escrever na conversa privada.
 
-◽ **Bloco Enviar e-mail:** no FlowBuilder, a ajuda do campo **Para** volta a mostrar o exemplo de variável.
+◽ **Bloco Enviar e-mail:** no FlowBuilder Nativo, a ajuda do campo **Para** volta a mostrar o exemplo de variável.
 
 ◽ **Mail Marketing:** é só da gestão, e o atendente que tenta abrir vê o aviso.
 
@@ -78,7 +78,7 @@ No menu **Quadro de atendimentos**, na visão **Atendentes**, a coluna de cada p
 
 ## Transferir pelo Quadro
 
-➡️ Na visão **Atendentes** do **Quadro de Atendimentos**, arrastar o card até a coluna de alguém abre a pergunta **Transferir para …?**: o atendimento passa para a pessoa, no mesmo Setor, e fica aguardando que ela aceite, como o **Transferir** da conversa.
+➡️ Na visão **Atendentes** do **Quadro de atendimentos**, arrastar o card até a coluna de alguém abre a pergunta **Transferir para …?**: o atendimento passa para a pessoa, no mesmo Setor, e fica aguardando que ela aceite, como o **Transferir** da conversa.
 
 ➡️ Confirmado, o card vai na hora para a coluna da pessoa, com o selo **Aguardando aceitar**.
 
@@ -86,7 +86,7 @@ No menu **Quadro de atendimentos**, na visão **Atendentes**, a coluna de cada p
 
 ## Finalizar pelo card
 
-➡️ Com **Mostrar o botão de encerrar nos cards** ligado no **Quadro de Atendimentos**, o **FINALIZAR** do card abre a janela do atendimento com o mesmo pop-up de encerrar do topo da conversa: **Encerrar com despedida**, **Encerrar sem despedida** ou **Encerrar com avaliação**.
+➡️ Com **Mostrar o botão de encerrar nos cards** ligado no **Quadro de atendimentos**, o **FINALIZAR** do card abre a janela do atendimento com o mesmo pop-up de encerrar do topo da conversa: **Encerrar com despedida**, **Encerrar sem despedida** ou **Encerrar com avaliação**.
 
 ## Menu do atendimento no celular
 
@@ -160,9 +160,9 @@ No menu **Configurações  ›  Opções**, aba **Geral**, seção **Gerenciamen
 
 ➡️ No **Resumo automático**, as duas médias seguem a mesma regra: a primeira resposta e a resolução aparecem em horas quando passam de uma hora, e a diferença vem na mesma unidade.
 
-## Link na bio
+## Link na Bio
 
-➡️ Com o Pixel da Meta e o Google Analytics ligados para o **Link na bio**, cada toque num botão conta como **Lead**, com o nome do botão.
+➡️ Com o Pixel da Meta e o Google Analytics ligados para o **Link na Bio**, cada toque num botão conta como **Lead**, com o nome do botão.
 
 #### O que você precisa fazer
 

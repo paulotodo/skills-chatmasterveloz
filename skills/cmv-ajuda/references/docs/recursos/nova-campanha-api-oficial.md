@@ -70,7 +70,7 @@ Escolha um template pré-cadastrado em sua conta business da Meta.
 
 Apenas selecione o template desejado.
 
-**➡️ Fluxos de Automação:** inicia a automação de um fluxo do **Flowbuilder Nativo** após a resposta do contato. (**Importante:** definir no campo Fila, uma fila vinculada ao mesmo Fluxo de Automação selecionado aqui).
+**➡️ Fluxos de Automação:** inicia a automação de um fluxo do **FlowBuilder Nativo** após a resposta do contato. (**Importante:** definir no campo Fila, uma fila vinculada ao mesmo Fluxo de Automação selecionado aqui).
 
 **TEMPLATE COM VARIÁVEL**
 

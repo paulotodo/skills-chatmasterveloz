@@ -55,9 +55,9 @@ Os atendimentos sempre vão para a Conexão de destino. O resto você escolhe: a
 
 🔘 **Conexão padrão e acesso dos usuários:** quem tinha a Conexão antiga como padrão passa a ter a nova, e quem tinha acesso à Conexão antiga ganha o acesso à nova e **continua com o da antiga**. A migração soma o acesso, não troca.
 
-🔘 **Loja do Cardápio Digital** da Conexão antiga.
+🔘 **Loja do Cardápio digital** da Conexão antiga.
 
-🔘 **Gatilhos de Webhook do FlowBuilder** que iniciam o fluxo pela Conexão antiga: passam a usar a nova.
+🔘 **Gatilhos de Webhook do FlowBuilder Nativo** que iniciam o fluxo pela Conexão antiga: passam a usar a nova.
 
 Com todas as caixas desmarcadas, a migração leva só os atendimentos.
 
@@ -69,7 +69,7 @@ Depois de **Confirmar Migração**, a tela avisa *"Tickets migrados com sucesso!
 
 🔘 **Total**, **Migrados**, **Ignorados** e **Falhas:** a contagem dos atendimentos.
 
-🔘 **Também foram para a nova conexão:** quantos **Agendamentos**, **Campanhas**, **Usuários com a conexão padrão**, **Usuários com acesso**, **Loja do Cardápio Digital**, **Gatilhos de Webhook** e **Registros dos atendimentos** foram levados.
+🔘 **Também foram para a nova conexão:** quantos **Agendamentos**, **Campanhas**, **Usuários com a conexão padrão**, **Usuários com acesso**, **Loja do Cardápio digital**, **Gatilhos de Webhook** e **Registros dos atendimentos** foram levados.
 
 ## Clonar a conexão de WhatsApp por QR Code
 
@@ -77,7 +77,7 @@ Na conexão de WhatsApp por QR Code, o card tem o botão **Clonar conexão**. El
 
 ➡️ Copia as mensagens, os Setores, os horários, os webhooks, o proxy e as integrações para a conexão nova.
 
-➡️ Passa para ela os atendimentos, os agendamentos que ainda vão sair, as campanhas que não terminaram, a conexão padrão e o acesso dos usuários, o Cardápio Digital e os gatilhos de webhook.
+➡️ Passa para ela os atendimentos, os agendamentos que ainda vão sair, as campanhas que não terminaram, a conexão padrão e o acesso dos usuários, o Cardápio digital e os gatilhos de webhook.
 
 ➡️ Apaga a conexão atual. A nova fica com o mesmo nome e o mesmo token da API, e as integrações continuam funcionando.
 

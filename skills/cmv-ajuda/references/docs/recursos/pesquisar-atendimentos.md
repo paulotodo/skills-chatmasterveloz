@@ -80,7 +80,7 @@ A planilha de **Atendimentos** é sempre do período que está na tabela. Mudou 
 >
 > **Como acho uma conversa sem saber o protocolo?** Use **Texto na mensagem** com uma frase que o cliente escreveu, junto com o período.
 >
-> **Por que o total de vendas da pesquisa é diferente do Relatório de Vendas?** A pesquisa soma os valores registrados ao **encerrar atendimentos**; o Relatório de Vendas soma as **oportunidades ganhas** do CRM.
+> **Por que o total de vendas da pesquisa é diferente do Relatório de vendas?** A pesquisa soma os valores registrados ao **encerrar atendimentos**; o Relatório de vendas soma as **oportunidades ganhas** do CRM.
 >
 > **O que quer dizer Receptivo e Ativo?** Receptivo é o atendimento que o cliente começou; Ativo, o que a empresa começou.
 >

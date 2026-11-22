@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/bloco-encerrar-mensagem-rapida
 - **Categoria:** Recursos
-- **Menu:** FlowBuilder › Blocos › Encerrar Mensagem Rápida
+- **Menu:** FlowBuilder Nativo › Blocos › Encerrar Mensagem Rápida
 
 ---
 

@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/api-reordenar-regras-pessoais-do-quadro
 - **Categoria:** APIs
-- **Menu:** APIs › Quadro de Atendimentos › API Reordenar Regras Pessoais do Quadro
+- **Menu:** APIs › Quadro de atendimentos › API Reordenar Regras Pessoais do Quadro
 
 ---
 

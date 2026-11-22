@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/bloco-e-seguidor
 - **Categoria:** Recursos
-- **Menu:** FlowBuilder › Blocos › É Seguidor?
+- **Menu:** FlowBuilder Nativo › Blocos › É Seguidor?
 
 ---
 
@@ -46,4 +46,4 @@ O bloco não tem janela de configuração: ao ser escolhido, ele entra direto no
 >
 > **Preciso configurar alguma coisa no bloco É Seguidor?** Não. Ele entra no desenho pronto, e o trabalho é ligar as saídas **Segue** e **Não segue**.
 >
-> **Como monto o "siga para receber" com o bloco É Seguidor?** Ligue **Segue** à mensagem com o material e **Não segue** ao convite para seguir. As **Automações rápidas** do FlowBuilder trazem um modelo pronto desse caminho.
+> **Como monto o "siga para receber" com o bloco É Seguidor?** Ligue **Segue** à mensagem com o material e **Não segue** ao convite para seguir. As **Automações rápidas** do FlowBuilder Nativo trazem um modelo pronto desse caminho.

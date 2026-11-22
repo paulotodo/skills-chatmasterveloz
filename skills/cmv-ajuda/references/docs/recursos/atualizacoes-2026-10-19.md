@@ -10,7 +10,7 @@
 
 #### Novidades
 
-⚡️ **Rodada sorteada:** no menu Rodízios e no bloco Rodízio do FlowBuilder, um novo jeito de distribuir: cada um recebe um antes de alguém repetir.
+⚡️ **Rodada sorteada:** no menu Rodízios e no bloco Rodízio do FlowBuilder Nativo, um novo jeito de distribuir: cada um recebe um antes de alguém repetir.
 
 ⚡️ **Mensagens interativas no aplicativo:** no aplicativo do celular, botões, listas, modelos aprovados, catálogo, contato e localização aparecem desenhados na conversa, e o atendente responde com um toque.
 
@@ -22,7 +22,7 @@
 
 #### Melhorias
 
-☑️ **Escolher tags:** no Quadro de Atendimentos, na visão por Tags, cada pessoa escolhe quais tags viram colunas.
+☑️ **Escolher tags:** no Quadro de atendimentos, na visão por Tags, cada pessoa escolhe quais tags viram colunas.
 
 ☑️ **20 por coluna:** ainda no Quadro por tags, cada coluna mostra 20 atendimentos por vez, com **Carregar mais**.
 
@@ -36,7 +36,7 @@
 
 #### Correções
 
-◽ No FlowBuilder, a saída Sem resposta dos blocos Menu, Pergunta e GPT Assistant pode ser ligada logo depois de preencher o tempo, sem recarregar o fluxo.
+◽ No FlowBuilder Nativo, a saída Sem resposta dos blocos Menu, Pergunta e GPT Assistant pode ser ligada logo depois de preencher o tempo, sem recarregar o fluxo.
 
 ◽ Os menus em lista e em botões mostram certo a saudação, o primeiro nome, o protocolo e o nome da empresa, em todos os canais.
 
@@ -58,7 +58,7 @@ No cadastro do rodízio, no menu **Rodízios**, o campo **Como distribuir** tem 
 
 🔘 **As regras de sempre:** quem está ausente, offline ou no limite de atendimentos fica fora da vez, e sem ninguém disponível o atendimento vai para o Setor reserva.
 
-🔘 **No FlowBuilder:** o bloco Rodízio também escolhe o jeito de distribuir quando é configurado ali mesmo.
+🔘 **No FlowBuilder Nativo:** o bloco Rodízio também escolhe o jeito de distribuir quando é configurado ali mesmo.
 
 ## Escolher tags
 

@@ -46,7 +46,7 @@
 - [Variável](recursos/bloco-variavel.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-variavel>
 - [Webview](recursos/bloco-webview.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-webview>
 - [Blocos](recursos/blocos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/blocos>
-- [Bot e FlowBuilder em Configurações](recursos/bot-e-flowbuilder-em-configuracoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bot-e-flowbuilder-em-configuracoes>
+- [Bot e FlowBuilder Nativo em Configurações](recursos/bot-e-flowbuilder-em-configuracoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bot-e-flowbuilder-em-configuracoes>
 - [Categorias de Fluxos](recursos/categorias-de-fluxos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/categorias-de-fluxos>
 - [Categorias de Setores](recursos/categorias-de-setores.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/categorias-de-setores>
 - [Chatbot e Menu de Setores na Conexão](recursos/chatbot-e-menu-de-setores-na-conexao.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/chatbot-e-menu-de-setores-na-conexao>
@@ -54,7 +54,7 @@
 - [Como Usar o Editor de Fluxos](recursos/como-usar-o-editor-de-fluxos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/como-usar-o-editor-de-fluxos>
 - [Editor de Fluxos](recursos/editor-de-fluxos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/editor-de-fluxos>
 - [Erros do Fluxo](recursos/erros-do-fluxo.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/erros-do-fluxo>
-- [FlowBuilder](recursos/flowbuilder.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/flowbuilder>
+- [FlowBuilder Nativo](recursos/flowbuilder.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/flowbuilder>
 - [Gatilho via API](recursos/gatilho-via-api.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/gatilho-via-api>
 - [Gatilho via Avaliação](recursos/gatilho-via-avaliacao.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/gatilho-via-avaliacao>
 - [Gatilho via Bloco Trocar de Fluxo](recursos/gatilho-via-bloco-trocar-de-fluxo.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/gatilho-via-bloco-trocar-de-fluxo>
@@ -65,7 +65,7 @@
 - [Gatilho via Resposta Rápida](recursos/gatilho-via-resposta-rapida.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/gatilho-via-resposta-rapida>
 - [Gatilho via Webhooks Trigger](recursos/gatilho-via-webhooks-trigger.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/gatilho-via-webhooks-trigger>
 - [Gerenciamento de Expediente em Configurações](recursos/gerenciamento-de-expediente-em-configuracoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/gerenciamento-de-expediente-em-configuracoes>
-- [n8n via Flowbuilder](recursos/n8n-via-flowbuilder.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/n8n-via-flowbuilder>
+- [n8n via FlowBuilder Nativo](recursos/n8n-via-flowbuilder.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/n8n-via-flowbuilder>
 - [PDV (pedido no fluxo)](recursos/pdv-pedido-no-fluxo.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/pdv-pedido-no-fluxo>
 - [Pontos de Entrada (Gatilho)](recursos/pontos-de-entrada.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/pontos-de-entrada>
 - [Reservas (agendar no fluxo)](recursos/reservas-agendar-no-fluxo.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/reservas-agendar-no-fluxo>
@@ -73,6 +73,6 @@
 - [Setores & Chatbot](recursos/setores-e-chatbot.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/setores-e-chatbot>
 - [– Transferir Ticket](recursos/transferir-ticket.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/transferir-ticket>
 - [Verificar e Resumo do Fluxo](recursos/verificar-e-resumo-do-fluxo.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/verificar-e-resumo-do-fluxo>
-- [Visão Geral FlowBuilder](recursos/visao-geral-flowbuilder.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/visao-geral-flowbuilder>
+- [Visão Geral FlowBuilder Nativo](recursos/visao-geral-flowbuilder.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/visao-geral-flowbuilder>
 - [Visão Geral Setores & Chatbot](recursos/visao-geral-setores-e-chatbot.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/visao-geral-setores-e-chatbot>
 - [Visão Geral Tags](recursos/visao-geral-tags.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/visao-geral-tags>

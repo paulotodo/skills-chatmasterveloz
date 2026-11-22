@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/bloco-switch-tags
 - **Categoria:** Recursos
-- **Menu:** FlowBuilder › Blocos › Switch (tags)
+- **Menu:** FlowBuilder Nativo › Blocos › Switch (tags)
 
 ---
 

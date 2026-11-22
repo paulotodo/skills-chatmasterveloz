@@ -6,9 +6,9 @@
 
 ---
 
-🧩 A seção **Distribuição e rodízio** decide como os atendimentos chegam a cada atendente: quem entra no sorteio do rodízio de atendimento, se o atendimento que já tem dono fica só com ele, onde os blocos **Rodízio** e **Operador** do FlowBuilder deixam o atendimento e quando alguém deixa de receber — por ter chegado no limite de atendimentos ou por estar numa chamada.
+🧩 A seção **Distribuição e rodízio** decide como os atendimentos chegam a cada atendente: quem entra no sorteio do rodízio de atendimento, se o atendimento que já tem dono fica só com ele, onde os blocos **Rodízio** e **Operador** do FlowBuilder Nativo deixam o atendimento e quando alguém deixa de receber — por ter chegado no limite de atendimentos ou por estar numa chamada.
 
-O rodízio em si é montado em outro lugar: nos Setores, no bloco **Rodízio** do FlowBuilder ou no menu **Rodízios**. A seção **Distribuição e rodízio** guarda as opções da empresa que mudam a entrega, e cada uma vale para a empresa inteira.
+O rodízio em si é montado em outro lugar: nos Setores, no bloco **Rodízio** do FlowBuilder Nativo ou no menu **Rodízios**. A seção **Distribuição e rodízio** guarda as opções da empresa que mudam a entrega, e cada uma vale para a empresa inteira.
 
 Ideal para:
 
@@ -30,13 +30,13 @@ Ideal para:
 
 🔘 **Modo de Randomização de Atendimento:** quem entra no sorteio do rodízio de atendimento. **Somente Usuários Online** sorteia só entre quem está on-line no momento; **Usuários Online e Offline** inclui também quem está off-line.
 
-🔘 **Exibir o Relatório do Rodízio (botão Ver relatório, na tela Rodízios)?:** com **Sim**, a tela do menu **Rodízios** ganha o botão **Ver relatório**, que abre a **Distribuição do rodízio**: como o bloco **Rodízio** do FlowBuilder distribuiu os atendimentos entre os operadores, comparado com a meta de cada um. Com **Não**, o botão some.
+🔘 **Exibir o Relatório do Rodízio (botão Ver relatório, na tela Rodízios)?:** com **Sim**, a tela do menu **Rodízios** ganha o botão **Ver relatório**, que abre a **Distribuição do rodízio**: como o bloco **Rodízio** do FlowBuilder Nativo distribuiu os atendimentos entre os operadores, comparado com a meta de cada um. Com **Não**, o botão some.
 
 🔘 **Aguardando com dono: só ele vê?:** nas palavras da tela, *"Ligado, o atendimento aguardando que tem um operador vinculado só aparece para ele, na aba "Aguardando (MEUS)"; a aba Aguardando mostra só os sem dono. Admins e supervisores com "ver todos" continuam vendo tudo."*
 
-🔘 **Rodízio do Flowbuilder deixa no Aguardando (MEUS)?:** nas palavras da tela, *"Ligado, o bloco Rodízio entrega o atendimento ao operador escolhido em "Aguardando (MEUS)", e não em Atendendo. Para o limite de atendimentos, o aguardando dele também conta."* No bloco **Rodízio**, cada participante tem a opção **Entregar em**: a escolha **Padrão da empresa** segue esta opção.
+🔘 **Rodízio do FlowBuilder Nativo deixa no Aguardando (MEUS)?:** nas palavras da tela, *"Ligado, o bloco Rodízio entrega o atendimento ao operador escolhido em "Aguardando (MEUS)", e não em Atendendo. Para o limite de atendimentos, o aguardando dele também conta."* No bloco **Rodízio**, cada participante tem a opção **Entregar em**: a escolha **Padrão da empresa** segue esta opção.
 
-🔘 **Bloco Operador do Flowbuilder deixa no Aguardando (MEUS)?:** nas palavras da tela, *"Ligado, o bloco Operador entrega o atendimento em "Aguardando (MEUS)" do operador, e não em Atendendo."*
+🔘 **Bloco Operador do FlowBuilder Nativo deixa no Aguardando (MEUS)?:** nas palavras da tela, *"Ligado, o bloco Operador entrega o atendimento em "Aguardando (MEUS)" do operador, e não em Atendendo."*
 
 ⚠️ As opções que deixam o atendimento no **Aguardando (MEUS)** dependem de **Aguardando com dono: só ele vê?**. Com ela em **Não**, a tela mostra abaixo delas *"Ligue antes "Aguardando com dono: só ele vê?" — sem ela, o aguardando com dono apareceria para todos."* A **Transferência para operador deixa no Aguardando (MEUS)?**, logo abaixo, na seção **Transferências**, segue a mesma regra.
 

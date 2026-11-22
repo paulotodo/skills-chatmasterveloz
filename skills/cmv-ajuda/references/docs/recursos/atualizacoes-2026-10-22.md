@@ -12,9 +12,9 @@
 
 ⚡️ **Limite de atendimentos:** no cadastro do usuário, quantos atendimentos cada operador pode ter abertos ao mesmo tempo, com um aviso no topo do Aguardando ao chegar ao limite.
 
-⚡️ **Condição Anúncio:** no FlowBuilder, a Condição confere se o cliente chegou por um anúncio, e por qual.
+⚡️ **Condição Anúncio:** no FlowBuilder Nativo, a Condição confere se o cliente chegou por um anúncio, e por qual.
 
-⚡️ **Variáveis do anúncio:** ainda no FlowBuilder, o título, o texto, o link e o ID do anúncio nas mensagens.
+⚡️ **Variáveis do anúncio:** ainda no FlowBuilder Nativo, o título, o texto, o link e o ID do anúncio nas mensagens.
 
 ⚡️ **Metas no CRM:** no CRM, unidades e equipes ganharam metas por campanha e ranking.
 
@@ -54,7 +54,7 @@ Com a opção ligada, quem chega ao limite não aceita atendimento, não recebe 
 
 🔘 **Administradores e supervisores:** continuam livres para atribuir atendimentos, mesmo acima do limite.
 
-## Condição Anúncio no FlowBuilder
+## Condição Anúncio no FlowBuilder Nativo
 
 No bloco **Condição**, o tipo **Anúncio** confere se o cliente chegou por um anúncio, em qualquer conexão de WhatsApp.
 

@@ -1,8 +1,8 @@
-# Aba Integrações em Cadastros do Consultório
+# Aba Integrações em Cadastros do consultório
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/aba-integracoes-em-cadastros-do-consultorio
 - **Categoria:** Recursos
-- **Menu:** Consultório › Aba Integrações em Cadastros do Consultório
+- **Menu:** Consultório › Aba Integrações em Cadastros do consultório
 
 ---
 

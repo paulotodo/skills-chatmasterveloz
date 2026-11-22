@@ -1,12 +1,12 @@
-# Relatório de Vendas
+# Relatório de vendas
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/relatorio-de-vendas
 - **Categoria:** Recursos
-- **Menu:** CRM › Relatório de Vendas
+- **Menu:** CRM › Relatório de vendas
 
 ---
 
-🧩 Quanto a equipe vendeu no mês, quem vendeu mais, qual produto puxou o resultado, de onde vieram os negócios e por que os outros se perderam? O **Relatório de Vendas** responde tudo isso a partir das oportunidades ganhas e perdidas no período.
+🧩 Quanto a equipe vendeu no mês, quem vendeu mais, qual produto puxou o resultado, de onde vieram os negócios e por que os outros se perderam? O **Relatório de vendas** responde tudo isso a partir das oportunidades ganhas e perdidas no período.
 
 Venda, aqui, é oportunidade ganha, contada na data em que foi ganha.
 

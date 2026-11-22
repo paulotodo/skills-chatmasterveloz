@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/api-atualizar-regra-do-quadro
 - **Categoria:** APIs
-- **Menu:** APIs › Quadro de Atendimentos › API Atualizar Regra do Quadro
+- **Menu:** APIs › Quadro de atendimentos › API Atualizar Regra do Quadro
 
 ---
 

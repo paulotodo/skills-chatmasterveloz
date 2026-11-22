@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/bloco-avaliacao-do-atendimento
 - **Categoria:** Recursos
-- **Menu:** FlowBuilder › Blocos › Avaliação do Atendimento
+- **Menu:** FlowBuilder Nativo › Blocos › Avaliação do Atendimento
 
 ---
 

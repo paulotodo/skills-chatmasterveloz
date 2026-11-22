@@ -1,8 +1,8 @@
-# Minha Evolução
+# Minha evolução
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/minha-evolucao
 - **Categoria:** Recursos
-- **Menu:** CRM › Minha Evolução
+- **Menu:** CRM › Minha evolução
 
 ---
 

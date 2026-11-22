@@ -46,7 +46,7 @@ Além das informações acima, o card exibe um **selo** para cada recurso ligado
 
 🔘 **O nome da categoria** — quando o Setor pertence a uma, o próprio nome dela aparece como selo.
 
-🔘 **FlowBuilder** — o Setor tem um fluxo escolhido no campo Fluxos de Automação.
+🔘 **FlowBuilder Nativo** — o Setor tem um fluxo escolhido no campo Fluxos de Automação.
 
 🔘 **Prompt GPT** — o Setor tem um assistente escolhido no campo Prompt OPEN.AI.
 
@@ -60,7 +60,7 @@ Além das informações acima, o card exibe um **selo** para cada recurso ligado
 
 As integrações preenchidas na aba **Integrações** também ganham selo próprio, com o nome do serviço.
 
-⚠️ **Os selos de automação podem aparecer juntos.** Um Setor com **FlowBuilder** e **Prompt GPT** ao mesmo tempo é possível: a tela aceita os dois sem avisar nada. Vale conferir se é isso mesmo que você quer, porque dois motores no mesmo Setor dificultam prever qual atende.
+⚠️ **Os selos de automação podem aparecer juntos.** Um Setor com **FlowBuilder Nativo** e **Prompt GPT** ao mesmo tempo é possível: a tela aceita os dois sem avisar nada. Vale conferir se é isso mesmo que você quer, porque dois motores no mesmo Setor dificultam prever qual atende.
 
 ⚠️ Setor sem selo nenhum apenas recebe a conversa e espera que alguém assuma — o que pode ser exatamente o que você quer.
 
@@ -94,11 +94,11 @@ As integrações preenchidas na aba **Integrações** também ganham selo própr
 >
 > **O que significa o número com cerquilha no card, tipo #9?** É o identificador do Setor no sistema. Ele é útil para diferenciar Setores de nome parecido e para informar em chamados de suporte e integrações.
 >
-> **O que são os selos que aparecem no card?** Cada selo indica um recurso ligado naquele Setor: o **nome da categoria** a que ele pertence, **FlowBuilder** (tem fluxo), **Prompt GPT** (tem assistente), **Chatbot** (ChatBot Externo), **Roteador** (Rodízio de Atendentes), **Motivo** (motivo de encerramento obrigatório), **Webhook** (URL configurada) e as integrações da aba **Integrações**. Servem para ver o que cada Setor tem sem abrir o cadastro.
+> **O que são os selos que aparecem no card?** Cada selo indica um recurso ligado naquele Setor: o **nome da categoria** a que ele pertence, **FlowBuilder Nativo** (tem fluxo), **Prompt GPT** (tem assistente), **Chatbot** (ChatBot Externo), **Roteador** (Rodízio de Atendentes), **Motivo** (motivo de encerramento obrigatório), **Webhook** (URL configurada) e as integrações da aba **Integrações**. Servem para ver o que cada Setor tem sem abrir o cadastro.
 >
 > **Configurei um recurso e o selo não apareceu no card?** Nem todo campo do cadastro tem selo — **Grupos de templates**, por exemplo, fica gravado no Setor e não gera selo nenhum. Se o recurso é um dos que têm selo, abra o Setor pelo lápis e confira se o campo está mesmo preenchido: o selo acompanha a configuração gravada.
 >
-> **Posso ter FlowBuilder e Prompt GPT no mesmo Setor?** A tela aceita os dois e mostra os dois selos. Mas com dois motores de automação ligados fica difícil prever qual responde — o recomendado é escolher um por Setor.
+> **Posso ter FlowBuilder Nativo e Prompt GPT no mesmo Setor?** A tela aceita os dois e mostra os dois selos. Mas com dois motores de automação ligados fica difícil prever qual responde — o recomendado é escolher um por Setor.
 >
 > **O que significa "Alta", "Média" e "Baixa" no card?** É a Ordenação do BOT, que define a posição do Setor nesta lista e no menu de Setores que a Conexão envia ao cliente. De 1 a 3 aparece como Alta, de 4 a 6 como Média, e de 7 em diante como Baixa. O número entre parênteses é o valor exato.
 >

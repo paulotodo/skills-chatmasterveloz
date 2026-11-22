@@ -6,7 +6,7 @@
 
 ---
 
-🧩 O garçom anota errado, o pedido demora para chegar à cozinha e a conta da mesa vira uma soma feita na hora? Com as **Mesas** do Cardápio Digital, cada mesa do salão tem um QR Code: o cliente lê, pede pelo celular, o pedido vai direto para a cozinha e tudo soma na conta da mesa. A equipe acompanha o salão, recebe o pagamento e fecha a mesa na página **Mesas e Comandas**.
+🧩 O garçom anota errado, o pedido demora para chegar à cozinha e a conta da mesa vira uma soma feita na hora? Com as **Mesas** do Cardápio digital, cada mesa do salão tem um QR Code: o cliente lê, pede pelo celular, o pedido vai direto para a cozinha e tudo soma na conta da mesa. A equipe acompanha o salão, recebe o pagamento e fecha a mesa na página **Mesas e Comandas**.
 
 Na mesa o cliente não precisa do código do WhatsApp: basta ler o QR Code. Cada rodada de pedidos entra no PDV com o nome da mesa. O garçom também pode lançar o pedido da mesa pelo painel, em **Mesas e Comandas**.
 
@@ -50,15 +50,15 @@ O botão **Configurar** é do administrador e abre a janela *"Configurar mesas e
 
 🔘 **Criar de uma vez:** em **Criar**, escolha **Mesas** ou **Comandas**, preencha **Nome**, **Do número** e **Até o número** e clique em **Criar**. A janela mostra o que vai ser criado, como *"Vai criar de Mesa 1 até Mesa 10."*, e confirma com *"3 criada(s)."*
 
-🔘 **Mesas e comandas que já existem:** o **Criar de uma vez** não duplica nada. Ao repetir um lote, a janela avisa *"Já existiam e ficaram como estavam: 10, 11, 12."*
+🔘 **Mesas e Comandas que já existem:** o **Criar de uma vez** não duplica nada. Ao repetir um lote, a janela avisa *"Já existiam e ficaram como estavam: 10, 11, 12."*
 
 🔘 **Todas as mesas e comandas:** a lista com o nome, o QR Code e a opção **ativa** de cada uma.
 
-🔘 **Mesas do salão:** o mesmo bloco da tela do Cardápio Digital, com **Nome da mesa**, **Adicionar mesa** e **Imprimir QR Codes**.
+🔘 **Mesas do salão:** o mesmo bloco da tela do Cardápio digital, com **Nome da mesa**, **Adicionar mesa** e **Imprimir QR Codes**.
 
 ## Mesas do salão
 
-As **Mesas do salão** ficam no **Configurar** e na tela do Cardápio Digital, onde só aparecem depois que a loja foi salva. Na tela do Cardápio Digital, cada mesa tem:
+As **Mesas do salão** ficam no **Configurar** e na tela do Cardápio digital, onde só aparecem depois que a loja foi salva. Na tela do Cardápio digital, cada mesa tem:
 
 🔘 **Situação:** *Recebendo pedidos*, *Ocupada*, *Conta pedida* ou *Desligada*.
 
@@ -88,13 +88,13 @@ Na mesa, o produto aparece com o preço de venda do cadastro, também quando ele
 
 ## Horário da mesa
 
-O bloco **Horário da mesa**, na tela do Cardápio Digital, decide quando a mesa recebe pedidos:
+O bloco **Horário da mesa**, na tela do Cardápio digital, decide quando a mesa recebe pedidos:
 
 🔘 **A mesa segue o horário da loja:** a mesa abre e fecha junto com a loja. Fora do horário da loja, a mesa mostra **Fechado** e o pedido é recusado.
 
 🔘 **A mesa tem horário próprio:** aparece a grade da semana, com **Dia da Semana**, o interruptor **Aberto**, **Horário Inicial** e **Horário Final**, só para o pedido feito na mesa. Use o **+** para dividir o dia em mais de um horário e clique em **Guardar horários**. Assim a mesa recebe pedidos com a loja fechada para o pedido online, e o contrário também vale.
 
-Nos **Dias fechados** marcados no Cardápio Digital, a mesa também fica fechada, mesmo com horário próprio: a página mostra **Fechado hoje**, e o pedido é recusado com *"A loja está fechada agora."*
+Nos **Dias fechados** marcados no Cardápio digital, a mesa também fica fechada, mesmo com horário próprio: a página mostra **Fechado hoje**, e o pedido é recusado com *"A loja está fechada agora."*
 
 ## Lançar o pedido pelo painel
 
@@ -128,7 +128,7 @@ Com o **Webhook do PDV** preenchido no menu **Configurações  ›  Opções  �
 >
 > **Onde crio as mesas e as comandas?** No botão **Configurar** da página **Mesas e Comandas**, que é do administrador, em **Criar de uma vez**. As mesas também se criam uma a uma em **Mesas do salão**, no menu **PDV  ›  Cardápio digital**.
 >
-> **O menu Mesas e Comandas não aparece no PDV.** A página **Mesas e Comandas** vem com as **Mesas** do Cardápio Digital: sem o Cardápio Digital no seu plano, ela não aparece no menu **PDV**, e o perfil **Garçom** também não aparece na **Equipe**.
+> **O menu Mesas e Comandas não aparece no PDV.** A página **Mesas e Comandas** vem com as **Mesas** do Cardápio digital: sem o Cardápio digital no seu plano, ela não aparece no menu **PDV**, e o perfil **Garçom** também não aparece na **Equipe**.
 >
 > **A comanda avulsa funciona como a mesa?** Sim. Na aba **Comandas**, a comanda abre com um toque, recebe pedidos em **Lançar pedido**, recebe o pagamento e fecha em **Fechar mesa**, com a mesma conta da mesa.
 >

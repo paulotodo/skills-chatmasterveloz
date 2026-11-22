@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/gatilho-via-avaliacao
 - **Categoria:** Recursos
-- **Menu:** FlowBuilder › Pontos de Entrada (Gatilho) › Gatilho via Avaliação
+- **Menu:** FlowBuilder Nativo › Pontos de Entrada (Gatilho) › Gatilho via Avaliação
 
 ---
 

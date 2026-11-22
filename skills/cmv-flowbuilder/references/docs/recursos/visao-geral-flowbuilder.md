@@ -1,8 +1,8 @@
-# Visão Geral FlowBuilder
+# Visão Geral FlowBuilder Nativo
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/visao-geral-flowbuilder
 - **Categoria:** Recursos
-- **Menu:** FlowBuilder › Visão Geral FlowBuilder
+- **Menu:** FlowBuilder Nativo › Visão Geral FlowBuilder Nativo
 
 ---
 

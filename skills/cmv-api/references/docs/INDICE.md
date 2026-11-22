@@ -163,7 +163,7 @@
 - [API Horário de Expediente](api/api-horario-de-expediente.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-horario-de-expediente>
 - [API Importar Endereços do Cliente](api/api-importar-enderecos-do-cliente.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-importar-enderecos-do-cliente>
 - [API Importar Sessão](api/api-importar-sessao.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-importar-sessao>
-- [API Iniciar um Fluxo do Flowbuilder](api/api-iniciar-um-fluxo-do-flowbuilder.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-iniciar-um-fluxo-do-flowbuilder>
+- [API Iniciar um Fluxo do FlowBuilder Nativo](api/api-iniciar-um-fluxo-do-flowbuilder.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-iniciar-um-fluxo-do-flowbuilder>
 - [API Iniciar um Fluxo do Typebot](api/api-iniciar-um-fluxo-do-typebot.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-iniciar-um-fluxo-do-typebot>
 - [API Instagram Botão Quick Reply](api/api-instagram-botao-quick-reply.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-instagram-botao-quick-reply>
 - [API Instagram Enviar Áudio por URL](api/api-instagram-enviar-audio-por-url.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-instagram-enviar-audio-por-url>
@@ -309,7 +309,7 @@
 - [Produtos](api/api-produtos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-produtos>
 - [Projetos](api/api-projetos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-projetos>
 - [API Próximo Operador do Rodízio do Setor](api/api-proximo-operador-do-rodizio-do-setor.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-proximo-operador-do-rodizio-do-setor>
-- [Quadro de Atendimentos](api/api-quadro-de-atendimentos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-quadro-de-atendimentos>
+- [Quadro de atendimentos](api/api-quadro-de-atendimentos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-quadro-de-atendimentos>
 - [API RCS Mensagem Template](api/api-rcs-mensagem-template.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-rcs-mensagem-template>
 - [API Registrar Pagamento do Pedido](api/api-registrar-pagamento-do-pedido.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-registrar-pagamento-do-pedido>
 - [API Reiniciar Conexões](api/api-reiniciar-conexoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-reiniciar-conexoes>
@@ -367,7 +367,7 @@
 - [Gatilho via Webhooks Trigger](recursos/gatilho-via-webhooks-trigger.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/gatilho-via-webhooks-trigger>
 - [- Incorporar Atendimento em Outro Sistema](recursos/incorporar-atendimento-em-outro-sistema.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/incorporar-atendimento-em-outro-sistema>
 - [Integrações](recursos/integracoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/integracoes>
-- [n8n via Flowbuilder](recursos/n8n-via-flowbuilder.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/n8n-via-flowbuilder>
+- [n8n via FlowBuilder Nativo](recursos/n8n-via-flowbuilder.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/n8n-via-flowbuilder>
 - [n8n via Webhook](recursos/n8n-via-webhook.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/n8n-via-webhook>
 - [Provedor de IA](recursos/provedor-de-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/provedor-de-ia>
 - [Token Asaas](recursos/token-asaas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/token-asaas>

@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/blocos
 - **Categoria:** Recursos
-- **Menu:** FlowBuilder › Blocos
+- **Menu:** FlowBuilder Nativo › Blocos
 
 ---
 

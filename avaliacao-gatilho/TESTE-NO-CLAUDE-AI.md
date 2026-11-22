@@ -4,7 +4,7 @@ O acionamento das skills foi medido por script no Claude Code. No claude.ai (sit
 
 ## O que a documentação oficial garante e o que não garante
 
-Conferido em 19/11/2026 na Central de Ajuda (`support.claude.com`, artigo "What are skills?") e na documentação de Agent Skills (`platform.claude.com`).
+Conferido em 19/11/2026 na Central de Ajuda (`support.claude.com`, artigo "What are skills?") e na documentação de Agent Skills (`platform.claude.com`). Conferido de novo em 22/11/2026: "What are skills?" traz a data de 10/11/2026 e "How to create custom skills" e "Using Skills in Claude", a de 30/10/2026; nenhum mudou depois da primeira conferência. As três últimas linhas da tabela são pontos que já estavam nas páginas e faltavam aqui.
 
 | Ponto | O que está documentado | Situação das seis skills |
 |---|---|---|
@@ -16,6 +16,9 @@ Conferido em 19/11/2026 na Central de Ajuda (`support.claude.com`, artigo "What 
 | Quantidade de arquivos | Não documentado. Visto nos envios de 21/11/2026: "Zip contains too many files (maximum 200)" e, com os artigos num zip interno, "Zip cannot contain nested zip files" | `cmv-ajuda` (519 artigos) e `cmv-api` (380) passam do limite: o `montar.py` põe os artigos delas num arquivo de texto só, `references/docs.json`, e o `SKILL.md` do pacote ganha a nota que manda extraí-los. Os pacotes ficam com 4 e 5 arquivos |
 | Pré-requisito | Execução de código ligada | Ver passo 1 |
 | Critério de acionamento | A `description` é comparada com o pedido, como no Claude Code | Não há garantia de comportamento idêntico |
+| `description`, segundo a Central de Ajuda | "How to create custom skills" diz "200 characters maximum"; a documentação da plataforma diz 1.024 | O claude.ai aceitou em 21/11 descrições com mais de 1.000 caracteres: vale o limite de 1.024 |
+| Projetos do claude.ai | "Using Skills in Claude": o projeto dá conhecimento de fundo sempre carregado; as skills "activate dynamically when needed and work everywhere across Claude". Não há passo próprio para ligar uma skill a um projeto | O dono da conta usou as seis skills dentro de projetos (relato de 22/11/2026, sem medição) |
+| Do claude.ai para o Claude Code | "What are skills?": as skills ligadas na conta também carregam no Claude Code (v2.1.273 ou mais novo) com a mesma conta, aparecem em `/skills` sob "claude.ai sync", só no sentido conta → Claude Code; `syncClaudeAiSkills: false` desliga. A visão geral da plataforma ainda diz "Custom Skills do not sync across surfaces" | Visto em 22/11/2026 neste servidor: as seis aparecem no Claude Code como `anthropic-skills:cmv-…`, na versão do pacote (com `docs.json`). Quem envia os pacotes ao claude.ai não precisa copiar as pastas para `~/.claude/skills/`. As duas instalações juntas não foram testadas |
 
 Não documentado, e por isso só o teste responde: o que o claude.ai faz com uma descrição perto do limite, e se o acionamento é igual ao do Claude Code. No Claude Code, com os dois pacotes instalados como o claude.ai os recebe, Haiku e Sonnet abriram os artigos e responderam com a fonte certa (uma execução por modelo e por skill, repetida em 22/11 com o `docs.json`; os artigos extraídos saíram idênticos aos originais).
 

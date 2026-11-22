@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/bloco-enviar-localizacao
 - **Categoria:** Recursos
-- **Menu:** FlowBuilder › Blocos › Enviar Localização
+- **Menu:** FlowBuilder Nativo › Blocos › Enviar Localização
 
 ---
 

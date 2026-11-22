@@ -8,7 +8,7 @@
 
 🧩 O cliente liga para reservar, a reserva fica anotada num caderno e, na hora, ninguém sabe qual mesa segurar? As **Reservas de mesa** ficam na própria página do salão: cada reserva tem dia, horário, pessoas e, se você quiser, a mesa. Quando o cliente chega, um clique abre a conta da mesa reservada com o nome dele.
 
-A reserva pode nascer pela equipe, na aba **Reservas**, ou pelo próprio cliente, na página da loja do Cardápio Digital, quando a loja aceita reserva pelo cardápio.
+A reserva pode nascer pela equipe, na aba **Reservas**, ou pelo próprio cliente, na página da loja do Cardápio digital, quando a loja aceita reserva pelo cardápio.
 
 > **[RESUMO]**
 >
@@ -36,7 +36,7 @@ O botão **Nova reserva** abre a janela *"Nova reserva de mesa"*:
 
 🔘 **Pessoas:** quantas pessoas vêm.
 
-🔘 **Duração (min, opcional):** quanto tempo a mesa fica reservada. Vazio, vale a **Duração da reserva (min)** do bloco **Reserva de mesa** do Cardápio Digital.
+🔘 **Duração (min, opcional):** quanto tempo a mesa fica reservada. Vazio, vale a **Duração da reserva (min)** do bloco **Reserva de mesa** do Cardápio digital.
 
 🔘 **Nome do cliente:** o nome de quem reserva.
 
@@ -82,7 +82,7 @@ A reserva pelo cliente se liga no bloco **Reserva de mesa**, no menu **PDV  › 
 
 Em **Minhas reservas**, o cliente acompanha cada reserva pela situação: *Aguardando a confirmação*, *Cancelada*, *Concluída* ou *Não compareceu*.
 
-🔘 **Cancelar:** o cliente escolhe **Cancelar a reserva** ou **Manter**. Cancelada, a página confirma *"Reserva cancelada."*, e na aba **Reservas** a reserva fica cancelada com o motivo *"Cancelada pelo cliente no Cardápio Digital"*.
+🔘 **Cancelar:** o cliente escolhe **Cancelar a reserva** ou **Manter**. Cancelada, a página confirma *"Reserva cancelada."*, e na aba **Reservas** a reserva fica cancelada com o motivo *"Cancelada pelo cliente no Cardápio digital"*.
 
 A página da loja não deixa o cliente pedir uma reserva fora das regras da loja:
 
@@ -106,11 +106,11 @@ Com o **Webhook do PDV** preenchido no menu **Configurações  ›  Opções  �
 >
 > **O que acontece quando clico em Chegou na reserva de mesa?** A conta da mesa reservada abre com as pessoas e o nome do cliente da reserva, e a reserva passa para *Compareceu*. Na reserva com *Mesa a definir*, só a chegada é marcada.
 >
-> **O cliente consegue reservar a mesa sozinho?** Sim, quando o bloco **Reserva de mesa** do Cardápio Digital está em *"O cliente pode reservar pelo cardápio"*. A página da loja mostra **Reservar mesa**, o cliente entra com o celular e o código do WhatsApp e pede a reserva com o dia, o horário e as pessoas.
+> **O cliente consegue reservar a mesa sozinho?** Sim, quando o bloco **Reserva de mesa** do Cardápio digital está em *"O cliente pode reservar pelo cardápio"*. A página da loja mostra **Reservar mesa**, o cliente entra com o celular e o código do WhatsApp e pede a reserva com o dia, o horário e as pessoas.
 >
 > **A reserva feita pelo cliente no cardápio já vem confirmada?** Não. Ela entra como *Pendente* na aba **Reservas**, com *"Mesa a definir"*, e o cliente vê *Aguardando a confirmação* em **Minhas reservas**.
 >
-> **O cliente pode cancelar a reserva de mesa pela página da loja?** Pode. Em **Minhas reservas**, ele toca em **Cancelar** e em **Cancelar a reserva**. Na aba **Reservas**, a reserva fica cancelada com o motivo *"Cancelada pelo cliente no Cardápio Digital"*.
+> **O cliente pode cancelar a reserva de mesa pela página da loja?** Pode. Em **Minhas reservas**, ele toca em **Cancelar** e em **Cancelar a reserva**. Na aba **Reservas**, a reserva fica cancelada com o motivo *"Cancelada pelo cliente no Cardápio digital"*.
 >
 > **Por que o cliente não consegue reservar a mesa para daqui a pouco?** A reserva pelo cardápio respeita a antecedência mínima da loja: em cima da hora, a página avisa *"Para este horário já não dá para reservar. Escolha um mais adiante."*
 >

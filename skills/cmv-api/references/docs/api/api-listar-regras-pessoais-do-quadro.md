@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/api-listar-regras-pessoais-do-quadro
 - **Categoria:** APIs
-- **Menu:** APIs › Quadro de Atendimentos › API Listar Regras Pessoais do Quadro
+- **Menu:** APIs › Quadro de atendimentos › API Listar Regras Pessoais do Quadro
 
 ---
 

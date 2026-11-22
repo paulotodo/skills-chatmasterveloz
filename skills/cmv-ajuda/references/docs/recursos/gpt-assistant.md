@@ -12,7 +12,7 @@ Tudo começa no **prompt**: as instruções que dizem como a IA fala, o que ela 
 
 ## Como colocar a IA no atendimento
 
-➡️ **Pelo FlowBuilder, o caminho recomendado.** O bloco **GPT Assistant (OpenAI)** entrega o atendimento à IA no meio de um fluxo: o campo **Setor com GPT Assistant** lista só os Setores que têm prompt. Com minutos no campo **Sem resposta: seguir pela saída depois de (minutos)**, o bloco ganha a saída **Sem resposta**, e o fluxo segue por ela quando o cliente fica esse tempo sem responder.
+➡️ **Pelo FlowBuilder Nativo, o caminho recomendado.** O bloco **GPT Assistant (OpenAI)** entrega o atendimento à IA no meio de um fluxo: o campo **Setor com GPT Assistant** lista só os Setores que têm prompt. Com minutos no campo **Sem resposta: seguir pela saída depois de (minutos)**, o bloco ganha a saída **Sem resposta**, e o fluxo segue por ela quando o cliente fica esse tempo sem responder.
 
 ➡️ **Direto no Setor.** Sem fluxo, a conversa chega ao Setor da IA pela Conexão ou por transferência, e a IA responde a partir daí.
 
@@ -22,4 +22,4 @@ Tudo começa no **prompt**: as instruções que dizem como a IA fala, o que ela 
 >
 > #### Dúvidas Comuns
 >
-> **Uso o FlowBuilder ou ligo o GPT Assistant direto no Setor?** O FlowBuilder é o caminho recomendado: o fluxo pode cumprimentar, coletar dados ou mostrar um menu antes de entregar o atendimento à IA, e pode retomar quando o cliente para de responder. Ligado direto no Setor, o prompt responde as conversas que aguardam ali, venham de onde vierem.
+> **Uso o FlowBuilder Nativo ou ligo o GPT Assistant direto no Setor?** O FlowBuilder Nativo é o caminho recomendado: o fluxo pode cumprimentar, coletar dados ou mostrar um menu antes de entregar o atendimento à IA, e pode retomar quando o cliente para de responder. Ligado direto no Setor, o prompt responde as conversas que aguardam ali, venham de onde vierem.

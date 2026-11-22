@@ -74,7 +74,7 @@ A subpágina só fica no ar com a página principal no ar. Com a principal desli
 
 A página aceita até **30 botões**, mostrados um por linha, na mesma ordem da tela. Cada botão do **Link na Bio** tem:
 
-🔘 **Tipo:** o destino do botão, escolhido em **+ WhatsApp**, **+ Cardápio Digital**, **+ Link**, **+ WebChat** ou **+ Página**.
+🔘 **Tipo:** o destino do botão, escolhido em **+ WhatsApp**, **+ Cardápio digital**, **+ Link**, **+ WebChat** ou **+ Página**.
 
 🔘 **Texto do botão:** o que aparece na página, com até 60 caracteres. Todo botão precisa de um texto.
 
@@ -86,7 +86,7 @@ Cada tipo de botão leva a um destino:
 
 ➡️ **WhatsApp:** abre a conversa pela **Conexão** escolhida, com a **Mensagem que já vem escrita**, de até 500 caracteres. Um código de rastreio vai no fim da mensagem: é por ele que a conversa fica ligada ao toque.
 
-➡️ **Cardápio Digital:** leva ao Cardápio Digital da empresa, em outra aba. O botão só aparece com a loja no ar.
+➡️ **Cardápio digital:** leva ao Cardápio digital da empresa, em outra aba. O botão só aparece com a loja no ar.
 
 ➡️ **Link:** leva ao **Endereço do link**, em outra aba. O endereço precisa começar com `http://` ou `https://`.
 

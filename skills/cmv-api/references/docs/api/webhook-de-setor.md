@@ -123,7 +123,7 @@ Uma mensagem **recebida** gera **dois avisos**, com um segundo de diferença: pr
 
 ## Aviso de chegada ao Setor
 
-O Setor **novo** recebe um `queue_webhook_update` toda vez que um atendimento entra nele, venha de onde vier: na entrada pela Conexão ou numa transferência pela tela, pelo FlowBuilder, pelo menu de Setores da Conexão, pelo chatbot do Setor, pela IA da plataforma, pelas regras automáticas (como mover após inatividade e o tempo de escala), por um agendamento ou pela sua integração.
+O Setor **novo** recebe um `queue_webhook_update` toda vez que um atendimento entra nele, venha de onde vier: na entrada pela Conexão ou numa transferência pela tela, pelo FlowBuilder Nativo, pelo menu de Setores da Conexão, pelo chatbot do Setor, pela IA da plataforma, pelas regras automáticas (como mover após inatividade e o tempo de escala), por um agendamento ou pela sua integração.
 
 ◽ `ticketData.queueId` — o Setor novo, em número.
 

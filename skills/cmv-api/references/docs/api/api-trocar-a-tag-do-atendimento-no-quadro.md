@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/api-trocar-a-tag-do-atendimento-no-quadro
 - **Categoria:** APIs
-- **Menu:** APIs › Quadro de Atendimentos › API Trocar a Tag do Atendimento no Quadro
+- **Menu:** APIs › Quadro de atendimentos › API Trocar a Tag do Atendimento no Quadro
 
 ---
 

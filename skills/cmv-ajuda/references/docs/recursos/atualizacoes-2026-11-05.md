@@ -1,4 +1,4 @@
-# 05/11/2026
+# Atualizações 05/11/2026
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-05
 - **Categoria:** Recursos
@@ -12,17 +12,17 @@ Todas as novidades abaixo estão disponíveis a partir da versão **WS-29.814.0*
 
 #### Novidades
 
-⚡️ **Aceitar e Recusar pedidos:** no PDV, o **Painel de Pedidos** mostra **Aceitar** e **Recusar** em cada pedido novo, com confirmação antes de recusar. O **Aceitar pedidos automaticamente** manda todo pedido direto para **Em preparo**, e só a gestão liga. Dá para ver o pedido inteiro sem mexer nele, imprimir a via da cozinha, o comprovante ou os dois em qualquer etapa e voltar uma etapa com um clique.
+⚡️ **Aceitar e Recusar pedidos:** no PDV, o **Painel de pedidos** mostra **Aceitar** e **Recusar** em cada pedido novo, com confirmação antes de recusar. O **Aceitar pedidos automaticamente** manda todo pedido direto para **Em preparo**, e só a gestão liga. Dá para ver o pedido inteiro sem mexer nele, imprimir a via da cozinha, o comprovante ou os dois em qualquer etapa e voltar uma etapa com um clique.
 
-⚡️ **Observação, adicional e sacola:** ainda no PDV, no Cardápio Digital, o cliente escreve uma observação em cada item, escolhe o adicional em quantidade e, na sacola, usa **Editar** e **Duplicar**. O cliente também cancela o pedido antes do preparo.
+⚡️ **Observação, adicional e sacola:** ainda no PDV, no Cardápio digital, o cliente escreve uma observação em cada item, escolhe o adicional em quantidade e, na sacola, usa **Editar** e **Duplicar**. O cliente também cancela o pedido antes do preparo.
 
-⚡️ **Pizza meio a meio:** ainda no Cardápio Digital, a pizza tem sabores com ingredientes, e o preço vem pelo tamanho ou pelo sabor mais caro.
+⚡️ **Pizza meio a meio:** ainda no Cardápio digital, a pizza tem sabores com ingredientes, e o preço vem pelo tamanho ou pelo sabor mais caro.
 
-⚡️ **Dias fechados e Duplicar:** ainda no Cardápio Digital, feriados e folgas viram dias fechados, e a loja mostra o selo **Fechado hoje**. No produto, o botão **Duplicar** copia o cadastro.
+⚡️ **Dias fechados e Duplicar:** ainda no Cardápio digital, feriados e folgas viram dias fechados, e a loja mostra o selo **Fechado hoje**. No produto, o botão **Duplicar** copia o cadastro.
 
-⚡️ **Modelo Moderno:** ainda no Cardápio Digital, a loja ganhou o modelo **Moderno**, em tema claro ou escuro, com **Compartilhar** e uma barra com o carrinho.
+⚡️ **Modelo Moderno:** ainda no Cardápio digital, a loja ganhou o modelo **Moderno**, em tema claro ou escuro, com **Compartilhar** e uma barra com o carrinho.
 
-☑️ **Nome da loja na aba:** ainda no Cardápio Digital, o nome da loja aparece na aba do navegador.
+☑️ **Nome da loja na aba:** ainda no Cardápio digital, o nome da loja aparece na aba do navegador.
 
 ⚡️ **Excluídas:** no CRM, a oportunidade excluída vai para **Excluídas** e volta para a mesma etapa, com o histórico. Só o administrador exclui de vez.
 
@@ -58,9 +58,9 @@ Todas as novidades abaixo estão disponíveis a partir da versão **WS-29.814.0*
 
 ◽ **Disparo de lista com tag:** nas Campanhas, disparar uma lista importada com tag não lota mais o Aguardando. O atendimento só aparece quando o contato responde.
 
-## Aceitar, recusar e imprimir no Painel de Pedidos
+## Aceitar, recusar e imprimir no Painel de pedidos
 
-No **Painel de Pedidos**, o card em **Novo** traz **Recusar** e **Aceitar**, além de **Ver pedido**, **Imprimir** e **Voltar uma etapa**.
+No **Painel de pedidos**, o card em **Novo** traz **Recusar** e **Aceitar**, além de **Ver pedido**, **Imprimir** e **Voltar uma etapa**.
 
 ➡️ **Aceitar** leva o pedido para **Em preparo**, e a etapa seguinte avança com um clique. Na última etapa, o botão fica desativado.
 
@@ -74,7 +74,7 @@ No **Painel de Pedidos**, o card em **Novo** traz **Recusar** e **Aceitar**, al�
 
 ➡️ **Voltar uma etapa** devolve o pedido à etapa anterior, e o card volta aos botões dela. Em **Novo**, o botão fica desativado.
 
-## Observação, adicional e sacola no Cardápio Digital
+## Observação, adicional e sacola no Cardápio digital
 
 Na janela do produto, o campo **Alguma observação? (opcional)** recebe pedidos como *sem cebola*. A observação aparece no card do pedido, em **Ver pedido**, na via da cozinha e no comprovante.
 
@@ -94,7 +94,7 @@ Na janela do produto, **Adicionar sabores (pizza)** abre a configuração dos sa
 
 ## Dias fechados e Duplicar produto
 
-No editor do Cardápio Digital, a parte **Dias fechados** serve para feriados, folgas e outros dias em que a loja não abre, mesmo que o horário da semana diga que sim. Informe a **Data**, o **Motivo (opcional)** e clique em **Adicionar dia**. Os dias valem depois de salvar a loja.
+No editor do Cardápio digital, a parte **Dias fechados** serve para feriados, folgas e outros dias em que a loja não abre, mesmo que o horário da semana diga que sim. Informe a **Data**, o **Motivo (opcional)** e clique em **Adicionar dia**. Os dias valem depois de salvar a loja.
 
 ➡️ Na loja e na mesa, o dia fechado aparece com o selo **Fechado hoje**, e o produto mostra o aviso de que a loja não abre hoje, com o botão desativado.
 
@@ -102,7 +102,7 @@ No editor do Cardápio Digital, a parte **Dias fechados** serve para feriados, f
 
 ## Modelo Moderno da loja
 
-No editor do Cardápio Digital, o campo **Modelo** oferece **Original** e **Moderno**. **Carregar este modelo** troca o HTML, o CSS e o JS do editor pelos do modelo, e a loja só muda quando você salva.
+No editor do Cardápio digital, o campo **Modelo** oferece **Original** e **Moderno**. **Carregar este modelo** troca o HTML, o CSS e o JS do editor pelos do modelo, e a loja só muda quando você salva.
 
 ➡️ No Moderno, o cliente escolhe o tema, do sistema, claro ou escuro, e a escolha fica guardada no navegador dele.
 
@@ -166,9 +166,9 @@ Na janela da chamada, o botão **Câmera, microfone e alto-falante** abre as tr�
 
 #### O que você precisa fazer
 
-➡️ Para aceitar pedidos sem apertar **Aceitar** em cada um, ligue **Aceitar pedidos automaticamente** no **Painel de Pedidos**. Só a gestão liga.
+➡️ Para aceitar pedidos sem apertar **Aceitar** em cada um, ligue **Aceitar pedidos automaticamente** no **Painel de pedidos**. Só a gestão liga.
 
-➡️ Para marcar feriados e folgas, use **Dias fechados** no editor do Cardápio Digital.
+➡️ Para marcar feriados e folgas, use **Dias fechados** no editor do Cardápio digital.
 
 ➡️ Para tirar os convidados ao finalizar, ligue **Remover convidados ao finalizar o atendimento?** no menu **Configurações  ›  Opções**.
 

@@ -1,8 +1,8 @@
-# 18/11/2026
+# Atualizações 18/11/2026
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-18
 - **Categoria:** Recursos
-- **Menu:** Atualizações › Novembro 2026 › 18/11/2026
+- **Menu:** Atualizações › Novembro 2026 › Atualizações 18/11/2026
 
 ---
 
@@ -66,7 +66,7 @@ Todas as novidades abaixo estão disponíveis a partir da versão **WS-30.110.0*
 
 ◽ **Encerrar depois da avaliação:** o atendimento que volta depois da avaliação encerra sem erro e sem repetir a despedida.
 
-⚡️ **Botões e menu no WebChat:** no FlowBuilder, o visitante do site toca nos botões e no menu do fluxo, e o fluxo segue na hora.
+⚡️ **Botões e menu no WebChat:** no FlowBuilder Nativo, o visitante do site toca nos botões e no menu do fluxo, e o fluxo segue na hora.
 
 ⚡️ **Botões e listas pela API:** duas rotas novas mandam botões e listas ao WebChat, ao Instagram, ao Messenger e ao Telegram, no mesmo formato.
 

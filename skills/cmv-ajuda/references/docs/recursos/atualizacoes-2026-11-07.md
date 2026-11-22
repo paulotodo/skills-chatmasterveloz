@@ -1,4 +1,4 @@
-# 07/11/2026
+# Atualizações 07/11/2026
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-07
 - **Categoria:** Recursos
@@ -12,7 +12,7 @@ Todas as novidades abaixo estão disponíveis a partir da versão **WS-29.884.0*
 
 #### Novidades
 
-⚡️ **Loja Digital:** no PDV, chegou a Loja Digital, um catálogo online com os produtos do PDV, para qualquer ramo. Ela fica ao lado do Cardápio Digital, com endereço, cores e visual próprios, e o cliente busca, ordena por preço e por nome e compartilha o link de cada produto.
+⚡️ **Loja digital:** no PDV, chegou a Loja digital, um catálogo online com os produtos do PDV, para qualquer ramo. Ela fica ao lado do Cardápio digital, com endereço, cores e visual próprios, e o cliente busca, ordena por preço e por nome e compartilha o link de cada produto.
 
 ⚡️ **Tenho interesse:** ainda no PDV, a página do produto na Loja ganhou o botão **Tenho interesse**. O cliente entra com o código que chega pelo WhatsApp, pode deixar uma pergunta, e a loja recebe uma oportunidade no CRM.
 
@@ -82,9 +82,9 @@ Todas as novidades abaixo estão disponíveis a partir da versão **WS-29.884.0*
 
 ◽ **Avaliação pela IA:** a Avaliação pela IA passa a rodar só quando está ligada.
 
-## Loja Digital
+## Loja digital
 
-A Loja Digital fica no menu **PDV  ›  Loja digital**, que aparece só para o administrador. A tela tem a chave **Loja no ar**, o **Endereço da loja**, o nome, a cor, o logo, a capa, os horários e a forma de receber os pedidos, e **SALVAR** publica o que mudou.
+A Loja digital fica no menu **PDV  ›  Loja digital**, que aparece só para o administrador. A tela tem a chave **Loja no ar**, o **Endereço da loja**, o nome, a cor, o logo, a capa, os horários e a forma de receber os pedidos, e **SALVAR** publica o que mudou.
 
 Os produtos e as categorias são os mesmos do PDV; o endereço, o visual, os horários e a forma de receber os pedidos são próprios da Loja.
 
@@ -92,7 +92,7 @@ Os produtos e as categorias são os mesmos do PDV; o endereço, o visual, os hor
 
 ➡️ **Compartilhar**, na janela do produto, copia o link daquele produto.
 
-➡️ No cadastro do produto, o bloco **Onde e quando aparece no Cardápio e na Loja Digital** escolhe entre **No Cardápio e na Loja Digital**, **Só no Cardápio Digital** e **Só na Loja Digital**.
+➡️ No cadastro do produto, o bloco **Onde e quando aparece no Cardápio e na Loja digital** escolhe entre **No Cardápio e na Loja digital**, **Só no Cardápio digital** e **Só na Loja digital**.
 
 ## Tenho interesse
 
@@ -102,7 +102,7 @@ Depois que a loja é salva pela primeira vez, aparece o bloco **Tenho interesse*
 
 ➡️ Quem ainda não entrou toca em **Entrar com o celular**, recebe o código pelo WhatsApp e digita os 6 dígitos.
 
-➡️ A loja recebe no CRM a oportunidade *Interesse:* com o nome do produto e a fonte **Loja Digital**, no funil, na etapa e com o responsável escolhidos. Ela fica ligada ao atendimento que o contato já tem aberto.
+➡️ A loja recebe no CRM a oportunidade *Interesse:* com o nome do produto e a fonte **Loja digital**, no funil, na etapa e com o responsável escolhidos. Ela fica ligada ao atendimento que o contato já tem aberto.
 
 ## Fotos e ficha técnica
 
@@ -250,7 +250,7 @@ Na API, as conexões do Instagram e do Messenger aceitam áudio em mp3 e em ogg 
 
 ## Migrar conexão
 
-Acesse o menu **Conexões  ›  Ações  ›  Migrar Tickets para Outra Conexão**. A janela pede *Escolha o que vai junto (desmarcado, fica na conexão antiga):*, com seis caixas marcadas: os registros dos atendimentos, os agendamentos que ainda vão ser enviados, as campanhas que não terminaram, a conexão padrão e o acesso dos usuários, a loja do Cardápio Digital e os gatilhos de Webhook do FlowBuilder.
+Acesse o menu **Conexões  ›  Ações  ›  Migrar Tickets para Outra Conexão**. A janela pede *Escolha o que vai junto (desmarcado, fica na conexão antiga):*, com seis caixas marcadas: os registros dos atendimentos, os agendamentos que ainda vão ser enviados, as campanhas que não terminaram, a conexão padrão e o acesso dos usuários, a loja do Cardápio digital e os gatilhos de Webhook do FlowBuilder Nativo.
 
 ➡️ O que você desmarca fica na conexão antiga. Com tudo desmarcado, vão só os atendimentos.
 
@@ -288,4 +288,4 @@ Três coisas pedem atenção:
 
 ➡️ Na API, quem integra o CRM passa a informar o motivo ao mover uma oportunidade para a etapa de perda.
 
-A Loja Digital depende do plano.
+A Loja digital depende do plano.

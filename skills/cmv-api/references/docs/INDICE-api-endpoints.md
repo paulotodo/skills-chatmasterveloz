@@ -83,7 +83,7 @@ Uma linha por artigo que declara um endpoint, em ordem de endereço. Os artigos 
 | POST | `https://api2.chatmasterveloz.com/api/messages/channels/sendList` | [API Instagram Mensagem de Lista](api/api-instagram-mensagem-de-lista.md) |
 | POST | `https://api2.chatmasterveloz.com/api/messages/edit` | [API Editar Mensagem no Painel](api/api-editar-mensagem-no-painel.md) |
 | POST | `https://api2.chatmasterveloz.com/api/messages/finish` | [API Encerrar Ticket](api/api-encerrar-ticket.md) |
-| POST | `https://api2.chatmasterveloz.com/api/messages/flowbuilderStart` | [API Iniciar um Fluxo do Flowbuilder](api/api-iniciar-um-fluxo-do-flowbuilder.md) |
+| POST | `https://api2.chatmasterveloz.com/api/messages/flowbuilderStart` | [API Iniciar um Fluxo do FlowBuilder Nativo](api/api-iniciar-um-fluxo-do-flowbuilder.md) |
 | POST | `https://api2.chatmasterveloz.com/api/messages/internal/send` | [API Mensagem Interna](api/api-mensagem-interna.md) |
 | POST | `https://api2.chatmasterveloz.com/api/messages/isRecording` | [API Gravando…](api/api-gravando.md) |
 | POST | `https://api2.chatmasterveloz.com/api/messages/isTyping` | [API Digitando…](api/api-digitando.md) |

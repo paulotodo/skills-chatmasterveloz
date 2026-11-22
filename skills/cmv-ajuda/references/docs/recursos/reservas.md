@@ -38,4 +38,4 @@ As **Reservas** organizam tudo o que tem hora marcada ou diária: o profissional
 >
 > **A Agenda de reservas serve para agendar mensagens?** Não. A **Agenda de reservas** marca reservas, com dia, hora, oferta e recurso. A mensagem programada para o cliente é outro recurso, o **Agendamentos**.
 >
-> **Por onde uma reserva pode chegar?** Pela equipe, na **Agenda de reservas**; pelo cliente, na página de reservas, quando ela está no ar; pela conversa, com o bloco **Reservas** do FlowBuilder; e por outro sistema, pela integração com a API.
+> **Por onde uma reserva pode chegar?** Pela equipe, na **Agenda de reservas**; pelo cliente, na página de reservas, quando ela está no ar; pela conversa, com o bloco **Reservas** do FlowBuilder Nativo; e por outro sistema, pela integração com a API.

@@ -1,4 +1,4 @@
-# 13/11/2026
+# Atualizações 13/11/2026
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-13
 - **Categoria:** Recursos
@@ -128,7 +128,7 @@ Em **Conexões**, logo depois de criar uma conexão de WhatsApp por QR Code, o c
 
 ## Pizza com Preço Delivery
 
-No site do Cardápio Digital, cada sabor já aparece com a diferença do **Preço Delivery** do tamanho. Com a Média a R$ 40,00 e o Preço Delivery dela a R$ 44,00, a Calabresa de R$ 42,00 aparece por R$ 46,00, e a Portuguesa de R$ 46,00, por R$ 50,00.
+No site do Cardápio digital, cada sabor já aparece com a diferença do **Preço Delivery** do tamanho. Com a Média a R$ 40,00 e o Preço Delivery dela a R$ 44,00, a Calabresa de R$ 42,00 aparece por R$ 46,00, e a Portuguesa de R$ 46,00, por R$ 50,00.
 
 ➡️ O *a partir de* mostra o preço da pizza mais barata que dá para pedir naquele canal: R$ 46,00 no site e R$ 42,00 na mesa.
 

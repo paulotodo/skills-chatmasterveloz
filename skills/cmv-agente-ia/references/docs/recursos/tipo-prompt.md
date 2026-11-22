@@ -99,7 +99,7 @@ Com um GPT Assistant criado, acesse o menu **Setores & Chatbot**, edite o Setor 
 
 ![Cadastro do Setor com o campo Prompt OPEN.AI (ChatGPT) preenchido](https://clihelper.chatmasterveloz.com/docs-imagem/21242-gptAssistant-ativar-1024x810.jpg)
 
-O jeito recomendado de levar o cliente até esse Setor é o bloco **GPT Assistant (OpenAI)** do **FlowBuilder**, que lista só os Setores com prompt e pode devolver o atendimento ao fluxo quando o cliente fica sem responder. O Setor também pode receber a conversa direto, pela Conexão ou por transferência.
+O jeito recomendado de levar o cliente até esse Setor é o bloco **GPT Assistant (OpenAI)** do **FlowBuilder Nativo**, que lista só os Setores com prompt e pode devolver o atendimento ao fluxo quando o cliente fica sem responder. O Setor também pode receber a conversa direto, pela Conexão ou por transferência.
 
 > **[ATENCAO]**
 >

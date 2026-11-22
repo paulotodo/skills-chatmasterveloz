@@ -1,8 +1,8 @@
-# Leads de Anúncio
+# Leads de anúncio
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/leads-de-anuncio
 - **Categoria:** Recursos
-- **Menu:** CRM › Leads de Anúncio
+- **Menu:** CRM › Leads de anúncio
 
 ---
 

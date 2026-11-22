@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/gatilho-via-bloco-trocar-de-fluxo
 - **Categoria:** Recursos
-- **Menu:** FlowBuilder › Pontos de Entrada (Gatilho) › Gatilho via Bloco Trocar de Fluxo
+- **Menu:** FlowBuilder Nativo › Pontos de Entrada (Gatilho) › Gatilho via Bloco Trocar de Fluxo
 
 ---
 

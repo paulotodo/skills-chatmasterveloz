@@ -8,7 +8,7 @@
 
 🧩 O **token do Asaas** é a chave de API da conta Asaas da sua empresa. É ela que deixa a plataforma criar o link de pagamento de um pedido na sua conta Asaas, saber quando o cliente pagou e devolver o pagamento estornado. O dinheiro cai direto na sua conta, com as tarifas do seu contrato com o Asaas.
 
-A mesma chave serve aos dois recursos que usam o Asaas, se estiverem disponíveis no seu plano: o **link de pagamento do pedido do PDV** e o bloco **Asaas** do FlowBuilder, que envia ao cliente a segunda via de uma cobrança. O PDV lê a chave das **Opções** da empresa; o bloco tem o próprio campo de token.
+A mesma chave serve aos dois recursos que usam o Asaas, se estiverem disponíveis no seu plano: o **link de pagamento do pedido do PDV** e o bloco **Asaas** do FlowBuilder Nativo, que envia ao cliente a segunda via de uma cobrança. O PDV lê a chave das **Opções** da empresa; o bloco tem o próprio campo de token.
 
 > **[RESUMO]**
 >
@@ -92,7 +92,7 @@ Acesse o menu **Configurações  ›  Opções  ›  Vendas**, seção **PDV**.
 
 ➡️ **Uma chave por integração:** com uma chave para a plataforma e outra para cada sistema, você apaga uma sem parar as outras.
 
-➡️ **Chave vazada:** apague a chave no Asaas, gere uma nova e cole a nova no campo **Token do Asaas da empresa**, e também no bloco **Asaas** do FlowBuilder, se usar a mesma chave lá.
+➡️ **Chave vazada:** apague a chave no Asaas, gere uma nova e cole a nova no campo **Token do Asaas da empresa**, e também no bloco **Asaas** do FlowBuilder Nativo, se usar a mesma chave lá.
 
 > **[DUVIDAS]**
 >

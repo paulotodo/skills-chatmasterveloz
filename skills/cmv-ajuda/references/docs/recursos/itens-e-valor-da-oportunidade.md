@@ -50,7 +50,7 @@ Em **Múltiplos Itens**, cada linha da tabela tem uma alça de arrastar e as set
 
 Em Múltiplos Itens, o campo **Valor da Oportunidade** deixa de aparecer e o total vem da tabela. Com item de cobrança mensal ou anual na oportunidade, aparecem o **Total único** e, conforme os itens, o **Total mensal** e o **Total anual**; o **TOTAL** soma tudo. Com desconto em algum item, aparece também o **Total de desconto**.
 
-⚠️ O desconto vai só para a proposta. O **TOTAL** da oportunidade continua o valor cheio — é ele que aparece no card do Board e no Relatório de Vendas.
+⚠️ O desconto vai só para a proposta. O **TOTAL** da oportunidade continua o valor cheio — é ele que aparece no card do Board e no Relatório de vendas.
 
 > **[DUVIDAS]**
 >

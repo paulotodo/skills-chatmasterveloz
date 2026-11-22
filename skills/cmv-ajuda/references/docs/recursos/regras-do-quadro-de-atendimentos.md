@@ -1,8 +1,8 @@
-# Regras do Quadro de Atendimentos
+# Regras do Quadro de atendimentos
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/regras-do-quadro-de-atendimentos
 - **Categoria:** Recursos
-- **Menu:** Quadro de Atendimentos › Regras do Quadro de Atendimentos
+- **Menu:** Quadro de atendimentos › Regras do Quadro de atendimentos
 
 ---
 

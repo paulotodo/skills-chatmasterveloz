@@ -36,11 +36,11 @@ O cadastro de um Setor é dividido em abas:
 
 Apenas criar um Setor não faz a conversa chegar nele. É necessário configurar por onde ela chegará, de uma das seguintes formas:
 
-➡️ **Pela Conexão.** Quando a Conexão aponta para **um único** Setor, toda conversa recebida vai direto para ele — e, se esse Setor tiver um fluxo do **FlowBuilder**, é o fluxo que recebe o cliente. Se mais de um Setor for selecionado, quem recebe o cliente é o chatbot, com um menu das opções disponíveis (modo *chatbot legado*).
+➡️ **Pela Conexão.** Quando a Conexão aponta para **um único** Setor, toda conversa recebida vai direto para ele — e, se esse Setor tiver um fluxo do **FlowBuilder Nativo**, é o fluxo que recebe o cliente. Se mais de um Setor for selecionado, quem recebe o cliente é o chatbot, com um menu das opções disponíveis (modo *chatbot legado*).
 
 ➡️ **Por transferência.** Um atendente transfere para um Setor de modo manual.
 
-➡️ **Por uma automação.** Um fluxo montado no **FlowBuilder** direcionando para um Setor específico.
+➡️ **Por uma automação.** Um fluxo montado no **FlowBuilder Nativo** direcionando para um Setor específico.
 
 > **[ATENCAO]**
 >

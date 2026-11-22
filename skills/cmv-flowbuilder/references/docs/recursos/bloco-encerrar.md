@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/bloco-encerrar
 - **Categoria:** Recursos
-- **Menu:** FlowBuilder › Blocos › Encerrar
+- **Menu:** FlowBuilder Nativo › Blocos › Encerrar
 
 ---
 

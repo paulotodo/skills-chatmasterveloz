@@ -28,7 +28,7 @@ Cada linha da página **Gravações** é uma chamada gravada:
 
 🔘 **Quando:** a data e a hora da chamada.
 
-🔘 **Origem:** o nome da conversa e de onde a chamada veio — **Atendimento**, **Chat interno** ou **Tarefa**. Numa videochamada com o cliente, o nome é o do contato; na reunião de uma tarefa, o título da tarefa.
+🔘 **Origem:** o nome da conversa e de onde a chamada veio — **Atendimento**, **Chat Interno** ou **Tarefa**. Numa videochamada com o cliente, o nome é o do contato; na reunião de uma tarefa, o título da tarefa.
 
 🔘 **Gravada por / participantes:** quem gravou e quem estava na chamada.
 
@@ -46,7 +46,7 @@ Cada linha da página **Gravações** é uma chamada gravada:
 
 🔘 **Buscar por contato, conversa, participante ou fala:** procura pelo nome do contato, da conversa, de quem participou ou pelo que foi falado na chamada.
 
-🔘 **Origem:** **Todas**, **Atendimento**, **Chat interno** ou **Tarefa**.
+🔘 **Origem:** **Todas**, **Atendimento**, **Chat Interno** ou **Tarefa**.
 
 🔘 **De** e **Até:** o período das chamadas.
 

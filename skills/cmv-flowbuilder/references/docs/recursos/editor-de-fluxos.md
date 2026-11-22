@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/editor-de-fluxos
 - **Categoria:** Recursos
-- **Menu:** FlowBuilder › Editor de Fluxos
+- **Menu:** FlowBuilder Nativo › Editor de Fluxos
 
 ---
 

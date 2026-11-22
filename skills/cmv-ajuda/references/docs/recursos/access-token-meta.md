@@ -28,7 +28,7 @@ Guarde seu token para utilizar no Pixel Meta dentro de nossa plataforma!
 
 ## Como configurar um Pixel da Meta em nosso sistema
 
-O Pixel da Meta em nosso sistema pode ser configurado em uma Tag ou em um bloco do Flowbuilder.
+O Pixel da Meta em nosso sistema pode ser configurado em uma Tag ou em um bloco do FlowBuilder Nativo.
 
 **➡️ Access Token:** seu token da Meta.
 

@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/bloco-template
 - **Categoria:** Recursos
-- **Menu:** FlowBuilder › Blocos › Template
+- **Menu:** FlowBuilder Nativo › Blocos › Template
 
 ---
 

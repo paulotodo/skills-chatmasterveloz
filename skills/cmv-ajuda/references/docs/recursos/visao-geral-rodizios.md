@@ -6,7 +6,7 @@
 
 ---
 
-🧩 O menu **Rodízios** lista os rodízios da empresa, mostra em quais fluxos cada um está em uso e guarda os registros das últimas 24 horas. É nele que nasce e se altera cada rodízio que o bloco **Rodízio** do FlowBuilder usa.
+🧩 O menu **Rodízios** lista os rodízios da empresa, mostra em quais fluxos cada um está em uso e guarda os registros das últimas 24 horas. É nele que nasce e se altera cada rodízio que o bloco **Rodízio** do FlowBuilder Nativo usa.
 
 > **[RESUMO]**
 >

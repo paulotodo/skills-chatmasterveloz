@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/gatilho-via-conexao
 - **Categoria:** Recursos
-- **Menu:** FlowBuilder › Pontos de Entrada (Gatilho) › Gatilho via Conexão
+- **Menu:** FlowBuilder Nativo › Pontos de Entrada (Gatilho) › Gatilho via Conexão
 
 ---
 

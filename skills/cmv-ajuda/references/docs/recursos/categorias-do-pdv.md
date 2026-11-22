@@ -72,7 +72,7 @@ Na lista de **Produtos**, cada produto mostra a categoria na cor dela, com o cam
 
 ➡️ **Pedido pelo fluxo:** o bloco de pedido do fluxo pode oferecer a categoria inteira, e o cliente escolhe primeiro a categoria e depois o produto.
 
-➡️ **Painel de Pedidos:** com setores de produção, a tela de cada setor mostra só os itens das categorias daquele setor.
+➡️ **Painel de pedidos:** com setores de produção, a tela de cada setor mostra só os itens das categorias daquele setor.
 
 ➡️ **Relatório do PDV:** a tabela **Por categoria** mostra a quantidade, o total e a participação de cada categoria nas vendas.
 
@@ -98,4 +98,4 @@ Na lista de **Produtos**, cada produto mostra a categoria na cor dela, com o cam
 >
 > **Apaguei uma categoria do PDV. O que acontece com os produtos?** Os produtos ficam sem categoria e continuam no cadastro.
 >
-> **Para que serve o Setor de produção no Editar categoria?** Ele diz quem prepara os produtos daquela categoria, como a cozinha ou o bar. Com o setor escolhido, a tela daquele setor no **Painel de Pedidos** mostra só os itens dele. Os setores são criados no botão **Setores**, no menu **PDV  ›  Produtos**.
+> **Para que serve o Setor de produção no Editar categoria?** Ele diz quem prepara os produtos daquela categoria, como a cozinha ou o bar. Com o setor escolhido, a tela daquele setor no **Painel de pedidos** mostra só os itens dele. Os setores são criados no botão **Setores**, no menu **PDV  ›  Produtos**.

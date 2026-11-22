@@ -1,8 +1,8 @@
-# 19/11/2026
+# Atualizações 19/11/2026
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-19
 - **Categoria:** Recursos
-- **Menu:** Atualizações › Novembro 2026 › 19/11/2026
+- **Menu:** Atualizações › Novembro 2026 › Atualizações 19/11/2026
 
 ---
 
@@ -52,7 +52,7 @@ Todas as novidades abaixo estão disponíveis a partir da versão **WS-30.125.0*
 
 #### Correções
 
-◽ **Botões do fluxo no WebChat:** no FlowBuilder, os avisos de que o visitante entrou no site ou preencheu o formulário não contam mais como resposta aos botões do fluxo, e só a última mensagem com opções aceita o toque.
+◽ **Botões do fluxo no WebChat:** no FlowBuilder Nativo, os avisos de que o visitante entrou no site ou preencheu o formulário não contam mais como resposta aos botões do fluxo, e só a última mensagem com opções aceita o toque.
 
 ◽ **Aviso ao cliente das Tarefas:** o aviso que não pode ser enviado diz o motivo na tarefa, e **Atualizar** tenta de novo sem repetir o aviso já enviado.
 
@@ -68,7 +68,7 @@ No menu **Configurações  ›  Opções**, aba **Atendimento**, a seção **Con
 
 ➡️ No **Mais**, as ações vêm em grupos (**Atendimento**, **Comunicação**, **IA e resumos** e **Organização**), cada uma com uma linha de ajuda. O campo **Buscar ação** acha a ação pelo nome ou pela ajuda: digite "resumo", e aparecem as ações de resumo.
 
-➡️ As **Ações do topo do ticket** valem também na janela do **Quadro de Atendimentos**. No celular, o **Mais** abre como uma gaveta embaixo da tela.
+➡️ As **Ações do topo do ticket** valem também na janela do **Quadro de atendimentos**. No celular, o **Mais** abre como uma gaveta embaixo da tela.
 
 ## Busca pelo cadastro do contato
 

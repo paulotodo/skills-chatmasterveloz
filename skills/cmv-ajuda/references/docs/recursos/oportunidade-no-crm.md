@@ -18,7 +18,7 @@
 
 ➡️ **Na conversa com o cliente**, quando quem atende cria a oportunidade a partir do atendimento.
 
-➡️ **Por automação**, quando um fluxo do FlowBuilder ou o encadeamento entre funis cria a oportunidade sozinho.
+➡️ **Por automação**, quando um fluxo do FlowBuilder Nativo ou o encadeamento entre funis cria a oportunidade sozinho.
 
 ## O que uma oportunidade guarda
 

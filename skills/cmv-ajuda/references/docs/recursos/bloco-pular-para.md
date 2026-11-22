@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/bloco-pular-para
 - **Categoria:** Recursos
-- **Menu:** FlowBuilder › Blocos › Pular para
+- **Menu:** FlowBuilder Nativo › Blocos › Pular para
 
 ---
 

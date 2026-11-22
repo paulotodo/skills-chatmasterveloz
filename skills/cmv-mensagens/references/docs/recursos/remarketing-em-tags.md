@@ -32,7 +32,7 @@ Acesse o menu **Tags  ›  ícone Lápis da tag  ›  aba Remarketing**
 
 **“Automação e Remarketing”:**
 
-🔘 **Fluxos de Automação:** selecione qual fluxo será disparado. *Pré-requisito: o fluxo já deve ter sido criado anteriormente no menu de FlowBuilder.*
+🔘 **Fluxos de Automação:** selecione qual fluxo será disparado. *Pré-requisito: o fluxo já deve ter sido criado anteriormente no menu de FlowBuilder Nativo.*
 
 🔘 **Quando?:** defina o tempo de espera (delay) entre a marcação da tag e o disparo da mensagem. *Exemplo: "A partir de 10 minutos" significa que o sistema contará 10 minutos após você colocar a tag antes de enviar o fluxo.* O menor prazo é **A partir de 5 minutos**, e as opções sobem de 5 em 5 minutos.
 

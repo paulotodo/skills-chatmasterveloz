@@ -40,7 +40,7 @@ Cada arquivo vira um card na lista.
 
 ## Onde os arquivos são usados
 
-Os arquivos do **Gerenciador de Arquivos** aparecem como **Arquivo de Capa** no cadastro da **Conexão** e do **Setor**, e como imagem de capa opcional no bloco **Menu** do FlowBuilder. Nessas listas, cada arquivo aparece pelo **Identificador** e pelo nome do arquivo.
+Os arquivos do **Gerenciador de Arquivos** aparecem como **Arquivo de Capa** no cadastro da **Conexão** e do **Setor**, e como imagem de capa opcional no bloco **Menu** do FlowBuilder Nativo. Nessas listas, cada arquivo aparece pelo **Identificador** e pelo nome do arquivo.
 
 > **[DUVIDAS]**
 >

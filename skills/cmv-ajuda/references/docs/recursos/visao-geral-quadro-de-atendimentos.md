@@ -1,8 +1,8 @@
-# Visão Geral Quadro de Atendimentos
+# Visão Geral Quadro de atendimentos
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/visao-geral-quadro-de-atendimentos
 - **Categoria:** Recursos
-- **Menu:** Quadro de Atendimentos › Visão Geral Quadro de Atendimentos
+- **Menu:** Quadro de atendimentos › Visão Geral Quadro de atendimentos
 
 ---
 

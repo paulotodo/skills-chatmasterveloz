@@ -46,19 +46,19 @@ A ordem das opções não é definida na Conexão. Ela vem do campo **Ordenaçã
 
 ➡️ **Na primeira mensagem:** a **Mensagem de saudação** da Conexão, seguida de uma linha por Setor, no formato *1 - Suporte*, *2 - Financeiro*.
 
-➡️ **Ao responder com o número:** a conversa entra naquele Setor e o cliente recebe a **Mensagem de saudação** do Setor. Com a opção **Informar a Posição no Setor?** ligada, no menu **Configurações  ›  Opções  ›  Automação**, seção **Bot e FlowBuilder**, chega logo depois a posição dele entre os que esperam no Setor.
+➡️ **Ao responder com o número:** a conversa entra naquele Setor e o cliente recebe a **Mensagem de saudação** do Setor. Com a opção **Informar a Posição no Setor?** ligada, no menu **Configurações  ›  Opções  ›  Automação**, seção **Bot e FlowBuilder Nativo**, chega logo depois a posição dele entre os que esperam no Setor.
 
 ➡️ **Ao escrever uma palavra do campo Palavras-Chave e Gatilhos de um dos Setores:** a conversa vai direto para esse Setor, sem precisar do número — vale já na primeira mensagem e também no lugar de escolher uma opção. A lista fica na aba Mensagens do cadastro do Setor.
 
-➡️ **Ao responder qualquer outra coisa:** o menu é enviado de novo, conforme a opção **Repetições do Bot**, no menu **Configurações  ›  Opções  ›  Automação**, seção **Bot e FlowBuilder**.
+➡️ **Ao responder qualquer outra coisa:** o menu é enviado de novo, conforme a opção **Repetições do Bot**, no menu **Configurações  ›  Opções  ›  Automação**, seção **Bot e FlowBuilder Nativo**.
 
 ➡️ **Se o Setor escolhido tiver fluxo** (campo **Fluxos de Automação**): o fluxo começa na mensagem seguinte que o cliente enviar.
 
-A forma do menu segue a opção **Tipo Chatbot**, no menu **Configurações  ›  Opções  ›  Automação**, seção **Bot e FlowBuilder**. Em **Texto**, as opções chegam numeradas, como acima. Dependendo do canal, as opções podem aparecer como botões para o cliente tocar.
+A forma do menu segue a opção **Tipo Chatbot**, no menu **Configurações  ›  Opções  ›  Automação**, seção **Bot e FlowBuilder Nativo**. Em **Texto**, as opções chegam numeradas, como acima. Dependendo do canal, as opções podem aparecer como botões para o cliente tocar.
 
 ## Quantas vezes o menu é enviado
 
-A opção **Repetições do Bot**, no menu **Configurações  ›  Opções  ›  Automação**, seção **Bot e FlowBuilder**, vale para a empresa inteira:
+A opção **Repetições do Bot**, no menu **Configurações  ›  Opções  ›  Automação**, seção **Bot e FlowBuilder Nativo**, vale para a empresa inteira:
 
 🔘 **Infinito:** o menu volta a cada resposta que não é uma das opções, sem limite.
 
@@ -126,7 +126,7 @@ Um Setor que entra no menu não é diferente dos outros, mas três campos dele p
 >
 > **A Conexão não salva depois que marquei o segundo Setor. Por quê?** Com dois ou mais Setores, a **Mensagem de saudação** da Conexão é obrigatória — é ela que abre o menu. Preencha na aba Mensagens da Conexão e salve de novo.
 >
-> **O cliente respondeu outra coisa em vez do número. O que acontece?** O chatbot envia o menu de novo, até o limite da opção **Repetições do Bot**, no menu **Configurações  ›  Opções  ›  Automação**, seção **Bot e FlowBuilder**. Em **Infinito**, ele volta sempre; com um número, depois do limite a conversa fica esperando sem Setor.
+> **O cliente respondeu outra coisa em vez do número. O que acontece?** O chatbot envia o menu de novo, até o limite da opção **Repetições do Bot**, no menu **Configurações  ›  Opções  ›  Automação**, seção **Bot e FlowBuilder Nativo**. Em **Infinito**, ele volta sempre; com um número, depois do limite a conversa fica esperando sem Setor.
 >
 > **Posso ligar quantos Setores na mesma Conexão?** O campo aceita vários. Na prática, um menu longo faz o cliente desistir de ler — três ou quatro opções costumam ser o limite do que ele acompanha.
 >

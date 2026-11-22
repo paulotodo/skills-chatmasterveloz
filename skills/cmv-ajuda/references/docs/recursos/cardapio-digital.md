@@ -1,12 +1,12 @@
-# Cardápio Digital
+# Cardápio digital
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/cardapio-digital
 - **Categoria:** Recursos
-- **Menu:** PDV › Cardápio Digital
+- **Menu:** PDV › Cardápio digital
 
 ---
 
-🧩 Seu cliente quer ver o cardápio, escolher com calma e pedir sem esperar alguém responder na conversa? O **Cardápio Digital** é a loja da sua empresa na internet: uma página com os produtos do PDV, aberta por um link, onde o cliente monta a sacola e faz o pedido, que entra direto no PDV.
+🧩 Seu cliente quer ver o cardápio, escolher com calma e pedir sem esperar alguém responder na conversa? O **Cardápio digital** é a loja da sua empresa na internet: uma página com os produtos do PDV, aberta por um link, onde o cliente monta a sacola e faz o pedido, que entra direto no PDV.
 
 A página mostra o nome da loja, se ela está aberta, o tempo de preparo, as categorias e os produtos com o preço — o **Preço Delivery**, no produto que tem um no cadastro. O cliente pode pedir pela própria página, com o celular confirmado por um código no WhatsApp, ou mandar o pedido pelo WhatsApp da loja — a empresa escolhe.
 
@@ -78,11 +78,11 @@ No dia marcado, a loja mostra o selo **Fechado hoje**, cada produto avisa *"A lo
 
 ## Cupons e cashback
 
-Na tela do Cardápio Digital ficam também os blocos **Cupons de desconto** e **Cashback**, que valem para a sacola da loja. Os cupons podem ser por código, de boas-vindas, de aniversário ou de fidelidade, e o cupom por código pode aparecer pronto na sacola, com o botão **Usar**, ou valer só para os clientes escolhidos. O cashback devolve ao cliente uma parte de cada pedido entregue, de todos os produtos ou só das categorias escolhidas, para ele usar como desconto na próxima compra pela loja. A sacola da mesa não tem cupom nem cashback.
+Na tela do Cardápio digital ficam também os blocos **Cupons de desconto** e **Cashback**, que valem para a sacola da loja. Os cupons podem ser por código, de boas-vindas, de aniversário ou de fidelidade, e o cupom por código pode aparecer pronto na sacola, com o botão **Usar**, ou valer só para os clientes escolhidos. O cashback devolve ao cliente uma parte de cada pedido entregue, de todos os produtos ou só das categorias escolhidas, para ele usar como desconto na próxima compra pela loja. A sacola da mesa não tem cupom nem cashback.
 
 ## Reserva de mesa
 
-O bloco **Reserva de mesa** decide se o cliente pode reservar uma mesa pela página do Cardápio Digital. O interruptor mostra o estado:
+O bloco **Reserva de mesa** decide se o cliente pode reservar uma mesa pela página do Cardápio digital. O interruptor mostra o estado:
 
 🔘 **Reserva só pelo salão (painel)** × **O cliente pode reservar pelo cardápio:** ligado, a página da loja ganha o botão **Reservar mesa**, que pede ao cliente **Entrar com o celular**, com o código que chega pelo WhatsApp. Desligado, o botão não aparece, e a reserva fica só pelo salão. A tela explica que a reserva feita pelo cliente entra como pendente na aba **Reservas**.
 
@@ -98,24 +98,24 @@ Depois de mexer no bloco, clique em **Salvar**. As reservas de cada dia, feitas 
 
 ## Avisos para o seu sistema
 
-Com o **Webhook do PDV** preenchido no menu **Configurações  ›  Opções  ›  Integrações e segurança**, seção **Webhooks e integrações**, o seu sistema recebe também os avisos do Cardápio Digital: `cardapio-alterado`, `cardapio-cliente-entrou`, `cardapio-endereco-salvo` e `cardapio-endereco-removido`, além dos avisos de cupom, de cashback e de reserva de mesa. Eles estão na lista **Eventos enviados**, logo abaixo do campo do **Webhook do PDV**.
+Com o **Webhook do PDV** preenchido no menu **Configurações  ›  Opções  ›  Integrações e segurança**, seção **Webhooks e integrações**, o seu sistema recebe também os avisos do Cardápio digital: `cardapio-alterado`, `cardapio-cliente-entrou`, `cardapio-endereco-salvo` e `cardapio-endereco-removido`, além dos avisos de cupom, de cashback e de reserva de mesa. Eles estão na lista **Eventos enviados**, logo abaixo do campo do **Webhook do PDV**.
 
 > **[DUVIDAS]**
 >
 > #### Dúvidas Comuns
 >
-> **Salvei o Cardápio Digital e o cliente vê a loja fora do ar. O que faltou?** O interruptor ficou em **Loja fora do ar**. Ligue até o texto mostrar **Loja no ar** e clique em **Salvar**.
+> **Salvei o Cardápio digital e o cliente vê a loja fora do ar. O que faltou?** O interruptor ficou em **Loja fora do ar**. Ligue até o texto mostrar **Loja no ar** e clique em **Salvar**.
 >
-> **Com Os pedidos seguem pelo WhatsApp, o cliente ainda monta a sacola no Cardápio Digital?** Sim. Ele monta a sacola na página e, em **Enviar pedido pelo WhatsApp**, o pedido inteiro abre numa mensagem para o **WhatsApp da loja**. Para o pedido entrar direto no PDV, ligue até o interruptor mostrar **A loja recebe pedidos pela sacola** e salve.
+> **Com Os pedidos seguem pelo WhatsApp, o cliente ainda monta a sacola no Cardápio digital?** Sim. Ele monta a sacola na página e, em **Enviar pedido pelo WhatsApp**, o pedido inteiro abre numa mensagem para o **WhatsApp da loja**. Para o pedido entrar direto no PDV, ligue até o interruptor mostrar **A loja recebe pedidos pela sacola** e salve.
 >
-> **Como fecho o Cardápio Digital num feriado?** Em **Dias fechados**, escolha a data, escreva o motivo, clique em **Adicionar dia** e em **Salvar**. No dia, a loja mostra **Fechado hoje** e não recebe pedido.
+> **Como fecho o Cardápio digital num feriado?** Em **Dias fechados**, escolha a data, escreva o motivo, clique em **Adicionar dia** e em **Salvar**. No dia, a loja mostra **Fechado hoje** e não recebe pedido.
 >
-> **Como deixo o Cardápio Digital fechado em um dia da semana, como todo domingo?** Com **A loja abre só nos horários abaixo**, desligue o interruptor **Aberto** do dia, clique em **Guardar horários** e em **Salvar**.
+> **Como deixo o Cardápio digital fechado em um dia da semana, como todo domingo?** Com **A loja abre só nos horários abaixo**, desligue o interruptor **Aberto** do dia, clique em **Guardar horários** e em **Salvar**.
 >
-> **A mesa do Cardápio Digital pode ter um horário diferente da loja?** Sim. No bloco **Horário da mesa**, ligue até o texto mostrar **A mesa tem horário próprio** e preencha a grade. Desligado, a mesa segue o horário da loja, e os **Dias fechados** valem para as duas.
+> **A mesa do Cardápio digital pode ter um horário diferente da loja?** Sim. No bloco **Horário da mesa**, ligue até o texto mostrar **A mesa tem horário próprio** e preencha a grade. Desligado, a mesa segue o horário da loja, e os **Dias fechados** valem para as duas.
 >
-> **Como deixo o cliente reservar mesa pelo Cardápio Digital?** No bloco **Reserva de mesa**, ligue até o texto mostrar **O cliente pode reservar pelo cardápio** e clique em **Salvar**. A página da loja ganha o botão **Reservar mesa**, e a reserva do cliente entra na aba **Reservas**, no menu **PDV  ›  Mesas e Comandas**.
+> **Como deixo o cliente reservar mesa pelo Cardápio digital?** No bloco **Reserva de mesa**, ligue até o texto mostrar **O cliente pode reservar pelo cardápio** e clique em **Salvar**. A página da loja ganha o botão **Reservar mesa**, e a reserva do cliente entra na aba **Reservas**, no menu **PDV  ›  Mesas e Comandas**.
 >
-> **O Pagamento online do Cardápio Digital ficou indisponível. Por quê?** O pagamento online cobra em reais. Com outra **Moeda** escolhida no menu **Configurações  ›  Opções  ›  Geral**, seção **Empresa e região**, o campo avisa *"O pagamento online cobra em reais e fica indisponível na moeda da empresa."*
+> **O Pagamento online do Cardápio digital ficou indisponível. Por quê?** O pagamento online cobra em reais. Com outra **Moeda** escolhida no menu **Configurações  ›  Opções  ›  Geral**, seção **Empresa e região**, o campo avisa *"O pagamento online cobra em reais e fica indisponível na moeda da empresa."*
 >
-> **Quem monta o Cardápio Digital?** O administrador da empresa. Para os outros perfis, a tela avisa *"Só o administrador da empresa edita a loja."*
+> **Quem monta o Cardápio digital?** O administrador da empresa. Para os outros perfis, a tela avisa *"Só o administrador da empresa edita a loja."*

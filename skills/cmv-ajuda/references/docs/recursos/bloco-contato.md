@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/bloco-contato
 - **Categoria:** Recursos
-- **Menu:** FlowBuilder › Blocos › Contato
+- **Menu:** FlowBuilder Nativo › Blocos › Contato
 
 ---
 

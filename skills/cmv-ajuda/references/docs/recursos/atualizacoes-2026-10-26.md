@@ -38,9 +38,9 @@
 
 ☑️ **Reações nas integrações:** as reações dos clientes às mensagens chegam às integrações, também nos canais oficiais, no Instagram e no Facebook.
 
-☑️ **Desfazer e refazer:** no FlowBuilder, à vontade no editor, também ao mover blocos e pelos atalhos do teclado.
+☑️ **Desfazer e refazer:** no FlowBuilder Nativo, à vontade no editor, também ao mover blocos e pelos atalhos do teclado.
 
-☑️ **Condições:** ainda no FlowBuilder, os mesmos nomes de comparação em todos os tipos, e as respostas de integrações lidas direto na mensagem.
+☑️ **Condições:** ainda no FlowBuilder Nativo, os mesmos nomes de comparação em todos os tipos, e as respostas de integrações lidas direto na mensagem.
 
 ☑️ **Requisição HTTP e Retornar último atendimento:** a requisição HTTP deixa a resposta pronta na variável, e o bloco **Retornar último atendimento** ficou mais claro, com a saída **Sem atendimento anterior**.
 

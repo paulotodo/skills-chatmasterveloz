@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/bloco-condicao
 - **Categoria:** Recursos
-- **Menu:** FlowBuilder › Blocos › Condição
+- **Menu:** FlowBuilder Nativo › Blocos › Condição
 
 ---
 
@@ -28,7 +28,7 @@
 >
 > ➡️ Preencha os **campos** e clique no botão **Adicionar**.
 
-## Como adicionar o bloco "Condição" no FlowBuilder
+## Como adicionar o bloco "Condição" no FlowBuilder Nativo
 
 Acesse o menu **FlowBuilder Nativo  ›  editar fluxo  ›  +  ›  Condição**
 

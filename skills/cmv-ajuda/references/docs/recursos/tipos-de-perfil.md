@@ -164,7 +164,7 @@ Esconder do menu e bloquear a tela são coisas diferentes, e a plataforma usa as
 
 ➡️ **Entregador:** entra direto em **Minhas entregas**, com as entregas que estão com ele.
 
-➡️ **Garçom:** entra direto em **Mesas e comandas**, com as mesas e as comandas do salão, e lança os pedidos nas mesas. A taxa de serviço, o desconto, o pagamento e o fechamento da conta não ficam com ele. Outro endereço digitado abre a mesma tela.
+➡️ **Garçom:** entra direto em **Mesas e Comandas**, com as mesas e as comandas do salão, e lança os pedidos nas mesas. A taxa de serviço, o desconto, o pagamento e o fechamento da conta não ficam com ele. Outro endereço digitado abre a mesma tela.
 
 ## Perfil e permissões: quem manda em quê
 

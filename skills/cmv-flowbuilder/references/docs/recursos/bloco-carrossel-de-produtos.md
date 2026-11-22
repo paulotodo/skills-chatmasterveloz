@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/bloco-carrossel-de-produtos
 - **Categoria:** Recursos
-- **Menu:** FlowBuilder › Blocos › Carrossel de Produtos
+- **Menu:** FlowBuilder Nativo › Blocos › Carrossel de Produtos
 
 ---
 

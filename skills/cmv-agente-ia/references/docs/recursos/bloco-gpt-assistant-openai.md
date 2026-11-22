@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/bloco-gpt-assistant-openai
 - **Categoria:** Recursos
-- **Menu:** FlowBuilder › Blocos › GPT Assistant (OpenAI)
+- **Menu:** FlowBuilder Nativo › Blocos › GPT Assistant (OpenAI)
 
 ---
 

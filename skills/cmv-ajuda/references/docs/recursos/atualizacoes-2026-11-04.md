@@ -1,4 +1,4 @@
-# 04/11/2026
+# Atualizações 04/11/2026
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-04
 - **Categoria:** Recursos
@@ -12,11 +12,11 @@
 
 ⚡️ **Impressão na cozinha:** no PDV, o pedido vai para a impressora térmica: a via da cozinha sem preço e com letra grande, e a do cliente com os valores. Você escolhe a bobina, de 58 ou 80 mm, e quantas vias de cada; cada card do painel tem o seu **Imprimir**, e o **Imprimir sozinho** imprime cada pedido novo no computador da cozinha.
 
-⚡️ **Ofertas de horário:** ainda no PDV, no Cardápio Digital, cada produto escolhe onde aparece — Cardápio online, Mesa ou os dois — e pode virar oferta de horário marcado: enquanto vale, mostra o aviso **Até**; fora do horário, some da loja.
+⚡️ **Ofertas de horário:** ainda no PDV, no Cardápio digital, cada produto escolhe onde aparece — Cardápio online, Mesa ou os dois — e pode virar oferta de horário marcado: enquanto vale, mostra o aviso **Até**; fora do horário, some da loja.
 
-⚡️ **Endereços e Pedir de novo:** ainda no Cardápio Digital, o cliente guarda endereços e repete um pedido com **Pedir de novo**.
+⚡️ **Endereços e Pedir de novo:** ainda no Cardápio digital, o cliente guarda endereços e repete um pedido com **Pedir de novo**.
 
-◽ **Cliente, código e retirada:** ainda no Cardápio Digital, o cliente é reconhecido com ou sem o nono dígito, o código de acesso não abre atendimento e a retirada mostra **Pagamento na retirada**.
+◽ **Cliente, código e retirada:** ainda no Cardápio digital, o cliente é reconhecido com ou sem o nono dígito, o código de acesso não abre atendimento e a retirada mostra **Pagamento na retirada**.
 
 ⚡️ **Consultório:** a agenda por profissional, os pacientes, a sala de espera e a TV da recepção, que chama o paciente pelo nome.
 
@@ -38,7 +38,7 @@
 
 ◽ **E mais nos Setores:** campos extras na saudação pelo WhatsApp, fotos seguidas no Typebot numa mensagem só e mensagens automáticas sem a linha em branco no fim.
 
-◽ **Horário de Expediente:** no FlowBuilder, o bloco **Horário de Expediente** aceita o **Setor vinculado ao fluxo** e usa o Setor do atendimento.
+◽ **Horário de Expediente:** no FlowBuilder Nativo, o bloco **Horário de Expediente** aceita o **Setor vinculado ao fluxo** e usa o Setor do atendimento.
 
 ◽ **Data do relatório do PDV pela API:** a API avisa quando a data vem no formato errado.
 
@@ -50,15 +50,15 @@ No menu **Configurações  ›  Opções**, a parte **Impressão térmica** esco
 
 ➡️ A via da cozinha traz só os itens, sem preço e com letra grande. A via do cliente traz o nome da empresa, os preços, o subtotal, o **TOTAL** e o aviso *Este documento não é nota fiscal.*
 
-➡️ No **Painel de Pedidos**, cada card tem o ícone **Imprimir**, para imprimir ou reimprimir aquele pedido.
+➡️ No **Painel de pedidos**, cada card tem o ícone **Imprimir**, para imprimir ou reimprimir aquele pedido.
 
-➡️ O botão **Imprimir sozinho**, no topo do **Painel de Pedidos**, vira **Imprimindo sozinho** e vale só no computador em que foi ligado: cada pedido que chega em **Novo** é impresso uma vez. Ligar não imprime os pedidos que já estavam em **Novo**.
+➡️ O botão **Imprimir sozinho**, no topo do **Painel de pedidos**, vira **Imprimindo sozinho** e vale só no computador em que foi ligado: cada pedido que chega em **Novo** é impresso uma vez. Ligar não imprime os pedidos que já estavam em **Novo**.
 
 ➡️ Para imprimir sem a janela de impressão, a parte **Imprimir sem a janela de impressão**, logo abaixo, orienta: deixe a impressora térmica como padrão do Windows no computador da cozinha, crie um atalho do Google Chrome com `--kiosk-printing` no fim do **Destino**, abra o sistema por esse atalho e ligue o **Imprimir sozinho**.
 
-## Ofertas de horário no Cardápio Digital
+## Ofertas de horário no Cardápio digital
 
-Na janela do produto, a parte **Onde e quando aparece no Cardápio Digital** escolhe em qual canal o produto aparece e, se for uma oferta, os dias e horários.
+Na janela do produto, a parte **Onde e quando aparece no Cardápio digital** escolhe em qual canal o produto aparece e, se for uma oferta, os dias e horários.
 
 ➡️ **Onde aparece:** **Cardápio online e Mesa**, **Só no Cardápio online** ou **Só na Mesa**. Com **Só na Mesa**, o produto não aparece na loja online.
 
@@ -106,7 +106,7 @@ As opções do chatbot passaram a fazer o que prometem, também no Chat Externo.
 
 ## Horário de Expediente com o Setor vinculado ao fluxo
 
-No FlowBuilder, o bloco **Horário de Expediente** com **Setor vinculado ao fluxo** agora entra no desenho: ao clicar em **Adicionar**, a janela fecha e o bloco aparece com as saídas **Dentro do Horário** e **Fora do Horário**.
+No FlowBuilder Nativo, o bloco **Horário de Expediente** com **Setor vinculado ao fluxo** agora entra no desenho: ao clicar em **Adicionar**, a janela fecha e o bloco aparece com as saídas **Dentro do Horário** e **Fora do Horário**.
 
 ## Data do relatório do PDV pela API
 

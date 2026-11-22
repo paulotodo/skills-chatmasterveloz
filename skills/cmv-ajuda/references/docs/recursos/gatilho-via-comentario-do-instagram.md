@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/gatilho-via-comentario-do-instagram
 - **Categoria:** Recursos
-- **Menu:** FlowBuilder › Pontos de Entrada (Gatilho) › Gatilho via Comentário do Instagram
+- **Menu:** FlowBuilder Nativo › Pontos de Entrada (Gatilho) › Gatilho via Comentário do Instagram
 
 ---
 

@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/pdv-pedido-no-fluxo
 - **Categoria:** Recursos
-- **Menu:** FlowBuilder › Blocos › PDV (pedido no fluxo)
+- **Menu:** FlowBuilder Nativo › Blocos › PDV (pedido no fluxo)
 
 ---
 

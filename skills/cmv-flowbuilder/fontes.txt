@@ -1,4 +1,4 @@
-subarvore:FlowBuilder
+subarvore:FlowBuilder Nativo
 subarvore:Setores & Chatbot
 plataforma:recursos/n8n-via-flowbuilder.md
 plataforma:recursos/bot-e-flowbuilder-em-configuracoes.md  # menu de Setores, saudação no setor único, concatenação e limite de mensagens do fluxo

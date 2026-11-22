@@ -1,18 +1,18 @@
-# Bot e FlowBuilder em Configurações
+# Bot e FlowBuilder Nativo em Configurações
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/bot-e-flowbuilder-em-configuracoes
 - **Categoria:** Recursos
-- **Menu:** Configurações › Automação em Configurações › Bot e FlowBuilder em Configurações
+- **Menu:** Configurações › Automação em Configurações › Bot e FlowBuilder Nativo em Configurações
 
 ---
 
-🧩 A seção **Bot e FlowBuilder** ajusta o que o cliente recebe da automação antes de chegar a um atendente: o menu de Setores, a saudação e a posição na espera ao entrar num Setor, a junção das mensagens que ele manda em sequência e o limite de mensagens que o fluxo responde a um mesmo contato.
+🧩 A seção **Bot e FlowBuilder Nativo** ajusta o que o cliente recebe da automação antes de chegar a um atendente: o menu de Setores, a saudação e a posição na espera ao entrar num Setor, a junção das mensagens que ele manda em sequência e o limite de mensagens que o fluxo responde a um mesmo contato.
 
 > **[RESUMO]**
 >
 > #### Resumo Prático
 >
-> ➡️ Acesse o menu **Configurações  ›  Opções  ›  Automação**, seção **Bot e FlowBuilder**.
+> ➡️ Acesse o menu **Configurações  ›  Opções  ›  Automação**, seção **Bot e FlowBuilder Nativo**.
 >
 > ➡️ Escolha o **Tipo Chatbot**, as **Repetições do Bot** e o **Idioma do Bot** do menu de Setores.
 >
@@ -20,7 +20,7 @@
 
 ## O menu de Setores
 
-Acesse o menu **Configurações  ›  Opções  ›  Automação**, seção **Bot e FlowBuilder**. Os três primeiros campos ajustam o menu que o cliente recebe quando a Conexão aponta para vários Setores: se ele vem como texto numerado ou como botões, quantas vezes se repete e em que idioma.
+Acesse o menu **Configurações  ›  Opções  ›  Automação**, seção **Bot e FlowBuilder Nativo**. Os três primeiros campos ajustam o menu que o cliente recebe quando a Conexão aponta para vários Setores: se ele vem como texto numerado ou como botões, quantas vezes se repete e em que idioma.
 
 🔘 **Tipo Chatbot:** **Texto** manda o menu como lista numerada; **Botões em Lista** manda como opções clicáveis.
 
@@ -36,9 +36,9 @@ Acesse o menu **Configurações  ›  Opções  ›  Automação**, seção **Bo
 
 🔘 **Informar a Posição no Setor?** e **Mensagem de Posição no Setor:** com **Sim**, o cliente que entra num Setor e fica aguardando recebe, logo depois da saudação do Setor, a posição dele na espera — a contagem inclui todos os que aguardam naquele Setor, ele mesmo também. O texto vem de **Mensagem de Posição no Setor** e é seguido do número da posição. No texto, `{{ms}}` vira a saudação do horário (Bom dia, Boa tarde…) e `{{name}}`, o nome do cliente: com `{{ms}} *{{name}}*, sua posição na fila de atendimento é:`, a cliente Maria recebe pela manhã *"Bom dia Maria, sua posição na fila de atendimento é: 3"*. Quando o Setor escolhido tem **Opções do Chatbot**, a posição não é enviada enquanto o cliente escolhe a opção.
 
-## Concatenação no Flowbuilder
+## Concatenação no FlowBuilder Nativo
 
-🔘 **Concatenação no Flowbuilder?** e **Tempo de Concatenação:** com **Sim**, as mensagens que o **cliente** manda em sequência são juntadas antes de o fluxo responder — e o tempo de espera vai de **2** a **10 segundos**. Serve para o fluxo não responder cada fragmento de frase.
+🔘 **Concatenação no FlowBuilder Nativo?** e **Tempo de Concatenação:** com **Sim**, as mensagens que o **cliente** manda em sequência são juntadas antes de o fluxo responder — e o tempo de espera vai de **2** a **10 segundos**. Serve para o fluxo não responder cada fragmento de frase.
 
 ⚠️ Esta concatenação é de **entrada** — junta o que o cliente escreve. A que junta o que o **atendente** escreve, para ser enviado como uma mensagem só, é outra: fica no card da Conexão oficial, no botão **Concatenador**, e vai de 2 a 60 segundos. As duas se chamam "concatenação" e não são a mesma coisa.
 
@@ -66,6 +66,6 @@ Para retomar antes do prazo, o cadastro do contato mostra o aviso de que a autom
 >
 > **O cliente deveria saber quantos estão na frente dele. Onde ligo isso?** Em **Informar a Posição no Setor?**, nesta seção: com **Sim**, quem entra num Setor e aguarda recebe a posição logo depois da saudação do Setor. O texto do aviso fica em **Mensagem de Posição no Setor**.
 >
-> **O fluxo responde cada palavra que o cliente manda.** Ligue **Concatenação no Flowbuilder?** e dê um **Tempo de Concatenação** de alguns segundos.
+> **O fluxo responde cada palavra que o cliente manda.** Ligue **Concatenação no FlowBuilder Nativo?** e dê um **Tempo de Concatenação** de alguns segundos.
 >
 > **Um contato fica mandando mensagem sem parar e o fluxo responde a todas.** Ligue **Limitar as mensagens que o fluxo responde ao mesmo contato?** e defina o máximo, a janela de tempo e a pausa.

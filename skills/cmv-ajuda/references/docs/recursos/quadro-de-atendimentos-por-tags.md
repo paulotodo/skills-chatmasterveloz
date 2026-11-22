@@ -1,8 +1,8 @@
-# Quadro de Atendimentos por Tags
+# Quadro de atendimentos por Tags
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/quadro-de-atendimentos-por-tags
 - **Categoria:** Recursos
-- **Menu:** Quadro de Atendimentos › Quadro de Atendimentos por Tags
+- **Menu:** Quadro de atendimentos › Quadro de atendimentos por Tags
 
 ---
 

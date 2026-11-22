@@ -39,7 +39,7 @@
 
 #### Exemplos práticos de Webhook  
 - Toda vez que uma mensagem é enviada ou recebida, nosso Webhook dispara um aviso para uma URL externa. O alcance é escolhido por você: tudo o que acontece numa Conexão, só os atendimentos de um Setor, ou um tipo de evento específico.
-- Um sistema de cobrança notificar nosso endpoint do Webhook Trigger quando receber um pagamento, iniciando assim um fluxo do Flowbuilder.
+- Um sistema de cobrança notificar nosso endpoint do Webhook Trigger quando receber um pagamento, iniciando assim um fluxo do FlowBuilder Nativo.
 - Uma plataforma de cursos notificar nosso endpoint do Webhook Trigger quando o usuário completar uma aula ou módulo.
 
 ## Principais Diferenças                                         

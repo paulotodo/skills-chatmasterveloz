@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/bloco-pixel-meta
 - **Categoria:** Recursos
-- **Menu:** FlowBuilder › Blocos › Pixel Meta
+- **Menu:** FlowBuilder Nativo › Blocos › Pixel Meta
 
 ---
 

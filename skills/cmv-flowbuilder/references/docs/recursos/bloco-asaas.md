@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/bloco-asaas
 - **Categoria:** Recursos
-- **Menu:** FlowBuilder › Blocos › Asaas
+- **Menu:** FlowBuilder Nativo › Blocos › Asaas
 
 ---
 

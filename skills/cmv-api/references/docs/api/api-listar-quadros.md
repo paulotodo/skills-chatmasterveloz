@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/api-listar-quadros
 - **Categoria:** APIs
-- **Menu:** APIs › Quadro de Atendimentos › API Listar Quadros
+- **Menu:** APIs › Quadro de atendimentos › API Listar Quadros
 
 ---
 

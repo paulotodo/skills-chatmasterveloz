@@ -68,7 +68,7 @@ Mensagens configuradas no editor de fluxo, podendo conter uma sequência de text
 
 **➡️ Fluxo de Bot:** inicia a automação de uma fila vinculada à plataforma Typebot.
 
-**➡️ Fluxos de Automação:** inicia a automação de um fluxo do **Flowbuilder Nativo**.
+**➡️ Fluxos de Automação:** inicia a automação de um fluxo do **FlowBuilder Nativo**.
 
 **CAMPANHA VIA MENSAGEM SIMPLES**
 

@@ -8,7 +8,7 @@
 
 🧩 O menu do bot chega ao cliente do jeito que você quer? As mensagens que a plataforma envia sozinha dizem o que a sua empresa diria? E você sabe o que o cliente achou do atendimento?
 
-A aba **Automação** reúne o que a plataforma faz sozinha na conversa: o comportamento do bot e do FlowBuilder, as mensagens automáticas e as avaliações do atendimento. A aba é dividida em seções por assunto, e esta parte da documentação segue a mesma divisão.
+A aba **Automação** reúne o que a plataforma faz sozinha na conversa: o comportamento do bot e do FlowBuilder Nativo, as mensagens automáticas e as avaliações do atendimento. A aba é dividida em seções por assunto, e esta parte da documentação segue a mesma divisão.
 
 Acesse o menu **Configurações  ›  Opções  ›  Automação**.
 
@@ -24,4 +24,4 @@ Acesse o menu **Configurações  ›  Opções  ›  Automação**.
 >
 > #### Dúvidas Comuns
 >
-> **Onde ficaram as opções do bot e a Mensagem de Aniversário?** Na aba **Automação**: as opções do bot estão na seção **Bot e FlowBuilder**, e a **Mensagem de Aniversário** virou um campo da seção **Mensagens automáticas**.
+> **Onde ficaram as opções do bot e a Mensagem de Aniversário?** Na aba **Automação**: as opções do bot estão na seção **Bot e FlowBuilder Nativo**, e a **Mensagem de Aniversário** virou um campo da seção **Mensagens automáticas**.

@@ -1,8 +1,8 @@
-# 15/11/2026
+# Atualizações 15/11/2026
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-15
 - **Categoria:** Recursos
-- **Menu:** Atualizações › Novembro 2026 › 15/11/2026
+- **Menu:** Atualizações › Novembro 2026 › Atualizações 15/11/2026
 
 ---
 
@@ -32,7 +32,7 @@ Todas as novidades abaixo estão disponíveis a partir da versão **WS-30.39.0**
 
 ⚡️ **Agenda do Google:** cada recurso pode ser ligado a uma agenda do Google: a reserva aparece lá, e o compromisso de lá ocupa o horário aqui.
 
-⚡️ **Reservar pela conversa:** no **FlowBuilder**, o bloco **Reservas** leva a reserva para a conversa: o cliente escolhe a oferta, o dia e o horário pelo número e recebe o código.
+⚡️ **Reservar pela conversa:** no **FlowBuilder Nativo**, o bloco **Reservas** leva a reserva para a conversa: o cliente escolhe a oferta, o dia e o horário pelo número e recebe o código.
 
 ⚡️ **API das Reservas:** um site, um app ou outro sistema consulta as ofertas e os horários livres e cria, remarca, confirma e cancela reservas.
 
@@ -140,7 +140,7 @@ No menu **Reservas**, a aba **Relatório** mostra os números de um período de 
 
 ## Reservar pela conversa
 
-No **FlowBuilder**, o bloco **Reservas (agendar no fluxo)** leva a reserva para a conversa. O cliente escolhe pelo número a oferta, o dia e o horário; na diária, o dia da entrada e quantas noites. Depois confere, confirma e recebe o código da reserva.
+No **FlowBuilder Nativo**, o bloco **Reservas (agendar no fluxo)** leva a reserva para a conversa. O cliente escolhe pelo número a oferta, o dia e o horário; na diária, o dia da entrada e quantas noites. Depois confere, confirma e recebe o código da reserva.
 
 ➡️ No bloco Reservas, **Dias à frente** diz quantos dias a conversa oferece, de 1 a 30, e **Adicionar uma oferta** escolhe as ofertas do bloco. Sem nenhuma escolhida, valem todas as ofertas ativas.
 
@@ -160,7 +160,7 @@ Pela API das Reservas, um site, um app ou outro sistema consulta as ofertas e os
 
 ➡️ Para avisar o cliente: na aba **Avisos**, ligue as mensagens que quiser. Elas começam desligadas.
 
-➡️ Para o cliente reservar pela conversa: no FlowBuilder, ponha o bloco **Reservas** no fluxo.
+➡️ Para o cliente reservar pela conversa: no FlowBuilder Nativo, ponha o bloco **Reservas** no fluxo.
 
 ➡️ Para os avisos da diária mostrarem a saída e as noites: inclua `{{dataSaida}}` e `{{noites}}` no texto do aviso.
 

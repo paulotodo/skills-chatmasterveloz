@@ -1,4 +1,4 @@
-# 08/11/2026
+# Atualizações 08/11/2026
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-08
 - **Categoria:** Recursos
@@ -28,7 +28,7 @@ Todas as novidades abaixo estão disponíveis a partir da versão **WS-29.899.0*
 
 ◽ **Pedido na mesa sem estoque:** ainda no PDV, se faltar estoque, o pedido na mesa é recusado inteiro, sem ficar pela metade.
 
-◽ **Pergunta do Tenho interesse:** na Loja Digital, a pergunta do **Tenho interesse** não some mais enquanto o cliente navega.
+◽ **Pergunta do Tenho interesse:** na Loja digital, a pergunta do **Tenho interesse** não some mais enquanto o cliente navega.
 
 ◽ **Hora dos pagamentos antigos:** ainda no PDV, a atualização anuncia a hora real nos pagamentos antigos, que apareciam todos ao meio-dia.
 
@@ -40,7 +40,7 @@ Todas as novidades abaixo estão disponíveis a partir da versão **WS-29.899.0*
 
 ◽ **Ordem do Aguardando:** ainda no Atendimento, a lista **Aguardando** volta a obedecer a ordem que você escolhe, e mensagem nova não muda o lugar de ninguém.
 
-⚡️ **WhatsApp pela Gupshup:** em Conexões, chegou um novo canal de WhatsApp, pela Gupshup. A atualização anuncia templates na conversa mesmo depois das 24 horas, botões, listas, FlowBuilder e campanhas.
+⚡️ **WhatsApp pela Gupshup:** em Conexões, chegou um novo canal de WhatsApp, pela Gupshup. A atualização anuncia templates na conversa mesmo depois das 24 horas, botões, listas, FlowBuilder Nativo e campanhas.
 
 ⚡️ **RCS pela Gupshup:** ainda em Conexões, chegou a conexão RCS pela Gupshup, para mensagens ricas direto no aplicativo de mensagens do celular.
 
@@ -114,7 +114,7 @@ No Balcão, o adicional cujo insumo acabou aparece como **Indisponível** e não
 
 ➡️ No pedido da mesa, se faltar estoque de algum item, o pedido é recusado inteiro com o aviso *Um dos produtos acabou. Revise a sacola.*, sem criar o pedido e sem abrir a comanda.
 
-➡️ Na Loja Digital, o texto escrito em *Quer perguntar alguma coisa? (opcional)* fica no campo enquanto o cliente troca a variação, o adicional e a quantidade, e chega junto com o interesse.
+➡️ Na Loja digital, o texto escrito em *Quer perguntar alguma coisa? (opcional)* fica no campo enquanto o cliente troca a variação, o adicional e a quantidade, e chega junto com o interesse.
 
 ## Ranking por equipe, unidade e funil
 

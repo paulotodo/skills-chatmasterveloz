@@ -26,7 +26,7 @@ As **Opções do PDV** ficam juntas no menu **Configurações  ›  Opções  �
 
 🔘 **PDV: vender sem estoque:** com **Sim**, o pedido confirma mesmo sem estoque suficiente, e o saldo do produto fica negativo. Com **Não**, o pedido só confirma com estoque.
 
-🔘 **Cardápio Digital: mostrar "Indisponível" quando o estoque zerar:** aparece com **PDV: vender sem estoque** em **Sim**. A tela explica: *"Vale quando o PDV vende sem estoque. Sim: o produto aparece como Indisponível no Cardápio e não pode ser pedido por lá. Não: continua à venda."*
+🔘 **Cardápio digital: mostrar "Indisponível" quando o estoque zerar:** aparece com **PDV: vender sem estoque** em **Sim**. A tela explica: *"Vale quando o PDV vende sem estoque. Sim: o produto aparece como Indisponível no Cardápio e não pode ser pedido por lá. Não: continua à venda."*
 
 🔘 **Token do Asaas da empresa (links de pagamento do PDV):** a chave de API da conta Asaas da sua empresa. Com ela, o pedido do PDV gera o link de pagamento, e o dinheiro cai na sua conta. O botão ao lado mostra ou esconde o token.
 
@@ -68,7 +68,7 @@ O Mercado Pago, o PagSeguro e a PaggPix têm cada um o seu **Desconectar**. Sem 
 
 ◽ No pedido que o próprio cliente faz, com faixas cadastradas, ele informa o CEP antes do endereço e vê o frete e o prazo da faixa, como *"R$ 7,50 · até 40 min"*. O CEP fora das faixas e sem um bairro da tabela fica fora da área de entrega, e o cliente vê *"Ainda não entregamos neste CEP."*
 
-🔘 **Frete pelos Correios (Loja Digital):** a tela explica: *"Use o contrato da sua empresa nos Correios: o cliente da Loja Digital vê o preço e o prazo do PAC e do SEDEX pelo CEP."* Ligue **Calcular o frete pelos Correios na loja** e preencha o contrato: **Usuário (Meu Correios)**, **Código de acesso à API**, **Cartão de postagem** e **CEP de origem**.
+🔘 **Frete pelos Correios (Loja digital):** a tela explica: *"Use o contrato da sua empresa nos Correios: o cliente da Loja digital vê o preço e o prazo do PAC e do SEDEX pelo CEP."* Ligue **Calcular o frete pelos Correios na loja** e preencha o contrato: **Usuário (Meu Correios)**, **Código de acesso à API**, **Cartão de postagem** e **CEP de origem**.
 
 ◽ **Serviços:** cada serviço dos Correios tem o **Código**, com 5 dígitos, e o **Nome na loja**. O **PAC** (03298) e o **SEDEX** (03220) já vêm preenchidos; **Adicionar serviço** e **Remover** mudam a lista.
 
@@ -136,7 +136,7 @@ Os textos aceitam as variáveis `{{numero}}` (o número do pedido), `{{total}}`,
 >
 > **A via da cozinha mostra o preço do pedido?** Não. A via da cozinha traz só os itens, em letra grande. O preço, o total e o aviso de que o documento não é nota fiscal vão na via do cliente.
 >
-> **A opção Cardápio Digital: mostrar "Indisponível" quando o estoque zerar não aparece nas Opções do PDV. O que falta?** Ela só aparece com **PDV: vender sem estoque** em **Sim**. Com **Não**, o produto zerado já aparece como Indisponível no Cardápio Digital.
+> **A opção Cardápio digital: mostrar "Indisponível" quando o estoque zerar não aparece nas Opções do PDV. O que falta?** Ela só aparece com **PDV: vender sem estoque** em **Sim**. Com **Não**, o produto zerado já aparece como Indisponível no Cardápio digital.
 >
 > **Cadastrei o Frete por faixa de CEP. A Taxa de entrega por bairro deixa de valer?** Não. A taxa do bairro vale para o CEP que fica fora de todas as faixas. O CEP que cai numa faixa usa o frete dela, mesmo com o bairro na tabela.
 >

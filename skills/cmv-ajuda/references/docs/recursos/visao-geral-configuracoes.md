@@ -30,7 +30,7 @@ Acima das abas, o campo **Pesquisar opção** acha uma opção pelo nome, em qua
 
 ⚡ **Contatos:** o cadastro dos contatos e a carteira de clientes.
 
-⚡ **Automação:** o bot e o FlowBuilder, as mensagens automáticas e as avaliações do atendimento.
+⚡ **Automação:** o bot e o FlowBuilder Nativo, as mensagens automáticas e as avaliações do atendimento.
 
 ⚡ **Chamadas:** as ligações recebidas pelo WhatsApp e, se disponíveis no seu plano, as chamadas da plataforma.
 

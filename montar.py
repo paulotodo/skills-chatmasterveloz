@@ -12,7 +12,7 @@ Linhas de fontes.txt (o que vem depois de # é comentário):
   plataforma:INDICE-api.md           um arquivo (aceita glob)
   plataforma:recursos/token-openai.md
   css:*.md
-  subarvore:FlowBuilder              o item de menu com esse título, nos índices, e tudo abaixo dele
+  subarvore:FlowBuilder Nativo       o item de menu com esse título, nos índices, e tudo abaixo dele
 """
 import json
 import re

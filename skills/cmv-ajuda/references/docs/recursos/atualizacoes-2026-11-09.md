@@ -1,4 +1,4 @@
-# 09/11/2026
+# Atualizações 09/11/2026
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-09
 - **Categoria:** Recursos
@@ -20,7 +20,7 @@ Todas as novidades abaixo estão disponíveis a partir da versão **WS-29.925.0*
 
 ⚡️ **Comissão do garçom:** ainda no PDV, a comissão do garçom é calculada por uma parte da taxa de serviço, por um percentual do consumo ou pelos dois, e aparece no **Relatório do PDV**.
 
-⚡️ **Reservas de mesa:** ainda no PDV, as reservas entram no salão, com o horário no card da mesa e o **Chegou**, que já abre a conta. A atualização anuncia também a reserva feita pelo cliente no Cardápio Digital, dentro da antecedência, dos dias à frente e do máximo de pessoas definidos pela empresa.
+⚡️ **Reservas de mesa:** ainda no PDV, as reservas entram no salão, com o horário no card da mesa e o **Chegou**, que já abre a conta. A atualização anuncia também a reserva feita pelo cliente no Cardápio digital, dentro da antecedência, dos dias à frente e do máximo de pessoas definidos pela empresa.
 
 ☑️ **Aceite automático:** ainda no PDV, no **Painel de pedidos**, o aceite automático tem uma opção para os pedidos de fora e outra para os pedidos das mesas.
 
@@ -90,7 +90,7 @@ No menu **PDV  ›  Mesas e Comandas**, a página do salão reúne as abas **Mes
 
 No menu **Equipe**, ao adicionar ou editar um usuário, o **Perfil** ganhou a opção **Garçom**.
 
-➡️ O garçom entra numa tela só, sem menu: **Mesas e comandas**, o nome dele, *Sua comissão: hoje … · no mês …* e **SAIR**. Embaixo fica o salão, sem o **CONFIGURAR**.
+➡️ O garçom entra numa tela só, sem menu: **Mesas e Comandas**, o nome dele, *Sua comissão: hoje … · no mês …* e **SAIR**. Embaixo fica o salão, sem o **CONFIGURAR**.
 
 ➡️ Na conta da mesa, o garçom transfere a mesa, informa as pessoas e o cliente, divide a conta, imprime a conta e lança pedido. A taxa de serviço, o desconto, o pagamento, **Fechar mesa** e **Juntar** ficam com o caixa.
 
@@ -146,7 +146,7 @@ Na aba **Reservas** de **Mesas e Comandas**, **NOVA RESERVA** abre *Nova reserva
 
 No menu **PDV  ›  Cardápio digital**, o bloco **Reserva de mesa** escolhe entre *Reserva só pelo salão (painel)* e *O cliente pode reservar pelo cardápio*, com **Duração da reserva (min)**, **Antecedência mínima (min)**, **Máximo de pessoas** e **Reservar até quantos dias à frente**.
 
-➡️ Com a reserva pelo cardápio, a página do Cardápio Digital mostra o botão **Reservar mesa**, que pede para o cliente entrar com o celular. A atualização anuncia que a reserva feita pelo cliente entra como pendente na aba **Reservas**.
+➡️ Com a reserva pelo cardápio, a página do Cardápio digital mostra o botão **Reservar mesa**, que pede para o cliente entrar com o celular. A atualização anuncia que a reserva feita pelo cliente entra como pendente na aba **Reservas**.
 
 ## Aceite automático
 
@@ -168,9 +168,9 @@ Na sacola do Cardápio, o valor do troco é digitado a partir dos centavos: digi
 
 ➡️ O endereço principal do cliente entra no pedido com o bairro e a **Taxa de entrega** já preenchidos.
 
-➡️ Com o insumo de um adicional zerado, o adicional aparece como **Indisponível** e não pode ser escolhido na Mesa, no Cardápio e na Loja Digital. Com o estoque de volta, ele volta ao normal.
+➡️ Com o insumo de um adicional zerado, o adicional aparece como **Indisponível** e não pode ser escolhido na Mesa, no Cardápio e na Loja digital. Com o estoque de volta, ele volta ao normal.
 
-➡️ Cada loja credita o cashback pelo próprio percentual: o pedido da Loja Digital usa o da Loja, e o do Cardápio usa o do Cardápio. A atualização anuncia também que o pedido diz de qual loja veio, inclusive nos avisos enviados ao seu sistema.
+➡️ Cada loja credita o cashback pelo próprio percentual: o pedido da Loja digital usa o da Loja, e o do Cardápio usa o do Cardápio. A atualização anuncia também que o pedido diz de qual loja veio, inclusive nos avisos enviados ao seu sistema.
 
 ➡️ O pagamento pelo Asaas fica com a hora certa, nunca antes da criação do link, também no **Recebido online** do caixa.
 
@@ -182,7 +182,7 @@ No menu **Configurações  ›  Opções**, logo abaixo do fuso horário, o camp
 
 ➡️ Trocar a moeda muda só o formato: *Trocar a moeda não converte os valores.*
 
-➡️ Fora do real, o pagamento online (Asaas, Mercado Pago, PagSeguro e PaggPix) fica indisponível, com o aviso *O pagamento online cobra em reais e fica indisponível na moeda da empresa.* na janela do pedido e nas opções de pagamento do Cardápio Digital e da Loja Digital.
+➡️ Fora do real, o pagamento online (Asaas, Mercado Pago, PagSeguro e PaggPix) fica indisponível, com o aviso *O pagamento online cobra em reais e fica indisponível na moeda da empresa.* na janela do pedido e nas opções de pagamento do Cardápio digital e da Loja digital.
 
 ## Campos de escolha
 

@@ -1,8 +1,8 @@
-# 20/11/2026
+# Atualizações 20/11/2026
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-20
 - **Categoria:** Recursos
-- **Menu:** Atualizações › Novembro 2026 › 20/11/2026
+- **Menu:** Atualizações › Novembro 2026 › Atualizações 20/11/2026
 
 ---
 
@@ -12,13 +12,13 @@ Todas as novidades abaixo estão disponíveis a partir da versão **WS-30.141.0*
 
 #### Novidades
 
-⚡️ **Quadro por atendente:** no Atendimento, o **Quadro de Atendimentos** ganhou a visão **Atendentes**, com uma coluna para cada pessoa, e arrastar o card até a coluna de alguém transfere o atendimento.
+⚡️ **Quadro por atendente:** no Atendimento, o **Quadro de atendimentos** ganhou a visão **Atendentes**, com uma coluna para cada pessoa, e arrastar o card até a coluna de alguém transfere o atendimento.
 
 ⚡️ **Busca no menu:** o menu lateral ganhou uma busca, que acha o item pelo nome e pela descrição, também dentro dos submenus.
 
 ⚡️ **PDF de toda a conversa:** em **Pesquisar**, o relatório do atendimento junta todos os atendimentos do contato num PDF só.
 
-☑️ **Um pop-up para encerrar:** o topo da conversa, o menu do celular e a janela do **Quadro de Atendimentos** abrem a mesma pergunta, com despedida, sem despedida ou com avaliação.
+☑️ **Um pop-up para encerrar:** o topo da conversa, o menu do celular e a janela do **Quadro de atendimentos** abrem a mesma pergunta, com despedida, sem despedida ou com avaliação.
 
 ☑️ **Respostas Rápidas por categoria:** a tela das **Respostas Rápidas** ganhou o filtro por categoria.
 
@@ -46,7 +46,7 @@ Todas as novidades abaixo estão disponíveis a partir da versão **WS-30.141.0*
 
 ☑️ **Resumo automático:** pelo WhatsApp, o **Resumo automático** mostra minutos quando o tempo é curto e diz "igual" quando o número não mudou.
 
-⚡️ **Enviar e-mail:** no FlowBuilder, chegou o bloco **Enviar e-mail**, com os caminhos **Enviado** e **Não enviado**.
+⚡️ **Enviar e-mail:** no FlowBuilder Nativo, chegou o bloco **Enviar e-mail**, com os caminhos **Enviado** e **Não enviado**.
 
 ⚡️ **Setor padrão para grupos:** nas Conexões, o **Setor padrão para grupos**, na aba **Setores & Tempos**, define o Setor em que os atendimentos em grupo entram em **Aguardando**.
 
@@ -74,7 +74,7 @@ Todas as novidades abaixo estão disponíveis a partir da versão **WS-30.141.0*
 
 ☑️ **Nova Oportunidade:** ainda no CRM, a tela de **Oportunidades** ganhou o botão **Nova Oportunidade**, e as informações adicionais da oportunidade ganharam a tela cheia.
 
-☑️ **Oportunidade na tarefa e pontos:** a tarefa de uma oportunidade mostra o nome dela, e a **Minha Evolução** mostra os pontos que ainda dá para usar em prêmios e os já usados.
+☑️ **Oportunidade na tarefa e pontos:** a tarefa de uma oportunidade mostra o nome dela, e a **Minha evolução** mostra os pontos que ainda dá para usar em prêmios e os já usados.
 
 ⚡️ **Processos por Setor ou Conexão:** na **Avaliação pela IA**, cada Setor ou Conexão pode ter o seu processo ideal de atendimento.
 
@@ -108,13 +108,13 @@ Todas as novidades abaixo estão disponíveis a partir da versão **WS-30.141.0*
 
 ◽ **Nota de abertura no Chat Externo:** no Chat Externo, a nota de abertura diz em qual Setor o atendimento abriu.
 
-## Quadro de Atendimentos por atendente
+## Quadro de atendimentos por atendente
 
 No menu **Quadro de atendimentos**, a barra do topo tem, ao lado de **Colunas** e **Tags**, a visão **Atendentes**.
 
 ➡️ A visão **Atendentes** mostra os **Pendentes** e uma coluna para cada pessoa que está online ou tem atendimento aberto, marcando quem está *Online agora* e quem está *Fora do ar*.
 
-➡️ Arraste o card até a coluna de alguém. O **Quadro de Atendimentos** pergunta antes, *"Transferir para …?"*, e, confirmado, transfere o atendimento para essa pessoa, no mesmo Setor, como o **Transferir** da conversa. Nada é enviado ao cliente.
+➡️ Arraste o card até a coluna de alguém. O **Quadro de atendimentos** pergunta antes, *"Transferir para …?"*, e, confirmado, transfere o atendimento para essa pessoa, no mesmo Setor, como o **Transferir** da conversa. Nada é enviado ao cliente.
 
 ➡️ O atendimento fica em **Pendentes** até a pessoa aceitar.
 
@@ -134,7 +134,7 @@ No menu **Quadro de atendimentos**, a barra do topo tem, ao lado de **Colunas** 
 
 ## Encerrar e Respostas Rápidas
 
-➡️ Encerrar pelo topo da conversa, nas duas escolhas das **Ações do topo do ticket**, pelo menu do celular ou pela janela do **Quadro de Atendimentos** abre o mesmo pop-up: *"Deseja deixar uma avaliação de atendimento para o cliente?"*, com **Encerrar com despedida**, **Encerrar sem despedida** e **Encerrar com avaliação**.
+➡️ Encerrar pelo topo da conversa, nas duas escolhas das **Ações do topo do ticket**, pelo menu do celular ou pela janela do **Quadro de atendimentos** abre o mesmo pop-up: *"Deseja deixar uma avaliação de atendimento para o cliente?"*, com **Encerrar com despedida**, **Encerrar sem despedida** e **Encerrar com avaliação**.
 
 ➡️ No menu **Respostas Rápidas**, o filtro **Filtrar por categoria** mostra **Todas as categorias**, cada categoria ou **Sem categoria**.
 
@@ -182,7 +182,7 @@ No menu **Configurações  ›  Opções**, aba **Integrações e segurança**, 
 
 🔘 **Google Analytics nas páginas externas:** o **ID de métricas**, no formato G-XXXXXXXXXX.
 
-🔘 **Páginas que rastreiam** e **Páginas que medem:** marque as páginas que medem as visitas: **Cardápio digital**, também pela mesa, **Loja digital**, **Link na bio**, **Reservas**, **Link de agendamento** e **Rastreio do pedido**. A página desmarcada não mede nada.
+🔘 **Páginas que rastreiam** e **Páginas que medem:** marque as páginas que medem as visitas: **Cardápio digital**, também pela mesa, **Loja digital**, **Link na Bio**, **Reservas**, **Link de agendamento** e **Rastreio do pedido**. A página desmarcada não mede nada.
 
 ➡️ As visitas das páginas marcadas são registradas e, no cardápio e na loja, também quando o cliente vê um produto, põe na sacola e abre a sacola.
 
@@ -196,9 +196,9 @@ No menu **Configurações  ›  Opções**, aba **Integrações e segurança**, 
 
 ➡️ No **Resumo automático** pelo WhatsApp, o tempo de resolução abaixo de 1 hora aparece em minutos, e o número que não mudou vem com "igual".
 
-## Bloco Enviar e-mail no FlowBuilder
+## Bloco Enviar e-mail no FlowBuilder Nativo
 
-➡️ No FlowBuilder, o bloco **Enviar e-mail** envia um e-mail pelo fluxo. Em **Enviar por**, escolha uma das contas de e-mail da empresa ou um provedor de envio.
+➡️ No FlowBuilder Nativo, o bloco **Enviar e-mail** envia um e-mail pelo fluxo. Em **Enviar por**, escolha uma das contas de e-mail da empresa ou um provedor de envio.
 
 ➡️ **Para**, **Assunto** e **Mensagem** aceitam variáveis: o `{{name}}` da mensagem chega trocado pelo nome do contato.
 
@@ -268,7 +268,7 @@ No menu **Setores & Chatbot**, na janela do Setor, aba **Geral**, chegou a opç�
 
 ➡️ A janela da tarefa de uma oportunidade mostra, no alto, o nome da oportunidade.
 
-➡️ A **Minha Evolução** mostra quantos pontos ainda dá para usar em prêmios e quantos já foram usados.
+➡️ A **Minha evolução** mostra quantos pontos ainda dá para usar em prêmios e quantos já foram usados.
 
 ## Processos por Setor ou Conexão na Avaliação pela IA
 

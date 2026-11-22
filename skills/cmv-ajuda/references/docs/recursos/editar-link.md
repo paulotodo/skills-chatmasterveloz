@@ -62,6 +62,6 @@ Acesse o menu → Gestão de Links > ícone Lápis do link
 >
 > **Fechar a janela sem salvar:** Fazer todas as alterações no número e na mensagem, mas clicar no "X" no canto superior direito em vez de clicar no botão **SALVAR**. As alterações serão perdidas.
 >
-> **Esquecer de avisar a automação (FlowBuilder):** Editar a "Mensagem" pré-definida no link e esquecer de ir lá no FlowBuilder alterar a "Condição" que lia a mensagem antiga. O cliente vai enviar o texto novo e o robô não vai reconhecer o gatilho.
+> **Esquecer de avisar a automação (FlowBuilder Nativo):** Editar a "Mensagem" pré-definida no link e esquecer de ir lá no FlowBuilder Nativo alterar a "Condição" que lia a mensagem antiga. O cliente vai enviar o texto novo e o robô não vai reconhecer o gatilho.
 >
 > **Excluir o link em vez de desativá-lo:** Clicar na lixeira (Excluir) para parar uma campanha. Ao fazer isso, você perde todo o histórico do Analytics. O correto para pausar temporariamente é apenas Editar e desmarcar a chave **"Link Ativo"**.

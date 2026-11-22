@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/api-criar-regra-da-equipe-do-quadro
 - **Categoria:** APIs
-- **Menu:** APIs › Quadro de Atendimentos › API Criar Regra da Equipe do Quadro
+- **Menu:** APIs › Quadro de atendimentos › API Criar Regra da Equipe do Quadro
 
 ---
 

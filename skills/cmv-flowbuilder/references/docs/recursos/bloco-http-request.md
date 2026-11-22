@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/bloco-http-request
 - **Categoria:** Recursos
-- **Menu:** FlowBuilder › Blocos › HTTP Request
+- **Menu:** FlowBuilder Nativo › Blocos › HTTP Request
 
 ---
 

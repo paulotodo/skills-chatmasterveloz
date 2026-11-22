@@ -10,11 +10,11 @@
 
 #### Novidades
 
-⚡️ **Saída Sem resposta:** no FlowBuilder, os blocos Pergunta, Menu, Botões, Avaliação, IA e Typebot ganham um tempo de espera e a saída Sem resposta, para quem parou de responder.
+⚡️ **Saída Sem resposta:** no FlowBuilder Nativo, os blocos Pergunta, Menu, Botões, Avaliação, IA e Typebot ganham um tempo de espera e a saída Sem resposta, para quem parou de responder.
 
 ⚡️ **Rodízio por integração:** um sistema externo envia o atendimento e o rodízio cadastrado escolhe o operador, com a mesma regra dos fluxos. Pela integração também dá para listar os rodízios, com nome e situação, e redistribuir um atendimento que já tem responsável, sem duplicar a entrega.
 
-⚡️ **Respostas rápidas pela API:** crie e consulte respostas rápidas gerais, por Setor ou individuais, como na tela.
+⚡️ **Respostas Rápidas pela API:** crie e consulte respostas rápidas gerais, por Setor ou individuais, como na tela.
 
 ⚡️ **Fluxos pela API:** crie um fluxo completo em uma única chamada, inclusive a partir de um fluxo exportado.
 

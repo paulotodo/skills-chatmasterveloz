@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/bloco-msg-interna
 - **Categoria:** Recursos
-- **Menu:** FlowBuilder › Blocos › Msg Interna
+- **Menu:** FlowBuilder Nativo › Blocos › Msg Interna
 
 ---
 

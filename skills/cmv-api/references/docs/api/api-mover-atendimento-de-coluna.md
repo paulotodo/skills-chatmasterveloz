@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/api-mover-atendimento-de-coluna
 - **Categoria:** APIs
-- **Menu:** APIs › Quadro de Atendimentos › API Mover Atendimento de Coluna
+- **Menu:** APIs › Quadro de atendimentos › API Mover Atendimento de Coluna
 
 ---
 

@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/bloco-variavel
 - **Categoria:** Recursos
-- **Menu:** FlowBuilder › Blocos › Variável
+- **Menu:** FlowBuilder Nativo › Blocos › Variável
 
 ---
 

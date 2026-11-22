@@ -1,4 +1,4 @@
-# 02/11/2026
+# Atualizações 02/11/2026
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-02
 - **Categoria:** Recursos
@@ -10,7 +10,7 @@
 
 #### Novidades
 
-⚡️ **Cardápio Digital:** no PDV, o cliente monta o pedido na página da loja, entra com o celular e um código que chega no WhatsApp, e o pedido cai confirmado no PDV. Dá para pagar na hora, por Pix ou por link.
+⚡️ **Cardápio digital:** no PDV, o cliente monta o pedido na página da loja, entra com o celular e um código que chega no WhatsApp, e o pedido cai confirmado no PDV. Dá para pagar na hora, por Pix ou por link.
 
 ⚡️ **Mesas com QR Code:** ainda no PDV, cada mesa do salão ganha um QR Code: o cliente pede pela mesa, e a cozinha recebe o pedido com o nome dela. A equipe fecha a conta da mesa em **Comandas**.
 

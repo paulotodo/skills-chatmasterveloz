@@ -16,7 +16,7 @@
 
 ➡️ **O sistema externo nos avisa:** o webhook dele aponta para o endereço do seu Webhook Trigger.
 
-➡️ **Um fluxo começa:** o Flowbuilder inicia a conversa que você configurou nesse Trigger.
+➡️ **Um fluxo começa:** o FlowBuilder Nativo inicia a conversa que você configurou nesse Trigger.
 
 ## 1. Crie o Webhook Trigger
 

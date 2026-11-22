@@ -44,7 +44,7 @@ Acesse o menu **Conexões  ›  editar a Conexão  ›  aba Setores & Tempos**
 
 Quantos Setores você marca muda o que o cliente encontra:
 
-➡️ **Um Setor:** a conversa vai direto para ele — e, se esse Setor tiver um fluxo do **FlowBuilder**, é o fluxo que recebe o cliente.
+➡️ **Um Setor:** a conversa vai direto para ele — e, se esse Setor tiver um fluxo do **FlowBuilder Nativo**, é o fluxo que recebe o cliente.
 
 ➡️ **Dois ou mais:** quem recebe o cliente é o chatbot, com um menu para ele escolher o Setor. Neste caso, a **Mensagem de saudação** da Conexão, na aba Mensagens, é obrigatória: sem ela, a Conexão não salva.
 

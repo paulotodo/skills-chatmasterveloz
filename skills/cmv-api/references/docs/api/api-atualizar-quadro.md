@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/api-atualizar-quadro
 - **Categoria:** APIs
-- **Menu:** APIs › Quadro de Atendimentos › API Atualizar Quadro
+- **Menu:** APIs › Quadro de atendimentos › API Atualizar Quadro
 
 ---
 

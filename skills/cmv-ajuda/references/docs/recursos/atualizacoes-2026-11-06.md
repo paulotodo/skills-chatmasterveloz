@@ -12,23 +12,23 @@ Todas as novidades abaixo estão disponíveis a partir da versão **WS-29.859.0*
 
 #### Novidades
 
-⚡️ **Link na Bio:** a página pública da empresa, num endereço só, com foto, descrição e até 30 botões. Um botão leva ao Cardápio Digital, outro a qualquer link, e o chat do site abre na própria página. A tela conta os toques de cada botão nos últimos 30 dias.
+⚡️ **Link na Bio:** a página pública da empresa, num endereço só, com foto, descrição e até 30 botões. Um botão leva ao Cardápio digital, outro a qualquer link, e o chat do site abre na própria página. A tela conta os toques de cada botão nos últimos 30 dias.
 
 ⚡️ **Avaliação pela IA:** cada atendimento encerrado ganha uma nota de 0 a 10. O relatório traz a nota média e um índice estilo NPS, com os números por atendente e por Setor, e cada atendente recebe uma aula curta. Nada disso vai ao cliente.
 
-⚡️ **Cupons:** no PDV, no Cardápio Digital, chegaram os cupons por código, de boas-vindas, de aniversário e de fidelidade, com desconto em porcentagem ou em reais, validade, pedido mínimo e limite de usos.
+⚡️ **Cupons:** no PDV, no Cardápio digital, chegaram os cupons por código, de boas-vindas, de aniversário e de fidelidade, com desconto em porcentagem ou em reais, validade, pedido mínimo e limite de usos.
 
-⚡️ **Cashback:** ainda no Cardápio Digital, o cliente recebe de volta uma parte de cada pedido entregue, para usar na próxima compra. Você define o percentual, o saldo mínimo e a validade.
+⚡️ **Cashback:** ainda no Cardápio digital, o cliente recebe de volta uma parte de cada pedido entregue, para usar na próxima compra. Você define o percentual, o saldo mínimo e a validade.
 
-⚡️ **Modelo Vitrine:** ainda no Cardápio Digital, a loja ganhou o modelo **Vitrine**, com capa grande, produtos em grade e categorias na lateral.
+⚡️ **Modelo Vitrine:** ainda no Cardápio digital, a loja ganhou o modelo **Vitrine**, com capa grande, produtos em grade e categorias na lateral.
 
-⚡️ **Destaques, Os mais pedidos e preço antigo:** ainda no Cardápio Digital, entram as seções **Destaques** e **Os mais pedidos**, que se monta sozinha, e o preço antigo aparece riscado, com o desconto em porcentagem.
+⚡️ **Destaques, Os mais pedidos e preço antigo:** ainda no Cardápio digital, entram as seções **Destaques** e **Os mais pedidos**, que se monta sozinha, e o preço antigo aparece riscado, com o desconto em porcentagem.
 
-⚡️ **Dias da semana e horário da mesa:** ainda no Cardápio Digital, cada dia da semana ganhou a opção **Aberto**, e a mesa pode ter horário próprio, diferente do pedido online.
+⚡️ **Dias da semana e horário da mesa:** ainda no Cardápio digital, cada dia da semana ganhou a opção **Aberto**, e a mesa pode ter horário próprio, diferente do pedido online.
 
-☑️ **Produtos no Cardápio:** ainda no Cardápio Digital, a opção **Ativo no Cardápio** tira o produto da loja sem tirar do cadastro, a observação do cliente se liga por categoria e, com o estoque zerado, o produto aparece como **Indisponível**.
+☑️ **Produtos no Cardápio:** ainda no Cardápio digital, a opção **Ativo no Cardápio** tira o produto da loja sem tirar do cadastro, a observação do cliente se liga por categoria e, com o estoque zerado, o produto aparece como **Indisponível**.
 
-◽ **WhatsApp da loja:** ainda no Cardápio Digital, o texto de ajuda do campo foi corrigido.
+◽ **WhatsApp da loja:** ainda no Cardápio digital, o texto de ajuda do campo foi corrigido.
 
 ⚡️ **Lançar na mesa:** no PDV, o garçom lança o pedido pelo painel. Em mesa livre, abre a conta; em mesa com conta aberta, soma na conta.
 
@@ -110,9 +110,9 @@ No menu **Avaliação pela IA**, administrador e supervisor veem as abas **Relat
 
 ➡️ O bloco **Avaliação dos atendimentos pela IA** fica no menu **Configurações  ›  Opções**, para o administrador, com os horários das rodadas.
 
-## Cupons e cashback no Cardápio Digital
+## Cupons e cashback no Cardápio digital
 
-No editor do Cardápio Digital, **Novo cupom** abre o cadastro, e o **Tipo** define quem usa:
+No editor do Cardápio digital, **Novo cupom** abre o cadastro, e o **Tipo** define quem usa:
 
 ➡️ **Por código:** vale para quem digitar o código na sacola.
 
@@ -126,7 +126,7 @@ O bloco **Cashback** tem **Cashback em cada pedido (%)**, **Saldo mínimo para u
 
 ## Modelo Vitrine, seções e preço antigo
 
-No editor do Cardápio Digital, o campo **Modelo** oferece **Vitrine**. **Carregar este modelo** leva o modelo para o editor, e a loja muda quando você salva. No computador, as categorias ficam na lateral; no celular, em faixa, com os produtos em duas colunas.
+No editor do Cardápio digital, o campo **Modelo** oferece **Vitrine**. **Carregar este modelo** leva o modelo para o editor, e a loja muda quando você salva. No computador, as categorias ficam na lateral; no celular, em faixa, com os produtos em duas colunas.
 
 ➡️ **Destaques** mostra os produtos marcados com destaque, no topo da loja, e eles continuam na categoria.
 
@@ -146,7 +146,7 @@ Com **A loja abre só nos horários abaixo** ligado, cada dia ganha a opção **
 
 ➡️ **Pedir observação nos produtos**, em **Editar categoria**, decide se os produtos da categoria e das subcategorias mostram o campo de observação.
 
-➡️ Com o estoque zerado, o produto mostra **Indisponível** e não pode ser pedido pela loja. Quem vende sem estoque decide isso na opção **Cardápio Digital: mostrar "Indisponível" quando o estoque zerar**.
+➡️ Com o estoque zerado, o produto mostra **Indisponível** e não pode ser pedido pela loja. Quem vende sem estoque decide isso na opção **Cardápio digital: mostrar "Indisponível" quando o estoque zerar**.
 
 ## Lançar na mesa e pedidos do contato
 
@@ -188,7 +188,7 @@ Depois de salva a reunião, **Convidar por e-mail** abre a janela com **E-mails*
 
 ## Migrar conexão
 
-Acesse o menu **Conexões  ›  Ações  ›  Migrar Tickets para Outra Conexão**. Junto com os atendimentos, vão os agendamentos que ainda vão ser enviados, a conexão padrão, o acesso dos usuários e os gatilhos de Webhook do FlowBuilder que iniciam o fluxo por esta conexão.
+Acesse o menu **Conexões  ›  Ações  ›  Migrar Tickets para Outra Conexão**. Junto com os atendimentos, vão os agendamentos que ainda vão ser enviados, a conexão padrão, o acesso dos usuários e os gatilhos de Webhook do FlowBuilder Nativo que iniciam o fluxo por esta conexão.
 
 ➡️ Depois de **Confirmar Migração**, a janela mostra o **Resultado da Migração**, parte a parte.
 

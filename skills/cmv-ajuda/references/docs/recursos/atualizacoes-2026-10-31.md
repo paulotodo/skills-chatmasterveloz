@@ -1,4 +1,4 @@
-# 31/10/2026
+# Atualizações 31/10/2026
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-10-31
 - **Categoria:** Recursos
@@ -124,7 +124,7 @@ No cadastro do produto do CRM, a **Cobrança padrão** tem **Única**, **Mensal*
 
 ➡️ Em **Propostas**, a lista mostra o **Total único** e a **Anuidade**, como *R$ 1.200,00/ano*.
 
-➡️ No **Relatório de Vendas**, a tabela ganhou **Cobrança única** e **Anuidade**, e a planilha exportada traz a **Mensalidade**, a **Anuidade** e as **Tags** de cada oportunidade.
+➡️ No **Relatório de vendas**, a tabela ganhou **Cobrança única** e **Anuidade**, e a planilha exportada traz a **Mensalidade**, a **Anuidade** e as **Tags** de cada oportunidade.
 
 #### O que você precisa fazer
 

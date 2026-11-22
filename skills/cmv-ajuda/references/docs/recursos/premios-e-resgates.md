@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/premios-e-resgates
 - **Categoria:** Recursos
-- **Menu:** CRM › Minha Evolução › Prêmios e Resgates
+- **Menu:** CRM › Minha evolução › Prêmios e Resgates
 
 ---
 

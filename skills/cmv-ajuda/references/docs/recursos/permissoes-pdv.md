@@ -12,7 +12,7 @@
 
 | No PDV | Administrador | Supervisor | Atendente | Entregador | Garçom |
 |---|---|---|---|---|---|
-| Itens do menu **PDV** | todos | todos | **Pedidos**, **Balcão**, **Mesas e Comandas**, **Painel de pedidos** e **Caixa** | nenhum: vê só **Minhas entregas** | nenhum: vê só **Mesas e comandas** |
+| Itens do menu **PDV** | todos | todos | **Pedidos**, **Balcão**, **Mesas e Comandas**, **Painel de pedidos** e **Caixa** | nenhum: vê só **Minhas entregas** | nenhum: vê só **Mesas e Comandas** |
 | Montar pedido na conversa | sim | sim | sim | não | não |
 | Confirmar pedido com desconto acima do limite | sim | sim | não | não | não |
 | Pedidos na lista **Pedidos** | todos | todos | só os dele | — | — |
@@ -52,7 +52,7 @@ O **Custo** do produto aparece só para administrador e supervisor, no cadastro 
 
 ➡️ O **Garçom** é um perfil do cadastro de usuário, escolhido no menu **Equipe**, ao criar ou editar a pessoa. Ele vem junto com a página **Mesas e Comandas**: quando ela não está no seu menu **PDV**, o **Garçom** também não aparece na lista de perfis.
 
-➡️ Quem entra com o perfil **Garçom** não vê o menu nem os atendimentos: a plataforma inteira vira a tela **Mesas e comandas**, com o salão e a comissão dele no topo.
+➡️ Quem entra com o perfil **Garçom** não vê o menu nem os atendimentos: a plataforma inteira vira a tela **Mesas e Comandas**, com o salão e a comissão dele no topo.
 
 ➡️ Na conta da mesa, o garçom transfere a mesa, muda as pessoas e o cliente, divide a conta, imprime a conta e lança pedidos. A taxa de serviço, o desconto, o pagamento, **Fechar mesa** e **Juntar com outra mesa** ficam com o caixa.
 
@@ -80,7 +80,7 @@ O **Custo** do produto aparece só para administrador e supervisor, no cadastro 
 >
 > **O entregador entrou e não vê os atendimentos.** É o perfil **Entregador**: ele vê só a tela **Minhas entregas**. Para atender clientes, a pessoa precisa de outro perfil.
 >
-> **O garçom entrou e só vê as mesas.** É o perfil **Garçom**: a plataforma inteira vira a tela **Mesas e comandas**, onde ele abre as mesas e lança os pedidos. Para atender clientes na conversa, a pessoa precisa de outro perfil.
+> **O garçom entrou e só vê as mesas.** É o perfil **Garçom**: a plataforma inteira vira a tela **Mesas e Comandas**, onde ele abre as mesas e lança os pedidos. Para atender clientes na conversa, a pessoa precisa de outro perfil.
 >
 > **O perfil Garçom não aparece na lista de perfis da Equipe.** O **Garçom** vem junto com a página **Mesas e Comandas**: se ela não está no seu menu **PDV**, o perfil também não aparece, porque os dois dependem do seu plano.
 >

@@ -78,7 +78,7 @@ Só aparece com conteúdo **depois de salvar** a conexão: no cadastro novo, a a
 
 ## Botões e menu do fluxo no Web Chat
 
-Quando o Setor da conexão roda um fluxo do **FlowBuilder**, o bloco **Botões** e o **Menu em Lista** chegam clicáveis no chat do site: o visitante toca na opção em vez de digitar, e o fluxo segue na hora. No **Menu em Lista**, o botão da lista abre as opções dentro do chat.
+Quando o Setor da conexão roda um fluxo do **FlowBuilder Nativo**, o bloco **Botões** e o **Menu em Lista** chegam clicáveis no chat do site: o visitante toca na opção em vez de digitar, e o fluxo segue na hora. No **Menu em Lista**, o botão da lista abre as opções dentro do chat.
 
 Só a última mensagem com opções aceita o toque: as opções das mensagens anteriores ficam desativadas no chat do site, e o toque numa delas é recusado.
 

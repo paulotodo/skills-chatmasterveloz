@@ -1,4 +1,4 @@
-# 30/10/2026
+# Atualizações 30/10/2026
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-10-30
 - **Categoria:** Recursos
@@ -50,7 +50,7 @@
 
 ◽ **Automação do funil:** no CRM, a oportunidade criada pela automação do funil mantém o nome da original.
 
-◽ **Respostas rápidas com fluxo:** nas conexões oficiais, o fluxo vai até o fim, sem contato repetido.
+◽ **Respostas Rápidas com fluxo:** nas conexões oficiais, o fluxo vai até o fim, sem contato repetido.
 
 ## PagSeguro no PDV
 

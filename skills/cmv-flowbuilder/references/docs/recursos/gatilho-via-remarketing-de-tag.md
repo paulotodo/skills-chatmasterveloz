@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/gatilho-via-remarketing-de-tag
 - **Categoria:** Recursos
-- **Menu:** FlowBuilder › Pontos de Entrada (Gatilho) › Gatilho via Remarketing de Tag
+- **Menu:** FlowBuilder Nativo › Pontos de Entrada (Gatilho) › Gatilho via Remarketing de Tag
 
 ---
 

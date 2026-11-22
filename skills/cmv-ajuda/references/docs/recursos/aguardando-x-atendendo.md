@@ -48,7 +48,7 @@ Nenhum atendimento ativo dentro dele.
 
 Pode estar:  
 - esperando alguém da equipe puxar; ou
-- sendo atendido por uma **automação** (chatbot, FlowBuilder, IA) — ele continua em Aguardando enquanto não tem atendente humano.
+- sendo atendido por uma **automação** (chatbot, FlowBuilder Nativo, IA) — ele continua em Aguardando enquanto não tem atendente humano.
 
 ### 🟢 **Atendendo**
 

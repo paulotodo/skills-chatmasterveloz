@@ -1,8 +1,8 @@
-# 16/11/2026
+# Atualizações 16/11/2026
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-16
 - **Categoria:** Recursos
-- **Menu:** Atualizações › Novembro 2026 › 16/11/2026
+- **Menu:** Atualizações › Novembro 2026 › Atualizações 16/11/2026
 
 ---
 

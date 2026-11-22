@@ -1,4 +1,4 @@
-# 01/11/2026
+# Atualizações 01/11/2026
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-01
 - **Categoria:** Recursos
@@ -20,7 +20,7 @@
 
 ⚡️ **Ação em massa na etapa:** no quadro do **CRM**, cada etapa envia uma mensagem ou um template para todos os contatos dela, com intervalo entre os envios e tudo em **Agendamentos**, ou aplica uma tag em todos de uma vez.
 
-☑️ **Metas da campanha:** ainda no CRM, em **Minha Evolução**, as metas mostram o percentual com barra colorida, quanto falta e o gráfico do ritmo.
+☑️ **Metas da campanha:** ainda no CRM, em **Minha evolução**, as metas mostram o percentual com barra colorida, quanto falta e o gráfico do ritmo.
 
 ⚡️ **Logs do rodízio:** na tela **Rodízios**, os registros das últimas 24 horas mostram por que um atendimento foi para o transbordo e por que cada pessoa não recebeu.
 
@@ -44,7 +44,7 @@
 
 #### Correções
 
-◽ **Respostas rápidas:** editar a legenda de uma resposta rápida com arquivo não faz mais o arquivo sumir. As que estavam chegando só com o texto foram recuperadas.
+◽ **Respostas Rápidas:** editar a legenda de uma resposta rápida com arquivo não faz mais o arquivo sumir. As que estavam chegando só com o texto foram recuperadas.
 
 ◽ **Instagram e Facebook:** o reel ou o link que o cliente compartilha no **Direct** aparece na conversa, e cada mensagem do Instagram e do Facebook entra uma vez só.
 

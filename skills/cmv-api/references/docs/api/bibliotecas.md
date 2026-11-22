@@ -132,7 +132,7 @@
 | Recurso | Pro | Básica | Oficial |
 |---|---|---|---|
 | Listar Fluxos | ✔️ | ✔️ | ✔️ |
-| Mensagem via Flowbuilder | ✔️ | ✔️ | ✔️ |
+| Mensagem via FlowBuilder Nativo | ✔️ | ✔️ | ✔️ |
 | Mensagem via Typebot | ✔️ | ✔️ | ✔️ |
 
 ## Tags                              

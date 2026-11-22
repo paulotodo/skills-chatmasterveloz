@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/bloco-retornar-ultimo-atendimento
 - **Categoria:** Recursos
-- **Menu:** FlowBuilder › Blocos › Retornar último atendimento
+- **Menu:** FlowBuilder Nativo › Blocos › Retornar último atendimento
 
 ---
 

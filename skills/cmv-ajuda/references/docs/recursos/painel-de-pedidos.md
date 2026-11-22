@@ -1,8 +1,8 @@
-# Painel de Pedidos
+# Painel de pedidos
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/painel-de-pedidos
 - **Categoria:** Recursos
-- **Menu:** PDV › Painel de Pedidos
+- **Menu:** PDV › Painel de pedidos
 
 ---
 

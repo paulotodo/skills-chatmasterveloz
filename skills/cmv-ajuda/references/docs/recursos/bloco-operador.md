@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/bloco-operador
 - **Categoria:** Recursos
-- **Menu:** FlowBuilder › Blocos › Operador
+- **Menu:** FlowBuilder Nativo › Blocos › Operador
 
 ---
 
@@ -44,7 +44,7 @@ No desenho, o bloco mostra o atendente e o Setor, e não tem saída: o fluxo ter
 
 O atendimento vai direto para o atendente, em **Atendendo**.
 
-Com a opção **Bloco Operador do Flowbuilder deixa no Aguardando (MEUS)?** ligada nas configurações da empresa, o atendimento chega no **Aguardando (MEUS)** do atendente, e não em **Atendendo**. Essa opção depende de **Aguardando com dono: só ele vê?** também ligada.
+Com a opção **Bloco Operador do FlowBuilder Nativo deixa no Aguardando (MEUS)?** ligada nas configurações da empresa, o atendimento chega no **Aguardando (MEUS)** do atendente, e não em **Atendendo**. Essa opção depende de **Aguardando com dono: só ele vê?** também ligada.
 
 > **[DUVIDAS]**
 >

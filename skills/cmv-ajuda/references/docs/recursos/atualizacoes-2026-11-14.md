@@ -1,4 +1,4 @@
-# 14/11/2026
+# Atualizações 14/11/2026
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-14
 - **Categoria:** Recursos

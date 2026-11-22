@@ -52,9 +52,9 @@ Com as **Ações do topo do ticket** em **Agrupadas**, o **Pedido** e o **Consul
 
 🔘 **Minhas entregas**: a tela de quem entra com o perfil **Entregador**.
 
-🔘 **Mesas e comandas**: a tela de quem entra com o perfil **Garçom**, com o salão e a comissão dele.
+🔘 **Mesas e Comandas**: a tela de quem entra com o perfil **Garçom**, com o salão e a comissão dele.
 
-🔘 **PDV (pedido no fluxo)**, no FlowBuilder: o bloco que deixa o cliente fazer o pedido sozinho, pela conversa.
+🔘 **PDV (pedido no fluxo)**, no FlowBuilder Nativo: o bloco que deixa o cliente fazer o pedido sozinho, pela conversa.
 
 > **[DUVIDAS]**
 >

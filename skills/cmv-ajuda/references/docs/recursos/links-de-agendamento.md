@@ -1,8 +1,8 @@
-# Links de Agendamento
+# Links de agendamento
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/links-de-agendamento
 - **Categoria:** Recursos
-- **Menu:** Links de Agendamento
+- **Menu:** Links de agendamento
 
 ---
 

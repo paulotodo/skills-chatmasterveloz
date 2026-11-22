@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/bloco-tags
 - **Categoria:** Recursos
-- **Menu:** FlowBuilder › Blocos › Tag
+- **Menu:** FlowBuilder Nativo › Blocos › Tag
 
 ---
 

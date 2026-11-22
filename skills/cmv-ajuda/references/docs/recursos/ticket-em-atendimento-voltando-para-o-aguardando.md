@@ -14,7 +14,7 @@ Ticket em **Atendimento** voltando para **Aguardando** de forma automática.
 
 Verificar automações ou funcionalidades rodando em paralelo que tenha o comportamento de voltar o ticket ao aguardando:
 
-➡️ Flowbuilder
+➡️ FlowBuilder Nativo
 
 ➡️ Campanhas
 

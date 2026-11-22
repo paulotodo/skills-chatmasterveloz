@@ -21,7 +21,7 @@ Não é preciso chamar a skill pelo nome: basta fazer o pedido, e o Claude escol
 claude --plugin-dir /caminho/para/skills-chatmasterveloz
 ```
 
-**Claude Code, de forma permanente:** copie as pastas de `skills/` para `~/.claude/skills/` (valem em qualquer projeto) ou para `.claude/skills/` de um projeto.
+**Claude Code, de forma permanente:** copie as pastas de `skills/` para `~/.claude/skills/` (valem em qualquer projeto) ou para `.claude/skills/` de um projeto. Se você já enviou os pacotes ao claude.ai e entra no Claude Code com a mesma conta, elas chegam sozinhas (aparecem em `/skills` sob "claude.ai sync") e a cópia é dispensável.
 
 ```bash
 cp -r skills/cmv-* ~/.claude/skills/

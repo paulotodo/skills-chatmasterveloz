@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/reservas-agendar-no-fluxo
 - **Categoria:** Recursos
-- **Menu:** FlowBuilder › Blocos › Reservas (agendar no fluxo)
+- **Menu:** FlowBuilder Nativo › Blocos › Reservas (agendar no fluxo)
 
 ---
 

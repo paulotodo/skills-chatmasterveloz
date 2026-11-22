@@ -22,7 +22,7 @@ Ideal para:
 >
 > #### Resumo Prático
 >
-> ➡️ Monte o fluxo em **FlowBuilder**.
+> ➡️ Monte o fluxo em **FlowBuilder Nativo**.
 >
 > ➡️ No menu **Setores & Chatbot**, edite o Setor e escolha o fluxo no campo **Fluxos de Automação**, na aba Geral.
 >
@@ -32,7 +32,7 @@ Ideal para:
 
 O caminho tem três etapas, e ele só funciona com as três. É comum montar o fluxo, achar que acabou, e não entender por que nada acontece — falta amarrar as outras duas.
 
-⚡ **O fluxo**, montado em **FlowBuilder**. É o roteiro: o que perguntar, o que fazer com a resposta, quando chamar um humano.
+⚡ **O fluxo**, montado em **FlowBuilder Nativo**. É o roteiro: o que perguntar, o que fazer com a resposta, quando chamar um humano.
 
 ⚡ **O vínculo com o Setor**, no campo **Fluxos de Automação** da aba Geral do Setor. É o que diz ao sistema que aquele fluxo pertence àquele Setor.
 

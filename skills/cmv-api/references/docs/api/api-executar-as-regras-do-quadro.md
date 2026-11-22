@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/api-executar-as-regras-do-quadro
 - **Categoria:** APIs
-- **Menu:** APIs › Quadro de Atendimentos › API Executar as Regras do Quadro
+- **Menu:** APIs › Quadro de atendimentos › API Executar as Regras do Quadro
 
 ---
 

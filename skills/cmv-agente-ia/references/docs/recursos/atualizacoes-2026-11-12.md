@@ -1,4 +1,4 @@
-# 12/11/2026
+# Atualizações 12/11/2026
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-12
 - **Categoria:** Recursos
@@ -30,7 +30,7 @@ Todas as novidades abaixo estão disponíveis a partir da versão **WS-30.5.0**.
 
 ⚡️ **Avisos buscados de novo:** pela API, dá para buscar de novo os avisos do webhook dos últimos 7 dias e conferir a assinatura feita com o Token da Empresa.
 
-⚡️ **Quadro de Atendimentos pela API:** pela API, dá para trabalhar no Quadro de Atendimentos: quadros, colunas, fixar e soltar.
+⚡️ **Quadro de atendimentos pela API:** pela API, dá para trabalhar no Quadro de atendimentos: quadros, colunas, fixar e soltar.
 
 ⚡️ **Mensagens agendadas pela API:** a API lista, mostra e edita as mensagens agendadas que ainda não foram enviadas.
 
@@ -82,7 +82,7 @@ Todas as novidades abaixo estão disponíveis a partir da versão **WS-30.5.0**.
 
 No menu **PDV  ›  Produtos**, a janela do produto tem o campo **Preço Delivery**, logo depois de **Preço**, com a ajuda *Vale nos pedidos de entrega e nos pedidos pelo site. Em branco, vale o preço de venda.* Cada linha de **Variações** também tem o seu **Preço Delivery**.
 
-➡️ O pedido pelo site, no Cardápio Digital, usa o **Preço Delivery**. Um lanche de R$ 26,90 com Preço Delivery de R$ 29,90 aparece por R$ 29,90 no site e por R$ 26,90 na mesa.
+➡️ O pedido pelo site, no Cardápio digital, usa o **Preço Delivery**. Um lanche de R$ 26,90 com Preço Delivery de R$ 29,90 aparece por R$ 29,90 no site e por R$ 26,90 na mesa.
 
 ➡️ A mesa, a comanda e o balcão usam o preço de venda.
 
@@ -94,11 +94,11 @@ No menu **PDV  ›  Produtos**, a janela do produto tem o campo **Preço Deliver
 
 Na janela do produto, em **Adicionais**, cada adicional e cada sabor de um grupo tem **Ativa**, para ligar e desligar.
 
-➡️ Desligado, o adicional ou o sabor some do Cardápio Digital e da mesa. O preço dele, inclusive o de cada tamanho, continua guardado: ligado de novo, ele volta igual.
+➡️ Desligado, o adicional ou o sabor some do Cardápio digital e da mesa. O preço dele, inclusive o de cada tamanho, continua guardado: ligado de novo, ele volta igual.
 
 ➡️ Se um grupo fica com menos opções ativas do que o **Mínimo** pede, salvar avisa, como *Produto salvo. Atenção: Sabores pede mais escolhas do que as opções ativas permitem, e o produto fica esgotado no cardápio até você ativar mais opções.*
 
-➡️ Enquanto o grupo estiver assim, o produto aparece como **Indisponível** no Cardápio Digital.
+➡️ Enquanto o grupo estiver assim, o produto aparece como **Indisponível** no Cardápio digital.
 
 ## IA nos grupos pelo Setor
 
@@ -152,7 +152,7 @@ Mudar o atendimento pela API avisa o webhook da conexão como o painel avisa, co
 
 ## Novas portas da API
 
-➡️ **Quadro de Atendimentos:** a API lista os quadros com as colunas e cria, edita e apaga quadros e colunas. A coluna fixa não é apagada. As ações feitas por uma pessoa pedem o `userId`, e a resposta respeita o que essa pessoa pode ver.
+➡️ **Quadro de atendimentos:** a API lista os quadros com as colunas e cria, edita e apaga quadros e colunas. A coluna fixa não é apagada. As ações feitas por uma pessoa pedem o `userId`, e a resposta respeita o que essa pessoa pode ver.
 
 ➡️ **Mensagens agendadas:** a API lista as mensagens agendadas em páginas, com a situação de cada uma (**pendente**, **enviado** ou **erro**), mostra uma e edita a que ainda não foi enviada. Editar a já enviada ou pôr a data no passado é recusado.
 

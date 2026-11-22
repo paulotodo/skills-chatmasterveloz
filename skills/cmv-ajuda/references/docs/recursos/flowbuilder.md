@@ -1,16 +1,16 @@
-# FlowBuilder
+# FlowBuilder Nativo
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/flowbuilder
 - **Categoria:** Recursos
-- **Menu:** FlowBuilder
+- **Menu:** FlowBuilder Nativo
 
 ---
 
 🧩 Quantas vezes por dia sua equipe responde as mesmas perguntas: horário, endereço, segunda via, "com quem eu falo sobre isso"? Enquanto alguém digita a mesma resposta pela vigésima vez, o cliente que precisava de uma pessoa espera.
 
-O **FlowBuilder** desenha o caminho que a conversa percorre antes de chegar a uma pessoa, ou sem precisar de uma. O caminho é feito de **blocos** ligados por linhas, e cada bloco faz uma coisa: envia uma mensagem, faz uma pergunta, guarda a resposta, decide o próximo passo, consulta outro sistema ou entrega o atendimento a um **Setor**. O fluxo responde na hora, a qualquer hora, sem uma linha de código.
+O **FlowBuilder Nativo** desenha o caminho que a conversa percorre antes de chegar a uma pessoa, ou sem precisar de uma. O caminho é feito de **blocos** ligados por linhas, e cada bloco faz uma coisa: envia uma mensagem, faz uma pergunta, guarda a resposta, decide o próximo passo, consulta outro sistema ou entrega o atendimento a um **Setor**. O fluxo responde na hora, a qualquer hora, sem uma linha de código.
 
-## Como o FlowBuilder se organiza
+## Como o FlowBuilder Nativo se organiza
 
 ⚡ **Fluxos e editor** — a lista de fluxos, as categorias que os agrupam e o editor onde cada fluxo é desenhado e conferido.
 
@@ -30,6 +30,6 @@ O **FlowBuilder** desenha o caminho que a conversa percorre antes de chegar a um
 >
 > #### Dúvidas Comuns
 >
-> **Quem pode montar fluxos no FlowBuilder?** O administrador da empresa. O menu **FlowBuilder Nativo** não aparece para supervisor e atendente.
+> **Quem pode montar fluxos no FlowBuilder Nativo?** O administrador da empresa. O menu **FlowBuilder Nativo** não aparece para supervisor e atendente.
 >
-> **Preciso saber programar para usar o FlowBuilder?** Não. O fluxo é montado com blocos prontos. Alguns blocos de integração aceitam código para quem quiser ir além, mas nenhum fluxo depende deles.
+> **Preciso saber programar para usar o FlowBuilder Nativo?** Não. O fluxo é montado com blocos prontos. Alguns blocos de integração aceitam código para quem quiser ir além, mas nenhum fluxo depende deles.

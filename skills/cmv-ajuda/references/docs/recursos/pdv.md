@@ -38,4 +38,4 @@ O **PDV** (ponto de venda) junta tudo isso na plataforma: o pedido é montado na
 >
 > **A nota que o PDV envia ao cliente é nota fiscal?** Não. A nota do PDV é o resumo do pedido, em texto na conversa e em PDF, com os itens, os valores e a entrega. Ela não substitui o documento fiscal.
 >
-> **O cliente consegue fazer o pedido sozinho, sem um atendente?** Sim, pelo fluxo de atendimento: o bloco **PDV (pedido no fluxo)** do FlowBuilder mostra os produtos numerados, pergunta a quantidade e cria o pedido já confirmado.
+> **O cliente consegue fazer o pedido sozinho, sem um atendente?** Sim, pelo fluxo de atendimento: o bloco **PDV (pedido no fluxo)** do FlowBuilder Nativo mostra os produtos numerados, pergunta a quantidade e cria o pedido já confirmado.

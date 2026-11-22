@@ -50,7 +50,7 @@ Acesse o menu **Prompts OPEN.AI  ›  editar o prompt**
 
 🔘 **Base de conhecimento:** a base que o prompt consulta, ou **Nenhuma**. Nas palavras da tela: *"O material que a IA consulta antes de responder."* Clique em **Salvar** no prompt.
 
-Cada prompt consulta uma base, e a mesma base pode ser escolhida em vários prompts. A base vale em toda conversa que o prompt atende: quando o FlowBuilder leva a conversa ao Setor do prompt pelo bloco **GPT Assistant (OpenAI)**, ou direto no Setor que tem o prompt.
+Cada prompt consulta uma base, e a mesma base pode ser escolhida em vários prompts. A base vale em toda conversa que o prompt atende: quando o FlowBuilder Nativo leva a conversa ao Setor do prompt pelo bloco **GPT Assistant (OpenAI)**, ou direto no Setor que tem o prompt.
 
 ## Como excluir uma base
 

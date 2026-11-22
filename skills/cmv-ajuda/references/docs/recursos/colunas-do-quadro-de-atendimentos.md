@@ -1,8 +1,8 @@
-# Colunas do Quadro de Atendimentos
+# Colunas do Quadro de atendimentos
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/colunas-do-quadro-de-atendimentos
 - **Categoria:** Recursos
-- **Menu:** Quadro de Atendimentos › Colunas do Quadro de Atendimentos
+- **Menu:** Quadro de atendimentos › Colunas do Quadro de atendimentos
 
 ---
 

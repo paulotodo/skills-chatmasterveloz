@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/api-fixar-atendimento-no-topo-da-coluna
 - **Categoria:** APIs
-- **Menu:** APIs › Quadro de Atendimentos › API Fixar Atendimento no Topo da Coluna
+- **Menu:** APIs › Quadro de atendimentos › API Fixar Atendimento no Topo da Coluna
 
 ---
 

@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/automacoes-rapidas
 - **Categoria:** Recursos
-- **Menu:** FlowBuilder › Automações Rápidas
+- **Menu:** FlowBuilder Nativo › Automações Rápidas
 
 ---
 
@@ -36,7 +36,7 @@ Cada cartão mostra quantas etapas o modelo já traz configuradas.
 
 **Criar como rascunho** cria, de uma vez, um **fluxo** e um **Setor** com o mesmo nome do modelo, já ligados um ao outro. A tela confirma: *criada como rascunho. Revise o texto no editor e depois aponte a conexão para esse setor.*
 
-O fluxo aparece na lista do FlowBuilder e o Setor no menu **Setores & Chatbot**. Os dois podem ser renomeados.
+O fluxo aparece na lista do FlowBuilder Nativo e o Setor no menu **Setores & Chatbot**. Os dois podem ser renomeados.
 
 ## Como ativar
 

@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/bloco-horario-de-expediente
 - **Categoria:** Recursos
-- **Menu:** FlowBuilder › Blocos › Horário de Expediente
+- **Menu:** FlowBuilder Nativo › Blocos › Horário de Expediente
 
 ---
 

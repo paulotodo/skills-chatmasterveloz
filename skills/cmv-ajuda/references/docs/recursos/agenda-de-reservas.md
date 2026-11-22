@@ -1,8 +1,8 @@
-# Agenda de Reservas
+# Agenda de reservas
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/agenda-de-reservas
 - **Categoria:** Recursos
-- **Menu:** Reservas › Agenda de Reservas
+- **Menu:** Reservas › Agenda de reservas
 
 ---
 

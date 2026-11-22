@@ -2,13 +2,13 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/bloco-intervalo
 - **Categoria:** Recursos
-- **Menu:** FlowBuilder › Blocos › Intervalo
+- **Menu:** FlowBuilder Nativo › Blocos › Intervalo
 
 ---
 
 🧩 O bloco **Intervalo** faz o fluxo esperar antes de seguir para o próximo bloco. É a pausa de quem fala com calma: dá tempo de o cliente ler uma mensagem antes da seguinte chegar, de um sistema externo terminar o que estava fazendo, ou de o fluxo retomar a conversa mais tarde.
 
-A espera vai de 1 segundo a 24 horas, contada em segundos, minutos ou horas, e o cliente não recebe nada durante a pausa. A espera não depende de o FlowBuilder estar aberto.
+A espera vai de 1 segundo a 24 horas, contada em segundos, minutos ou horas, e o cliente não recebe nada durante a pausa. A espera não depende de o FlowBuilder Nativo estar aberto.
 
 **🏷️ Categoria: Dados**
 

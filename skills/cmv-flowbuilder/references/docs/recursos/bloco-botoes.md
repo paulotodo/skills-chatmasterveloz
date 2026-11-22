@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/bloco-botoes
 - **Categoria:** Recursos
-- **Menu:** FlowBuilder › Blocos › Botões
+- **Menu:** FlowBuilder Nativo › Blocos › Botões
 
 ---
 

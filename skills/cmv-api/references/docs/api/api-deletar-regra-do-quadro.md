@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/api-deletar-regra-do-quadro
 - **Categoria:** APIs
-- **Menu:** APIs › Quadro de Atendimentos › API Deletar Regra do Quadro
+- **Menu:** APIs › Quadro de atendimentos › API Deletar Regra do Quadro
 
 ---
 

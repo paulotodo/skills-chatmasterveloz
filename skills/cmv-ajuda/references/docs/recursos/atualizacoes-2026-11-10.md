@@ -1,4 +1,4 @@
-# 10/11/2026
+# Atualizações 10/11/2026
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-10
 - **Categoria:** Recursos
@@ -14,7 +14,7 @@ Todas as novidades abaixo estão disponíveis a partir da versão **WS-29.939.0*
 
 ⚡️ **Marca do produto:** no PDV, cada produto ganha o campo **Marca**, com sugestão das marcas que a empresa já usa. A lista de **Produtos** filtra e busca pela marca, e a planilha de produtos ganhou a coluna **Marca**.
 
-⚡️ **Marca na Loja Digital:** ainda no PDV, a Loja Digital mostra a marca no card e na página do produto, com busca pela marca e o filtro **Todas as marcas**. O Cardápio Digital não mostra a marca.
+⚡️ **Marca na Loja digital:** ainda no PDV, a Loja digital mostra a marca no card e na página do produto, com busca pela marca e o filtro **Todas as marcas**. O Cardápio digital não mostra a marca.
 
 ◽ **Moeda sem centavos:** ainda no PDV, ao trocar para uma moeda sem centavos, como o peso chileno, a tela avisa antes e arredonda os preços cadastrados (6,50 vira 7), e o preço que o cliente vê passa a ser o mesmo da conta e do troco. Os pedidos que já existem não mudam.
 
@@ -26,17 +26,17 @@ Todas as novidades abaixo estão disponíveis a partir da versão **WS-29.939.0*
 
 ☑️ **Token da OpenAI escondido:** no menu **Integrações**, o token da OpenAI vem escondido, com o olho para mostrar a chave.
 
-☑️ **Intervalo até 24 horas:** no FlowBuilder, o bloco **Intervalo** espera de 1 segundo a 24 horas, em segundos, minutos ou horas, e acima de 2 minutos ganha a saída **Janela expirada**.
+☑️ **Intervalo até 24 horas:** no FlowBuilder Nativo, o bloco **Intervalo** espera de 1 segundo a 24 horas, em segundos, minutos ou horas, e acima de 2 minutos ganha a saída **Janela expirada**.
 
 ☑️ **Busca vazia no E-mail:** no E-mail, a busca sem resultado avisa que procura só nos e-mails que já vieram para a plataforma e oferece um botão para trazer os anteriores do servidor.
 
-☑️ **Hora no Quadro de Atendimentos:** no Quadro de Atendimentos, a hora do card atrasado fica legível também no tema escuro.
+☑️ **Hora no Quadro de atendimentos:** no Quadro de atendimentos, a hora do card atrasado fica legível também no tema escuro.
 
 ☑️ **Mesas livres:** em Mesas e Comandas, as mesas sem conta aparecem como **Livres**, e a busca sem resultado diz o que conferir.
 
 ## Marca do produto
 
-A janela **Adicionar Produto** ganhou o campo **Marca**, logo depois do **SKU (código do produto)**, com a ajuda *Opcional. A Loja Digital organiza, busca e filtra pela marca.*
+A janela **Adicionar Produto** ganhou o campo **Marca**, logo depois do **SKU (código do produto)**, com a ajuda *Opcional. A Loja digital organiza, busca e filtra pela marca.*
 
 ➡️ Ao digitar, o campo **Marca** sugere as marcas que a empresa já usa. A marca tem até 60 caracteres.
 
@@ -44,15 +44,15 @@ A janela **Adicionar Produto** ganhou o campo **Marca**, logo depois do **SKU (c
 
 ➡️ A planilha de produtos tem a coluna **Marca**. Ao atualizar produtos pela planilha, a célula de marca em branco não apaga a marca que já existe.
 
-## Marca na Loja Digital
+## Marca na Loja digital
 
-Na Loja Digital, a marca aparece em maiúsculas acima do nome do produto, no card e na página do produto.
+Na Loja digital, a marca aparece em maiúsculas acima do nome do produto, no card e na página do produto.
 
 ➡️ A busca *Buscar produtos, marcas e modelos* acha o produto pela marca.
 
 ➡️ O filtro **Todas as marcas** lista as marcas da loja em ordem alfabética.
 
-➡️ O Cardápio Digital não mostra a marca: ela não aparece no card nem na janela do produto, não há filtro de marca, e a busca do Cardápio não procura pela marca.
+➡️ O Cardápio digital não mostra a marca: ela não aparece no card nem na janela do produto, não há filtro de marca, e a busca do Cardápio não procura pela marca.
 
 ## Moeda sem centavos
 
@@ -62,7 +62,7 @@ No menu **Configurações  ›  Opções**, na seção **Empresa e região**, es
 
 ➡️ **OK** troca a moeda, arredonda os preços e avisa quantos cadastros mudaram, como *6 cadastros tiveram os preços arredondados.* O custo dos insumos não é arredondado.
 
-➡️ No Cardápio Digital, o preço que o cliente vê passa a ser o mesmo da conta e do troco.
+➡️ No Cardápio digital, o preço que o cliente vê passa a ser o mesmo da conta e do troco.
 
 ➡️ Os pedidos que já existem continuam com o mesmo total.
 
@@ -80,7 +80,7 @@ Na API, duas listas novas ajudam quem integra a plataforma com outro sistema.
 
 No menu **Configurações  ›  Opções**, as configurações são as mesmas, com os mesmos valores: só mudaram de lugar, agora em seções por assunto. Nada precisa ser refeito.
 
-➡️ As seções, na ordem da tela: **Empresa e região**, **Gerenciamento de Expediente**, **Atendimento e operador**, **Distribuição e rodízio**, **Transferências**, **Bot e FlowBuilder**, **Avaliações**, **Chamadas**, **Gerenciamento de Grupos**, **Contatos**, **Mensagens automáticas**, **Sons e Notificações**, **Carteiras de Clientes**, **PDV**, **Webhooks e integrações**, **CRM**, **Armazenamento Remoto de Arquivos**, **Segurança**, **Logs e Monitoramento** e **Configurações de Sistema**.
+➡️ As seções, na ordem da tela: **Empresa e região**, **Gerenciamento de Expediente**, **Atendimento e operador**, **Distribuição e rodízio**, **Transferências**, **Bot e FlowBuilder Nativo**, **Avaliações**, **Chamadas**, **Gerenciamento de Grupos**, **Contatos**, **Mensagens automáticas**, **Sons e Notificações**, **Carteiras de Clientes**, **PDV**, **Webhooks e integrações**, **CRM**, **Armazenamento Remoto de Arquivos**, **Segurança**, **Logs e Monitoramento** e **Configurações de Sistema**.
 
 ➡️ Alguns campos que mudaram de lugar: **Tipo de menu**, **Fuso horário da empresa** e **Moeda** ficam em **Empresa e região**; as opções do PDV ganharam a seção **PDV**; **Habilitar 2FA na empresa** fica em **Segurança**; e a mensagem de aniversário, em **Mensagens automáticas**.
 
@@ -96,7 +96,7 @@ No menu **Integrações**, no card **OPEN.AI**, o token vem escondido. O olho **
 
 ## Intervalo até 24 horas
 
-No FlowBuilder, a janela *Editar bloco: Intervalo* tem **Tempo de espera** e **Unidade**: **Segundos**, **Minutos** ou **Horas**. O intervalo vai de 1 segundo a 24 horas; fora disso, a janela avisa *O intervalo vai de 1 segundo a 24 horas.*
+No FlowBuilder Nativo, a janela *Editar bloco: Intervalo* tem **Tempo de espera** e **Unidade**: **Segundos**, **Minutos** ou **Horas**. O intervalo vai de 1 segundo a 24 horas; fora disso, a janela avisa *O intervalo vai de 1 segundo a 24 horas.*
 
 ➡️ No quadro do fluxo, o bloco **Intervalo** mostra o tempo de um jeito fácil de ler, como *⏱ 1 h 30 min*.
 
@@ -116,9 +116,9 @@ No **E-mail**, quando a busca não acha nada, abaixo de *Nenhum e-mail com "…"
 
 ➡️ Quando não há mais e-mails para trazer, o botão some e o aviso fica.
 
-## Hora no Quadro de Atendimentos
+## Hora no Quadro de atendimentos
 
-No **Quadro de Atendimentos**, a hora de cada card segue a cor do tempo parado: em dia, atenção e atrasado. No tema escuro, a hora do atendimento atrasado fica num vermelho mais claro, legível sobre o fundo escuro.
+No **Quadro de atendimentos**, a hora de cada card segue a cor do tempo parado: em dia, atenção e atrasado. No tema escuro, a hora do atendimento atrasado fica num vermelho mais claro, legível sobre o fundo escuro.
 
 ## Mesas livres
 

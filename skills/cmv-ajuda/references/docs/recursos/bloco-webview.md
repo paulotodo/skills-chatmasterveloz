@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/bloco-webview
 - **Categoria:** Recursos
-- **Menu:** FlowBuilder › Blocos › Webview
+- **Menu:** FlowBuilder Nativo › Blocos › Webview
 
 ---
 

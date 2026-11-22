@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/bloco-responder-comentario
 - **Categoria:** Recursos
-- **Menu:** FlowBuilder › Blocos › Responder Comentário
+- **Menu:** FlowBuilder Nativo › Blocos › Responder Comentário
 
 ---
 

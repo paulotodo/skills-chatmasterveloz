@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/como-o-fluxo-roda
 - **Categoria:** Recursos
-- **Menu:** FlowBuilder › Como o Fluxo Roda
+- **Menu:** FlowBuilder Nativo › Como o Fluxo Roda
 
 ---
 

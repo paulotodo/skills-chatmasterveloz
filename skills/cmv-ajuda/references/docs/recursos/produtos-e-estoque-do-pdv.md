@@ -30,11 +30,11 @@ Os campos de estoque ficam no próprio cadastro do produto, junto do nome, do pr
 >
 > ➡️ Para cadastrar um produto parecido com outro, clique em **Duplicar** na lista.
 >
-> ➡️ Para tirar o produto do Cardápio Digital sem apagar o cadastro, desligue **Ativo no Cardápio** na lista.
+> ➡️ Para tirar o produto do Cardápio digital sem apagar o cadastro, desligue **Ativo no Cardápio** na lista.
 >
 > ➡️ Para dar entrada, saída ou acertar a contagem depois, use o botão **Movimentar estoque** na lista.
 >
-> ➡️ Para o produto seguir à venda na Loja Digital quando acaba, ou ficar em pré-venda, use **Sob encomenda / pré-venda**, no mesmo cadastro.
+> ➡️ Para o produto seguir à venda na Loja digital quando acaba, ou ficar em pré-venda, use **Sob encomenda / pré-venda**, no mesmo cadastro.
 
 ## Vídeo Tutorial
 
@@ -66,11 +66,11 @@ O campo **Custo** só aparece para administrador e supervisor. O atendente vende
 
 🔘 **Preço Delivery:** fica logo depois do **Preço**, e a tela explica: *"Vale nos pedidos de entrega e nos pedidos pelo site. Em branco, vale o preço de venda."*
 
-A página do Cardápio Digital mostra o **Preço Delivery**. O mesmo cardápio aberto pela mesa e o **Balcão** seguem com o **Preço**: com **Preço** de R$ 26,90 e **Preço Delivery** de R$ 29,90, a página da loja mostra R$ 29,90, e a mesa e o **Balcão**, R$ 26,90.
+A página do Cardápio digital mostra o **Preço Delivery**. O mesmo cardápio aberto pela mesa e o **Balcão** seguem com o **Preço**: com **Preço** de R$ 26,90 e **Preço Delivery** de R$ 29,90, a página da loja mostra R$ 29,90, e a mesa e o **Balcão**, R$ 26,90.
 
 No produto com variações, cada variação tem também o seu **Preço Delivery**, logo depois do **Preço** dela.
 
-Na pizza com **Sabores (pizza)**, a página do Cardápio Digital soma a cada sabor a diferença entre o **Preço Delivery** e o **Preço** do tamanho escolhido. Com a Média a R$ 40,00 e **Preço Delivery** de R$ 44,00, a Calabresa de R$ 42,00 aparece na página da loja a R$ 46,00, e a Portuguesa de R$ 46,00, a R$ 50,00; as duas juntas, pela **A média dos sabores**, ficam em R$ 48,00. A mesa e o **Balcão** seguem com os preços dos sabores: R$ 42,00, R$ 46,00 e, as duas juntas, R$ 44,00.
+Na pizza com **Sabores (pizza)**, a página do Cardápio digital soma a cada sabor a diferença entre o **Preço Delivery** e o **Preço** do tamanho escolhido. Com a Média a R$ 40,00 e **Preço Delivery** de R$ 44,00, a Calabresa de R$ 42,00 aparece na página da loja a R$ 46,00, e a Portuguesa de R$ 46,00, a R$ 50,00; as duas juntas, pela **A média dos sabores**, ficam em R$ 48,00. A mesa e o **Balcão** seguem com os preços dos sabores: R$ 42,00, R$ 46,00 e, as duas juntas, R$ 44,00.
 
 Na página da loja e na mesa, o card da pizza mostra *"a partir de"* com o preço da pizza mais barata que dá para pedir ali: no mesmo exemplo, *"a partir de R$ 46,00"* na loja e *"a partir de R$ 42,00"* na mesa.
 
@@ -100,9 +100,9 @@ Os **Adicionais** são grupos de opções escolhidas junto com o produto, como B
 
 🔘 **Mínimo** e **Máximo:** quantas opções do grupo quem vende tem de escolher. Com mínimo 1 e máximo 2, a venda mostra *"Escolha de 1 a 2"*, e o item só entra no pedido com uma ou duas opções marcadas.
 
-🔘 **Ativa:** desligada, a opção some do Cardápio Digital, da mesa e da janela do **Balcão**, e continua no cadastro com o preço dela. Ligada de novo, a opção volta com o mesmo preço. Serve para o adicional que acabou.
+🔘 **Ativa:** desligada, a opção some do Cardápio digital, da mesa e da janela do **Balcão**, e continua no cadastro com o preço dela. Ligada de novo, a opção volta com o mesmo preço. Serve para o adicional que acabou.
 
-Quando um grupo fica com menos opções ativas do que o **Mínimo** pede, o cadastro salva e avisa, como *"Produto salvo. Atenção: Sabores pede mais escolhas do que as opções ativas permitem, e o produto fica esgotado no cardápio até você ativar mais opções."* No Cardápio Digital, o produto aparece como *Indisponível* até uma opção do grupo ser ligada de novo.
+Quando um grupo fica com menos opções ativas do que o **Mínimo** pede, o cadastro salva e avisa, como *"Produto salvo. Atenção: Sabores pede mais escolhas do que as opções ativas permitem, e o produto fica esgotado no cardápio até você ativar mais opções."* No Cardápio digital, o produto aparece como *Indisponível* até uma opção do grupo ser ligada de novo.
 
 O preço das opções escolhidas soma no preço do item: uma variação de R$ 45,00 com duas bordas de R$ 5,00 e R$ 6,00 fica em R$ 56,00 a unidade. Na venda, os adicionais aparecem logo abaixo do item, como *+ Catupiry, Cheddar*.
 
@@ -116,7 +116,7 @@ Os **Sabores (pizza)** deixam montar a pizza com mais de um sabor, como meio a m
 
 🔘 **Sabor** e **Ingredientes (opcional):** cada sabor, com os ingredientes que aparecem para o cliente. **Adicionar sabor** cria mais um.
 
-🔘 **Ativa**, no sabor: funciona como no adicional. O sabor desligado some do Cardápio Digital, da mesa e do **Balcão**, e volta com os mesmos preços quando é ligado de novo.
+🔘 **Ativa**, no sabor: funciona como no adicional. O sabor desligado some do Cardápio digital, da mesa e do **Balcão**, e volta com os mesmos preços quando é ligado de novo.
 
 🔘 **Preço de cada sabor:** no produto com variações, um preço por tamanho, e a tela orienta: *"Informe o preço de cada sabor em cada tamanho. Tamanho em branco usa o preço do tamanho."*
 
@@ -138,11 +138,11 @@ Na venda, cada insumo baixa do estoque: um Simples com o adicional Bacon e um Du
 
 ## A marca do produto
 
-🔘 **Marca:** fica logo depois do **SKU**, com a ajuda *"Opcional. A Loja Digital organiza, busca e filtra pela marca."* Aceita até 60 caracteres, e a caixa sugere as marcas já usadas em outros produtos.
+🔘 **Marca:** fica logo depois do **SKU**, com a ajuda *"Opcional. A Loja digital organiza, busca e filtra pela marca."* Aceita até 60 caracteres, e a caixa sugere as marcas já usadas em outros produtos.
 
 Na lista de **Produtos**, o card mostra a marca, como *Marca: Acme*. Quando já existe produto com marca, o topo da lista ganha o filtro **Marca**, com **Todas**, **Sem marca** e cada marca, e a busca da lista também acha o produto pela marca.
 
-O produto sem **Marca** e com a característica *Marca* na **Ficha técnica** usa a marca da ficha: o card mostra *Marca: Acme (da ficha técnica)*, e o produto entra no filtro e na busca por ela. O campo **Marca** vazio avisa de onde a marca vem, como *"Vazio: a Loja Digital mostra a marca da ficha técnica (Acme)."*
+O produto sem **Marca** e com a característica *Marca* na **Ficha técnica** usa a marca da ficha: o card mostra *Marca: Acme (da ficha técnica)*, e o produto entra no filtro e na busca por ela. O campo **Marca** vazio avisa de onde a marca vem, como *"Vazio: a Loja digital mostra a marca da ficha técnica (Acme)."*
 
 ## Peso e medidas
 
@@ -154,11 +154,11 @@ As medidas padrão da loja ficam no menu **Configurações  ›  Opções  ›  
 
 ## Sob encomenda e pré-venda
 
-O bloco **Sob encomenda / pré-venda** decide se o produto continua à venda na Loja Digital quando o estoque acaba:
+O bloco **Sob encomenda / pré-venda** decide se o produto continua à venda na Loja digital quando o estoque acaba:
 
 🔘 **Venda sob encomenda:** **Não (esgotou, fica indisponível)** — *"Zerado o estoque, o produto fica indisponível na loja."* · **Quando acabar o estoque** — *"Com estoque, vende normal. Zerado, continua à venda com o aviso do prazo."* · **Sempre (pré-venda ou feito sob encomenda)** — *"Sempre à venda com o aviso do prazo, mesmo sem estoque."*
 
-🔘 **Aviso do prazo:** aparece fora do **Não**, com até 120 letras, como *Prazo de produção: até 15 dias*. A tela explica: *"Aparece na Loja Digital, no produto e na sacola. Em branco: só "Sob encomenda"."*
+🔘 **Aviso do prazo:** aparece fora do **Não**, com até 120 letras, como *Prazo de produção: até 15 dias*. A tela explica: *"Aparece na Loja digital, no produto e na sacola. Em branco: só "Sob encomenda"."*
 
 ⚠️ **Quando acabar o estoque** só faz efeito no produto que controla estoque. Sem o controle, o cadastro avisa: *"Este produto não controla estoque: ele nunca zera, então o aviso não vai aparecer. Ligue o controle de estoque ou escolha "Sempre"."*
 
@@ -174,7 +174,7 @@ No cadastro do produto, o campo **Categoria** põe o produto numa das **Categori
 
 Na lista de **Produtos**, cada produto mostra a categoria na cor dela, com o caminho da subcategoria, como *Bebidas › Cafés*. O filtro **Categoria**, no topo, mostra só os produtos de uma categoria, de uma subcategoria ou os **Sem categoria**.
 
-No botão **Categorias**, em **Editar categoria**, o interruptor **Pedir observação nos produtos** decide se o cliente pode escrever uma observação no Cardápio Digital. A tela avisa: *"Desligado, os produtos desta categoria (e das subcategorias) não mostram o campo "Alguma observação?" no Cardápio."* Vale a categoria de cima: com o interruptor desligado nela, a subcategoria também não mostra o campo, mesmo com o dela ligado.
+No botão **Categorias**, em **Editar categoria**, o interruptor **Pedir observação nos produtos** decide se o cliente pode escrever uma observação no Cardápio digital. A tela avisa: *"Desligado, os produtos desta categoria (e das subcategorias) não mostram o campo "Alguma observação?" no Cardápio."* Vale a categoria de cima: com o interruptor desligado nela, a subcategoria também não mostra o campo, mesmo com o dela ligado.
 
 ## Duplicar um produto
 
@@ -182,11 +182,11 @@ O botão **Duplicar**, na linha do produto, abre **Duplicar produto** já preenc
 
 ## Onde e quando o produto aparece
 
-No bloco **Onde e quando aparece no Cardápio Digital**, o cadastro diz *"em qual canal o produto aparece e, se for uma oferta de horário marcado, os dias e horários. Fora deles, o produto some da loja."*
+No bloco **Onde e quando aparece no Cardápio digital**, o cadastro diz *"em qual canal o produto aparece e, se for uma oferta de horário marcado, os dias e horários. Fora deles, o produto some da loja."*
 
-Na empresa que tem também a Loja Digital, o bloco se chama *"Onde e quando aparece no Cardápio e na Loja Digital"* e ganha a lista **Em qual vitrine aparece**: *No Cardápio e na Loja Digital*, *Só no Cardápio Digital* ou *Só na Loja Digital*. O produto *Só na Loja Digital* não aparece no Cardápio Digital.
+Na empresa que tem também a Loja digital, o bloco se chama *"Onde e quando aparece no Cardápio e na Loja digital"* e ganha a lista **Em qual vitrine aparece**: *No Cardápio e na Loja digital*, *Só no Cardápio digital* ou *Só na Loja digital*. O produto *Só na Loja digital* não aparece no Cardápio digital.
 
-🔘 **Ativo: aparece no Cardápio** × **Inativo: não aparece no Cardápio:** na lista de **Produtos**, o mesmo interruptor fica em cada produto, como **Ativo no Cardápio** × **Inativo no Cardápio**, e muda com um clique. O produto inativo some da loja, continua no cadastro e segue à venda no **Balcão** e em **Lançar na mesa**. Na empresa que tem também a Loja Digital, o interruptor fala das duas vitrines: *"Ativo: aparece no Cardápio e na Loja Digital"* × *"Inativo: não aparece no Cardápio nem na Loja Digital"*.
+🔘 **Ativo: aparece no Cardápio** × **Inativo: não aparece no Cardápio:** na lista de **Produtos**, o mesmo interruptor fica em cada produto, como **Ativo no Cardápio** × **Inativo no Cardápio**, e muda com um clique. O produto inativo some da loja, continua no cadastro e segue à venda no **Balcão** e em **Lançar na mesa**. Na empresa que tem também a Loja digital, o interruptor fala das duas vitrines: *"Ativo: aparece no Cardápio e na Loja digital"* × *"Inativo: não aparece no Cardápio nem na Loja digital"*.
 
 🔘 **Onde aparece:** *Cardápio online e Mesa*, *Só no Cardápio online* ou *Só na Mesa*.
 
@@ -218,7 +218,7 @@ Quando uma venda deixa o produto no mínimo ou abaixo dele, chega um aviso no si
 
 Com **PDV: vender sem estoque** em **Não**, no menu **Configurações  ›  Opções  ›  Vendas**, seção **PDV**, o pedido mostra *"Só 12 em estoque"* quando a quantidade passa do saldo e não deixa confirmar até a quantidade ser ajustada. Com **Sim**, o pedido confirma e o saldo fica negativo.
 
-No Cardápio Digital, com **Não**, o produto com estoque zero aparece como *Indisponível*: ganha a etiqueta no card, mostra *"Indisponível no momento"* na janela do produto, e o botão **Adicionar à sacola** fica desativado. Com **Sim**, quem decide é a opção **Cardápio Digital: mostrar "Indisponível" quando o estoque zerar**, no menu **Configurações  ›  Opções  ›  Vendas**, seção **PDV**: em **Sim**, o produto zerado aparece como Indisponível e não pode ser pedido pelo Cardápio Digital; em **Não**, continua à venda.
+No Cardápio digital, com **Não**, o produto com estoque zero aparece como *Indisponível*: ganha a etiqueta no card, mostra *"Indisponível no momento"* na janela do produto, e o botão **Adicionar à sacola** fica desativado. Com **Sim**, quem decide é a opção **Cardápio digital: mostrar "Indisponível" quando o estoque zerar**, no menu **Configurações  ›  Opções  ›  Vendas**, seção **PDV**: em **Sim**, o produto zerado aparece como Indisponível e não pode ser pedido pelo Cardápio digital; em **Não**, continua à venda.
 
 > **[DUVIDAS]**
 >
@@ -240,18 +240,18 @@ No Cardápio Digital, com **Não**, o produto com estoque zero aparece como *Ind
 >
 > **Como anuncio uma promoção de produto no PDV, com o preço antigo riscado?** No cadastro do produto, coloque o preço novo em **Preço** e o antigo em **Preço antes da promoção (riscado)**. A loja mostra os dois e o desconto em porcentagem. Para encerrar a promoção, deixe o campo em branco.
 >
-> **Como cobro um preço maior na entrega do que na mesa?** Preencha o **Preço Delivery** no cadastro do produto e, no produto com variações, em cada variação. A página do Cardápio Digital passa a mostrar esse preço, e a mesa e o **Balcão** seguem com o **Preço**. Em branco, o produto tem o mesmo preço em todos os canais. Na pizza com sabores, preencha o **Preço Delivery** de cada tamanho: a página do Cardápio Digital soma a diferença dele ao preço de cada sabor.
+> **Como cobro um preço maior na entrega do que na mesa?** Preencha o **Preço Delivery** no cadastro do produto e, no produto com variações, em cada variação. A página do Cardápio digital passa a mostrar esse preço, e a mesa e o **Balcão** seguem com o **Preço**. Em branco, o produto tem o mesmo preço em todos os canais. Na pizza com sabores, preencha o **Preço Delivery** de cada tamanho: a página do Cardápio digital soma a diferença dele ao preço de cada sabor.
 >
-> **Acabou um sabor ou um adicional. Preciso tirar a opção do cadastro?** Não. Desligue **Ativa** na opção, no cadastro do produto: ela some do Cardápio Digital e do **Balcão** e volta com o mesmo preço quando for ligada de novo.
+> **Acabou um sabor ou um adicional. Preciso tirar a opção do cadastro?** Não. Desligue **Ativa** na opção, no cadastro do produto: ela some do Cardápio digital e do **Balcão** e volta com o mesmo preço quando for ligada de novo.
 >
-> **O produto aparece como Indisponível no Cardápio Digital e tem estoque. Por quê?** Um grupo de adicionais ou de sabores do produto ficou com menos opções ligadas do que o **Mínimo** pede. No cadastro do produto, ligue **Ativa** em mais opções do grupo.
+> **O produto aparece como Indisponível no Cardápio digital e tem estoque. Por quê?** Um grupo de adicionais ou de sabores do produto ficou com menos opções ligadas do que o **Mínimo** pede. No cadastro do produto, ligue **Ativa** em mais opções do grupo.
 >
-> **Como tiro um produto do Cardápio Digital sem apagar o cadastro?** Na lista de **Produtos**, desligue **Ativo no Cardápio**. O produto some da loja, continua no cadastro e segue à venda no **Balcão**.
+> **Como tiro um produto do Cardápio digital sem apagar o cadastro?** Na lista de **Produtos**, desligue **Ativo no Cardápio**. O produto some da loja, continua no cadastro e segue à venda no **Balcão**.
 >
-> **O produto zerou o estoque e continua à venda no Cardápio Digital. Por quê?** Com **PDV: vender sem estoque** em **Sim**, o produto zerado continua à venda. Para ele aparecer como Indisponível, ponha em **Sim** a opção **Cardápio Digital: mostrar "Indisponível" quando o estoque zerar**, no menu **Configurações  ›  Opções  ›  Vendas**, seção **PDV**.
+> **O produto zerou o estoque e continua à venda no Cardápio digital. Por quê?** Com **PDV: vender sem estoque** em **Sim**, o produto zerado continua à venda. Para ele aparecer como Indisponível, ponha em **Sim** a opção **Cardápio digital: mostrar "Indisponível" quando o estoque zerar**, no menu **Configurações  ›  Opções  ›  Vendas**, seção **PDV**.
 >
 > **O produto aparece com "(da ficha técnica)" ao lado da marca. Por quê?** O campo **Marca** do produto está vazio, e a **Ficha técnica** tem a característica *Marca*: a lista de **Produtos** usa essa marca e avisa de onde ela veio. Para usar outra, preencha o campo **Marca**.
 >
-> **O Aviso do prazo do Sob encomenda não aparece na Loja Digital. O que falta?** Com **Quando acabar o estoque**, o aviso só aparece com o estoque zerado, e o produto precisa controlar estoque. Para mostrar o aviso sempre, como numa pré-venda, escolha **Sempre (pré-venda ou feito sob encomenda)**.
+> **O Aviso do prazo do Sob encomenda não aparece na Loja digital. O que falta?** Com **Quando acabar o estoque**, o aviso só aparece com o estoque zerado, e o produto precisa controlar estoque. Para mostrar o aviso sempre, como numa pré-venda, escolha **Sempre (pré-venda ou feito sob encomenda)**.
 >
-> **Como tiro o campo Alguma observação dos produtos no Cardápio Digital?** Pela categoria: no botão **Categorias**, em **Editar categoria**, desligue **Pedir observação nos produtos**. Os produtos da categoria e das subcategorias deixam de mostrar o campo.
+> **Como tiro o campo Alguma observação dos produtos no Cardápio digital?** Pela categoria: no botão **Categorias**, em **Editar categoria**, desligue **Pedir observação nos produtos**. Os produtos da categoria e das subcategorias deixam de mostrar o campo.

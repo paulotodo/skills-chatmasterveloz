@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/bloco-randomizador
 - **Categoria:** Recursos
-- **Menu:** FlowBuilder › Blocos › Randomizador
+- **Menu:** FlowBuilder Nativo › Blocos › Randomizador
 
 ---
 

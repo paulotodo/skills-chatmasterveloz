@@ -12,9 +12,9 @@
 
 ⚡️ **Marcar como não lido:** no Atendimento, o ícone ao lado de **Resolver**, no topo do atendimento, marca a conversa como não lida para você voltar a ela depois.
 
-⚡️ **Bloco Retornar último atendimento:** no FlowBuilder, devolve o cliente ao Setor, ao atendente e à situação do atendimento anterior.
+⚡️ **Bloco Retornar último atendimento:** no FlowBuilder Nativo, devolve o cliente ao Setor, ao atendente e à situação do atendimento anterior.
 
-⚡️ **Condição Protocolo fechado:** ainda no FlowBuilder, verifica se o último atendimento do contato foi encerrado há menos ou há mais de um tempo.
+⚡️ **Condição Protocolo fechado:** ainda no FlowBuilder Nativo, verifica se o último atendimento do contato foi encerrado há menos ou há mais de um tempo.
 
 ⚡️ **Variável Último protocolo:** cita o atendimento anterior nas mensagens.
 
@@ -26,7 +26,7 @@
 
 ☑️ **Dono das tags:** a tag criada por administrador ou supervisor já nasce valendo para a equipe toda, e o dono pode ser escolhido depois.
 
-☑️ **Mesmos nomes no FlowBuilder:** janelas, tipos da Condição e canais com os mesmos nomes em toda parte.
+☑️ **Mesmos nomes no FlowBuilder Nativo:** janelas, tipos da Condição e canais com os mesmos nomes em toda parte.
 
 ☑️ **Quem atendeu** aparece na aba **Fechados** e na busca avançada.
 
@@ -42,7 +42,7 @@
 
 ◽ A conversa que tinha ficado escondida e recebe mensagem volta para o Aguardando.
 
-◽ O Relatório de Vendas do CRM mostra as perdas, filtra por produto e usa valores em reais.
+◽ O Relatório de vendas do CRM mostra as perdas, filtra por produto e usa valores em reais.
 
 ◽ Mais estabilidade nos horários de movimento, e volta automática para o login quando a sessão termina em outra aba.
 
@@ -96,9 +96,9 @@ A tag criada por administrador ou supervisor já nasce valendo para a equipe tod
 
 ➡️ Para a tag ficar pública, escolha **Ninguém (tag pública)**: sem dono, a tag fica visível para todos os operadores. Depois, clique em **Aplicar**.
 
-## Mesmos nomes no FlowBuilder
+## Mesmos nomes no FlowBuilder Nativo
 
-O FlowBuilder passou a usar os mesmos nomes em toda parte:
+O FlowBuilder Nativo passou a usar os mesmos nomes em toda parte:
 
 🔘 **Janelas:** dizem **Adicionar bloco** ou **Editar bloco**, seguido do nome do bloco, como **Editar bloco: Condição**.
 

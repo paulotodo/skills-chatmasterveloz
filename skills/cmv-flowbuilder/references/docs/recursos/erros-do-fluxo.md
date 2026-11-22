@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/erros-do-fluxo
 - **Categoria:** Recursos
-- **Menu:** FlowBuilder › Editor de Fluxos › Erros do Fluxo
+- **Menu:** FlowBuilder Nativo › Editor de Fluxos › Erros do Fluxo
 
 ---
 

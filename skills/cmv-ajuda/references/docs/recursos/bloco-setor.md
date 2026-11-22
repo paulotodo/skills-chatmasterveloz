@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/bloco-setor
 - **Categoria:** Recursos
-- **Menu:** FlowBuilder › Blocos › Setor
+- **Menu:** FlowBuilder Nativo › Blocos › Setor
 
 ---
 

@@ -2,11 +2,11 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/categorias-de-fluxos
 - **Categoria:** Recursos
-- **Menu:** FlowBuilder › Categorias de Fluxos
+- **Menu:** FlowBuilder Nativo › Categorias de Fluxos
 
 ---
 
-🧩 As **Categorias de Fluxos** são etiquetas para organizar os fluxos por tema, como *Vendas*, *Suporte* ou *Financeiro*. Com elas, a lista do FlowBuilder filtra só os fluxos de um assunto.
+🧩 As **Categorias de Fluxos** são etiquetas para organizar os fluxos por tema, como *Vendas*, *Suporte* ou *Financeiro*. Com elas, a lista do FlowBuilder Nativo filtra só os fluxos de um assunto.
 
 ![Categorias de Fluxos - listagem](https://clihelper.chatmasterveloz.com/docs-imagem/28416-categorias-de-fluxos-lista.jpg)
 
@@ -48,7 +48,7 @@ A tela **Categorias de Fluxos** tem a busca **Buscar categorias...** e, para cad
 
 ➡️ Ao criar ou editar um fluxo, escolha a categoria no campo **Categoria (opcional)**.
 
-➡️ Na lista do FlowBuilder, use o filtro **Categoria** no topo. Além das categorias, ele tem **Todas as categorias** e **Sem categoria**.
+➡️ Na lista do FlowBuilder Nativo, use o filtro **Categoria** no topo. Além das categorias, ele tem **Todas as categorias** e **Sem categoria**.
 
 > **[DUVIDAS]**
 >

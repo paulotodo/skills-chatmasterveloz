@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/api-criar-regra-pessoal-do-quadro
 - **Categoria:** APIs
-- **Menu:** APIs › Quadro de Atendimentos › API Criar Regra Pessoal do Quadro
+- **Menu:** APIs › Quadro de atendimentos › API Criar Regra Pessoal do Quadro
 
 ---
 

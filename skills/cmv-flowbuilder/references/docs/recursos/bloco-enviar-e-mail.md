@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/bloco-enviar-e-mail
 - **Categoria:** Recursos
-- **Menu:** FlowBuilder › Blocos › Enviar e-mail
+- **Menu:** FlowBuilder Nativo › Blocos › Enviar e-mail
 
 ---
 
@@ -36,7 +36,7 @@ Acesse o menu **FlowBuilder Nativo  ›  editar fluxo  ›  +  ›  Enviar e-mai
 
 A janela **Adicionar bloco: Enviar e-mail** tem estes campos:
 
-🔘 **Enviar por:** por onde o e-mail é enviado. A lista separa as opções em dois grupos: **Contas de e-mail**, as caixas da empresa cadastradas no menu **Contas de E-mail**, e **Provedores por API**, os provedores de envio cadastrados na mesma tela.
+🔘 **Enviar por:** por onde o e-mail é enviado. A lista separa as opções em dois grupos: **Contas de E-mail**, as caixas da empresa cadastradas no menu **Contas de E-mail**, e **Provedores por API**, os provedores de envio cadastrados na mesma tela.
 
 🔘 **Para:** o endereço que recebe o e-mail. Nas palavras da tela: *"Vazio: o e-mail do contato. Aceita variáveis, como {{email}}."*
 
@@ -60,7 +60,7 @@ O e-mail enviado pelo bloco **Enviar e-mail** não fica registrado na conversa, 
 
 ## Os provedores de envio por API
 
-Os provedores ficam no menu **Contas de E-mail**, no painel **Provedores de envio por API**, embaixo das contas. Nas palavras da tela: *"Envie e-mails pelo FlowBuilder sem SMTP, usando a chave de API do seu provedor de disparo."* Só o administrador cadastra provedores, cada um com o serviço de disparo, a chave de API e o remetente. Os campos de cada provedor estão no artigo **Provedores de Envio de E-mail por API**.
+Os provedores ficam no menu **Contas de E-mail**, no painel **Provedores de envio por API**, embaixo das contas. Nas palavras da tela: *"Envie e-mails pelo FlowBuilder Nativo sem SMTP, usando a chave de API do seu provedor de disparo."* Só o administrador cadastra provedores, cada um com o serviço de disparo, a chave de API e o remetente. Os campos de cada provedor estão no artigo **Provedores de Envio de E-mail por API**.
 
 > **[DUVIDAS]**
 >

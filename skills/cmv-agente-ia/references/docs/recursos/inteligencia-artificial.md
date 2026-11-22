@@ -12,7 +12,7 @@ Pense num assistente que passa o dia inteiro no balcão: responde o que já sabe
 
 ## Onde a IA trabalha
 
-➡️ **Atendendo o cliente.** Você escreve um **prompt**, as instruções que dizem como a IA fala, o que ela sabe e o que ela pode fazer, e o liga a um **Setor**. O caminho recomendado para levar o cliente até a IA é o bloco **GPT Assistant (OpenAI)** do **FlowBuilder**: o fluxo entrega o atendimento à IA e pode retomar quando o cliente fica sem responder. O prompt também pode atender direto no Setor, sem fluxo. Quando o cliente pede uma pessoa, a IA transfere o atendimento para o Setor que você escolher.
+➡️ **Atendendo o cliente.** Você escreve um **prompt**, as instruções que dizem como a IA fala, o que ela sabe e o que ela pode fazer, e o liga a um **Setor**. O caminho recomendado para levar o cliente até a IA é o bloco **GPT Assistant (OpenAI)** do **FlowBuilder Nativo**: o fluxo entrega o atendimento à IA e pode retomar quando o cliente fica sem responder. O prompt também pode atender direto no Setor, sem fluxo. Quando o cliente pede uma pessoa, a IA transfere o atendimento para o Setor que você escolher.
 
 ➡️ **Ajudando o atendente na conversa.** A IA sugere a próxima resposta, melhora o texto que o atendente digitou, analisa o atendimento, resume a conversa de um período e transcreve o áudio do cliente. A sugestão vai para o campo de mensagem, para o atendente revisar e enviar; a análise e o resumo ficam como **mensagem interna**, só para a equipe.
 
@@ -36,7 +36,7 @@ Pense num assistente que passa o dia inteiro no balcão: responde o que já sabe
 >
 > #### Dúvidas Comuns
 >
-> **Ligo a IA pelo FlowBuilder ou direto no Setor?** O caminho recomendado é o **FlowBuilder**: o fluxo pode cumprimentar, coletar dados ou mostrar um menu antes de entregar o atendimento à IA, e pode seguir depois, quando o cliente para de responder. Ligado direto no Setor, o prompt responde as conversas que aguardam ali, venham de onde vierem.
+> **Ligo a IA pelo FlowBuilder Nativo ou direto no Setor?** O caminho recomendado é o **FlowBuilder Nativo**: o fluxo pode cumprimentar, coletar dados ou mostrar um menu antes de entregar o atendimento à IA, e pode seguir depois, quando o cliente para de responder. Ligado direto no Setor, o prompt responde as conversas que aguardam ali, venham de onde vierem.
 >
 > **A IA atende o cliente sozinha ou só ajuda o atendente?** As duas coisas, em recursos separados. A IA do prompt conversa com o cliente até transferir o atendimento; na conversa, a IA sugere, revisa, analisa e resume, e quem envia a mensagem é o atendente.
 >

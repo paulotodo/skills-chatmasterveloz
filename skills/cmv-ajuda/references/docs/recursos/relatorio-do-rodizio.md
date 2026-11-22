@@ -6,7 +6,7 @@
 
 ---
 
-🧩 O rodízio do seu fluxo está dividindo os atendimentos do jeito que você planejou? O **Relatório do Rodízio** mostra como o bloco **Rodízio** do FlowBuilder distribuiu os atendimentos entre os operadores, comparando o que cada um recebeu com a meta definida no nó.
+🧩 O rodízio do seu fluxo está dividindo os atendimentos do jeito que você planejou? O **Relatório do Rodízio** mostra como o bloco **Rodízio** do FlowBuilder Nativo distribuiu os atendimentos entre os operadores, comparando o que cada um recebeu com a meta definida no nó.
 
 O **Relatório do Rodízio** também mostra quantos clientes chegaram num momento sem operador disponível, e para onde eles foram.
 

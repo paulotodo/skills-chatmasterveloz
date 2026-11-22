@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/bloco-rodizio
 - **Categoria:** Recursos
-- **Menu:** FlowBuilder › Blocos › Rodízio
+- **Menu:** FlowBuilder Nativo › Blocos › Rodízio
 
 ---
 
@@ -77,7 +77,7 @@ Neste modo não há ordem, nem percentual, nem ciclo.
 
 ## Onde o atendimento chega
 
-A opção **Entregar em** de cada participante decide: **Atendendo**, **Aguardando (MEUS)** ou **Padrão da empresa**. O padrão da empresa é a opção **Rodízio do Flowbuilder deixa no Aguardando (MEUS)?**, nas configurações da empresa.
+A opção **Entregar em** de cada participante decide: **Atendendo**, **Aguardando (MEUS)** ou **Padrão da empresa**. O padrão da empresa é a opção **Rodízio do FlowBuilder Nativo deixa no Aguardando (MEUS)?**, nas configurações da empresa.
 
 ⚠️ **Aguardando (MEUS)** só vale com **Aguardando com dono: só ele vê?** ligada. Sem ela, o atendimento vai para **Atendendo**.
 

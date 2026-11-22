@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/api-listar-regras-da-equipe-do-quadro
 - **Categoria:** APIs
-- **Menu:** APIs › Quadro de Atendimentos › API Listar Regras da Equipe do Quadro
+- **Menu:** APIs › Quadro de atendimentos › API Listar Regras da Equipe do Quadro
 
 ---
 

@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/api-atualizar-os-quadros-de-um-usuario
 - **Categoria:** APIs
-- **Menu:** APIs › Quadro de Atendimentos › API Atualizar os Quadros de um Usuário
+- **Menu:** APIs › Quadro de atendimentos › API Atualizar os Quadros de um Usuário
 
 ---
 

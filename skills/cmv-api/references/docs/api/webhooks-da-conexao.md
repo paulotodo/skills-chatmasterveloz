@@ -241,7 +241,7 @@ Cada operador convidado para o atendimento gera um aviso `convidado-adicionado`.
 
 ## Aviso de troca de Setor ou de atendente
 
-Toda troca de Setor ou de atendente chega ao **Webhook da Conexão** como `action_from_user`, venha de onde vier: a tela, o FlowBuilder, o menu de Setores da Conexão, o chatbot do Setor, a IA da plataforma, as regras automáticas da Conexão e do Setor (como mover após inatividade e o tempo de escala), um agendamento ou a sua integração. A entrada do atendimento no primeiro Setor também é avisada assim.
+Toda troca de Setor ou de atendente chega ao **Webhook da Conexão** como `action_from_user`, venha de onde vier: a tela, o FlowBuilder Nativo, o menu de Setores da Conexão, o chatbot do Setor, a IA da plataforma, as regras automáticas da Conexão e do Setor (como mover após inatividade e o tempo de escala), um agendamento ou a sua integração. A entrada do atendimento no primeiro Setor também é avisada assim.
 
 ◽ `ticketData` — só o que mudou: `queueId` (o Setor novo, em número), `userId` (o atendente novo) ou `status`, conforme a troca.
 

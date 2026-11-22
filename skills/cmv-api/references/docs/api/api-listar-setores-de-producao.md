@@ -6,7 +6,7 @@
 
 ---
 
-🧩 Obter a **lista de setores de produção** do PDV da sua empresa — como Cozinha, Bar e Copa —, na ordem do filtro do Painel de Pedidos.
+🧩 Obter a **lista de setores de produção** do PDV da sua empresa — como Cozinha, Bar e Copa —, na ordem do filtro do Painel de pedidos.
 
 **API:** Todas
 
@@ -36,7 +36,7 @@ Bearer {seutokenaqui}
 
 ➡️ Esta chamada não tem payload.
 
-◽ São os mesmos setores do botão **Setores**, em Produtos, na ordem do filtro do **Painel de Pedidos**.
+◽ São os mesmos setores do botão **Setores**, em Produtos, na ordem do filtro do **Painel de pedidos**.
 
 ◽ Cada setor traz o `id`, o `nome`, a `cor` (em `#RRGGBB`, ou `null` sem cor), o `ativo`, a `ordem` e, em `categorias`, quantas categorias usam o setor.
 

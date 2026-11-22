@@ -36,7 +36,7 @@
 
 ➡️ **Pela página:** quando o cliente reserva sozinho na página de reservas.
 
-➡️ **Pela conversa:** quando o atendimento automático usa o bloco **Reservas** do FlowBuilder.
+➡️ **Pela conversa:** quando o atendimento automático usa o bloco **Reservas** do FlowBuilder Nativo.
 
 ➡️ **Pela integração:** quando outro sistema, como o site da empresa, reserva pela API.
 

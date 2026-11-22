@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/gatilho-via-api
 - **Categoria:** Recursos
-- **Menu:** FlowBuilder › Pontos de Entrada (Gatilho) › Gatilho via API
+- **Menu:** FlowBuilder Nativo › Pontos de Entrada (Gatilho) › Gatilho via API
 
 ---
 
@@ -22,7 +22,7 @@ Ideal para:
 >
 > #### Resumo Prático
 >
-> ➡️ No seu sistema externo faça uma chamada API para nosso endpoint **Mensagem para FlowBuilder**
+> ➡️ No seu sistema externo faça uma chamada API para nosso endpoint **Mensagem para FlowBuilder Nativo**
 >
 > ```
 > .../api/messages/flowbuilderStart
@@ -81,4 +81,4 @@ Bearer {seutokenaqui}
 >
 > **O cliente precisa ter o contato salvo?** Não. A API consegue disparar mensagens para números que nunca interagiram antes. Porém, cuidado com as políticas de bloqueio do WhatsApp ao abordar contatos frios massivamente.
 >
-> **Posso enviar variáveis (como Nome do Cliente) pela API FlowBuilder Start?** Você pode utilizar "Mustaches" (que são as variáveis internas do nosso sistema), mas enviar variáveis vindo do seu sistema externo não. Para isso utilize o Webhook Triggers.
+> **Posso enviar variáveis (como Nome do Cliente) pela API FlowBuilder Nativo Start?** Você pode utilizar "Mustaches" (que são as variáveis internas do nosso sistema), mas enviar variáveis vindo do seu sistema externo não. Para isso utilize o Webhook Triggers.

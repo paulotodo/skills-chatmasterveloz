@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/api-obter-um-quadro
 - **Categoria:** APIs
-- **Menu:** APIs › Quadro de Atendimentos › API Obter um Quadro
+- **Menu:** APIs › Quadro de atendimentos › API Obter um Quadro
 
 ---
 

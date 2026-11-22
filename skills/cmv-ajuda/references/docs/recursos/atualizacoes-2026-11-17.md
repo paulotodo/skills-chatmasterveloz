@@ -1,8 +1,8 @@
-# 17/11/2026
+# Atualizações 17/11/2026
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-17
 - **Categoria:** Recursos
-- **Menu:** Atualizações › Novembro 2026 › 17/11/2026
+- **Menu:** Atualizações › Novembro 2026 › Atualizações 17/11/2026
 
 ---
 
@@ -74,7 +74,7 @@ No menu **Links de agendamento**, a janela de cada link ganhou a seção **Aviso
 
 ➡️ No menu **Configurações  ›  Opções**, aba **Vendas**, a opção **Venda em várias unidades conta** escolhe como essa venda entra nas metas e no Ranking das unidades: **O valor inteiro em cada unidade**, **O valor dividido igualmente entre elas** ou **Só na primeira unidade escolhida**.
 
-➡️ O bloco **Oportunidade** do FlowBuilder também escolhe as unidades responsáveis.
+➡️ O bloco **Oportunidade** do FlowBuilder Nativo também escolhe as unidades responsáveis.
 
 ## Login automático
 

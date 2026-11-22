@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/api-deletar-quadro
 - **Categoria:** APIs
-- **Menu:** APIs › Quadro de Atendimentos › API Deletar Quadro
+- **Menu:** APIs › Quadro de atendimentos › API Deletar Quadro
 
 ---
 

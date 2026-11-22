@@ -1,12 +1,12 @@
-# Cupons, Cashback e Fidelidade do Cardápio Digital
+# Cupons, Cashback e Fidelidade do Cardápio digital
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/cupons-cashback-e-fidelidade-do-cardapio-digital
 - **Categoria:** Recursos
-- **Menu:** PDV › Cupons, Cashback e Fidelidade do Cardápio Digital
+- **Menu:** PDV › Cupons, Cashback e Fidelidade do Cardápio digital
 
 ---
 
-🧩 Quer dar um desconto no primeiro pedido, lembrar do aniversário do cliente e premiar quem volta sempre, sem fazer conta na mão? Os **Cupons de desconto** e o **Cashback** do **Cardápio Digital** fazem isso na sacola da loja: o cupom tira um valor do pedido, e o cashback devolve ao cliente uma parte de cada pedido entregue, para ele usar como desconto na próxima compra.
+🧩 Quer dar um desconto no primeiro pedido, lembrar do aniversário do cliente e premiar quem volta sempre, sem fazer conta na mão? Os **Cupons de desconto** e o **Cashback** do **Cardápio digital** fazem isso na sacola da loja: o cupom tira um valor do pedido, e o cashback devolve ao cliente uma parte de cada pedido entregue, para ele usar como desconto na próxima compra.
 
 O cartão fidelidade é um tipo de cupom: o tipo **Fidelidade** vale uma vez a cada tantos pedidos entregues do cliente.
 
@@ -76,7 +76,7 @@ Cada cupom mostra o código, o tipo, o desconto, os usos, como *"0 de ∞ usos"*
 
 ## Como ligar o cashback
 
-O bloco **Cashback** fica na tela do Cardápio Digital. A tela explica: *"Devolva ao cliente uma parte de cada pedido entregue, para ele usar como desconto na próxima compra pela loja. Deixe o percentual vazio para desligar."*
+O bloco **Cashback** fica na tela do Cardápio digital. A tela explica: *"Devolva ao cliente uma parte de cada pedido entregue, para ele usar como desconto na próxima compra pela loja. Deixe o percentual vazio para desligar."*
 
 🔘 **Cashback em cada pedido (%):** a parte do pedido entregue que volta para o cliente.
 
@@ -114,21 +114,21 @@ Com o **Webhook do PDV** preenchido no menu **Configurações  ›  Opções  �
 >
 > #### Dúvidas Comuns
 >
-> **Como desligo o cashback do Cardápio Digital?** Deixe vazio o campo **Cashback em cada pedido (%)** e clique no **Salvar** da loja.
+> **Como desligo o cashback do Cardápio digital?** Deixe vazio o campo **Cashback em cada pedido (%)** e clique no **Salvar** da loja.
 >
-> **O cliente da mesa pode usar cupom ou cashback do Cardápio Digital?** Não. A sacola da mesa não tem cupom nem cashback: eles valem para a sacola da loja.
+> **O cliente da mesa pode usar cupom ou cashback do Cardápio digital?** Não. A sacola da mesa não tem cupom nem cashback: eles valem para a sacola da loja.
 >
-> **Onde cadastro o cartão fidelidade do Cardápio Digital?** Em **Novo cupom**, com o **Tipo** **Fidelidade**. Preencha **A cada quantos pedidos entregues** e o desconto. Depois do uso, a contagem do cliente recomeça.
+> **Onde cadastro o cartão fidelidade do Cardápio digital?** Em **Novo cupom**, com o **Tipo** **Fidelidade**. Preencha **A cada quantos pedidos entregues** e o desconto. Depois do uso, a contagem do cliente recomeça.
 >
-> **Como faço um cupom do Cardápio Digital só para alguns clientes?** No **Novo cupom**, busque cada cliente pelo nome ou pelo número em **Só para estes clientes**. Só os escolhidos veem o cupom e conseguem usar. Com o campo vazio, o cupom vale para todos os clientes.
+> **Como faço um cupom do Cardápio digital só para alguns clientes?** No **Novo cupom**, busque cada cliente pelo nome ou pelo número em **Só para estes clientes**. Só os escolhidos veem o cupom e conseguem usar. Com o campo vazio, o cupom vale para todos os clientes.
 >
 > **O cupom não aparece em Cupons para você na sacola. Por quê?** O cupom por código só aparece ali com **Mostrar no carrinho (com o botão Usar) para quem ainda pode usar** marcado, e para o cliente que ainda pode usar. Sem a opção, o cliente digita o código em **Cupom de desconto**.
 >
-> **O cashback do Cardápio Digital vale para todos os produtos?** Vale com **Categorias que geram cashback** sem nenhuma categoria marcada. Marcadas as categorias, só os produtos delas geram cashback, e a categoria de cima leva as subcategorias.
+> **O cashback do Cardápio digital vale para todos os produtos?** Vale com **Categorias que geram cashback** sem nenhuma categoria marcada. Marcadas as categorias, só os produtos delas geram cashback, e a categoria de cima leva as subcategorias.
 >
-> **Excluí um cupom do Cardápio Digital. O que acontece com os pedidos que já usaram?** Eles continuam com o desconto e o código.
+> **Excluí um cupom do Cardápio digital. O que acontece com os pedidos que já usaram?** Eles continuam com o desconto e o código.
 >
-> **O cupom de aniversário do Cardápio Digital vale para quem não tem a data cadastrada?** Não. O cupom vale perto do aniversário cadastrado no contato do cliente. Sem a data, a sacola avisa *"Este cupom é de aniversário, e a loja ainda não tem a sua data."*
+> **O cupom de aniversário do Cardápio digital vale para quem não tem a data cadastrada?** Não. O cupom vale perto do aniversário cadastrado no contato do cliente. Sem a data, a sacola avisa *"Este cupom é de aniversário, e a loja ainda não tem a sua data."*
 
 > **[ERROS]**
 >

@@ -66,7 +66,7 @@ Dentro da conversa ele pode **reagir com emoji** e **responder citando** uma men
 
 ## Como enviar por automação
 
-Além da corrente, o link pode ser enviado por um fluxo: o **FlowBuilder** tem o bloco **Link do Chat Externo**. Serve para quando a conversa precisa mudar de caminho sem depender de o atendente lembrar de clicar.
+Além da corrente, o link pode ser enviado por um fluxo: o **FlowBuilder Nativo** tem o bloco **Link do Chat Externo**. Serve para quando a conversa precisa mudar de caminho sem depender de o atendente lembrar de clicar.
 
 Dentro do bloco **Link do Chat Externo** existe a opção **Continuar o fluxo no chat externo**:
 
@@ -114,7 +114,7 @@ No menu **Conexões** configure:
 >
 > **O atendente vai atender em outro lugar?** Não. As mensagens da página entram na mesma conversa, marcadas pela origem.
 >
-> **Como envio o botão do Modo Alternativo?** Pelo ícone de corrente na barra superior do atendimento. Ou por automação, com o bloco **Link do Chat Externo** no FlowBuilder.
+> **Como envio o botão do Modo Alternativo?** Pelo ícone de corrente na barra superior do atendimento. Ou por automação, com o bloco **Link do Chat Externo** no FlowBuilder Nativo.
 >
 > **O que a opção Continuar o fluxo no chat externo muda?** Depois que o link é enviado, os próximos blocos do fluxo passam a correr na página. Sem ela, o link é enviado e o fluxo segue pelo WhatsApp.
 >

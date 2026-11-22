@@ -1,8 +1,8 @@
-# Quadro de Atendimentos
+# Quadro de atendimentos
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/quadro-de-atendimentos
 - **Categoria:** Recursos
-- **Menu:** Quadro de Atendimentos
+- **Menu:** Quadro de atendimentos
 
 ---
 

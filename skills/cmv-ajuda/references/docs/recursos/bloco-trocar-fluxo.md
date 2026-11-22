@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/bloco-trocar-fluxo
 - **Categoria:** Recursos
-- **Menu:** FlowBuilder › Blocos › Trocar Fluxo
+- **Menu:** FlowBuilder Nativo › Blocos › Trocar Fluxo
 
 ---
 

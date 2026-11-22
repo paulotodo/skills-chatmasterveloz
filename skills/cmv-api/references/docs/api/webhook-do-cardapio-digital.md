@@ -8,7 +8,7 @@
 
 🧩 Quer que o seu sistema saiba na hora que um cliente entrou na loja, que uma mesa pediu a conta ou que um cupom foi usado? O **Webhook do Cardápio Digital** avisa o seu sistema a cada evento da loja, dos endereços do cliente, das mesas, das comandas, das reservas de mesa, dos cupons e do cashback.
 
-Os avisos do Cardápio Digital chegam no mesmo endereço do **Webhook do PDV**, que é o único campo a preencher.
+Os avisos do Cardápio digital chegam no mesmo endereço do **Webhook do PDV**, que é o único campo a preencher.
 
 > **[RESUMO]**
 >
@@ -22,17 +22,17 @@ Os avisos do Cardápio Digital chegam no mesmo endereço do **Webhook do PDV**, 
 
 ## Onde ligar
 
-🔘 **Webhook do PDV (recebe os eventos de pedidos, pagamentos, caixa e estoque):** o endereço que recebe também os eventos do Cardápio Digital. Em branco, nada é enviado. Ao salvar, a tela avisa *"Webhook do PDV salvo."* e lista os eventos enviados.
+🔘 **Webhook do PDV (recebe os eventos de pedidos, pagamentos, caixa e estoque):** o endereço que recebe também os eventos do Cardápio digital. Em branco, nada é enviado. Ao salvar, a tela avisa *"Webhook do PDV salvo."* e lista os eventos enviados.
 
 O endereço precisa começar com http:// ou https://, sem espaços, e não pode apontar para a rede interna. Ele recebe **POST** com corpo em JSON.
 
 ## O campo que separa um aviso do outro
 
-Tudo chega no mesmo endereço, e é o **`acao`** que diz o que aconteceu no Cardápio Digital:                                                                  
+Tudo chega no mesmo endereço, e é o **`acao`** que diz o que aconteceu no Cardápio digital:                                                                  
 
 | `acao` | O que aconteceu |
 |---|---|
-| `cardapio-alterado` | a loja do Cardápio Digital foi salva, a cada **Salvar**, mesmo quando nada mudou |
+| `cardapio-alterado` | a loja do Cardápio digital foi salva, a cada **Salvar**, mesmo quando nada mudou |
 | `cardapio-cliente-entrou` | o cliente entrou na loja com o código do WhatsApp |
 | `cardapio-endereco-salvo` · `cardapio-endereco-removido` | um endereço de entrega do cliente foi guardado, alterado ou removido — na loja, no pedido do painel, pela integração ou pela planilha |
 | `mesa-criada` · `mesa-alterada` · `mesa-removida` | uma mesa do salão foi criada, mudou (também quando o QR Code é trocado) ou foi removida |
@@ -140,7 +140,7 @@ O mesmo cupom, quando é removido, chega só com o `id` e o `codigo`:
 
 ## Os pedidos da loja e da mesa
 
-Os pedidos do Cardápio Digital chegam pelos avisos de pedido do **Webhook do PDV**, como `pedido-criado`, com estes campos a mais:
+Os pedidos do Cardápio digital chegam pelos avisos de pedido do **Webhook do PDV**, como `pedido-criado`, com estes campos a mais:
 
 ◽ **Pedido pela loja:** `origem` com o valor `cardapio`.
 
@@ -164,22 +164,22 @@ Todo aviso do **Webhook do Cardápio Digital** traz o cabeçalho `X-Pdv-Evento`,
 >
 > #### Dúvidas Comuns
 >
-> **O Webhook do Cardápio Digital tem um campo próprio?** Não. Os avisos do Cardápio Digital chegam no endereço preenchido em **Webhook do PDV**, no menu **Configurações  ›  Opções  ›  Integrações e segurança**, seção **Webhooks e integrações**, e o `acao` separa um aviso do outro.
+> **O Webhook do Cardápio Digital tem um campo próprio?** Não. Os avisos do Cardápio digital chegam no endereço preenchido em **Webhook do PDV**, no menu **Configurações  ›  Opções  ›  Integrações e segurança**, seção **Webhooks e integrações**, e o `acao` separa um aviso do outro.
 >
 > **Como meu sistema sabe que uma mesa pediu a conta?** Pelo aviso `comanda-conta-pedida`, com a mesa, o total, o que foi pago e o saldo em `comanda`.
 >
-> **Desliguei um cupom do Cardápio Digital. Qual aviso chega?** O `cupom-alterado`, com `ativo` em `false`. Não há aviso próprio para ligar ou desligar o cupom.
+> **Desliguei um cupom do Cardápio digital. Qual aviso chega?** O `cupom-alterado`, com `ativo` em `false`. Não há aviso próprio para ligar ou desligar o cupom.
 >
 > **O endereço importado pela planilha avisa o Webhook do Cardápio Digital?** Sim. Cada endereço importado chega como `cardapio-endereco-salvo`, com `origem` `planilha`; pela integração, com `origem` `api`.
 >
-> **Como meu sistema sabe que um cupom do Cardápio Digital foi usado?** Pelo aviso `cupom-usado`, com o cupom em `cupom` e o pedido e o desconto em `uso`.
+> **Como meu sistema sabe que um cupom do Cardápio digital foi usado?** Pelo aviso `cupom-usado`, com o cupom em `cupom` e o pedido e o desconto em `uso`.
 >
-> **Quando chega o aviso de cashback creditado no Cardápio Digital?** Quando o pedido é entregue, o aviso `cashback-creditado` traz o valor e o saldo do cliente em `cashback`.
+> **Quando chega o aviso de cashback creditado no Cardápio digital?** Quando o pedido é entregue, o aviso `cashback-creditado` traz o valor e o saldo do cliente em `cashback`.
 >
-> **O pedido feito na mesa do Cardápio Digital gera qual aviso?** Os avisos de pedido do **Webhook do PDV**, com `mesa` e `comandaId`. A abertura da conta chega em `comanda-aberta`.
+> **O pedido feito na mesa do Cardápio digital gera qual aviso?** Os avisos de pedido do **Webhook do PDV**, com `mesa` e `comandaId`. A abertura da conta chega em `comanda-aberta`.
 >
 > **Como meu sistema sabe que a taxa de serviço ou o desconto da conta da mesa mudou?** Pelo aviso `comanda-alterada`, com a comanda como ficou em `comanda` e o que mudou em `mudou`.
 >
-> **Como meu sistema sabe que o cliente reservou uma mesa pelo Cardápio Digital?** Pelo aviso `reserva-criada`, com `origem` `cardapio` dentro de `reserva`. A reserva feita pela equipe vem com `painel`, e a feita pela integração, com `api`.
+> **Como meu sistema sabe que o cliente reservou uma mesa pelo Cardápio digital?** Pelo aviso `reserva-criada`, com `origem` `cardapio` dentro de `reserva`. A reserva feita pela equipe vem com `painel`, e a feita pela integração, com `api`.
 >
-> **Como meu sistema sabe de qual vitrine veio um pedido do Cardápio Digital?** Pelo `pedido.loja` dos avisos de pedido, com o `id`, o `slug` e o `tipo` da vitrine, e pelo `pedido.cardapioId`.
+> **Como meu sistema sabe de qual vitrine veio um pedido do Cardápio digital?** Pelo `pedido.loja` dos avisos de pedido, com o `id`, o `slug` e o `tipo` da vitrine, e pelo `pedido.cardapioId`.

@@ -6,7 +6,7 @@
 
 ---
 
-🧩 Listar **fluxos** do Flowbuilder da empresa.
+🧩 Listar **fluxos** do FlowBuilder Nativo da empresa.
 
 **API:** Todas
 

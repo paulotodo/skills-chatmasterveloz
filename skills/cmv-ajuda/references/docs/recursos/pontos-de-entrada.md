@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/pontos-de-entrada
 - **Categoria:** Recursos
-- **Menu:** FlowBuilder › Pontos de Entrada (Gatilho)
+- **Menu:** FlowBuilder Nativo › Pontos de Entrada (Gatilho)
 
 ---
 

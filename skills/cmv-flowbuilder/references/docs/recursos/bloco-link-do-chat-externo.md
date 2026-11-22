@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/bloco-link-do-chat-externo
 - **Categoria:** Recursos
-- **Menu:** FlowBuilder › Blocos › Link do Chat Externo
+- **Menu:** FlowBuilder Nativo › Blocos › Link do Chat Externo
 
 ---
 

@@ -10,9 +10,9 @@
 
 #### Novidades
 
-⚡️ **Quadro por tags:** no Quadro de Atendimentos, cada tag marcada como Kanban vira uma coluna, com a cor dela.
+⚡️ **Quadro por tags:** no Quadro de atendimentos, cada tag marcada como Kanban vira uma coluna, com a cor dela.
 
-⚡️ **Pergunta É Feriado?:** no FlowBuilder, o bloco Condição direciona o atendimento em feriados nacionais, estaduais e da sua cidade.
+⚡️ **Pergunta É Feriado?:** no FlowBuilder Nativo, o bloco Condição direciona o atendimento em feriados nacionais, estaduais e da sua cidade.
 
 #### Melhorias
 
@@ -38,7 +38,7 @@ No menu **Quadro de atendimentos**, a opção **Colunas | Tags**, ao lado do nom
 
 ## Pergunta É Feriado?
 
-No bloco **Condição** do FlowBuilder, o tipo **É Feriado?** direciona o atendimento nos feriados.
+No bloco **Condição** do FlowBuilder Nativo, o tipo **É Feriado?** direciona o atendimento nos feriados.
 
 ➡️ Acesse o menu **FlowBuilder Nativo  ›  editar fluxo  ›  bloco Condição** e escolha o tipo **É Feriado?**.
 

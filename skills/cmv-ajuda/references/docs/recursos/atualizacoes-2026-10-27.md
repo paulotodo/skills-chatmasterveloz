@@ -1,4 +1,4 @@
-# 27/10/2026
+# Atualizações 27/10/2026
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-10-27
 - **Categoria:** Recursos
@@ -24,7 +24,7 @@
 
 ☑️ **Janela da chamada:** a tela compartilhada aparece em destaque, com as câmeras numa faixa abaixo; a chamada vai para tela cheia com um clique, muda de tamanho pelo canto e abre numa janela separada, para levar a outro monitor.
 
-☑️ **Template no FlowBuilder:** no FlowBuilder, o template da API oficial é preenchido com os dados que chegam pelo webhook, como nome, e-mail e empresa, e com as variáveis do fluxo.
+☑️ **Template no FlowBuilder Nativo:** no FlowBuilder Nativo, o template da API oficial é preenchido com os dados que chegam pelo webhook, como nome, e-mail e empresa, e com as variáveis do fluxo.
 
 ☑️ **Modo Híbrido:** a mensagem enviada pela rota híbrida pode ser apagada para todos e editada pelo painel, e a tela explica o motivo quando não dá.
 
@@ -36,7 +36,7 @@
 
 ◽ **Mensagens seguidas:** quando o cliente manda várias mensagens seguidas, mesmo com foto, áudio ou documento no meio, ele recebe uma resposta só, sem menu repetido, e o documento que ele envia chega ao fluxo.
 
-◽ **Respostas rápidas no aplicativo:** a lista inteira aparece, e a resposta com anexo envia o arquivo com o texto de legenda.
+◽ **Respostas Rápidas no aplicativo:** a lista inteira aparece, e a resposta com anexo envia o arquivo com o texto de legenda.
 
 ◽ **Aplicativo nos iPhones:** o aplicativo volta a abrir nos iPhones mais recentes.
 

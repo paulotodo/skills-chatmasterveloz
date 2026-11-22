@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/bloco-pergunta
 - **Categoria:** Recursos
-- **Menu:** FlowBuilder › Blocos › Pergunta
+- **Menu:** FlowBuilder Nativo › Blocos › Pergunta
 
 ---
 
@@ -30,7 +30,7 @@
 
 [Vídeo Voomly — id BlfAVhKMhwYRgNvXXME77t3e00LYEDu6wjvpRtxeXk7BN68Ad, tipo v]  
 
-## Como adicionar o bloco "Pergunta" no FlowBuilder
+## Como adicionar o bloco "Pergunta" no FlowBuilder Nativo
 
 Acesse o menu **FlowBuilder Nativo  ›  editar fluxo  ›  +  ›  Pergunta**
 

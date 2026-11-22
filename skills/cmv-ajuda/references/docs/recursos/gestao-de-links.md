@@ -18,4 +18,4 @@ Crie e Monitore Links Personalizados
 
 ☑️ **Inteligência de Dados:** Monitore exatamente quantos cliques sua campanha teve, de qual cidade o usuário é e qual dispositivo ele usou.
 
-☑️ **Gatilhos de Automação:** Transforme a mensagem pré-definida no link em um gatilho. No FlowBuilder, use um bloco de Condição para identificar essa frase exata e disparar um fluxo exclusivo para quem clicou nesse link.
+☑️ **Gatilhos de Automação:** Transforme a mensagem pré-definida no link em um gatilho. No FlowBuilder Nativo, use um bloco de Condição para identificar essa frase exata e disparar um fluxo exclusivo para quem clicou nesse link.

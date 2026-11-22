@@ -22,7 +22,7 @@ A seção **Conversa** se chamava **Configurações de Sistema** e reunia outras
 
 ## Os campos, na ordem da tela
 
-🔘 **Ações do topo do ticket:** como as ações do topo da conversa aparecem — **Resolver**, **Transferir Ticket**, **Devolver ao Setor** e as demais. Nas palavras da tela, *"Vale em Chats e no pop-up do Quadro de Atendimentos, no computador e no celular."* A escolha vale para toda a equipe. São duas opções:
+🔘 **Ações do topo do ticket:** como as ações do topo da conversa aparecem — **Resolver**, **Transferir Ticket**, **Devolver ao Setor** e as demais. Nas palavras da tela, *"Vale em Chats e no pop-up do Quadro de atendimentos, no computador e no celular."* A escolha vale para toda a equipe. São duas opções:
 
 ➡️ **Todas à mostra (o que não couber vai para o ⋯):** cada ação vira um ícone no topo da conversa; as que não cabem na largura da tela ficam no botão ⋯ **Mais ações**, numa lista.
 
@@ -52,7 +52,7 @@ A seção **Conversa** se chamava **Configurações de Sistema** e reunia outras
 >
 > **Como impeço os contatos de mandar áudio?** Em **Bloquear Áudio de Todos os Contatos?**, escolha **Sim**: o áudio recebido é recusado e o cliente recebe a **Mensagem de Recusa de Áudio**, que você escreve no campo logo abaixo, na seção **Conversa**.
 >
-> **Onde foram parar as outras opções da antiga seção Configurações de Sistema?** Continuam no menu **Configurações  ›  Opções**, em outras seções: **Modo de Recuperação de Senha** está na aba **Integrações e segurança**, seção **Segurança**; **Modo de Randomização de Atendimento**, na aba **Atendimento**, seção **Distribuição e rodízio**; **Botão de Comentário Interno Disponível?** e **Assinatura Genérica**, na aba **Atendimento**, seção **Atendimento e operador**; **Ignorar Validação de Contatos?**, na aba **Contatos**, seção **Contatos**; **Mensagem Saída Forçada**, **Mensagem de Encaminhamento** e **Mensagem de Notificação Externa**, na aba **Automação**, seção **Mensagens automáticas**; e **Mensagem de Saudação para setor único?**, **Informar a Posição no Setor?**, **Mensagem de Posição no Setor**, **Concatenação no Flowbuilder?**, **Tempo de Concatenação** e **Limitar as mensagens que o fluxo responde ao mesmo contato?**, na aba **Automação**, seção **Bot e FlowBuilder**. Para achar qualquer opção pelo nome, use o campo **Pesquisar opção**, acima das abas.
+> **Onde foram parar as outras opções da antiga seção Configurações de Sistema?** Continuam no menu **Configurações  ›  Opções**, em outras seções: **Modo de Recuperação de Senha** está na aba **Integrações e segurança**, seção **Segurança**; **Modo de Randomização de Atendimento**, na aba **Atendimento**, seção **Distribuição e rodízio**; **Botão de Comentário Interno Disponível?** e **Assinatura Genérica**, na aba **Atendimento**, seção **Atendimento e operador**; **Ignorar Validação de Contatos?**, na aba **Contatos**, seção **Contatos**; **Mensagem Saída Forçada**, **Mensagem de Encaminhamento** e **Mensagem de Notificação Externa**, na aba **Automação**, seção **Mensagens automáticas**; e **Mensagem de Saudação para setor único?**, **Informar a Posição no Setor?**, **Mensagem de Posição no Setor**, **Concatenação no FlowBuilder Nativo?**, **Tempo de Concatenação** e **Limitar as mensagens que o fluxo responde ao mesmo contato?**, na aba **Automação**, seção **Bot e FlowBuilder Nativo**. Para achar qualquer opção pelo nome, use o campo **Pesquisar opção**, acima das abas.
 
 > **[ERROS]**
 >

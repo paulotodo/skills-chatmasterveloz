@@ -38,7 +38,7 @@ Com as **Ações do topo do ticket** em **Agrupadas**, o botão **Mais** abre as
 
 🔘 **No celular:** com **Agrupadas**, o topo da conversa mostra **Resolver**, **Transferir Ticket** e o botão do **Mais**, e o **Mais** abre numa gaveta presa na parte de baixo da tela, que ocupa a tela inteira, com o campo **Buscar ação** e os mesmos grupos.
 
-🔘 **Na janela do Quadro de Atendimentos:** se o Quadro de Atendimentos faz parte do seu plano, a conversa aberta com dois cliques no card tem o mesmo topo; com **Agrupadas**, **Resolver**, **Transferir Ticket** e **Mais** aparecem com o nome, e a lista do **Mais** abre por cima da janela.
+🔘 **Na janela do Quadro de atendimentos:** se o Quadro de atendimentos faz parte do seu plano, a conversa aberta com dois cliques no card tem o mesmo topo; com **Agrupadas**, **Resolver**, **Transferir Ticket** e **Mais** aparecem com o nome, e a lista do **Mais** abre por cima da janela.
 
 As ações que aparecem no **Mais** dependem do plano da empresa e das permissões de cada pessoa: um atendente pode ver menos ações que um supervisor ou um administrador.
 

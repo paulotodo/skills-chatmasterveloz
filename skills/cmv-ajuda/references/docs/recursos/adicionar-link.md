@@ -8,7 +8,7 @@
 
 🧩 **Adicionar um Link** permite que você gere rapidamente URLs curtas e inteligentes para o seu WhatsApp.
 
-☑️ **Gatilhos de Automação:** Transforme a mensagem pré-definida em um gatilho. No FlowBuilder, use um bloco de Condição para identificar essa frase exata e disparar um robô exclusivo para quem clicou naquele link.
+☑️ **Gatilhos de Automação:** Transforme a mensagem pré-definida em um gatilho. No FlowBuilder Nativo, use um bloco de Condição para identificar essa frase exata e disparar um robô exclusivo para quem clicou naquele link.
 
 ☑️ **Experiência do Cliente:** O cliente não precisa adicionar o seu número na agenda. O link já abre o WhatsApp dele com a mensagem pronta para enviar.
 
@@ -64,4 +64,4 @@ Acesse o menu → Gestão de Links > + Novo Link
 >
 > **Digitar traços e parênteses:** O usuário tenta formatar o número para ficar bonito (ex: 55 (11) 99999-9999). A API do WhatsApp não lê formatação, e o link irá falhar. Use **apenas números**.
 >
-> **Não usar a mensagem pré-definida como Gatilho:** Deixar o campo "Mensagem" em branco. Isso faz com que o cliente chegue no seu WhatsApp enviando apenas um "Oi", dificultando saber de qual campanha ele veio e impedindo que o FlowBuilder inicie uma automação específica para aquele anúncio.
+> **Não usar a mensagem pré-definida como Gatilho:** Deixar o campo "Mensagem" em branco. Isso faz com que o cliente chegue no seu WhatsApp enviando apenas um "Oi", dificultando saber de qual campanha ele veio e impedindo que o FlowBuilder Nativo inicie uma automação específica para aquele anúncio.

@@ -1,12 +1,12 @@
-# Pedido pelo Cardápio Digital
+# Pedido pelo Cardápio digital
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/pedido-pelo-cardapio-digital
 - **Categoria:** Recursos
-- **Menu:** PDV › Cardápio Digital › Pedido pelo Cardápio Digital
+- **Menu:** PDV › Cardápio digital › Pedido pelo Cardápio digital
 
 ---
 
-🧩 Como o cliente faz o pedido pelo Cardápio Digital, do produto até o acompanhamento? Ele abre o link da loja, monta a sacola, confirma o celular com um código que chega pelo WhatsApp e acompanha o pedido pela própria página. O pedido entra **confirmado** no PDV, sem passar por ninguém da equipe.
+🧩 Como o cliente faz o pedido pelo Cardápio digital, do produto até o acompanhamento? Ele abre o link da loja, monta a sacola, confirma o celular com um código que chega pelo WhatsApp e acompanha o pedido pela própria página. O pedido entra **confirmado** no PDV, sem passar por ninguém da equipe.
 
 O pedido pela sacola vale quando o interruptor do menu **PDV  ›  Cardápio digital** mostra **A loja recebe pedidos pela sacola**. Com **Os pedidos seguem pelo WhatsApp**, a sacola abre o pedido numa mensagem para o **WhatsApp da loja**, e o pedido não entra sozinho no PDV.
 
@@ -44,7 +44,7 @@ Além do pagamento na entrega ou na retirada, o cliente pode pagar pela própria
 
 ## O frete por faixa de CEP no pedido pela sacola
 
-Quando o PDV tem faixas em **Frete por faixa de CEP**, no menu **Configurações  ›  Opções  ›  Vendas**, seção **PDV**, a sacola do Cardápio Digital pede o **CEP** antes do endereço, e o **Bairro** vira um campo livre, com sugestões. O frete é calculado enquanto o cliente digita:
+Quando o PDV tem faixas em **Frete por faixa de CEP**, no menu **Configurações  ›  Opções  ›  Vendas**, seção **PDV**, a sacola do Cardápio digital pede o **CEP** antes do endereço, e o **Bairro** vira um campo livre, com sugestões. O frete é calculado enquanto o cliente digita:
 
 ➡️ CEP dentro de uma faixa: o frete e o prazo dela, como *"R$ 7,50 · até 40 min"*, ou *"grátis"* na faixa sem valor.
 
@@ -58,14 +58,14 @@ Na **Retirada**, a sacola não pede CEP, endereço nem bairro. Em **Informaçõe
 >
 > #### Dúvidas Comuns
 >
-> **O cliente precisa de cadastro ou senha para pedir no Cardápio Digital?** Não. Na primeira vez ele confirma o celular com o código que chega no WhatsApp, e o celular fica conectado à loja por 30 dias.
+> **O cliente precisa de cadastro ou senha para pedir no Cardápio digital?** Não. Na primeira vez ele confirma o celular com o código que chega no WhatsApp, e o celular fica conectado à loja por 30 dias.
 >
-> **O código de entrada do Cardápio Digital abre um atendimento?** Não. A mensagem do código é enviada pela Conexão escolhida em **Conexão do código e do atendimento** e fica na conversa do contato, sem abrir atendimento em **Aguardando**. A tela recomenda uma Conexão por QR Code, porque a API oficial só envia mensagem livre dentro da janela de 24 horas.
+> **O código de entrada do Cardápio digital abre um atendimento?** Não. A mensagem do código é enviada pela Conexão escolhida em **Conexão do código e do atendimento** e fica na conversa do contato, sem abrir atendimento em **Aguardando**. A tela recomenda uma Conexão por QR Code, porque a API oficial só envia mensagem livre dentro da janela de 24 horas.
 >
-> **O Cardápio Digital pede o CEP na sacola. De onde vem o frete?** Das faixas de **Frete por faixa de CEP**, no menu **Configurações  ›  Opções  ›  Vendas**, seção **PDV**. O CEP que cai numa faixa usa o frete e o prazo dela; fora das faixas, vale a taxa do bairro.
+> **O Cardápio digital pede o CEP na sacola. De onde vem o frete?** Das faixas de **Frete por faixa de CEP**, no menu **Configurações  ›  Opções  ›  Vendas**, seção **PDV**. O CEP que cai numa faixa usa o frete e o prazo dela; fora das faixas, vale a taxa do bairro.
 >
-> **O total do pedido no Cardápio Digital mudou quando o cliente trocou a forma de pagamento. Por quê?** A loja tem desconto ou taxa para aquela forma, configurado no menu **Configurações  ›  Opções  ›  Vendas**, seção **PDV**, em **Desconto e taxa por forma de pagamento**. A sacola mostra o ajuste numa linha própria, e o pedido entra no PDV com o mesmo total.
+> **O total do pedido no Cardápio digital mudou quando o cliente trocou a forma de pagamento. Por quê?** A loja tem desconto ou taxa para aquela forma, configurado no menu **Configurações  ›  Opções  ›  Vendas**, seção **PDV**, em **Desconto e taxa por forma de pagamento**. A sacola mostra o ajuste numa linha própria, e o pedido entra no PDV com o mesmo total.
 >
-> **Como o cliente digita o troco no Cardápio Digital?** A partir dos centavos: 1, 2, 5 e 0 viram *"R$ 12,50"*. Quando o troco fica menor que o total, a sacola avisa *"O valor do troco é menor que o total do pedido. Confira o valor em dinheiro."*
+> **Como o cliente digita o troco no Cardápio digital?** A partir dos centavos: 1, 2, 5 e 0 viram *"R$ 12,50"*. Quando o troco fica menor que o total, a sacola avisa *"O valor do troco é menor que o total do pedido. Confira o valor em dinheiro."*
 >
-> **Por que o sabor da pizza aparece mais caro no pedido pelo Cardápio Digital do que na Mesa?** O tamanho tem **Preço Delivery** no cadastro do produto, e a página soma a diferença dele ao preço de cada sabor. Com a Média a R$ 40,00 e **Preço Delivery** de R$ 44,00, a Calabresa de R$ 42,00 aparece a R$ 46,00 e a Portuguesa de R$ 46,00, a R$ 50,00; com as duas, **Adicionar à sacola** mostra R$ 48,00, a média dos dois preços já ajustados.
+> **Por que o sabor da pizza aparece mais caro no pedido pelo Cardápio digital do que na Mesa?** O tamanho tem **Preço Delivery** no cadastro do produto, e a página soma a diferença dele ao preço de cada sabor. Com a Média a R$ 40,00 e **Preço Delivery** de R$ 44,00, a Calabresa de R$ 42,00 aparece a R$ 46,00 e a Portuguesa de R$ 46,00, a R$ 50,00; com as duas, **Adicionar à sacola** mostra R$ 48,00, a média dos dois preços já ajustados.

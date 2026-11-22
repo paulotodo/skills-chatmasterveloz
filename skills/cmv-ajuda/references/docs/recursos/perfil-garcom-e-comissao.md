@@ -22,7 +22,7 @@
 
 O **Garçom** é um perfil do cadastro de usuário, escolhido em **Perfil**, na aba **Geral**, ao criar ou editar a pessoa no menu **Equipe**. Na lista de perfis ele aparece ao lado de **Admin**, **User**, **Supervisor** e **Entregador**, sempre junto com a página **Mesas e Comandas**: quando ela não está no seu menu **PDV**, o **Garçom** também não está na lista.
 
-Quem entra com o perfil **Garçom** não vê o menu nem os atendimentos: a plataforma inteira vira uma tela só, **Mesas e comandas**. No topo ficam o nome do garçom, a comissão dele, como *"Sua comissão: hoje R$ 0,00 · no mês R$ 0,00"*, e o botão **Sair**. Embaixo fica o salão, com **Lançar na mesa** e as abas **Mesas**, **Comandas**, **Reservas** e **Histórico**, sem o botão **Configurar**.
+Quem entra com o perfil **Garçom** não vê o menu nem os atendimentos: a plataforma inteira vira uma tela só, **Mesas e Comandas**. No topo ficam o nome do garçom, a comissão dele, como *"Sua comissão: hoje R$ 0,00 · no mês R$ 0,00"*, e o botão **Sair**. Embaixo fica o salão, com **Lançar na mesa** e as abas **Mesas**, **Comandas**, **Reservas** e **Histórico**, sem o botão **Configurar**.
 
 Qualquer outro endereço da plataforma que o garçom abrir mostra a mesma tela. A plataforma resume a regra assim: *"Este login só lança pedidos nas mesas e nas comandas."*
 
@@ -68,7 +68,7 @@ Clique em **Salvar comissão**. A taxa de serviço da conta vem da **Taxa de ser
 >
 > #### Dúvidas Comuns
 >
-> **O garçom vê as conversas e os atendimentos?** Não. Com o perfil **Garçom**, a plataforma inteira vira a tela **Mesas e comandas**, sem menu.
+> **O garçom vê as conversas e os atendimentos?** Não. Com o perfil **Garçom**, a plataforma inteira vira a tela **Mesas e Comandas**, sem menu.
 >
 > **O perfil Garçom não aparece na lista de perfis.** O **Garçom** vem junto com a página **Mesas e Comandas**: se ela não está no seu menu **PDV**, o perfil também não aparece, porque os dois dependem do seu plano.
 >

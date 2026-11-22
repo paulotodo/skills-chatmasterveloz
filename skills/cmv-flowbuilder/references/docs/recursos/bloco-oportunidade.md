@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/bloco-oportunidade
 - **Categoria:** Recursos
-- **Menu:** FlowBuilder › Blocos › Oportunidade
+- **Menu:** FlowBuilder Nativo › Blocos › Oportunidade
 
 ---
 
@@ -20,7 +20,7 @@ Ideal para:
 >
 > #### Resumo Prático
 >
-> ➡️ Acesse o menu **FlowBuilder** e edite o fluxo.
+> ➡️ Acesse o menu **FlowBuilder Nativo** e edite o fluxo.
 >
 > ➡️ Clique no **+** e escolha **Oportunidade**.
 >

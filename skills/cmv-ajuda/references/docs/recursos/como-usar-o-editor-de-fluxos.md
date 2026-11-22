@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/como-usar-o-editor-de-fluxos
 - **Categoria:** Recursos
-- **Menu:** FlowBuilder › Editor de Fluxos › Como Usar o Editor de Fluxos
+- **Menu:** FlowBuilder Nativo › Editor de Fluxos › Como Usar o Editor de Fluxos
 
 ---
 

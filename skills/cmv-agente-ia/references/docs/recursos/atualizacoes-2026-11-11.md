@@ -1,4 +1,4 @@
-# 11/11/2026
+# Atualizações 11/11/2026
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-11
 - **Categoria:** Recursos
@@ -76,13 +76,13 @@ Todas as novidades abaixo estão disponíveis a partir da versão **WS-29.984.0*
 
 ◽ **Relatório por período:** ainda no Dashboard, o relatório por período inclui o último dia escolhido.
 
-⚡️ **Setores de produção:** no PDV, Cozinha, Bar, Copa e os que você criar, um por categoria, e o **Painel de Pedidos** filtra por setor.
+⚡️ **Setores de produção:** no PDV, Cozinha, Bar, Copa e os que você criar, um por categoria, e o **Painel de pedidos** filtra por setor.
 
 ⚡️ **Desconto ou taxa por forma de pagamento:** ainda no PDV, em reais ou em porcentagem, já no valor do Balcão e da sacola.
 
-⚡️ **Sob encomenda e pré-venda:** na Loja Digital, o produto continua à venda com o aviso do prazo no produto e na sacola.
+⚡️ **Sob encomenda e pré-venda:** na Loja digital, o produto continua à venda com o aviso do prazo no produto e na sacola.
 
-⚡️ **Frete pelos Correios:** na Loja Digital, o peso e as medidas ficam no produto e o contrato dos Correios nas Opções do PDV, conferido ao salvar; o cliente vê PAC e SEDEX pelo CEP.
+⚡️ **Frete pelos Correios:** na Loja digital, o peso e as medidas ficam no produto e o contrato dos Correios nas Opções do PDV, conferido ao salvar; o cliente vê PAC e SEDEX pelo CEP.
 
 ⚡️ **Clientes do PDV:** uma tela nova no menu do PDV mostra o cashback, os pedidos e o que o cliente mais pede.
 
@@ -90,11 +90,11 @@ Todas as novidades abaixo estão disponíveis a partir da versão **WS-29.984.0*
 
 ⚡️ **Planilha do catálogo:** em **Produtos**, dá para exportar a planilha do catálogo e substituir o catálogo por ela.
 
-⚡️ **Foto da categoria:** a categoria ganha foto, que aparece ao lado do nome no Cardápio Digital e na Loja Digital.
+⚡️ **Foto da categoria:** a categoria ganha foto, que aparece ao lado do nome no Cardápio digital e na Loja digital.
 
 ☑️ **Cashback por categoria:** o cashback pode valer só nas categorias escolhidas e pagar também a taxa de entrega, se você quiser.
 
-☑️ **Galeria no Cardápio Digital:** as fotos extras do produto aparecem também na janela do Cardápio Digital.
+☑️ **Galeria no Cardápio digital:** as fotos extras do produto aparecem também na janela do Cardápio digital.
 
 ☑️ **Link de pagamento no Balcão:** o link de pagamento pelo WhatsApp vale também no pedido do Balcão.
 
@@ -118,7 +118,7 @@ Todas as novidades abaixo estão disponíveis a partir da versão **WS-29.984.0*
 
 #### Correções
 
-◽ **Intervalo do FlowBuilder:** o bloco **Intervalo** para sozinho quando o atendimento é aceito ou encerrado na espera, ou quando o cliente responde com **Cancelar a espera** escolhido, também no Chat Externo.
+◽ **Intervalo do FlowBuilder Nativo:** o bloco **Intervalo** para sozinho quando o atendimento é aceito ou encerrado na espera, ou quando o cliente responde com **Cancelar a espera** escolhido, também no Chat Externo.
 
 ◽ **Limpar do Chat Interno:** o **Limpar** das notificações marca as conversas como lidas de verdade.
 
@@ -220,7 +220,7 @@ No menu **Conexões**, o card da conexão de WhatsApp por QR Code tem o botão *
 
 ➡️ A janela **Clonar a conexão** explica o que acontece: a conexão nova copia as mensagens, os Setores, os horários, os webhooks, o proxy e as integrações.
 
-➡️ Os atendimentos passam para a conexão nova, junto com os agendamentos que ainda vão ser enviados, as campanhas que não terminaram, o acesso dos usuários, o Cardápio Digital e os gatilhos de webhook.
+➡️ Os atendimentos passam para a conexão nova, junto com os agendamentos que ainda vão ser enviados, as campanhas que não terminaram, o acesso dos usuários, o Cardápio digital e os gatilhos de webhook.
 
 ➡️ A conexão atual é apagada, e não dá para desfazer. A nova fica com o mesmo nome e o mesmo token, e as integrações continuam funcionando.
 
@@ -306,15 +306,15 @@ No Dashboard, o bloco **Aniversariantes** tem **HOJE** e **NO MÊS**, e cada ani
 
 ## Setores de produção
 
-No menu **PDV  ›  Produtos**, o botão **SETORES** abre a janela **Setores de produção**: *Quem prepara cada pedido: Cozinha, Bar, Caixa, Copa... Escolha o setor de cada categoria no Editar da categoria, e cada tela do Painel de Pedidos mostra só o que é do seu setor.*
+No menu **PDV  ›  Produtos**, o botão **SETORES** abre a janela **Setores de produção**: *Quem prepara cada pedido: Cozinha, Bar, Caixa, Copa... Escolha o setor de cada categoria no Editar da categoria, e cada tela do Painel de pedidos mostra só o que é do seu setor.*
 
 ➡️ Em **Novo setor**, você dá o nome, escolhe a cor e clica em **CRIAR**. Cada setor sobe, desce, é editado, apagado ou desativado.
 
 ➡️ Na janela **Editar categoria**, o campo **Setor de produção** escolhe o setor da categoria. A subcategoria fica no setor da categoria de cima.
 
-➡️ No **Painel de Pedidos**, o filtro **Setor** mostra **Todos os setores**, cada setor e **Sem setor**. Em **Todos os setores**, cada item leva o setor ao lado. Num setor, aparecem só os itens dele, e o pedido avisa *+N item(ns) de outros setores*.
+➡️ No **Painel de pedidos**, o filtro **Setor** mostra **Todos os setores**, cada setor e **Sem setor**. Em **Todos os setores**, cada item leva o setor ao lado. Num setor, aparecem só os itens dele, e o pedido avisa *+N item(ns) de outros setores*.
 
-➡️ O setor desativado sai do filtro do Painel de Pedidos. Apagar um setor deixa as categorias dele sem setor, e os produtos continuam no cadastro.
+➡️ O setor desativado sai do filtro do Painel de pedidos. Apagar um setor deixa as categorias dele sem setor, e os produtos continuam no cadastro.
 
 ➡️ O Webhook do PDV avisa quando um setor é criado, alterado ou removido, e a API lista os setores e traz o setor de cada categoria.
 
@@ -326,7 +326,7 @@ No menu **Configurações  ›  Opções**, na seção **PDV**, o bloco **Descon
 
 ➡️ No **Balcão**, o campo **Forma** já mostra a regra de cada forma, como *Pix · 5% de desconto*. Escolhida a forma, aparecem a linha do desconto ou da taxa e o total ajustado, como *Pix: R$ 1,45 de desconto já no valor*.
 
-➡️ Na sacola do Cardápio Digital e da Loja Digital, o cliente vê a regra de cada forma e o total ajustado à forma que escolher, e o pedido nasce com o ajuste.
+➡️ Na sacola do Cardápio digital e da Loja digital, o cliente vê a regra de cada forma e o total ajustado à forma que escolher, e o pedido nasce com o ajuste.
 
 ## Sob encomenda e pré-venda
 
@@ -338,15 +338,15 @@ Na janela do produto, o bloco **Sob encomenda / pré-venda** tem o campo **Venda
 
 ➡️ **Sempre (pré-venda ou feito sob encomenda):** sempre à venda com o aviso do prazo, mesmo sem estoque.
 
-➡️ O **Aviso do prazo** tem até 120 caracteres, como *Prazo de produção: até 15 dias*, e aparece na Loja Digital, no produto e na sacola. Em branco, aparece só *Sob encomenda*.
+➡️ O **Aviso do prazo** tem até 120 caracteres, como *Prazo de produção: até 15 dias*, e aparece na Loja digital, no produto e na sacola. Em branco, aparece só *Sob encomenda*.
 
-➡️ Na Loja Digital, o produto ganha o selo **SOB ENCOMENDA** no card e na página, com o aviso do prazo. O Cardápio Digital não mostra o aviso.
+➡️ Na Loja digital, o produto ganha o selo **SOB ENCOMENDA** no card e na página, com o aviso do prazo. O Cardápio digital não mostra o aviso.
 
 ## Frete pelos Correios
 
 Na janela do produto, o bloco **Peso e medidas (frete pelos Correios)** guarda o peso, em gramas, e a altura, a largura e o comprimento, em centímetros, da unidade já embalada. Em branco, o frete usa as medidas padrão da loja.
 
-➡️ No menu **Configurações  ›  Opções**, na seção **PDV**, o bloco **Frete pelos Correios (Loja Digital)** diz: *Use o contrato da sua empresa nos Correios: o cliente da Loja Digital vê o preço e o prazo do PAC e do SEDEX pelo CEP.*
+➡️ No menu **Configurações  ›  Opções**, na seção **PDV**, o bloco **Frete pelos Correios (Loja digital)** diz: *Use o contrato da sua empresa nos Correios: o cliente da Loja digital vê o preço e o prazo do PAC e do SEDEX pelo CEP.*
 
 ➡️ O bloco pede o usuário do Meu Correios, o código de acesso à API, o cartão de postagem e o CEP de origem, com os serviços (PAC e SEDEX, até seis), os dias de manuseio (de 0 a 30) e as medidas padrão. **TESTAR COTAÇÃO** calcula um frete de exemplo.
 
@@ -384,15 +384,15 @@ No menu **PDV  ›  Produtos**, chegaram os botões **EXPORTAR PLANILHA** e **SU
 
 ## Foto da categoria
 
-Na janela **Editar categoria**, **ESCOLHER IMAGEM** aceita JPG, PNG ou WEBP de até 1,5 MB, e **TIRAR IMAGEM** remove. A foto aparece no Cardápio Digital e na Loja Digital, ao lado do nome da categoria, no botão do topo e no título da seção. O Balcão não mostra a foto.
+Na janela **Editar categoria**, **ESCOLHER IMAGEM** aceita JPG, PNG ou WEBP de até 1,5 MB, e **TIRAR IMAGEM** remove. A foto aparece no Cardápio digital e na Loja digital, ao lado do nome da categoria, no botão do topo e no título da seção. O Balcão não mostra a foto.
 
-➡️ As fotos extras do produto aparecem também na janela do Cardápio Digital, como *11 fotos · arraste para ver*.
+➡️ As fotos extras do produto aparecem também na janela do Cardápio digital, como *11 fotos · arraste para ver*.
 
 ## Produtos na moeda da empresa
 
 No menu **PDV  ›  Produtos**, a lista e a janela do produto mostram os preços na moeda da empresa.
 
-➡️ O produto com marca na ficha técnica mostra *Marca: … (da ficha técnica)* no card, entra no filtro **Marca** e é achado pela busca. O campo **Marca** vazio avisa que a Loja Digital mostra a marca da ficha técnica.
+➡️ O produto com marca na ficha técnica mostra *Marca: … (da ficha técnica)* no card, entra no filtro **Marca** e é achado pela busca. O campo **Marca** vazio avisa que a Loja digital mostra a marca da ficha técnica.
 
 ## Versões da mensagem editada
 
@@ -412,9 +412,9 @@ No atendimento, clicar no nome do contato, no topo da conversa, abre o painel **
 
 Em **Contatos**, o contato sem nome aparece como *Sem nome*, com um ícone de pessoa no lugar das iniciais. A **Última interação** vem em dia/mês/ano com a hora, e a busca sem resultado diz *Nenhum contato encontrado.*
 
-## Intervalo do FlowBuilder
+## Intervalo do FlowBuilder Nativo
 
-No FlowBuilder, o bloco **Intervalo** não continua o fluxo quando o atendimento é aceito ou encerrado durante a espera, também no Chat Externo.
+No FlowBuilder Nativo, o bloco **Intervalo** não continua o fluxo quando o atendimento é aceito ou encerrado durante a espera, também no Chat Externo.
 
 ➡️ Com **Cancelar a espera (o fluxo para aqui)** escolhido em **Se o cliente responder durante a espera**, o fluxo para quando o cliente responde. Com **Continuar esperando**, o fluxo segue depois do tempo.
 

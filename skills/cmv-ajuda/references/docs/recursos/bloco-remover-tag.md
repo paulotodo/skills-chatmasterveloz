@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/bloco-remover-tag
 - **Categoria:** Recursos
-- **Menu:** FlowBuilder › Blocos › Remover Tag
+- **Menu:** FlowBuilder Nativo › Blocos › Remover Tag
 
 ---
 

@@ -27,7 +27,7 @@ Se a outra skill não estiver disponível, entregue a sua parte e diga o que fic
 
 | Arquivo | Para quê |
 |---|---|
-| `references/docs/INDICE.md` e `references/docs/recursos/` | A documentação oficial: 75 artigos (FlowBuilder, blocos, pontos de entrada, Setores & Chatbot). É a única fonte de fatos sobre o produto. O índice traz o link **Fonte** de cada artigo. |
+| `references/docs/INDICE.md` e `references/docs/recursos/` | A documentação oficial: 76 artigos (FlowBuilder Nativo, blocos, pontos de entrada, Setores & Chatbot). É a única fonte de fatos sobre o produto. O índice traz o link **Fonte** de cada artigo. |
 | `references/blocos.md` | Qual bloco usar, as armadilhas e o artigo de cada um, se ele cabe no JSON e em que canal funciona. |
 | `references/receitas.md` | Esqueleto dos fluxos mais pedidos e boas práticas de conversa. |
 | `references/descricao-compacta.md` | Como descrever o fluxo para o gerador. É o que se lê para gerar um arquivo. |

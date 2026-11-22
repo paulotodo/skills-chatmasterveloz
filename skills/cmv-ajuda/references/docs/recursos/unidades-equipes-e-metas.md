@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/unidades-equipes-e-metas
 - **Categoria:** Recursos
-- **Menu:** CRM › Minha Evolução › Unidades, Equipes e Metas
+- **Menu:** CRM › Minha evolução › Unidades, Equipes e Metas
 
 ---
 

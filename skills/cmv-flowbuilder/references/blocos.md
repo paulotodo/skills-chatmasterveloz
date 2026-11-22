@@ -33,6 +33,7 @@ Guia rápido para escolher o bloco. Os campos, os limites e as mensagens de tela
 | segunda via de cobrança | Asaas |
 | registrar o negócio no CRM | Oportunidade |
 | o cliente reservar sozinho a oferta, o dia e o horário livre | Reservas (agendar no fluxo) |
+| mandar um e-mail (confirmação ao cliente, aviso à equipe) | Enviar e-mail |
 | deixar um resumo para o atendente | Msg Interna |
 | terminar o atendimento | Encerrar |
 | terminar um fluxo chamado por resposta rápida | Encerrar Mensagem Rápida |
@@ -163,6 +164,10 @@ Lidas em Como o Fluxo Roda (`references/docs/recursos/como-o-fluxo-roda.md`) e B
 **Asaas** · `references/docs/recursos/bloco-asaas.md` · JSON: não
 - Use para: segunda via. Peça CPF ou CNPJ numa Pergunta antes; saídas **Sucesso** e **Erro**.
 - Cuidado: só números no documento. O bloco envia o link da fatura mais recente, não de todas. Ligue a saída **Erro**.
+
+**Enviar e-mail** · `references/docs/recursos/bloco-enviar-e-mail.md` · JSON: não
+- Use para: mandar um e-mail no meio do fluxo, por uma conta de e-mail da empresa ou por um provedor de envio por API. Com o **Para** vazio, vai para o e-mail do contato. Saídas **Enviado** e **Não enviado**; ligue as duas.
+- Cuidado: a empresa precisa de uma conta ativa no menu **Contas de E-mail** ou de um provedor cadastrado na mesma tela. Contato sem e-mail com o **Para** vazio segue por **Não enviado**. O e-mail não fica registrado na conversa nem na pasta **Enviadas**: para o cliente saber, ligue **Enviado** a um bloco de mensagem.
 
 O artigo n8n via Flowbuilder (`references/docs/recursos/n8n-via-flowbuilder.md`) fala em bloco HTTP Request, mas o exemplo dele é código JavaScript, igual ao do artigo da Execução de Código JS, e termina mandando guardar a resposta numa Variável. Código vai em **Execução de Código JS**, seguido de Variável; no **HTTP Request**, a chamada é montada pelos campos e a resposta é guardada pela aba **Resposta**. Avise a pessoa dessa diferença.
 

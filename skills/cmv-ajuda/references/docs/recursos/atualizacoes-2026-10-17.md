@@ -18,13 +18,13 @@
 
 #### Melhorias
 
-☑️ **Dias da semana por caixas:** no FlowBuilder, a pergunta Qual Dia da Semana? do bloco Condição virou caixas, com os atalhos Segunda a sexta e Fim de semana.
+☑️ **Dias da semana por caixas:** no FlowBuilder Nativo, a pergunta Qual Dia da Semana? do bloco Condição virou caixas, com os atalhos Segunda a sexta e Fim de semana.
 
 ☑️ **Rodízio mais justo:** cada rodízio equilibra só pelas entregas dele, e o mesmo operador pode estar em vários rodízios sem um interferir no outro.
 
-☑️ **Rodízio no FlowBuilder:** o bloco Rodízio escolhe o Setor de cada operador, entre os que ele atende, e o limite de atendimentos considera também os que aguardam com cada operador.
+☑️ **Rodízio no FlowBuilder Nativo:** o bloco Rodízio escolhe o Setor de cada operador, entre os que ele atende, e o limite de atendimentos considera também os que aguardam com cada operador.
 
-☑️ **Menu em lista:** ainda no FlowBuilder, aceita até 10 opções sem o risco de o WhatsApp recusar o envio, com o limite de caracteres de cada opção na hora.
+☑️ **Menu em lista:** ainda no FlowBuilder Nativo, aceita até 10 opções sem o risco de o WhatsApp recusar o envio, com o limite de caracteres de cada opção na hora.
 
 ☑️ **Menu do CRM:** na ordem do dia a dia, primeiro a configuração, depois a rotina de vendas e por fim os relatórios.
 
@@ -32,7 +32,7 @@
 
 #### Correções
 
-◽ No FlowBuilder, as orientações do bloco Menu, o título do bloco Typebot e o exemplo de uso da resposta no bloco HTTP Request estão certos.
+◽ No FlowBuilder Nativo, as orientações do bloco Menu, o título do bloco Typebot e o exemplo de uso da resposta no bloco HTTP Request estão certos.
 
 ◽ O limite de caracteres por opção do Menu em lista é o mesmo dos botões.
 
@@ -50,13 +50,13 @@ O menu **Rodízios**, para administradores e supervisores, guarda cada rodízio 
 
 🔘 **Cada rodízio guarda:** quem participa, o percentual de cada um, o ciclo e o Setor reserva, para onde o atendimento vai quando ninguém está disponível, offline ou no limite de atendimentos.
 
-🔘 **Ativo:** o rodízio liga e desliga com um clique, sem abrir o FlowBuilder.
+🔘 **Ativo:** o rodízio liga e desliga com um clique, sem abrir o FlowBuilder Nativo.
 
 🔘 **Usado nos fluxos:** a lista mostra em quais fluxos cada rodízio é usado. Rodízio em uso não se exclui: desative em vez de excluir, e o atendimento vai para o Setor reserva.
 
 🔘 **Entregar em:** cada participante tem **Padrão da empresa** ou **Aguardando (MEUS)**.
 
-🔘 **No bloco Rodízio do FlowBuilder:** o campo **Distribuição** escolhe entre configurar ali mesmo ou usar um rodízio cadastrado.
+🔘 **No bloco Rodízio do FlowBuilder Nativo:** o campo **Distribuição** escolhe entre configurar ali mesmo ou usar um rodízio cadastrado.
 
 🔘 **Relatório do Rodízio:** soma a distribuição de cada rodízio cadastrado em todos os fluxos.
 
@@ -68,9 +68,9 @@ Três outras opções das Configurações, ligadas uma a uma, escolhem quem entr
 
 🔘 **Transferência para operador deixa no Aguardando (MEUS)?**
 
-🔘 **Rodízio do Flowbuilder deixa no Aguardando (MEUS)?**
+🔘 **Rodízio do FlowBuilder Nativo deixa no Aguardando (MEUS)?**
 
-🔘 **Bloco Operador do Flowbuilder deixa no Aguardando (MEUS)?**
+🔘 **Bloco Operador do FlowBuilder Nativo deixa no Aguardando (MEUS)?**
 
 Ligue antes **Aguardando com dono: só ele vê?**: sem ela, o aguardando com dono apareceria para todos.
 

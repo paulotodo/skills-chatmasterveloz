@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/api-criar-quadro
 - **Categoria:** APIs
-- **Menu:** APIs › Quadro de Atendimentos › API Criar Quadro
+- **Menu:** APIs › Quadro de atendimentos › API Criar Quadro
 
 ---
 

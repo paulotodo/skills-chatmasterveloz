@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/bloco-enviar-figurinha
 - **Categoria:** Recursos
-- **Menu:** FlowBuilder › Blocos › Enviar figurinha
+- **Menu:** FlowBuilder Nativo › Blocos › Enviar figurinha
 
 ---
 

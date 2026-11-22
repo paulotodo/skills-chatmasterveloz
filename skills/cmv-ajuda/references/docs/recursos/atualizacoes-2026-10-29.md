@@ -1,4 +1,4 @@
-# 29/10/2026
+# Atualizações 29/10/2026
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-10-29
 - **Categoria:** Recursos
@@ -18,7 +18,7 @@
 
 ☑️ **Balcão por categoria:** no PDV, os botões de categoria ficam acima da venda.
 
-☑️ **Pedido pelo fluxo por categoria:** no FlowBuilder, o bloco **PDV (pedido no fluxo)** pode oferecer uma categoria inteira.
+☑️ **Pedido pelo fluxo por categoria:** no FlowBuilder Nativo, o bloco **PDV (pedido no fluxo)** pode oferecer uma categoria inteira.
 
 ☑️ **Relatório do PDV por categoria:** quanto cada categoria vendeu e a participação dela nas vendas.
 
@@ -58,7 +58,7 @@ No **Balcão** do PDV, os botões de categoria aparecem acima da venda. A catego
 
 ## Pedido pelo fluxo por categoria
 
-No FlowBuilder, o bloco **PDV (pedido no fluxo)** ganhou a opção **Adicionar uma categoria inteira**. Os produtos das subcategorias entram junto, e os produtos cadastrados depois também.
+No FlowBuilder Nativo, o bloco **PDV (pedido no fluxo)** ganhou a opção **Adicionar uma categoria inteira**. Os produtos das subcategorias entram junto, e os produtos cadastrados depois também.
 
 ➡️ Com duas categorias ou mais, o cliente escolhe primeiro a categoria e depois o produto.
 

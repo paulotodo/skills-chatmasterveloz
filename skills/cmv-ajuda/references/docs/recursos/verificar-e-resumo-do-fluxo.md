@@ -2,11 +2,11 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/verificar-e-resumo-do-fluxo
 - **Categoria:** Recursos
-- **Menu:** FlowBuilder › Editor de Fluxos › Verificar e Resumo do Fluxo
+- **Menu:** FlowBuilder Nativo › Editor de Fluxos › Verificar e Resumo do Fluxo
 
 ---
 
-🧩 O robô que para de responder no meio da conversa quase sempre tem a mesma causa: um bloco ficou sem ligação, e o cliente chegou num ponto de onde o fluxo não tem para onde seguir. No editor do FlowBuilder, dois botões da barra procuram esse tipo de problema antes de o cliente encontrá-lo: **Verificar** e **Resumo do fluxo**.
+🧩 O robô que para de responder no meio da conversa quase sempre tem a mesma causa: um bloco ficou sem ligação, e o cliente chegou num ponto de onde o fluxo não tem para onde seguir. No editor do FlowBuilder Nativo, dois botões da barra procuram esse tipo de problema antes de o cliente encontrá-lo: **Verificar** e **Resumo do fluxo**.
 
 O **Verificar** olha as **ligações** entre os blocos. O **Resumo do fluxo** olha a **estrutura** do fluxo inteiro. Um não substitui o outro.
 

@@ -94,25 +94,25 @@ Os arquivos de entrada ficam em `references/docs/recursos/`. A coluna "Artigos" 
 | Meu Perfil | `meu-perfil.md` | 5 | status, senha, recuperar senha, favoritos |
 | Chats / Tickets | `chats-tickets.md` | 20 | ticket × protocolo, Aguardando × Atendendo, transferir, devolver, encerrar, editar mensagem enviada, videochamada, alertas vermelhos, Pesquisar, Gestão de atendimentos |
 | Atendimento Otimizado | `atendimento-otimizado.md` | 13 | mensagens de ausência, encerramento e aniversário, Mustaches, Mover após, inatividade, Avise-me, Siga-me, Avaliações, carteira, rodízio por Setores |
-| Quadro de Atendimentos | `quadro-de-atendimentos.md` | 6 | colunas, visão por tags, regras, permissões |
+| Quadro de atendimentos | `quadro-de-atendimentos.md` | 6 | colunas, visão por tags, regras, permissões |
 | Dashboard | `dashboard.md` | 18 | números de agora e do período, filtros, metas e limites, relatórios, alertas, resumo automático, Meus números do atendente |
-| E-mails | `e-mails.md` | 6 | contas, escrever e responder, caixa compartilhada, permissões |
+| E-mails | `e-mails.md` | 7 | contas, escrever e responder, caixa compartilhada, permissões |
 | Mail Marketing | `mail-marketing.md` | 9 | e-mail em massa: listas, modelos, campanhas de e-mail, relatório, descadastros |
 | Ligações | `ligacoes.md` | 7 | VoIP, PABX, ramais, ligação pelo WhatsApp |
 | Rodízios | `rodizios.md` | 3 | cadastro de rodízios, relatório |
 | Contatos | `contatos.md` | 11 | adicionar, editar, bloquear, importar, exportar |
 | Tags | `tags.md` | 10 | tipos de tag, Kanban de Tags, Pixel Meta, remarketing |
 | Respostas Rápidas | `respostas-rapidas.md` | 9 | texto, mídia, contato, localização, fluxo |
-| Links de Agendamento | `links-de-agendamento.md` | 1 | página em que o cliente marca reunião; a reunião entra nas Tarefas |
+| Links de agendamento | `links-de-agendamento.md` | 1 | página em que o cliente marca reunião; a reunião entra nas Tarefas |
 | Agendamentos | `agendamentos.md` | 5 | mensagens programadas |
 | Campanhas | `campanhas.md` | 5 | configurar, listas, nova campanha (um artigo por canal) |
 | Conexões | `conexoes.md` | 39 | WhatsApp oficial (templates, forma de pagamento, nome de exibição, qualidade e limite, erros de entrega) e por QR Code, Instagram, Messenger, Web Chat, Chat Externo, migrar, Concatenador |
 | Setores & Chatbot | `setores-e-chatbot.md` | 9 | abas do Setor, categorias, menu do chatbot na conexão |
-| FlowBuilder | `flowbuilder.md` | 60 | editor, 9 pontos de entrada (`gatilho-via-*.md`), blocos (`bloco-*.md` e `reservas-agendar-no-fluxo.md`) |
+| FlowBuilder Nativo | `flowbuilder.md` | 61 | editor, 9 pontos de entrada (`gatilho-via-*.md`), blocos (`bloco-*.md` e `reservas-agendar-no-fluxo.md`) |
 | Equipe | `equipe.md` | 11 | tipos de perfil, abas do cadastro, permissões, ações sobre o usuário, Registro de Atividades |
 | Chat Interno | `chat-interno.md` | 2 | conversas e chamadas entre a equipe |
 | Gravações das Chamadas | `gravacoes-das-chamadas.md` | 1 | página Gravações |
-| Configurações | `configuracoes.md` | 30 | busca de opção, uma entrada por aba de Configurações › Opções (Geral, Atendimento, Contatos, Automação, Chamadas, Vendas, Integrações e segurança) e suas seções, armazenamento remoto, webhooks, 2FA, Token da Empresa |
+| Configurações | `configuracoes.md` | 31 | busca de opção, uma entrada por aba de Configurações › Opções (Geral, Atendimento, Contatos, Automação, Chamadas, Vendas, Integrações e segurança) e suas seções, armazenamento remoto, webhooks, 2FA, Token da Empresa |
 | Tarefas | `tarefas.md` | 10 | criar, editar, comentar, compartilhar, concluir, avisos ao cliente |
 | Projetos | `projetos.md` | 8 | modelos, criar projeto, quadro do projeto, avisos ao cliente |
 | CRM | `crm.md` | 32 | funis, oportunidades, Board, propostas, relatórios, ranking, Minha evolução |
@@ -131,7 +131,7 @@ Os arquivos de entrada ficam em `references/docs/recursos/`. A coluna "Artigos" 
 | Aplicativo | `aplicativo.md` | 3 | PWA, notificações push |
 | Vídeos | `../videos.md` | 1 | lista de vídeos |
 | Contato para Suporte | `contato-para-suporte.md` | 1 | canal do suporte |
-| Atualizações | `atualizacoes.md` | 36 | 2 índices de mês e 33 dias |
+| Atualizações | `atualizacoes.md` | 38 | 2 índices de mês e 35 dias |
 
 ### Para quem está começando
 
@@ -159,7 +159,7 @@ Nesta seção, arquivo citado sem pasta está em `references/docs/recursos/`.
 
 **A linha "Menu" do cabeçalho é o caminho na Central de Ajuda, não no painel.** "Atendimento Otimizado", por exemplo, não é um menu do painel. O caminho que a pessoa vai clicar está no corpo do artigo, escrito de dois jeitos conforme o artigo: "Acesse o menu **Conexões  ›  editar a Conexão**…" ou "menu → Conexões > Editar > Mensagens". Passe adiante o do corpo.
 
-**O nome da área na ajuda nem sempre é o nome do menu no painel.** Confirmados nos artigos: FlowBuilder → menu **FlowBuilder Nativo**; GPT Assistant → menu **Prompts OPEN.AI**; pesquisar atendimentos → menu **Pesquisar**; Gravações das Chamadas → menu **Gravações**. Há dois itens **Categorias** no painel: um para Setores (`categorias-de-setores.md`), outro para fluxos (`categorias-de-fluxos.md`).
+**O nome da área na ajuda nem sempre é o nome do menu no painel.** Confirmados nos artigos: GPT Assistant → menu **Prompts OPEN.AI**; pesquisar atendimentos → menu **Pesquisar**; Gravações das Chamadas → menu **Gravações**. Há dois itens **Categorias** no painel: um para Setores (`categorias-de-setores.md`), outro para fluxos (`categorias-de-fluxos.md`).
 
 **Algumas telas não estão no menu lateral.** Gestão de Templates, Limitador de Mensagens, Concatenador, Modo Híbrido e Perfil do número abrem por botões no card da conexão. O Relatório do Rodízio abre pelo botão **Ver relatório** na tela Rodízios, que só aparece com a opção **Exibir o Relatório do Rodízio (botão Ver relatório, na tela Rodízios)?** em **Sim** em Configurações › Opções › Atendimento, seção Distribuição e rodízio (`relatorio-do-rodizio.md`).
 

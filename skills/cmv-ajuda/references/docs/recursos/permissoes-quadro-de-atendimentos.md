@@ -1,8 +1,8 @@
-# Permissões Quadro de Atendimentos
+# Permissões Quadro de atendimentos
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/permissoes-quadro-de-atendimentos
 - **Categoria:** Recursos
-- **Menu:** Quadro de Atendimentos › Permissões Quadro de Atendimentos
+- **Menu:** Quadro de atendimentos › Permissões Quadro de atendimentos
 
 ---
 
