@@ -257,7 +257,7 @@ Saída: `a`.
 "data": { "sec": 45, "secName": "Suporte" }
 ```
 
-`sec` e `secName` são o ID e o nome do Setor de onde vem o horário. A opção **Setor vinculado ao fluxo** não foi observada. Saídas: `a` e `b`; **qual é Dentro do Horário e qual é Fora do Horário não foi confirmado** (seção 7).
+`sec` e `secName` são o ID e o nome do Setor de onde vem o horário. A opção **Setor vinculado ao fluxo** não foi observada num arquivo exportado; num bloco importado com `"sec": 0`, a janela do bloco abriu com ela escolhida (22/11/2026). Saídas: `a` = **Dentro do Horário**, `b` = **Fora do Horário** (seção 7).
 
 ### `queue` (Setor)
 
@@ -290,7 +290,7 @@ Saída: `a`.
 | `condition.data.condition` | `11` (com `key` 12) | Observado (8 blocos), significado não confirmado. A comparação de fato parece estar em `anuncio.operador` (`"igual"`). |
 | saídas de `condition` | `a`, `b` | Observado (16 blocos), significado não confirmado: o artigo não diz qual saída é qual no arquivo. Hipótese forte: `a` = **Verdadeiro**, `b` = **Falso**. Em 12 dos 16 blocos, `b` leva a outra Condição e `a` leva à ação (uma Tag), o desenho da "condicional aninhada" do artigo, em que a próxima verificação fica no caminho do "se não for". Conferir no editor, como no Horário de Expediente. |
 | `wbh.data.condition` | `2` | Observado (12 blocos), significado não confirmado. Hipótese: o campo **Tipo** (**MENU** ou **REQUISIÇÃO**). |
-| saídas de `away` | `a`, `b` | Observado (2 blocos), significado não confirmado: não dá para saber pelo arquivo qual é **Dentro do Horário**. |
+| saídas de `away` | `a`, `b` | Visto numa conversa de teste em 22/11/2026, com um fluxo gerado e importado: com o Setor fechado no dia, o fluxo seguiu por `b` (**Fora do Horário**); com o dia aberto, por `a` (**Dentro do Horário**). O arquivo sozinho não diz qual é qual. |
 | `menu.data.menuType` | `"list"` | **Confirmado: Menu em Lista.** Outros valores não observados. |
 | `switch` `operator` | `"possui"` | **Confirmado: possui a tag** (uma tag por regra, e o nome da regra igual ao da tag). Outros valores não observados. |
 | `interval.data.sec` e item `interval` | texto com número | **Confirmado: segundos** (o `label` do bloco repete o número com "seg."). |

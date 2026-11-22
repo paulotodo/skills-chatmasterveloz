@@ -60,7 +60,7 @@ Não são regras da plataforma; são o que faz um robô de atendimento ser toler
   ```
 - **Perguntar:** dias e horas de cada Setor, se há feriados, se fora do horário a conversa fica esperando a equipe ou é encerrada.
 - **Cuidado:** o bloco lê o horário da aba **Horários** do Setor, que depende do **Gerenciamento de Expediente** (Horário de Expediente (`references/docs/recursos/bloco-horario-de-expediente.md`), Aba Horários (`references/docs/recursos/aba-horarios-em-setores-e-chatbot.md`)). Ligar esse gerenciamento muda o comportamento de todos os Setores. Alternativa sem mexer nisso: Condição com **Qual Dia da Semana?**, **É Feriado?** e **Horário**, em sequência.
-- **JSON:** com ressalva. No bloco `away`, não foi confirmado qual saída é qual; a entrega manda conferir no editor. As Condições de dia e horário não têm formato observado: roteiro.
+- **JSON:** com ressalva. No bloco `away`, `a` = Dentro do Horário e `b` = Fora do Horário (visto numa conversa de teste em 22/11/2026); a entrega ainda manda conferir no editor. As Condições de dia e horário não têm formato observado: roteiro.
 
 ## 4. Agendamento
 

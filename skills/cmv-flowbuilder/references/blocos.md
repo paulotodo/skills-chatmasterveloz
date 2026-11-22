@@ -135,7 +135,7 @@ Lidas em Como o Fluxo Roda (`references/docs/recursos/como-o-fluxo-roda.md`) e B
 - Use para: vários caminhos por tag num bloco só. Uma saída por regra, mais **Nenhuma condição atendida**.
 - Cuidado: a ordem das regras é a prioridade; regra genérica no topo engole as de baixo. Confere as tags do atendimento. Ligue **Nenhuma condição atendida**.
 
-**Horário de Expediente** · `references/docs/recursos/bloco-horario-de-expediente.md` · JSON: `away` (qual saída é qual não foi confirmado)
+**Horário de Expediente** · `references/docs/recursos/bloco-horario-de-expediente.md` · JSON: `away` (saída `a` = Dentro do Horário, `b` = Fora do Horário, visto numa conversa de teste em 22/11/2026)
 - Use para: separar **Dentro do Horário** e **Fora do Horário** pelo expediente cadastrado no Setor.
 - Cuidado: o horário não fica no bloco. Ele vem da aba **Horários** do Setor, que só existe com o **Gerenciamento de Expediente** em **Gerenciamento Por Setor**. Ligar esse gerenciamento faz **todos** os Setores passarem a seguir o horário que já está na aba de cada um: leia Aba Horários (`references/docs/recursos/aba-horarios-em-setores-e-chatbot.md`) antes de mandar ligar.
 
