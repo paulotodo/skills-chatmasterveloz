@@ -21,6 +21,15 @@ Não documentado, e por isso só o teste responde: o que o claude.ai faz com uma
 
 Visto em 22/11/2026, nos 14 pedidos (uma conversa nova por pedido, Fable 5.2, esforço Médio, sem projeto, enviados pelo navegador): 14 de 14 com a skill esperada, nenhuma nos pedidos 13 e 14. Nos pedidos 1 a 4 o claude.ai extraiu os artigos do `docs.json` e citou a fonte; no 5 rodou o `validar_fluxo.py` e no 11 o `conferir_seletores.py`. Ressalvas: a memória do claude.ai da conta estava ligada e pode ter ajudado nos pedidos que não citam o CMV; os pedidos 10 a 13 foram digitados sem os acentos por falha da automação.
 
+Também em 22/11/2026, conjunto reduzido de seis pedidos (1, 2, 3, 5, 11 e 13) com os outros modelos, texto com os acentos certos:
+
+| Modelo | Skill esperada | Observações |
+|---|---|---|
+| Haiku 5.5 | 6 de 6 | Extraiu os artigos e citou a fonte nos pedidos 1, 2 e 3. No 5, validador rodou (estrutura sem erros, 5 valores a trocar), mas a resposta citou o caminho interno do arquivo. No 11, pintou só a barra do topo e os botões dela, sem tratar os botões principais |
+| Sonnet 5.5 | 6 de 6 | Citou a fonte nos pedidos 1, 2 e 3 (no 3, com o título do artigo alterado). No 5, gerou o arquivo e leu uma memória da conta antes; não foi aberto o passo do validador. No 11, tratou barra e botões como a skill ensina |
+
+A memória do claude.ai interferiu: uma resposta do Sonnet citou a "revenda", dado fictício de outro pedido de teste. Para repetir o teste sem esse efeito, desligar a memória ou usar conversa temporária.
+
 ## Passo 1: instalar
 
 1. Em **Settings › Capabilities**, ligue **Code execution and file creation**. Em planos Team e Enterprise, quem liga é o dono da organização.
