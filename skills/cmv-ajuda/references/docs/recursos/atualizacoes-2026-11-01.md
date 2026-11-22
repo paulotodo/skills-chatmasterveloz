@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-01
 - **Categoria:** Recursos
-- **Menu:** Atualizações › Novembro 2026 › 01/11/2026
+- **Menu:** Atualizações › Novembro 2026 › Atualizações 01/11/2026
 
 ---
 

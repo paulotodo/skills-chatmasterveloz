@@ -91,7 +91,7 @@
 - [Atualizações 03/11/2026](recursos/atualizacoes-2026-11-03.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-03>
 - [Atualizações 04/11/2026](recursos/atualizacoes-2026-11-04.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-04>
 - [Atualizações 05/11/2026](recursos/atualizacoes-2026-11-05.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-05>
-- [06/11/2026](recursos/atualizacoes-2026-11-06.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-06>
+- [Atualizações 06/11/2026](recursos/atualizacoes-2026-11-06.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-06>
 - [Atualizações 07/11/2026](recursos/atualizacoes-2026-11-07.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-07>
 - [Atualizações 08/11/2026](recursos/atualizacoes-2026-11-08.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-08>
 - [Atualizações 09/11/2026](recursos/atualizacoes-2026-11-09.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-09>

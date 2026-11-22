@@ -2,7 +2,7 @@
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-10-28
 - **Categoria:** Recursos
-- **Menu:** Atualizações › Outubro 2026 › 28/10/2026
+- **Menu:** Atualizações › Outubro 2026 › Atualizações 28/10/2026
 
 ---
 
