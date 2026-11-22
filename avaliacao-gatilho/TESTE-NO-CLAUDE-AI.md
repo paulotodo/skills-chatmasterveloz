@@ -17,7 +17,7 @@ Conferido em 19/11/2026 na Central de Ajuda (`support.claude.com`, artigo "What 
 | Pré-requisito | Execução de código ligada | Ver passo 1 |
 | Critério de acionamento | A `description` é comparada com o pedido, como no Claude Code | Não há garantia de comportamento idêntico |
 
-Não documentado, e por isso só o teste responde: o que o claude.ai faz com uma descrição perto do limite, se ele aceita um arquivo de 2,7 MB dentro do pacote, se as skills `cmv-ajuda` e `cmv-api` conseguem extrair os artigos no ambiente dele e se o acionamento é igual ao do Claude Code. No Claude Code, com os dois pacotes instalados como o claude.ai os recebe, Haiku e Sonnet abriram os artigos e responderam com a fonte certa (uma execução por modelo e por skill, ainda com o zip interno; com o `docs.json` só foi conferido que o comando da nota e o buscador devolvem os artigos idênticos aos originais).
+Não documentado, e por isso só o teste responde: o que o claude.ai faz com uma descrição perto do limite, se ele aceita um arquivo de 2,7 MB dentro do pacote, se as skills `cmv-ajuda` e `cmv-api` conseguem extrair os artigos no ambiente dele e se o acionamento é igual ao do Claude Code. No Claude Code, com os dois pacotes instalados como o claude.ai os recebe, Haiku e Sonnet abriram os artigos e responderam com a fonte certa (uma execução por modelo e por skill, repetida em 22/11 com o `docs.json`; os artigos extraídos saíram idênticos aos originais).
 
 ## Passo 1: instalar
 
