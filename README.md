@@ -15,7 +15,15 @@ Não é preciso chamar a skill pelo nome: basta fazer o pedido, e o Claude escol
 
 ## Como instalar
 
-**Claude Code, todas de uma vez (como plugin):**
+**Claude Code, pelo marketplace (recomendado):** dentro de uma sessão do Claude Code, rode
+
+```text
+/plugin install chatmasterveloz --marketplace paulotodo/skills-chatmasterveloz
+```
+
+Em versão anterior à 2.1.275, são dois passos: `/plugin marketplace add paulotodo/skills-chatmasterveloz` e depois `/plugin install chatmasterveloz@chatmasterveloz`. As skills passam a valer em qualquer projeto. A documentação copiada nas skills é atualizada todo dia no repositório; para receber, rode `/plugin marketplace update chatmasterveloz` ou ligue a atualização automática desse marketplace em `/plugin`.
+
+**Claude Code, a partir de uma cópia da pasta (sem instalar):**
 
 ```bash
 claude --plugin-dir /caminho/para/skills-chatmasterveloz

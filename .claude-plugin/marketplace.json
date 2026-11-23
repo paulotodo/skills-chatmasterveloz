@@ -1,0 +1,11 @@
+{
+  "name": "chatmasterveloz",
+  "owner": { "name": "Chat Master Veloz" },
+  "plugins": [
+    {
+      "name": "chatmasterveloz",
+      "source": "./",
+      "description": "Skills para usar, configurar, integrar e personalizar o Chat Master Veloz: ajuda da plataforma, API e webhooks, FlowBuilder, agentes de IA, mensagens e campanhas, CSS/JS do painel."
+    }
+  ]
+}

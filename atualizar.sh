@@ -65,3 +65,7 @@ git commit -q -m "Atualização automática da documentação" \
   -m "$novos artigos novos, $alterados alterados, $removidos removidos (A = novo, D = removido): ${nomes:-nenhum novo ou removido}" \
   || desfazer "não consegui registrar no git"
 diz "ATUALIZADO: $novos artigos novos, $alterados alterados, $removidos removidos. ${nomes:+Novos (A) e removidos (D): $nomes. }Pacotes refeitos em dist/. Artigo novo pode pedir revisão dos mapas escritos à mão (references/*.md de cada skill)."
+# quem instalou pelo marketplace recebe pelo git; sem remoto configurado, não há o que publicar
+if git remote | grep -q .; then
+  git push -q 2>>"$LOG" || diz "AVISO: a documentação foi atualizada aqui, mas não consegui publicar (git push)."
+fi
