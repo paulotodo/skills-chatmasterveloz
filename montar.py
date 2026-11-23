@@ -151,6 +151,7 @@ def empacotar(skill):
                 z.writestr(destino, f"---\n{frente}---\n\n{NOTA_COMPACTADA.format(skill=skill, scripts=scripts)}{corpo.lstrip()}")
             else:
                 z.write(arq, destino)
+        z.write(AQUI / "LICENSE", f"{skill}/LICENSE.txt")  # a licença acompanha cada pacote
         total = len(z.namelist())
     assert total <= LIMITE_CLAUDE_AI, f"{skill}: {total} arquivos no pacote, o claude.ai aceita {LIMITE_CLAUDE_AI}"
     # a ajuda do claude.ai só documenta o envio de .zip; o .skill é o mesmo arquivo com outro nome

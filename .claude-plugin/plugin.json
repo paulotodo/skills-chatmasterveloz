@@ -1,5 +1,7 @@
 {
   "name": "chatmasterveloz",
   "description": "Skills para usar, configurar, integrar e personalizar o Chat Master Veloz: ajuda da plataforma, API e webhooks, FlowBuilder, agentes de IA, mensagens e campanhas, CSS/JS do painel.",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "author": { "name": "Chat Master Veloz" },
+  "license": "LicenseRef-Proprietary"
 }

@@ -55,7 +55,7 @@ Só essas duas chaves. O nome do fluxo não está no arquivo: ao importar, ele e
 | `style` | sempre com `backgroundColor`, `padding` e `borderRadius`; em 190 blocos é o do exemplo acima (3 blocos tinham `#000000` e `padding` 1; significado não confirmado) |
 | `selected`, `positionAbsolute`, `dragging` | presentes em só 77 dos 193 blocos: opcionais. Não gere. |
 
-Medidas vistas por tipo (largura × altura): `start` 155×58; `singleBlock` 198×95 com um item, crescendo cerca de 54 por item; `menu` 155×145 com duas opções, crescendo cerca de 24 por opção e por saída extra (**Resposta inválida**, **Sem resposta**); `tag` e `queue` 195×92; `question`, `variable` e `internal` 198×92; `interval` 195×92; `wbh` 208×92; `condition` 198×216; `switch` 210×266 com quatro regras; `away` 195×169; `close` 197×94.
+Medidas vistas por tipo (largura × altura): `start` 155×58; `singleBlock` 198×95 com um item, crescendo cerca de 54 por item; `menu` 155×145 com duas opções, crescendo cerca de 24 por opção e por saída extra (**Resposta inválida**, **Sem resposta**); `tag` e `queue` 195×92; `question`, `variable` e `internal` 198×92; `interval` 195×92; `wbh` 208×92; `condition` 198×216; `switch` 210×266 com quatro regras; `away` 195×169; `close` 197×94; `email` 178×136.
 
 Posição: no arquivo observado, o bloco seguinte fica em geral 300 à direita do anterior, e os ramos de um mesmo bloco se espalham na vertical. Depois de importar, o botão **Organizar automaticamente** do editor rearruma tudo (Como Usar o Editor de Fluxos (`references/docs/recursos/como-usar-o-editor-de-fluxos.md`)).
 
@@ -104,6 +104,7 @@ A janela do bloco **Pular para** mostra um ID curto de seis caracteres, como *(#
 | Msg Interna (`references/docs/recursos/bloco-msg-interna.md`) | `internal` | um texto e uma saída |
 | Execução de Código JS (`references/docs/recursos/bloco-execucao-de-codigo-js.md`) | `wbh` | `data.message` é código JavaScript com `return`; o campo do artigo se chama **Webhook (JS Script)** |
 | Horário de Expediente (`references/docs/recursos/bloco-horario-de-expediente.md`) | `away` | um Setor e duas saídas |
+| Enviar e-mail (`references/docs/recursos/bloco-enviar-e-mail.md`) | `email` | visto no editor em 23/11/2026, não num arquivo exportado: os campos do bloco e as saídas **Enviado** e **Não enviado** |
 | Setor (`references/docs/recursos/bloco-setor.md`) | `queue` | **hipótese, pelo nome e pela estrutura:** um ID e um nome de Setor, sem saída; *queue* é fila, o nome antigo de Setor (Setores & Chatbot (`references/docs/recursos/setores-e-chatbot.md`)). Conferir no editor. |
 | Encerrar (`references/docs/recursos/bloco-encerrar.md`) | `close` | **hipótese, pelo nome e pela estrutura:** uma mensagem, sem saída. Conferir no editor. |
 
@@ -275,6 +276,16 @@ Saída: `a`.
 
 `message` é a **Mensagem** final; nos 2 blocos observados estava vazia. Sem saída.
 
+### `email` (Enviar e-mail)
+
+```json
+"data": { "origem": "conta", "contaId": 12, "provedorId": null, "para": "", "assunto": "Seu pedido, {{name}}", "corpo": "Recebemos o seu pedido." }
+```
+
+`origem` `"conta"` com `contaId` é o envio por uma conta do menu **Contas de E-mail**, escolhida em **Enviar por**. O valor de `origem` para um provedor de envio por API e o uso de `provedorId` não foram observados: não gere. `para` vazio é o e-mail do contato; `assunto` e `corpo` são **Assunto** e **Mensagem**. Saídas: `a` = **Enviado**, `b` = **Não enviado** (o editor mostra o rótulo ao lado de cada saída).
+
+Visto em 23/11/2026 no que o editor grava ao salvar um fluxo com o bloco, não num arquivo exportado. No mesmo dia, um arquivo do gerador com `"contaId": 0` foi importado: o bloco apareceu com as duas saídas ligadas e abriu com **Enviar por** vazio e os outros campos preenchidos. O que acontece numa conversa que chega ao bloco sem conta escolhida não foi testado.
+
 ## 7. Números e enums: o que foi confirmado
 
 "Confirmado" quer dizer: o valor do arquivo bate diretamente com um campo que o artigo do bloco descreve. O resto está como **observado, significado não confirmado**, com os valores vistos e, quando há, a hipótese e o indício. Hipótese não é fato: todo bloco gravado com valor de hipótese vai para a lista **Conferir no editor** da entrega.
@@ -308,7 +319,7 @@ Onde a pessoa encontra os números, segundo a documentação:
 
 Que esses números sejam exatamente os que o arquivo guarda em `sec` é uma dedução (o nome dos campos e os valores são compatíveis), não algo que a documentação afirme. Por isso, com ou sem os IDs, a entrega sempre pede para conferir no editor se cada bloco **Setor**, **Tag**, **Horário de Expediente** e **Switch (tags)** mostra o nome certo.
 
-Sem os IDs, use marcadores: `"sec": 0` e `"secName": "TROCAR: Setor Comercial"` (em `switch`, `"tagIds": [0]` e o `label` normal). É o que o gerador grava quando a descrição não traz `id`. O validador lista cada um em **VALORES A TROCAR**. O que acontece ao importar um bloco com ID que não existe na conta não foi testado; a instrução para a pessoa é abrir cada bloco marcado com duplo clique e escolher o Setor ou a tag na lista.
+Sem os IDs, use marcadores: `"sec": 0` e `"secName": "TROCAR: Setor Comercial"` (em `switch`, `"tagIds": [0]` e o `label` normal). É o que o gerador grava quando a descrição não traz `id`. No `email`, o `contaId` também é da conta e o artigo do bloco não diz onde ver esse número: sem `conta_id` na descrição, o gerador grava `"contaId": 0` e a pessoa escolhe a conta em **Enviar por**. O validador lista cada um em **VALORES A TROCAR**. O que acontece ao importar um bloco com ID que não existe na conta não foi testado; a instrução para a pessoa é abrir cada bloco marcado com duplo clique e escolher o Setor ou a tag na lista.
 
 ## 9. Blocos sem formato observado
 

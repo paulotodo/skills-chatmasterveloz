@@ -8,7 +8,7 @@ description: "Fluxo do FlowBuilder do Chat Master Veloz (chatmasterveloz, CMV) t
 A pessoa descreve um atendimento que quer automatizar. Você pergunta o que falta, desenha o fluxo e entrega de um de dois jeitos:
 
 - **Roteiro de montagem no editor:** sempre possível. Lista numerada, bloco a bloco, com o nome do bloco como está na documentação, o que preencher, o texto pronto de cada mensagem e para onde vai cada saída, mais um diagrama.
-- **Arquivo .json importável:** só com os blocos cujo formato foi observado num arquivo exportado, escrito por `scripts/gerar_fluxo.py` e conferido por `scripts/validar_fluxo.py`.
+- **Arquivo .json importável:** só com os blocos cujo formato foi observado (num arquivo exportado ou, no Enviar e-mail, no editor), escrito por `scripts/gerar_fluxo.py` e conferido por `scripts/validar_fluxo.py`.
 
 Quem usa esta skill costuma ser administrador de uma empresa, sem formação técnica. A resposta final é um passo a passo com o caminho dos menus e o material pronto para colar ou importar.
 

@@ -22,7 +22,7 @@ NOMES = {
     "start": "Início", "singleBlock": "Conteúdo", "menu": "Menu", "question": "Pergunta",
     "variable": "Variável", "condition": "Condição", "switch": "Switch (tags)", "tag": "Tag",
     "interval": "Intervalo", "internal": "Msg Interna", "wbh": "Execução de Código JS",
-    "away": "Horário de Expediente", "queue": "Setor", "close": "Encerrar",
+    "away": "Horário de Expediente", "queue": "Setor", "close": "Encerrar", "email": "Enviar e-mail",
 }
 UMA_SAIDA = {"start", "singleBlock", "tag", "variable", "interval", "internal", "wbh", "question"}
 ESPERAM = {"menu", "question"}  # blocos observados que esperam a resposta do cliente
@@ -51,6 +51,8 @@ def saidas(no):
         return {"a": "saída a (hipótese: Verdadeiro)", "b": "saída b (hipótese: Falso)"}
     if tipo == "away":
         return {"a": "saída a", "b": "saída b"}
+    if tipo == "email":
+        return {"a": "Enviado", "b": "Não enviado"}
     if tipo == "menu":
         s = {f"a{o.get('number')}": f"opção {o.get('number')}" for o in dados.get("arrayOption") or []}
         if dados.get("enableElse"):
@@ -67,7 +69,7 @@ def saidas(no):
 
 def trecho(no):
     dados = no.get("data") or {}
-    texto = dados.get("message") or dados.get("secName") or ""
+    texto = dados.get("message") or dados.get("secName") or dados.get("assunto") or ""
     if no.get("type") == "singleBlock":
         texto = next((e.get("value", "") for e in dados.get("elements") or [] if e.get("type") == "message"), "")
     texto = " ".join(str(texto).split())
@@ -100,6 +102,10 @@ def conferir_dados(no, erros, avisos, trocar):
         sem_id = not (isinstance(sec, int) and not isinstance(sec, bool) and sec > 0)
         if sem_id and MARCADOR not in str(dados.get("secName", "")):  # com marcador, o bloco já foi listado
             trocar.append(f"{nome}: campo sec = {sec!r} (falta o ID da conta; no arquivo observado é um número inteiro)")
+    elif tipo == "email":
+        conta = dados.get("contaId")
+        if dados.get("origem") == "conta" and not (isinstance(conta, int) and not isinstance(conta, bool) and conta > 0):
+            trocar.append(f"{nome}: campo contaId = {conta!r} (falta a conta de e-mail; abra o bloco e escolha em Enviar por)")
     elif tipo == "singleBlock":
         itens = dados.get("elements") or []
         if not itens:

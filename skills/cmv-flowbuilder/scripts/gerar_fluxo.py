@@ -46,6 +46,7 @@ CAMPOS = {
     "intervalo": ({"segundos"}, set()),
     "msg_interna": ({"mensagem"}, set()),
     "codigo_js": ({"codigo"}, set()),
+    "enviar_email": ({"assunto", "mensagem"}, {"para", "conta_id"}),
     "horario": ({"nome"}, {"id"}),
     "setor": ({"nome"}, {"id"}),
     "encerrar": (set(), {"mensagem"}),
@@ -140,6 +141,11 @@ def construir(b):
         return "internal", {"message": f"{MARCADOR} NO EDITOR: {b['instrucao']}", "arrayOption": []}, 198, 92, UMA, None
     if tipo == "codigo_js":
         return "wbh", {"message": b["codigo"], "condition": 2, "arrayOption": []}, 208, 92, UMA, "confira o campo Tipo (MENU ou REQUISIÇÃO) e use Testar Código"
+    if tipo == "enviar_email":
+        conta = b.get("conta_id")
+        conta = conta if isinstance(conta, int) and not isinstance(conta, bool) and conta > 0 else 0  # 0: o validador manda escolher em Enviar por
+        dados = {"origem": "conta", "contaId": conta, "provedorId": None, "para": b.get("para", ""), "assunto": b["assunto"], "corpo": b["mensagem"]}
+        return "email", dados, 178, 136, {"enviado": "a", "nao_enviado": "b"}, None
     if tipo == "horario":
         return "away", da_conta(b, "Setor"), 195, 169, {"dentro": "a", "fora": "b"}, "confira se a saída Dentro do Horário leva ao caminho de dentro do expediente; se estiver invertida, troque as duas ligações"
     if tipo == "setor":
@@ -285,6 +291,7 @@ def autoteste():
             {"apelido": "expediente", "tipo": "horario", "nome": "Comercial"},
             {"apelido": "nota", "tipo": "msg_interna", "mensagem": "Lead %nome%"},
             {"apelido": "botoes", "tipo": "marcador", "instrucao": "substituir por Botões"},
+            {"apelido": "aviso_email", "tipo": "enviar_email", "assunto": "Novo lead", "mensagem": "Lead %nome%"},
             {"apelido": "comercial", "tipo": "setor", "nome": "Comercial", "id": 3},
             {"apelido": "fim", "tipo": "encerrar", "mensagem": "Até mais"},
         ],
@@ -293,14 +300,17 @@ def autoteste():
             ["v_ok", "tem_nome"], ["tem_nome", "verdadeiro", "marca"], ["tem_nome", "falso", "fim"], ["marca", "perfil"],
             ["perfil", "VIP", "menu"], ["perfil", "Novo", "menu"], ["perfil", "nenhuma", "menu"],
             ["menu", 1, "expediente"], ["menu", "2", "botoes"], ["menu", "invalida", "nota"], ["menu", "sem_resposta", "fim"],
-            ["expediente", "dentro", "nota"], ["expediente", "fora", "fim"], ["nota", "comercial"], ["botoes", "comercial"],
+            ["expediente", "dentro", "nota"], ["expediente", "fora", "fim"], ["nota", "aviso_email"], ["botoes", "comercial"],
+            ["aviso_email", "enviado", "comercial"], ["aviso_email", "nao_enviado", "comercial"],
         ],
     }
     fluxo, conferir = montar(todos)
     erros, _, trocar, _ = validar_fluxo.conferir(fluxo)
     assert not erros, erros
-    assert len(trocar) == 3, trocar  # regra Novo sem tag, Setor do horário sem ID, marcador
-    assert len(conferir) == 5 and len({n["id"] for n in fluxo["nodes"]}) == 16, conferir
+    assert len(trocar) == 4, trocar  # regra Novo sem tag, Setor do horário sem ID, marcador, e-mail sem conta
+    assert len(conferir) == 5 and len({n["id"] for n in fluxo["nodes"]}) == 17, conferir
+    email = next(n for n in fluxo["nodes"] if n["type"] == "email")["data"]
+    assert email == {"origem": "conta", "contaId": 0, "provedorId": None, "para": "", "assunto": "Novo lead", "corpo": "Lead %nome%"}, email
     assert {n["type"] for n in fluxo["nodes"]} == set(validar_fluxo.NOMES), "algum tipo observado ficou sem gerador"
     assert any("Gerenciamento Por Setor" in aviso for aviso in na_empresa(fluxo)), "fluxo com Horário de Expediente sem o aviso da configuração da empresa"
 
@@ -325,7 +335,7 @@ def autoteste():
     recusa("condição sem formato", lambda d: d["blocos"][6].update(compara="horario"), "não têm formato observado")
     recusa("intervalo longo", lambda d: d["blocos"][4].update(segundos=300), "Janela expirada")
     recusa("intervalo longo no Conteúdo", lambda d: d["blocos"][0].update(itens=["Olá", 300]), "de 1 a 120 segundos")
-    print("Autoteste do gerador: tudo certo (exemplo de assets, fluxo com os 14 tipos e 11 descrições recusadas).")
+    print("Autoteste do gerador: tudo certo (exemplo de assets, fluxo com os 15 tipos e 11 descrições recusadas).")
     return 0
 
 

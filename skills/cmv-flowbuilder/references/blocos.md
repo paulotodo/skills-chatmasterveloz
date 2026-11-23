@@ -165,7 +165,7 @@ Lidas em Como o Fluxo Roda (`references/docs/recursos/como-o-fluxo-roda.md`) e B
 - Use para: segunda via. Peça CPF ou CNPJ numa Pergunta antes; saídas **Sucesso** e **Erro**.
 - Cuidado: só números no documento. O bloco envia o link da fatura mais recente, não de todas. Ligue a saída **Erro**.
 
-**Enviar e-mail** · `references/docs/recursos/bloco-enviar-e-mail.md` · JSON: não
+**Enviar e-mail** · `references/docs/recursos/bloco-enviar-e-mail.md` · JSON: `email` (só o envio por conta de e-mail observado)
 - Use para: mandar um e-mail no meio do fluxo, por uma conta de e-mail da empresa ou por um provedor de envio por API. Com o **Para** vazio, vai para o e-mail do contato. Saídas **Enviado** e **Não enviado**; ligue as duas.
 - Cuidado: a empresa precisa de uma conta ativa no menu **Contas de E-mail** ou de um provedor cadastrado na mesma tela. Contato sem e-mail com o **Para** vazio segue por **Não enviado**. O e-mail não fica registrado na conversa nem na pasta **Enviadas**: para o cliente saber, ligue **Enviado** a um bloco de mensagem.
 
