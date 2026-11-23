@@ -1,5 +1,6 @@
 {
   "name": "chatmasterveloz",
+  "description": "Skills oficiais do Chat Master Veloz para o Claude",
   "owner": { "name": "Chat Master Veloz" },
   "plugins": [
     {
