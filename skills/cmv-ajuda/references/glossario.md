@@ -18,7 +18,7 @@ Termos que aparecem o tempo todo nas perguntas. Cada definição é um resumo do
 | Atendendo | Ticket aberto com atendente humano. | `recursos/aguardando-x-atendendo.md` |
 | Encerrado | Ticket fechado. Mensagem nova do cliente reabre em Aguardando, com protocolo novo. Exceção: com **Retornar ao mesmo atendente** ligado no Setor, a resposta dentro de **Minutos para o retorno** volta em Atendendo, com o mesmo atendente. | `recursos/aguardando-x-atendendo.md`, `recursos/aba-geral-em-setores-e-chatbot.md` |
 | Carteira de Clientes | Contatos exclusivos de um atendente, o "Proprietário do Lead". | `recursos/carteira-de-clientes.md` |
-| Rodízio | Divisão dos atendimentos entre os atendentes. O Setor de transbordo recebe quando ninguém pode receber. | `recursos/rodizios.md` |
+| Rodízio | Divisão dos atendimentos entre os atendentes. Quando ninguém pode receber, o atendimento vai para o Setor de transbordo ou, com **Aguardar na mesma fila e redistribuir assim que um desocupa** escolhido no cadastro do rodízio, espera a vez no mesmo Setor. | `recursos/rodizios.md`, `recursos/atualizacoes-2026-11-21.md` |
 | Mustaches | Variáveis do sistema entre chaves duplas, como `{{firstName}}`, trocadas pelo dado real na mensagem. | `recursos/mustaches.md` |
 
 ## WhatsApp e canais

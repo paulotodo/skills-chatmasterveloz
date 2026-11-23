@@ -182,7 +182,7 @@ O artigo n8n via Flowbuilder (`references/docs/recursos/n8n-via-flowbuilder.md`)
 
 **Rodízio** · `references/docs/recursos/bloco-rodizio.md` · JSON: não
 - Use para: distribuir entre atendentes, por percentual ou por rodada sorteada.
-- Cuidado: no modo equilibrado, as porcentagens somam exatamente 100. Escolha sempre o Setor de **Se não encontrar operador disponível**.
+- Cuidado: no modo equilibrado, as porcentagens somam exatamente 100. Escolha sempre o Setor de **Se não encontrar operador disponível**. Num rodízio cadastrado no menu **Rodízios**, esse campo também oferece **Aguardar na mesma fila e redistribuir assim que um desocupa**: o atendimento espera a vez em **Aguardando**, no mesmo Setor (nota de atualização de 21/11/2026; o artigo do bloco ainda não traz).
 
 **Retornar último atendimento** · `references/docs/recursos/bloco-retornar-ultimo-atendimento.md` · JSON: não
 - Use para: devolver ao mesmo Setor e atendente quem voltou logo, junto com a Condição **Protocolo fechado**. Ligue a saída **Sem atendimento anterior**.

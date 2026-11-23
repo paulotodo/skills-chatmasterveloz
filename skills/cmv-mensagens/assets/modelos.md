@@ -310,7 +310,7 @@ Obrigado pela nota! O que mais pesou para você escolher esse número?
 
 ### Pesquisa nativa da plataforma (Avaliações)
 
-Onde: menu **Avaliações** › **Adicionar** (`references/docs/recursos/avaliacoes.md`). O atendente envia pelo botão **Resolver e Enviar Avaliação**, depois de ligar **Enviar Avaliações** em **Configurações › Opções › Automação**, seção **Avaliações** (`references/docs/recursos/avaliacoes-em-configuracoes.md`).
+Onde: menu **Avaliações** › **Adicionar** (`references/docs/recursos/avaliacoes.md`). O atendente envia pelo botão **Resolver e Enviar Avaliação** (**Encerrar com avaliação** no pop-up de encerrar, pela nota de atualização de 20/11/2026), depois de ligar **Enviar Avaliações** em **Configurações › Opções › Automação**, seção **Avaliações** (`references/docs/recursos/avaliacoes-em-configuracoes.md`).
 
 Campo **Mensagem de Avaliação**:
 
