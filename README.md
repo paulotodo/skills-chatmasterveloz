@@ -100,7 +100,7 @@ Ao mudar uma descrição, ajuste pelo conjunto de desenvolvimento e só confira 
 
 **Tarefas completas.** O acionamento é metade do caminho; o resultado de oito rodadas de avaliação das respostas em Haiku e Sonnet, o que foi corrigido nas skills e o que ainda aparece estão em `avaliacao-gatilho/TAREFAS-COMPLETAS.md`. O `ferramenta/ponta_a_ponta.py` roda uma tarefa real por skill (`roteamento/tarefas-completas.json`) com as skills instaladas como cópias de verdade e guarda a resposta e os arquivos gerados, para alguém dar a nota contra a documentação. Opções do `rotear.py` além das mostradas acima: `--plugin` mede pelo caminho de instalação como plugin e `--contexto "texto"` simula as instruções do projeto.
 
-**Para revisar os pedidos:** abra `avaliacao-gatilho/REVISAO-ROTEAMENTO.md` (gerado por `ferramenta/revisao_roteamento.py`). Os 168 pedidos vêm numerados, começando pelos que pedem decisão sua, e a resposta é pelo chat, com o número do pedido. `AUDITORIA.md` traz o que uma auditoria independente achou nos conjuntos antigos.
+**Para revisar os pedidos:** abra `avaliacao-gatilho/REVISAO-ROTEAMENTO.md` (gerado por `ferramenta/revisao_roteamento.py`). Os 168 pedidos vêm numerados, começando pelos que pedem decisão sua, e a resposta é pelo chat, com o número do pedido. Em 23/11/2026 o responsável pelas skills leu a revisão e não pediu mudança em nenhum pedido; os destinos esperados ficaram como estavam. `AUDITORIA.md` traz o que uma auditoria independente achou nos conjuntos antigos.
 
 **claude.ai:** não há como medir por script. O roteiro de teste manual está em `avaliacao-gatilho/TESTE-NO-CLAUDE-AI.md`.
 
