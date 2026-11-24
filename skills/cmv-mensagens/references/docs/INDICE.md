@@ -1,4 +1,4 @@
-# Artigos incluídos nesta skill (65)
+# Artigos incluídos nesta skill (66)
 
 - [Aba Horários em Setores & Chatbot](recursos/aba-horarios-em-setores-e-chatbot.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-horarios-em-setores-e-chatbot>
 - [Aba Mensagens em Setores & Chatbot](recursos/aba-mensagens-em-setores-e-chatbot.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-mensagens-em-setores-e-chatbot>
@@ -59,6 +59,7 @@
 - [Template Recusado, Pausado ou Desabilitado](recursos/template-recusado-pausado-ou-desabilitado.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/template-recusado-pausado-ou-desabilitado>
 - [Visão Geral Agendamentos](recursos/visao-geral-agendamentos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/visao-geral-agendamentos>
 - [Visão Geral Mail Marketing](recursos/visao-geral-mail-marketing.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/visao-geral-mail-marketing>
+- [Visão Geral Respostas Rápidas](recursos/visao-geral-respostas-rapidas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/visao-geral-respostas-rapidas>
 - [Modo Híbrido (Coex + QR CODE)](recursos/whatsapp-modo-hibrido-oficial-e-qrcode.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/whatsapp-modo-hibrido-oficial-e-qrcode>
 - [Gestão de Templates](recursos/whatsapp-oficial-gestao-de-templates.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/whatsapp-oficial-gestao-de-templates>
 - [Oficial x Não Oficial](recursos/whatsapp-oficial-x-nao-oficial.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/whatsapp-oficial-x-nao-oficial>

@@ -1,8 +1,8 @@
 # Visão Geral Respostas Rápidas
 
 - **Fonte:** https://clihelper.chatmasterveloz.com/docs/visao-geral-respostas-rapidas
-- **Categoria:** Fora do menu
-- **Menu:** (não aparece em nenhum menu)
+- **Categoria:** Recursos
+- **Menu:** Respostas Rápidas › Visão Geral Respostas Rápidas
 
 ---
 

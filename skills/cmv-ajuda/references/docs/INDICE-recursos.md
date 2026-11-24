@@ -1,4 +1,4 @@
-# Índice — Recursos (505 artigos)
+# Índice — Recursos (506 artigos)
 
 Na ordem e na hierarquia do menu do site.
 
@@ -113,6 +113,7 @@ Na ordem e na hierarquia do menu do site.
   - [Pixel Meta em Tags](recursos/pixel-meta-em-tags.md)
   - [Remarketing em Tags](recursos/remarketing-em-tags.md)
 - [Respostas Rápidas](recursos/respostas-rapidas.md)
+  - [Visão Geral Respostas Rápidas](recursos/visao-geral-respostas-rapidas.md)
   - [Resposta Rápida Envio de Texto](recursos/resposta-rapida-envio-de-texto.md)
   - [Resposta Rápida Envio de Mídia](recursos/resposta-rapida-envio-de-midia.md)
   - [Resposta Rápida Envio de Contato](recursos/resposta-rapida-envio-de-contato.md)
