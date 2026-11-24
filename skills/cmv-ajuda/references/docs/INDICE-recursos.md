@@ -1,4 +1,4 @@
-# Índice — Recursos (502 artigos)
+# Índice — Recursos (503 artigos)
 
 Na ordem e na hierarquia do menu do site.
 
@@ -468,6 +468,7 @@ Na ordem e na hierarquia do menu do site.
 - [Contato para Suporte](recursos/contato-para-suporte.md)
 - [Atualizações](recursos/atualizacoes.md)
   - [Novembro 2026](recursos/atualizacoes-2026-11.md)
+    - [Atualizações 22/11/2026](recursos/atualizacoes-2026-11-22.md)
     - [Atualizações 21/11/2026](recursos/atualizacoes-2026-11-21.md)
     - [Atualizações 20/11/2026](recursos/atualizacoes-2026-11-20.md)
     - [Atualizações 19/11/2026](recursos/atualizacoes-2026-11-19.md)

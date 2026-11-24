@@ -20,11 +20,11 @@ Com o catálogo montado, ninguém precisa digitar o mesmo produto de jeitos dife
 >
 > ➡️ Preencha pelo menos **Nome do Produto** e **Preço** e clique em **Adicionar**.
 >
-> ➡️ Para cadastrar muitos produtos de uma vez, use o botão **Baixar modelo**, preencha a planilha e clique em **Importar planilha**.
+> ➡️ Para cadastrar muitos produtos de uma vez, clique em **Mais ações** e em **Baixar modelo**, preencha a planilha e, no mesmo botão, clique em **Importar planilha**.
 
 ## Vídeo Tutorial
 
-[Vídeo Voomly — id i55dr0JwITRjbySxblUJL9MfJIQeZClSn35xzX5gUTLqLzZUO, tipo v]  
+[Vídeo Voomly — id CsVdiUdHygzKoE2LwEMgzK1GxS0_Ex8iLuCNaBQjEI4vxnh5W, tipo v]  
 
 ## Os campos do produto
 
@@ -58,9 +58,11 @@ O produto sem **Marca** e com a característica *Marca* na ficha técnica do cad
 
 ## Como cadastrar produtos por planilha
 
-[Vídeo Voomly — id tYsbMz5S4J2AjAlb2AYVydU2SNlZGIq10mdJXTmJGhKib2Q1K, tipo v]  
+[Vídeo Voomly — id AEYizM2p2pPUWhvGCxRzp3DGSVgRy8umJsBT3sYZDb1bxELeM, tipo v]  
 
 Acesse o menu **CRM  ›  Produtos**
+
+As ações de planilha ficam no botão **Mais ações**, no topo da lista de **Produtos**: **Baixar modelo**, **Importar planilha**, **Exportar planilha** e **Substituir catálogo**.
 
 🔘 **Baixar modelo:** baixa a planilha *modelo-produtos.xlsx*, com duas abas. Na **Produtos**, uma linha por produto, nas colunas **SKU**, **Nome**, **Preço**, **Descrição**, **Detalhes**, **Cobrança** e **URL da imagem**, mais a coluna **Marca**. Na **Instruções**, como preencher cada coluna.
 
@@ -94,7 +96,7 @@ As linhas com problema não entram e aparecem numa tabela com a **Linha** da pla
 
 ### Exportar e substituir o catálogo
 
-Para mexer no catálogo inteiro de uma vez, a lista de **Produtos** tem mais dois botões:
+Para mexer no catálogo inteiro de uma vez, o botão **Mais ações** tem mais duas ações:
 
 🔘 **Exportar planilha:** baixa o catálogo em *produtos.xlsx*, com todos os produtos, ativos e inativos. A aba **Produtos** tem as colunas **ID**, **SKU**, **Nome**, **Preço**, **Descrição**, **Detalhes**, **Cobrança**, **URL da imagem** e **Marca**. A aba **Instruções** explica: *"A coluna ID diz qual produto é cada linha: não a altere. Com ela, até o SKU e o nome podem ser trocados, e o produto continua o mesmo…"*
 
@@ -134,7 +136,7 @@ A tela de Produtos é de administrador e supervisor.
 >
 > **Posso cadastrar um produto com cobrança anual pela planilha?** Pode. Escreva **Anual** na coluna **Cobrança**, do mesmo jeito que **Única** e **Mensal**.
 >
-> **Como tiro do catálogo de Produtos vários produtos de uma vez pela planilha?** Clique em **Exportar planilha**, apague da aba **Produtos** as linhas dos produtos que vão sair, sem mexer na coluna **ID**, e use **Substituir catálogo** com essa planilha. Os produtos que não estão nela são apagados.
+> **Como tiro do catálogo de Produtos vários produtos de uma vez pela planilha?** Em **Mais ações**, clique em **Exportar planilha**, apague da aba **Produtos** as linhas dos produtos que vão sair, sem mexer na coluna **ID**, e use **Substituir catálogo** com essa planilha. Os produtos que não estão nela são apagados.
 >
 > **Usei o Substituir catálogo e nenhum produto foi apagado. Por quê?** Alguma linha da planilha teve problema: nesse caso, o **Substituir catálogo** não apaga nada e avisa *"Nada foi apagado: há linhas com problema."* Corrija as linhas da tabela de problemas e substitua de novo.
 >
