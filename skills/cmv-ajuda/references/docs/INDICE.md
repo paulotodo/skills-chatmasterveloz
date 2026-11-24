@@ -1,12 +1,13 @@
-# Artigos incluídos nesta skill (524)
+# Artigos incluídos nesta skill (527)
 
 - [Chat Master Veloz — documentação da plataforma (Central de Ajuda)](00-LEIA-PRIMEIRO.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs>
-- [Índice — artigos fora do menu (3)](INDICE-outros.md)
-- [Índice — Recursos (503 artigos)](INDICE-recursos.md)
+- [Índice — artigos fora do menu (4)](INDICE-outros.md)
+- [Índice — Recursos (505 artigos)](INDICE-recursos.md)
 - [Índice — Trilhas (14 artigos)](INDICE-trilhas.md)
 - [Adicionar Tag](outros/adicionar-tag.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/adicionar-tag>
 - [Telegram](outros/telegram.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/telegram>
 - [Tipos de Tags](outros/tipos-de-tags.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/tipos-de-tags>
+- [Visão Geral Respostas Rápidas](outros/visao-geral-respostas-rapidas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/visao-geral-respostas-rapidas>
 - [Aba Avisos em Reservas](recursos/aba-avisos-em-reservas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-avisos-em-reservas>
 - [Aba Bloqueios em Reservas](recursos/aba-bloqueios-em-reservas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-bloqueios-em-reservas>
 - [Aba Confirmação em Cadastros do Consultório](recursos/aba-confirmacao-em-cadastros-do-consultorio.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-confirmacao-em-cadastros-do-consultorio>
@@ -108,6 +109,7 @@
 - [Atualizações 20/11/2026](recursos/atualizacoes-2026-11-20.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-20>
 - [Atualizações 21/11/2026](recursos/atualizacoes-2026-11-21.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-21>
 - [Atualizações 22/11/2026](recursos/atualizacoes-2026-11-22.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-22>
+- [Atualizações 24/11/2026](recursos/atualizacoes-2026-11-24.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-24>
 - [Novembro 2026](recursos/atualizacoes-2026-11.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11>
 - [Atualizações](recursos/atualizacoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes>
 - [Auditoria de Vendas](recursos/auditoria-de-vendas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/auditoria-de-vendas>
@@ -168,6 +170,7 @@
 - [Bloquear Contato](recursos/bloquear-contato.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloquear-contato>
 - [Board de Oportunidades](recursos/board-de-oportunidades.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/board-de-oportunidades>
 - [Bot e FlowBuilder Nativo em Configurações](recursos/bot-e-flowbuilder-em-configuracoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bot-e-flowbuilder-em-configuracoes>
+- [Busca no Menu](recursos/busca-no-menu.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/busca-no-menu>
 - [Cadastros do CRM](recursos/cadastros-do-crm.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/cadastros-do-crm>
 - [Caixa de E-mail Compartilhada: Pastas e Endereços Aceitos](recursos/caixa-de-e-mail-compartilhada-pastas-e-enderecos-aceitos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/caixa-de-e-mail-compartilhada-pastas-e-enderecos-aceitos>
 - [Caixa do PDV](recursos/caixa-do-pdv.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/caixa-do-pdv>

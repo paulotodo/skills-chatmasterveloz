@@ -1,4 +1,4 @@
-# Índice — Recursos (503 artigos)
+# Índice — Recursos (505 artigos)
 
 Na ordem e na hierarquia do menu do site.
 
@@ -7,6 +7,7 @@ Na ordem e na hierarquia do menu do site.
   - [Editar Perfil ou Alterar Senha](recursos/editar-perfil-ou-alterar-senha.md)
   - [Recuperar Senha](recursos/recuperar-senha.md)
   - [Favoritos no Menu](recursos/favoritos-no-menu.md)
+  - [Busca no Menu](recursos/busca-no-menu.md)
 - [Chats / Tickets](recursos/chats-tickets.md)
   - [Chats – Visão Geral](recursos/chats-visao-geral.md)
   - [Ticket x Protocolo](recursos/ticket-x-protocolo.md)
@@ -468,6 +469,7 @@ Na ordem e na hierarquia do menu do site.
 - [Contato para Suporte](recursos/contato-para-suporte.md)
 - [Atualizações](recursos/atualizacoes.md)
   - [Novembro 2026](recursos/atualizacoes-2026-11.md)
+    - [Atualizações 24/11/2026](recursos/atualizacoes-2026-11-24.md)
     - [Atualizações 22/11/2026](recursos/atualizacoes-2026-11-22.md)
     - [Atualizações 21/11/2026](recursos/atualizacoes-2026-11-21.md)
     - [Atualizações 20/11/2026](recursos/atualizacoes-2026-11-20.md)
