@@ -44,7 +44,7 @@ Não são regras da plataforma; são o que faz um robô de atendimento ser toler
          → Menu (interesse) → Variável %interesse% → Menu (prazo ou porte) → Variável %prazo%
          → Tag (qualificado) → [Oportunidade] → Msg Interna (resumo com as variáveis) → Conteúdo (aviso) → Setor ou Rodízio
   ```
-- **Perguntar:** quais dados qualificam, o que é um lead bom, quem recebe, se há CRM para a Oportunidade.
+- **Perguntar:** quais dados qualificam, o que é um lead bom, quem recebe, se há CRM para a Oportunidade (ela pede a opção **CRM** no plano).
 - **Cuidado:** a Variável vem logo depois da Pergunta ou do Menu. Oportunidade num trecho que roda uma vez. Preencha **Sem resposta** nas Perguntas, no editor.
 - **JSON:** sim. Oportunidade entra como `marcador`. Rodízio não tem formato observado, e o artigo não descreve as saídas dele no desenho: ponha um Setor no arquivo e diga para trocar pelo Rodízio no editor.
 
@@ -126,7 +126,7 @@ Com ofertas cadastradas no menu **Reservas**, o bloco **Reservas (agendar no flu
 - **Entrada:** Setor próprio para comentários, com **Palavras-Chave e Gatilhos**, e a conexão do Instagram com **Habilitar ação para comentários** (Gatilho via Comentário do Instagram (`references/docs/recursos/gatilho-via-comentario-do-instagram.md`)).
 - **Atalho:** as Automações Rápidas (`references/docs/recursos/automacoes-rapidas.md`) criam três modelos prontos, como rascunho. Sugira antes de montar do zero.
 - **Esqueleto:** `Início → Responder Comentário (várias frases) → Conteúdo (mensagem no Direct) → [É Seguidor?] → …`
-- **Cuidado:** saudação do Setor vazia, senão o comentário recebe duas respostas públicas. O fluxo desse Setor também responde a mensagens do Direct.
+- **Cuidado:** saudação do Setor vazia, senão o comentário recebe duas respostas públicas. O fluxo desse Setor também responde a mensagens do Direct. Responder Comentário e É Seguidor? dependem da opção **Automação Instagram** do plano (`references/blocos.md`).
 - **JSON:** não; roteiro ou Automações rápidas.
 
 ## 10. Fluxo chamado pelo atendente (resposta rápida)

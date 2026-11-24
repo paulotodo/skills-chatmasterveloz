@@ -1,4 +1,4 @@
-# Artigos incluídos nesta skill (619)
+# Artigos incluídos nesta skill (620)
 
 - [Chat Master Veloz — documentação da plataforma (Central de Ajuda)](00-LEIA-PRIMEIRO.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs>
 - [Índice — artigos fora do menu (3)](INDICE-outros.md)
@@ -514,6 +514,7 @@
 - [WhatsApp](recursos/whatsapp.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/whatsapp>
 - [Índice — Recursos (80 artigos)](revendedor/INDICE-recursos.md)
 - [Índice — Trilhas (10 artigos)](revendedor/INDICE-trilhas.md)
+- [Pré-Requisitos das APIs](revendedor/api/pre-requisitos-apis.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/pre-requisitos-apis>
 - [Âncoras CSS](revendedor/recursos/ancoras-css.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/ancoras-css>
 - [Canais e e-mail em Plataforma](revendedor/recursos/canais-e-e-mail-em-plataforma.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/canais-e-e-mail-em-plataforma>
 - [Cobrança da plataforma](revendedor/recursos/cobranca-da-plataforma.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/cobranca-da-plataforma>

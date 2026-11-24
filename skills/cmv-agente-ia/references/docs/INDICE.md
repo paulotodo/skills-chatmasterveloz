@@ -1,4 +1,4 @@
-# Artigos incluídos nesta skill (70)
+# Artigos incluídos nesta skill (71)
 
 - [API Listar Setores da Empresa](api/api-listar-setores-da-empresa.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-listar-setores-da-empresa>
 - [Aba Evolução da Avaliação pela IA](recursos/aba-evolucao-da-avaliacao-pela-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-evolucao-da-avaliacao-pela-ia>
@@ -33,6 +33,7 @@
 - [Copiloto de mensagens](recursos/copiloto-de-mensagens.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/copiloto-de-mensagens>
 - [CRM no Assistente de IA](recursos/crm-no-assistente-de-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/crm-no-assistente-de-ia>
 - [– Devolver ao Setor](recursos/devolver-ao-setor.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/devolver-ao-setor>
+- [Gerenciamento de Grupos em Configurações](recursos/gerenciamento-de-grupos-em-configuracoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/gerenciamento-de-grupos-em-configuracoes>
 - [GPT Assistant em Grupos](recursos/gpt-assistant-em-grupos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/gpt-assistant-em-grupos>
 - [GPT Assistant](recursos/gpt-assistant.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/gpt-assistant>
 - [Gravações das Chamadas](recursos/gravacoes-das-chamadas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/gravacoes-das-chamadas>

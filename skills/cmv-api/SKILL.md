@@ -7,7 +7,9 @@ description: "Integra sistemas externos ao Chat Master Veloz (CMV, chatmastervel
 
 Esta skill transforma um pedido de integração ("quero que meu sistema mande uma mensagem", "quero ser avisado quando chegar mensagem") em material pronto para colar: o pedido HTTP completo, onde pegar o token e como testar sem risco.
 
-Todo fato sobre o produto vem da cópia da Central de Ajuda em `references/docs/`. A API do CMV tem particularidades que não dá para adivinhar (o mesmo recurso muda de endereço e de nomes de campo conforme a conexão), então o trabalho é sempre **achar o artigo, ler e montar a partir dele**. O que não estiver nos artigos, diga que não está documentado.
+Todo fato sobre o produto vem da cópia da Central de Ajuda em `references/docs/` e, para quem administra a instância, da cópia da documentação do revendedor em `references/docs/revendedor/`. A API do CMV tem particularidades que não dá para adivinhar (o mesmo recurso muda de endereço e de nomes de campo conforme a conexão), então o trabalho é sempre **achar o artigo, ler e montar a partir dele**. O que não estiver nos artigos de nenhuma das duas, diga que não está documentado.
+
+**Dois públicos.** O padrão é quem pede ser cliente de uma empresa, com token de Conexão ou Token da Empresa dele: para ele vale tudo o que está abaixo. O revendedor (Super Admin, dono da instância) reconhece-se porque diz que é, fala em "meus clientes", criar empresa, plano, instância, white label, ou pede algo que só existe na API administrativa (empresas, planos, faturas, avisos, agir dentro da empresa de um cliente, Webhook Administrativo). Para ele, leia `references/api-administrativa.md` antes de montar qualquer coisa. As chamadas administrativas exigem token da empresa do Super Admin: se um cliente pedir "criar empresa por API", diga que a chamada existe e é de quem administra a instância. Preços continuam fora; os nomes das opções de plano (**API Externa**, **Botões**) podem ser citados.
 
 ## Mapa do material
 
@@ -15,12 +17,14 @@ Todo fato sobre o produto vem da cópia da Central de Ajuda em `references/docs/
 |---|---|
 | `references/mapa-da-api.md` | Tabela de decisão: operação × tipo de conexão → artigo; webhooks; de onde vem cada identificador. Comece por aqui. |
 | `references/moldes-de-codigo.md` | A mesma chamada em cURL, Node, Python, PHP e n8n, com token em variável de ambiente e tratamento de erro; variações (GET, multipart, Token da Empresa) e a receita de receber um aviso de webhook e responder (n8n ou receptor próprio), com a tabela sintoma → causa → artigo. |
-| `scripts/buscar_endpoint.py` | Busca endpoints por palavra, método e tipo de conexão. Existe porque o índice de endpoints não mostra o selo da conexão; o script lê o selo em cada artigo. |
-| `references/docs/INDICE-api-endpoints.md` | Os 309 endpoints, uma linha por artigo, com método e endereço. |
-| `references/docs/INDICE-api.md` | Os 357 artigos de API por assunto, incluindo webhooks e conceitos. |
+| `references/api-administrativa.md` | Só para o revendedor: as APIs e o Webhook Administrativos. Qual token cada chamada aceita, o que avisar antes de montar, o `companyId`, planos pela API e o que a documentação dele não diz. |
+| `scripts/buscar_endpoint.py` | Busca endpoints por palavra, método e tipo de conexão. Existe porque o índice de endpoints não mostra o selo da conexão; o script lê o selo em cada artigo. As administrativas saem marcadas com o selo `Super Admin (...)`. |
+| `references/docs/INDICE-api-endpoints.md` | Os 309 endpoints do cliente, uma linha por artigo, com método e endereço. Os 35 administrativos ficam em `references/docs/revendedor/INDICE-api-endpoints.md`. |
+| `references/docs/INDICE-api.md` | Os 357 artigos de API do cliente por assunto, incluindo webhooks e conceitos. Os 52 administrativos ficam em `references/docs/revendedor/INDICE-api.md`. |
 | `references/docs/api/` e `references/docs/recursos/` | Os artigos. As páginas de seção (`api/api-mensagem.md`, `api/api-midias.md`, `api/api-botoes.md`…) listam os artigos com o selo de conexão ao lado. |
+| `references/docs/revendedor/api/` e `references/docs/revendedor/recursos/` | Os artigos do revendedor: as chamadas e os webhooks administrativos, e as telas em que ele libera a API para o cliente. |
 
-Daqui em diante, caminhos escritos como `api/...` e `recursos/...` ficam dentro de `references/docs/`.
+Daqui em diante, caminhos escritos como `api/...`, `recursos/...` e `revendedor/...` ficam dentro de `references/docs/`.
 
 ## Fluxo de trabalho
 
@@ -42,7 +46,8 @@ O tipo de conexão decide o artigo. Enviar uma imagem, por exemplo, tem um ender
 > "A conexão por onde isso vai sair é WhatsApp por QR Code, WhatsApp API Oficial da Meta, Instagram, Messenger ou Web Chat? Se for QR Code, é a conexão Básica ou a Pro? Se for a API Oficial, é direta ou pelo Hub?"
 
 - Pule a pergunta quando a operação tiver selo **Todas** (tickets, contatos, tags, CRM, produtos, agendamento, Quadro de Atendimentos, Reservas: seção 5 do mapa) ou quando o artigo valer para as duas de QR Code (texto e arquivo anexado têm selo "Básica, Pro").
-- A documentação não descreve como ver na tela se uma conexão de QR Code é Básica ou Pro. Se a pessoa não souber, diga isso, entregue as duas versões em blocos separados e rotulados, e sugira confirmar com o Suporte. Nunca funda as duas num pedido só.
+- A Central não descreve como o cliente vê na tela se uma conexão de QR Code é Básica ou Pro. Se a pessoa não souber, diga isso, entregue as duas versões em blocos separados e rotulados, e sugira confirmar com o Suporte. Nunca funda as duas num pedido só. O revendedor vê e escolhe a biblioteca de cada empresa no campo **API Não Oficial**, em **Configurações › Empresas › abrir a empresa › aba Avançado**, onde elas se chamam **Baileys** (a Básica) e **APIdoZap Pro** (a Pro) (`revendedor/api/pre-requisitos-apis.md`, `revendedor/recursos/como-habilitar-botoes-api.md`, `revendedor/recursos/configuracoes-editar-empresa.md`).
+- **A Básica (Baileys) foi descontinuada:** a documentação do revendedor manda migrar para a Pro os clientes que a utilizam (`revendedor/recursos/canais-e-e-mail-em-plataforma.md`). Básica e Pro continuam sendo bibliotecas distintas, com artigos e payloads próprios: se a conexão é Básica, ou ao entregar as duas versões, use o artigo da Básica e avise, em uma linha, que ela foi descontinuada e que a troca para a Pro é feita por quem administra a plataforma (para o cliente, o Suporte).
 - Na Oficial, pergunte também se a conversa está dentro da janela de atendimento: texto, mídia, lista e botões exigem a janela aberta; fora dela o caminho é template. Exceção: quando a integração responde a uma mensagem que acabou de chegar (um webhook que dispara a resposta), não pergunte. A regra do artigo é de 24 horas contadas da última mensagem do cliente (`api/api-janela-de-atendimento.md`), então a janela está aberta.
 - Na Oficial pelo **Hub**, só existe um artigo: o de template sem variável (seção 4 do mapa). Para texto, mídia, lista, botões e template com variáveis pelo Hub não há artigo: diga que não está documentado se as chamadas da Oficial direta valem. Em template, direta ou Hub muda o pedido inteiro: a direta usa `/api/messages/sendMetaCustom`, com `template` em componentes (`header`, `body`, `button`); pelo Hub, o template sem variável usa `/api/messages/sendOfficial`, só com `number`, `name` e `language` (`api/api-oficial-template-sem-variavel-hub.md`). Se a pessoa não disser qual das duas é, entregue o da Oficial direta e avise, em uma linha, que pelo Hub o endereço e o payload são outros.
 - Para CRM, a pergunta é outra: CRM novo (múltiplos funis) ou antigo (funil único). Os artigos são diferentes (seção 5 do mapa).
@@ -56,6 +61,7 @@ O tipo de conexão decide o artigo. Enviar uma imagem, por exemplo, tem um ender
 python3 scripts/buscar_endpoint.py audio url --conexao oficial   # palavras + tipo de conexão
 python3 scripts/buscar_endpoint.py pedido --metodo POST          # palavras + método
 python3 scripts/buscar_endpoint.py --conexao empresa             # as que só aceitam o Token da Empresa
+python3 scripts/buscar_endpoint.py --conexao admin               # só as administrativas (revendedor)
 python3 scripts/buscar_endpoint.py --conexoes                    # valores possíveis do selo
 grep -n -i 'reserva' references/docs/INDICE-api.md               # busca simples no índice por assunto
 grep -rn -i 'ERR_' references/docs/api/                          # frases e códigos de erro citados nos artigos
@@ -63,14 +69,14 @@ grep -rn -i 'ERR_' references/docs/api/                          # frases e cód
 
 "Reserva" tem dois recursos com APIs diferentes. Restaurante, salão, mesa: **Reserva de Mesa do PDV** (`/api/pdv/reservas`). Serviço, sala, quarto, quadra ou diária com ofertas e recursos: **módulo Reservas** (`/api/reservas`). Quando o pedido diz "mesa" ou "restaurante", use o PDV e diga em uma linha que existe o outro módulo. Diga também que o Cardápio Digital do PDV já tem um formulário de reserva de mesa para o cliente, com antecedência mínima e máximo de pessoas (artigo Reservas de Mesa, da `cmv-ajuda`); os artigos da API não dizem se essas regras valem para a reserva criada por API. Se não der para saber qual a empresa usa, pergunte antes de escrever o código.
 
-`--conexao pro` traz os artigos com selo Pro e também os de selo Todas; acrescente `--exato` para ver só os específicos. Sem terminal (claude.ai), abra `references/docs/INDICE-api.md`, vá à seção do assunto e escolha o artigo pelo título; os títulos com "Oficial", "(Hub)", "WebChat", "Instagram", "Facebook" e "Chat Externo" já indicam a conexão, e os iguais (dois "API Mensagem de Lista") se separam pelo nome do arquivo (`-pro`) e pelo selo dentro do artigo.
+`--conexao pro` traz os artigos com selo Pro e também os de selo Todas; acrescente `--exato` para ver só os específicos. As APIs administrativas aparecem com o selo `Super Admin (...)`: são do revendedor e exigem token da empresa do Super Admin (`references/api-administrativa.md`). Elas só saem num filtro por conexão com `--conexao admin`, que traz só elas; nos outros (`--conexao pro`, `oficial`, `todas`, `empresa`) ficam de fora. Na busca por palavra, sem filtro, aparecem junto das do cliente, sempre com o selo. Sete têm o mesmo método e endereço de uma chamada do cliente (`setor criar` devolve duas linhas): para o cliente, vale a linha sem esse selo. Sem terminal (claude.ai), abra `references/docs/INDICE-api.md`, vá à seção do assunto e escolha o artigo pelo título; os títulos com "Oficial", "(Hub)", "WebChat", "Instagram", "Facebook" e "Chat Externo" já indicam a conexão, e os iguais (dois "API Mensagem de Lista") se separam pelo nome do arquivo (`-pro`) e pelo selo dentro do artigo.
 
 ### 4. Leia o artigo inteiro antes de escrever
 
 Os artigos são curtos. Confira, nesta ordem:
 
 - a linha `**API:**` (o selo): tem de bater com a conexão da pessoa. Valores: `Básica`, `Pro`, `Oficial`, `Oficial Hub`, `Todas`, `Empresa`, `WebChat`, `Instagram`, `Facebook`, `Chat Externo`, `Gupshup`, `RCS`. O de Hub traz `Oficial Hub` no selo e "(Hub)" no título;
-- avisos no topo, como "Esta chamada usa o Token da Empresa";
+- avisos no topo, como "Esta chamada usa o Token da Empresa". Nos artigos de `revendedor/api/`, é o aviso de token do começo que diz qual token serve, e ele muda de artigo para artigo; o selo `Todas` deles não quer dizer "qualquer token" (`references/api-administrativa.md`);
 - `Endpoint`, `Método` e `Payload`, e a explicação de **cada** campo: o que é obrigatório, o formato e, principalmente, o efeito de `openTicket` e `queueId`, que muda de artigo para artigo;
 - as linhas com ⚠️ e ◽ depois do payload: é ali que estão os limites, os erros nomeados e os efeitos colaterais;
 - o exemplo em cURL no fim, que serve de conferência do seu pedido.
@@ -119,9 +125,9 @@ Cite o artigo usado: título e o link da linha **Fonte** do cabeçalho. Se algo 
 | Autenticação | Cabeçalho `Authorization: Bearer <token>`. O token prova a autorização e define por qual conexão a chamada sai. | `api/estrutura-de-api.md` |
 | Token da Conexão | Um por conexão, definido pela própria pessoa em **Conexões › editar a Conexão › aba Integrações › Token**. Tem de ser único por conexão. Se a conexão for excluída e recriada, o token antigo é recusado. | `api/pre-requisitos-apis.md`, `recursos/token-da-conexao.md` |
 | Token da Empresa | Um só para a empresa, em **Configurações › Token da Empresa** (**GERAR UM NOVO**, **COPIAR**, **REVOGAR**). Gerar ou revogar derruba o anterior na hora. Como não carrega a conexão, a chamada precisa informar `whatsappId`, `connectionId` ou `whatsappName` (query string ou corpo); sem isso, 400. As exceções são as chamadas que só aceitam este token e a que lista as Conexões (`api/api-status-das-conexoes.md`), que vão sem Conexão. | `recursos/token-da-empresa-em-configuracoes.md` |
-| Chamadas só do Token da Empresa | Algumas chamadas só aceitam o Token da Empresa, sem informar conexão (selo `Empresa`); com token de conexão respondem 401 "Acesso não permitido". | `recursos/token-da-empresa-em-configuracoes.md`, `api/estrutura-de-api.md` |
-| Pré-requisito do plano | A **API Externa** precisa estar habilitada; pede-se ao Suporte. Os **Botões** são habilitados à parte. | `api/pre-requisitos-apis.md`, `api/pre-requisitos-botoes.md` |
-| Tipos de conexão | Três bibliotecas de WhatsApp: **Pro** e **Básica** (por QR Code) e **Oficial** (API Oficial da Meta). Nem toda chamada existe nas três. O Webchat não é uma das três e tem artigos próprios. | `api/bibliotecas.md` |
+| Chamadas só do Token da Empresa | Algumas chamadas só aceitam o Token da Empresa, sem informar conexão (selo `Empresa`); com token de conexão respondem 401 "Acesso não permitido". Isso vale para as chamadas do cliente: a administrativa Contar Empresas também tem selo `Empresa` e responde `403`. | `recursos/token-da-empresa-em-configuracoes.md`, `api/estrutura-de-api.md`, `revendedor/api/api-admin-contar-empresas.md` |
+| Pré-requisito do plano | A **API Externa** precisa estar habilitada no plano, e os **Botões** são habilitados à parte. O cliente pede as duas ao Suporte; o revendedor as marca em **Configurações › Planos**, no plano que a empresa usa. `pre-requisitos-apis.md` existe nas duas documentações, com textos diferentes: o de `api/` fala com o cliente, o de `revendedor/api/` com quem libera. | `api/pre-requisitos-apis.md`, `api/pre-requisitos-botoes.md`, `revendedor/api/pre-requisitos-apis.md`, `revendedor/recursos/como-habilitar-botoes-api.md` |
+| Tipos de conexão | Três bibliotecas de WhatsApp: **Pro** e **Básica** (por QR Code) e **Oficial** (API Oficial da Meta). Nem toda chamada existe nas três. O Webchat não é uma das três e tem artigos próprios. Para o revendedor, a Básica é a **Baileys** e a Pro é a **APIdoZap Pro**; a Baileys foi descontinuada, com orientação de migrar os clientes para a Pro. | `api/bibliotecas.md`, `revendedor/api/pre-requisitos-apis.md`, `revendedor/recursos/canais-e-e-mail-em-plataforma.md` |
 | Formato do número | Telefone com DDI, DDD e número, só dígitos (ex.: `5511955892164`). Grupo, LID, Instagram, Facebook e Web Chat usam outros identificadores. | `api/api-mensagem-de-texto.md`; seção 8 do mapa |
 | `ticketId` × protocolo | O `ticketId` é o número entre parênteses no cabeçalho da conversa; o número depois de `#` é o protocolo e não serve nas chamadas que pedem `ticketId`. Para o sistema achar o `ticketId` sem ninguém olhar a tela: o `chamadoId` que vem no webhook da conexão ou, a partir do telefone do contato, a API Listar Tickets do Contato (`GET /api/contacts/alltickets`, com `number`). | `api/api-atualizar-ticket.md`, `api/webhooks-da-conexao.md`, `api/api-listar-tickets-do-contato.md` |
 | Formato do corpo | JSON na maior parte das chamadas. Nas que enviam arquivo anexado, o corpo é um formulário e o `Content-Type` não é informado à mão. | `api/estrutura-de-api.md` |
@@ -132,11 +138,11 @@ Outras credenciais que aparecem na conversa e não são token de API: o **Token 
 
 ## Segurança
 
-- **Token sempre em variável de ambiente ou no cofre de credenciais da ferramenta.** Quem tem o token da conexão envia mensagens por ela; quem tem o Token da Empresa fala por qualquer conexão. Por isso ele não entra em código-fonte, repositório, print ou planilha.
+- **Token sempre em variável de ambiente ou no cofre de credenciais da ferramenta.** Quem tem o token da conexão envia mensagens por ela; quem tem o Token da Empresa fala por qualquer conexão; e um token da empresa do Super Admin alcança todas as empresas da instância. Por isso ele não entra em código-fonte, repositório, print ou planilha.
 - **Nunca em JavaScript que roda no navegador** (site, landing page, JS personalizado do painel). Tudo o que o navegador carrega pode ser lido por qualquer visitante. Se a pessoa quer disparar algo a partir de um formulário do site, o caminho é o site chamar um servidor dela (ou o n8n, ou um Webhook Trigger), e esse servidor guardar o token.
 - **Se a pessoa colar o token na conversa,** não o repita na resposta, use `$CMV_TOKEN` no código e recomende trocá-lo: o da conexão no campo Token; o da empresa em **GERAR UM NOVO**, lembrando que o anterior para de funcionar na hora.
-- **Não dispare pedidos contra a API real por conta própria.** Um POST de mensagem envia de verdade, para clientes reais, e não tem como desfazer; mesmo uma consulta pode devolver dados sensíveis (a de status devolve tokens). O padrão é entregar o comando para a pessoa rodar. Só execute se ela pedir explicitamente; nesse caso mostre antes o comando exato, confirme o destinatário (de preferência o número de teste dela), rode uma chamada por vez e não exiba o token na saída.
-- **Chamadas em bloco ou sem volta pedem confirmação dupla e aviso claro:** apagar todos os contatos, apagar ticket, apagar tag do cadastro, encerrar tickets em massa, transferir todos os tickets de uma conexão, definir tags ou `extraInfo` (substituem o conjunto). Antes de entregar, pergunte se é isso mesmo e ofereça a alternativa que mexe em um item só.
+- **Não dispare pedidos contra a API real por conta própria.** Um POST de mensagem envia de verdade, para clientes reais, e não tem como desfazer; mesmo uma consulta pode devolver dados sensíveis (a de status devolve tokens; das administrativas, `GET /api/companies` devolve o Token da Empresa no campo `apiToken`, e a de criar o Token da Empresa devolve o token inteiro). O padrão é entregar o comando para a pessoa rodar. Só execute se ela pedir explicitamente; nesse caso mostre antes o comando exato, confirme o destinatário (de preferência o número de teste dela), rode uma chamada por vez e não exiba o token na saída.
+- **Chamadas em bloco ou sem volta pedem confirmação dupla e aviso claro:** apagar todos os contatos, apagar ticket, apagar tag do cadastro, encerrar tickets em massa, transferir todos os tickets de uma conexão, definir tags ou `extraInfo` (substituem o conjunto). Das administrativas: bloquear empresa, reiniciar as conexões de toda a instância, atualizar plano (vale na hora para todas as empresas do plano), atualizar o cadastro de uma empresa (mexer em plano ou vencimento sincroniza a fatura em aberto e religa conexões), trocar o Token da Empresa (o exemplo do artigo, `{"trocar": true}`, copiado como está derruba o token em uso), deletar aviso, trocar imagens da plataforma e pagar fatura; o efeito de cada uma está na seção 4 de `references/api-administrativa.md`. Antes de entregar, pergunte se é isso mesmo e ofereça a alternativa que mexe em um item só.
 - **Webhooks carregam segredo.** Os avisos da Conexão e do Setor trazem o token da conexão e dados do contato; o de Usuários traz e-mail, telefone e hash de senha. O destino tem de ser um endereço da própria pessoa, em HTTPS, e o corpo inteiro não deve ir para log. A URL de um Webhook Trigger é pública: quem a conhece dispara o fluxo.
 
 ## Armadilhas que a documentação revela
@@ -148,13 +154,13 @@ Outras credenciais que aparecem na conversa e não são token de API: o **Token 
 - **Nos botões da Pro, sucesso na resposta não é entrega.** Os artigos de botões da Pro avisam que a recusa do envio vira nota interna e a resposta ainda volta como sucesso. Os outros artigos não dizem isso: não estenda o aviso a outras chamadas.
 - **O efeito de uma chamada é o que o artigo dela diz.** Não a iguale a um botão da tela ("é o mesmo que clicar em Resolver") nem diga o que o cliente recebe, se o artigo não disser.
 - **Botões da Básica** não abrem atendimento nem gravam a mensagem no painel, e os parâmetros vão como texto JSON com aspas escapadas.
-- **Mensagem chegou sem os botões:** costuma faltar a opção Botões no plano.
+- **Mensagem chegou sem os botões:** costuma faltar a opção Botões no plano. A Central conta três itens (token, API Externa, Botões); o artigo do revendedor acrescenta um que ela não cita, a biblioteca escolhida no campo **API Não Oficial** (`revendedor/recursos/como-habilitar-botoes-api.md`).
 - **CRM novo × antigo:** as chamadas `/crm/v2/` exigem o CRM novo ativado, e a de criar oportunidade V1 é recusada quando a empresa já está no CRM novo.
 - **Artigos com o mesmo título:** há pares "API Mensagem de Lista", "API Enviar Imagem por URL", "API Botão URL". O arquivo com `-pro` é o da Pro; o outro, da Básica. `api/api-listar-contatos-por-tag.md` tem o título "API Listar Tickets por Tag".
 
 ## Webhooks
 
-Escolha o webhook pelo alcance (`api/qual-webhook-usar.md`), diga onde colar o endereço e descreva o payload a partir do artigo. A lista completa de webhooks, de avisos que quebram integrações e do que não está documentado fica na seção 7 de `references/mapa-da-api.md`; a receita de receber e responder, em `references/moldes-de-codigo.md`.
+Escolha o webhook pelo alcance (`api/qual-webhook-usar.md`), diga onde colar o endereço e descreva o payload a partir do artigo. A lista completa de webhooks, de avisos que quebram integrações e do que não está documentado fica na seção 7 de `references/mapa-da-api.md`; a receita de receber e responder, em `references/moldes-de-codigo.md`. O Webhook Administrativo, do revendedor, é outro: um campo só para a instância inteira, com entrega única e risco para todas as empresas se o destino ficar fora do ar (seção 6 de `references/api-administrativa.md`).
 
 ## n8n, Make, Zapier
 
@@ -177,6 +183,9 @@ Webhook da Conexão (tudo da conexão) ou do Setor (só um Setor). Passos numera
 **"No n8n as mensagens chegam duplicadas e o áudio vem vazio. Minha conexão é a Oficial."**
 É diagnóstico: use a tabela sintoma → causa → artigo de `references/moldes-de-codigo.md` e o formato de diagnóstico abaixo. Não pergunte da janela: a integração responde a quem acabou de escrever.
 
+**"Sou revendedor. Quando vendo um plano, quero que meu sistema crie a empresa do cliente e já deixe um Setor pronto."**
+É administrativo: `references/api-administrativa.md`. Criar a empresa é `revendedor/api/api-admin-criar-empresa.md` (aceita token de Conexão ou Token da Empresa da empresa do Super Admin; o artigo não marca campo obrigatório nem descreve a resposta); o Setor é `revendedor/api/api-admin-criar-setor-em-uma-empresa.md`, com o `companyId` da empresa nova, que chega no `company.id` do aviso `new_company` do Webhook Administrativo. Diga qual token cada artigo pede, com as palavras do aviso dele, e cite a fonte do site do revendedor. Se quem pede isso é cliente, diga que a chamada existe e é de quem administra a instância.
+
 ## Formato da resposta para a pessoa
 
 Muita gente que pede integração não programa. Entregue nesta ordem, em passos numerados:
@@ -188,7 +197,7 @@ Muita gente que pede integração não programa. Entregue nesta ordem, em passos
 5. **Avisos** do artigo que se aplicam ao caso.
 6. **Fonte:** título do artigo e link.
 
-Caminho de arquivo da skill (`api/...`, `recursos/...`, `references/...`) não vai na resposta, nem entre parênteses no meio do texto: a pessoa não tem esses arquivos. Onde este arquivo escreve `api/api-encerrar-ticket.md`, a resposta escreve "API Encerrar Ticket" e o link da linha **Fonte**, que é `https://clihelper.chatmasterveloz.com/docs/` seguido do nome do arquivo sem `.md`.
+Caminho de arquivo da skill (`api/...`, `recursos/...`, `revendedor/...`, `references/...`) não vai na resposta, nem entre parênteses no meio do texto: a pessoa não tem esses arquivos. Onde este arquivo escreve `api/api-encerrar-ticket.md`, a resposta escreve "API Encerrar Ticket" e o link da linha **Fonte**, que é `https://clihelper.chatmasterveloz.com/docs/` seguido do nome do arquivo sem `.md`. Nos artigos de `revendedor/`, o link da linha **Fonte** é do site do revendedor: `https://revendedor.chatmasterveloz.com/docs/` seguido do nome do arquivo sem `.md`. Use sempre o link do artigo que você leu, sem trocar um site pelo outro.
 
 ### Quando o pedido é um diagnóstico ("está duplicado", "vem vazio", "dá erro")
 

@@ -5,7 +5,7 @@ description: "Use para dúvidas de uso do painel do Chat Master Veloz (chatmaste
 
 # Ajuda do Chat Master Veloz
 
-Esta skill responde dúvidas de uso do Chat Master Veloz (CMV) com base na cópia da Central de Ajuda que está em `references/docs/`: 513 artigos (496 de recursos, 14 de trilhas, 3 fora do menu) e a lista de vídeos, copiados em 20/11/2026. Quem pergunta costuma ser administrador, supervisor ou atendente sem formação técnica.
+Esta skill responde dúvidas de uso do Chat Master Veloz (CMV) com base na cópia da Central de Ajuda que está em `references/docs/`: 523 artigos (506 de recursos, 14 de trilhas, 3 fora do menu) e a lista de vídeos, copiados em 24/11/2026. Quem pergunta costuma ser administrador, supervisor ou atendente sem formação técnica. Em `references/docs/revendedor/` fica a documentação do revendedor (o Super Admin, dono da instância), usada como diz a seção "Cliente ou revendedor".
 
 A documentação é grande. Ler tudo gasta contexto e não melhora a resposta: o trabalho é achar o artigo certo, ler o trecho que responde e passar isso adiante em linguagem simples, dizendo de onde veio.
 
@@ -39,6 +39,7 @@ grep -rci 'rod[ií]zio' recursos trilhas outros | sort -t: -k2 -nr | head     # 
 grep -rn -i 'encerrar por inatividade' recursos trilhas outros                # a frase exata, com a linha
 grep -rn -F 'Missing Body in Payload' recursos                                # mensagem de erro copiada da tela
 grep -rli 'clonar' recursos/atualizacoes-2026-*.md                            # novidade recente
+grep -rn -i 'campanhas habilitadas' revendedor                                # documentação do revendedor: só entra na busca quando pedida
 ```
 
 Sem terminal (claude.ai): leia `references/mapa-por-objetivo.md`; se não bastar, leia `references/docs/INDICE-recursos.md` (cabe numa leitura) e abra o artigo pelo título. O nome do arquivo é o título sem acentos e com hifens.
@@ -70,18 +71,33 @@ Formato e exemplos estão em "Como responder", mais abaixo.
 
 Antes de concluir que não está documentado, abra todos os artigos que o mapa ou a busca apontaram para o assunto, não só o primeiro; se leu um só, o que dá para dizer é "este artigo não explica". Então diga com clareza: "a Central de Ajuda não documenta isso". Conte o que procurou, ofereça o artigo mais próximo, se existir, e indique o suporte escrevendo o título e o link do artigo: Contato para Suporte, https://clihelper.chatmasterveloz.com/docs/contato-para-suporte. Não complete com suposição: um caminho de menu inventado faz a pessoa perder tempo procurando um botão que não existe.
 
+## Cliente ou revendedor
+
+A plataforma tem dois públicos, e algumas respostas mudam de um para o outro.
+
+- **Padrão: quem pergunta é cliente**, isto é, administrador, supervisor ou atendente de uma empresa. Ele não tem as telas **Configurações › Planos**, **Empresas** e **Plataforma**. Quando o recurso depende de liberação, diga o nome literal da opção que o libera (`references/liberar-recursos.md`) e que quem liga é quem fornece a plataforma, o suporte. Não mande o cliente a uma tela que ele não tem.
+- **Revendedor** (Super Admin, dono da instância): reconhece-se porque a pessoa diz que é, fala em "meus clientes", "liberar para a empresa", plano, instância ou white label, ou cita os cards **Planos**, **Empresas** ou **Plataforma**. Para ele, responda com os artigos de `references/docs/revendedor/` e cite o título e o link da linha **Fonte** deles, que é do site do revendedor. Esse link só entra na resposta ao revendedor.
+- **A resposta muda e não dá para saber quem é:** dê a resposta do cliente e acrescente uma linha para quem administra a instância.
+
+As duas documentações divergem em alguns pontos, listados no fim de `references/liberar-recursos.md`. Onde a lista diz "não afirme", apresente o que cada uma diz e mande conferir na tela.
+
 ## Mapa do material
 
 | Arquivo | Para quê |
 |---|---|
 | `references/mapa-por-objetivo.md` | "Quero fazer isto" → artigos, para os pedidos mais comuns |
 | `references/glossario.md` | O que significa cada termo do produto, com o artigo de origem |
+| `references/liberar-recursos.md` | Recurso → opção do plano que o libera, o que mais o Super Admin liga, o que fica com a empresa e os artigos; no fim, os pontos em que as duas documentações divergem |
+| `references/docs/revendedor/INDICE-recursos.md` | Documentação do revendedor, 80 artigos: Como Habilitar (um artigo por recurso), as telas de Configurações do Super Admin (Plataforma, Empresas, Planos, Tokens de IA, Cores, Logotipos) e Downloads |
+| `references/docs/revendedor/INDICE-trilhas.md` | A trilha Meta do revendedor, 10 artigos: API Oficial Nativa, Portfólio Empresarial, Tech Provider, análise do app, qualidade e limite de envio, bloqueio |
 | `references/docs/00-LEIA-PRIMEIRO.md` | Convenções dos artigos (ver aviso abaixo) |
-| `references/docs/INDICE-recursos.md` | Os 496 artigos de recursos, na hierarquia do menu do site |
+| `references/docs/INDICE-recursos.md` | Os 506 artigos de recursos, na hierarquia do menu do site |
 | `references/docs/INDICE-trilhas.md` | As 3 trilhas (14 artigos), em ordem de leitura |
 | `references/docs/INDICE-outros.md` | 3 artigos que não estão em nenhum menu |
 | `references/docs/INDICE.md` | Lista corrida de tudo, título e caminho |
 | `references/docs/videos.md` | 17 vídeos tutoriais no YouTube |
+
+**Quando usar `references/docs/revendedor/`:** quando quem pergunta é o revendedor, e para achar o nome da opção que libera um recurso para o cliente. Alguns arquivos de lá têm o mesmo nome de um artigo da Central (`revendedor/recursos/configuracoes.md` × `recursos/configuracoes.md`): abra e cite sempre com a pasta `revendedor/`. Das APIs administrativas do revendedor só veio o artigo de pré-requisitos (`revendedor/api/pre-requisitos-apis.md`); as chamadas ficam na skill `cmv-api`.
 
 **Aviso sobre o `00-LEIA-PRIMEIRO.md`:** ele descreve a documentação completa e cita `INDICE-api.md`, `INDICE-api-endpoints.md`, a pasta `api/`, a pasta `../docs-css-chatmasterveloz/` e o script `_gerar.py`. Nada disso está nesta skill. A referência da API fica na skill `cmv-api` e a de CSS e JS, na `cmv-painel-css-js`.
 
@@ -91,7 +107,7 @@ Os arquivos de entrada ficam em `references/docs/recursos/`. A coluna "Artigos" 
 
 | Área | Entrada | Artigos | O que tem |
 |---|---|---|---|
-| Meu Perfil | `meu-perfil.md` | 5 | status, senha, recuperar senha, favoritos |
+| Meu Perfil | `meu-perfil.md` | 6 | status, senha, recuperar senha, favoritos, busca no menu |
 | Chats / Tickets | `chats-tickets.md` | 20 | ticket × protocolo, Aguardando × Atendendo, transferir, devolver, encerrar, editar mensagem enviada, videochamada, alertas vermelhos, Pesquisar, Gestão de atendimentos |
 | Atendimento Otimizado | `atendimento-otimizado.md` | 13 | mensagens de ausência, encerramento e aniversário, Mustaches, Mover após, inatividade, Avise-me, Siga-me, Avaliações, carteira, rodízio por Setores |
 | Quadro de atendimentos | `quadro-de-atendimentos.md` | 6 | colunas, visão por tags, regras, permissões |
@@ -102,7 +118,7 @@ Os arquivos de entrada ficam em `references/docs/recursos/`. A coluna "Artigos" 
 | Rodízios | `rodizios.md` | 3 | cadastro de rodízios, relatório |
 | Contatos | `contatos.md` | 11 | adicionar, editar, bloquear, importar, exportar |
 | Tags | `tags.md` | 10 | tipos de tag, Kanban de Tags, Pixel Meta, remarketing |
-| Respostas Rápidas | `respostas-rapidas.md` | 9 | texto, mídia, contato, localização, fluxo |
+| Respostas Rápidas | `respostas-rapidas.md` | 10 | visão geral da tela, texto, mídia, contato, localização, fluxo |
 | Links de agendamento | `links-de-agendamento.md` | 1 | página em que o cliente marca reunião; a reunião entra nas Tarefas |
 | Agendamentos | `agendamentos.md` | 5 | mensagens programadas |
 | Campanhas | `campanhas.md` | 5 | configurar, listas, nova campanha (um artigo por canal) |
@@ -131,7 +147,7 @@ Os arquivos de entrada ficam em `references/docs/recursos/`. A coluna "Artigos" 
 | Aplicativo | `aplicativo.md` | 3 | PWA, notificações push |
 | Vídeos | `../videos.md` | 1 | lista de vídeos |
 | Contato para Suporte | `contato-para-suporte.md` | 1 | canal do suporte |
-| Atualizações | `atualizacoes.md` | 38 | 2 índices de mês e 35 dias |
+| Atualizações | `atualizacoes.md` | 40 | 2 índices de mês e 37 dias |
 
 ### Para quem está começando
 
@@ -139,15 +155,15 @@ Os arquivos de entrada ficam em `references/docs/recursos/`. A coluna "Artigos" 
 
 ### Dúvidas e problemas
 
-- **Problema / Solução** tem só 7 artigos e **Perguntas Frequentes**, só 1. A maior parte das respostas a "por que não funciona" está nos blocos `[DUVIDAS]` (400 artigos) e `[ERROS]` (122 artigos) do artigo de cada recurso.
+- **Problema / Solução** tem só 7 artigos e **Perguntas Frequentes**, só 1. A maior parte das respostas a "por que não funciona" está nos blocos `[DUVIDAS]` (405 artigos) e `[ERROS]` (125 artigos) do artigo de cada recurso.
 - "Vermelho" são dois sintomas diferentes; pergunte qual, se não estiver claro. **Recado vermelho dentro da conversa** é erro de envio: `recursos/alertas-vermelhos-no-chat.md` lista os textos, a maioria em inglês. **Conversas com fundo vermelho na lista** é conexão desconectada, segundo `recursos/conexao-desconectada.md`: vá para a linha "Conexão caiu" da tabela em "Armadilhas".
 - Pessoa que não consegue entrar: `recursos/usuario-nao-consegue-entrar-na-plataforma.md`.
 - Mensagem ou template do WhatsApp Oficial que não chega ao cliente: `recursos/erros-de-entrega-do-whatsapp-oficial.md` (códigos de erro da Meta) e `recursos/template-recusado-pausado-ou-desabilitado.md`.
-- "A tela está vazia" ou "o item não aparece": quase sempre é permissão. Veja `recursos/tipos-de-perfil.md` e o artigo de permissões do módulo (em `recursos/`: `permissoes-configuracoes.md`, `permissoes-dashboard.md`, `permissoes-e-mails.md`, `permissoes-mail-marketing.md`, `permissoes-pdv.md`, `permissoes-consultorio.md`, `permissoes-reservas.md`, `permissoes-projetos.md`, `permissoes-avaliacao-pela-ia.md`, `permissoes-quadro-de-atendimentos.md`, `quem-visualiza-o-que-no-crm.md`).
+- "A tela está vazia" ou "o item não aparece": quase sempre é permissão. Veja `recursos/tipos-de-perfil.md` e o artigo de permissões do módulo (em `recursos/`: `permissoes-configuracoes.md`, `permissoes-dashboard.md`, `permissoes-e-mails.md`, `permissoes-mail-marketing.md`, `permissoes-pdv.md`, `permissoes-consultorio.md`, `permissoes-reservas.md`, `permissoes-projetos.md`, `permissoes-avaliacao-pela-ia.md`, `permissoes-quadro-de-atendimentos.md`, `quem-visualiza-o-que-no-crm.md`). Se o item não existe nem para o administrador, a causa costuma ser o plano ou uma trava do cadastro da empresa: `references/liberar-recursos.md` diz, recurso por recurso, qual opção libera e o que mais precisa estar ligado. Antes disso, o campo **Buscar no menu…**, no topo do menu lateral, mostra se o item existe no menu da pessoa (`recursos/busca-no-menu.md`).
 
 ### O que mudou
 
-`recursos/atualizacoes.md` → índice do mês (`atualizacoes-2026-11.md`, `atualizacoes-2026-10.md`) → um arquivo por dia, de 15/10/2026 a 19/11/2026. Para "o que mudou esta semana", liste os arquivos dos dias e leia o topo de cada um (Novidades, Melhorias, Correções). A seção "O que você precisa fazer", no fim, diz se a mudança exige ação. Não há registro anterior a 15/10/2026 nem posterior à data da cópia: diga isso se perguntarem.
+`recursos/atualizacoes.md` → índice do mês (`atualizacoes-2026-11.md`, `atualizacoes-2026-10.md`) → um arquivo por dia, de 15/10/2026 a 24/11/2026. Para "o que mudou esta semana", liste os arquivos dos dias e leia o topo de cada um (Novidades, Melhorias, Correções). A seção "O que você precisa fazer", no fim, diz se a mudança exige ação. Não há registro anterior a 15/10/2026 nem posterior à data da cópia: diga isso se perguntarem.
 
 ### Vídeos
 
@@ -159,7 +175,7 @@ Nesta seção, arquivo citado sem pasta está em `references/docs/recursos/`.
 
 **A linha "Menu" do cabeçalho é o caminho na Central de Ajuda, não no painel.** "Atendimento Otimizado", por exemplo, não é um menu do painel. O caminho que a pessoa vai clicar está no corpo do artigo, escrito de dois jeitos conforme o artigo: "Acesse o menu **Conexões  ›  editar a Conexão**…" ou "menu → Conexões > Editar > Mensagens". Passe adiante o do corpo.
 
-**O nome da área na ajuda nem sempre é o nome do menu no painel.** Confirmados nos artigos: GPT Assistant → menu **Prompts OPEN.AI**; pesquisar atendimentos → menu **Pesquisar**; Gravações das Chamadas → menu **Gravações**. Há dois itens **Categorias** no painel: um para Setores (`categorias-de-setores.md`), outro para fluxos (`categorias-de-fluxos.md`).
+**O nome da área na ajuda nem sempre é o nome do menu no painel.** Confirmados nos artigos: GPT Assistant → menu **Prompts OPEN.AI**; pesquisar atendimentos → menu **Pesquisar**; Gravações das Chamadas → menu **Gravações**. As gravações das ligações do PABX são outro recurso e vão para o menu **Chamadas**, não para o **Gravações** (`revendedor/recursos/como-habilitar-gravacoes-no-pabx.md`); a Central só traz **Chamadas** como item do menu do administrador e do supervisor, em `tipos-de-perfil.md`, sem artigo de uso. Há dois itens **Categorias** no painel: um para Setores (`categorias-de-setores.md`), outro para fluxos (`categorias-de-fluxos.md`).
 
 **Algumas telas não estão no menu lateral.** Gestão de Templates, Limitador de Mensagens, Concatenador, Modo Híbrido e Perfil do número abrem por botões no card da conexão. O Relatório do Rodízio abre pelo botão **Ver relatório** na tela Rodízios, que só aparece com a opção **Exibir o Relatório do Rodízio (botão Ver relatório, na tela Rodízios)?** em **Sim** em Configurações › Opções › Atendimento, seção Distribuição e rodízio (`relatorio-do-rodizio.md`).
 
@@ -176,7 +192,7 @@ Nesta seção, arquivo citado sem pasta está em `references/docs/recursos/`.
 
 Janela de atendimento, templates e Limitador só existem na conexão oficial. Em artigos que valem para os dois (botões do fluxo, agendamento, número bloqueado), procure a tabela por canal ou a seção "API Oficial" dentro do artigo.
 
-**As etiquetas `[Básica]`, `[Pro]`, `[Oficial]`, `[Hub]`, `[Webchat]` citadas no `00-LEIA-PRIMEIRO.md` são da referência da API e não aparecem nestes artigos.** Aqui o canal vem escrito por extenso: "conexão oficial", "API Oficial", "WhatsApp Oficial" ou "canal oficial" de um lado; "conexão por QR Code", "WhatsApp QRCode" ou "canal não oficial" do outro. Estes artigos não explicam o que é cada etiqueta. Se a pessoa usar um desses nomes (Básica, Pro, Hub) e a resposta depender do canal, pergunte se o número foi conectado lendo um QR Code ou pela conta da Meta.
+**As etiquetas `[Básica]`, `[Pro]`, `[Oficial]`, `[Hub]`, `[Webchat]` citadas no `00-LEIA-PRIMEIRO.md` são da referência da API e não aparecem nestes artigos.** Aqui o canal vem escrito por extenso: "conexão oficial", "API Oficial", "WhatsApp Oficial" ou "canal oficial" de um lado; "conexão por QR Code", "WhatsApp QRCode" ou "canal não oficial" do outro. Os artigos da Central não explicam o que é cada etiqueta. A documentação do revendedor explica duas: Básica e Pro são as bibliotecas do WhatsApp por QR Code, que o campo **API Não Oficial** do cadastro da empresa (tela do Super Admin) mostra com os nomes técnicos **Baileys** e **APIdoZap Pro** (`revendedor/api/pre-requisitos-apis.md`). **A Básica (Baileys) foi descontinuada na plataforma, e os clientes que a usam devem migrar para a Pro** (`revendedor/recursos/canais-e-e-mail-em-plataforma.md`; confirmado pelo dono das skills em 24/11/2026). A Central não traz esse aviso, e nenhum artigo descreve o passo a passo da migração: ao cliente, diga que ela se pede a quem fornece a plataforma. Se a pessoa usar um desses nomes (Básica, Pro, Hub) e a resposta depender do canal, pergunte se o número foi conectado lendo um QR Code ou pela conta da Meta.
 
 **Títulos parecidos, telas diferentes:**
 
@@ -199,9 +215,9 @@ Janela de atendimento, templates e Limitador só existem na conexão oficial. Em
 
 **Os artigos quase não têm links entre si.** Quando um artigo manda ver outro pelo nome ("saiba como em Pré-Requisitos de IA"), ache-o pelo título no índice.
 
-**Onde fica uma opção.** `recursos/configuracoes.md` dá a regra: o que vale para a empresa inteira fica em Configurações; o que é por pessoa, no cadastro em Equipe; o que é por canal, em Conexões. Em Configurações › Opções, as abas são Geral, Atendimento, Contatos, Automação, Chamadas, Vendas e Integrações e segurança, e o campo **Pesquisar opção**, acima das abas, acha a opção pelo nome (`visao-geral-configuracoes.md`). A maioria das opções grava sozinha; alguns blocos têm botão próprio, como **SALVAR**.
+**Onde fica uma opção.** `recursos/configuracoes.md` dá a regra: o que vale para a empresa inteira fica em Configurações; o que é por pessoa, no cadastro em Equipe; o que é por canal, em Conexões. Em Configurações › Opções, as abas são Geral, Atendimento, Contatos, Automação, Chamadas, Vendas e Integrações e segurança, e o campo **Pesquisar opção**, acima das abas, acha a opção pelo nome (`visao-geral-configuracoes.md`). A maioria das opções grava sozinha; alguns blocos têm botão próprio, como **SALVAR**. Há um quarto nível, que o cliente não enxerga: o que vale para todas as empresas da instância fica no card **Plataforma**, que só o Super Admin vê e não tem versão por empresa (`revendedor/recursos/plataforma-em-configuracoes.md`), e o que o Super Admin define para uma empresa (plano, bloqueios, chave da OpenAI) fica no cadastro dela, em Configurações › Empresas (`revendedor/recursos/configuracoes-editar-empresa.md`). Exemplo: **Exigir senha forte** é da instância e vale para os usuários de todas as empresas (`revendedor/recursos/marca-e-acesso-em-plataforma.md`). `recuperar-senha.md` ainda diz que não há requisito de senha forte, mas `aba-geral-em-equipe.md` e `acoes-sobre-um-usuario.md` citam a opção: ela existe.
 
-**Item que não aparece pode ser plano, não permissão.** `recursos/tipos-de-perfil.md` diz que o que o plano da empresa não libera não aparece para ninguém. A documentação não lista planos nem preços: não cite nenhum. Sobre a cobrança da Meta no WhatsApp Oficial, repita só o que o artigo diz, com as datas dele.
+**Item que não aparece pode ser plano, não permissão.** `recursos/tipos-de-perfil.md` diz que o que o plano da empresa não libera não aparece para ninguém. Os nomes das opções de plano estão na documentação do revendedor: `references/liberar-recursos.md` diz qual opção libera cada recurso e o que mais precisa estar ligado. Cite a opção pelo nome literal da tela e, ao cliente, diga que quem liga é quem fornece a plataforma. Preços continuam fora: a documentação não traz nenhum, não cite. Sobre a cobrança da Meta no WhatsApp Oficial, repita só o que o artigo diz, com as datas dele.
 
 ## Sinônimos: o que a pessoa diz × como a documentação chama
 
@@ -218,7 +234,7 @@ Janela de atendimento, templates e Limitador só existem na conexão oficial. Em
 | modelo de mensagem | Template | `mensagem-template.md` |
 | BM, Business Manager | Portfólio Empresarial (BM) | `portfolio-empresarial-bm.md` |
 | WhatsApp normal, WhatsApp Web, QR | conexão por QR Code, canal não oficial | `adicionar-whatsapp-qrcode.md` |
-| API do WhatsApp, WABA, Cloud API | API Oficial, conexão oficial | `entenda-a-api-oficial.md` |
+| API do WhatsApp, WABA, Cloud API | API Oficial, conexão oficial. WABA é a conta do WhatsApp Business que guarda os números oficiais, não a API (ver glossário) | `entenda-a-api-oficial.md` |
 | kanban, quadro | mais de uma tela possível: pergunte qual | ver "Títulos parecidos" |
 | pipeline, negócio, lead no funil | Funil, Oportunidade, Board | `funis-do-crm.md`, `oportunidade-no-crm.md` |
 | pesquisa de satisfação, nota do atendimento | Avaliações | `avaliacoes.md` |
@@ -257,14 +273,15 @@ A resposta depende do canal, então pergunte primeiro: "O número foi conectado 
 **Exemplo 3: o que mudou.** Pedido: "teve novidade no PDV esse mês?"
 Busca: `grep -l -i 'pdv' recursos/atualizacoes-2026-11-*.md`, depois as seções de PDV de cada dia. Entrega: lista curta por data, uma linha por novidade, o que exige ação e os links dos artigos de cada dia.
 
-**Exemplo 4: não documentado.** Pedido: "como mudo a cor do painel?"
-A Central de Ajuda copiada aqui não documenta mudar as cores do painel. Ela trata só da aparência de páginas vistas pelo cliente (Web Chat, Chat Externo, Link na Bio, Cardápio e Loja Digital). Diga isso, confirme se era o painel e encaminhe para a skill `cmv-painel-css-js`; não invente um caminho de menu.
+**Exemplo 4: a resposta muda conforme o público.** Pedido: "como mudo a cor do painel?"
+A Central de Ajuda não documenta mudar as cores do painel: trata só da aparência de páginas vistas pelo cliente (Web Chat, Chat Externo, Link na Bio, Cardápio e Loja Digital). A documentação do revendedor documenta: cores em **Configurações › Cores** (`revendedor/recursos/configuracoes-cores.md`) e logotipos em **Configurações › Logotipos / Ícones** (`revendedor/recursos/configuracoes-logotipos-icones.md`). As duas telas são do Super Admin e valem para a instância inteira; logotipo por empresa não existe. Ao cliente: confirme se era o painel, diga que cores e logotipos são da instância e que a mudança se pede a quem fornece a plataforma, sem mandar abrir essas telas. Ao revendedor: passe o caminho, com o título e o link do artigo. CSS e JS são da skill `cmv-painel-css-js`.
 
 ## Onde termina esta skill
 
 | O pedido é… | Skill |
 |---|---|
 | Escrever código, montar payload, chamar endpoint, configurar webhook no n8n | `cmv-api` |
+| Usar as APIs administrativas do revendedor (as do Super Admin, que agem sobre as empresas da instância) | `cmv-api` |
 | Desenhar ou gerar um fluxo de chatbot ou automação | `cmv-flowbuilder` |
 | Escrever o prompt do GPT Assistant ou ajustar a IA | `cmv-agente-ia` |
 | Redigir respostas rápidas, templates, textos de campanha e de agendamento | `cmv-mensagens` |

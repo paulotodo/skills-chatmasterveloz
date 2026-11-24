@@ -17,7 +17,7 @@ Quem usa esta skill costuma ser administrador de uma empresa, sem formação té
 | Pedido | Skill |
 |---|---|
 | Prompt, instruções e configuração do GPT Assistant e de outros recursos de IA | `cmv-agente-ia` (aqui fica só o bloco que leva a conversa até o assistente) |
-| Endpoint, corpo, token, webhook, o lado do n8n | `cmv-api` (aqui fica onde chamar no fluxo e o que fazer com a resposta) |
+| Endpoint, corpo, token, webhook, o lado do n8n; copiar o mesmo fluxo para várias empresas pela API (pedido de revendedor) | `cmv-api` (aqui fica onde chamar no fluxo e o que fazer com a resposta) |
 | Texto de template da API Oficial, de campanha, de resposta rápida | `cmv-mensagens` (aqui ficam os textos dos blocos do fluxo) |
 | Como configurar conexão, equipe, tags e o resto do painel | `cmv-ajuda` |
 
@@ -27,7 +27,8 @@ Se a outra skill não estiver disponível, entregue a sua parte e diga o que fic
 
 | Arquivo | Para quê |
 |---|---|
-| `references/docs/INDICE.md` e `references/docs/recursos/` | A documentação oficial: 76 artigos (FlowBuilder Nativo, blocos, pontos de entrada, Setores & Chatbot). É a única fonte de fatos sobre o produto. O índice traz o link **Fonte** de cada artigo. |
+| `references/docs/INDICE.md` e `references/docs/recursos/` | A documentação oficial: 76 artigos (FlowBuilder Nativo, blocos, pontos de entrada, Setores & Chatbot). Com a linha de baixo, é a única fonte de fatos sobre o produto. O índice traz o link **Fonte** de cada artigo. |
+| `references/docs/revendedor/recursos/` | Dois artigos da documentação do revendedor (Super Admin, dono da instância): a opção do plano que libera o FlowBuilder Nativo e as que alguns blocos pedem. |
 | `references/blocos.md` | Qual bloco usar, as armadilhas e o artigo de cada um, se ele cabe no JSON e em que canal funciona. |
 | `references/receitas.md` | Esqueleto dos fluxos mais pedidos e boas práticas de conversa. |
 | `references/descricao-compacta.md` | Como descrever o fluxo para o gerador. É o que se lê para gerar um arquivo. |
@@ -98,7 +99,7 @@ O nome de cada bloco e de cada campo é o do artigo, em negrito. Todo bloco com 
 ```markdown
 ## Fluxo: <nome>
 **Para que serve:** … **Começa por:** <ponto de entrada>
-**Antes de montar:** Setores e tags que precisam existir, horários a cadastrar.
+**Antes de montar:** Setores e tags que precisam existir, horários a cadastrar, opção do plano que algum bloco pede.
 
 ### Diagrama
 (Mermaid `flowchart LR`, ou texto com setas; uma linha por saída)
@@ -205,6 +206,7 @@ Confira o desenho contra cada uma. Os artigos entre parênteses ficam em `refere
 13. **Horário de Expediente depende de configuração da empresa.** Ligar o **Gerenciamento Por Setor** faz todos os Setores seguirem o horário que já está na aba de cada um (`aba-horarios-em-setores-e-chatbot.md`).
 14. **Salvar não muda a conversa em andamento.** Quem já entrou segue na versão anterior até o atendimento encerrar (`como-o-fluxo-roda.md`). **Restaurar** uma versão grava na hora (`como-usar-o-editor-de-fluxos.md`).
 15. **Fluxo que para de responder a um contato, ou responde cada pedaço de frase.** Em **Configurações** › **Opções** › **Automação**, seção **Bot e FlowBuilder**: com **Limitar as mensagens que o fluxo responde ao mesmo contato?** em **Sim**, quem passa do limite fica sem resposta do fluxo pelo tempo escolhido, em **Aguardando** para a equipe (o cadastro do contato tem **Retomar o robô agora**); **Concatenação no Flowbuilder?** junta as mensagens que o cliente manda em sequência antes de o fluxo responder (`bot-e-flowbuilder-em-configuracoes.md`). Um Intervalo também para o fluxo se o atendimento for aceito, transferido para um atendente ou encerrado durante a espera (`bloco-intervalo.md`).
+16. **Bloco que não aparece no editor pode ser opção do plano.** **FLOW** libera o FlowBuilder Nativo, e alguns blocos dependem de outra opção: **CRM**, **Automação Instagram**, **Botões**, **GPT Assistant**, **Typebot / Flowise** ou **WPW** (qual bloco pede qual: `references/blocos.md`). Quem marca é quem fornece a plataforma; a quem dizer o quê está em "Como consultar a documentação" (`references/docs/revendedor/recursos/como-habilitar-flowbuilder.md`).
 
 ## Exemplos de pedido e entrega
 
@@ -223,4 +225,5 @@ Dois pontos de decisão e um gatilho que não é a conexão: confirme o desenho 
 - Leia só o artigo de que precisa, e responda com base nele. As imagens e os vídeos não foram transcritos: não deduza o que só aparece neles.
 - Ao afirmar algo sobre o produto, cite o artigo pelo título e pelo link da linha **Fonte** (está no cabeçalho do artigo e no índice). O nome do arquivo (`bloco-menu.md`) não vai na resposta, porque a pessoa não tem esses arquivos; o link de cada artigo é `https://clihelper.chatmasterveloz.com/docs/` seguido do nome do arquivo sem `.md`.
 - Não leve para um canal o que o artigo afirma sobre outro, nem para um bloco o que o artigo afirma sobre outro bloco.
-- Separe na resposta o que é do artigo, o que é dedução e o que é recomendação desta skill. Se a documentação não cobre o que a pessoa perguntou, diga isso com clareza; não cite preço nem plano. O que esta skill sabe do arquivo .json vem de observação, e deve ser apresentado assim.
+- Separe na resposta o que é do artigo, o que é dedução e o que é recomendação desta skill. Se a documentação não cobre o que a pessoa perguntou, diga isso com clareza; não cite preço. O que esta skill sabe do arquivo .json vem de observação, e deve ser apresentado assim.
+- **Opção do plano: dois públicos.** O nome da opção pode ser citado, sempre o literal; preço continua fora. O padrão é quem pede ser cliente, administrador de uma empresa, que não tem a tela **Configurações** › **Planos**: diga o nome da opção que o bloco pede e que quem liga é quem fornece a plataforma (o suporte). Revendedor (Super Admin, dono da instância) é quem diz que é, ou fala em "meus clientes", "liberar para a empresa", plano ou instância: para ele, aponte FlowBuilder Nativo (`references/docs/revendedor/recursos/como-habilitar-flowbuilder.md`) e cite o título e o link da linha **Fonte**, que é do site do revendedor: `https://revendedor.chatmasterveloz.com/docs/` seguido do nome do arquivo sem `.md`.

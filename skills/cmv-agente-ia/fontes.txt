@@ -36,6 +36,9 @@ plataforma:recursos/atualizacoes-2026-11-17.md
 plataforma:recursos/atualizacoes-2026-11-18.md
 plataforma:recursos/atualizacoes-2026-11-19.md
 plataforma:recursos/gravacoes-das-chamadas.md   # IA nas gravações das chamadas (usa o Token OpenAI)
+# Travas de grupo do lado da empresa (Ignorar Mensagens de Grupos e o Bloquear Grupos de cada Conexão),
+# para o GPT Assistant em grupos; a terceira trava está no artigo Editar Empresa, do revendedor.
+plataforma:recursos/gerenciamento-de-grupos-em-configuracoes.md
 # Para o roteiro de teste e para o que acontece com o status do atendimento (Aguardando x Atendendo,
 # transferir a conversa de teste ao Setor da IA, devolver ao Setor) e a única menção a listar Setores.
 plataforma:recursos/aguardando-x-atendendo.md

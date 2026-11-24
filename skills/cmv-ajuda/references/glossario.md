@@ -27,11 +27,14 @@ Termos que aparecem o tempo todo nas perguntas. Cada definição é um resumo do
 |---|---|---|
 | Canal oficial (API Oficial, WhatsApp Oficial) | WhatsApp pela API autorizada pela Meta: tem janela de atendimento, templates e cobrança por mensagem enviada. | `recursos/whatsapp-oficial-x-nao-oficial.md` |
 | Canal não oficial (QR Code) | WhatsApp ligado por leitura de QR Code, como o WhatsApp Web; sem templates e sem janela, com risco de bloqueio. | `recursos/whatsapp-oficial-x-nao-oficial.md` |
-| Janela de atendimento | Prazo que a Meta abre quando o cliente escreve (24 horas depois da última mensagem dele; 72 horas quando ele chega por anúncio de clique para o WhatsApp). Fora dele, só template. | `recursos/janela-de-atendimento.md` |
+| Canal não oficial: Básica (Baileys) × Pro (APIdoZap Pro) | As duas bibliotecas do WhatsApp por QR Code; os nomes entre parênteses são os que o Super Admin vê no campo **API Não Oficial** do cadastro da empresa. A Básica foi descontinuada na plataforma: quem a usa deve migrar para a Pro (confirmado pelo dono das skills em 24/11/2026). | `revendedor/api/pre-requisitos-apis.md`, `revendedor/recursos/canais-e-e-mail-em-plataforma.md` |
+| Janela de atendimento | Prazo que a Meta abre quando o cliente escreve (24 horas depois da última mensagem dele; 72 horas quando ele chega por anúncio de clique para o WhatsApp). Fora dele, só template. No Instagram e no Messenger, depois de 24 horas só a resposta digitada pelo atendente é enviada, por até 7 dias. | `recursos/janela-de-atendimento.md`, `recursos/whatsapp-oficial-x-nao-oficial.md`, `recursos/atualizacoes-2026-10-31.md` |
 | Template | Modelo de mensagem aprovado antes pela Meta; único formato permitido com a janela fechada. | `recursos/mensagem-template.md` |
 | Portfólio Empresarial (BM) | O cadastro da empresa dentro da Meta, onde nasce o número da API Oficial e se faz a verificação. | `recursos/portfolio-empresarial-bm.md` |
 | Cloud API × Coexistência | Na Cloud API o número vive só na nuvem; na Coexistência continua também no aplicativo WhatsApp Business. | `recursos/adicionar-whatsapp-oficial.md` |
+| WABA (Conta do WhatsApp Business) | A conta que guarda os números de WhatsApp Oficial da empresa. Não é sinônimo de API Oficial: é a conta em que os números ficam. | `revendedor/trilhas/meta.md`, `recursos/bloco-carrossel-de-produtos.md` |
 | Modo Híbrido | Reparte os envios entre a conexão oficial (Coexistência) e uma por QR Code do mesmo número. | `recursos/whatsapp-modo-hibrido-oficial-e-qrcode.md` |
+| "Híbrido" (três sentidos) | Na Central, é o Modo Híbrido da linha acima. Na documentação do revendedor, a palavra aparece em mais dois sentidos: a Coexistência é chamada de "modo híbrido", e o sistema é chamado de híbrido porque um cliente pode usar a integração Nativa e outro o NotificameHub. Se a pessoa disser só "híbrido", pergunte de qual fala. | `revendedor/recursos/como-habilitar-coexistencia.md`, `revendedor/trilhas/meta.md` |
 | Modo Alternativo | Leva para uma página, por um botão, uma conversa que começou no WhatsApp Oficial. | `recursos/modo-alternativo-chat-externo-por-link.md` |
 | Chat Externo | Conexão própria: uma página de conversa aberta por link, onde a conversa já começa. | `recursos/chat-externo.md` |
 | Web Chat | Chat dentro do site do cliente, instalado colando um código. | `recursos/web-chat.md` |
@@ -65,3 +68,15 @@ Termos que aparecem o tempo todo nas perguntas. Cada definição é um resumo do
 | GPT Assistant × Assistente de IA | O GPT Assistant é o prompt de IA que responde clientes num Setor. O Assistente de IA responde perguntas da equipe sobre os dados da plataforma e não muda nada. | `recursos/gpt-assistant.md`, `recursos/assistente-de-ia.md` |
 | Base de Conhecimento | Material da empresa (horários, preços, políticas) que a IA consulta antes de responder; é vinculada a um prompt. | `recursos/base-de-conhecimento-do-gpt-assistant.md` |
 | Consultório | Módulo de clínica: agenda das consultas, recepção, pacientes e prontuário, ligados às conversas. | `recursos/consultorio.md` |
+| Gravações × Chamadas | **Gravações** é a página das chamadas gravadas dentro da plataforma: videochamadas dos atendimentos, chamadas do Chat Interno e reuniões das tarefas. As gravações das ligações do PABX vão para outro menu, **Chamadas**. | `recursos/gravacoes-das-chamadas.md`, `revendedor/recursos/como-habilitar-gravacoes-no-pabx.md` |
+
+## Revendedor e instância
+
+Termos da documentação do revendedor, em `references/docs/revendedor/`. O cliente de uma empresa não tem essas telas: veja "Cliente ou revendedor", no `SKILL.md`.
+
+| Termo | O que é | Artigo |
+|---|---|---|
+| Instância | O conjunto das empresas que um revendedor administra. O que é da instância vale para todas as empresas ao mesmo tempo. | `revendedor/recursos/configuracoes.md` |
+| Super Admin (revendedor) | Quem administra a instância: as empresas, os planos que elas assinam, a identidade visual e os meios de pagamento. Só ele vê o card **Plataforma**. | `revendedor/recursos/configuracoes.md`, `revendedor/recursos/plataforma-em-configuracoes.md` |
+| Plano | O pacote que a empresa assina: decide quantos usuários, conexões e Setores ela pode ter e quais recursos aparecem no menu dela. Qual opção libera cada recurso está em `references/liberar-recursos.md`. | `revendedor/recursos/configuracoes-planos.md` |
+| Aplicativo próprio × aplicativo da plataforma (Portal) | Os dois caminhos dos canais oficiais da Meta: pelo aplicativo do próprio revendedor, aprovado na Meta, ou pelo aplicativo da plataforma, sem aprovar aplicativo nenhum. No plano, o aplicativo próprio é **WABA WL** no WhatsApp e **INC** no Facebook e no Instagram. | `revendedor/recursos/configuracoes-planos.md`, `revendedor/trilhas/api-oficial-nativa.md` |

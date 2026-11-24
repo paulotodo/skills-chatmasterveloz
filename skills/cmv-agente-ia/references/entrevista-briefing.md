@@ -34,7 +34,7 @@ Perguntas:
 - Já existe algum assistente em **Prompts OPEN.AI**? Se sim, pode colar o prompt atual e contar o que está dando errado?
 - Hoje, como o cliente chega até vocês: direto em um Setor, por menu de Setores ou por um fluxo do FlowBuilder?
 
-Por que perguntar: define se o trabalho começa pelos pré-requisitos, se é criação ou correção, e em que Setor a IA vai ser ligada. Evita entregar um prompt ótimo para quem ainda não consegue abrir o menu.
+Por que perguntar: define se o trabalho começa pelos pré-requisitos, se é criação ou correção, e em que Setor a IA vai ser ligada. Evita entregar um prompt ótimo para quem ainda não consegue abrir o menu. Se o menu **Prompts OPEN.AI** não aparece para quem é Administrador, o que o libera é a opção de plano **GPT Assistant**, que precisa também da **AI**: quem liga é quem fornece a plataforma (o suporte), não a própria empresa (`references/docs/revendedor/recursos/configuracoes-planos.md`).
 
 Se não souber: mostre onde olhar (`references/docs/recursos/pre-requisitos-ia.md`, `references/docs/recursos/token-openai.md`, `references/docs/recursos/visao-geral-setores-e-chatbot.md`) e siga com a entrevista; os pré-requisitos entram como passo 1 da entrega.
 
@@ -60,7 +60,7 @@ Perguntas:
 - Os clientes costumam mandar áudio?
 - A IA vai atender em conversa privada, em grupo, ou nos dois?
 
-Por que perguntar: o público define vocabulário e paciência; as dúvidas mais comuns viram a base de conhecimento; o áudio decide ligar **Ativar Transcrição de Áudio** no Setor da IA (com ela, a IA responde ao que foi falado); grupo pede o **Gatilho para Acionar em Grupos** e a escolha de quem responde no grupo.
+Por que perguntar: o público define vocabulário e paciência; as dúvidas mais comuns viram a base de conhecimento; o áudio decide ligar **Ativar Transcrição de Áudio** no Setor da IA (com ela, a IA responde ao que foi falado); grupo pede o **Gatilho para Acionar em Grupos**, a escolha de quem responde no grupo e as travas de grupo liberadas (`references/configuracao-painel.md`, "Opcional: usar o assistente em um grupo").
 
 Se não souber: peça que role as conversas dos últimos dias e copie as perguntas que mais se repetem, ou que pergunte a quem atende. Sem isso, escreva a base só com o que foi informado e deixe a transferência como saída para o resto.
 
@@ -152,7 +152,7 @@ Perguntas:
 - As conversas costumam ser longas? (Ajuda a escolher o **Máximo de mensagens no Histórico**.)
 - Há preocupação forte com custo?
 
-Por que perguntar: **Tokens** e **Máximo de mensagens no Histórico** impactam diretamente o custo, e a cobrança vai para a conta da OpenAI dona da chave.
+Por que perguntar: **Tokens** e **Máximo de mensagens no Histórico** impactam diretamente o custo, e a cobrança vai para a conta da OpenAI dona da chave em uso: a da empresa ou, quando o card **OPEN.AI** avisa que a conta usa a chave da plataforma, a conta dona dessa chave.
 
 Se não souber: use os valores para o caso comum de `references/configuracao-painel.md`, etapa 4, e ajuste depois dos testes.
 

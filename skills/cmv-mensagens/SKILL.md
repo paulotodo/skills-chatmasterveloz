@@ -74,7 +74,7 @@ Veja "Formato de entrega" abaixo. Toda entrega termina com os riscos que se apli
 
 ## Como consultar a documentação
 
-A cópia da Central de Ajuda está em `references/docs/` (um arquivo por artigo). Não leia tudo.
+A cópia da Central de Ajuda está em `references/docs/` (um arquivo por artigo). Não leia tudo. A pasta `references/docs/revendedor/` traz artigos de outra documentação, a do revendedor (quem fornece a plataforma): veja "Dois públicos", abaixo.
 
 1. Abra `references/docs/INDICE.md` e localize o artigo pelo título. Cada linha traz o título, o caminho do arquivo e o link da **Fonte**: dá para citar um artigo sem abri-lo.
 2. Com terminal, busque o termo: `grep -il 'descadastramento' references/docs/recursos/*.md` e depois `grep -n -i 'descadastramento' references/docs/recursos/nova-campanha.md`. Sem terminal, abra o artigo indicado pelo índice.
@@ -87,7 +87,8 @@ Regras de honestidade, e o motivo de cada uma:
 - **Imagens não foram transcritas.** Alguns formulários só aparecem em imagem. Não descreva campos que você não leu em texto.
 - **Diga "a documentação não cobre isso"** quando for o caso, e proponha um teste antes do envio real (ver "Teste antes do envio").
 - **Não misture variantes de conexão.** O que vale para a oficial não vale para a por QR Code, e vice-versa. Os artigos dizem por extenso a que conexão se aplicam ("conexão oficial", "por QR Code"); a comparação está em `references/docs/recursos/whatsapp-oficial-x-nao-oficial.md`.
-- **Não cite preços nem planos.** A cobrança é da Meta e muda; diga que existe, quem cobra e o que conta (ver "Quando perguntarem quanto custa").
+- **Não cite preços.** A cobrança é da Meta e muda; diga que existe, quem cobra e o que conta (ver "Quando perguntarem quanto custa"). O nome de uma opção de plano pode ser citado, literal como está no artigo (**Campanhas**, **Agendamentos**, **Mail Marketing**): é ele que responde "esse menu não aparece para mim" (fichas 3, 5 e 11).
+- **Dois públicos.** Por padrão, quem pede é cliente de uma empresa: ele não tem a tela **Configurações › Planos** nem a **Visão geral do parceiro** da Meta. Quando um recurso depende de liberação, diga o nome da opção e que quem liga é quem fornece a plataforma (o suporte); não mande o cliente a uma tela que ele não tem nem a um link do site do revendedor. Revendedor (Super Admin, dono da instância) é quem diz que é, ou fala em "meus clientes", "minha carteira", plano, instância, parceiro da Meta: para ele, use os artigos de `references/docs/revendedor/` e cite o título e o link da **Fonte** deles. Depois de mudar o plano, quem estava com a plataforma aberta precisa recarregar a página.
 - **Não afirme regra da Meta de memória.** Aprovação de template é decisão da Meta e não pode ser garantida; o que os artigos dizem sobre reprovação está reunido numa lista única na ficha de template.
 - **Variável `{{...}}` se copia, não se digita de memória.** A referência da sintaxe e da lista de códigos é `references/docs/recursos/mustaches.md`. Antes de entregar, confira cada variável do texto contra a lista desse artigo, letra por letra. No e-mail do Mail Marketing, a lista é a de `references/docs/recursos/modelos-de-e-mail-blocos-e-html.md`.
 
@@ -123,7 +124,8 @@ Regras de honestidade, e o motivo de cada uma:
 | Pesquisa de satisfação (Avaliações) | `references/docs/recursos/avaliacoes.md`, `references/docs/recursos/avaliacoes-em-configuracoes.md` |
 | Janela de 24h e de 72h | `references/docs/recursos/janela-de-atendimento.md` |
 | Cobrança da API Oficial e onde acompanhar o consumo | `references/docs/trilhas/a-cobranca-do-whatsapp-oficial-mudou.md`, `references/docs/trilhas/medir-quanto-voce-ja-enviou-no-mes.md`, `references/docs/recursos/limitador-de-mensagens.md` |
-| Bloqueio de número, opt-in, limites de envio | `references/docs/recursos/numero-bloqueado-no-whatsapp.md`, `references/docs/recursos/qualidade-do-numero-e-limite-de-envio.md` |
+| Bloqueio de número, opt-in, limites de envio | `references/docs/recursos/numero-bloqueado-no-whatsapp.md`, `references/docs/recursos/qualidade-do-numero-e-limite-de-envio.md`; do revendedor: `references/docs/revendedor/trilhas/qualidade-e-limite-de-envio-do-numero.md`, `references/docs/revendedor/trilhas/bloqueio-whatsapp.md`, `references/docs/revendedor/trilhas/portfolio-empresarial-bm.md` |
+| Menu que não aparece: o que libera Campanhas, Agendamentos e Mail Marketing | `references/regras-por-tipo-de-mensagem.md`, seções 3, 5 e 11; do revendedor: `references/docs/revendedor/recursos/como-habilitar-campanhas.md`, `references/docs/revendedor/recursos/como-habilitar-agendamentos.md`, `references/docs/revendedor/recursos/como-habilitar-mail-marketing.md`, `references/docs/revendedor/recursos/configuracoes-planos.md` |
 | Meio de pagamento na Meta | `references/docs/recursos/forma-de-pagamento-do-whatsapp-oficial.md` |
 | Corrigir uma mensagem já enviada ao cliente | `references/docs/recursos/editar-mensagem-enviada-ao-cliente.md` |
 | E-mail do Mail Marketing: modelo, variáveis, campanha, listas, descadastro | `references/regras-por-tipo-de-mensagem.md`, seção 11; `references/docs/recursos/modelos-de-e-mail-blocos-e-html.md`, `references/docs/recursos/campanhas-de-e-mail.md` |
@@ -157,7 +159,7 @@ Cada uma já causou, ou causaria, uma entrega errada. Confira antes de responder
 
 ## Quando perguntarem quanto custa
 
-Responda sem valores, seguindo o roteiro da seção 9 de `references/regras-por-tipo-de-mensagem.md`: quem cobra (a Meta, direto na conta dela), o que é cobrado e o que não é, o que conta para a franquia, a ordem de preço entre categorias que os artigos sustentam e onde acompanhar a quantidade enviada (**Limitador de Mensagens**). Diga com clareza o que não está documentado: o valor de cada categoria, onde consultá-lo e qualquer cobrança da plataforma além da Meta.
+Responda sem valores, seguindo o roteiro da seção 9 de `references/regras-por-tipo-de-mensagem.md`: quem cobra (a Meta, direto na conta dela), o que é cobrado e o que não é, o que conta para a franquia, a ordem de preço entre categorias que os artigos sustentam e onde acompanhar a quantidade enviada (**Limitador de Mensagens**). Diga com clareza o que não está documentado: o valor de cada categoria, onde consultá-lo e qualquer cobrança da plataforma além da Meta. Quanto a empresa paga pela plataforma é definido no plano, por quem a fornece; nenhum valor está na documentação.
 
 ## Teste antes do envio
 

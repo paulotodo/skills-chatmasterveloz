@@ -12,15 +12,15 @@ Caminhos escritos como `api/...` e `recursos/...` ficam dentro de `references/do
 4. Python
 5. PHP
 6. n8n: nó HTTP Request
-7. Variações (GET, Token da Empresa, arquivo anexado, GET com corpo)
+7. Variações (GET, Token da Empresa, arquivo anexado, GET com corpo, chamada administrativa)
 8. Receita: receber a mensagem e responder (passo a passo, do aviso para o payload, mídia por biblioteca, sintoma → causa → artigo, esqueleto de receptor)
 
 ## O que os moldes têm em comum, e por quê
 
-- **Token em variável de ambiente (`CMV_TOKEN`).** Quem tem o token fala pela conexão (ou pela empresa inteira, no Token da Empresa). Escrito no código, ele vai parar em repositório, print e conversa.
+- **Token em variável de ambiente (`CMV_TOKEN`).** Quem tem o token fala pela conexão (ou pela empresa inteira, no Token da Empresa); um token da empresa do Super Admin alcança todas as empresas da instância (`references/api-administrativa.md`). Escrito no código, ele vai parar em repositório, print e conversa.
 - **Mostrar o corpo da resposta quando dá erro.** A documentação diz que a resposta explica o que faltou (por exemplo, o 400 do Token da Empresa sem a conexão). Engolir o corpo esconde a causa.
 - **Sem repetição automática em envio de mensagem.** Repetir um POST que na verdade já tinha sido aceito manda a mensagem duas vezes para o cliente. Deixe a decisão de reenviar para a pessoa ou para a lógica do sistema dela.
-- **Não registrar em log o token nem respostas que o contenham** (a de `api/api-status-das-conexoes.md` traz o token de cada conexão).
+- **Não registrar em log o token nem respostas que o contenham** (a de `api/api-status-das-conexoes.md` traz o token de cada conexão; das administrativas, a de `revendedor/api/api-admin-obter-uma-empresa-completa.md` traz o Token da Empresa em `apiToken` e a de `revendedor/api/api-admin-criar-token-da-empresa.md` devolve o token inteiro).
 
 Os códigos de status e o formato da resposta de sucesso **não estão descritos** na maioria dos artigos. Por isso os moldes tratam "2xx = aceito" e "qualquer outro = mostrar status e corpo", sem interpretar campos da resposta. Se o artigo da chamada citar um código ou erro específico, acrescente o tratamento dele.
 
@@ -213,7 +213,9 @@ curl -sS --max-time 120 -w '\nHTTP %{http_code}\n' \
   -F 'number=5511955892164' -F 'openTicket=0' -F 'queueId=0' -F 'body=Teste'
 ```
 
-**GET com corpo:** `api/api-listar-tickets-do-painel.md` avisa que é uma chamada GET com payload, e que há bibliotecas e servidores intermediários que descartam o corpo de um GET. O `fetch` do Node recusa esse formato; use cURL (`-X GET` com `--data`) ou um cliente que permita.
+**GET com corpo:** `api/api-listar-tickets-do-painel.md` avisa que é uma chamada GET com payload, e que há bibliotecas e servidores intermediários que descartam o corpo de um GET. O `fetch` do Node recusa esse formato; use cURL (`-X GET` com `--data`) ou um cliente que permita. Duas chamadas administrativas também são GET com corpo: `GET /api/companies`, com o `id` da empresa no corpo (`revendedor/api/api-admin-obter-uma-empresa-completa.md`, que manda enviar o corpo com `Content-Type: application/json`), e `GET /api/invoices/listar`, com `status` no corpo (`revendedor/api/api-admin-obter-faturas.md`).
+
+**Chamada administrativa (revendedor):** a forma é a mesma; o que muda é o token, que tem de ser da empresa do Super Admin, do tipo que o aviso do começo do artigo pedir, e o `companyId` quando a chamada age na empresa de um cliente. Leia `references/api-administrativa.md` antes: várias dessas chamadas valem para a instância inteira.
 
 ## Receita: receber a mensagem e responder (n8n ou receptor próprio)
 

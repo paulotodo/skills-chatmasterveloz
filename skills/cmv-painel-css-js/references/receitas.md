@@ -38,6 +38,8 @@ Os campos e os caminhos estão em `references/docs/02-campos-css-js.md`:
 | CSS pré-login, CSS pós-login, JS pré-login, JS pós-login | Configurações → Cores |
 | CSS desta empresa, JS desta empresa, CSS do Chat Externo (Modo Alternativo) | Configurações → Empresas → editar a empresa → aba Configurações |
 
+Os dois caminhos são telas de quem administra a instância (`revendedor/recursos/configuracoes.md`). O administrador de uma empresa cliente não chega nelas: para ele, entregue o bloco e diga que quem cola é quem fornece a plataforma.
+
 Aplicar:
 
 1. Abra o caminho do campo indicado na receita.
@@ -59,7 +61,7 @@ Para usar uma receita só em uma empresa, cole no **CSS desta empresa** (ou **JS
 **Pedido típico:** "no tema escuro o painel fica cinza, quero a cor da minha marca."
 **Campo:** CSS pós-login. **Fonte:** `04-tema-escuro.md`.
 
-No escuro a plataforma usa cinza. A Cor Principal configurada pelo super admin fica em `--app-primary` nos dois temas; basta apontar as variáveis do escuro para ela. As `--mui-*` só existem no tema escuro, então o tema claro não muda. Os blocos abaixo trocam tudo de uma vez: se o pedido é só os botões, o núcleo são as três `--mui-button-primary*`; as `--mui-primary*` e as `--mui-secondary*` ampliam o efeito para tudo o que o `04` lista em cada uma (nas `--mui-primary*`, o cabeçalho das janelas, os selos com número, o popup de notificações e outros). Entregue o núcleo e ofereça o resto como opcional, dizendo o que mais muda.
+No escuro a plataforma usa cinza. A Cor Principal configurada pelo super admin fica em `--app-primary` nos dois temas; basta apontar as variáveis do escuro para ela. Estes blocos só usam `--mui-primary*`, `--mui-button-primary*` e `--mui-secondary*`, que o `04` dá como do tema escuro; nenhuma fonte diz que o tema claro as lê (o que o claro também lê são as quatro variáveis de fundo, ver a receita 2). Os blocos abaixo trocam tudo de uma vez: se o pedido é só os botões, o núcleo são as três `--mui-button-primary*`; as `--mui-primary*` e as `--mui-secondary*` ampliam o efeito para tudo o que o `04` lista em cada uma (nas `--mui-primary*`, o cabeçalho das janelas, os selos com número, o popup de notificações e outros). Entregue o núcleo e ofereça o resto como opcional, dizendo o que mais muda.
 
 ```css
 /* CMV-INICIO cor da marca no tema escuro */
@@ -95,7 +97,7 @@ Variante, quando a pessoa quer no escuro uma cor diferente da Cor Principal (esc
 /* CMV-FIM */
 ```
 
-Avise sempre: trocar `--mui-primary` não muda os botões (por isso as `--mui-button-primary*`), e o `04` lista o que as variáveis não alcançam. Para o tema **claro** a referência não documenta variável de cor: o `04` só cita `--app-primary*`, a Cor Principal configurada pelo super admin (como configurá-la é assunto da `cmv-ajuda`).
+Avise sempre: trocar `--mui-primary` não muda os botões (por isso as `--mui-button-primary*`), e o `04` lista o que as variáveis não alcançam. Para o tema **claro**, as únicas variáveis de cor documentadas são as quatro de fundo, `--mui-paper`, `--mui-background`, `--mui-paper-2` e `--mui-paper-3`, escritas em `body[data-theme="light"]` (receita 2); para a cor da marca no claro há só `--app-primary*`, a Cor Principal, que o super admin configura em Configurações → Cores, bloco **Cores Principais** (`revendedor/recursos/configuracoes-cores.md`).
 
 ## 2. Fundos do tema escuro e regra que vale só no escuro
 
@@ -111,6 +113,19 @@ Avise sempre: trocar `--mui-primary` não muda os botões (por isso as `--mui-bu
   --mui-paper-3: #1f2937;         /* bloco dentro de bloco, divisor de data */
   --mui-divider: #334155;         /* divisores */
   --mui-dashboard-card: #1e293b;  /* cartões do Dashboard */
+}
+/* CMV-FIM */
+```
+
+O `:root` acima não muda o tema claro. Desde a 29.923.0 (`13-historico.md`, "Tema claro com as variáveis do papel"), o claro também lê quatro dessas variáveis, `--mui-paper`, `--mui-background`, `--mui-paper-2` e `--mui-paper-3`, escritas em `body[data-theme="light"]`, sem `!important` (`revendedor/recursos/configuracoes-cores.md` confirma). O `04` ainda diz que as `--mui-*` só existem no escuro: a frase vem do site e, na divergência, valem o histórico e o artigo do revendedor. Só essas quatro: nenhuma fonte diz que o claro lê `--mui-divider`, `--mui-dashboard-card` ou as outras `--mui-*`. Vem da documentação, não de teste no painel.
+
+```css
+/* CMV-INICIO fundos do tema claro */
+body[data-theme="light"] {
+  --mui-background: #f4f6f8;      /* fundo da página */
+  --mui-paper: #ffffff;           /* janelas, menus, popups, cartões */
+  --mui-paper-2: #f8fafc;         /* seções e blocos das telas */
+  --mui-paper-3: #eef2f6;         /* seções e blocos das telas */
 }
 /* CMV-FIM */
 ```
@@ -299,9 +314,9 @@ Só se a pessoa pedir o mesmo visual nas outras telas de entrada:
 
 - **O campo é público:** qualquer pessoa lê o conteúdo sem login. Coloque aqui só o visual das telas públicas; regras do painel (atendimentos, menus) vão no pós-login. E o CSS pré-login chega a todas as telas (`01`), então todo seletor daqui precisa de escopo: sem o `#custom-css-login` na frente, a regra pega mais do que o pedido.
 - **Copyright:** o `10` lista `.custom-css-copyright` em quatro áreas: `Login`, `Signup`, `ForgotPassword` e `Survey` (a pesquisa de satisfação). Sem escopo, a cor muda nas quatro.
-- **O que o catálogo não diz:** se o `#custom-css-login` cobre a tela inteira (o fundo pode pintar só o contêiner), nem se o copyright e os links ficam dentro dele. Se a cor do copyright não mudar com a regra acima, ele está fora do contêiner, e não há como limitar a regra ao login só com o catálogo. Peça para a pessoa conferir pelo Inspecionar. O catálogo também dá só os nomes das âncoras do login, sem descrever cada uma (não diz, por exemplo, se `.custom-css-login-logo` é a imagem ou a caixa dela), e não documenta como trocar a imagem do logo por CSS.
+- **O que o catálogo não diz:** se o `#custom-css-login` cobre a tela inteira (o fundo pode pintar só o contêiner), nem se o copyright e os links ficam dentro dele. Se a cor do copyright não mudar com a regra acima, ele está fora do contêiner, e não há como limitar a regra ao login só com o catálogo. Peça para a pessoa conferir pelo Inspecionar. O catálogo também dá só os nomes das âncoras do login, sem descrever cada uma (não diz, por exemplo, se `.custom-css-login-logo` é a imagem ou a caixa dela), e não documenta como trocar a imagem do logo por CSS. A imagem se troca em Configurações → Logotipos / Ícones, destino **Tela de Login**, em PNG; logotipo é da instância, não existe por empresa (`revendedor/recursos/configuracoes-logotipos-icones.md`).
 - **Tema escuro: não documentado nestas telas.** O `04` só fala do painel, e o `06` diz que `data-theme` fica no `<body>` sem dizer em quais telas. Não escreva o par `body[data-theme="dark"]` aqui como se fosse garantido: defina fundo e texto juntos, com contraste próprio, e peça para a pessoa olhar o resultado.
-- **Esconder o link não fecha o cadastro.** `/signup` é rota pública (`14-rotas.md`) e continua abrindo pelo endereço. O `06` diz, em `data-link`, que cada link do login "só aparece quando a configuração o liga": o jeito de tirar o link de verdade é desligar essa configuração, e qual é ela e onde fica é assunto da `cmv-ajuda` (esta referência não diz, nem diz se desligá-la fecha a rota).
+- **Esconder o link não fecha o cadastro.** `/signup` é rota pública (`14-rotas.md`) e continua abrindo pelo endereço. O `06` diz, em `data-link`, que cada link do login "só aparece quando a configuração o liga": o jeito de tirar o link de verdade é desligar essa configuração. São duas opções em Configurações → Plataforma, grupo **Marca e acesso**, seção **Configurações Globais** (`revendedor/recursos/marca-e-acesso-em-plataforma.md`): **Registro (Inscrição) Visível?** mostra ou esconde o link de cadastro na tela de login; **Registro (Inscrição) Permitida?** em **Não** recusa o cadastro público mesmo com o link visível. Valem para todas as empresas da instância, e o card Plataforma só o super admin vê (`revendedor/recursos/configuracoes.md`): o administrador de uma empresa cliente pede a quem fornece a plataforma. O artigo não diz se a rota `/signup` deixa de abrir; diz que o cadastro é recusado.
 - A chave "Usar a customização geral (CSS e JS)" da empresa não afeta as telas de login e cadastro (`02`).
 
 ## 11. Uma janela (modal) específica, ou todas

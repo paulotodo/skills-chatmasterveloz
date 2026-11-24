@@ -6,6 +6,7 @@ Use este mapa para chegar ao artigo certo sem ler o índice inteiro. Ele só apo
 - **❌** = a tabela de `api/bibliotecas.md` diz que o recurso não existe naquela biblioteca.
 - **não documentado** = não há artigo para aquela variante. Diga isso à pessoa; não adapte o artigo de outra conexão.
 - O que não estiver aqui: `python3 scripts/buscar_endpoint.py <palavras>` ou `INDICE-api.md`.
+- Este mapa é o do cliente. As APIs e o Webhook Administrativos, do revendedor (artigos em `revendedor/api/`, selo `Super Admin (...)` no script, `--conexao admin` para listar), estão em `references/api-administrativa.md`.
 
 ## Sumário
 
@@ -22,7 +23,7 @@ Use este mapa para chegar ao artigo certo sem ler o índice inteiro. Ele só apo
 
 | A conexão é… | Coluna / selo | Fonte |
 |---|---|---|
-| WhatsApp por QR Code | **Básica** ou **Pro** (são duas bibliotecas diferentes; a documentação não descreve como ver na tela qual das duas é a da conexão) | `api/bibliotecas.md` |
+| WhatsApp por QR Code | **Básica** ou **Pro** (são duas bibliotecas diferentes; a Central não descreve como o cliente vê na tela qual das duas é a da conexão. O revendedor vê no campo **API Não Oficial** da empresa, com os nomes **Baileys**, a Básica, e **APIdoZap Pro**, a Pro) | `api/bibliotecas.md`, `revendedor/api/pre-requisitos-apis.md`, `revendedor/recursos/configuracoes-editar-empresa.md` |
 | WhatsApp API Oficial da Meta | **Oficial** | `api/bibliotecas.md` |
 | WhatsApp Oficial pelo Hub | **Oficial Hub**, só no artigo de template sem variável (seção 4). Texto, mídia, lista, botões e template com variáveis pelo Hub: não documentado | `api/bibliotecas.md`, `api/api-oficial-template-sem-variavel-hub.md` |
 | Instagram Direct | **Instagram** | `api/api-instagram-mensagem-de-texto.md` |
@@ -36,6 +37,8 @@ Use este mapa para chegar ao artigo certo sem ler o índice inteiro. Ele só apo
 Nas chamadas **Oficial** de texto, mídia, lista e botões, o artigo exige a Janela de Atendimento **aberta**; fora dela, o caminho é template (seção 4). Para consultar a janela: `api/api-janela-de-atendimento-pelo-numero.md`.
 
 A coluna **Oficial** desta tabela é a conexão Oficial direta. Para a Oficial pelo **Hub** só existe o artigo de template sem variável da seção 4 (`api/bibliotecas.md` ainda fala em três chamadas de template pelo Hub, mas só esse artigo está na documentação), e não há artigo de Hub para nenhuma linha desta tabela. Se a pessoa usa o Hub e pede outra coisa, diga que não está documentado se as chamadas desta coluna valem para ela.
+
+A coluna **Básica** é a biblioteca Baileys, que a documentação do revendedor dá como descontinuada, com a orientação de migrar para a Pro os clientes que a utilizam (`revendedor/recursos/canais-e-e-mail-em-plataforma.md`). Os artigos dela continuam na Central e o payload continua diferente do da Pro: ao entregar um artigo desta coluna, sozinho ou ao lado do da Pro, avise em uma linha.
 
 | Operação | Básica | Pro | Oficial |
 |---|---|---|---|
@@ -66,7 +69,7 @@ O que muda de uma coluna para a outra, além do endereço (leia o artigo, isto �
 
 - **Mídia por URL.** Na Básica há um endereço por tipo de arquivo e o payload leva `mimeType`. Na Pro há um endereço só para todos os tipos (`sendUrlFilesWhatsmeowPRO`) e na Oficial outro só (`official/sendMediaByURL`); nas duas o payload leva `type`. Copiar o payload de uma para a outra não funciona.
 - **Nomes de campo.** Lista na Básica usa `body`, `buttonLabel`, `options`; na Pro usa `Desc`, `ButtonText`, `TopText`, `List`; na Oficial usa `type`, `header`, `body`, `footer`, `action`. Botões Quick Reply, URL, Copia e Cola, Ligação e Pix na Pro usam `phone` no lugar de `number`; o Carrossel da Pro usa `number`.
-- **Botões.** Dependem também da opção **Botões** habilitada no plano, separada da **API Externa** (`api/pre-requisitos-botoes.md`). Na Básica, os artigos avisam que a chamada não abre atendimento nem grava a mensagem no painel. Na Pro, avisam que resposta de sucesso não garante a entrega.
+- **Botões.** Dependem também da opção **Botões** habilitada no plano, separada da **API Externa** (`api/pre-requisitos-botoes.md`). O revendedor marca as duas em **Configurações › Planos** e escolhe a biblioteca no campo **API Não Oficial**, em **Configurações › Empresas › abrir a empresa › aba Avançado** (`revendedor/recursos/como-habilitar-botoes-api.md`). Na Básica, os artigos avisam que a chamada não abre atendimento nem grava a mensagem no painel. Na Pro, avisam que resposta de sucesso não garante a entrega.
 - **`openTicket` e `queueId`.** O efeito sobre o atendimento muda de artigo para artigo (até entre os dois artigos de template da Oficial). Explique à pessoa o que o artigo daquela chamada diz.
 
 ## 3. Envio pelos outros canais
@@ -108,7 +111,7 @@ O nome e o idioma do template têm de ser idênticos aos aprovados; os component
 
 ## 5. Operações que não dependem da conexão (selo Todas)
 
-O artigo é o mesmo para Básica, Pro e Oficial. Ainda assim o token decide a empresa e, em várias chamadas, a conexão afetada.
+O artigo é o mesmo para Básica, Pro e Oficial. Ainda assim o token decide a empresa e, em várias chamadas, a conexão afetada. A exceção é do revendedor: com token da empresa do Super Admin, as chamadas de criar Setor, usuário, fluxo, resposta rápida e tag e a de listar respostas rápidas agem na empresa indicada em `companyId`, e a de atualizar usuário alcança o usuário de qualquer empresa (seção 5 de `references/api-administrativa.md`).
 
 ### Tickets
 
@@ -211,6 +214,8 @@ PDV, Projetos, Chat Interno, Gravações, Rodízios, E-mail, Respostas Rápidas,
 
 São os artigos com `**API:** Empresa` (Projetos, Chat Interno, Gravações, Consultório e o link de login automático). Liste com `python3 scripts/buscar_endpoint.py --conexao empresa`. Com o token de uma conexão, a resposta é 401 "Acesso não permitido" (`recursos/token-da-empresa-em-configuracoes.md`).
 
+Essa lista e esse 401 são das chamadas do cliente. Existe uma chamada administrativa do mesmo tipo, **Contar Empresas** (selo `Super Admin (Empresa)` no script, listada com `--conexao admin`): só aceita o Token da Empresa da empresa do Super Admin e, com token de conexão, responde `403` (`revendedor/api/api-admin-contar-empresas.md`).
+
 ## 7. Webhooks
 
 | Webhook | Sentido | Onde configurar (como está no artigo) | O que avisa | Artigo |
@@ -229,6 +234,7 @@ São os artigos com `**API:** Empresa` (Projetos, Chat Interno, Gravações, Con
 | Do Consultório | sai do CMV | **Consultório › Cadastros do consultório**, aba **Webhook** | Consultas, recepção, pagamentos. Assinado com o Token da Empresa (`X-Assinatura-Consultorio`) | `api/webhook-do-consultorio.md` |
 | Do Mail Marketing | sai do CMV | **Mail Marketing › Configurações**, campo **Webhook do Mail Marketing** | Envio de campanha, abertura, clique, descadastro. Nome do evento em `X-MailMarketing-Evento`, assinatura em `X-Assinatura-MailMarketing` | `api/webhook-do-mail-marketing.md` |
 | Webhook Trigger | **entra** no CMV | menu **Webhooks \| Triggers**, **Novo Webhook \| Trigger** | Um sistema externo chama o endereço gerado e inicia um fluxo | `api/webhook-triggers.md`, `recursos/gatilho-via-webhooks-trigger.md` |
+| Administrativo (do revendedor) | sai do CMV | **Configurações › Plataforma**, seção **Configurações Globais**, campo **Webhook de Eventos [Conexões]** | Conexão de qualquer empresa que muda de status e empresa nova criada, no mesmo endereço; o campo `event` separa os dois. Entrega única: aviso não entregue não é guardado. Endereço preenchido e fora do ar pode interromper a plataforma inteira | `revendedor/api/habilitar-webhook-administrativo.md`, `revendedor/api/webhook-admin-alteracao-na-conexao.md`, `revendedor/api/webhook-admin-criacao-de-empresa.md`; seção 6 de `references/api-administrativa.md` |
 
 Apoio: como escolher (`api/qual-webhook-usar.md`), visão geral (`api/webhooks.md`), arquivos recebidos (`api/arquivos-no-webhook.md`), buscar de novo um aviso perdido da Conexão ou do Setor, por até 7 dias (`api/api-listar-entregas-do-webhook-da-conexao.md`), n8n (`recursos/n8n-via-webhook.md`, `recursos/n8n-via-flowbuilder.md`).
 
@@ -287,4 +293,4 @@ Para qualquer uma dessas, o caminho honesto é capturar um aviso real no recepto
 | `contactId` | ID do contato cadastrado na plataforma; há uma chamada que consulta o contato pelo número (o artigo não descreve o formato da resposta) | `api/api-criar-ticket.md`, `api/api-obter-um-contato.md` |
 | `connectionId` / `whatsappId` / `whatsappName` | ID ou nome da conexão; lista em **Configurações › Token da Empresa** ou pela chamada de status | `recursos/token-da-empresa-em-configuracoes.md`, `api/api-status-das-conexoes.md` |
 | `pipelineId`, `laneId` | Ids de funil e raia; o artigo manda começar por esta listagem, porque não há como adivinhá-los | `api/api-listar-funis.md` |
-| `companyId` | Aparece no campo `companyId` das respostas das outras chamadas | `api/api-listar-configuracoes-da-empresa.md` |
+| `companyId` | O da própria empresa aparece no campo `companyId` das respostas das outras chamadas. Para o revendedor, o de uma empresa cliente vem da chamada que lista as empresas da instância (o artigo não descreve o formato da resposta) e do `company.id` do aviso `new_company` do Webhook Administrativo | `api/api-listar-configuracoes-da-empresa.md`, `revendedor/api/api-admin-listar-empresas.md`, `revendedor/api/webhook-admin-criacao-de-empresa.md` |

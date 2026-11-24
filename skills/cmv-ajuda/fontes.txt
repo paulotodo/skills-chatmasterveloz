@@ -14,3 +14,5 @@ revendedor:INDICE-recursos.md
 revendedor:INDICE-trilhas.md
 revendedor:recursos/
 revendedor:trilhas/
+# Um artigo só da pasta de APIs: é o que diz que Baileys e APIdoZap Pro são a Básica e a Pro da Central.
+revendedor:api/pre-requisitos-apis.md

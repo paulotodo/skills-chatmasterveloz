@@ -46,6 +46,7 @@ Lidas em Como o Fluxo Roda (`references/docs/recursos/como-o-fluxo-roda.md`) e B
 - **Blocos que esperam o cliente:** o artigo lista Pergunta, Menu, Botões e Avaliação do Atendimento. Neles, e também no GPT Assistant e no Typebot, o campo **Sem resposta** cria a saída de quem não respondeu. Sem ele, o fluxo fica esperando.
 - **Blocos sem saída:** o artigo lista Setor, Operador, Trocar Fluxo, Encerrar e Encerrar Mensagem Rápida. Depois deles, o fluxo acabou.
 - **Dois jeitos de escrever dados no texto:** `{{firstName}}` para dados do contato e do atendimento; `%nome%` para variáveis guardadas pelo fluxo. Trocar um pelo outro deixa o lugar em branco ou mostra o código escrito.
+- **Bloco que depende do plano.** Alguns blocos pedem uma opção marcada no plano da empresa; o nome literal dela está, em negrito, no **Cuidado** de cada um. A lista vem de FlowBuilder Nativo, da documentação do revendedor (`references/docs/revendedor/recursos/como-habilitar-flowbuilder.md`), que diz "dependem"; que o bloco some da lista sem a opção está escrito só para a Oportunidade. Quem marca a opção é quem fornece a plataforma, não o administrador da empresa: ao cliente, diga o nome da opção para ele pedir ao suporte; ao revendedor, aponte o menu **Configurações** › **Planos**.
 
 ## Falar com o cliente
 
@@ -63,7 +64,7 @@ Lidas em Como o Fluxo Roda (`references/docs/recursos/como-o-fluxo-roda.md`) e B
 
 **Botões** · `references/docs/recursos/bloco-botoes.md` · JSON: não
 - Use para: link, ligação, copiar e colar (cupom, PIX) e resposta rápida. **Uma saída só**; para um caminho por botão, é Menu em Botões.
-- Cuidado: a quantidade e os tipos mudam por canal (quadro no artigo). No WhatsApp Oficial, o primeiro botão manda na mensagem inteira. Texto do botão com até 20 caracteres. No WhatsApp QRCode depende do recurso de botões liberado.
+- Cuidado: a quantidade e os tipos mudam por canal (quadro no artigo). No WhatsApp Oficial, o primeiro botão manda na mensagem inteira. Texto do botão com até 20 caracteres. No WhatsApp QRCode depende do recurso de botões liberado no plano (opção **Botões**).
 
 **Template** · `references/docs/recursos/bloco-template.md` · JSON: não
 - Use para: mensagem aprovada pela Meta; é o único jeito de o fluxo falar com quem não escreveu nas últimas 24 horas.
@@ -99,7 +100,7 @@ Lidas em Como o Fluxo Roda (`references/docs/recursos/como-o-fluxo-roda.md`) e B
 
 **Responder Comentário** · `references/docs/recursos/bloco-responder-comentario.md` · JSON: não
 - Use para: responder em público o comentário do Instagram; a mensagem no Direct é o bloco seguinte.
-- Cuidado: escreva várias frases, separadas por vírgula e **sem vírgula dentro da frase**.
+- Cuidado: escreva várias frases, separadas por vírgula e **sem vírgula dentro da frase**. Depende da opção **Automação Instagram** do plano.
 
 ## Guardar e marcar
 
@@ -120,11 +121,11 @@ Lidas em Como o Fluxo Roda (`references/docs/recursos/como-o-fluxo-roda.md`) e B
 
 **Oportunidade** · `references/docs/recursos/bloco-oportunidade.md` · JSON: não
 - Use para: criar o negócio no CRM para o contato da conversa.
-- Cuidado: **cada passagem cria uma oportunidade nova**; ponha num trecho que o cliente atravessa uma vez, como depois de uma escolha do Menu. O bloco não entrega a conversa ao operador escolhido. Só aparece com o CRM no plano.
+- Cuidado: **cada passagem cria uma oportunidade nova**; ponha num trecho que o cliente atravessa uma vez, como depois de uma escolha do Menu. O bloco não entrega a conversa ao operador escolhido. Só aparece com a opção **CRM** no plano.
 
 **Pixel META** · `references/docs/recursos/bloco-pixel-meta.md` · JSON: não
 - Use para: avisar a Meta de um evento (lead, compra).
-- Cuidado: no formato **Mensagens do WhatsApp** há duas saídas, **Elegível** e **Não elegível**; sem a segunda ligada, quem não veio de anúncio para ali.
+- Cuidado: no formato **Mensagens do WhatsApp** há duas saídas, **Elegível** e **Não elegível**; sem a segunda ligada, quem não veio de anúncio para ali. Depende da opção **WPW** do plano.
 
 ## Decidir o caminho
 
@@ -146,6 +147,7 @@ Lidas em Como o Fluxo Roda (`references/docs/recursos/como-o-fluxo-roda.md`) e B
 
 **É Seguidor?** · `references/docs/recursos/bloco-e-seguidor.md` · JSON: não
 - Use para: "siga para receber" no Instagram. Saídas **Segue** e **Não segue**, sem janela de configuração.
+- Cuidado: depende da opção **Automação Instagram** do plano.
 
 **Pular para** · `references/docs/recursos/bloco-pular-para.md` · JSON: não (no arquivo, voltar a um bloco é uma ligação comum)
 - Use para: voltar ao menu ou repetir uma etapa sem linha atravessando o desenho. O destino é um bloco do mesmo fluxo.
@@ -189,10 +191,11 @@ O artigo n8n via Flowbuilder (`references/docs/recursos/n8n-via-flowbuilder.md`)
 
 **GPT Assistant (OpenAI)** · `references/docs/recursos/bloco-gpt-assistant-openai.md` · JSON: não
 - Use para: passar a conversa ao assistente de IA ligado a um Setor.
-- Cuidado: o bloco não cria nem configura o assistente; isso é a skill `cmv-agente-ia`. Sem **Sem resposta**, o bloco não tem saída.
+- Cuidado: o bloco não cria nem configura o assistente; isso é a skill `cmv-agente-ia`. Sem **Sem resposta**, o bloco não tem saída. Depende da opção **GPT Assistant** do plano.
 
 **Typebot** · `references/docs/recursos/bloco-typebot.md` · JSON: não
 - Use para: passar a conversa a um robô do Typebot ligado a um Setor.
+- Cuidado: depende da opção **Typebot / Flowise** do plano.
 
 **Trocar Fluxo** · `references/docs/recursos/bloco-trocar-fluxo.md` · JSON: não
 - Use para: dividir um fluxo grande em vários, ou levar a conversa ao **Aguardando** em fluxos disparados por resposta rápida, remarketing ou campanha.
@@ -214,7 +217,7 @@ Só o que os artigos dizem; para os demais blocos, a documentação não restrin
 | Template, Carrossel de Produtos | só conexão do WhatsApp Oficial |
 | Webview | só WhatsApp QRCode, com botões liberados |
 | Enviar Figurinha | WhatsApp QRCode e WhatsApp Oficial; nos outros o bloco é pulado |
-| Botões | todos os canais, com quantidades e tipos diferentes; nos canais do HUB as opções chegam numeradas em texto; no WhatsApp QRCode, depende do recurso de botões liberado no plano; no WebChat, os de **Quick Reply** chegam clicáveis |
+| Botões | todos os canais, com quantidades e tipos diferentes; nos canais do HUB as opções chegam numeradas em texto; no WhatsApp QRCode, depende do recurso de botões liberado no plano (opção **Botões**); no WebChat, os de **Quick Reply** chegam clicáveis |
 | Menu (Texto, Lista, Botões) | **não documentado por canal.** O artigo descreve os três tipos sem dizer onde cada um funciona; as únicas menções a canal são que o **Rodapé da Lista** pode não aparecer e que, no **WebChat**, o **Menu em Lista** abre no chat do site pelo botão da lista. O que os artigos dizem sobre botões por canal é do bloco **Botões**, não do Menu. O **Menu em Texto** é só texto com as opções numeradas, e o cliente responde com o número. |
 | É Seguidor?, Responder Comentário, Condição de Postagem e de Tipo de Postagem | conversas do Instagram |
 | Pixel META no formato Mensagens do WhatsApp | elegível só no WhatsApp Oficial, para quem veio de anúncio |

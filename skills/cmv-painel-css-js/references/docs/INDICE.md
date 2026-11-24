@@ -1,4 +1,4 @@
-# Artigos incluídos nesta skill (20)
+# Artigos incluídos nesta skill (21)
 
 - [Chat Master Veloz — referência de CSS e JS personalizados](00-LEIA-PRIMEIRO.md) · Fonte: <https://app.chatmasterveloz.com/css-docs>
 - [Fundamentos](01-fundamentos.md)
@@ -19,4 +19,5 @@
 - [Cores em Configurações](revendedor/recursos/configuracoes-cores.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/configuracoes-cores>
 - [Editar Empresa em Configurações](revendedor/recursos/configuracoes-editar-empresa.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/configuracoes-editar-empresa>
 - [Logotipos / Ícones em Configurações](revendedor/recursos/configuracoes-logotipos-icones.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/configuracoes-logotipos-icones>
+- [Configurações](revendedor/recursos/configuracoes.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/configuracoes>
 - [Marca e acesso em Plataforma](revendedor/recursos/marca-e-acesso-em-plataforma.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/marca-e-acesso-em-plataforma>

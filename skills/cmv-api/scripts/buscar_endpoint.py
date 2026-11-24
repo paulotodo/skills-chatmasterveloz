@@ -78,10 +78,12 @@ def filtrar(itens, palavras=(), metodo=None, conexao=None, exato=False):
         if metodo and it["metodo"] != metodo.upper():
             continue
         if conexao:
-            api = norm(it["api"])
+            api, pedida = norm(it["api"]), norm(conexao)
+            # As administrativas só saem com --conexao admin, e esse filtro só traz elas.
+            if api.startswith("super admin") != (pedida in "super admin"):
+                continue
             # "Todas" vale para qualquer conexão segundo o selo do artigo; --exato tira esses.
-            # Quem pede as administrativas (--conexao admin) não quer as "Todas" do cliente junto.
-            if norm(conexao) not in api and (exato or api != "todas" or norm(conexao) in "super admin"):
+            if pedida not in api and (exato or api != "todas"):
                 continue
         saida.append(it)
     return saida
@@ -111,6 +113,8 @@ def autoteste():
     assert criar_empresa in arquivos(conexao="admin")
     assert criar_empresa not in arquivos(palavras=["criar", "empresa"], conexao="pro")   # não se mistura às do cliente
     assert "api/api-criar-tag.md" not in arquivos(conexao="admin")
+    assert criar_empresa not in arquivos(conexao="todas")
+    assert "revendedor/api/api-admin-contar-empresas.md" not in arquivos(conexao="empresa")
     assert filtrar(itens, palavras=["palavraquenaoexiste"]) == []
     print(f"Autoteste OK: {len(itens) - len(admin)} endpoints do cliente e {len(admin)} administrativos, todos com artigo e linha API.")
 

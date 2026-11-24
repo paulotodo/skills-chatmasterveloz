@@ -6,3 +6,4 @@ revendedor:recursos/configuracoes-logotipos-icones.md
 revendedor:recursos/configuracoes-editar-empresa.md      # CSS desta empresa, JS desta empresa, Usar a customização geral
 revendedor:recursos/marca-e-acesso-em-plataforma.md      # Registro (Inscrição) Visível? e Permitida?
 revendedor:recursos/ancoras-css.md
+revendedor:recursos/configuracoes.md                     # quem vê cada card: Opções, Plataforma (só o super admin) e os de administração
