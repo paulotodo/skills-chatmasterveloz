@@ -42,3 +42,12 @@ plataforma:recursos/editar-mensagem-enviada-ao-cliente.md   # corrigir a mensage
 plataforma:recursos/atualizacoes-2026-11-21.md   # Mensagem a todos os atendimentos (só descrita nesta nota)
 # Mail Marketing: campanhas de e-mail (modelo, variáveis, listas, descadastro, teste); o webhook fica com a cmv-api
 subarvore:Mail Marketing
+# Documentação do revendedor (Super Admin): limite e qualidade do número vistos pelo parceiro, bloqueio,
+# verificação da empresa e o que libera campanhas, agendamentos e Mail Marketing. Vai para references/docs/revendedor/.
+revendedor:trilhas/qualidade-e-limite-de-envio-do-numero.md
+revendedor:trilhas/bloqueio-whatsapp.md
+revendedor:trilhas/portfolio-empresarial-bm.md
+revendedor:recursos/como-habilitar-campanhas.md
+revendedor:recursos/como-habilitar-agendamentos.md
+revendedor:recursos/como-habilitar-mail-marketing.md
+revendedor:recursos/configuracoes-planos.md

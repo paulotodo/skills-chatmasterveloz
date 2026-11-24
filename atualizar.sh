@@ -7,7 +7,7 @@
 set -u
 cd "$(dirname "$(readlink -f "$0")")" || exit 1
 RAIZ=$PWD
-FONTES=("$RAIZ/../docs-plataforma-chatmasterveloz" "$RAIZ/../docs-css-chatmasterveloz")
+FONTES=("$RAIZ/../docs-plataforma-chatmasterveloz" "$RAIZ/../docs-css-chatmasterveloz" "$RAIZ/../docs-revendedor-chatmasterveloz")
 LOG=$RAIZ/atualizacoes.log
 diz() { echo "$(date '+%F %T') $*" >> "$LOG"; }
 
@@ -35,6 +35,7 @@ roda() { "$@" >> "$COPIA/saida.txt" 2>&1; }
 
 roda python3 "${FONTES[0]}/_gerar.py" || desfazer "não consegui baixar a Central de Ajuda"
 roda python3 "${FONTES[1]}/_gerar.py" || desfazer "não consegui baixar o catálogo de CSS"
+roda python3 "${FONTES[2]}/_gerar.py" || desfazer "não consegui baixar a documentação do revendedor"
 depois=$(find "${FONTES[0]}" -name '*.md' | wc -l)
 # os geradores apagam o que saiu do site; uma queda grande é sinal de download incompleto
 [ "$depois" -ge $((antes * 9 / 10)) ] || desfazer "a Central de Ajuda baixada encolheu de $antes para $depois artigos"
@@ -58,7 +59,8 @@ fi
 roda python3 montar.py --zip || desfazer "não consegui refazer os pacotes"
 git add -A
 # a ajuda leva a Central inteira; conta os artigos por ela para não somar as cópias das outras skills
-mudancas=$(git diff --cached --name-status -- skills/cmv-ajuda/references/docs skills/cmv-painel-css-js/references/docs)
+# as APIs administrativas do revendedor só estão na cmv-api
+mudancas=$(git diff --cached --name-status -- skills/cmv-ajuda/references/docs skills/cmv-painel-css-js/references/docs skills/cmv-api/references/docs/revendedor)
 novos=$(echo "$mudancas" | grep -c '^A'); alterados=$(echo "$mudancas" | grep -c '^M'); removidos=$(echo "$mudancas" | grep -c '^D')
 nomes=$(echo "$mudancas" | grep '^[AD]' | sed 's#\t.*/#\t#; s#\.md$##' | tr '\t' ' ' | head -25 | paste -sd ';' -)
 git commit -q -m "Atualização automática da documentação" \

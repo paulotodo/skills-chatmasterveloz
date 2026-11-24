@@ -1,1 +1,8 @@
 css:*.md
+# Documentação do revendedor (Super Admin): as telas onde ficam os campos de CSS e JS, as cores e os logotipos.
+# Vai para references/docs/revendedor/.
+revendedor:recursos/configuracoes-cores.md
+revendedor:recursos/configuracoes-logotipos-icones.md
+revendedor:recursos/configuracoes-editar-empresa.md      # CSS desta empresa, JS desta empresa, Usar a customização geral
+revendedor:recursos/marca-e-acesso-em-plataforma.md      # Registro (Inscrição) Visível? e Permitida?
+revendedor:recursos/ancoras-css.md

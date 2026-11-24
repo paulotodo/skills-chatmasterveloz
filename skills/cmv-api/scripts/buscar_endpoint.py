@@ -3,6 +3,8 @@
 
 Lê references/docs/INDICE-api-endpoints.md e, para cada artigo, a linha **API:**
 (o índice não traz o tipo de conexão; é isso que este script acrescenta a um grep).
+Lê também references/docs/revendedor/INDICE-api-endpoints.md, as APIs administrativas do
+revendedor: aparecem marcadas como "Super Admin" e só entram num filtro por conexão com --conexao admin.
 Não faz nenhuma chamada de rede.
 
 Uso:
@@ -10,6 +12,7 @@ Uso:
   python3 scripts/buscar_endpoint.py imagem url --conexao oficial
   python3 scripts/buscar_endpoint.py --metodo DELETE
   python3 scripts/buscar_endpoint.py ticket --conexao pro --exato   # não inclui os "Todas"
+  python3 scripts/buscar_endpoint.py --conexao admin       # as APIs administrativas (token do Super Admin)
   python3 scripts/buscar_endpoint.py --conexoes            # lista os valores da linha API:
   python3 scripts/buscar_endpoint.py --autoteste
 """
@@ -43,18 +46,26 @@ def norm(texto):
 
 def carregar():
     itens = []
-    for linha in (DOCS / "INDICE-api-endpoints.md").read_text(encoding="utf-8").splitlines():
-        m = LINHA.match(linha)
-        if not m:
+    # "" é a API do cliente (Central de Ajuda); "revendedor/" são as APIs administrativas
+    for pasta in ("", "revendedor/"):
+        indice = DOCS / pasta / "INDICE-api-endpoints.md"
+        if not indice.is_file():
             continue
-        metodo, endereco, titulo, artigo = m.groups()
-        api = ""
-        caminho = DOCS / artigo
-        if caminho.exists():
-            achado = re.search(r"^\*\*API:\*\*\s*(.+)$", caminho.read_text(encoding="utf-8"), re.M)
-            api = achado.group(1).strip() if achado else ""
-        itens.append({"metodo": metodo, "endereco": endereco, "titulo": titulo,
-                      "artigo": artigo, "api": api or "?"})
+        for linha in indice.read_text(encoding="utf-8").splitlines():
+            m = LINHA.match(linha)
+            if not m:
+                continue
+            metodo, endereco, titulo, artigo = m.groups()
+            artigo = pasta + artigo
+            api = ""
+            caminho = DOCS / artigo
+            if caminho.exists():
+                achado = re.search(r"^\*\*API:\*\*\s*(.+)$", caminho.read_text(encoding="utf-8"), re.M)
+                api = achado.group(1).strip() if achado else ""
+            if pasta and api:
+                api = f"Super Admin ({api})"   # o selo "Todas" delas não quer dizer "qualquer token"
+            itens.append({"metodo": metodo, "endereco": endereco, "titulo": titulo,
+                          "artigo": artigo, "api": api or "?"})
     return itens
 
 
@@ -69,7 +80,8 @@ def filtrar(itens, palavras=(), metodo=None, conexao=None, exato=False):
         if conexao:
             api = norm(it["api"])
             # "Todas" vale para qualquer conexão segundo o selo do artigo; --exato tira esses.
-            if norm(conexao) not in api and (exato or api != "todas"):
+            # Quem pede as administrativas (--conexao admin) não quer as "Todas" do cliente junto.
+            if norm(conexao) not in api and (exato or api != "todas" or norm(conexao) in "super admin"):
                 continue
         saida.append(it)
     return saida
@@ -77,7 +89,9 @@ def filtrar(itens, palavras=(), metodo=None, conexao=None, exato=False):
 
 def autoteste():
     itens = carregar()
-    assert len(itens) == 309, f"esperava 309 endpoints no índice, achei {len(itens)}"
+    admin = [it for it in itens if it["artigo"].startswith("revendedor/")]
+    assert len(itens) - len(admin) == 309, f"esperava 309 endpoints no índice, achei {len(itens) - len(admin)}"
+    assert admin, "não achei as APIs administrativas (references/docs/revendedor/INDICE-api-endpoints.md)"
     faltando = [it["artigo"] for it in itens if not (DOCS / it["artigo"]).exists()]
     assert not faltando, f"artigos do índice que não existem: {faltando}"
     sem_api = [it["artigo"] for it in itens if it["api"] == "?"]
@@ -92,15 +106,20 @@ def autoteste():
     assert "api/api-criar-ticket.md" in arquivos(palavras=["criar", "ticket"], conexao="pro")
     assert "api/api-criar-ticket.md" not in arquivos(palavras=["criar", "ticket"], conexao="pro", exato=True)
     assert all(it["metodo"] == "DELETE" for it in filtrar(itens, metodo="delete"))
+    criar_empresa = "revendedor/api/api-admin-criar-empresa.md"
+    assert criar_empresa in arquivos(palavras=["criar", "empresa"])
+    assert criar_empresa in arquivos(conexao="admin")
+    assert criar_empresa not in arquivos(palavras=["criar", "empresa"], conexao="pro")   # não se mistura às do cliente
+    assert "api/api-criar-tag.md" not in arquivos(conexao="admin")
     assert filtrar(itens, palavras=["palavraquenaoexiste"]) == []
-    print(f"Autoteste OK: {len(itens)} endpoints lidos, todos com artigo e linha API.")
+    print(f"Autoteste OK: {len(itens) - len(admin)} endpoints do cliente e {len(admin)} administrativos, todos com artigo e linha API.")
 
 
 def main():
     ap = argparse.ArgumentParser(description="Busca endpoints da API do Chat Master Veloz no índice local.")
     ap.add_argument("palavras", nargs="*", help="palavras que devem aparecer no título, no endereço ou no nome do arquivo (todas)")
     ap.add_argument("--metodo", help="GET, POST, PUT ou DELETE")
-    ap.add_argument("--conexao", help="valor da linha API: do artigo (pro, basica, oficial, webchat, instagram, facebook, empresa...)")
+    ap.add_argument("--conexao", help="valor da linha API: do artigo (pro, basica, oficial, webchat, instagram, facebook, empresa...); admin lista as APIs administrativas do revendedor")
     ap.add_argument("--exato", action="store_true", help="com --conexao, não inclui os artigos marcados como Todas")
     ap.add_argument("--conexoes", action="store_true", help="lista os valores da linha API: e quantos artigos há de cada")
     ap.add_argument("--autoteste", action="store_true", help="confere o script contra o índice e sai")

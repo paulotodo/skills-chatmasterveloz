@@ -1,4 +1,4 @@
-# Artigos incluídos nesta skill (66)
+# Artigos incluídos nesta skill (73)
 
 - [Aba Horários em Setores & Chatbot](recursos/aba-horarios-em-setores-e-chatbot.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-horarios-em-setores-e-chatbot>
 - [Aba Mensagens em Setores & Chatbot](recursos/aba-mensagens-em-setores-e-chatbot.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-mensagens-em-setores-e-chatbot>
@@ -63,6 +63,13 @@
 - [Modo Híbrido (Coex + QR CODE)](recursos/whatsapp-modo-hibrido-oficial-e-qrcode.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/whatsapp-modo-hibrido-oficial-e-qrcode>
 - [Gestão de Templates](recursos/whatsapp-oficial-gestao-de-templates.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/whatsapp-oficial-gestao-de-templates>
 - [Oficial x Não Oficial](recursos/whatsapp-oficial-x-nao-oficial.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/whatsapp-oficial-x-nao-oficial>
+- [Agendamentos](revendedor/recursos/como-habilitar-agendamentos.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-agendamentos>
+- [Campanhas](revendedor/recursos/como-habilitar-campanhas.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-campanhas>
+- [Mail Marketing](revendedor/recursos/como-habilitar-mail-marketing.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-mail-marketing>
+- [Planos em Configurações](revendedor/recursos/configuracoes-planos.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/configuracoes-planos>
+- [Bloqueio WhatsApp](revendedor/trilhas/bloqueio-whatsapp.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/bloqueio-whatsapp>
+- [Portfólio Empresarial (BM)](revendedor/trilhas/portfolio-empresarial-bm.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/portfolio-empresarial-bm>
+- [Qualidade do Número e Limite de Envio da Conta](revendedor/trilhas/qualidade-e-limite-de-envio-do-numero.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/qualidade-e-limite-de-envio-do-numero>
 - [A cobrança do WhatsApp Oficial mudou](trilhas/a-cobranca-do-whatsapp-oficial-mudou.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/a-cobranca-do-whatsapp-oficial-mudou>
 - [Medir quanto você já enviou no mês](trilhas/medir-quanto-voce-ja-enviou-no-mes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/medir-quanto-voce-ja-enviou-no-mes>
 - [Reduzir a quantidade de mensagem que passa pela API oficial](trilhas/reduzir-a-quantidade-de-mensagem-que-passa-pela-api-oficial.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/reduzir-a-quantidade-de-mensagem-que-passa-pela-api-oficial>

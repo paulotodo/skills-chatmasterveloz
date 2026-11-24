@@ -6,3 +6,7 @@ plataforma:recursos/gerenciamento-de-expediente-em-configuracoes.md
 plataforma:recursos/visao-geral-tags.md  # onde aparece o ID da tag (campo sec do bloco Tag no JSON)
 plataforma:recursos/transferir-ticket.md  # como o atendente transfere um atendimento (teste do robô)
 plataforma:recursos/aguardando-x-atendendo.md  # estados do atendimento; o fluxo atende no Aguardando
+# Documentação do revendedor (Super Admin): a opção FLOW do plano e os blocos que dependem de outras opções.
+# Vai para references/docs/revendedor/.
+revendedor:recursos/como-habilitar-flowbuilder.md
+revendedor:recursos/configuracoes-planos.md

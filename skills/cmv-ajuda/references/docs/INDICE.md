@@ -1,4 +1,4 @@
-# Artigos incluídos nesta skill (527)
+# Artigos incluídos nesta skill (619)
 
 - [Chat Master Veloz — documentação da plataforma (Central de Ajuda)](00-LEIA-PRIMEIRO.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs>
 - [Índice — artigos fora do menu (3)](INDICE-outros.md)
@@ -512,6 +512,98 @@
 - [Oficial x Não Oficial](recursos/whatsapp-oficial-x-nao-oficial.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/whatsapp-oficial-x-nao-oficial>
 - [WhatsApp QR Code](recursos/whatsapp-qr-code.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/whatsapp-qr-code>
 - [WhatsApp](recursos/whatsapp.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/whatsapp>
+- [Índice — Recursos (80 artigos)](revendedor/INDICE-recursos.md)
+- [Índice — Trilhas (10 artigos)](revendedor/INDICE-trilhas.md)
+- [Âncoras CSS](revendedor/recursos/ancoras-css.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/ancoras-css>
+- [Canais e e-mail em Plataforma](revendedor/recursos/canais-e-e-mail-em-plataforma.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/canais-e-e-mail-em-plataforma>
+- [Cobrança da plataforma](revendedor/recursos/cobranca-da-plataforma.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/cobranca-da-plataforma>
+- [Agendamentos](revendedor/recursos/como-habilitar-agendamentos.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-agendamentos>
+- [API Oficial Nativa (Portal)](revendedor/recursos/como-habilitar-api-oficial-nativa-portal.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-api-oficial-nativa-portal>
+- [API Oficial Nativa (App próprio)](revendedor/recursos/como-habilitar-api-oficial-nativa-whitelabel.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-api-oficial-nativa-whitelabel>
+- [API](revendedor/recursos/como-habilitar-api.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-api>
+- [Avaliação pela IA](revendedor/recursos/como-habilitar-avaliacao-pela-ia.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-avaliacao-pela-ia>
+- [Botões API](revendedor/recursos/como-habilitar-botoes-api.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-botoes-api>
+- [Campanhas de Voz](revendedor/recursos/como-habilitar-campanhas-de-voz.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-campanhas-de-voz>
+- [Campanhas](revendedor/recursos/como-habilitar-campanhas.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-campanhas>
+- [Cardápio digital](revendedor/recursos/como-habilitar-cardapio-digital.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-cardapio-digital>
+- [Chamadas no Chat Interno](revendedor/recursos/como-habilitar-chamadas-no-chat-interno.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-chamadas-no-chat-interno>
+- [Chat Externo por Link (Modo Alternativo )](revendedor/recursos/como-habilitar-chat-externo-por-link.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-chat-externo-por-link>
+- [Chat Externo](revendedor/recursos/como-habilitar-chat-externo.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-chat-externo>
+- [Chat Interno](revendedor/recursos/como-habilitar-chat-interno.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-chat-interno>
+- [Coexistência](revendedor/recursos/como-habilitar-coexistencia.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-coexistencia>
+- [Concatenador de Mensagens](revendedor/recursos/como-habilitar-concatenador-de-mensagens.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-concatenador-de-mensagens>
+- [Consultório](revendedor/recursos/como-habilitar-consultorio.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-consultorio>
+- [Copiloto do CRM](revendedor/recursos/como-habilitar-copiloto-do-crm.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-copiloto-do-crm>
+- [CRM com Múltiplos Funis](revendedor/recursos/como-habilitar-crm-com-multiplos-funis.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-crm-com-multiplos-funis>
+- [CRM](revendedor/recursos/como-habilitar-crm.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-crm>
+- [E-mail](revendedor/recursos/como-habilitar-e-mail.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-e-mail>
+- [Erros de Template](revendedor/recursos/como-habilitar-erros-de-template.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-erros-de-template>
+- [Facebook Nativo (Portal)](revendedor/recursos/como-habilitar-facebook-nativo-portal.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-facebook-nativo-portal>
+- [Facebook Nativo (App próprio)](revendedor/recursos/como-habilitar-facebook-nativo-whitelabel.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-facebook-nativo-whitelabel>
+- [FlowBuilder Nativo](revendedor/recursos/como-habilitar-flowbuilder.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-flowbuilder>
+- [Gestão de Links](revendedor/recursos/como-habilitar-gestao-de-links.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-gestao-de-links>
+- [GPT Análises](revendedor/recursos/como-habilitar-gpt-analises.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-gpt-analises>
+- [GPT Assistant em Grupos](revendedor/recursos/como-habilitar-gpt-assistant-em-grupos.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-gpt-assistant-em-grupos>
+- [GPT Assistant](revendedor/recursos/como-habilitar-gpt-assistant.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-gpt-assistant>
+- [Gravações no PABX](revendedor/recursos/como-habilitar-gravacoes-no-pabx.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-gravacoes-no-pabx>
+- [Grupos](revendedor/recursos/como-habilitar-grupos.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-grupos>
+- [Instagram Automação](revendedor/recursos/como-habilitar-instagram-automacao.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-instagram-automacao>
+- [Instagram (hub)](revendedor/recursos/como-habilitar-instagram-hub.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-instagram-hub>
+- [Instagram Nativo (Portal)](revendedor/recursos/como-habilitar-instagram-nativo-portal.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-instagram-nativo-portal>
+- [Instagram Nativo (App próprio)](revendedor/recursos/como-habilitar-instagram-nativo-whitelabel.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-instagram-nativo-whitelabel>
+- [Inteligência Artificial](revendedor/recursos/como-habilitar-inteligencia-rtificial.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-inteligencia-rtificial>
+- [Kanban](revendedor/recursos/como-habilitar-kanban.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-kanban>
+- [Ligações WhatsApp QR Code](revendedor/recursos/como-habilitar-ligacoes-whatsapp-qr-code.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-ligacoes-whatsapp-qr-code>
+- [Loja digital](revendedor/recursos/como-habilitar-loja-digital.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-loja-digital>
+- [Mail Marketing](revendedor/recursos/como-habilitar-mail-marketing.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-mail-marketing>
+- [Modo Híbrido (Coex + QR CODE)](revendedor/recursos/como-habilitar-modo-hibrido.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-modo-hibrido>
+- [PDV](revendedor/recursos/como-habilitar-pdv.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-pdv>
+- [Pixel Meta](revendedor/recursos/como-habilitar-pixel-meta.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-pixel-meta>
+- [Projetos](revendedor/recursos/como-habilitar-projetos.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-projetos>
+- [Provedores de IA](revendedor/recursos/como-habilitar-provedores-de-ia.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-provedores-de-ia>
+- [Quadro de atendimentos](revendedor/recursos/como-habilitar-quadro-de-atendimentos.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-quadro-de-atendimentos>
+- [Recuperação de Senha](revendedor/recursos/como-habilitar-recuperacao-de-senha.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-recuperacao-de-senha>
+- [Reservas](revendedor/recursos/como-habilitar-reservas.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-reservas>
+- [Sugestão de resposta IA](revendedor/recursos/como-habilitar-sugestao-de-resposta-ia.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-sugestao-de-resposta-ia>
+- [Transcrição de Áudio Automática](revendedor/recursos/como-habilitar-transcricao-de-audio-automatica.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-transcricao-de-audio-automatica>
+- [Transcrição de Áudio](revendedor/recursos/como-habilitar-transcricao-de-audio.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-transcricao-de-audio>
+- [Video Chamada com o Cliente](revendedor/recursos/como-habilitar-video-chamada-com-o-cliente.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-video-chamada-com-o-cliente>
+- [VoIP](revendedor/recursos/como-habilitar-voip.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-voip>
+- [Web Chat (hub)](revendedor/recursos/como-habilitar-web-chat-hub.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-web-chat-hub>
+- [Web Chat Nativo](revendedor/recursos/como-habilitar-web-chat-nativo.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-web-chat-nativo>
+- [Como Habilitar](revendedor/recursos/como-habilitar.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar>
+- [Ajuda em Configurações](revendedor/recursos/configuracoes-ajuda.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/configuracoes-ajuda>
+- [Cadastrar Empresa em Configurações](revendedor/recursos/configuracoes-cadastrar-empresa.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/configuracoes-cadastrar-empresa>
+- [Conciliação de Conexões em Configurações](revendedor/recursos/configuracoes-conciliacao-de-conexoes.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/configuracoes-conciliacao-de-conexoes>
+- [Consumo de Voz em Configurações](revendedor/recursos/configuracoes-consumo-de-voz.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/configuracoes-consumo-de-voz>
+- [Cores em Configurações](revendedor/recursos/configuracoes-cores.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/configuracoes-cores>
+- [Documentos em Configurações](revendedor/recursos/configuracoes-documentos.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/configuracoes-documentos>
+- [Editar Empresa em Configurações](revendedor/recursos/configuracoes-editar-empresa.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/configuracoes-editar-empresa>
+- [Empresas em Configurações](revendedor/recursos/configuracoes-empresas.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/configuracoes-empresas>
+- [Firebase Push em Configurações](revendedor/recursos/configuracoes-firebase-push.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/configuracoes-firebase-push>
+- [Logotipos / Ícones em Configurações](revendedor/recursos/configuracoes-logotipos-icones.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/configuracoes-logotipos-icones>
+- [Planos em Configurações](revendedor/recursos/configuracoes-planos.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/configuracoes-planos>
+- [Tokens de IA em Configurações](revendedor/recursos/configuracoes-tokens-de-ia.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/configuracoes-tokens-de-ia>
+- [Trust Proxy em Configurações](revendedor/recursos/configuracoes-trust-proxy.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/configuracoes-trust-proxy>
+- [Configurações](revendedor/recursos/configuracoes.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/configuracoes>
+- [Downloads](revendedor/recursos/downloads.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/downloads>
+- [Marca e acesso em Plataforma](revendedor/recursos/marca-e-acesso-em-plataforma.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/marca-e-acesso-em-plataforma>
+- [Monitoramento em Plataforma](revendedor/recursos/monitoramento-em-plataforma.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/monitoramento-em-plataforma>
+- [Planilha Importar Contatos para Campanhas](revendedor/recursos/planilha-importar-contatos-para-campanhas.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/planilha-importar-contatos-para-campanhas>
+- [Planilha Importar Contatos](revendedor/recursos/planilha-importar-contatos.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/planilha-importar-contatos>
+- [Plataforma em Configurações](revendedor/recursos/plataforma-em-configuracoes.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/plataforma-em-configuracoes>
+- [Servidor de Mídia em Configurações](revendedor/recursos/servidor-de-midia-em-configuracoes.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/servidor-de-midia-em-configuracoes>
+- [Taxas do PDV em Configurações](revendedor/recursos/taxas-do-pdv-em-configuracoes.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/taxas-do-pdv-em-configuracoes>
+- [Análise do App do WhatsApp](revendedor/trilhas/analise-do-app-da-whatsapp.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/analise-do-app-da-whatsapp>
+- [Análise do App do Facebook](revendedor/trilhas/analise-do-app-do-facebook.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/analise-do-app-do-facebook>
+- [Análise do App do Instagram](revendedor/trilhas/analise-do-app-do-instagram.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/analise-do-app-do-instagram>
+- [API Oficial Nativa](revendedor/trilhas/api-oficial-nativa.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/api-oficial-nativa>
+- [Bloqueio WhatsApp](revendedor/trilhas/bloqueio-whatsapp.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/bloqueio-whatsapp>
+- [Meta](revendedor/trilhas/meta.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/meta>
+- [Portfólio Empresarial (BM)](revendedor/trilhas/portfolio-empresarial-bm.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/portfolio-empresarial-bm>
+- [Publicar o App e Ligar na Plataforma](revendedor/trilhas/publicar-o-app-e-ligar-na-plataforma.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/publicar-o-app-e-ligar-na-plataforma>
+- [Qualidade do Número e Limite de Envio da Conta](revendedor/trilhas/qualidade-e-limite-de-envio-do-numero.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/qualidade-e-limite-de-envio-do-numero>
+- [Tech Provider](revendedor/trilhas/tech-provider.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/tech-provider>
 - [A cobrança do WhatsApp Oficial mudou](trilhas/a-cobranca-do-whatsapp-oficial-mudou.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/a-cobranca-do-whatsapp-oficial-mudou>
 - [Adicionar a Primeira Conexão](trilhas/adicionar-a-primeira-conexao.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/adicionar-a-primeira-conexao>
 - [Atender pelo Web Chat do seu site](trilhas/atender-pelo-web-chat-do-seu-site.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atender-pelo-web-chat-do-seu-site>

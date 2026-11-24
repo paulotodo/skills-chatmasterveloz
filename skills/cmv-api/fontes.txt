@@ -10,3 +10,14 @@ plataforma:recursos/webhook-do-funil.md
 plataforma:recursos/gatilho-via-api.md
 plataforma:recursos/gatilho-via-webhooks-trigger.md
 plataforma:recursos/incorporar-atendimento-em-outro-sistema.md
+# Documentação do revendedor: APIs e webhooks administrativos (token da empresa do Super Admin).
+# Vai para references/docs/revendedor/; api/pre-requisitos-apis.md existe nos dois sites, com textos diferentes.
+revendedor:INDICE-api.md
+revendedor:INDICE-api-endpoints.md
+revendedor:api/
+revendedor:recursos/como-habilitar-api.md
+revendedor:recursos/como-habilitar-botoes-api.md
+revendedor:recursos/configuracoes-planos.md              # opções do plano (API Externa, Botões) e os campos da API de planos
+revendedor:recursos/configuracoes-editar-empresa.md      # campo API Não Oficial: a biblioteca do QR Code de cada empresa
+revendedor:recursos/canais-e-e-mail-em-plataforma.md     # a Baileys (Básica) foi descontinuada
+revendedor:recursos/marca-e-acesso-em-plataforma.md      # Permitir Login de Terceiros e o campo do webhook administrativo

@@ -45,3 +45,18 @@ plataforma:api/api-listar-setores-da-empresa.md
 # Única outra via documentada de "atendente de IA" marcar horário: a chave de API do Consultório
 # (comandos-e-capacidades.md, seção 4, para dizer que não é o comando de agenda do GPT Assistant).
 plataforma:recursos/aba-integracoes-em-cadastros-do-consultorio.md
+# Documentação do revendedor (Super Admin): o que libera cada recurso de IA no plano, de quem é a chave
+# da OpenAI e os créditos do Copiloto. Vai para references/docs/revendedor/.
+revendedor:recursos/como-habilitar-inteligencia-rtificial.md
+revendedor:recursos/como-habilitar-gpt-assistant.md
+revendedor:recursos/como-habilitar-gpt-assistant-em-grupos.md
+revendedor:recursos/como-habilitar-gpt-analises.md
+revendedor:recursos/como-habilitar-provedores-de-ia.md
+revendedor:recursos/como-habilitar-sugestao-de-resposta-ia.md
+revendedor:recursos/como-habilitar-transcricao-de-audio.md
+revendedor:recursos/como-habilitar-transcricao-de-audio-automatica.md
+revendedor:recursos/como-habilitar-avaliacao-pela-ia.md
+revendedor:recursos/como-habilitar-copiloto-do-crm.md
+revendedor:recursos/configuracoes-planos.md
+revendedor:recursos/configuracoes-editar-empresa.md      # seção Chave da OpenAI
+revendedor:recursos/configuracoes-tokens-de-ia.md

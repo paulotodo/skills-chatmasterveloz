@@ -1,4 +1,4 @@
-# Artigos incluídos nesta skill (379)
+# Artigos incluídos nesta skill (439)
 
 - [Endpoints da API (309)](INDICE-api-endpoints.md)
 - [Índice — APIs (357 artigos)](INDICE-api.md)
@@ -379,3 +379,63 @@
 - [Webhook da Avaliação pela IA](recursos/webhook-da-avaliacao-pela-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/webhook-da-avaliacao-pela-ia>
 - [Webhook do Funil](recursos/webhook-do-funil.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/webhook-do-funil>
 - [Webhooks e integrações em Configurações](recursos/webhooks-e-integracoes-em-configuracoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/webhooks-e-integracoes-em-configuracoes>
+- [Endpoints da API (35)](revendedor/INDICE-api-endpoints.md)
+- [Índice — APIs (52 artigos)](revendedor/INDICE-api.md)
+- [API Anexar Mídia ao Aviso](revendedor/api/api-admin-anexar-midia-ao-aviso.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/api-admin-anexar-midia-ao-aviso>
+- [API Ativar ou Desativar Aviso](revendedor/api/api-admin-ativar-ou-desativar-aviso.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/api-admin-ativar-ou-desativar-aviso>
+- [API Atualizar Aviso](revendedor/api/api-admin-atualizar-aviso.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/api-admin-atualizar-aviso>
+- [API Atualizar o Cadastro de uma Empresa](revendedor/api/api-admin-atualizar-o-cadastro-de-uma-empresa.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/api-admin-atualizar-o-cadastro-de-uma-empresa>
+- [API Atualizar Plano](revendedor/api/api-admin-atualizar-plano.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/api-admin-atualizar-plano>
+- [API Atualizar Usuário de uma Empresa](revendedor/api/api-admin-atualizar-usuario-de-uma-empresa.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/api-admin-atualizar-usuario-de-uma-empresa>
+- [Avisos](revendedor/api/api-admin-avisos.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/api-admin-avisos>
+- [API Bloquear Empresa](revendedor/api/api-admin-bloquear-empresa.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/api-admin-bloquear-empresa>
+- [Conexões](revendedor/api/api-admin-conexoes.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/api-admin-conexoes>
+- [API Conferir o Token da Empresa](revendedor/api/api-admin-conferir-o-token-da-empresa.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/api-admin-conferir-o-token-da-empresa>
+- [Configurações](revendedor/api/api-admin-configuracoes.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/api-admin-configuracoes>
+- [API Contar Empresas](revendedor/api/api-admin-contar-empresas.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/api-admin-contar-empresas>
+- [API Criar Aviso](revendedor/api/api-admin-criar-aviso.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/api-admin-criar-aviso>
+- [API Criar Conexão em uma Empresa](revendedor/api/api-admin-criar-conexao-em-uma-empresa.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/api-admin-criar-conexao-em-uma-empresa>
+- [API Criar Empresa](revendedor/api/api-admin-criar-empresa.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/api-admin-criar-empresa>
+- [API Criar Fluxo em uma Empresa](revendedor/api/api-admin-criar-fluxo-em-uma-empresa.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/api-admin-criar-fluxo-em-uma-empresa>
+- [API Criar Plano](revendedor/api/api-admin-criar-plano.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/api-admin-criar-plano>
+- [API Criar Resposta Rápida em uma Empresa](revendedor/api/api-admin-criar-resposta-rapida-em-uma-empresa.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/api-admin-criar-resposta-rapida-em-uma-empresa>
+- [API Criar Setor em uma Empresa](revendedor/api/api-admin-criar-setor-em-uma-empresa.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/api-admin-criar-setor-em-uma-empresa>
+- [API Criar Tag em uma Empresa](revendedor/api/api-admin-criar-tag-em-uma-empresa.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/api-admin-criar-tag-em-uma-empresa>
+- [API Criar Token da Empresa](revendedor/api/api-admin-criar-token-da-empresa.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/api-admin-criar-token-da-empresa>
+- [API Criar Usuário em uma Empresa](revendedor/api/api-admin-criar-usuario-em-uma-empresa.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/api-admin-criar-usuario-em-uma-empresa>
+- [API Deletar Aviso](revendedor/api/api-admin-deletar-aviso.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/api-admin-deletar-aviso>
+- [API Desbloquear Empresa](revendedor/api/api-admin-desbloquear-empresa.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/api-admin-desbloquear-empresa>
+- [Empresas](revendedor/api/api-admin-empresas.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/api-admin-empresas>
+- [Equipe](revendedor/api/api-admin-equipe.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/api-admin-equipe>
+- [Faturas](revendedor/api/api-admin-faturas.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/api-admin-faturas>
+- [Fluxos](revendedor/api/api-admin-fluxos.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/api-admin-fluxos>
+- [API Listar Avisos](revendedor/api/api-admin-listar-avisos.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/api-admin-listar-avisos>
+- [API Listar Empresas](revendedor/api/api-admin-listar-empresas.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/api-admin-listar-empresas>
+- [API Listar Planos](revendedor/api/api-admin-listar-planos.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/api-admin-listar-planos>
+- [API Listar Respostas Rápidas de uma Empresa](revendedor/api/api-admin-listar-respostas-rapidas-de-uma-empresa.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/api-admin-listar-respostas-rapidas-de-uma-empresa>
+- [API Obter Faturas](revendedor/api/api-admin-obter-faturas.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/api-admin-obter-faturas>
+- [API Obter um Aviso](revendedor/api/api-admin-obter-um-aviso.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/api-admin-obter-um-aviso>
+- [API Obter um Plano](revendedor/api/api-admin-obter-um-plano.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/api-admin-obter-um-plano>
+- [API Obter uma Empresa (completa)](revendedor/api/api-admin-obter-uma-empresa-completa.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/api-admin-obter-uma-empresa-completa>
+- [API Obter uma Empresa](revendedor/api/api-admin-obter-uma-empresa.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/api-admin-obter-uma-empresa>
+- [API Pagar Fatura](revendedor/api/api-admin-pagar-fatura.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/api-admin-pagar-fatura>
+- [Planos](revendedor/api/api-admin-planos.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/api-admin-planos>
+- [API Recuperar Mensagens](revendedor/api/api-admin-recuperar-mensagens.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/api-admin-recuperar-mensagens>
+- [API Reiniciar Conexões como Super Admin](revendedor/api/api-admin-reiniciar-conexoes-como-super-admin.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/api-admin-reiniciar-conexoes-como-super-admin>
+- [API Remover Mídia do Aviso](revendedor/api/api-admin-remover-midia-do-aviso.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/api-admin-remover-midia-do-aviso>
+- [Respostas Rápidas](revendedor/api/api-admin-respostas-rapidas.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/api-admin-respostas-rapidas>
+- [Setores](revendedor/api/api-admin-setores.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/api-admin-setores>
+- [Tags](revendedor/api/api-admin-tags.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/api-admin-tags>
+- [API Trocar Imagens da Plataforma](revendedor/api/api-admin-trocar-imagens-da-plataforma.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/api-admin-trocar-imagens-da-plataforma>
+- [APIs Administrativas](revendedor/api/apis-admin.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/apis-admin>
+- [Habilitar Webhook Administrativo](revendedor/api/habilitar-webhook-administrativo.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/habilitar-webhook-administrativo>
+- [Pré-Requisitos das APIs](revendedor/api/pre-requisitos-apis.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/pre-requisitos-apis>
+- [Alteração na Conexão](revendedor/api/webhook-admin-alteracao-na-conexao.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/webhook-admin-alteracao-na-conexao>
+- [Criação de Empresa](revendedor/api/webhook-admin-criacao-de-empresa.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/webhook-admin-criacao-de-empresa>
+- [Webhooks Administrativos](revendedor/api/webhooks-administrativos.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/webhooks-administrativos>
+- [Canais e e-mail em Plataforma](revendedor/recursos/canais-e-e-mail-em-plataforma.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/canais-e-e-mail-em-plataforma>
+- [API](revendedor/recursos/como-habilitar-api.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-api>
+- [Botões API](revendedor/recursos/como-habilitar-botoes-api.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-botoes-api>
+- [Editar Empresa em Configurações](revendedor/recursos/configuracoes-editar-empresa.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/configuracoes-editar-empresa>
+- [Planos em Configurações](revendedor/recursos/configuracoes-planos.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/configuracoes-planos>
+- [Marca e acesso em Plataforma](revendedor/recursos/marca-e-acesso-em-plataforma.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/marca-e-acesso-em-plataforma>

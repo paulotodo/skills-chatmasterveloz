@@ -12,6 +12,7 @@ Linhas de fontes.txt (o que vem depois de # é comentário):
   plataforma:INDICE-api.md           um arquivo (aceita glob)
   plataforma:recursos/token-openai.md
   css:*.md
+  revendedor:recursos/               documentação do revendedor; vai para references/docs/revendedor/
   subarvore:FlowBuilder Nativo       o item de menu com esse título, nos índices, e tudo abaixo dele
 """
 import json
@@ -25,6 +26,7 @@ AQUI = Path(__file__).resolve().parent
 RAIZES = {
     "plataforma": AQUI.parent / "docs-plataforma-chatmasterveloz",
     "css": AQUI.parent / "docs-css-chatmasterveloz",
+    "revendedor": AQUI.parent / "docs-revendedor-chatmasterveloz",
 }
 ITEM = re.compile(r"^(\s*)- \[(.+?)\]\((.+?\.md)\)")
 
@@ -68,7 +70,8 @@ def montar(skill):
         if not caminhos or not all(c.is_file() for c in caminhos):
             sys.exit(f"{skill}/fontes.txt: nada encontrado para {linha!r}")
         for origem in caminhos:
-            copia = destino / origem.relative_to(base)
+            # o revendedor repete nomes da Central (configuracoes.md, pre-requisitos-apis.md): pasta própria
+            copia = destino / ("revendedor" if raiz == "revendedor" else "") / origem.relative_to(base)
             copia.parent.mkdir(parents=True, exist_ok=True)
             shutil.copy2(origem, copia)
     arquivos = sorted(destino.rglob("*.md"))
@@ -84,14 +87,14 @@ def montar(skill):
 
 
 CITACAO = re.compile(r"(?<![\w/.-])((?:[\w-]+/)*[\w.-]+\.(?:md|py|json))\b")
-PASTAS_DOCS = ("api/", "recursos/", "trilhas/", "outros/")
+PASTAS_DOCS = ("api/", "recursos/", "trilhas/", "outros/", "revendedor/")
 
 
 def conferir(pasta):
     """Acusa arquivo citado nos textos escritos à mão que não existe (artigo renomeado ou removido).
 
     Três jeitos de citar: caminho a partir da skill (references/…, scripts/…, assets/…), caminho a partir
-    da cópia da documentação (recursos/x.md, api/x.md) e só o nome do artigo (bloco-menu.md).
+    da cópia da documentação (recursos/x.md, api/x.md, revendedor/recursos/x.md) e só o nome do artigo (bloco-menu.md).
     """
     nomes = {f.name for f in pasta.rglob("*") if f.is_file()}
     quebrados = set()

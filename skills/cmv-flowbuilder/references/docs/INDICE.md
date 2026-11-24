@@ -1,4 +1,4 @@
-# Artigos incluídos nesta skill (76)
+# Artigos incluídos nesta skill (78)
 
 - [Aba Geral em Setores & Chatbot](recursos/aba-geral-em-setores-e-chatbot.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-geral-em-setores-e-chatbot>
 - [Aba Horários em Setores & Chatbot](recursos/aba-horarios-em-setores-e-chatbot.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-horarios-em-setores-e-chatbot>
@@ -76,3 +76,5 @@
 - [Visão Geral FlowBuilder Nativo](recursos/visao-geral-flowbuilder.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/visao-geral-flowbuilder>
 - [Visão Geral Setores & Chatbot](recursos/visao-geral-setores-e-chatbot.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/visao-geral-setores-e-chatbot>
 - [Visão Geral Tags](recursos/visao-geral-tags.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/visao-geral-tags>
+- [FlowBuilder Nativo](revendedor/recursos/como-habilitar-flowbuilder.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-flowbuilder>
+- [Planos em Configurações](revendedor/recursos/configuracoes-planos.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/configuracoes-planos>

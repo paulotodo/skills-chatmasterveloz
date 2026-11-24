@@ -7,3 +7,10 @@ plataforma:videos.md
 plataforma:recursos/
 plataforma:trilhas/
 plataforma:outros/
+# Documentação do revendedor (Super Admin, dono da instância): como liberar cada recurso para a empresa,
+# as telas de administração e a trilha da Meta. Vai para references/docs/revendedor/.
+# As APIs administrativas ficam na skill cmv-api.
+revendedor:INDICE-recursos.md
+revendedor:INDICE-trilhas.md
+revendedor:recursos/
+revendedor:trilhas/

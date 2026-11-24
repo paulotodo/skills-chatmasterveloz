@@ -1,4 +1,4 @@
-# Artigos incluídos nesta skill (57)
+# Artigos incluídos nesta skill (70)
 
 - [API Listar Setores da Empresa](api/api-listar-setores-da-empresa.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-listar-setores-da-empresa>
 - [Aba Evolução da Avaliação pela IA](recursos/aba-evolucao-da-avaliacao-pela-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-evolucao-da-avaliacao-pela-ia>
@@ -57,3 +57,16 @@
 - [Visão Geral Setores & Chatbot](recursos/visao-geral-setores-e-chatbot.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/visao-geral-setores-e-chatbot>
 - [Visão Geral Tags](recursos/visao-geral-tags.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/visao-geral-tags>
 - [Webhook da Avaliação pela IA](recursos/webhook-da-avaliacao-pela-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/webhook-da-avaliacao-pela-ia>
+- [Avaliação pela IA](revendedor/recursos/como-habilitar-avaliacao-pela-ia.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-avaliacao-pela-ia>
+- [Copiloto do CRM](revendedor/recursos/como-habilitar-copiloto-do-crm.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-copiloto-do-crm>
+- [GPT Análises](revendedor/recursos/como-habilitar-gpt-analises.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-gpt-analises>
+- [GPT Assistant em Grupos](revendedor/recursos/como-habilitar-gpt-assistant-em-grupos.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-gpt-assistant-em-grupos>
+- [GPT Assistant](revendedor/recursos/como-habilitar-gpt-assistant.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-gpt-assistant>
+- [Inteligência Artificial](revendedor/recursos/como-habilitar-inteligencia-rtificial.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-inteligencia-rtificial>
+- [Provedores de IA](revendedor/recursos/como-habilitar-provedores-de-ia.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-provedores-de-ia>
+- [Sugestão de resposta IA](revendedor/recursos/como-habilitar-sugestao-de-resposta-ia.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-sugestao-de-resposta-ia>
+- [Transcrição de Áudio Automática](revendedor/recursos/como-habilitar-transcricao-de-audio-automatica.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-transcricao-de-audio-automatica>
+- [Transcrição de Áudio](revendedor/recursos/como-habilitar-transcricao-de-audio.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/como-habilitar-transcricao-de-audio>
+- [Editar Empresa em Configurações](revendedor/recursos/configuracoes-editar-empresa.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/configuracoes-editar-empresa>
+- [Planos em Configurações](revendedor/recursos/configuracoes-planos.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/configuracoes-planos>
+- [Tokens de IA em Configurações](revendedor/recursos/configuracoes-tokens-de-ia.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/configuracoes-tokens-de-ia>
