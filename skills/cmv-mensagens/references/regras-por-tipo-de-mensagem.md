@@ -304,7 +304,7 @@ Mensagem programada para um contato, única ou recorrente.
 
 | Campo | O que é |
 |---|---|
-| **Contato** | Busca digitando pelo menos 3 letras. O destinatário precisa estar cadastrado em Contatos. Os artigos descrevem um contato por agendamento; agendar para vários contatos de uma vez: **não documentado**. |
+| **Contato** | Busca digitando pelo menos 3 letras. O destinatário precisa estar cadastrado em Contatos. Um contato por agendamento. O único envio em lote documentado é a **Mensagem a todos os atendimentos** de um atendente (abaixo). |
 | **Conexão** | Qual conexão envia. |
 | **Fila** (o artigo Editar Agendamento já chama de **Setor**) | Opcional; só funciona com **Abrir Ticket**. |
 | **Mensagem Template** | Aparece quando a conexão é API Oficial (Cloud). |
@@ -327,13 +327,25 @@ Botão que grava um agendamento novo: **não documentado** (o artigo Adicionar A
 |---|---|---|
 | Mesmo texto para o cliente, todo mês | Agendamento com template de **texto fixo** (sem `{{n}}`), **Repetir a cada** › **Todo dia...** | Um agendamento por contato. Não use template com variável aqui: o preenchimento não está documentado. |
 | Nome, valor ou link diferentes por cliente | Campanha pela API Oficial com **Lista de Contato** e campos extras (seção 4) | Repetição automática de campanha não está documentada: pelo que os artigos descrevem, é uma campanha a cada mês. |
-| Muitos clientes, texto fixo | Os artigos não descrevem agendamento em lote | Ofereça a campanha (seção 4) ou um agendamento por contato, e diga qual parte não está documentada. |
+| Muitos clientes, texto fixo | Agendamento em lote só existe para os atendimentos abertos de um atendente (**Mensagem a todos os atendimentos**, abaixo) | Para uma lista de clientes, ofereça a campanha (seção 4) ou um agendamento por contato. |
 
 **Na conexão oficial**
 
 - É obrigatório escolher um template aprovado. A caixa de texto é preenchida com o nome do template; o que for digitado por cima é ignorado e sobrescrito pelo texto original no envio.
 - Texto comum e anexo comum não são enviados de forma agendada pela API Oficial, mesmo com a janela de 24 horas aberta. Sem template, o envio falha.
 - Exceção: agendamento só com **Criar Anotação**, que é comunicação interna.
+
+**Mensagem a todos os atendimentos (de um atendente)**
+
+Um aviso só para todos os clientes que estão em atendimento aberto com uma pessoa ("a Ana saiu de férias, quem assume é o Bruno"). Só está descrita na nota de atualização de 21/11/2026 (`references/docs/recursos/atualizacoes-2026-11-21.md`).
+
+- **Onde:** menu **Quadro de atendimentos**, visão **Atendentes**, ícone do avião de papel na coluna da pessoa (**Enviar mensagem a todos os atendimentos deste atendente**). Só administrador e supervisor veem o botão.
+- **Quem recebe:** os contatos dos atendimentos abertos daquela pessoa, uma vez cada, mesmo que apareçam em mais de um atendimento. Os filtros e a busca do Quadro valem: só entra o que o Quadro mostra. Atendimento que ainda aguarda a pessoa aceitar não recebe.
+- **Campos:** **Enviar pela conexão**, **Mensagem** e **Intervalo entre os envios** (de 15 segundos a 5 minutos). O botão **Agendar para N contato(s)** confirma.
+- **Variáveis:** `{{name}}` e `{{firstName}}`. Outras variáveis nesse campo: **não documentado**.
+- **Como sai:** cada contato vira um agendamento, um depois do outro, começando em 1 minuto. Aparecem no menu **Agendamentos**, onde **Excluir** cancela cada um.
+- **Na conexão oficial:** a nota não diz se a janela pede template. Como o envio vira agendamento, e agendamento na oficial só sai com template (acima), avise a pessoa e peça um teste com um atendimento antes de mandar para todos.
+- Anexo, data e hora escolhidas e repetição nessa janela: **não documentado**.
 
 **Limites e avisos**
 

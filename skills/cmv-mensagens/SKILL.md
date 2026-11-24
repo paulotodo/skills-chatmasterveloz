@@ -53,6 +53,7 @@ Se o pedido já traz o suficiente, não trave: escreva, declare as suposições 
 | Avisar ou abordar clientes pela conexão oficial fora da janela | Template | Utilidade ou Marketing |
 | Mandar a mesma mensagem para muita gente | Campanha | Por QR Code: 5 variações de texto. Oficial: um template |
 | Mandar algo para um contato em data futura, ou todo mês | Agendamento | Na oficial, só com template |
+| Avisar de uma vez todos os clientes em atendimento com um atendente | Mensagem a todos os atendimentos | Pelo Quadro de atendimentos; vira um agendamento por contato; `{{name}}` e `{{firstName}}` |
 | Parabenizar no dia do aniversário | Mensagem de Aniversário | Um texto só, enviado às 10h |
 | O que o cliente lê ao chegar ou fora do horário | Mensagens do Setor (e da Conexão) | Saudação, fora de expediente |
 | Aviso de que o atendente saiu; despedida | Mensagem de Ausência; Mensagem de conclusão/Despedida | Campos do Perfil, do atendente, do Setor e da Conexão |
@@ -113,6 +114,7 @@ Regras de honestidade, e o motivo de cada uma:
 | Campanha oficial e a planilha com extras | `references/docs/recursos/nova-campanha-api-oficial.md` |
 | Listas de contatos | `references/docs/recursos/fontes-de-contatos-para-campanhas.md` |
 | Agendamentos | `references/docs/recursos/adicionar-agendamento.md` |
+| Mensagem a todos os atendimentos de um atendente | `references/docs/recursos/atualizacoes-2026-11-21.md` |
 | Aniversário | `references/docs/recursos/mensagem-de-aniversario.md`, `references/docs/recursos/mensagens-automaticas-em-configuracoes.md` |
 | Mensagens automáticas da empresa (Saída Forçada, Encaminhamento, Aniversário) | `references/docs/recursos/mensagens-automaticas-em-configuracoes.md` |
 | Saudação e fora de expediente do Setor | `references/docs/recursos/aba-mensagens-em-setores-e-chatbot.md`, `references/docs/recursos/aba-horarios-em-setores-e-chatbot.md` |
