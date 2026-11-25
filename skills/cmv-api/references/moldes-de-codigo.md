@@ -1,6 +1,6 @@
 # Moldes de código para chamar a API do Chat Master Veloz
 
-Cada molde abaixo faz a **mesma chamada de exemplo**: `API Mensagem de Texto` (selo Básica, Pro), copiada de `references/docs/api/api-mensagem-de-texto.md`. Para qualquer outra chamada, troque só três coisas, sempre pelo que o artigo dela diz: **o endereço**, **o método** e **o payload**. O resto (token fora do código, tempo limite, conferência do status, exibir o corpo do erro) fica igual.
+Cada molde abaixo faz a **mesma chamada de exemplo**: `API Mensagem de Texto` (selo Básica, Pro), copiada de `references/docs/api/api-mensagem-de-texto.md`. A Básica (Baileys) foi descontinuada (`references/docs/revendedor/recursos/canais-e-e-mail-em-plataforma.md`): em integração nova, use o molde com uma conexão Pro. Para qualquer outra chamada, troque só três coisas, sempre pelo que o artigo dela diz: **o endereço**, **o método** e **o payload**. O resto (token fora do código, tempo limite, conferência do status, exibir o corpo do erro) fica igual.
 
 Caminhos escritos como `api/...` e `recursos/...` ficam dentro de `references/docs/`.
 

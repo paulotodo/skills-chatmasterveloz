@@ -5,6 +5,8 @@ plataforma:recursos/bot-e-flowbuilder-em-configuracoes.md  # menu de Setores, sa
 plataforma:recursos/gerenciamento-de-expediente-em-configuracoes.md
 plataforma:recursos/visao-geral-tags.md  # onde aparece o ID da tag (campo sec do bloco Tag no JSON)
 plataforma:recursos/transferir-ticket.md  # como o atendente transfere um atendimento (teste do robô)
+plataforma:recursos/atualizacoes-2026-11-22.md  # Minutos para o retorno vazio vale 30 minutos (teste do robô)
+plataforma:api/api-criar-fluxo.md  # única descrição oficial da estrutura do arquivo: nodes e connections
 plataforma:recursos/aguardando-x-atendendo.md  # estados do atendimento; o fluxo atende no Aguardando
 # Documentação do revendedor (Super Admin): a opção FLOW do plano e os blocos que dependem de outras opções.
 # Vai para references/docs/revendedor/.

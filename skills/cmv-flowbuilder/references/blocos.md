@@ -171,7 +171,7 @@ Lidas em Como o Fluxo Roda (`references/docs/recursos/como-o-fluxo-roda.md`) e B
 - Use para: mandar um e-mail no meio do fluxo, por uma conta de e-mail da empresa ou por um provedor de envio por API. Com o **Para** vazio, vai para o e-mail do contato. Saídas **Enviado** e **Não enviado**; ligue as duas.
 - Cuidado: a empresa precisa de uma conta ativa no menu **Contas de E-mail** ou de um provedor cadastrado na mesma tela. Contato sem e-mail com o **Para** vazio segue por **Não enviado**. O e-mail não fica registrado na conversa nem na pasta **Enviadas**: para o cliente saber, ligue **Enviado** a um bloco de mensagem.
 
-O artigo n8n via Flowbuilder (`references/docs/recursos/n8n-via-flowbuilder.md`) fala em bloco HTTP Request, mas o exemplo dele é código JavaScript, igual ao do artigo da Execução de Código JS, e termina mandando guardar a resposta numa Variável. Código vai em **Execução de Código JS**, seguido de Variável; no **HTTP Request**, a chamada é montada pelos campos e a resposta é guardada pela aba **Resposta**. Avise a pessoa dessa diferença.
+O artigo n8n via FlowBuilder Nativo (`references/docs/recursos/n8n-via-flowbuilder.md`) fala em bloco HTTP Request, mas o exemplo dele é código JavaScript, igual ao do artigo da Execução de Código JS, e termina mandando guardar a resposta numa Variável. Código vai em **Execução de Código JS**, seguido de Variável; no **HTTP Request**, a chamada é montada pelos campos e a resposta é guardada pela aba **Resposta**. Avise a pessoa dessa diferença.
 
 ## Entregar a conversa ou terminar
 

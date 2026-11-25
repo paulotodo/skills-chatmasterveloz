@@ -10,7 +10,7 @@ python3 scripts/gerar_fluxo.py --teste                             # autoteste
 
 Exemplo completo: `assets/descricao-exemplo.json` (é a descrição que gerou `assets/exemplo-minimo.json`).
 
-O formato da descrição é desta skill, não da plataforma. O formato do arquivo gerado é o **observado em um arquivo exportado** (`references/formato-json.md`), não documentação oficial, e a importação de um arquivo gerado não foi testada por quem escreveu a skill.
+O formato da descrição é desta skill, não da plataforma. O formato do arquivo gerado é o **observado em um arquivo exportado** (`references/formato-json.md`), não documentação oficial, e a importação de um arquivo gerado só foi testada com parte dos blocos (`references/formato-json.md`).
 
 ## Estrutura
 

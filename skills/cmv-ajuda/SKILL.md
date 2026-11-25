@@ -207,11 +207,11 @@ Janela de atendimento, templates e Limitador só existem na conexão oficial. Em
 
 **Três artigos ficam em `outros/` e não aparecem em `INDICE-recursos.md`:** Adicionar Tag, Tipos de Tags e Telegram. Por isso as buscas incluem `outros`.
 
-**Busca com e sem acento.** O texto dos artigos tem acento; os nomes de arquivo, não. `grep -i 'rodizio'` acha 7 artigos, `grep -i 'rodízio'` acha 31. Busque com acento ou com `rod[ií]zio`. Termos curtos casam dentro de outras palavras: use `grep -w`.
+**Busca com e sem acento.** O texto dos artigos tem acento; os nomes de arquivo, não. `grep -i 'rodizio'` acha 7 artigos, `grep -i 'rodízio'` acha 33. Busque com acento ou com `rod[ií]zio`. Termos curtos casam dentro de outras palavras: use `grep -w`.
 
 **Mensagens de erro vêm em inglês.** Busque o texto exato com `grep -F`, sem traduzir.
 
-**Os artigos usam palavras diferentes para a mesma coisa.** Parte deles diz "Fila" ou "Departamento", parte diz "Setor". A aba da conexão aparece como "Setores & Tempos" em 14 artigos e como "Filas & Tempos" em 1. `setores-e-chatbot.md` diz que hoje a plataforma chama de **Setor** em todo lugar (a palavra "fila" fica para o sentido de espera); "Filas & Tempos" é o nome antigo, que sobrou em `encerrar-por-inatividade.md`. Ao responder, use **Setor** e **Setores & Tempos**, e avise do nome antigo quando o artigo lido ainda o usar. Os títulos em `videos.md` também usam nomes diferentes dos artigos ("Filas & Chatbot").
+**Os artigos usam palavras diferentes para a mesma coisa.** Parte deles diz "Fila" ou "Departamento", parte diz "Setor". A aba da conexão aparece como "Setores & Tempos" em 15 artigos e como "Filas & Tempos" em 1. `setores-e-chatbot.md` diz que hoje a plataforma chama de **Setor** em todo lugar (a palavra "fila" fica para o sentido de espera); "Filas & Tempos" é o nome antigo, que sobrou em `encerrar-por-inatividade.md`. Ao responder, use **Setor** e **Setores & Tempos**, e avise do nome antigo quando o artigo lido ainda o usar. Os títulos em `videos.md` também usam nomes diferentes dos artigos ("Filas & Chatbot").
 
 **Os artigos quase não têm links entre si.** Quando um artigo manda ver outro pelo nome ("saiba como em Pré-Requisitos de IA"), ache-o pelo título no índice.
 

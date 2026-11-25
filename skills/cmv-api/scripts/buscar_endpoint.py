@@ -147,6 +147,9 @@ def main():
               f"       {it['titulo']} -> references/docs/{it['artigo']}")
     if achados:
         print(f"\n{len(achados)} endpoint(s). Abra o artigo e confira o selo **API:** antes de montar o pedido.")
+        if norm(args.conexao or "") == "basica":
+            print("Aviso: a Básica (Baileys) foi descontinuada; em integração nova, use a Pro "
+                  "(references/docs/revendedor/recursos/canais-e-e-mail-em-plataforma.md).")
     else:
         print("Nada encontrado: tente outra palavra (sem acento serve) ou veja references/docs/INDICE-api.md.")
 

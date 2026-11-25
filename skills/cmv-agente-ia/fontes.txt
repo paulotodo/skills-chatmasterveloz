@@ -35,6 +35,14 @@ plataforma:recursos/atualizacoes-2026-11-14.md
 plataforma:recursos/atualizacoes-2026-11-17.md
 plataforma:recursos/atualizacoes-2026-11-18.md
 plataforma:recursos/atualizacoes-2026-11-19.md
+# 20/11 a 22/11: Setor padrão para grupos (20/11) e as duas novidades de IA de 22/11 que ainda não têm artigo
+# (Conexão com assistentes de IA; IA do atendimento consulta o sistema da empresa), além de ajustes do Assistente de IA.
+plataforma:recursos/atualizacoes-2026-11-20.md
+plataforma:recursos/atualizacoes-2026-11-21.md
+plataforma:recursos/atualizacoes-2026-11-22.md
+# Concatenador de Mensagens: onde liga o modo Com IA (Central) e o que o revendedor liga na empresa.
+plataforma:recursos/concatenador-de-mensagens.md
+revendedor:recursos/como-habilitar-concatenador-de-mensagens.md
 plataforma:recursos/gravacoes-das-chamadas.md   # IA nas gravações das chamadas (usa o Token OpenAI)
 # Travas de grupo do lado da empresa (Ignorar Mensagens de Grupos e o Bloquear Grupos de cada Conexão),
 # para o GPT Assistant em grupos; a terceira trava está no artigo Editar Empresa, do revendedor.

@@ -129,7 +129,7 @@ Antes do gatilho, o grupo precisa entrar na plataforma como atendimento. Há at�
 Nenhum artigo diz as três juntas nem como se combinam: peça para conferir as três e não afirme qual vence. O cliente só alcança as duas últimas; se elas estão liberadas e o grupo não entra, a primeira é com quem fornece a plataforma (o suporte).
 
 1. Menu **Prompts OPEN.AI**, ao criar ou editar o prompt, preencher **Gatilho para Acionar em Grupos** (a tela orienta "Exemplo: #meubot | Evite usar @"). Vazio, o prompt escolhido no contato do grupo responde sem ser chamado.
-2. Escolher quem responde: menu **Contatos** › editar o contato do grupo › campo **Prompt OPEN.AI (ChatGPT)**; ou deixar o contato sem prompt e transferir o atendimento do grupo, que chega sem Setor, para um Setor com prompt (aí a IA só responde às mensagens que começam com o gatilho).
+2. Escolher quem responde: menu **Contatos** › editar o contato do grupo › campo **Prompt OPEN.AI (ChatGPT)**; ou deixar o contato sem prompt e transferir o atendimento do grupo, que chega sem Setor, para um Setor com prompt, ou escolher esse Setor no campo **Setor padrão para grupos** da Conexão (aba **Setores & Tempos**; pela nota de 20/11/2026, os atendimentos em grupo da conexão entram em **Aguardando** nele) (aí a IA só responde às mensagens que começam com o gatilho).
 3. No grupo, começar a mensagem com o gatilho: `#meubot quanto custa a entrega?`. Gatilho no fim da frase não chama a IA.
 
 ## Limites e custos: o que dá para afirmar
@@ -190,7 +190,7 @@ Diga "não documentado", sem palpite:
 - Se a chave da plataforma cobre a Avaliação pela IA e a transcrição automática do Setor. A lista do revendedor só traz "a transcrição de áudio pedida pelo atendente"; a Central fala em "a transcrição de áudio", sem separar as duas.
 - Como a chave, própria ou da plataforma, se combina com um Provedor de IA que não seja a OpenAI.
 - O que querem dizer os selos "⭐ Módulo AI" e "⭐ Módulo CRM Nativo", no alto dos artigos Como Habilitar, e o que o revendedor precisa contratar por causa deles.
-- O Concatenador de Mensagens: os artigos desta skill só dizem que o modo **Com IA** desconta do saldo; onde liga e o que libera esse modo não está neles.
+- Qual opção do plano libera o modo **Com IA** do Concatenador de Mensagens. O modo se escolhe em **Conexões** › card da conexão › **Concatenador** e desconta do saldo (`references/docs/recursos/concatenador-de-mensagens.md`); quando aparece com o aviso "requer plano com IA", a Central manda falar com o suporte, e o artigo do revendedor (`references/docs/revendedor/recursos/como-habilitar-concatenador-de-mensagens.md`) não diz qual opção é essa.
 - Preço de plano, de crédito e de módulo.
 
 Um descompasso entre os artigos, para não repetir: o Inteligência Artificial (Como Habilitar) manda habilitar só a **AI** e cita análise de atendimento e sugestão de resposta; pelos artigos de cada recurso e pelo de Planos, as duas pedem também **GPT Análises** e **Sugestão de resposta IA**.

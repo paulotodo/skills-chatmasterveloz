@@ -1,4 +1,4 @@
-# Artigos incluídos nesta skill (439)
+# Artigos incluídos nesta skill (443)
 
 - [Endpoints da API (309)](INDICE-api-endpoints.md)
 - [Índice — APIs (357 artigos)](INDICE-api.md)
@@ -361,12 +361,15 @@
 - [Webhooks](api/webhooks.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/webhooks>
 - [Access Token Mercado Pago](recursos/access-token-mercado-pago.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/access-token-mercado-pago>
 - [Access Token Meta](recursos/access-token-meta.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/access-token-meta>
+- [Atualizações 22/11/2026](recursos/atualizacoes-2026-11-22.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-22>
 - [Chave Google Maps](recursos/chave-google-maps.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/chave-google-maps>
 - [Credenciais PaggPix](recursos/credenciais-paggpix.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/credenciais-paggpix>
 - [Gatilho via API](recursos/gatilho-via-api.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/gatilho-via-api>
 - [Gatilho via Webhooks Trigger](recursos/gatilho-via-webhooks-trigger.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/gatilho-via-webhooks-trigger>
 - [- Incorporar Atendimento em Outro Sistema](recursos/incorporar-atendimento-em-outro-sistema.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/incorporar-atendimento-em-outro-sistema>
 - [Integrações](recursos/integracoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/integracoes>
+- [Link na Bio](recursos/link-na-bio.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/link-na-bio>
+- [Links de agendamento](recursos/links-de-agendamento.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/links-de-agendamento>
 - [n8n via FlowBuilder Nativo](recursos/n8n-via-flowbuilder.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/n8n-via-flowbuilder>
 - [n8n via Webhook](recursos/n8n-via-webhook.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/n8n-via-webhook>
 - [Provedor de IA](recursos/provedor-de-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/provedor-de-ia>
@@ -376,6 +379,7 @@
 - [Token OpenAI](recursos/token-openai.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/token-openai>
 - [Token PagSeguro (PagBank)](recursos/token-pagseguro-pagbank.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/token-pagseguro-pagbank>
 - [Vendas em Configurações](recursos/vendas-em-configuracoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/vendas-em-configuracoes>
+- [Web Chat](recursos/web-chat.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/web-chat>
 - [Webhook da Avaliação pela IA](recursos/webhook-da-avaliacao-pela-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/webhook-da-avaliacao-pela-ia>
 - [Webhook do Funil](recursos/webhook-do-funil.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/webhook-do-funil>
 - [Webhooks e integrações em Configurações](recursos/webhooks-e-integracoes-em-configuracoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/webhooks-e-integracoes-em-configuracoes>

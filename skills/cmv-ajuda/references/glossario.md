@@ -48,7 +48,7 @@ Termos que aparecem o tempo todo nas perguntas. Cada definição é um resumo do
 | Tag de Atendimento / Encerramento / CRM | Etiquetas ligadas, nessa ordem, ao ticket, ao protocolo e à oportunidade. | `outros/tipos-de-tags.md` |
 | Kanban de Tags | Quadro em que cada tag de atendimento vira uma coluna. | `recursos/kanban-de-tags.md` |
 | Quadro de atendimentos | Os mesmos atendimentos da lista de conversas, vistos em colunas. | `recursos/quadro-de-atendimentos.md` |
-| Resposta Rápida | Mensagem pronta, chamada no chat digitando `/` e o começo do atalho. | `recursos/resposta-rapida-envio-de-texto.md` |
+| Resposta Rápida | Mensagem pronta, chamada no chat digitando `/` e um pedaço do atalho, do texto ou da categoria (ou só o começo do atalho, conforme a **Busca das respostas rápidas** do cadastro de cada pessoa). | `recursos/visao-geral-respostas-rapidas.md`, `recursos/resposta-rapida-envio-de-texto.md` |
 | Funil, Etapa, Oportunidade | O funil é o caminho da venda; a oportunidade é o card de cada negociação, que anda pelas etapas. | `recursos/funis-do-crm.md`, `recursos/oportunidade-no-crm.md` |
 | Board | O quadro do funil no CRM: cada etapa é uma coluna. | `recursos/board-de-oportunidades.md` |
 | FlowBuilder | Construtor de fluxos de conversa; cada etapa é um bloco. No painel, menu FlowBuilder Nativo. | `recursos/flowbuilder.md`, `recursos/blocos.md` |

@@ -81,6 +81,7 @@ O artigo Mustaches diz, de forma geral, que o mustache é trocado "em algum loca
 |---|---|
 | **Atalho** | Nome usado para chamar a resposta. Os exemplos dos artigos têm barra, espaço e acento: `/catalogo roupa`, `/fluxo apresentação`, `/localização`. |
 | **Mensagem** | O texto, ou o código do tipo (tabela abaixo). |
+| **Categoria** | Opcional: "Serve para agrupar e achar mais rápido". Filtra a lista do menu e aparece entre parênteses na lista da barra `/` (`references/docs/recursos/visao-geral-respostas-rapidas.md`). |
 | **Global** | Só Admin define. Ativada: todos os atendentes usam. Desativada: só quem cadastrou. |
 
 **Tipos e o que vai no campo Mensagem**
@@ -346,10 +347,10 @@ Botão que grava um agendamento novo: **não documentado** (o artigo Adicionar A
 
 **Mensagem a todos os atendimentos (de um atendente)**
 
-Um aviso só para todos os clientes que estão em atendimento aberto com uma pessoa ("a Ana saiu de férias, quem assume é o Bruno"). Só está descrita na nota de atualização de 21/11/2026 (`references/docs/recursos/atualizacoes-2026-11-21.md`).
+Um aviso só para todos os clientes que estão em atendimento aberto com uma pessoa ("a Ana saiu de férias, quem assume é o Bruno"). Só está descrita nas notas de atualização de 21/11/2026 e de 22/11/2026 (`references/docs/recursos/atualizacoes-2026-11-21.md`, `references/docs/recursos/atualizacoes-2026-11-22.md`).
 
 - **Onde:** menu **Quadro de atendimentos**, visão **Atendentes**, ícone do avião de papel na coluna da pessoa (**Enviar mensagem a todos os atendimentos deste atendente**). Só administrador e supervisor veem o botão.
-- **Quem recebe:** os contatos dos atendimentos abertos daquela pessoa, uma vez cada, mesmo que apareçam em mais de um atendimento. Os filtros e a busca do Quadro valem: só entra o que o Quadro mostra. Atendimento que ainda aguarda a pessoa aceitar não recebe.
+- **Quem recebe:** os contatos dos atendimentos abertos daquela pessoa, uma vez cada, mesmo que apareçam em mais de um atendimento. Os filtros e a busca do Quadro valem: só entra o que o Quadro mostra. Atendimento que ainda aguarda a pessoa aceitar não recebe. Desde 22/11/2026, a janela diz quais filtros do Quadro estão valendo (sem filtro, a linha não aparece) e a mensagem chega também nos atendimentos do Chat Externo.
 - **Campos:** **Enviar pela conexão**, **Mensagem** e **Intervalo entre os envios** (de 15 segundos a 5 minutos). O botão **Agendar para N contato(s)** confirma.
 - **Variáveis:** `{{name}}` e `{{firstName}}`. Outras variáveis nesse campo: **não documentado**.
 - **Como sai:** cada contato vira um agendamento, um depois do outro, começando em 1 minuto. Aparecem no menu **Agendamentos**, onde **Excluir** cancela cada um.
@@ -476,7 +477,7 @@ Para responder "isso vai me custar?". Siga a ordem e não cite preço: nenhum va
 | Onde acompanho quanto já enviei? | **Conexões** › card da conexão oficial › **Limitador de Mensagens**: **Mensagens por ciclo** (1.000, se a ideia é acompanhar a franquia), **Dia de corte** e **Mostrar o contador no card**. **Neste ciclo** separa conversa livre, template, celular e híbrida; **Ver meses anteriores** guarda os seis últimos ciclos. O contador soma template junto: para comparar com a franquia, olhe a linha de conversas livres. Ele conta mensagens, não dinheiro, e não bloqueia nenhum envio. | `references/docs/recursos/limitador-de-mensagens.md`, `references/docs/trilhas/medir-quanto-voce-ja-enviou-no-mes.md` |
 | Como gasto menos? | Menos mensagens: uma completa em vez de várias curtas, **Concatenador**, fluxo com menos idas e voltas. Em envio de template em volume, "o número de envios é decisão de custo". | `references/docs/recursos/whatsapp-oficial-x-nao-oficial.md`, `references/docs/recursos/bloco-template.md` |
 
-**Não documentado:** o valor de cada categoria e onde consultá-lo; onde ver o gasto em dinheiro (o Limitador conta mensagens); se a plataforma cobra algo além do que a Meta cobra pelas mensagens. Sobre o último ponto, os artigos só afirmam que a cobrança por mensagem é da Meta. Quanto a empresa paga pela plataforma é definido no plano, por quem a fornece (campo **Valor** do plano; `references/docs/revendedor/recursos/configuracoes-planos.md`); nenhum valor está na documentação, e preços não fazem parte desta skill.
+**Não documentado:** o valor de cada categoria e onde consultá-lo; como é calculado o gasto em dinheiro (o Limitador conta mensagens; a nota de 20/11/2026 só diz que o Dashboard tem, para administrador e supervisor, o bloco **API Oficial: envios e custo**, com **Custo estimado**: `references/docs/recursos/atualizacoes-2026-11-20.md`); se a plataforma cobra algo além do que a Meta cobra pelas mensagens. Sobre o último ponto, os artigos só afirmam que a cobrança por mensagem é da Meta. Quanto a empresa paga pela plataforma é definido no plano, por quem a fornece (campo **Valor** do plano; `references/docs/revendedor/recursos/configuracoes-planos.md`); nenhum valor está na documentação, e preços não fazem parte desta skill.
 
 ---
 

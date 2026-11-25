@@ -233,6 +233,7 @@ Caminho de arquivo desta skill (o que começa por `references/` ou `assets/`) n�
 | Enviar template ou mensagem por API, webhook, n8n, payload | `cmv-api` |
 | Escrever o prompt do GPT Assistant ou de outro recurso de IA | `cmv-agente-ia` |
 | Dúvida de uso do painel que não envolve redigir mensagem (conectar número, permissões, erro de tela, configurar o Mail Marketing) | `cmv-ajuda` |
+| Aviso automático dos Links de agendamento, do Consultório ou das Reservas (lembrete, confirmação) | `cmv-ajuda`: esses avisos têm variáveis próprias (`{{cliente}}`, `{{data}}`, `{{hora}}`, `{{local}}` e outras), descritas nos artigos de cada módulo, que não fazem parte desta skill. Não as troque pelas daqui nem as trate como inventadas |
 | E-mail que não vai pelo Mail Marketing do CMV (Gmail, Outlook, outra ferramenta) | Nenhuma: fora desta skill |
 
 Quando o pedido mistura as duas coisas (por exemplo, "campanha que dispara um fluxo"), entregue aqui os textos e a parte de campanha, e diga com clareza qual parte cabe à outra skill. Os textos de dentro de um fluxo podem ser redigidos aqui; a montagem do fluxo, não.

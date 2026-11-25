@@ -1,10 +1,12 @@
-# Artigos incluídos nesta skill (78)
+# Artigos incluídos nesta skill (80)
 
+- [API Criar Fluxo](api/api-criar-fluxo.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-criar-fluxo>
 - [Aba Geral em Setores & Chatbot](recursos/aba-geral-em-setores-e-chatbot.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-geral-em-setores-e-chatbot>
 - [Aba Horários em Setores & Chatbot](recursos/aba-horarios-em-setores-e-chatbot.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-horarios-em-setores-e-chatbot>
 - [Aba Integrações em Setores & Chatbot](recursos/aba-integracoes-em-setores-e-chatbot.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-integracoes-em-setores-e-chatbot>
 - [Aba Mensagens em Setores & Chatbot](recursos/aba-mensagens-em-setores-e-chatbot.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-mensagens-em-setores-e-chatbot>
 - [Aguardando x Atendendo](recursos/aguardando-x-atendendo.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aguardando-x-atendendo>
+- [Atualizações 22/11/2026](recursos/atualizacoes-2026-11-22.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-22>
 - [Automações Rápidas](recursos/automacoes-rapidas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/automacoes-rapidas>
 - [Asaas](recursos/bloco-asaas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-asaas>
 - [Avaliação do Atendimento](recursos/bloco-avaliacao-do-atendimento.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-avaliacao-do-atendimento>

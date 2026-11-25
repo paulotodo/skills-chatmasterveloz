@@ -1,4 +1,4 @@
-# Artigos incluídos nesta skill (73)
+# Artigos incluídos nesta skill (75)
 
 - [Aba Horários em Setores & Chatbot](recursos/aba-horarios-em-setores-e-chatbot.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-horarios-em-setores-e-chatbot>
 - [Aba Mensagens em Setores & Chatbot](recursos/aba-mensagens-em-setores-e-chatbot.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-mensagens-em-setores-e-chatbot>
@@ -6,7 +6,9 @@
 - [Adicionar WhatsApp Oficial](recursos/adicionar-whatsapp-oficial.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/adicionar-whatsapp-oficial>
 - [Adicionar WhatsApp QRCode](recursos/adicionar-whatsapp-qrcode.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/adicionar-whatsapp-qrcode>
 - [Agendamentos](recursos/agendamentos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/agendamentos>
+- [Atualizações 20/11/2026](recursos/atualizacoes-2026-11-20.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-20>
 - [Atualizações 21/11/2026](recursos/atualizacoes-2026-11-21.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-21>
+- [Atualizações 22/11/2026](recursos/atualizacoes-2026-11-22.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-22>
 - [Avaliações em Configurações](recursos/avaliacoes-em-configuracoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/avaliacoes-em-configuracoes>
 - [Avaliações](recursos/avaliacoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/avaliacoes>
 - [Template](recursos/bloco-template.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-template>

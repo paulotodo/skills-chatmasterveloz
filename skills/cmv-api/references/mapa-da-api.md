@@ -197,11 +197,11 @@ A versão do CRM da empresa decide o conjunto de artigos: os de `/crm/v2/` exige
 | Listar Setores (ids para `queueId`) | `api/api-listar-setores-da-empresa.md` | |
 | Listar usuários (ids para `userId`) | `api/api-listar-usuarios-da-empresa.md` | |
 
-### Quadro de Atendimentos, Reservas, Consultório, Tarefas e Equipe
+### Quadro de atendimentos, Reservas, Consultório, Tarefas e Equipe
 
 | Grupo | Artigos (a página da seção lista todos) | Atenção (está no artigo) |
 |---|---|---|
-| Quadro de Atendimentos: quadros, colunas, regras, atendimentos do quadro (mover de coluna, fixar no topo, trocar a tag) | `api/api-quadro-de-atendimentos.md`; por exemplo `api/api-listar-quadros.md`, `api/api-listar-atendimentos-do-quadro.md`, `api/api-mover-atendimento-de-coluna.md` | Selo Todas. |
+| Quadro de atendimentos: quadros, colunas, regras, atendimentos do quadro (mover de coluna, fixar no topo, trocar a tag) | `api/api-quadro-de-atendimentos.md`; por exemplo `api/api-listar-quadros.md`, `api/api-listar-atendimentos-do-quadro.md`, `api/api-mover-atendimento-de-coluna.md` | Selo Todas. |
 | Reservas: reservas e séries, situação, horários e noites livres, ofertas, recursos, pacotes, relatório | `api/api-reservas.md`; por exemplo `api/api-criar-reserva.md`, `api/api-listar-horarios-livres-das-reservas.md`, `api/api-listar-reservas.md` | Selo Todas. |
 | Reserva de mesa do salão (PDV): criar, listar, obter, atualizar e mudar a situação; mesas e comandas | `api/api-criar-reserva-de-mesa.md`, `api/api-listar-reservas-de-mesa.md`, `api/api-obter-uma-reserva-de-mesa.md`, `api/api-atualizar-reserva-de-mesa.md`, `api/api-atualizar-a-situacao-de-uma-reserva-de-mesa.md`, `api/api-listar-mesas-e-comandas.md` | Selo Todas. É outro recurso, não o módulo Reservas: endereço `/api/pdv/reservas`, sem chamada de horários livres. A mesma mesa recusa reservas que se cruzam, entre pendentes e confirmadas, e a listagem devolve `inicio` e `fim` em UTC. Quem reserva por um formulário de site quase nunca é contato: mande `clienteNome` e `clienteTelefone` (o `number` é para telefone de contato; o artigo não diz o que acontece com `number` de quem não é contato). O artigo não diz em que fuso os filtros `dia`, `de` e `ate` são contados: para conferir conflito, busque também o dia anterior e o seguinte e compare pelo instante. |
 | Consultório: pacientes, consultas (marcar, remarcar, status), horários livres, profissionais, salas, serviços, convênios | `api/api-consultorio.md`; por exemplo `api/api-marcar-consulta.md`, `api/api-listar-horarios-livres-do-consultorio.md`, `api/api-buscar-pacientes.md` | Selo Empresa: só o Token da Empresa (seção 6). |
@@ -212,7 +212,7 @@ PDV, Projetos, Chat Interno, Gravações, Rodízios, E-mail, Respostas Rápidas,
 
 ## 6. Chamadas que só aceitam o Token da Empresa
 
-São os artigos com `**API:** Empresa` (Projetos, Chat Interno, Gravações, Consultório e o link de login automático). Liste com `python3 scripts/buscar_endpoint.py --conexao empresa`. Com o token de uma conexão, a resposta é 401 "Acesso não permitido" (`recursos/token-da-empresa-em-configuracoes.md`).
+São os artigos com `**API:** Empresa` (Projetos, Chat Interno, Gravações, Consultório e o link de login automático). Liste com `python3 scripts/buscar_endpoint.py --conexao empresa --exato` (sem o `--exato`, entram também as de selo Todas). Com o token de uma conexão, a resposta é 401 "Acesso não permitido" (`recursos/token-da-empresa-em-configuracoes.md`).
 
 Essa lista e esse 401 são das chamadas do cliente. Existe uma chamada administrativa do mesmo tipo, **Contar Empresas** (selo `Super Admin (Empresa)` no script, listada com `--conexao admin`): só aceita o Token da Empresa da empresa do Super Admin e, com token de conexão, responde `403` (`revendedor/api/api-admin-contar-empresas.md`).
 
@@ -233,6 +233,8 @@ Essa lista e esse 401 são das chamadas do cliente. Existe uma chamada administr
 | Das Reservas | sai do CMV | menu **Reservas**, aba **Webhook** | Reservas feitas, confirmadas, remarcadas ou canceladas, pagamentos, pacotes. Assinado com o Token da Empresa (`X-Assinatura-Reservas`) | `api/webhook-das-reservas.md` |
 | Do Consultório | sai do CMV | **Consultório › Cadastros do consultório**, aba **Webhook** | Consultas, recepção, pagamentos. Assinado com o Token da Empresa (`X-Assinatura-Consultorio`) | `api/webhook-do-consultorio.md` |
 | Do Mail Marketing | sai do CMV | **Mail Marketing › Configurações**, campo **Webhook do Mail Marketing** | Envio de campanha, abertura, clique, descadastro. Nome do evento em `X-MailMarketing-Evento`, assinatura em `X-Assinatura-MailMarketing` | `api/webhook-do-mail-marketing.md` |
+| Dos Links de agendamento | sai do CMV | menu **Links de agendamento**, bloco **Webhook do agendamento** (um endereço só, para todos os links da empresa) | `link-criado`, `link-alterado`, `link-removido` e `agendamento-criado` (o cliente marcou), "assinados com o token da empresa". O artigo não mostra o payload nem o cabeçalho da assinatura | `recursos/links-de-agendamento.md` |
+| Do Link na Bio | sai do CMV | menu **Link na Bio**, campo **Webhook do Link na Bio** | Cada toque num botão (`link-na-bio-clique`) e cada vez que a página é salva | `recursos/link-na-bio.md` |
 | Webhook Trigger | **entra** no CMV | menu **Webhooks \| Triggers**, **Novo Webhook \| Trigger** | Um sistema externo chama o endereço gerado e inicia um fluxo | `api/webhook-triggers.md`, `recursos/gatilho-via-webhooks-trigger.md` |
 | Administrativo (do revendedor) | sai do CMV | **Configurações › Plataforma**, seção **Configurações Globais**, campo **Webhook de Eventos [Conexões]** | Conexão de qualquer empresa que muda de status e empresa nova criada, no mesmo endereço; o campo `event` separa os dois. Entrega única: aviso não entregue não é guardado. Endereço preenchido e fora do ar pode interromper a plataforma inteira | `revendedor/api/habilitar-webhook-administrativo.md`, `revendedor/api/webhook-admin-alteracao-na-conexao.md`, `revendedor/api/webhook-admin-criacao-de-empresa.md`; seção 6 de `references/api-administrativa.md` |
 
@@ -243,7 +245,8 @@ Apoio: como escolher (`api/qual-webhook-usar.md`), visão geral (`api/webhooks.m
 - `api/webhooks-da-conexao.md` descreve um campo só, **Webhook**, na aba **Integrações** da Conexão.
 - `recursos/n8n-via-webhook.md` manda colar a URL em **Conexões > editar > Integrações > Webhook Principal ou Secundário**.
 - Pela API, a Conexão tem os campos `webhook` e `webhookb`: "os endereços do webhook principal e do secundário" (`api/api-atualizar-conexao.md`); em `api/api-criar-conexao.md`, `webhookb` é "a URL do seu webhook secundário".
-- **Não documentado:** a diferença entre os dois (se recebem os mesmos avisos, se um é reserva do outro, em que ordem são chamados). Não afirme nada sobre isso. Se a pessoa preencheu os dois e recebe em dobro, apresente como hipótese a conferir, não como causa confirmada.
+- No WebChat, "o secundário recebe os mesmos eventos, para uma integração paralela" (`recursos/web-chat.md`).
+- **Não documentado:** se nas outras conexões os dois recebem os mesmos avisos, se um é reserva do outro e em que ordem são chamados. Não afirme nada sobre isso. Se a pessoa preencheu os dois e recebe em dobro, apresente como hipótese a conferir, não como causa confirmada.
 
 ### O que os artigos avisam e costuma quebrar integrações
 
@@ -272,6 +275,7 @@ Esta é a lista completa; `SKILL.md` e `references/moldes-de-codigo.md` só apon
 | Onde se liga a transcrição de áudio na tela? | Não está nos artigos desta skill. Pela API existe o campo `isTranscribe` do Setor ("`true` transcreve os áudios recebidos no Setor"): `api/api-criar-setor.md`, `api/api-atualizar-setor.md`. O caminho pela tela é assunto da skill `cmv-ajuda`. |
 | Qual `acao` tem cada um dos dois avisos de mídia? | `api/arquivos-no-webhook.md` não diz; só descreve o conteúdo de cada um. |
 | Onde fica o identificador da mensagem no aviso `fila-data` (QR Code)? | O exemplo com `mensagem.wid` é do `from_internal`; para QR Code o artigo só diz que o texto está em `msg.message`. |
+| Como ligar um assistente de IA externo aos dados do atendimento, ou fazer a IA do atendimento consultar o sistema da empresa? | Só o anúncio da nota de 22/11/2026 (`recursos/atualizacoes-2026-11-22.md`), que diz que a Conexão com assistentes de IA precisa estar liberada para a empresa. Não há artigo, endereço nem payload: não monte código para isso. |
 | Como aparece no aviso uma mensagem enviada pela API (`userId`, `fromApp`)? | Os artigos só descrevem o atendente pela tela e o celular da conta. O que está documentado é o `origemDoEvento` igual a `api`. |
 | Qual é o payload dos avisos de Webhook Eventos? | `api/webhook-eventos.md` não traz exemplo; só diz que o `acao` vem dentro de `body`. |
 | Diferença entre webhook principal e secundário da Conexão | Ver acima. |

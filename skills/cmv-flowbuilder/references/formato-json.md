@@ -1,10 +1,10 @@
 # Formato do arquivo .json de fluxo (observado)
 
-> **Isto não é documentação oficial.** É o formato **observado em um arquivo exportado** pela plataforma (um fluxo real com 193 blocos e 269 ligações, 14 tipos de bloco), cruzado com os artigos de `references/docs/recursos/`. A documentação só diz que **Exportar Fluxo** baixa um `.json` e que **Importar** aceita "um arquivo exportado de um fluxo" (Visão Geral FlowBuilder (`references/docs/recursos/visao-geral-flowbuilder.md`)); ela não descreve o conteúdo do arquivo. O formato pode mudar entre versões da plataforma.
+> **Isto não é documentação oficial.** É o formato **observado em um arquivo exportado** pela plataforma (um fluxo real com 193 blocos e 269 ligações, 14 tipos de bloco), cruzado com os artigos de `references/docs/recursos/`. A documentação só diz que **Exportar Fluxo** baixa um `.json` e que **Importar** aceita "um arquivo exportado de um fluxo" (Visão Geral FlowBuilder Nativo (`references/docs/recursos/visao-geral-flowbuilder.md`)). O artigo da API Criar Fluxo (`references/docs/api/api-criar-fluxo.md`) confirma só a estrutura de cima: um objeto com as listas `nodes` (cada bloco com `id`, `type`, `data` e `position`) e `connections` (cada ligação com `source` e `target`). O conteúdo do `data` de cada tipo de bloco não está documentado. O formato pode mudar entre versões da plataforma.
 >
 > Duas consequências práticas:
 > 1. Só gere JSON com o que está nesta página. Campo, tipo ou valor que não aparece aqui não foi observado: não invente.
-> 2. Importar um arquivo **escrito fora da plataforma** não foi testado por quem escreveu esta skill. Por isso todo JSON entregue vai com a conferência no editor e o teste descritos no `SKILL.md`.
+> 2. Importar um arquivo **escrito fora da plataforma** só foi testado com parte dos blocos (em 22 e 23/11/2026; o que foi visto está anotado nas tabelas desta página). Por isso todo JSON entregue vai com a conferência no editor e o teste descritos no `SKILL.md`.
 >
 > Se a pessoa tiver um fluxo exportado da própria conta com um bloco que não está aqui, peça o arquivo: ele mostra o formato daquele bloco na versão dela, e vale mais do que esta página.
 
