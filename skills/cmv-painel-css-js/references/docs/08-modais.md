@@ -1,8 +1,8 @@
-<!-- gerado por _gerar.py · fonte: https://app.chatmasterveloz.com/catalogo-css/pt.json · versão WS-30.141.0 -->
+<!-- gerado por _gerar.py · fonte: https://app.chatmasterveloz.com/catalogo-css/pt.json · versão WS-30.215.0 -->
 
 # Modais
 
-367 modais. Todos carregam também `custom-css-modal`, então `.custom-css-modal { border-radius: 12px; }` pega os 367 de uma vez.
+378 modais. Todos carregam também `custom-css-modal`, então `.custom-css-modal { border-radius: 12px; }` pega os 378 de uma vez.
 
 - `.custom-css-modal-accept-ticket`
 - `.custom-css-modal-acessos-do-usuario`
@@ -104,7 +104,6 @@
 - `.custom-css-modal-confirmation-resposta-rapida-excluir`
 - `.custom-css-modal-confirmation-respostas-rapidas-excluir`
 - `.custom-css-modal-confirmation-rodizio-excluir`
-- `.custom-css-modal-confirmation-servico-excluir`
 - `.custom-css-modal-confirmation-setor-excluir`
 - `.custom-css-modal-confirmation-tarefa-descartar`
 - `.custom-css-modal-confirmation-tarefa-excluir-lista`
@@ -138,6 +137,7 @@
 - `.custom-css-modal-contact-summary`
 - `.custom-css-modal-contacts`
 - `.custom-css-modal-contato-consultorio-cobranca`
+- `.custom-css-modal-convidados-externos`
 - `.custom-css-modal-copilot`
 - `.custom-css-modal-copilot-historico`
 - `.custom-css-modal-crm-acao-em-massa`
@@ -296,6 +296,7 @@
 - `.custom-css-modal-provedor-de-email`
 - `.custom-css-modal-proxy-diagnostic`
 - `.custom-css-modal-qrcode`
+- `.custom-css-modal-quadro-disparo`
 - `.custom-css-modal-queue`
 - `.custom-css-modal-queue-category`
 - `.custom-css-modal-quick-message`
@@ -323,7 +324,17 @@
 - `.custom-css-modal-sales-goals`
 - `.custom-css-modal-schedule`
 - `.custom-css-modal-send-limit`
-- `.custom-css-modal-service`
+- `.custom-css-modal-servicos-agenda-config`
+- `.custom-css-modal-servicos-agendamento`
+- `.custom-css-modal-servicos-agendamento-cancelar`
+- `.custom-css-modal-servicos-cobranca`
+- `.custom-css-modal-servicos-estorno`
+- `.custom-css-modal-servicos-item`
+- `.custom-css-modal-servicos-linha`
+- `.custom-css-modal-servicos-motivo`
+- `.custom-css-modal-servicos-ordem`
+- `.custom-css-modal-servicos-pagamento`
+- `.custom-css-modal-servicos-prova`
 - `.custom-css-modal-short-link`
 - `.custom-css-modal-sip-dialer`
 - `.custom-css-modal-sip-receiver`

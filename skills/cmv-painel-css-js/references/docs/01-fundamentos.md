@@ -1,4 +1,4 @@
-<!-- gerado por _gerar.py · fonte: https://app.chatmasterveloz.com/catalogo-css/pt.json · versão WS-30.141.0 -->
+<!-- gerado por _gerar.py · fonte: https://app.chatmasterveloz.com/catalogo-css/pt.json · versão WS-30.215.0 -->
 
 # Fundamentos
 
@@ -61,4 +61,4 @@ Para vencer o Material-UI às vezes é preciso `!important`, igual no CSS geral.
 
 Inspecione o elemento no navegador: se ele tiver uma classe `custom-css-*` (ou uma das classes sem prefixo), ela está aqui. Se não tiver, o alvo ainda não existe — peça, porque depender das classes do Material-UI (`.MuiPaper-root`, `.jss123`) quebra na próxima atualização da biblioteca.
 
-Totais: 155 páginas · 367 modais · 2443 específicas · 69 sem prefixo · 553 atributos · Chat Externo: 95 âncoras e 29 atributos.
+Totais: 162 páginas · 378 modais · 2818 específicas · 69 sem prefixo · 623 atributos · Chat Externo: 95 âncoras e 29 atributos.

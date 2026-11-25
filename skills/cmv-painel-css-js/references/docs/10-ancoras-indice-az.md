@@ -1,6 +1,6 @@
-<!-- gerado por _gerar.py · fonte: https://app.chatmasterveloz.com/catalogo-css/pt.json · versão WS-30.141.0 -->
+<!-- gerado por _gerar.py · fonte: https://app.chatmasterveloz.com/catalogo-css/pt.json · versão WS-30.215.0 -->
 
-# Âncoras específicas, de A a Z (2443)
+# Âncoras específicas, de A a Z (2818)
 
 Uma linha por classe, com as áreas (componentes) onde ela aparece. O que cada área contém está em `09-ancoras-por-area.md`.
 
@@ -15,9 +15,12 @@ Uma linha por classe, com as áreas (componentes) onde ela aparece. O que cada �
 - `.custom-css-agendar-publico-confirmada` — áreas: `AgendarPublico`
 - `.custom-css-agendar-publico-dias-anteriores` — áreas: `AgendarPublico`
 - `.custom-css-agendar-publico-dias` — áreas: `AgendarPublico`
+- `.custom-css-agendar-publico-endereco` — áreas: `AgendarPublico`
 - `.custom-css-agendar-publico-erro` — áreas: `AgendarPublico`
 - `.custom-css-agendar-publico-formulario` — áreas: `AgendarPublico`
 - `.custom-css-agendar-publico-horarios` — áreas: `AgendarPublico`
+- `.custom-css-agendar-publico-locais` — áreas: `AgendarPublico`
+- `.custom-css-agendar-publico-local-marcado` — áreas: `AgendarPublico`
 - `.custom-css-agendar-publico-mais-dias` — áreas: `AgendarPublico`
 - `.custom-css-agendar-publico-marcar` — áreas: `AgendarPublico`
 - `.custom-css-agendar-publico-recusa` — áreas: `AgendarPublico`
@@ -31,6 +34,8 @@ Uma linha por classe, com as áreas (componentes) onde ela aparece. O que cada �
 - `.custom-css-ajustes-das-formas-canais-ajuda` — áreas: `Settings`
 - `.custom-css-ajustes-das-formas` — áreas: `Settings`
 - `.custom-css-amqp-vazio` — áreas: `AmqpMessages`
+- `.custom-css-anexo-pendente` — áreas: `AnexosDoRegistro`
+- `.custom-css-anexos-pendentes` — áreas: `AnexosDoRegistro`
 - `.custom-css-anexos` — áreas: `AnexosDoRegistro`
 - `.custom-css-aniversariantes-conversar` — áreas: `Dashboard`
 - `.custom-css-aniversariantes` — áreas: `Dashboard`
@@ -83,6 +88,16 @@ Uma linha por classe, com as áreas (componentes) onde ela aparece. O que cada �
 - `.custom-css-atendimentos-vazio` — áreas: `Atendimentos`
 - `.custom-css-atividade-descricao` — áreas: `AtividadesDaOportunidade`
 - `.custom-css-atividade-link` — áreas: `AtividadesDaOportunidade`
+- `.custom-css-atividade-mcp-abas` — áreas: `AtividadeDoMcp`
+- `.custom-css-atividade-mcp-aprovacao` — áreas: `AtividadeDoMcp`
+- `.custom-css-atividade-mcp-aprovacoes` — áreas: `AtividadeDoMcp`
+- `.custom-css-atividade-mcp-aprovar` — áreas: `AtividadeDoMcp`
+- `.custom-css-atividade-mcp-filtros` — áreas: `AtividadeDoMcp`
+- `.custom-css-atividade-mcp-item` — áreas: `AtividadeDoMcp`
+- `.custom-css-atividade-mcp-lista` — áreas: `AtividadeDoMcp`
+- `.custom-css-atividade-mcp-recusar` — áreas: `AtividadeDoMcp`
+- `.custom-css-atividade-mcp-texto` — áreas: `AtividadeDoMcp`
+- `.custom-css-atividade-mcp-vazio` — áreas: `AtividadeDoMcp`
 - `.custom-css-atividade-prazo` — áreas: `AtividadesDaOportunidade`
 - `.custom-css-atividade` — áreas: `AtividadesDaOportunidade`
 - `.custom-css-atividades-agenda` — áreas: `AtividadesDaOportunidade`
@@ -91,6 +106,15 @@ Uma linha por classe, com as áreas (componentes) onde ela aparece. O que cada �
 - `.custom-css-atividades-form` — áreas: `AtividadesDaOportunidade`
 - `.custom-css-atividades-historico` — áreas: `AtividadesDaOportunidade`
 - `.custom-css-atividades` — áreas: `AtividadesDaOportunidade`
+- `.custom-css-autorizar-mcp-acao` — áreas: `AutorizarMcp`
+- `.custom-css-autorizar-mcp-cartao` — áreas: `AutorizarMcp`
+- `.custom-css-autorizar-mcp-erro` — áreas: `AutorizarMcp`
+- `.custom-css-autorizar-mcp-permitir` — áreas: `AutorizarMcp`
+- `.custom-css-autorizar-mcp-plataforma` — áreas: `AutorizarMcp`
+- `.custom-css-autorizar-mcp-recusar` — áreas: `AutorizarMcp`
+- `.custom-css-autorizar-mcp-retorno` — áreas: `AutorizarMcp`
+- `.custom-css-autorizar-mcp-titulo` — áreas: `AutorizarMcp`
+- `.custom-css-autorizar-mcp` — áreas: `AutorizarMcp`
 - `.custom-css-avaliacao-ia-aderencia` — áreas: `AvaliacaoPelaIa`
 - `.custom-css-avaliacao-ia-alertas` — áreas: `Settings`
 - `.custom-css-avaliacao-ia-aula-foco` — áreas: `AvaliacaoPelaIa`
@@ -153,7 +177,7 @@ Uma linha por classe, com as áreas (componentes) onde ela aparece. O que cada �
 - `.custom-css-btn-flow-templates` — áreas: `FlowBuilder`
 - `.custom-css-btn-knowledge-base` — áreas: `Prompts`
 - `.custom-css-btn-notas-mais` — áreas: `NotasInternasDoTicket`
-- `.custom-css-btn-open-form` — áreas: `Annoucements`, `Campaigns`, `ContactListItems`, `Contacts`, `FlowBuilder`, `FlowCategories`, `GroupManagement`, `Products`, `Prompts`, `QueueCategories`, `Queues`, `QuickMessages`, `Ratings`, `Schedules`, `Services`, `ShortLinks`, `Tags`, `Users`, `Webhook`
+- `.custom-css-btn-open-form` — áreas: `Annoucements`, `Campaigns`, `ContactListItems`, `Contacts`, `FlowBuilder`, `FlowCategories`, `GroupManagement`, `Products`, `Prompts`, `QueueCategories`, `Queues`, `QuickMessages`, `Ratings`, `Schedules`, `ShortLinks`, `Tags`, `Users`, `Webhook`
 - `.custom-css-btn-refresh` — áreas: `RemarketingLogs`
 - `.custom-css-btn-ver-notas-internas` — áreas: `NotasInternasDoTicket`
 - `.custom-css-busca-contato-nome` — áreas: `OpcaoDoContatoComTags`
@@ -171,6 +195,8 @@ Uma linha por classe, com as áreas (componentes) onde ela aparece. O que cada �
 - `.custom-css-button-answer-from-ia-use` — áreas: `AnswerFromIABar`
 - `.custom-css-button` — áreas: `AnswerFromIABar`, `AnswerFromIASettings`, `PontosDeIAManager`, `TicketsKanban`
 - `.custom-css-caixa-recebido-online` — áreas: `Caixa`
+- `.custom-css-campo-com-mencao-lista` — áreas: `CampoComMencao`
+- `.custom-css-campo-com-mencao` — áreas: `CampoComMencao`
 - `.custom-css-cancelar-pedido-cliente` — áreas: `CancelarPedidoDoPainel`
 - `.custom-css-cancelar-pedido-motivo` — áreas: `CancelarPedidoDoPainel`
 - `.custom-css-cancelar-pedido-motivos` — áreas: `CancelarPedidoDoPainel`
@@ -224,6 +250,7 @@ Uma linha por classe, com as áreas (componentes) onde ela aparece. O que cada �
 - `.custom-css-chamada-convite` — áreas: `Chamada`
 - `.custom-css-chamada-dispositivos-botao` — áreas: `Chamada`
 - `.custom-css-chamada-dispositivos` — áreas: `Chamada`
+- `.custom-css-chamada-encaixada` — áreas: `Chamada`
 - `.custom-css-chamada-entrar` — áreas: `Chamada`
 - `.custom-css-chamada-equipe` — áreas: `Chamada`
 - `.custom-css-chamada-espera` — áreas: `Chamada`
@@ -239,6 +266,7 @@ Uma linha por classe, com as áreas (componentes) onde ela aparece. O que cada �
 - `.custom-css-chamada-ha-video` — áreas: `Chamada`
 - `.custom-css-chamada-iniciar-audio` — áreas: `Chamada`
 - `.custom-css-chamada-iniciar-video` — áreas: `Chamada`
+- `.custom-css-chamada-maximizar` — áreas: `Chamada`
 - `.custom-css-chamada-mini` — áreas: `Chamada`
 - `.custom-css-chamada-na-chamada` — áreas: `Chamada`
 - `.custom-css-chamada-palco` — áreas: `Chamada`
@@ -251,6 +279,7 @@ Uma linha por classe, com as áreas (componentes) onde ela aparece. O que cada �
 - `.custom-css-chamada-participante-video` — áreas: `Chamada`
 - `.custom-css-chamada-participante` — áreas: `Chamada`, `helpers`
 - `.custom-css-chamada-pedidos` — áreas: `Chamada`
+- `.custom-css-chamada-previa-do-encaixe` — áreas: `Chamada`
 - `.custom-css-chamada-recolher` — áreas: `Chamada`
 - `.custom-css-chamada-redimensionar-direito` — áreas: `Chamada`
 - `.custom-css-chamada-redimensionar-esquerdo` — áreas: `Chamada`
@@ -324,6 +353,8 @@ Uma linha por classe, com as áreas (componentes) onde ela aparece. O que cada �
 - `.custom-css-chats-item-nome` — áreas: `Chat`
 - `.custom-css-chats-item-previa` — áreas: `Chat`
 - `.custom-css-chats-item` — áreas: `Chat`
+- `.custom-css-chats-limpar-vazias-janela` — áreas: `ChatInterno`
+- `.custom-css-chats-limpar-vazias` — áreas: `ChatInterno`
 - `.custom-css-chats-lista` — áreas: `Chat`
 - `.custom-css-chats-mencao-avatar` — áreas: `Chat`
 - `.custom-css-chats-mensagens` — áreas: `Chat`
@@ -380,6 +411,7 @@ Uma linha por classe, com as áreas (componentes) onde ela aparece. O que cada �
 - `.custom-css-comandos-ia-falta` — áreas: `ComandosDaIAModal`
 - `.custom-css-comentario-em-destaque` — áreas: `ComentariosDoRegistro`, `ToDoList`
 - `.custom-css-comentarios-modo` — áreas: `ModoDosComentarios`
+- `.custom-css-comentarios-rico` — áreas: `ComentariosDoRegistro`
 - `.custom-css-comentarios` — áreas: `ComentariosDoRegistro`
 - `.custom-css-comissao-do-entregador-geral` — áreas: `Settings`
 - `.custom-css-comissao-do-entregador-nova` — áreas: `Settings`
@@ -641,6 +673,7 @@ Uma linha por classe, com as áreas (componentes) onde ela aparece. O que cada �
 - `.custom-css-contato-consultorio-consulta` — áreas: `ConsultorioDoContato`
 - `.custom-css-contato-consultorio-documento` — áreas: `ConsultorioDoContato`
 - `.custom-css-contato-consultorio` — áreas: `ConsultorioDoContato`
+- `.custom-css-contato-numero-mascarado` — áreas: `ContactModal`, `ContactModalTicket`
 - `.custom-css-contato-oportunidade-criar-projeto` — áreas: `OportunidadesDoContato`
 - `.custom-css-contato-oportunidade-funil` — áreas: `OportunidadesDoContato`
 - `.custom-css-contato-oportunidade-nome` — áreas: `OportunidadesDoContato`
@@ -679,6 +712,35 @@ Uma linha por classe, com as áreas (componentes) onde ela aparece. O que cada �
 - `.custom-css-conversation-bar-human-agent` — áreas: `MessagesList`
 - `.custom-css-conversation-bar-text` — áreas: `MessagesList`
 - `.custom-css-conversation-bar` — áreas: `MessagesList`
+- `.custom-css-convidado-carregando` — áreas: `ConvidadoPublico`
+- `.custom-css-convidado-cartao` — áreas: `ConvidadoPublico`
+- `.custom-css-convidado-checklist-item` — áreas: `ConvidadoPublico`
+- `.custom-css-convidado-checklist` — áreas: `ConvidadoPublico`
+- `.custom-css-convidado-comentario` — áreas: `ConvidadoPublico`
+- `.custom-css-convidado-comentarios` — áreas: `ConvidadoPublico`
+- `.custom-css-convidado-descricao` — áreas: `ConvidadoPublico`
+- `.custom-css-convidado-detalhes` — áreas: `ConvidadoPublico`
+- `.custom-css-convidado-empresa` — áreas: `ConvidadoPublico`
+- `.custom-css-convidado-etapa` — áreas: `ConvidadoPublico`
+- `.custom-css-convidado-etapas` — áreas: `ConvidadoPublico`
+- `.custom-css-convidado-fora` — áreas: `ConvidadoPublico`
+- `.custom-css-convidado-prioridade` — áreas: `ConvidadoPublico`
+- `.custom-css-convidado-progresso` — áreas: `ConvidadoPublico`
+- `.custom-css-convidado-rodape` — áreas: `ConvidadoPublico`
+- `.custom-css-convidado-saudacao` — áreas: `ConvidadoPublico`
+- `.custom-css-convidado-situacao` — áreas: `ConvidadoPublico`
+- `.custom-css-convidado-tarefa` — áreas: `ConvidadoPublico`
+- `.custom-css-convidado-titulo` — áreas: `ConvidadoPublico`
+- `.custom-css-convidados-externos-acessos` — áreas: `ConvidadosExternos`
+- `.custom-css-convidados-externos-ajuda` — áreas: `ConvidadosExternos`
+- `.custom-css-convidados-externos-confirma-remover` — áreas: `ConvidadosExternos`
+- `.custom-css-convidados-externos-convidar` — áreas: `ConvidadosExternos`
+- `.custom-css-convidados-externos-form` — áreas: `ConvidadosExternos`
+- `.custom-css-convidados-externos-linha` — áreas: `ConvidadosExternos`
+- `.custom-css-convidados-externos-lista` — áreas: `ConvidadosExternos`
+- `.custom-css-convidados-externos-sem-vaga` — áreas: `ConvidadosExternos`
+- `.custom-css-convidados-externos-titulo` — áreas: `ConvidadosExternos`
+- `.custom-css-convidados-externos-uso` — áreas: `ConvidadosExternos`
 - `.custom-css-copilot-acao-projeto-copiar-da-venda` — áreas: `CopilotDaRaiaModal`
 - `.custom-css-copilot-acao-projeto-responsavel` — áreas: `CopilotDaRaiaModal`
 - `.custom-css-copilot-acao-projeto` — áreas: `CopilotDaRaiaModal`
@@ -746,6 +808,7 @@ Uma linha por classe, com as áreas (componentes) onde ela aparece. O que cada �
 - `.custom-css-crm-ranking-modo-tv-barra` — áreas: `CrmV2Ranking`
 - `.custom-css-crm-ranking-modo-tv-botao` — áreas: `CrmV2Ranking`
 - `.custom-css-crm-ranking-opcao-encerramento` — áreas: `CrmV2Ranking`
+- `.custom-css-crm-ranking-perfil` — áreas: `CrmV2Ranking`
 - `.custom-css-crm-ranking-visao` — áreas: `CrmV2Ranking`
 - `.custom-css-crm-regra-encadeamento` — áreas: `CrmV2Funis`
 - `.custom-css-crm-regra-projeto-copiar-da-venda` — áreas: `CrmV2Funis`
@@ -773,6 +836,7 @@ Uma linha por classe, com as áreas (componentes) onde ela aparece. O que cada �
 - `.custom-css-dashboard-legado-barra` — áreas: `Dashboard`
 - `.custom-css-dashboard-lista-acoes` — áreas: `Dashboard`
 - `.custom-css-dashboard-lista-atendente` — áreas: `Dashboard`
+- `.custom-css-dashboard-lista-espiar` — áreas: `Dashboard`
 - `.custom-css-dashboard-lista-linha` — áreas: `Dashboard`
 - `.custom-css-dashboard-lista-sla` — áreas: `Dashboard`
 - `.custom-css-dashboard-metas-botao` — áreas: `Dashboard`
@@ -867,6 +931,7 @@ Uma linha por classe, com as áreas (componentes) onde ela aparece. O que cada �
 - `.custom-css-editor-de-imagem-texto-pronto` — áreas: `EditorDeImagem`
 - `.custom-css-editor-de-imagem-texto` — áreas: `EditorDeImagem`
 - `.custom-css-editor-de-imagem-topo` — áreas: `EditorDeImagem`
+- `.custom-css-editor-texto-rico-mencoes` — áreas: `TextoRico`
 - `.custom-css-editor-texto-rico` — áreas: `TextoRico`
 - `.custom-css-email-account-enderecos` — áreas: `EmailAccountModal`
 - `.custom-css-email-account-imagem-escolher` — áreas: `ImagemDaContaDeEmail`
@@ -899,10 +964,10 @@ Uma linha por classe, com as áreas (componentes) onde ela aparece. O que cada �
 - `.custom-css-empresa-chave-de-ia-tirar` — áreas: `ChaveDeIaDaEmpresa`
 - `.custom-css-empresa-chave-de-ia` — áreas: `ChaveDeIaDaEmpresa`
 - `.custom-css-empty-state-acao` — áreas: `DocumentacaoCss`, `Pipeline`
-- `.custom-css-empty-state-icone` — áreas: `AmqpMessages`, `AnnouncementHistory`, `AuditLogs`, `BotFiles`, `CampaignReport`, `Campaigns`, `Chat`, `CompaniesManager`, `Connections`, `ContactListItems`, `ContactLists`, `Contacts`, `ContactsDuplicates`, `DocumentacaoCss`, `Emails`, `FlowBuilder`, `FlowCategories`, `GroupManagement`, `Kanban`, `KanbanGrupos`, `KanbanTeam`, `Oportunidades`, `Pipeline`, `PixelLogs`, `Products`, `Prompts`, `Propostas`, `QueueCategories`, `Queues`, `QuickMessages`, `Schedules`, `Services`, `Tags`, `ToDoList`, `WABATemplates`, `Webhook`
+- `.custom-css-empty-state-icone` — áreas: `AmqpMessages`, `AnnouncementHistory`, `AuditLogs`, `BotFiles`, `CampaignReport`, `Campaigns`, `Chat`, `CompaniesManager`, `Connections`, `ContactListItems`, `ContactLists`, `Contacts`, `ContactsDuplicates`, `DocumentacaoCss`, `Emails`, `FlowBuilder`, `FlowCategories`, `GroupManagement`, `Kanban`, `KanbanGrupos`, `KanbanTeam`, `Oportunidades`, `Pipeline`, `PixelLogs`, `Products`, `Prompts`, `Propostas`, `QueueCategories`, `Queues`, `QuickMessages`, `Schedules`, `Tags`, `ToDoList`, `WABATemplates`, `Webhook`
 - `.custom-css-empty-state-texto` — áreas: `AuditLogs`, `BotFiles`, `CampaignReport`, `Campaigns`, `Chat`, `Connections`, `ContactLists`, `DocumentacaoCss`, `FlowBuilder`, `FlowCategories`, `GroupManagement`, `Kanban`, `KanbanGrupos`, `KanbanTeam`, `Pipeline`, `Prompts`, `Propostas`, `QueueCategories`, `Schedules`, `Tags`, `ThirdPart`, `TicketsList`, `TicketsListCustom`, `ToDoList`, `WABATemplates`, `Webhook`
-- `.custom-css-empty-state-titulo` — áreas: `AmqpMessages`, `AnnouncementHistory`, `AuditLogs`, `BotFiles`, `CampaignReport`, `Campaigns`, `Chat`, `CompaniesManager`, `Connections`, `ContactListItems`, `ContactLists`, `Contacts`, `ContactsDuplicates`, `DocumentacaoCss`, `Emails`, `FlowBuilder`, `FlowCategories`, `GroupManagement`, `Kanban`, `KanbanGrupos`, `KanbanTeam`, `Oportunidades`, `Pipeline`, `PixelLogs`, `Products`, `Prompts`, `Propostas`, `QueueCategories`, `Queues`, `QuickMessages`, `Schedules`, `Services`, `Tags`, `ThirdPart`, `TicketsList`, `TicketsListCustom`, `ToDoList`, `WABATemplates`, `Webhook`
-- `.custom-css-empty-state` — áreas: `AmqpMessages`, `AnnouncementHistory`, `AuditLogs`, `AvaliacaoPelaIa`, `BotFiles`, `CampaignReport`, `Campaigns`, `Chat`, `CompaniesManager`, `Connections`, `ContactListItems`, `ContactLists`, `Contacts`, `ContactsDuplicates`, `DocumentacaoCss`, `Emails`, `FlowBuilder`, `FlowCategories`, `GroupManagement`, `Kanban`, `KanbanGrupos`, `KanbanTeam`, `Oportunidades`, `Pipeline`, `PixelLogs`, `Products`, `Prompts`, `Propostas`, `QueueCategories`, `Queues`, `QuickMessages`, `Schedules`, `Services`, `Tags`, `ThirdPart`, `TicketsList`, `TicketsListCustom`, `ToDoList`, `WABATemplates`, `Webhook`
+- `.custom-css-empty-state-titulo` — áreas: `AmqpMessages`, `AnnouncementHistory`, `AuditLogs`, `BotFiles`, `CampaignReport`, `Campaigns`, `Chat`, `CompaniesManager`, `Connections`, `ContactListItems`, `ContactLists`, `Contacts`, `ContactsDuplicates`, `DocumentacaoCss`, `Emails`, `FlowBuilder`, `FlowCategories`, `GroupManagement`, `Kanban`, `KanbanGrupos`, `KanbanTeam`, `Oportunidades`, `Pipeline`, `PixelLogs`, `Products`, `Prompts`, `Propostas`, `QueueCategories`, `Queues`, `QuickMessages`, `Schedules`, `Tags`, `ThirdPart`, `TicketsList`, `TicketsListCustom`, `ToDoList`, `WABATemplates`, `Webhook`
+- `.custom-css-empty-state` — áreas: `AmqpMessages`, `AnnouncementHistory`, `AuditLogs`, `AvaliacaoPelaIa`, `BotFiles`, `CampaignReport`, `Campaigns`, `Chat`, `CompaniesManager`, `Connections`, `ContactListItems`, `ContactLists`, `Contacts`, `ContactsDuplicates`, `ConvidadoPublico`, `ConvidadosExternos`, `DocumentacaoCss`, `Emails`, `FlowBuilder`, `FlowCategories`, `GroupManagement`, `Kanban`, `KanbanGrupos`, `KanbanTeam`, `Oportunidades`, `Pipeline`, `PixelLogs`, `Products`, `Prompts`, `Propostas`, `QueueCategories`, `Queues`, `QuickMessages`, `Schedules`, `Tags`, `ThirdPart`, `TicketsList`, `TicketsListCustom`, `ToDoList`, `WABATemplates`, `Webhook`
 - `.custom-css-encerramento-atalho` — áreas: `EncerramentoComVenda`
 - `.custom-css-encerramento-avaliacao` — áreas: `EncerramentoComVenda`
 - `.custom-css-encerramento-busca` — áreas: `EncerramentoComVenda`
@@ -1110,6 +1175,7 @@ Uma linha por classe, com as áreas (componentes) onde ela aparece. O que cada �
 - `.custom-css-flow-versoes` — áreas: `FlowBuilderConfig`
 - `.custom-css-flowbuilder-actions-search` — áreas: `FlowBuilderConfig`
 - `.custom-css-flowbuilder-actions` — áreas: `FlowBuilderConfig`
+- `.custom-css-flowbuilder-rascunho` — áreas: `RascunhoDoFluxo`
 - `.custom-css-fluxo-oportunidade-unidades` — áreas: `FlowBuilderOportunidadeModal`
 - `.custom-css-forgotpassword-card` — áreas: `ForgotPassword`
 - `.custom-css-forgotpassword-email-input` — áreas: `ForgotPassword`
@@ -1150,13 +1216,50 @@ Uma linha por classe, com as áreas (componentes) onde ela aparece. O que cada �
 - `.custom-css-greeting-name` — áreas: `layout`
 - `.custom-css-greeting` — áreas: `layout`
 - `.custom-css-grupos-nao-lidos` — áreas: `TicketsManagerTabs`
+- `.custom-css-guia-mcp-acesso` — áreas: `GuiaDoMcp`
+- `.custom-css-guia-mcp-claude-code` — áreas: `GuiaDoMcp`
+- `.custom-css-guia-mcp-codigo` — áreas: `GuiaDoMcp`
+- `.custom-css-guia-mcp-endereco` — áreas: `GuiaDoMcp`
+- `.custom-css-guia-mcp-evento` — áreas: `GuiaDoMcp`
+- `.custom-css-guia-mcp-exemplo` — áreas: `GuiaDoMcp`
+- `.custom-css-guia-mcp-ferramenta` — áreas: `GuiaDoMcp`
+- `.custom-css-guia-mcp-fora-da-plataforma` — áreas: `GuiaDoMcp`
+- `.custom-css-guia-mcp-grupo` — áreas: `GuiaDoMcp`
+- `.custom-css-guia-mcp-indice` — áreas: `GuiaDoMcp`
+- `.custom-css-guia-mcp-intro` — áreas: `GuiaDoMcp`
+- `.custom-css-guia-mcp-json` — áreas: `GuiaDoMcp`
+- `.custom-css-guia-mcp-secao` — áreas: `GuiaDoMcp`
+- `.custom-css-guia-mcp-webhook-assinatura` — áreas: `GuiaDoMcp`
+- `.custom-css-guia-mcp-webhook-exemplo` — áreas: `GuiaDoMcp`
 - `.custom-css-gupshup-instrucoes` — áreas: `GupshupModal`
 - `.custom-css-gupshup-url` — áreas: `GupshupModal`
 - `.custom-css-historico-pedido-cancelamento` — áreas: `PedidosDoContato`
 - `.custom-css-horario-chave-do-dia` — áreas: `SchedulesForm`
+- `.custom-css-horario-local-da-faixa` — áreas: `HorarioSemanalDeTrabalho`
 - `.custom-css-icon` — áreas: `layout`, `NotificationBadge`, `SipDialer`, `SipReceiver`, `TarefasEmExecucao`
+- `.custom-css-ig-automacao-aviso` — áreas: `InstagramAutomacoes`
+- `.custom-css-ig-automacao-card` — áreas: `InstagramAutomacoes`
+- `.custom-css-ig-automacao-editor` — áreas: `InstagramAutomacoes`
+- `.custom-css-ig-automacao-erro` — áreas: `InstagramAutomacoes`
+- `.custom-css-ig-automacao-metricas` — áreas: `InstagramAutomacoes`
+- `.custom-css-ig-automacao-midias` — áreas: `InstagramAutomacoes`
+- `.custom-css-ig-automacao-modelos` — áreas: `InstagramAutomacoes`
+- `.custom-css-ig-automacao-nova` — áreas: `InstagramAutomacoes`
+- `.custom-css-ig-automacao-passo` — áreas: `InstagramAutomacoes`
+- `.custom-css-ig-automacao-previa` — áreas: `InstagramAutomacoes`
+- `.custom-css-ig-automacao-resumo` — áreas: `InstagramAutomacoes`
+- `.custom-css-ig-automacao-toggle` — áreas: `InstagramAutomacoes`
+- `.custom-css-ig-automacoes-abas` — áreas: `InstagramAutomacoes`
 - `.custom-css-instagram-comment-reply-toggle` — áreas: `InstagramPosts`
 - `.custom-css-instagram-comment-reply` — áreas: `InstagramPosts`
+- `.custom-css-instagram-publicacao-erro` — áreas: `PublicacoesInstagram`
+- `.custom-css-instagram-publicacao-ia` — áreas: `PublicacoesInstagram`
+- `.custom-css-instagram-publicacao-janela` — áreas: `PublicacoesInstagram`
+- `.custom-css-instagram-publicacao-midias` — áreas: `PublicacoesInstagram`
+- `.custom-css-instagram-publicacao-quando` — áreas: `PublicacoesInstagram`
+- `.custom-css-instagram-publicacao-tipos` — áreas: `PublicacoesInstagram`
+- `.custom-css-instagram-publicacao` — áreas: `PublicacoesInstagram`
+- `.custom-css-instagram-publicacoes` — áreas: `PublicacoesInstagram`
 - `.custom-css-integracoes-chave-openai` — áreas: `ThirdPart`
 - `.custom-css-integracoes-chave-subsidiada` — áreas: `ThirdPart`
 - `.custom-css-kanban-board` — áreas: `Kanban`
@@ -1239,7 +1342,9 @@ Uma linha por classe, com as áreas (componentes) onde ela aparece. O que cada �
 - `.custom-css-lancar-na-mesa-mesa` — áreas: `LancarNaMesaModal`
 - `.custom-css-lancar-na-mesa-total` — áreas: `LancarNaMesaModal`
 - `.custom-css-lead-do-anuncio` — áreas: `LeadsDoAnuncioModal`
+- `.custom-css-leads-do-anuncio-exportar` — áreas: `LeadsDoAnuncioModal`
 - `.custom-css-leads-do-anuncio` — áreas: `LeadsDoAnuncioModal`
+- `.custom-css-link-de-agendamento-adicionar-local` — áreas: `LinkDeAgendamentoModal`
 - `.custom-css-link-de-agendamento-automacao` — áreas: `LinkDeAgendamentoModal`
 - `.custom-css-link-de-agendamento-aviso-novo` — áreas: `LinkDeAgendamentoModal`
 - `.custom-css-link-de-agendamento-aviso-tirar` — áreas: `LinkDeAgendamentoModal`
@@ -1248,6 +1353,8 @@ Uma linha por classe, com as áreas (componentes) onde ela aparece. O que cada �
 - `.custom-css-link-de-agendamento-crm` — áreas: `LinkDeAgendamentoModal`
 - `.custom-css-link-de-agendamento-horario` — áreas: `LinkDeAgendamentoModal`
 - `.custom-css-link-de-agendamento-incorporar` — áreas: `LinksDeAgendamento`
+- `.custom-css-link-de-agendamento-locais` — áreas: `LinkDeAgendamentoModal`
+- `.custom-css-link-de-agendamento-local` — áreas: `LinkDeAgendamentoModal`
 - `.custom-css-link-de-agendamento-ocupam` — áreas: `LinkDeAgendamentoModal`
 - `.custom-css-link-de-agendamento-salvar` — áreas: `LinkDeAgendamentoModal`
 - `.custom-css-link-de-agendamento-tags` — áreas: `LinkDeAgendamentoModal`
@@ -1321,7 +1428,54 @@ Uma linha por classe, com as áreas (componentes) onde ela aparece. O que cada �
 - `.custom-css-mail-marketing-previa` — áreas: `MailMarketingModeloEditor`
 - `.custom-css-mail-marketing-progresso` — áreas: `MailMarketingRelatorio`
 - `.custom-css-mail-marketing-teste` — áreas: `MailMarketingCampanhaModal`, `MailMarketingModeloEditor`
-- `.custom-css-mencao` — áreas: `helpers`
+- `.custom-css-mcp-abre-atividade` — áreas: `Settings`
+- `.custom-css-mcp-abre-guia` — áreas: `Settings`
+- `.custom-css-mcp-ajuda` — áreas: `Settings`
+- `.custom-css-mcp-com-limites` — áreas: `Settings`
+- `.custom-css-mcp-editar-limites` — áreas: `Settings`
+- `.custom-css-mcp-endereco` — áreas: `Settings`
+- `.custom-css-mcp-externo-adicionar` — áreas: `Settings`
+- `.custom-css-mcp-externo-editar` — áreas: `Settings`
+- `.custom-css-mcp-externo-ferramenta` — áreas: `Settings`
+- `.custom-css-mcp-externo-modal` — áreas: `Settings`
+- `.custom-css-mcp-externo-remover` — áreas: `Settings`
+- `.custom-css-mcp-externo-salvar` — áreas: `Settings`
+- `.custom-css-mcp-externo-servidor` — áreas: `Settings`
+- `.custom-css-mcp-externo-testar` — áreas: `Settings`
+- `.custom-css-mcp-externo` — áreas: `Settings`
+- `.custom-css-mcp-gerar` — áreas: `Settings`
+- `.custom-css-mcp-ja-copiei` — áreas: `Settings`
+- `.custom-css-mcp-limites-aprovacao` — áreas: `Settings`
+- `.custom-css-mcp-limites-com-horario` — áreas: `Settings`
+- `.custom-css-mcp-limites-conexoes` — áreas: `Settings`
+- `.custom-css-mcp-limites-dias` — áreas: `Settings`
+- `.custom-css-mcp-limites-fim` — áreas: `Settings`
+- `.custom-css-mcp-limites-inicio` — áreas: `Settings`
+- `.custom-css-mcp-limites-invalidos` — áreas: `Settings`
+- `.custom-css-mcp-limites-modal` — áreas: `Settings`
+- `.custom-css-mcp-limites-setores` — áreas: `Settings`
+- `.custom-css-mcp-limites-teto` — áreas: `Settings`
+- `.custom-css-mcp-limites` — áreas: `Settings`
+- `.custom-css-mcp-nome` — áreas: `Settings`
+- `.custom-css-mcp-oauth-ajuda` — áreas: `Settings`
+- `.custom-css-mcp-plataforma` — áreas: `Settings`
+- `.custom-css-mcp-pode-agir` — áreas: `Settings`
+- `.custom-css-mcp-revogar` — áreas: `Settings`
+- `.custom-css-mcp-salvar-limites` — áreas: `Settings`
+- `.custom-css-mcp-token-limites` — áreas: `Settings`
+- `.custom-css-mcp-token-novo` — áreas: `Settings`
+- `.custom-css-mcp-token` — áreas: `Settings`
+- `.custom-css-mcp-tokens` — áreas: `Settings`
+- `.custom-css-mcp-trecho-claude-code` — áreas: `Settings`
+- `.custom-css-mcp-trecho-json` — áreas: `Settings`
+- `.custom-css-mcp-trecho-token` — áreas: `Settings`
+- `.custom-css-mcp-trecho` — áreas: `Settings`
+- `.custom-css-mcp-usuario` — áreas: `Settings`
+- `.custom-css-mcp-vazio` — áreas: `Settings`
+- `.custom-css-mencao` — áreas: `ComentariosDoRegistro`, `helpers`, `SobreOProjeto`, `TextoRico`
+- `.custom-css-mensagem-assistente-pela-conta` — áreas: `BalaoDaConversa`, `MessagesList`
+- `.custom-css-mensagem-enviada-automaticamente` — áreas: `BalaoDaConversa`, `MessagesList`
+- `.custom-css-mensagem-enviada-externamente` — áreas: `BalaoDaConversa`, `MessagesList`
 - `.custom-css-mensagem-reenvio` — áreas: `MessagesList`
 - `.custom-css-mensagem-transcricao` — áreas: `MessagesList`
 - `.custom-css-menu-busca-resultados` — áreas: `layout`
@@ -1424,6 +1578,9 @@ Uma linha por classe, com as áreas (componentes) onde ela aparece. O que cada �
 - `.custom-css-notificacao-aviso-clicavel` — áreas: `NotificationBadge`
 - `.custom-css-notification-banner` — áreas: `PushPermissionBanner`
 - `.custom-css-opcao-despedida-obrigatoria` — áreas: `Settings`
+- `.custom-css-opcao-ia-confirma-pedido` — áreas: `Settings`
+- `.custom-css-opcao-ia-link-de-pagamento` — áreas: `Settings`
+- `.custom-css-opcao-ia-vende-no-pdv` — áreas: `Settings`
 - `.custom-css-opcao-indisponivel-sem-estoque` — áreas: `Settings`
 - `.custom-css-opcao-moeda` — áreas: `Settings`
 - `.custom-css-opcoes-comissao-do-entregador` — áreas: `Settings`
@@ -1496,6 +1653,7 @@ Uma linha por classe, com as áreas (componentes) onde ela aparece. O que cada �
 - `.custom-css-origem-do-link-na-bio` — áreas: `OrigemDoLinkNaBio`
 - `.custom-css-page-answer-from-ia` — áreas: `AnswerFromIASettings`
 - `.custom-css-page-assistente` — áreas: `Assistente`
+- `.custom-css-page-atividade-do-mcp` — áreas: `AtividadeDoMcp`
 - `.custom-css-page-avaliacao-ia` — áreas: `AvaliacaoPelaIa`
 - `.custom-css-page-balcao` — áreas: `Balcao`
 - `.custom-css-page-caixa` — áreas: `Caixa`
@@ -1506,10 +1664,12 @@ Uma linha por classe, com as áreas (componentes) onde ela aparece. O que cada �
 - `.custom-css-page-consultorio-pacientes` — áreas: `ConsultorioPacientes`
 - `.custom-css-page-consultorio-recepcao` — áreas: `ConsultorioRecepcao`
 - `.custom-css-page-consultorio` — áreas: `Consultorio`
+- `.custom-css-page-convidado` — áreas: `ConvidadoPublico`
 - `.custom-css-page-documento-verificado` — áreas: `DocumentoVerificado`
 - `.custom-css-page-error-logs` — áreas: `ErrorLogs`
 - `.custom-css-page-gestao-atendimentos` — áreas: `GestaoDeAtendimentos`
 - `.custom-css-page-gravacoes` — áreas: `Gravacoes`
+- `.custom-css-page-guia-do-mcp` — áreas: `GuiaDoMcp`
 - `.custom-css-page-header-icone` — áreas: `Chat`, `DashboardNew`, `SalesRanking`, `TranslationManager`
 - `.custom-css-page-header` — áreas: `Chat`, `Dashboard`, `DashboardNew`, `MainHeader`, `MinhaEvolucao`, `SalesRanking`, `TicketsKanban`, `TranslationManager`
 - `.custom-css-page-link-na-bio` — áreas: `LinkNaBio`
@@ -1531,6 +1691,11 @@ Uma linha por classe, com as áreas (componentes) onde ela aparece. O que cada �
 - `.custom-css-page-reservas-publica` — áreas: `ReservasPublica`
 - `.custom-css-page-reservas` — áreas: `Reservas`
 - `.custom-css-page-sala-convidado` — áreas: `SalaDoConvidado`
+- `.custom-css-page-servicos-agenda-publica` — áreas: `ServicosAgendaPublica`
+- `.custom-css-page-servicos-agendamento-publico` — áreas: `ServicosAgendamentoPublico`
+- `.custom-css-page-servicos-ordem` — áreas: `ServicosOrdem`
+- `.custom-css-page-servicos-publica` — áreas: `ServicosPublica`
+- `.custom-css-page-servicos` — áreas: `Servicos`
 - `.custom-css-page-sip-logs` — áreas: `SipLogs`
 - `.custom-css-page-title` — áreas: `Chat`, `DashboardNew`, `Kanban`, `KanbanFilas`, `KanbanGrupos`, `KanbanTeam`, `MinhaEvolucao`, `Pipeline`, `Propostas`, `SalesRanking`, `Title`, `TranslationManager`
 - `.custom-css-page` — áreas: `AnswerFromIASettings`
@@ -1558,8 +1723,10 @@ Uma linha por classe, com as áreas (componentes) onde ela aparece. O que cada �
 - `.custom-css-pedido-cancelamento` — áreas: `PedidoDoPdvModal`
 - `.custom-css-pedido-confirmar-so-o-link` — áreas: `PedidoDoPdvModal`
 - `.custom-css-pedido-pdv-cep` — áreas: `PedidoDoPdvModal`
+- `.custom-css-pedido-pdv-cidade` — áreas: `PedidoDoPdvModal`
 - `.custom-css-pedido-pdv-endereco-salvo` — áreas: `PedidoDoPdvModal`
 - `.custom-css-pedido-pdv-enderecos-salvos` — áreas: `PedidoDoPdvModal`
+- `.custom-css-pedido-pdv-estado` — áreas: `PedidoDoPdvModal`
 - `.custom-css-pedido-pdv-gerenciar-enderecos` — áreas: `PedidoDoPdvModal`
 - `.custom-css-pedido-pdv-motivo-do-cancelamento` — áreas: `PedidoDoPdvModal`
 - `.custom-css-pedido-pdv-salvar-endereco` — áreas: `PedidoDoPdvModal`
@@ -1591,6 +1758,7 @@ Uma linha por classe, com as áreas (componentes) onde ela aparece. O que cada �
 - `.custom-css-pixel-meta-paginas` — áreas: `Settings`
 - `.custom-css-planilha-de-enderecos-importar` — áreas: `PlanilhaDeEnderecos`
 - `.custom-css-planilha-de-enderecos-modelo` — áreas: `PlanilhaDeEnderecos`
+- `.custom-css-plano-convidados` — áreas: `PlansManager`
 - `.custom-css-plano-erro` — áreas: `PlansManager`
 - `.custom-css-planos-link-de-cadastro-copiar` — áreas: `PlansManager`
 - `.custom-css-planos-link-de-cadastro-endereco` — áreas: `PlansManager`
@@ -1643,6 +1811,10 @@ Uma linha por classe, com as áreas (componentes) onde ela aparece. O que cada �
 - `.custom-css-produto-galeria-e-ficha` — áreas: `ProductModal`
 - `.custom-css-produto-galeria-foto` — áreas: `ProductModal`
 - `.custom-css-produto-galeria` — áreas: `ProductModal`
+- `.custom-css-produto-grafica-area-minima` — áreas: `ProductModal`
+- `.custom-css-produto-grafica-pede-arte` — áreas: `ProductModal`
+- `.custom-css-produto-grafica-por-area` — áreas: `ProductModal`
+- `.custom-css-produto-grafica` — áreas: `ProductModal`
 - `.custom-css-produto-marca` — áreas: `ProductModal`
 - `.custom-css-produto-medida` — áreas: `ProductModal`
 - `.custom-css-produto-opcao-ativa` — áreas: `ProductModal`
@@ -1658,7 +1830,9 @@ Uma linha por classe, com as áreas (componentes) onde ela aparece. O que cada �
 - `.custom-css-produtos-menu-de-acoes` — áreas: `Products`
 - `.custom-css-produtos-setores` — áreas: `Products`
 - `.custom-css-produtos-substituir` — áreas: `Products`
+- `.custom-css-projeto-aba-historico` — áreas: `SobreOProjeto`
 - `.custom-css-projeto-acao-apagar` — áreas: `Projeto`
+- `.custom-css-projeto-acao-convidados` — áreas: `Projeto`
 - `.custom-css-projeto-acao-editar` — áreas: `Projeto`
 - `.custom-css-projeto-acao-modelo` — áreas: `Projeto`
 - `.custom-css-projeto-acao-nova-etapa` — áreas: `Projeto`
@@ -1670,6 +1844,7 @@ Uma linha por classe, com as áreas (componentes) onde ela aparece. O que cada �
 - `.custom-css-projeto-comentar` — áreas: `SobreOProjeto`
 - `.custom-css-projeto-comentario-apagar` — áreas: `SobreOProjeto`
 - `.custom-css-projeto-comentario-campo` — áreas: `SobreOProjeto`
+- `.custom-css-projeto-comentario-texto` — áreas: `SobreOProjeto`
 - `.custom-css-projeto-comentario` — áreas: `SobreOProjeto`
 - `.custom-css-projeto-comentarios-lateral` — áreas: `SobreOProjeto`
 - `.custom-css-projeto-comentarios` — áreas: `SobreOProjeto`
@@ -1679,11 +1854,15 @@ Uma linha por classe, com as áreas (componentes) onde ela aparece. O que cada �
 - `.custom-css-projeto-etapa-descricao-campo` — áreas: `Projeto`
 - `.custom-css-projeto-etapa-descricao` — áreas: `Projeto`
 - `.custom-css-projeto-filtro-responsavel` — áreas: `Projeto`
+- `.custom-css-projeto-filtro-situacao` — áreas: `Projeto`
+- `.custom-css-projeto-historico-linha` — áreas: `HistoricoDoProjeto`
+- `.custom-css-projeto-historico` — áreas: `HistoricoDoProjeto`
 - `.custom-css-projeto-link` — áreas: `Projeto`, `SobreOProjeto`
 - `.custom-css-projeto-modal-anexar` — áreas: `ProjetoModal`
 - `.custom-css-projeto-modal-anexo-novo` — áreas: `ProjetoModal`
 - `.custom-css-projeto-modal-anexo` — áreas: `ProjetoModal`
 - `.custom-css-projeto-modal-anexos` — áreas: `ProjetoModal`
+- `.custom-css-projeto-modal-descricao` — áreas: `ProjetoModal`
 - `.custom-css-projeto-modelo-copiar-da-venda` — áreas: `ProjetoModelosModal`
 - `.custom-css-projeto-modelo-etapa-descricao` — áreas: `ProjetoModelosModal`
 - `.custom-css-projeto-modelo-etapa` — áreas: `ProjetoModelosModal`
@@ -1740,6 +1919,7 @@ Uma linha por classe, com as áreas (componentes) onde ela aparece. O que cada �
 - `.custom-css-quadro-acoes` — áreas: `TicketsKanban`
 - `.custom-css-quadro-barra` — áreas: `TicketsKanban`
 - `.custom-css-quadro-btn-config` — áreas: `TicketsKanban`
+- `.custom-css-quadro-btn-disparo` — áreas: `TicketsKanban`
 - `.custom-css-quadro-btn-encerrar-toggle` — áreas: `TicketsKanban`
 - `.custom-css-quadro-btn-novo-ticket` — áreas: `TicketsKanban`
 - `.custom-css-quadro-btn-ordem` — áreas: `TicketsKanban`
@@ -1750,6 +1930,7 @@ Uma linha por classe, com as áreas (componentes) onde ela aparece. O que cada �
 - `.custom-css-quadro-busca-limpar` — áreas: `TicketsKanban`
 - `.custom-css-quadro-busca` — áreas: `TicketsKanban`
 - `.custom-css-quadro-canal` — áreas: `TicketsKanban`
+- `.custom-css-quadro-card-aguardando-aceitar` — áreas: `TicketsKanban`
 - `.custom-css-quadro-card-avatar` — áreas: `TicketsKanban`
 - `.custom-css-quadro-card-cabecalho` — áreas: `TicketsKanban`
 - `.custom-css-quadro-card-nome` — áreas: `TicketsKanban`
@@ -1801,6 +1982,9 @@ Uma linha por classe, com as áreas (componentes) onde ela aparece. O que cada �
 - `.custom-css-quadro-config-titulo` — áreas: `TicketQuadroConfigModal`
 - `.custom-css-quadro-config-vazio` — áreas: `TicketQuadroConfigModal`
 - `.custom-css-quadro-de-tickets` — áreas: `TicketsKanban`
+- `.custom-css-quadro-disparo-filtros` — áreas: `DisparoDoAtendenteModal`
+- `.custom-css-quadro-disparo-previa` — áreas: `DisparoDoAtendenteModal`
+- `.custom-css-quadro-disparo-resultado` — áreas: `DisparoDoAtendenteModal`
 - `.custom-css-quadro-embrulho` — áreas: `QuadroDeAtendimentos`
 - `.custom-css-quadro-encerrar` — áreas: `TicketsKanban`
 - `.custom-css-quadro-fila` — áreas: `TicketsKanban`
@@ -2189,6 +2373,180 @@ Uma linha por classe, com as áreas (componentes) onde ela aparece. O que cada �
 - `.custom-css-seletor-periodo-tipo` — áreas: `SeletorDePeriodo`
 - `.custom-css-seletor-periodo` — áreas: `SeletorDePeriodo`
 - `.custom-css-send-limit-breakdown` — áreas: `LimitadorDeEnvioModal`
+- `.custom-css-servicos-abas` — áreas: `Servicos`
+- `.custom-css-servicos-adicionar-peca` — áreas: `Servicos`
+- `.custom-css-servicos-adicionar-servico` — áreas: `Servicos`
+- `.custom-css-servicos-agenda-add-periodo` — áreas: `ServicosAgendaConfigModal`
+- `.custom-css-servicos-agenda-anterior` — áreas: `ServicosAgenda`
+- `.custom-css-servicos-agenda-aviso` — áreas: `ServicosAgendaConfigModal`
+- `.custom-css-servicos-agenda-config-salvar` — áreas: `ServicosAgendaConfigModal`
+- `.custom-css-servicos-agenda-configurar` — áreas: `ServicosAgenda`
+- `.custom-css-servicos-agenda-dia` — áreas: `ServicosAgendaConfigModal`
+- `.custom-css-servicos-agenda-link-publico` — áreas: `ServicosAgenda`
+- `.custom-css-servicos-agenda-link` — áreas: `ServicosAgendaConfigModal`
+- `.custom-css-servicos-agenda-novo` — áreas: `ServicosAgenda`
+- `.custom-css-servicos-agenda-problema` — áreas: `ServicosAgendaConfigModal`
+- `.custom-css-servicos-agenda-proximo` — áreas: `ServicosAgenda`
+- `.custom-css-servicos-agenda-publica-erro` — áreas: `ServicosAgendaPublica`
+- `.custom-css-servicos-agenda-publica-form` — áreas: `ServicosAgendaPublica`
+- `.custom-css-servicos-agenda-publica-horario` — áreas: `ServicosAgendaPublica`
+- `.custom-css-servicos-agenda-publica-horarios` — áreas: `ServicosAgendaPublica`
+- `.custom-css-servicos-agenda-publica-marcado` — áreas: `ServicosAgendaPublica`
+- `.custom-css-servicos-agenda-publica-marcar` — áreas: `ServicosAgendaPublica`
+- `.custom-css-servicos-agenda-publica-nao-encontrada` — áreas: `ServicosAgendaPublica`
+- `.custom-css-servicos-agenda-publica-sem-horario` — áreas: `ServicosAgendaPublica`
+- `.custom-css-servicos-agenda-publica-servicos` — áreas: `ServicosAgendaPublica`
+- `.custom-css-servicos-agenda-publica-ver` — áreas: `ServicosAgendaPublica`
+- `.custom-css-servicos-agenda-tecnicos` — áreas: `ServicosAgendaConfigModal`
+- `.custom-css-servicos-agenda` — áreas: `ServicosAgenda`
+- `.custom-css-servicos-agendamento-abrir-ordem` — áreas: `ServicosAgenda`
+- `.custom-css-servicos-agendamento-acao` — áreas: `ServicosAgenda`
+- `.custom-css-servicos-agendamento-cancelar-confirmar` — áreas: `ServicosAgenda`
+- `.custom-css-servicos-agendamento-livre` — áreas: `ServicosAgendamentoModal`
+- `.custom-css-servicos-agendamento-livres` — áreas: `ServicosAgendamentoModal`
+- `.custom-css-servicos-agendamento-publico-cancelar` — áreas: `ServicosAgendamentoPublico`
+- `.custom-css-servicos-agendamento-publico-cartao` — áreas: `ServicosAgendamentoPublico`
+- `.custom-css-servicos-agendamento-publico-confirmacao` — áreas: `ServicosAgendamentoPublico`
+- `.custom-css-servicos-agendamento-publico-confirmar` — áreas: `ServicosAgendamentoPublico`
+- `.custom-css-servicos-agendamento-publico-nao-encontrado` — áreas: `ServicosAgendamentoPublico`
+- `.custom-css-servicos-agendamento-publico-remarcar` — áreas: `ServicosAgendamentoPublico`
+- `.custom-css-servicos-agendamento-publico-situacao` — áreas: `ServicosAgendamentoPublico`
+- `.custom-css-servicos-agendamento-remarcar` — áreas: `ServicosAgenda`
+- `.custom-css-servicos-agendamento-salvar` — áreas: `ServicosAgendamentoModal`
+- `.custom-css-servicos-agendamento-ver-ordem` — áreas: `ServicosAgenda`
+- `.custom-css-servicos-agendamento` — áreas: `ServicosAgenda`
+- `.custom-css-servicos-aviso-padrao` — áreas: `ServicosAvisos`
+- `.custom-css-servicos-aviso` — áreas: `ServicosAvisos`
+- `.custom-css-servicos-avisos-salvar` — áreas: `ServicosAvisos`
+- `.custom-css-servicos-avisos-variaveis` — áreas: `ServicosAvisos`
+- `.custom-css-servicos-avisos` — áreas: `ServicosAvisos`
+- `.custom-css-servicos-catalogo-estoque-baixo` — áreas: `Servicos`
+- `.custom-css-servicos-catalogo-filtros` — áreas: `Servicos`
+- `.custom-css-servicos-catalogo` — áreas: `Servicos`
+- `.custom-css-servicos-cobranca-conta` — áreas: `ServicosCobrancaModal`
+- `.custom-css-servicos-cobranca-contas` — áreas: `ServicosCobrancaModal`
+- `.custom-css-servicos-cobranca-gerada` — áreas: `ServicosCobrancaModal`
+- `.custom-css-servicos-cobranca-gerar` — áreas: `ServicosCobrancaModal`
+- `.custom-css-servicos-cobranca-link` — áreas: `ServicosCobrancaModal`
+- `.custom-css-servicos-cobranca-nao-enviada` — áreas: `ServicosCobrancaModal`
+- `.custom-css-servicos-cobranca-qrcode` — áreas: `ServicosCobrancaModal`
+- `.custom-css-servicos-configuracao-aprovacao-pelo-link` — áreas: `Servicos`
+- `.custom-css-servicos-configuracao-aprovacao` — áreas: `Servicos`
+- `.custom-css-servicos-configuracao-numero` — áreas: `Servicos`
+- `.custom-css-servicos-configuracao-pagamento` — áreas: `Servicos`
+- `.custom-css-servicos-configuracao-salvar` — áreas: `Servicos`
+- `.custom-css-servicos-configuracao-segmento` — áreas: `Servicos`
+- `.custom-css-servicos-configuracao` — áreas: `Servicos`
+- `.custom-css-servicos-estorno-confirmar` — áreas: `ServicosOrdem`
+- `.custom-css-servicos-item-duracao` — áreas: `ServicosItemModal`
+- `.custom-css-servicos-item-estoque-chip` — áreas: `Servicos`
+- `.custom-css-servicos-item-estoque` — áreas: `ServicosItemModal`
+- `.custom-css-servicos-item-problema` — áreas: `ServicosItemModal`
+- `.custom-css-servicos-item-salvar` — áreas: `ServicosItemModal`
+- `.custom-css-servicos-item` — áreas: `Servicos`
+- `.custom-css-servicos-linha-metro-quadrado` — áreas: `ServicosLinhaModal`
+- `.custom-css-servicos-linha-salvar` — áreas: `ServicosLinhaModal`
+- `.custom-css-servicos-linha-total` — áreas: `ServicosLinhaModal`
+- `.custom-css-servicos-linha-usar-area` — áreas: `ServicosLinhaModal`
+- `.custom-css-servicos-motivo-confirmar` — áreas: `ServicosOrdem`
+- `.custom-css-servicos-motivo-voltar` — áreas: `ServicosOrdem`
+- `.custom-css-servicos-nova-ordem` — áreas: `Servicos`
+- `.custom-css-servicos-ordem-acao` — áreas: `ServicosOrdem`
+- `.custom-css-servicos-ordem-andamento` — áreas: `ServicosOrdem`
+- `.custom-css-servicos-ordem-anexar` — áreas: `ServicosOrdem`
+- `.custom-css-servicos-ordem-anexo` — áreas: `ServicosOrdem`
+- `.custom-css-servicos-ordem-anexos` — áreas: `ServicosOrdem`
+- `.custom-css-servicos-ordem-atrasada` — áreas: `ServicosOrdem`
+- `.custom-css-servicos-ordem-avulsa` — áreas: `ServicosOrdem`
+- `.custom-css-servicos-ordem-cancelar-cobranca` — áreas: `ServicosOrdem`
+- `.custom-css-servicos-ordem-catalogo` — áreas: `ServicosOrdem`
+- `.custom-css-servicos-ordem-cliente` — áreas: `ServicosOrdem`
+- `.custom-css-servicos-ordem-cobranca` — áreas: `ServicosOrdem`
+- `.custom-css-servicos-ordem-cobrancas` — áreas: `ServicosOrdem`
+- `.custom-css-servicos-ordem-comprovante` — áreas: `ServicosOrdem`
+- `.custom-css-servicos-ordem-conferir-cobranca` — áreas: `ServicosOrdem`
+- `.custom-css-servicos-ordem-contato` — áreas: `ServicosOrdemModal`
+- `.custom-css-servicos-ordem-datas` — áreas: `ServicosOrdem`
+- `.custom-css-servicos-ordem-diagnostico` — áreas: `ServicosOrdem`
+- `.custom-css-servicos-ordem-editar` — áreas: `ServicosOrdem`
+- `.custom-css-servicos-ordem-enviar-prova` — áreas: `ServicosProvaDaArte`
+- `.custom-css-servicos-ordem-especificacao` — áreas: `ServicosOrdem`
+- `.custom-css-servicos-ordem-etapas` — áreas: `ServicosOrdem`
+- `.custom-css-servicos-ordem-evento` — áreas: `ServicosOrdem`
+- `.custom-css-servicos-ordem-garantia` — áreas: `ServicosOrdem`
+- `.custom-css-servicos-ordem-gerar-link` — áreas: `ServicosOrdem`
+- `.custom-css-servicos-ordem-historico` — áreas: `ServicosOrdem`
+- `.custom-css-servicos-ordem-imprimir` — áreas: `ServicosOrdem`
+- `.custom-css-servicos-ordem-itens-revisam` — áreas: `ServicosOrdem`
+- `.custom-css-servicos-ordem-itens` — áreas: `ServicosOrdem`
+- `.custom-css-servicos-ordem-linha` — áreas: `ServicosOrdem`
+- `.custom-css-servicos-ordem-link` — áreas: `ServicosOrdem`
+- `.custom-css-servicos-ordem-medidas` — áreas: `ServicosOrdemModal`
+- `.custom-css-servicos-ordem-na-lista` — áreas: `Servicos`
+- `.custom-css-servicos-ordem-pagamento-situacao` — áreas: `ServicosOrdem`
+- `.custom-css-servicos-ordem-pagamento` — áreas: `ServicosOrdem`
+- `.custom-css-servicos-ordem-pagamentos` — áreas: `ServicosOrdem`
+- `.custom-css-servicos-ordem-problema` — áreas: `ServicosOrdemModal`
+- `.custom-css-servicos-ordem-prova-arquivo` — áreas: `ServicosProvaDaArte`
+- `.custom-css-servicos-ordem-prova-comentario` — áreas: `ServicosProvaDaArte`
+- `.custom-css-servicos-ordem-prova-situacao` — áreas: `ServicosProvaDaArte`
+- `.custom-css-servicos-ordem-prova-versao` — áreas: `ServicosProvaDaArte`
+- `.custom-css-servicos-ordem-prova` — áreas: `ServicosProvaDaArte`
+- `.custom-css-servicos-ordem-reenviar-aviso` — áreas: `ServicosOrdem`
+- `.custom-css-servicos-ordem-registrar-pagamento` — áreas: `ServicosOrdem`
+- `.custom-css-servicos-ordem-salvar-desconto` — áreas: `ServicosOrdem`
+- `.custom-css-servicos-ordem-salvar-diagnostico` — áreas: `ServicosOrdem`
+- `.custom-css-servicos-ordem-salvar-nota` — áreas: `ServicosOrdem`
+- `.custom-css-servicos-ordem-salvar` — áreas: `ServicosOrdemModal`
+- `.custom-css-servicos-ordem-tipo-de-equipamento` — áreas: `ServicosOrdemModal`
+- `.custom-css-servicos-ordem-tiragem` — áreas: `ServicosOrdemModal`
+- `.custom-css-servicos-ordem-totais` — áreas: `ServicosOrdem`
+- `.custom-css-servicos-ordem-total` — áreas: `ServicosOrdem`
+- `.custom-css-servicos-ordens-atrasadas` — áreas: `Servicos`
+- `.custom-css-servicos-ordens-filtro` — áreas: `Servicos`
+- `.custom-css-servicos-ordens-mais` — áreas: `Servicos`
+- `.custom-css-servicos-ordens-minhas` — áreas: `Servicos`
+- `.custom-css-servicos-ordens-situacoes` — áreas: `Servicos`
+- `.custom-css-servicos-ordens` — áreas: `Servicos`
+- `.custom-css-servicos-pagamento-salvar` — áreas: `ServicosPagamentoModal`
+- `.custom-css-servicos-prova-arquivo-escolhido` — áreas: `ServicosProvaDaArte`
+- `.custom-css-servicos-prova-avisar` — áreas: `ServicosProvaDaArte`
+- `.custom-css-servicos-prova-confirmar` — áreas: `ServicosProvaDaArte`
+- `.custom-css-servicos-prova-mensagem` — áreas: `ServicosProvaDaArte`
+- `.custom-css-servicos-publica-aprovar` — áreas: `ServicosPublica`
+- `.custom-css-servicos-publica-confirmacao` — áreas: `ServicosPublica`
+- `.custom-css-servicos-publica-confirmar` — áreas: `ServicosPublica`
+- `.custom-css-servicos-publica-copiar-pix` — áreas: `ServicosPublica`
+- `.custom-css-servicos-publica-datas` — áreas: `ServicosPublica`
+- `.custom-css-servicos-publica-decisao` — áreas: `ServicosPublica`
+- `.custom-css-servicos-publica-erro` — áreas: `ServicosPublica`
+- `.custom-css-servicos-publica-garantia` — áreas: `ServicosPublica`
+- `.custom-css-servicos-publica-nao-encontrada` — áreas: `ServicosPublica`
+- `.custom-css-servicos-publica-orcamento` — áreas: `ServicosPublica`
+- `.custom-css-servicos-publica-ordem` — áreas: `ServicosPublica`
+- `.custom-css-servicos-publica-pagamento` — áreas: `ServicosPublica`
+- `.custom-css-servicos-publica-pagar` — áreas: `ServicosPublica`
+- `.custom-css-servicos-publica-pix` — áreas: `ServicosPublica`
+- `.custom-css-servicos-publica-prova-abrir` — áreas: `ProvaDaArteDoCliente`
+- `.custom-css-servicos-publica-prova-ajuste` — áreas: `ProvaDaArteDoCliente`
+- `.custom-css-servicos-publica-prova-ajustes` — áreas: `ProvaDaArteDoCliente`
+- `.custom-css-servicos-publica-prova-aprovar` — áreas: `ProvaDaArteDoCliente`
+- `.custom-css-servicos-publica-prova-confirmacao` — áreas: `ProvaDaArteDoCliente`
+- `.custom-css-servicos-publica-prova-confirmar` — áreas: `ProvaDaArteDoCliente`
+- `.custom-css-servicos-publica-prova-decisao` — áreas: `ProvaDaArteDoCliente`
+- `.custom-css-servicos-publica-prova-feito` — áreas: `ProvaDaArteDoCliente`
+- `.custom-css-servicos-publica-prova-imagem` — áreas: `ProvaDaArteDoCliente`
+- `.custom-css-servicos-publica-prova-situacao` — áreas: `ProvaDaArteDoCliente`
+- `.custom-css-servicos-publica-prova` — áreas: `ProvaDaArteDoCliente`
+- `.custom-css-servicos-publica-recusar` — áreas: `ServicosPublica`
+- `.custom-css-servicos-publica-sem-aprovacao` — áreas: `ServicosPublica`
+- `.custom-css-servicos-publica-situacao` — áreas: `ServicosPublica`
+- `.custom-css-servicos-publica-total` — áreas: `ServicosPublica`
+- `.custom-css-servicos-salvar-webhook` — áreas: `Servicos`
+- `.custom-css-servicos-segmento` — áreas: `Servicos`
+- `.custom-css-servicos-situacao` — áreas: `Servicos`, `ServicosOrdem`
+- `.custom-css-servicos-webhook-bloqueado` — áreas: `Servicos`
+- `.custom-css-servicos-webhook` — áreas: `Servicos`
 - `.custom-css-setor-campo-extra-1-rotulo` — áreas: `CamposExtras`
 - `.custom-css-setor-campo-extra-1` — áreas: `CamposExtras`
 - `.custom-css-setor-campo-extra-2-rotulo` — áreas: `CamposExtras`
@@ -2197,6 +2555,7 @@ Uma linha por classe, com as áreas (componentes) onde ela aparece. O que cada �
 - `.custom-css-setor-chat-interno` — áreas: `QueueModal`
 - `.custom-css-setor-do-pdv` — áreas: `SetoresDoPdvModal`
 - `.custom-css-setor-mensagem-de-despedida` — áreas: `QueueModal`
+- `.custom-css-setor-minutos-do-retorno-vazio` — áreas: `QueueModal`
 - `.custom-css-setor-opcao-especial` — áreas: `MoveQueueFlow`
 - `.custom-css-setor-retorno-ao-atendente` — áreas: `QueueModal`
 - `.custom-css-setor-transbordo-do-retorno` — áreas: `QueueModal`
@@ -2235,9 +2594,13 @@ Uma linha por classe, com as áreas (componentes) onde ela aparece. O que cada �
 - `.custom-css-settings-meus-numeros` — áreas: `Settings`
 - `.custom-css-settings-plataforma-grupo` — áreas: `Settings`
 - `.custom-css-settings-precos-api-oficial` — áreas: `Settings`
+- `.custom-css-settings-reenvio-do-encerramento` — áreas: `Settings`
 - `.custom-css-settings-secao-antiga` — áreas: `Settings`
 - `.custom-css-settings-secao` — áreas: `Settings`
 - `.custom-css-settings-subtitulo` — áreas: `helpers`, `Settings`
+- `.custom-css-settings-transcricao-do-atendente` — áreas: `Settings`
+- `.custom-css-settings-versetor-grupos` — áreas: `Settings`
+- `.custom-css-settings-webhook-do-mcp` — áreas: `Settings`
 - `.custom-css-short-link-aviso` — áreas: `ShortLinkModal`
 - `.custom-css-short-link-info` — áreas: `ShortLinkModal`
 - `.custom-css-sidebar` — áreas: `layout`
@@ -2293,14 +2656,15 @@ Uma linha por classe, com as áreas (componentes) onde ela aparece. O que cada �
 - `.custom-css-tarefa-btn-fechar` — áreas: `TaskModal`
 - `.custom-css-tarefa-btn-finalizar` — áreas: `TaskModal`
 - `.custom-css-tarefa-btn-reabrir` — áreas: `TaskModal`
-- `.custom-css-tarefa-comentario-anexos` — áreas: `ToDoList`
-- `.custom-css-tarefa-comentario-arquivos` — áreas: `ToDoList`
-- `.custom-css-tarefa-comentario-editor` — áreas: `ToDoList`
+- `.custom-css-tarefa-comentario-anexos` — áreas: `ComentariosDoRegistro`, `ToDoList`
+- `.custom-css-tarefa-comentario-arquivos` — áreas: `ComentariosDoRegistro`, `ToDoList`
+- `.custom-css-tarefa-comentario-editor` — áreas: `ComentariosDoRegistro`, `ToDoList`
 - `.custom-css-tarefa-comentarios-faixa` — áreas: `ToDoList`
 - `.custom-css-tarefa-comentarios-lateral` — áreas: `TaskModal`
 - `.custom-css-tarefa-comentarios` — áreas: `TaskModal`
 - `.custom-css-tarefa-compartilhar` — áreas: `TaskModal`
 - `.custom-css-tarefa-contato` — áreas: `TaskModal`
+- `.custom-css-tarefa-convidados` — áreas: `TaskModal`
 - `.custom-css-tarefa-copiar-link` — áreas: `TaskModal`, `ToDoList`
 - `.custom-css-tarefa-descricao` — áreas: `TaskModal`
 - `.custom-css-tarefa-em-execucao-linha` — áreas: `TarefasEmExecucao`
@@ -2359,8 +2723,16 @@ Uma linha por classe, com as áreas (componentes) onde ela aparece. O que cada �
 - `.custom-css-ticket-conversa` — áreas: `Ticket`, `TicketModal`
 - `.custom-css-ticket-fechar-faixa` — áreas: `TicketModal`
 - `.custom-css-ticket-fechar` — áreas: `TicketModal`
+- `.custom-css-ticket-files-anterior` — áreas: `TicketFilesModal`
+- `.custom-css-ticket-files-botao-reacoes` — áreas: `TicketFilesModal`
+- `.custom-css-ticket-files-card-reacoes` — áreas: `TicketFilesModal`
+- `.custom-css-ticket-files-escolha-reacao` — áreas: `TicketFilesModal`
 - `.custom-css-ticket-files-miniatura` — áreas: `TicketFilesModal`
+- `.custom-css-ticket-files-proximo` — áreas: `TicketFilesModal`
+- `.custom-css-ticket-files-reacao` — áreas: `TicketFilesModal`
+- `.custom-css-ticket-files-reacoes` — áreas: `TicketFilesModal`
 - `.custom-css-ticket-files-resumo` — áreas: `TicketFilesModal`
+- `.custom-css-ticket-files-visualizador` — áreas: `TicketFilesModal`
 - `.custom-css-ticket-header` — áreas: `TicketHeader`
 - `.custom-css-ticket-info-avatar` — áreas: `TicketInfo`
 - `.custom-css-ticket-info-nome` — áreas: `TicketInfo`
@@ -2389,12 +2761,14 @@ Uma linha por classe, com as áreas (componentes) onde ela aparece. O que cada �
 - `.custom-css-user-aviso-da-avaliacao-ia` — áreas: `UserModal`
 - `.custom-css-user-btn-acessos` — áreas: `Users`
 - `.custom-css-user-btn-presenca` — áreas: `PresencaDoUsuarioMenu`
+- `.custom-css-user-busca-da-resposta-rapida` — áreas: `UserModal`
 - `.custom-css-user-limite-de-atendimentos` — áreas: `UserModal`
 - `.custom-css-user-menu-presenca` — áreas: `PresencaDoUsuarioMenu`
 - `.custom-css-user-modal-agendas` — áreas: `AgendasVisiveisSelect`
 - `.custom-css-user-modal-funis` — áreas: `CrmPipelineSelect`
 - `.custom-css-user-modal-quadros` — áreas: `TicketQuadroSelect`
 - `.custom-css-user-pagina-inicial` — áreas: `UserModal`
+- `.custom-css-user-preferencias-do-operador` — áreas: `UserModal`
 - `.custom-css-users-card-ausente` — áreas: `Users`
 - `.custom-css-users-card-avatar` — áreas: `Users`
 - `.custom-css-users-card-conexao` — áreas: `Users`
@@ -2420,6 +2794,7 @@ Uma linha por classe, com as áreas (componentes) onde ela aparece. O que cada �
 - `.custom-css-usuario-ver-ranking` — áreas: `UserModal`
 - `.custom-css-ver-pedido-cancelamento` — áreas: `VerPedidoDoPainel`
 - `.custom-css-ver-pedido-cep` — áreas: `VerPedidoDoPainel`
+- `.custom-css-ver-pedido-cidade` — áreas: `VerPedidoDoPainel`
 - `.custom-css-view-toggle` — áreas: `Connections`, `Oportunidades`, `Projetos`, `Prompts`, `Schedules`, `ToDoList`, `Users`, `Webhook`
 - `.custom-css-waba-template-acoes` — áreas: `WABATemplates`
 - `.custom-css-waba-template-autoria` — áreas: `WABATemplates`

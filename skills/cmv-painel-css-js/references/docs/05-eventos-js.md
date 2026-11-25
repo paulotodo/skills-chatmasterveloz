@@ -1,4 +1,4 @@
-<!-- gerado por _gerar.py · fonte: https://app.chatmasterveloz.com/catalogo-css/pt.json · versão WS-30.141.0 -->
+<!-- gerado por _gerar.py · fonte: https://app.chatmasterveloz.com/catalogo-css/pt.json · versão WS-30.215.0 -->
 
 # Eventos que o JS pode ouvir
 
@@ -22,3 +22,17 @@ window.addEventListener("atendimentos:buscado", e => console.log(e.detail.total,
 ```
 
 Sem ele, o JS personalizado dependia de um MutationObserver vigiando a janela da chamada.
+
+**O endereço da API.** A página traz o endereço da API (o backend) em dois lugares, para o CSS e o JS hospedados fora da plataforma montarem os links sem fixá-lo no código:
+
+| Onde | Como ler |
+|---|---|
+| `window.BACKEND_URL` | no JS — já definido antes de o JS personalizado rodar, sem a barra no fim |
+| `<meta name="backend-url">` | no `content` da tag, no `<head>` — para o script que só lê o HTML da página |
+
+```js
+const api = window.BACKEND_URL || document.querySelector("meta[name=backend-url]").content;
+fetch(api + "/public/logotipos/favicon-32x32.png");
+```
+
+Vale no painel e nas páginas públicas (agendamento, cardápio, convidado), sempre com o mesmo endereço que a tela usa.

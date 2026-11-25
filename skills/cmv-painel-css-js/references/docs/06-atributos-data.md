@@ -1,8 +1,8 @@
-<!-- gerado por _gerar.py · fonte: https://app.chatmasterveloz.com/catalogo-css/pt.json · versão WS-30.141.0 -->
+<!-- gerado por _gerar.py · fonte: https://app.chatmasterveloz.com/catalogo-css/pt.json · versão WS-30.215.0 -->
 
 # Atributos de estado
 
-Formato: um título `###` por **Atributo** (553 itens), com os campos Onde · Valores abaixo.
+Formato: um título `###` por **Atributo** (623 itens), com os campos Onde · Valores abaixo.
 
 ### `data-a-cobrar`
 
@@ -24,6 +24,11 @@ Formato: um título `###` por **Atributo** (553 itens), com os campos Onde · Va
 - **Onde:** cada e-mail da lista de E-mail (`.custom-css-emails-item`), junto com `aria-selected`
 - **Valores:** `true` no e-mail aberto no leitor; ausente nos outros
 
+### `data-aberto`
+
+- **Onde:** cada dia nos horários de atendimento da agenda (`.custom-css-servicos-agenda-dia`)
+- **Valores:** `true` tem horário · `false` fechado
+
 ### `data-acao`
 
 - **Onde:** os botões de ação dos cartões e das tabelas dos cadastros: Tags, Setores, Respostas Rápidas, Categorias (de setores e de fluxos), Usuários (o cartão e as janelas de encerrar e de transferir os tickets), Contatos, Webhooks, Templates WABA, Arquivos do Bot, Contas de e-mail e Avaliações; o ícone de conversar dos Aniversariantes da Dashboard; o botão de concluir e de reabrir da lista de Tarefas
@@ -33,6 +38,11 @@ Formato: um título `###` por **Atributo** (553 itens), com os campos Onde · Va
 
 - **Onde:** os botões do detalhe da reserva (`.custom-css-reservas-reserva-acao`)
 - **Valores:** `confirmada` · `concluida` · `nao_compareceu` · `cancelar`
+
+### `data-acao`
+
+- **Onde:** a confirmação na página da ordem para o cliente (`.custom-css-servicos-publica-confirmacao`)
+- **Valores:** `aprovar` · `recusar`
 
 ### `data-acao-funil`
 
@@ -204,6 +214,21 @@ Formato: um título `###` por **Atributo** (553 itens), com os campos Onde · Va
 - **Onde:** chip de pasta no seletor de figurinhas e item de pasta na tela de Figurinhas; e, no editor de imagem, cada botão de ferramenta (`.custom-css-editor-de-imagem-ferramenta`) e cada cor da paleta (`.custom-css-editor-de-imagem-cor`)
 - **Valores:** `true` na pasta aberta · `false`. No editor: `true` na ferramenta em uso e na cor escolhida · `false`
 
+### `data-atividade-mcp-aba`
+
+- **Onde:** cada aba da página Atividade do MCP (a atividade e o que espera aprovação)
+- **Valores:** `atividade` · `aprovacoes`
+
+### `data-atividade-mcp-aprovacao`
+
+- **Onde:** cada pedido de aprovação na página Atividade do MCP (`.custom-css-atividade-mcp-aprovacao`)
+- **Valores:** `pendente` · `aprovada` · `recusada` · `falhou`
+
+### `data-atividade-mcp-ok`
+
+- **Onde:** cada linha da atividade do MCP (`.custom-css-atividade-mcp-item`)
+- **Valores:** `true` (deu certo), `false` (recusado) ou vazio (registro sem resultado, como um token gerado)
+
 ### `data-ativo`
 
 - **Onde:** o cartão de cada fluxo na lista de fluxos (`.custom-css-flow-card`) e a etiqueta de estado dele (`.custom-css-flow-card-status`)
@@ -214,6 +239,11 @@ Formato: um título `###` por **Atributo** (553 itens), com os campos Onde · Va
 - **Onde:** a mensagem da vaga na aba dos avisos das Reservas (`.custom-css-reservas-aviso-vaga`)
 - **Valores:** `1` ligada, `0` desligada
 
+### `data-ativo`
+
+- **Onde:** cada aviso da aba Avisos dos Serviços (`.custom-css-servicos-aviso`)
+- **Valores:** `true` ligado (sai sozinho na etapa) · `false` desligado
+
 ### `data-atrasada`
 
 - **Onde:** atividade do CRM (painel e cartão) e o cartão de tarefa (`.custom-css-task-card`)
@@ -223,6 +253,11 @@ Formato: um título `###` por **Atributo** (553 itens), com os campos Onde · Va
 
 - **Onde:** cada tarefa do quadro na página do projeto (`.custom-css-projeto-tarefa`)
 - **Valores:** `true` quando o prazo passou e a tarefa não foi concluída; ausente nas outras
+
+### `data-atrasada`
+
+- **Onde:** cada ordem de serviço na lista (`.custom-css-servicos-ordem-na-lista`)
+- **Valores:** `true` a previsão de entrega passou e a ordem ainda não ficou pronta · `false`
 
 ### `data-audio`
 
@@ -254,6 +289,11 @@ Formato: um título `###` por **Atributo** (553 itens), com os campos Onde · Va
 - **Onde:** cada aula da IA (`.custom-css-avaliacao-ia-aula`)
 - **Valores:** o id da aula
 
+### `data-ausente`
+
+- **Onde:** o atendente da coluna na visão por atendentes do Quadro (`.custom-css-quadro-coluna-atendente`)
+- **Valores:** `true` (online, mas com o status Ausente — o ponto fica amarelo e ele não recebe pelo rodízio) · `false`
+
 ### `data-avaliacao`
 
 - **Onde:** cada linha da tabela dos atendimentos avaliados (`[data-lista="avaliacoes"]`)
@@ -284,10 +324,20 @@ Formato: um título `###` por **Atributo** (553 itens), com os campos Onde · Va
 - **Onde:** a seção Avisos e automações da janela do link de agendamento (`.custom-css-link-de-agendamento-automacao`)
 - **Valores:** quantos avisos ao cliente o link tem (`0` a `10`)
 
+### `data-avulsa`
+
+- **Onde:** a janela da peça ou do serviço da ordem (`.custom-css-modal-servicos-linha`)
+- **Valores:** `true` item lançado à mão, fora do catálogo · `false` veio do catálogo
+
 ### `data-badge`
 
 - **Onde:** selo do modo da conta Meta no cartão da conexão (`.custom-css-connection-badge`)
 - **Valores:** o evento, em minúsculas: `live` · `sandbox` · `pending`, ou o evento que a Meta mandou (`account_disconnected`…). O nível vai em `data-nivel`
+
+### `data-baixada`
+
+- **Onde:** cada peça ou serviço da ordem (`.custom-css-servicos-ordem-linha`)
+- **Valores:** `true` a peça já saiu do estoque · `false` ainda não (ou é serviço)
 
 ### `data-barra`
 
@@ -312,6 +362,11 @@ Formato: um título `###` por **Atributo** (553 itens), com os campos Onde · Va
 ### `data-bloqueio`
 
 - **Onde:** o aviso do webhook parado nas Reservas (`.custom-css-reservas-webhook-bloqueado`)
+- **Valores:** `sem-token` a empresa não tem o token gerado (nada sai sem assinatura)
+
+### `data-bloqueio`
+
+- **Onde:** o aviso do webhook parado nos Serviços (`.custom-css-servicos-webhook-bloqueado`)
 - **Valores:** `sem-token` a empresa não tem o token gerado (nada sai sem assinatura)
 
 ### `data-bot-ativo`
@@ -494,6 +549,11 @@ Formato: um título `###` por **Atributo** (553 itens), com os campos Onde · Va
 - **Onde:** coluna do quadro de atendimentos (no quadro e na tela de configuração)
 - **Valores:** `PENDENTES` · `ATENDENDO` (as duas fixas) · `LIVRE` (aberto, criada pelo admin) · `PENDENTE_LIVRE` (pendente, classificação manual) · `PENDENTE_FILA` (pendente, automática: recebe sozinha os pendentes das filas da regra). Na visão por tags ("Ver o quadro por: Tags"): `TAG` (cada tag marcada como Kanban) · `SEM_TAG` (os atendimentos sem nenhuma delas)
 
+### `data-com-erro`
+
+- **Onde:** o cartão da automação do Instagram (`.custom-css-ig-automacao-card`)
+- **Valores:** `true` quando a última resposta falhou na Meta (o selo vermelho com o motivo) · `false`
+
 ### `data-com-imagem`
 
 - **Onde:** o botão Enviar na conversa de cada linha da consulta de preço e estoque (`.custom-css-consulta-de-produtos-enviar`)
@@ -514,6 +574,11 @@ Formato: um título `###` por **Atributo** (553 itens), com os campos Onde · Va
 - **Onde:** cada oportunidade do modo lista no celular em pé (`.custom-css-oportunidades-linha` dentro de `.custom-css-oportunidades-lista-compacta`)
 - **Valores:** `true` — a linha é o bloco do celular (na tabela, a linha não tem o atributo)
 
+### `data-comprovante`
+
+- **Onde:** cada opção do menu Imprimir da ordem de serviço (`.custom-css-servicos-ordem-comprovante`)
+- **Valores:** `entrada` · `orcamento` · `entrega`
+
 ### `data-concat-example`
 
 - **Onde:** prévia do texto concatenado, no modal do concatenador
@@ -528,6 +593,11 @@ Formato: um título `###` por **Atributo** (553 itens), com os campos Onde · Va
 
 - **Onde:** selo de concatenação no cartão da conexão
 - **Valores:** o id da conexão
+
+### `data-concluida`
+
+- **Onde:** cada etapa na página do convidado (`.custom-css-convidado-etapa`)
+- **Valores:** `true` (a etapa foi concluída) · `false`
 
 ### `data-condicao-tipo`
 
@@ -629,6 +699,11 @@ Formato: um título `###` por **Atributo** (553 itens), com os campos Onde · Va
 - **Onde:** cada convênio no cadastro do profissional do Consultório (`.custom-css-consultorio-profissional-convenio`)
 - **Valores:** o id do convênio
 
+### `data-convidado-id`
+
+- **Onde:** cada linha da janela dos convidados externos (`.custom-css-convidados-externos-linha`)
+- **Valores:** o id do convidado
+
 ### `data-copiado`
 
 - **Onde:** botão de copiar de cada classe, atributo ou variável na página das classes (`.custom-css-documentacao-css-copiar`)
@@ -648,6 +723,11 @@ Formato: um título `###` por **Atributo** (553 itens), com os campos Onde · Va
 
 - **Onde:** cada cupom na tela do Cardápio Digital (`.custom-css-cardapio-cupom`)
 - **Valores:** o código do cupom
+
+### `data-da-equipe`
+
+- **Onde:** cada reação de um arquivo na galeria (`.custom-css-ticket-files-reacao`, com o emoji em `data-emoji`)
+- **Valores:** `true` (a reação é da equipe — clicar tira) · `false` (é do contato)
 
 ### `data-dash-view`
 
@@ -714,6 +794,11 @@ Formato: um título `###` por **Atributo** (553 itens), com os campos Onde · Va
 - **Onde:** cada dia da grade de horários das Reservas (`.custom-css-reservas-horarios-dia`)
 - **Valores:** o dia da semana: `0` domingo, `1` segunda ... `6` sábado
 
+### `data-dia`
+
+- **Onde:** a agenda dos Serviços (`.custom-css-servicos-agenda`) e cada dia nos horários de atendimento (`.custom-css-servicos-agenda-dia`)
+- **Valores:** na agenda, a data `YYYY-MM-DD`; nos horários, o dia da semana de `0` (domingo) a `6` (sábado)
+
 ### `data-dia-fechado`
 
 - **Onde:** cada dia do editor de horário (`.horario-do-dia`) com a chave Aberto/Fechado — no Cardápio Digital (o horário da loja e o da mesa)
@@ -768,6 +853,11 @@ Formato: um título `###` por **Atributo** (553 itens), com os campos Onde · Va
 
 - **Onde:** o formulário da janela de Campanhas (`.custom-css-gamificacao-campanha-form`)
 - **Valores:** `true` quando o formulário está mudando uma campanha que já existe · `false` quando está criando uma nova
+
+### `data-editavel`
+
+- **Onde:** o quadro das peças e serviços da ordem (`.custom-css-servicos-ordem-itens`)
+- **Valores:** `true` ainda dá para mudar os itens · `false` a ordem já passou da execução
 
 ### `data-edited`
 
@@ -839,6 +929,11 @@ Formato: um título `###` por **Atributo** (553 itens), com os campos Onde · Va
 - **Onde:** bloco de estado vazio (`.custom-css-empty-state`)
 - **Valores:** a tela, com o mesmo nome do `#custom-css-<página>`: `todolist` · `waba-templates` · `webhooks` · `audit-logs` · `pixel-logs` · `amqp-messages` · `tags` · `prompts` · `flowbuilders` · `services` · `products` · `quick-messages` · `queues` · `queue-categories` · `flow-categories` · `contact-lists` · `contact-list-items` · `campaigns` · `campaign-report` · `bot-files` · `kanban` · `kanban-team` · `kanban-grupos` · `oportunidades` · `pipeline` · `announcement-history` · `connections` · `propostas` · `contacts-duplicates` · `emails` · `thirdpart` · `documentacao-css` (a busca sem resultado, na página das classes). Telas com mais de um vazio levam o sufixo: `schedules-dia` · `schedules-historico` · `group-management-sem-conexao` · `group-management-sem-grupos` · `group-management-participantes` · `chats-conversa` (nenhuma conversa aberta, no computador e no celular) · `chats-lista` · `chats-popover` · `settings-empresas` (a lista de empresas em Configurações)
 
+### `data-encaixe`
+
+- **Onde:** a janela da chamada (`.custom-css-chamada`) e o contorno que mostra onde ela vai encaixar (`.custom-css-chamada-previa-do-encaixe`)
+- **Valores:** `tudo` (maximizada) · `esquerda` · `direita` (a metade da tela); sem o atributo, a janela solta. A janela encaixada leva também as classes `.custom-css-chamada-encaixada` e `.custom-css-chamada-encaixada-tudo`, `-esquerda` ou `-direita`
+
 ### `data-encontrado`
 
 - **Onde:** o cartão do #protocolo (`.custom-css-chats-protocolo`)
@@ -863,6 +958,11 @@ Formato: um título `###` por **Atributo** (553 itens), com os campos Onde · Va
 
 - **Onde:** o que aconteceu com cada aviso ao cliente na janela da tarefa (`.custom-css-tarefa-aviso-situacao`)
 - **Valores:** `true` (o aviso saiu) · `false` (não saiu; o motivo aparece no texto)
+
+### `data-enviado`
+
+- **Onde:** o link de pagamento recém-gerado da ordem de serviço (`.custom-css-servicos-cobranca-gerada`)
+- **Valores:** `true` foi ao cliente pelo WhatsApp · `false` não foi (só copiar)
 
 ### `data-envio`
 
@@ -889,6 +989,11 @@ Formato: um título `###` por **Atributo** (553 itens), com os campos Onde · Va
 - **Onde:** balão da mensagem
 - **Valores:** `true` no balão rosa (a plataforma não processou)
 
+### `data-escolhida`
+
+- **Onde:** cada post ou story na escolha do gatilho da automação do Instagram (`.custom-css-ig-automacao-midias`)
+- **Valores:** `true` o escolhido · `false` os outros
+
 ### `data-escopo`
 
 - **Onde:** cada escopo da chave nova na aba Integrações do Consultório (`.custom-css-consultorio-chaves-escopo`)
@@ -914,6 +1019,16 @@ Formato: um título `###` por **Atributo** (553 itens), com os campos Onde · Va
 - **Onde:** raiz da página de documentação da API (`#custom-css-documentacao-api`, a rota `/api-docs`) e da página das classes (`#custom-css-documentacao-css`, a rota `/css-docs`), cada etapa do indicador do encerramento em 3 passos (`.custom-css-encerramento-etapa`) e o cartão de PDF do chat interno (`.custom-css-chat-pdf`); e cada bolinha do Adicionar das Respostas Rápidas (`.custom-css-quick-message-etapa`)
 - **Valores:** na documentação da API: `carregando` (o Swagger UI ainda não subiu) · `pronto` · `erro` (os arquivos de `/swagger-ui/` não carregaram). Na página das classes: `carregando` · `pronto` · `erro` (o catálogo do idioma não carregou). Na etapa do encerramento: `ativa` · `feita` · `pendente` · `pulada` (a etapa Valor, quando a tag escolhida não pede valor). No cartão de PDF: `carregando` (ainda sem a primeira página — também enquanto o balão não apareceu na tela) · `pronto` (a primeira página está no cartão) · `erro` (PDF com senha, corrompido ou fora do ar: fica o símbolo do PDF, e o clique continua baixando). Na bolinha das Respostas Rápidas: `ativa` · `feita` · `pendente`, como no encerramento
 
+### `data-estoque-baixo`
+
+- **Onde:** cada peça ou serviço do catálogo dos Serviços (`.custom-css-servicos-item`)
+- **Valores:** `true` a peça chegou ao estoque mínimo · `false` não
+
+### `data-estornado`
+
+- **Onde:** cada pagamento da ordem de serviço (`.custom-css-servicos-ordem-pagamento`)
+- **Valores:** `true` o pagamento foi estornado (não conta mais) · `false`
+
 ### `data-estorno`
 
 - **Onde:** cada linha do extrato de Minha Evolução (`.custom-css-minha-evolucao-movimento`)
@@ -928,6 +1043,16 @@ Formato: um título `###` por **Atributo** (553 itens), com os campos Onde · Va
 
 - **Onde:** cada coluna do quadro na página do projeto (`.custom-css-projeto-coluna`)
 - **Valores:** o id da etapa
+
+### `data-etapa`
+
+- **Onde:** cada data na ficha da ordem de serviço (`.custom-css-servicos-ordem-datas`)
+- **Valores:** `entradaEm` · `orcadoEm` · `aprovadoEm` · `recusadoEm` · `iniciadoEm` · `concluidoEm` · `entregueEm` · `canceladoEm` · `pagoEm`
+
+### `data-etapa`
+
+- **Onde:** a janela do link de pagamento da ordem de serviço (`.custom-css-modal-servicos-cobranca`)
+- **Valores:** `escolha` (a conta e o envio) · `gerado` (o link pronto)
 
 ### `data-eventos`
 
@@ -1009,6 +1134,11 @@ Formato: um título `###` por **Atributo** (553 itens), com os campos Onde · Va
 - **Onde:** o item da seção Favoritos do menu (`.custom-css-menu-favorito-novo`)
 - **Valores:** `true` nos primeiros instantes depois de a página virar favorita; some sozinho
 
+### `data-feito`
+
+- **Onde:** cada item do checklist na página do convidado (`.custom-css-convidado-checklist-item`)
+- **Valores:** `true` (feito) · `false`
+
 ### `data-ferramenta`
 
 - **Onde:** janela do editor de imagem (`.custom-css-modal-editor-de-imagem`) e cada botão de ferramenta dela (`.custom-css-editor-de-imagem-ferramenta`)
@@ -1043,6 +1173,11 @@ Formato: um título `###` por **Atributo** (553 itens), com os campos Onde · Va
 
 - **Onde:** filtro de etiqueta no quadro do CRM v2
 - **Valores:** `true` — marca o campo
+
+### `data-filtros`
+
+- **Onde:** a linha dos filtros em uso na janela "Mensagem a todos os atendimentos" do Quadro (`.custom-css-quadro-disparo-filtros`)
+- **Valores:** quantos filtros da barra estão valendo (`1` em diante; sem filtro, a linha não aparece)
 
 ### `data-fixado`
 
@@ -1124,6 +1259,11 @@ Formato: um título `###` por **Atributo** (553 itens), com os campos Onde · Va
 - **Onde:** cada pagamento da reserva, o link gerado e cada forma de pagar na página pública (`.custom-css-reservas-reserva-pagamento-linha`, `.custom-css-reservas-reserva-pagamento-link`, `.custom-css-reservas-publica-sinal-forma`)
 - **Valores:** `dinheiro` · `pix` · `cartao` · `boleto` · `outro` · `asaas` · `mercadopago` · `pagseguro` · `paggpix`
 
+### `data-forma`
+
+- **Onde:** a conta do link de pagamento da ordem de serviço (`.custom-css-servicos-cobranca-conta`, `.custom-css-servicos-cobranca-gerada`, `.custom-css-servicos-ordem-cobranca`, `.custom-css-servicos-publica-pagamento`)
+- **Valores:** `asaas` · `mercadopago` · `pagseguro` · `paggpix`
+
 ### `data-frequencia`
 
 - **Onde:** a marca da série no detalhe da reserva (`.custom-css-reservas-reserva-serie`)
@@ -1148,6 +1288,11 @@ Formato: um título `###` por **Atributo** (553 itens), com os campos Onde · Va
 
 - **Onde:** cada linha da comissão do garçom no Relatório do PDV (`.custom-css-relatorio-pdv-comissao-linha`)
 - **Valores:** o id do garçom da linha; vazio na linha dos pedidos feitos pelo QR (sem garçom)
+
+### `data-gateway`
+
+- **Onde:** cada conta da lista "Link de pagamento depois de confirmar", na seção da IA que vende pelo PDV, em Configurações → Opções → Automação (`.custom-css-opcao-ia-link-de-pagamento`)
+- **Valores:** `asaas` · `mercadopago` · `pagseguro` · `paggpix`
 
 ### `data-gerenciar-grupos`
 
@@ -1209,6 +1354,31 @@ Formato: um título `###` por **Atributo** (553 itens), com os campos Onde · Va
 - **Onde:** botão de trocar de visão
 - **Valores:** quantos grupos têm mensagem não lida (ausente quando zero)
 
+### `data-guia-mcp-acesso`
+
+- **Onde:** cada tipo de acesso explicado no Guia do MCP (`.custom-css-guia-mcp-acesso`)
+- **Valores:** `leitura` · `acao` · `plataforma` (só para o operador da plataforma)
+
+### `data-guia-mcp-evento`
+
+- **Onde:** cada aviso do webhook listado no Guia do MCP (`.custom-css-guia-mcp-evento`)
+- **Valores:** o nome do evento que chega no webhook (`token-criado`, `acao-executada`…)
+
+### `data-guia-mcp-ferramenta`
+
+- **Onde:** cada ferramenta listada no Guia do MCP (`.custom-css-guia-mcp-ferramenta`)
+- **Valores:** o nome da ferramenta no servidor (`buscar_atendimentos`, `enviar_mensagem`…)
+
+### `data-guia-mcp-grupo`
+
+- **Onde:** cada grupo de ferramentas no Guia do MCP (`.custom-css-guia-mcp-grupo`)
+- **Valores:** `leitura` · `acao` · `plataforma` (só para o operador da plataforma)
+
+### `data-guia-mcp-secao`
+
+- **Onde:** cada seção da página Guia do MCP (`.custom-css-guia-mcp-secao`)
+- **Valores:** `conectar` · `acessos` · `ferramentas` · `exemplos` · `fora` · `seguranca`
+
 ### `data-gupshup`
 
 - **Onde:** os blocos da aba Geral da janela da conexão WhatsApp Gupshup (`.custom-css-modal-gupshup`)
@@ -1253,6 +1423,11 @@ Formato: um título `###` por **Atributo** (553 itens), com os campos Onde · Va
 
 - **Onde:** cada horário livre da janela da reserva (`.custom-css-reservas-reserva-horario`)
 - **Valores:** a hora do início no fuso da empresa (`HH:MM`)
+
+### `data-hora`
+
+- **Onde:** cada horário livre para clicar (`.custom-css-servicos-agendamento-livre`, `.custom-css-servicos-agenda-publica-horario`)
+- **Valores:** a hora, `HH:mm`
 
 ### `data-icon`
 
@@ -1321,6 +1496,11 @@ Formato: um título `###` por **Atributo** (553 itens), com os campos Onde · Va
 
 ### `data-ligada`
 
+- **Onde:** o cartão da automação do Instagram (`.custom-css-ig-automacao-card`)
+- **Valores:** `true` ligada · `false` desligada
+
+### `data-ligada`
+
 - **Onde:** a opção da despedida obrigatória em Configurações → Opções (`.custom-css-opcao-despedida-obrigatoria`)
 - **Valores:** `sim` com a despedida obrigatória · `nao` sem
 
@@ -1374,6 +1554,11 @@ Formato: um título `###` por **Atributo** (553 itens), com os campos Onde · Va
 - **Onde:** a prévia da série (`.custom-css-reservas-serie-datas`)
 - **Valores:** quantas datas estão livres
 
+### `data-local`
+
+- **Onde:** cada local no filtro "Onde você prefere?" da página pública do link de agendamento (`.custom-css-agendar-publico-locais`)
+- **Valores:** o id do local cadastrado no link (8 letras e números); o chip "Todos os locais" não tem o atributo
+
 ### `data-lugar`
 
 - **Onde:** pódio de vendas
@@ -1398,6 +1583,26 @@ Formato: um título `###` por **Atributo** (553 itens), com os campos Onde · Va
 
 - **Onde:** a barra de seleção acima da lista da página E-mails (`.custom-css-emails-selecao`)
 - **Valores:** quantos e-mails estão selecionados (`0` sem nenhum) — dá para destacar a barra só quando há seleção
+
+### `data-mcp-dia`
+
+- **Onde:** cada dia da semana nos limites do token do MCP (`.custom-css-mcp-limites-dias`)
+- **Valores:** `0` (domingo) a `6` (sábado)
+
+### `data-mcp-externo-ativo`
+
+- **Onde:** cada servidor MCP da empresa na seção do MCP (`.custom-css-mcp-externo-servidor`)
+- **Valores:** `true` · `false`
+
+### `data-mcp-token-novo`
+
+- **Onde:** o quadro do token do MCP recém-gerado, em Configurações → Opções → Integrações e segurança (`.custom-css-mcp-token-novo`)
+- **Valores:** `true` (o token aparece só agora, uma vez; some ao clicar em "Já copiei")
+
+### `data-mcp-token-revogado`
+
+- **Onde:** cada linha da lista de tokens do MCP (`.custom-css-mcp-token`)
+- **Valores:** `true` (o token foi revogado e não vale mais) · `false` (ativo)
 
 ### `data-media`
 
@@ -1561,6 +1766,11 @@ Formato: um título `###` por **Atributo** (553 itens), com os campos Onde · Va
 
 ### `data-modo`
 
+- **Onde:** a janela de marcar ou remarcar um horário (`.custom-css-modal-servicos-agendamento`)
+- **Valores:** `criar` · `editar`
+
+### `data-modo`
+
 - **Onde:** a linha de um usuário em "Quem vê qual agenda" do Consultório (`.custom-css-consultorio-acesso`)
 - **Valores:** `todas` · `minha` (só a do profissional ligado ao usuário) · `estas` (os profissionais escolhidos) · `nenhuma`
 
@@ -1603,6 +1813,11 @@ Formato: um título `###` por **Atributo** (553 itens), com os campos Onde · Va
 
 - **Onde:** a seção da agenda do Google na janela do recurso das reservas (`.custom-css-reservas-recurso-agenda-google`)
 - **Valores:** por que a agenda não alcança o recurso: `sem-credencial` · `sem-usuario` · `sem-conta`; vazio quando alcança
+
+### `data-motivo`
+
+- **Onde:** o aviso de que o orçamento não pode ser aprovado pela página da ordem (`.custom-css-servicos-publica-sem-aprovacao`)
+- **Valores:** `ERR_SERVICOS_APROVACAO_PELO_LINK_DESLIGADA` (a empresa aprova direto) · `ERR_SERVICOS_ORCAMENTO_VENCIDO` (passou da validade)
 
 ### `data-motivo`
 
@@ -1653,6 +1868,16 @@ Formato: um título `###` por **Atributo** (553 itens), com os campos Onde · Va
 
 - **Onde:** faixa de permissão de notificação
 - **Valores:** `enable` · `dismiss`
+
+### `data-nova`
+
+- **Onde:** a janela da ordem de serviço (`.custom-css-modal-servicos-ordem`)
+- **Valores:** `true` abrindo uma ordem nova · `false` editando uma que existe
+
+### `data-novo`
+
+- **Onde:** o aviso do rascunho no editor do fluxo (`.custom-css-flowbuilder-rascunho`), quando o assistente deixou um rascunho
+- **Valores:** `true` no fluxo que o assistente criou (inativo, o desenho já está no editor) · `false` no ajuste de um fluxo em uso (o botão Abrir o rascunho aparece)
 
 ### `data-novo-grupo`
 
@@ -1726,13 +1951,23 @@ Formato: um título `###` por **Atributo** (553 itens), com os campos Onde · Va
 
 ### `data-origem`
 
+- **Onde:** cada horário na agenda dos Serviços (`.custom-css-servicos-agendamento`)
+- **Valores:** `painel` · `pagina` · `api`
+
+### `data-origem`
+
 - **Onde:** a mensagem do chat interno (`.custom-css-chats-msg`)
 - **Valores:** `sistema` na mensagem que o sistema escreve (a gravação, a transcrição e a análise da chamada), que ganha o balão `.custom-css-chats-msg-sistema`; sem o atributo nas outras
+
+### `data-origem-do-envio`
+
+- **Onde:** balão da mensagem da empresa (`.custom-css-msg-bubble`) e a marca `.custom-css-mensagem-enviada-automaticamente`
+- **Valores:** `painel` · `celular` · `api` · `flowbuilder` · `chatbot` · `campanha` · `agendamento` · `ia` · `sistema` (o aviso que a plataforma manda sozinha); sem o atributo nas mensagens antigas
 
 ### `data-origin`
 
 - **Onde:** balão da mensagem
-- **Valores:** `contact` · `user` (operador) · `app` (celular pareado) · `api` (bot/API)
+- **Valores:** `contact` · `user` (operador) · `app` (celular pareado) · `api` (API) · `auto` (a plataforma, sozinha)
 
 ### `data-outro-mes`
 
@@ -1749,6 +1984,11 @@ Formato: um título `###` por **Atributo** (553 itens), com os campos Onde · Va
 - **Onde:** a linha de um usuário em "Quem vê qual agenda" do Consultório (`.custom-css-consultorio-acesso`)
 - **Valores:** `sim` (ainda sem escolha do administrador: vale o padrão) · `nao`
 
+### `data-pagamento`
+
+- **Onde:** o quadro dos pagamentos da ordem (`.custom-css-servicos-ordem-pagamentos`) e o selo dele (`.custom-css-servicos-ordem-pagamento-situacao`)
+- **Valores:** `sem_valor` · `pendente` · `parcial` · `pago`
+
 ### `data-pagina`
 
 - **Onde:** cada página com o pixel, na lista de páginas do Pixel da Meta (Opções → Integrações e segurança)
@@ -1763,6 +2003,16 @@ Formato: um título `###` por **Atributo** (553 itens), com os campos Onde · Va
 
 - **Onde:** cada mensagem da conversa do Assistente de IA (`.custom-css-assistente-mensagem`)
 - **Valores:** `usuario` (a pergunta) · `assistente` (a resposta)
+
+### `data-para`
+
+- **Onde:** cada botão de etapa da ordem de serviço (`.custom-css-servicos-ordem-acao`) e a janela do motivo (`.custom-css-modal-servicos-motivo`)
+- **Valores:** a etapa para onde a ordem vai: `aberta` · `diagnostico` · `aguardando_aprovacao` · `aprovada` · `recusada` · `aguardando_peca` · `em_execucao` · `concluida` · `entregue` · `cancelada`
+
+### `data-passo`
+
+- **Onde:** cada passo do editor da automação do Instagram (`.custom-css-ig-automacao-passo`)
+- **Valores:** `quando` · `faca` · `ajustes`
 
 ### `data-pasta`
 
@@ -1793,6 +2043,11 @@ Formato: um título `###` por **Atributo** (553 itens), com os campos Onde · Va
 
 - **Onde:** cartão da meta do mês, em Minha evolução
 - **Valores:** o percentual do vendido sobre a meta, com uma casa (`41.7`, `150`) · vazio quando não há meta cadastrada
+
+### `data-perfil`
+
+- **Onde:** o perfil do vendedor ao lado do nome no Ranking do CRM e nas metas (`.custom-css-crm-ranking-perfil`)
+- **Valores:** `admin` · `supervisor` · `user`
 
 ### `data-perfil-erro`
 
@@ -1859,6 +2114,11 @@ Formato: um título `###` por **Atributo** (553 itens), com os campos Onde · Va
 - **Onde:** card do quadro de atendimentos
 - **Valores:** `true` quando quem olha pode abrir a conversa com duplo clique · `false` quando "Operador Visualiza Prévias?" está desligada para ele
 
+### `data-porcentagem`
+
+- **Onde:** a barra de progresso na página do convidado (`.custom-css-convidado-progresso`)
+- **Valores:** de `0` a `100`
+
 ### `data-porta`
 
 - **Onde:** cada porta da aba Marcação do Consultório (`.custom-css-consultorio-marcacao-porta`)
@@ -1898,6 +2158,11 @@ Formato: um título `###` por **Atributo** (553 itens), com os campos Onde · Va
 
 - **Onde:** cartão de tarefa (`.custom-css-task-card`)
 - **Valores:** `high` · `medium` · `low`
+
+### `data-prioridade`
+
+- **Onde:** cada ordem de serviço na lista (`.custom-css-servicos-ordem-na-lista`)
+- **Valores:** `baixa` · `normal` · `alta` · `urgente`
 
 ### `data-privada`
 
@@ -2169,6 +2434,31 @@ Formato: um título `###` por **Atributo** (553 itens), com os campos Onde · Va
 - **Onde:** cada linha do estado das rodadas na Avaliação pela IA, em Configurações → Opções, logo abaixo do "Avaliar agora" (dentro de `.custom-css-avaliacao-ia-rodadas`; a linha leva também `.custom-css-avaliacao-ia-rodada-<valor>`)
 - **Valores:** `rodando` (há uma rodada agora) · `nenhuma` (ainda não houve) · `naoTerminou` (começou e não terminou) · `ultima` (a última: avaliados, ignorados, falhas e aulas) · `motivo` (por que falharam) · `proxima` (quando é a próxima)
 
+### `data-rotulo-editar`
+
+- **Onde:** no botão de editar do balão de link do editor de texto (`a.ql-action`)
+- **Valores:** o texto de `textoRico.link.editar` nas Traduções
+
+### `data-rotulo-link`
+
+- **Onde:** no balão de link do editor de texto (`.ql-tooltip`), o rótulo de quando se digita o endereço do link
+- **Valores:** o texto de `textoRico.link.digite` nas Traduções
+
+### `data-rotulo-remover`
+
+- **Onde:** no botão de remover do balão de link do editor de texto (`a.ql-remove`)
+- **Valores:** o texto de `textoRico.link.remover` nas Traduções
+
+### `data-rotulo-salvar`
+
+- **Onde:** no botão de salvar do balão de link do editor de texto (`a.ql-action`, ao digitar o endereço)
+- **Valores:** o texto de `textoRico.link.salvar` nas Traduções
+
+### `data-rotulo-visitar`
+
+- **Onde:** no balão de link do editor de texto (`.ql-tooltip`), o rótulo de quando o balão mostra um link já posto
+- **Valores:** o texto de `textoRico.link.visitar` nas Traduções
+
 ### `data-rotulos`
 
 - **Onde:** a barra de ações agrupada do ticket (`.custom-css-ticket-actions`)
@@ -2198,6 +2488,11 @@ Formato: um título `###` por **Atributo** (553 itens), com os campos Onde · Va
 
 - **Onde:** a faixa de seção do cadastro de Planos (`.custom-css-planos-secao`) e o título de seção da janela de contato (`.custom-css-contact-modal-secao`)
 - **Valores:** Planos: `dados`, `limites`, `canais`, `recursos`, `ia`, `automacoes`, `gerais`. Janela de contato: `mainInfo`, `technicalInfo`, `contactInfo`, `personalData`, `location`, `specialSettings`, `extraInfo`
+
+### `data-segmento`
+
+- **Onde:** a janela da ordem de serviço (`.custom-css-modal-servicos-ordem`)
+- **Valores:** `assistencia` (o equipamento, a marca, o modelo) · `grafica` (o pedido: o produto e as especificações). A página dos Serviços leva a classe `.custom-css-servicos-segmento-assistencia` ou `.custom-css-servicos-segmento-grafica`
 
 ### `data-selecionada`
 
@@ -2294,6 +2589,11 @@ Formato: um título `###` por **Atributo** (553 itens), com os campos Onde · Va
 - **Onde:** o painel das abas de Configurações → Opções (`.custom-css-settings-aba-painel`)
 - **Valores:** `true` enquanto há texto em "Pesquisar opção" — o painel fica escondido e aparece a lista de resultados (`.custom-css-settings-busca-resultados`) · `false`
 
+### `data-settings-campo`
+
+- **Onde:** um campo dentro de uma seção de Configurações, que o endereço `?aba=…&secao=…&campo=…` destaca e traz para a tela
+- **Valores:** `avaliacao-ia-faltas` (a chave "Registrar os produtos em falta", na Avaliação pela IA, dentro de `avaliacoes`)
+
 ### `data-settings-item`
 
 - **Onde:** o que se procura pelo nome na busca de Configurações → Opções sem ser um campo (o botão "Adicionar processo" dos processos por setor ou conexão)
@@ -2312,7 +2612,7 @@ Formato: um título `###` por **Atributo** (553 itens), com os campos Onde · Va
 ### `data-settings-secao`
 
 - **Onde:** cada seção de Configurações (`.custom-css-settings-secao`) e a faixa dela (`.custom-css-section-header`)
-- **Valores:** `empresa` · `expediente` · `permissoes` · `rodizio` · `transferencias` · `bot` · `avaliacoes` · `chamadas` · `grupos` · `contatos-campos` · `mensagens` · `sons-notificacoes` · `carteiras` · `pdv` (só com o PDV) · `webhooks` · `pixel-meta` · `google-analytics-paginas` · `crm` · `armazenamento` · `seguranca` · `logs` · `sistema` (desde a WS-29.936.0; `aniversario` virou parte de `mensagens` e `2fa`, de `seguranca`); e, só para o super: `senha` · `global` · `smtp` · `pix-efi` · `mercado-pago` · `stripe` · `asaas` · `paypal` · `patibill` · `pwa` · `baileys` · `ajuda` · `nome-app` · `layout-v2` · `apps-externos` · `waba` · `google-analytics` · `infra` · `desempenho`
+- **Valores:** `empresa` · `expediente` · `permissoes` · `rodizio` · `transferencias` · `bot` · `ia-pdv` · `avaliacoes` · `chamadas` · `grupos` · `contatos-campos` · `mensagens` · `sons-notificacoes` · `carteiras` · `pdv` (só com o PDV) · `webhooks` · `pixel-meta` · `google-analytics-paginas` · `mcp` · `crm` · `armazenamento` · `seguranca` · `logs` · `sistema` (desde a WS-29.936.0; `aniversario` virou parte de `mensagens` e `2fa`, de `seguranca`); e, só para o super: `senha` · `global` · `smtp` · `pix-efi` · `mercado-pago` · `stripe` · `asaas` · `paypal` · `patibill` · `pwa` · `baileys` · `ajuda` · `nome-app` · `layout-v2` · `apps-externos` · `waba` · `google-analytics` · `infra` · `desempenho`
 
 ### `data-settings-secao`
 
@@ -2388,6 +2688,26 @@ Formato: um título `###` por **Atributo** (553 itens), com os campos Onde · Va
 
 - **Onde:** cada reserva da agenda (`.custom-css-reservas-agenda-reserva`) e a situação no detalhe (`.custom-css-reservas-reserva-situacao`)
 - **Valores:** `pendente` · `confirmada` · `concluida` · `nao_compareceu` · `cancelada`
+
+### `data-situacao`
+
+- **Onde:** cada ordem de serviço na lista (`.custom-css-servicos-ordem-na-lista`), o selo da etapa (`.custom-css-servicos-situacao`) e cada filtro de etapa (`.custom-css-servicos-ordens-filtro`, que também tem `em_andamento` e `todas`)
+- **Valores:** `aberta` · `diagnostico` · `aguardando_aprovacao` · `aprovada` · `recusada` · `aguardando_peca` · `em_execucao` · `concluida` · `entregue` · `cancelada`
+
+### `data-situacao`
+
+- **Onde:** cada horário na agenda dos Serviços (`.custom-css-servicos-agendamento`) e o horário marcado na página do cliente (`.custom-css-servicos-agendamento-publico-cartao`, `.custom-css-servicos-agenda-publica-marcado`)
+- **Valores:** `agendado` · `confirmado` · `concluido` · `faltou` · `cancelado`
+
+### `data-situacao`
+
+- **Onde:** cada link de pagamento na ficha da ordem de serviço (`.custom-css-servicos-ordem-cobranca`)
+- **Valores:** `pendente` · `pago` · `cancelado`
+
+### `data-situacao`
+
+- **Onde:** a página da ordem para o cliente (`.custom-css-servicos-publica-ordem`) e o selo da etapa nela (`.custom-css-servicos-publica-situacao`)
+- **Valores:** `aberta` · `diagnostico` · `aguardando_aprovacao` · `aprovada` · `recusada` · `aguardando_peca` · `em_execucao` · `concluida` · `entregue` · `cancelada`
 
 ### `data-situacao-na-tela`
 
@@ -2581,6 +2901,31 @@ Formato: um título `###` por **Atributo** (553 itens), com os campos Onde · Va
 
 ### `data-tipo`
 
+- **Onde:** cada peça ou serviço do catálogo dos Serviços (`.custom-css-servicos-item`) e a janela do item (`.custom-css-modal-servicos-item`)
+- **Valores:** `peca` · `servico`
+
+### `data-tipo`
+
+- **Onde:** cada peça ou serviço da ordem (`.custom-css-servicos-ordem-linha`) e a janela do item (`.custom-css-modal-servicos-linha`)
+- **Valores:** `peca` · `servico`
+
+### `data-tipo`
+
+- **Onde:** cada linha do histórico da ordem de serviço (`.custom-css-servicos-ordem-evento`)
+- **Valores:** `criada` · `alterada` · `situacao` · `item` · `pagamento` · `estorno` · `nota` · `anexo`
+
+### `data-tipo`
+
+- **Onde:** cada aviso da aba Avisos dos Serviços (`.custom-css-servicos-aviso`)
+- **Valores:** a etapa do aviso: `aberta` · `diagnostico` · `aguardando_aprovacao` · `aprovada` · `recusada` · `aguardando_peca` · `em_execucao` · `concluida` · `entregue` · `cancelada`
+
+### `data-tipo`
+
+- **Onde:** cada aviso nas opções da agenda (`.custom-css-servicos-agenda-aviso`)
+- **Valores:** `confirmacao` · `remarcacao` · `cancelamento` · `lembrete`
+
+### `data-tipo`
+
 - **Onde:** a regra geral da comissão do entregador (`.custom-css-comissao-do-entregador-geral`)
 - **Valores:** `dia` · `percentual` · `entrega` · `dia-percentual` · `dia-entrega` · `nenhum` (sem comissão)
 
@@ -2713,6 +3058,11 @@ Formato: um título `###` por **Atributo** (553 itens), com os campos Onde · Va
 
 - **Onde:** o prazo de cada atendimento na lista do alerta de SLA do Dashboard (`.custom-css-dashboard-lista-sla`)
 - **Valores:** `true` (o SLA já venceu) · `false` (ainda vai vencer)
+
+### `data-versao`
+
+- **Onde:** cada versão da prova da arte: no bloco "Prova da arte" da ordem de serviço (`.custom-css-servicos-ordem-prova-versao`) e na página do pedido para o cliente (`.custom-css-servicos-publica-prova`)
+- **Valores:** o número da versão (1, 2, 3…): cada novo envio da gráfica é a versão seguinte
 
 ### `data-video`
 

@@ -1,8 +1,8 @@
-<!-- gerado por _gerar.py · fonte: https://app.chatmasterveloz.com/catalogo-css/pt.json · versão WS-30.141.0 -->
+<!-- gerado por _gerar.py · fonte: https://app.chatmasterveloz.com/catalogo-css/pt.json · versão WS-30.215.0 -->
 
 # Páginas
 
-155 telas, uma âncora cada, no container:
+162 telas, uma âncora cada, no container:
 
 - `#custom-css-ai`
 - `#custom-css-amqp-messages`
@@ -13,6 +13,7 @@
 - `#custom-css-assistente`
 - `#custom-css-atendimento-report`
 - `#custom-css-atendimentos`
+- `#custom-css-atividade-do-mcp`
 - `#custom-css-audit-logs`
 - `#custom-css-avaliacao-ia`
 - `#custom-css-balcao`
@@ -70,8 +71,10 @@
 - `#custom-css-gpt-analyzer`
 - `#custom-css-gravacoes`
 - `#custom-css-group-management`
+- `#custom-css-guia-do-mcp`
 - `#custom-css-helps`
 - `#custom-css-helps-iframe`
+- `#custom-css-ig-automacoes`
 - `#custom-css-instagram-posts`
 - `#custom-css-integrations`
 - `#custom-css-kanban`
@@ -130,7 +133,11 @@
 - `#custom-css-sala-convidado`
 - `#custom-css-sales-ranking`
 - `#custom-css-schedules`
-- `#custom-css-services`
+- `#custom-css-servicos`
+- `#custom-css-servicos-agenda-publica`
+- `#custom-css-servicos-agendamento-publico`
+- `#custom-css-servicos-ordem`
+- `#custom-css-servicos-publica`
 - `#custom-css-settings`
 - `#custom-css-shell`
 - `#custom-css-short-links`

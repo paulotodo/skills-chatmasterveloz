@@ -1,10 +1,10 @@
-<!-- gerado por _gerar.py · fonte: https://app.chatmasterveloz.com/catalogo-css/pt.json · versão WS-30.141.0 -->
+<!-- gerado por _gerar.py · fonte: https://app.chatmasterveloz.com/catalogo-css/pt.json · versão WS-30.215.0 -->
 
 # Âncoras específicas, por área
 
 Partes de tela com alvo próprio — o balão da mensagem, o cartão do funil, a barra de ações. Âncora usada em mais de uma área aparece em todas.
 
-Formato: um título `###` por **Área** (347 itens), com os campos Âncoras abaixo.
+Formato: um título `###` por **Área** (375 itens), com os campos Âncoras abaixo.
 
 ### `AcoesEmMassaDasTarefas`
 
@@ -12,7 +12,7 @@ Formato: um título `###` por **Área** (347 itens), com os campos Âncoras abai
 
 ### `AgendarPublico`
 
-- **Âncoras:** `.custom-css-agendar-publico` · `.custom-css-agendar-publico-confirmada` · `.custom-css-agendar-publico-dias` · `.custom-css-agendar-publico-dias-anteriores` · `.custom-css-agendar-publico-erro` · `.custom-css-agendar-publico-formulario` · `.custom-css-agendar-publico-horarios` · `.custom-css-agendar-publico-mais-dias` · `.custom-css-agendar-publico-marcar` · `.custom-css-agendar-publico-recusa` · `.custom-css-agendar-publico-titulo`
+- **Âncoras:** `.custom-css-agendar-publico` · `.custom-css-agendar-publico-confirmada` · `.custom-css-agendar-publico-dias` · `.custom-css-agendar-publico-dias-anteriores` · `.custom-css-agendar-publico-endereco` · `.custom-css-agendar-publico-erro` · `.custom-css-agendar-publico-formulario` · `.custom-css-agendar-publico-horarios` · `.custom-css-agendar-publico-locais` · `.custom-css-agendar-publico-local-marcado` · `.custom-css-agendar-publico-mais-dias` · `.custom-css-agendar-publico-marcar` · `.custom-css-agendar-publico-recusa` · `.custom-css-agendar-publico-titulo`
 
 ### `AgendasVisiveisSelect`
 
@@ -24,7 +24,7 @@ Formato: um título `###` por **Área** (347 itens), com os campos Âncoras abai
 
 ### `AnexosDoRegistro`
 
-- **Âncoras:** `.custom-css-anexos`
+- **Âncoras:** `.custom-css-anexo-pendente` · `.custom-css-anexos` · `.custom-css-anexos-pendentes`
 
 ### `Annoucements`
 
@@ -62,6 +62,10 @@ Formato: um título `###` por **Área** (347 itens), com os campos Âncoras abai
 
 - **Âncoras:** `.custom-css-atendimentos-buscar` · `.custom-css-atendimentos-carregando` · `.custom-css-atendimentos-cartao` · `.custom-css-atendimentos-filtro` · `.custom-css-atendimentos-filtro-data-final` · `.custom-css-atendimentos-filtro-data-inicial` · `.custom-css-atendimentos-filtro-data-por` · `.custom-css-atendimentos-filtro-protocolo` · `.custom-css-atendimentos-filtro-texto` · `.custom-css-atendimentos-filtro-transferencias` · `.custom-css-atendimentos-filtro-valor-minimo` · `.custom-css-atendimentos-filtros` · `.custom-css-atendimentos-linha` · `.custom-css-atendimentos-paginacao` · `.custom-css-atendimentos-resumo` · `.custom-css-atendimentos-rodape-vendas` · `.custom-css-atendimentos-tabela` · `.custom-css-atendimentos-valor` · `.custom-css-atendimentos-vazio` · `.custom-css-stat-card` · `.custom-css-stat-card-icone` · `.custom-css-stat-card-rotulo` · `.custom-css-stat-card-valor`
 
+### `AtividadeDoMcp`
+
+- **Âncoras:** `.custom-css-atividade-mcp-abas` · `.custom-css-atividade-mcp-aprovacao` · `.custom-css-atividade-mcp-aprovacoes` · `.custom-css-atividade-mcp-aprovar` · `.custom-css-atividade-mcp-filtros` · `.custom-css-atividade-mcp-item` · `.custom-css-atividade-mcp-lista` · `.custom-css-atividade-mcp-recusar` · `.custom-css-atividade-mcp-texto` · `.custom-css-atividade-mcp-vazio` · `.custom-css-page-atividade-do-mcp`
+
 ### `AtividadesDaOportunidade`
 
 - **Âncoras:** `.custom-css-atividade` · `.custom-css-atividade-descricao` · `.custom-css-atividade-link` · `.custom-css-atividade-prazo` · `.custom-css-atividades` · `.custom-css-atividades-agenda` · `.custom-css-atividades-cancelar` · `.custom-css-atividades-criar` · `.custom-css-atividades-form` · `.custom-css-atividades-historico`
@@ -69,6 +73,10 @@ Formato: um título `###` por **Área** (347 itens), com os campos Âncoras abai
 ### `AuditLogs`
 
 - **Âncoras:** `.custom-css-empty-state` · `.custom-css-empty-state-icone` · `.custom-css-empty-state-texto` · `.custom-css-empty-state-titulo` · `.custom-css-stat-card` · `.custom-css-stat-card-icone` · `.custom-css-stat-card-rotulo` · `.custom-css-stat-card-valor`
+
+### `AutorizarMcp`
+
+- **Âncoras:** `.custom-css-autorizar-mcp` · `.custom-css-autorizar-mcp-acao` · `.custom-css-autorizar-mcp-cartao` · `.custom-css-autorizar-mcp-erro` · `.custom-css-autorizar-mcp-permitir` · `.custom-css-autorizar-mcp-plataforma` · `.custom-css-autorizar-mcp-recusar` · `.custom-css-autorizar-mcp-retorno` · `.custom-css-autorizar-mcp-titulo`
 
 ### `AvaliacaoPelaIa`
 
@@ -96,7 +104,7 @@ Formato: um título `###` por **Área** (347 itens), com os campos Âncoras abai
 
 ### `BalaoDaConversa`
 
-- **Âncoras:** `.custom-css-message-chat-externo` · `.custom-css-msg-bubble` · `.custom-css-msg-sticker`
+- **Âncoras:** `.custom-css-mensagem-assistente-pela-conta` · `.custom-css-mensagem-enviada-automaticamente` · `.custom-css-mensagem-enviada-externamente` · `.custom-css-message-chat-externo` · `.custom-css-msg-bubble` · `.custom-css-msg-sticker`
 
 ### `Balcao`
 
@@ -142,6 +150,10 @@ Formato: um título `###` por **Área** (347 itens), com os campos Âncoras abai
 
 - **Âncoras:** `.custom-css-btn-open-form` · `.custom-css-empty-state` · `.custom-css-empty-state-icone` · `.custom-css-empty-state-texto` · `.custom-css-empty-state-titulo`
 
+### `CampoComMencao`
+
+- **Âncoras:** `.custom-css-campo-com-mencao` · `.custom-css-campo-com-mencao-lista`
+
 ### `CamposExtras`
 
 - **Âncoras:** `.custom-css-setor-campo-extra-1` · `.custom-css-setor-campo-extra-1-rotulo` · `.custom-css-setor-campo-extra-2` · `.custom-css-setor-campo-extra-2-rotulo` · `.custom-css-setor-campos-extras` · `.custom-css-usuario-campo-extra-1` · `.custom-css-usuario-campo-extra-1-rotulo` · `.custom-css-usuario-campo-extra-2` · `.custom-css-usuario-campo-extra-2-rotulo` · `.custom-css-usuario-campos-extras`
@@ -164,7 +176,7 @@ Formato: um título `###` por **Área** (347 itens), com os campos Âncoras abai
 
 ### `Chamada`
 
-- **Âncoras:** `.custom-css-chamada` · `.custom-css-chamada-ativar-som` · `.custom-css-chamada-aviso` · `.custom-css-chamada-botao` · `.custom-css-chamada-cliente` · `.custom-css-chamada-controles` · `.custom-css-chamada-convidados-link-aberto` · `.custom-css-chamada-convite` · `.custom-css-chamada-dispositivos` · `.custom-css-chamada-dispositivos-botao` · `.custom-css-chamada-entrar` · `.custom-css-chamada-equipe` · `.custom-css-chamada-espera` · `.custom-css-chamada-faixa` · `.custom-css-chamada-fase` · `.custom-css-chamada-fundo` · `.custom-css-chamada-fundo-opcao` · `.custom-css-chamada-grade` · `.custom-css-chamada-grade-palco` · `.custom-css-chamada-grade-so-a-tela` · `.custom-css-chamada-grande` · `.custom-css-chamada-gravando` · `.custom-css-chamada-ha-video` · `.custom-css-chamada-iniciar-audio` · `.custom-css-chamada-iniciar-video` · `.custom-css-chamada-mini` · `.custom-css-chamada-na-chamada` · `.custom-css-chamada-palco` · `.custom-css-chamada-participante` · `.custom-css-chamada-participante-avatar` · `.custom-css-chamada-participante-falando` · `.custom-css-chamada-participante-local` · `.custom-css-chamada-participante-nome` · `.custom-css-chamada-participante-sem-microfone` · `.custom-css-chamada-participante-tela` · `.custom-css-chamada-participante-video` · `.custom-css-chamada-pedidos` · `.custom-css-chamada-recolher` · `.custom-css-chamada-redimensionar` · `.custom-css-chamada-redimensionar-direito` · `.custom-css-chamada-redimensionar-esquerdo` · `.custom-css-chamada-ruido-botao` · `.custom-css-chamada-sair` · `.custom-css-chamada-separada` · `.custom-css-chamada-so-a-tela` · `.custom-css-chamada-so-a-tela-ligado` · `.custom-css-chamada-solta` · `.custom-css-chamada-soltar` · `.custom-css-chamada-tela-aproximada` · `.custom-css-chamada-tela-area` · `.custom-css-chamada-tela-cheia` · `.custom-css-chamada-tela-cheia-botao` · `.custom-css-chamada-tela-conteudo` · `.custom-css-chamada-tela-zoom` · `.custom-css-chamada-tela-zoom-afastar` · `.custom-css-chamada-tela-zoom-ajustar` · `.custom-css-chamada-tela-zoom-aproximar` · `.custom-css-chamada-tela-zoom-real` · `.custom-css-chamada-tela-zoom-valor` · `.custom-css-chamada-titulo` · `.custom-css-chamada-topo` · `.custom-css-chamada-ver-video` · `.custom-css-chamada-voltar-para-voz` · `.custom-css-chamada-voz` · `.custom-css-chamada-voz-lista` · `.custom-css-chamada-voz-participante` · `.custom-css-chamada-voz-participante-falando` · `.custom-css-menu-chamada-fundo` · `.custom-css-page-menu`
+- **Âncoras:** `.custom-css-chamada` · `.custom-css-chamada-ativar-som` · `.custom-css-chamada-aviso` · `.custom-css-chamada-botao` · `.custom-css-chamada-cliente` · `.custom-css-chamada-controles` · `.custom-css-chamada-convidados-link-aberto` · `.custom-css-chamada-convite` · `.custom-css-chamada-dispositivos` · `.custom-css-chamada-dispositivos-botao` · `.custom-css-chamada-encaixada` · `.custom-css-chamada-entrar` · `.custom-css-chamada-equipe` · `.custom-css-chamada-espera` · `.custom-css-chamada-faixa` · `.custom-css-chamada-fase` · `.custom-css-chamada-fundo` · `.custom-css-chamada-fundo-opcao` · `.custom-css-chamada-grade` · `.custom-css-chamada-grade-palco` · `.custom-css-chamada-grade-so-a-tela` · `.custom-css-chamada-grande` · `.custom-css-chamada-gravando` · `.custom-css-chamada-ha-video` · `.custom-css-chamada-iniciar-audio` · `.custom-css-chamada-iniciar-video` · `.custom-css-chamada-maximizar` · `.custom-css-chamada-mini` · `.custom-css-chamada-na-chamada` · `.custom-css-chamada-palco` · `.custom-css-chamada-participante` · `.custom-css-chamada-participante-avatar` · `.custom-css-chamada-participante-falando` · `.custom-css-chamada-participante-local` · `.custom-css-chamada-participante-nome` · `.custom-css-chamada-participante-sem-microfone` · `.custom-css-chamada-participante-tela` · `.custom-css-chamada-participante-video` · `.custom-css-chamada-pedidos` · `.custom-css-chamada-previa-do-encaixe` · `.custom-css-chamada-recolher` · `.custom-css-chamada-redimensionar` · `.custom-css-chamada-redimensionar-direito` · `.custom-css-chamada-redimensionar-esquerdo` · `.custom-css-chamada-ruido-botao` · `.custom-css-chamada-sair` · `.custom-css-chamada-separada` · `.custom-css-chamada-so-a-tela` · `.custom-css-chamada-so-a-tela-ligado` · `.custom-css-chamada-solta` · `.custom-css-chamada-soltar` · `.custom-css-chamada-tela-aproximada` · `.custom-css-chamada-tela-area` · `.custom-css-chamada-tela-cheia` · `.custom-css-chamada-tela-cheia-botao` · `.custom-css-chamada-tela-conteudo` · `.custom-css-chamada-tela-zoom` · `.custom-css-chamada-tela-zoom-afastar` · `.custom-css-chamada-tela-zoom-ajustar` · `.custom-css-chamada-tela-zoom-aproximar` · `.custom-css-chamada-tela-zoom-real` · `.custom-css-chamada-tela-zoom-valor` · `.custom-css-chamada-titulo` · `.custom-css-chamada-topo` · `.custom-css-chamada-ver-video` · `.custom-css-chamada-voltar-para-voz` · `.custom-css-chamada-voz` · `.custom-css-chamada-voz-lista` · `.custom-css-chamada-voz-participante` · `.custom-css-chamada-voz-participante-falando` · `.custom-css-menu-chamada-fundo` · `.custom-css-page-menu`
 
 ### `Chat`
 
@@ -176,7 +188,7 @@ Formato: um título `###` por **Área** (347 itens), com os campos Âncoras abai
 
 ### `ChatInterno`
 
-- **Âncoras:** `.custom-css-chats-avatar`
+- **Âncoras:** `.custom-css-chats-avatar` · `.custom-css-chats-limpar-vazias` · `.custom-css-chats-limpar-vazias-janela`
 
 ### `ChaveDeIaDaEmpresa`
 
@@ -212,7 +224,7 @@ Formato: um título `###` por **Área** (347 itens), com os campos Âncoras abai
 
 ### `ComentariosDoRegistro`
 
-- **Âncoras:** `.custom-css-comentario-em-destaque` · `.custom-css-comentarios`
+- **Âncoras:** `.custom-css-comentario-em-destaque` · `.custom-css-comentarios` · `.custom-css-comentarios-rico` · `.custom-css-mencao` · `.custom-css-tarefa-comentario-anexos` · `.custom-css-tarefa-comentario-arquivos` · `.custom-css-tarefa-comentario-editor`
 
 ### `CompaniesManager`
 
@@ -368,7 +380,11 @@ Formato: um título `###` por **Área** (347 itens), com os campos Âncoras abai
 
 ### `ContactModal`
 
-- **Âncoras:** `.custom-css-contact-modal-fora-da-avaliacao` · `.custom-css-contact-modal-secao`
+- **Âncoras:** `.custom-css-contact-modal-fora-da-avaliacao` · `.custom-css-contact-modal-secao` · `.custom-css-contato-numero-mascarado`
+
+### `ContactModalTicket`
+
+- **Âncoras:** `.custom-css-contato-numero-mascarado`
 
 ### `Contacts`
 
@@ -402,6 +418,14 @@ Formato: um título `###` por **Área** (347 itens), com os campos Âncoras abai
 
 - **Âncoras:** `.custom-css-connection-meta` · `.custom-css-connection-meta-rotulo` · `.custom-css-connection-meta-valor` · `.custom-css-conta-meta` · `.custom-css-conta-meta-atualizar` · `.custom-css-conta-meta-copiar` · `.custom-css-conta-meta-nao-lida` · `.custom-css-conta-meta-rodape`
 
+### `ConvidadoPublico`
+
+- **Âncoras:** `.custom-css-convidado-carregando` · `.custom-css-convidado-cartao` · `.custom-css-convidado-checklist` · `.custom-css-convidado-checklist-item` · `.custom-css-convidado-comentario` · `.custom-css-convidado-comentarios` · `.custom-css-convidado-descricao` · `.custom-css-convidado-detalhes` · `.custom-css-convidado-empresa` · `.custom-css-convidado-etapa` · `.custom-css-convidado-etapas` · `.custom-css-convidado-fora` · `.custom-css-convidado-prioridade` · `.custom-css-convidado-progresso` · `.custom-css-convidado-rodape` · `.custom-css-convidado-saudacao` · `.custom-css-convidado-situacao` · `.custom-css-convidado-tarefa` · `.custom-css-convidado-titulo` · `.custom-css-empty-state` · `.custom-css-page-convidado`
+
+### `ConvidadosExternos`
+
+- **Âncoras:** `.custom-css-convidados-externos-acessos` · `.custom-css-convidados-externos-ajuda` · `.custom-css-convidados-externos-confirma-remover` · `.custom-css-convidados-externos-convidar` · `.custom-css-convidados-externos-form` · `.custom-css-convidados-externos-linha` · `.custom-css-convidados-externos-lista` · `.custom-css-convidados-externos-sem-vaga` · `.custom-css-convidados-externos-titulo` · `.custom-css-convidados-externos-uso` · `.custom-css-empty-state`
+
 ### `CopilotDaRaiaModal`
 
 - **Âncoras:** `.custom-css-copilot-acao-projeto` · `.custom-css-copilot-acao-projeto-copiar-da-venda` · `.custom-css-copilot-acao-projeto-responsavel` · `.custom-css-copilot-tempo`
@@ -428,7 +452,7 @@ Formato: um título `###` por **Área** (347 itens), com os campos Âncoras abai
 
 ### `CrmV2Ranking`
 
-- **Âncoras:** `.custom-css-crm-metas-modal` · `.custom-css-crm-ranking-conversao` · `.custom-css-crm-ranking-fila` · `.custom-css-crm-ranking-funil-encerramento` · `.custom-css-crm-ranking-linha` · `.custom-css-crm-ranking-linha-conversao` · `.custom-css-crm-ranking-metas` · `.custom-css-crm-ranking-modo-tv-barra` · `.custom-css-crm-ranking-modo-tv-botao` · `.custom-css-crm-ranking-opcao-encerramento` · `.custom-css-crm-ranking-visao` · `.custom-css-stat-card` · `.custom-css-stat-card-detalhe` · `.custom-css-stat-card-rotulo` · `.custom-css-stat-card-valor`
+- **Âncoras:** `.custom-css-crm-metas-modal` · `.custom-css-crm-ranking-conversao` · `.custom-css-crm-ranking-fila` · `.custom-css-crm-ranking-funil-encerramento` · `.custom-css-crm-ranking-linha` · `.custom-css-crm-ranking-linha-conversao` · `.custom-css-crm-ranking-metas` · `.custom-css-crm-ranking-modo-tv-barra` · `.custom-css-crm-ranking-modo-tv-botao` · `.custom-css-crm-ranking-opcao-encerramento` · `.custom-css-crm-ranking-perfil` · `.custom-css-crm-ranking-visao` · `.custom-css-stat-card` · `.custom-css-stat-card-detalhe` · `.custom-css-stat-card-rotulo` · `.custom-css-stat-card-valor`
 
 ### `CuponsDoCardapio`
 
@@ -436,11 +460,15 @@ Formato: um título `###` por **Área** (347 itens), com os campos Âncoras abai
 
 ### `Dashboard`
 
-- **Âncoras:** `.custom-css-aniversariantes` · `.custom-css-aniversariantes-conversar` · `.custom-css-atendente-avaliacao` · `.custom-css-dashboard-abandono` · `.custom-css-dashboard-abandono-numero` · `.custom-css-dashboard-api-oficial` · `.custom-css-dashboard-api-oficial-cartao` · `.custom-css-dashboard-api-oficial-partes` · `.custom-css-dashboard-api-oficial-sem-preco` · `.custom-css-dashboard-api-oficial-variacao` · `.custom-css-dashboard-atendente-cartao` · `.custom-css-dashboard-atendente-detalhe` · `.custom-css-dashboard-atendente-mapa` · `.custom-css-dashboard-atendente-mapa-celula` · `.custom-css-dashboard-automacao` · `.custom-css-dashboard-automacao-numero` · `.custom-css-dashboard-aviso-alertas` · `.custom-css-dashboard-aviso-botao` · `.custom-css-dashboard-legado-barra` · `.custom-css-dashboard-lista-acoes` · `.custom-css-dashboard-lista-atendente` · `.custom-css-dashboard-lista-linha` · `.custom-css-dashboard-lista-sla` · `.custom-css-dashboard-metas-botao` · `.custom-css-dashboard-metas-falta` · `.custom-css-dashboard-metas-por-setor` · `.custom-css-dashboard-metas-sem-expediente` · `.custom-css-dashboard-pico` · `.custom-css-dashboard-pico-celula` · `.custom-css-dashboard-ranking-detalhe` · `.custom-css-dashboard-ranking-linha` · `.custom-css-dashboard-recorte` · `.custom-css-dashboard-resumo-botao` · `.custom-css-dashboard-resumo-filtros` · `.custom-css-dashboard-resumo-ultimo` · `.custom-css-dashboard-visoes-botao` · `.custom-css-dashboard-visoes-menu` · `.custom-css-kpi-tendencia` · `.custom-css-page-header` · `.custom-css-relatorio-operador-pdf` · `.custom-css-relatorio-periodo-pdf` · `.custom-css-stat-card` · `.custom-css-stat-card-icone` · `.custom-css-stat-card-rotulo` · `.custom-css-stat-card-valor`
+- **Âncoras:** `.custom-css-aniversariantes` · `.custom-css-aniversariantes-conversar` · `.custom-css-atendente-avaliacao` · `.custom-css-dashboard-abandono` · `.custom-css-dashboard-abandono-numero` · `.custom-css-dashboard-api-oficial` · `.custom-css-dashboard-api-oficial-cartao` · `.custom-css-dashboard-api-oficial-partes` · `.custom-css-dashboard-api-oficial-sem-preco` · `.custom-css-dashboard-api-oficial-variacao` · `.custom-css-dashboard-atendente-cartao` · `.custom-css-dashboard-atendente-detalhe` · `.custom-css-dashboard-atendente-mapa` · `.custom-css-dashboard-atendente-mapa-celula` · `.custom-css-dashboard-automacao` · `.custom-css-dashboard-automacao-numero` · `.custom-css-dashboard-aviso-alertas` · `.custom-css-dashboard-aviso-botao` · `.custom-css-dashboard-legado-barra` · `.custom-css-dashboard-lista-acoes` · `.custom-css-dashboard-lista-atendente` · `.custom-css-dashboard-lista-espiar` · `.custom-css-dashboard-lista-linha` · `.custom-css-dashboard-lista-sla` · `.custom-css-dashboard-metas-botao` · `.custom-css-dashboard-metas-falta` · `.custom-css-dashboard-metas-por-setor` · `.custom-css-dashboard-metas-sem-expediente` · `.custom-css-dashboard-pico` · `.custom-css-dashboard-pico-celula` · `.custom-css-dashboard-ranking-detalhe` · `.custom-css-dashboard-ranking-linha` · `.custom-css-dashboard-recorte` · `.custom-css-dashboard-resumo-botao` · `.custom-css-dashboard-resumo-filtros` · `.custom-css-dashboard-resumo-ultimo` · `.custom-css-dashboard-visoes-botao` · `.custom-css-dashboard-visoes-menu` · `.custom-css-kpi-tendencia` · `.custom-css-page-header` · `.custom-css-relatorio-operador-pdf` · `.custom-css-relatorio-periodo-pdf` · `.custom-css-stat-card` · `.custom-css-stat-card-icone` · `.custom-css-stat-card-rotulo` · `.custom-css-stat-card-valor`
 
 ### `DashboardNew`
 
 - **Âncoras:** `.custom-css-dash-card` · `.custom-css-dashboard-modo-tv-barra` · `.custom-css-dashboard-modo-tv-botao` · `.custom-css-dashboard-painel` · `.custom-css-dashboard-relatorio-secao` · `.custom-css-dashboard-relatorio-titulo` · `.custom-css-dashboard-relatorios-em-secoes` · `.custom-css-dashboard-secao` · `.custom-css-dashboard-ver-tudo` · `.custom-css-page-header` · `.custom-css-page-header-icone` · `.custom-css-page-title` · `.custom-css-stat-card` · `.custom-css-stat-card-detalhe` · `.custom-css-stat-card-icone` · `.custom-css-stat-card-rotulo` · `.custom-css-stat-card-valor`
+
+### `DisparoDoAtendenteModal`
+
+- **Âncoras:** `.custom-css-quadro-disparo-filtros` · `.custom-css-quadro-disparo-previa` · `.custom-css-quadro-disparo-resultado`
 
 ### `DocumentacaoApi`
 
@@ -606,6 +634,10 @@ Formato: um título `###` por **Área** (347 itens), com os campos Âncoras abai
 
 - **Âncoras:** `.custom-css-btn-open-form` · `.custom-css-empty-state` · `.custom-css-empty-state-icone` · `.custom-css-empty-state-texto` · `.custom-css-empty-state-titulo` · `.custom-css-stat-card` · `.custom-css-stat-card-icone` · `.custom-css-stat-card-rotulo` · `.custom-css-stat-card-valor`
 
+### `GuiaDoMcp`
+
+- **Âncoras:** `.custom-css-guia-mcp-acesso` · `.custom-css-guia-mcp-claude-code` · `.custom-css-guia-mcp-codigo` · `.custom-css-guia-mcp-endereco` · `.custom-css-guia-mcp-evento` · `.custom-css-guia-mcp-exemplo` · `.custom-css-guia-mcp-ferramenta` · `.custom-css-guia-mcp-fora-da-plataforma` · `.custom-css-guia-mcp-grupo` · `.custom-css-guia-mcp-indice` · `.custom-css-guia-mcp-intro` · `.custom-css-guia-mcp-json` · `.custom-css-guia-mcp-secao` · `.custom-css-guia-mcp-webhook-assinatura` · `.custom-css-guia-mcp-webhook-exemplo` · `.custom-css-page-guia-do-mcp`
+
 ### `GupshupModal`
 
 - **Âncoras:** `.custom-css-gupshup-instrucoes` · `.custom-css-gupshup-url`
@@ -618,9 +650,21 @@ Formato: um título `###` por **Área** (347 itens), com os campos Âncoras abai
 
 - **Âncoras:** `.custom-css-oportunidade-historico` · `.custom-css-oportunidade-historico-linha`
 
+### `HistoricoDoProjeto`
+
+- **Âncoras:** `.custom-css-projeto-historico` · `.custom-css-projeto-historico-linha`
+
+### `HorarioSemanalDeTrabalho`
+
+- **Âncoras:** `.custom-css-horario-local-da-faixa`
+
 ### `ImagemDaContaDeEmail`
 
 - **Âncoras:** `.custom-css-email-account-imagem` · `.custom-css-email-account-imagem-escolher` · `.custom-css-email-account-imagem-tirar` · `.custom-css-email-conta-imagem`
+
+### `InstagramAutomacoes`
+
+- **Âncoras:** `.custom-css-ig-automacao-aviso` · `.custom-css-ig-automacao-card` · `.custom-css-ig-automacao-editor` · `.custom-css-ig-automacao-erro` · `.custom-css-ig-automacao-metricas` · `.custom-css-ig-automacao-midias` · `.custom-css-ig-automacao-modelos` · `.custom-css-ig-automacao-nova` · `.custom-css-ig-automacao-passo` · `.custom-css-ig-automacao-previa` · `.custom-css-ig-automacao-resumo` · `.custom-css-ig-automacao-toggle` · `.custom-css-ig-automacoes-abas`
 
 ### `InstagramPosts`
 
@@ -664,7 +708,7 @@ Formato: um título `###` por **Área** (347 itens), com os campos Âncoras abai
 
 ### `LeadsDoAnuncioModal`
 
-- **Âncoras:** `.custom-css-lead-do-anuncio` · `.custom-css-leads-do-anuncio`
+- **Âncoras:** `.custom-css-lead-do-anuncio` · `.custom-css-leads-do-anuncio` · `.custom-css-leads-do-anuncio-exportar`
 
 ### `LimitadorDeEnvioModal`
 
@@ -672,7 +716,7 @@ Formato: um título `###` por **Área** (347 itens), com os campos Âncoras abai
 
 ### `LinkDeAgendamentoModal`
 
-- **Âncoras:** `.custom-css-link-de-agendamento-automacao` · `.custom-css-link-de-agendamento-aviso` · `.custom-css-link-de-agendamento-aviso-novo` · `.custom-css-link-de-agendamento-aviso-tirar` · `.custom-css-link-de-agendamento-crm` · `.custom-css-link-de-agendamento-horario` · `.custom-css-link-de-agendamento-ocupam` · `.custom-css-link-de-agendamento-salvar` · `.custom-css-link-de-agendamento-tags` · `.custom-css-link-de-agendamento-variaveis`
+- **Âncoras:** `.custom-css-link-de-agendamento-adicionar-local` · `.custom-css-link-de-agendamento-automacao` · `.custom-css-link-de-agendamento-aviso` · `.custom-css-link-de-agendamento-aviso-novo` · `.custom-css-link-de-agendamento-aviso-tirar` · `.custom-css-link-de-agendamento-crm` · `.custom-css-link-de-agendamento-horario` · `.custom-css-link-de-agendamento-locais` · `.custom-css-link-de-agendamento-local` · `.custom-css-link-de-agendamento-ocupam` · `.custom-css-link-de-agendamento-salvar` · `.custom-css-link-de-agendamento-tags` · `.custom-css-link-de-agendamento-variaveis`
 
 ### `LinkNaBio`
 
@@ -736,7 +780,7 @@ Formato: um título `###` por **Área** (347 itens), com os campos Âncoras abai
 
 ### `MessagesList`
 
-- **Âncoras:** `.custom-css-conversation-bar` · `.custom-css-conversation-bar-active` · `.custom-css-conversation-bar-btn-template` · `.custom-css-conversation-bar-expired` · `.custom-css-conversation-bar-human-agent` · `.custom-css-conversation-bar-text` · `.custom-css-mensagem-reenvio` · `.custom-css-mensagem-transcricao` · `.custom-css-message-aguardando` · `.custom-css-message-cancelar-envio` · `.custom-css-message-cancelar-todas` · `.custom-css-message-chat-externo` · `.custom-css-messages` · `.custom-css-msg-bubble` · `.custom-css-msg-sticker` · `.custom-css-resposta-na-volta-aviso`
+- **Âncoras:** `.custom-css-conversation-bar` · `.custom-css-conversation-bar-active` · `.custom-css-conversation-bar-btn-template` · `.custom-css-conversation-bar-expired` · `.custom-css-conversation-bar-human-agent` · `.custom-css-conversation-bar-text` · `.custom-css-mensagem-assistente-pela-conta` · `.custom-css-mensagem-enviada-automaticamente` · `.custom-css-mensagem-enviada-externamente` · `.custom-css-mensagem-reenvio` · `.custom-css-mensagem-transcricao` · `.custom-css-message-aguardando` · `.custom-css-message-cancelar-envio` · `.custom-css-message-cancelar-todas` · `.custom-css-message-chat-externo` · `.custom-css-messages` · `.custom-css-msg-bubble` · `.custom-css-msg-sticker` · `.custom-css-resposta-na-volta-aviso`
 
 ### `MessagesListGhost`
 
@@ -856,7 +900,7 @@ Formato: um título `###` por **Área** (347 itens), com os campos Âncoras abai
 
 ### `PedidoDoPdvModal`
 
-- **Âncoras:** `.custom-css-pedido-ajuste-da-forma` · `.custom-css-pedido-cancelamento` · `.custom-css-pedido-confirmar-so-o-link` · `.custom-css-pedido-pdv-cep` · `.custom-css-pedido-pdv-endereco-salvo` · `.custom-css-pedido-pdv-enderecos-salvos` · `.custom-css-pedido-pdv-gerenciar-enderecos` · `.custom-css-pedido-pdv-motivo-do-cancelamento` · `.custom-css-pedido-pdv-salvar-endereco` · `.custom-css-pedido-regra-da-forma` · `.custom-css-pedido-sem-pagamento-online`
+- **Âncoras:** `.custom-css-pedido-ajuste-da-forma` · `.custom-css-pedido-cancelamento` · `.custom-css-pedido-confirmar-so-o-link` · `.custom-css-pedido-pdv-cep` · `.custom-css-pedido-pdv-cidade` · `.custom-css-pedido-pdv-endereco-salvo` · `.custom-css-pedido-pdv-enderecos-salvos` · `.custom-css-pedido-pdv-estado` · `.custom-css-pedido-pdv-gerenciar-enderecos` · `.custom-css-pedido-pdv-motivo-do-cancelamento` · `.custom-css-pedido-pdv-salvar-endereco` · `.custom-css-pedido-regra-da-forma` · `.custom-css-pedido-sem-pagamento-online`
 
 ### `Pedidos`
 
@@ -880,7 +924,7 @@ Formato: um título `###` por **Área** (347 itens), com os campos Âncoras abai
 
 ### `PlansManager`
 
-- **Âncoras:** `.custom-css-plano-erro` · `.custom-css-planos-link-de-cadastro` · `.custom-css-planos-link-de-cadastro-copiar` · `.custom-css-planos-link-de-cadastro-endereco` · `.custom-css-planos-link-de-cadastro-trocar` · `.custom-css-planos-monte-adicionar` · `.custom-css-planos-monte-ativo` · `.custom-css-planos-monte-campo` · `.custom-css-planos-monte-gravar` · `.custom-css-planos-monte-inclusos` · `.custom-css-planos-monte-link` · `.custom-css-planos-monte-modulo` · `.custom-css-planos-monte-remover` · `.custom-css-planos-monte-seu-plano` · `.custom-css-planos-secao` · `.custom-css-planos-secao-titulo` · `.custom-css-planos-uso-interno-ajuda`
+- **Âncoras:** `.custom-css-plano-convidados` · `.custom-css-plano-erro` · `.custom-css-planos-link-de-cadastro` · `.custom-css-planos-link-de-cadastro-copiar` · `.custom-css-planos-link-de-cadastro-endereco` · `.custom-css-planos-link-de-cadastro-trocar` · `.custom-css-planos-monte-adicionar` · `.custom-css-planos-monte-ativo` · `.custom-css-planos-monte-campo` · `.custom-css-planos-monte-gravar` · `.custom-css-planos-monte-inclusos` · `.custom-css-planos-monte-link` · `.custom-css-planos-monte-modulo` · `.custom-css-planos-monte-remover` · `.custom-css-planos-monte-seu-plano` · `.custom-css-planos-secao` · `.custom-css-planos-secao-titulo` · `.custom-css-planos-uso-interno-ajuda`
 
 ### `PlataformaDaMensagem`
 
@@ -908,7 +952,7 @@ Formato: um título `###` por **Área** (347 itens), com os campos Âncoras abai
 
 ### `ProductModal`
 
-- **Âncoras:** `.custom-css-produto-adicionar-sabores` · `.custom-css-produto-ativo-no-cardapio` · `.custom-css-produto-cobranca` · `.custom-css-produto-composto` · `.custom-css-produto-destaque-e-promocao` · `.custom-css-produto-detalhes` · `.custom-css-produto-encomenda` · `.custom-css-produto-encomenda-modo` · `.custom-css-produto-encomenda-prazo` · `.custom-css-produto-encomenda-sem-controle` · `.custom-css-produto-ficha-abrir` · `.custom-css-produto-ficha-adicionar` · `.custom-css-produto-ficha-de-insumos` · `.custom-css-produto-galeria` · `.custom-css-produto-galeria-adicionar` · `.custom-css-produto-galeria-e-ficha` · `.custom-css-produto-galeria-foto` · `.custom-css-produto-marca` · `.custom-css-produto-medida` · `.custom-css-produto-opcao-ativa` · `.custom-css-produto-peso-e-medidas` · `.custom-css-produto-preco-delivery` · `.custom-css-produto-sabores` · `.custom-css-produto-variacao-preco-delivery` · `.custom-css-produto-vitrine`
+- **Âncoras:** `.custom-css-produto-adicionar-sabores` · `.custom-css-produto-ativo-no-cardapio` · `.custom-css-produto-cobranca` · `.custom-css-produto-composto` · `.custom-css-produto-destaque-e-promocao` · `.custom-css-produto-detalhes` · `.custom-css-produto-encomenda` · `.custom-css-produto-encomenda-modo` · `.custom-css-produto-encomenda-prazo` · `.custom-css-produto-encomenda-sem-controle` · `.custom-css-produto-ficha-abrir` · `.custom-css-produto-ficha-adicionar` · `.custom-css-produto-ficha-de-insumos` · `.custom-css-produto-galeria` · `.custom-css-produto-galeria-adicionar` · `.custom-css-produto-galeria-e-ficha` · `.custom-css-produto-galeria-foto` · `.custom-css-produto-grafica` · `.custom-css-produto-grafica-area-minima` · `.custom-css-produto-grafica-pede-arte` · `.custom-css-produto-grafica-por-area` · `.custom-css-produto-marca` · `.custom-css-produto-medida` · `.custom-css-produto-opcao-ativa` · `.custom-css-produto-peso-e-medidas` · `.custom-css-produto-preco-delivery` · `.custom-css-produto-sabores` · `.custom-css-produto-variacao-preco-delivery` · `.custom-css-produto-vitrine`
 
 ### `Products`
 
@@ -920,11 +964,11 @@ Formato: um título `###` por **Área** (347 itens), com os campos Âncoras abai
 
 ### `Projeto`
 
-- **Âncoras:** `.custom-css-page-projeto` · `.custom-css-projeto-acao-apagar` · `.custom-css-projeto-acao-editar` · `.custom-css-projeto-acao-modelo` · `.custom-css-projeto-acao-nova-etapa` · `.custom-css-projeto-coluna` · `.custom-css-projeto-engrenagem` · `.custom-css-projeto-engrenagem-menu` · `.custom-css-projeto-etapa-descricao` · `.custom-css-projeto-etapa-descricao-campo` · `.custom-css-projeto-filtro-responsavel` · `.custom-css-projeto-link` · `.custom-css-projeto-quadro` · `.custom-css-projeto-responsavel` · `.custom-css-projeto-situacao` · `.custom-css-projeto-tarefa` · `.custom-css-projeto-tarefa-responsavel`
+- **Âncoras:** `.custom-css-page-projeto` · `.custom-css-projeto-acao-apagar` · `.custom-css-projeto-acao-convidados` · `.custom-css-projeto-acao-editar` · `.custom-css-projeto-acao-modelo` · `.custom-css-projeto-acao-nova-etapa` · `.custom-css-projeto-coluna` · `.custom-css-projeto-engrenagem` · `.custom-css-projeto-engrenagem-menu` · `.custom-css-projeto-etapa-descricao` · `.custom-css-projeto-etapa-descricao-campo` · `.custom-css-projeto-filtro-responsavel` · `.custom-css-projeto-filtro-situacao` · `.custom-css-projeto-link` · `.custom-css-projeto-quadro` · `.custom-css-projeto-responsavel` · `.custom-css-projeto-situacao` · `.custom-css-projeto-tarefa` · `.custom-css-projeto-tarefa-responsavel`
 
 ### `ProjetoModal`
 
-- **Âncoras:** `.custom-css-projeto-modal-anexar` · `.custom-css-projeto-modal-anexo` · `.custom-css-projeto-modal-anexo-novo` · `.custom-css-projeto-modal-anexos` · `.custom-css-projeto-ocultar-valor`
+- **Âncoras:** `.custom-css-projeto-modal-anexar` · `.custom-css-projeto-modal-anexo` · `.custom-css-projeto-modal-anexo-novo` · `.custom-css-projeto-modal-anexos` · `.custom-css-projeto-modal-descricao` · `.custom-css-projeto-ocultar-valor`
 
 ### `ProjetoModelosModal`
 
@@ -958,6 +1002,10 @@ Formato: um título `###` por **Área** (347 itens), com os campos Âncoras abai
 
 - **Âncoras:** `.custom-css-oportunidade-propostas`
 
+### `ProvaDaArteDoCliente`
+
+- **Âncoras:** `.custom-css-servicos-publica-prova` · `.custom-css-servicos-publica-prova-abrir` · `.custom-css-servicos-publica-prova-ajuste` · `.custom-css-servicos-publica-prova-ajustes` · `.custom-css-servicos-publica-prova-aprovar` · `.custom-css-servicos-publica-prova-confirmacao` · `.custom-css-servicos-publica-prova-confirmar` · `.custom-css-servicos-publica-prova-decisao` · `.custom-css-servicos-publica-prova-feito` · `.custom-css-servicos-publica-prova-imagem` · `.custom-css-servicos-publica-prova-situacao`
+
 ### `ProvedoresDeEmailSection`
 
 - **Âncoras:** `.custom-css-provedor-de-email` · `.custom-css-provedores-de-email`
@@ -965,6 +1013,10 @@ Formato: um título `###` por **Área** (347 itens), com os campos Âncoras abai
 ### `ProximaAtividade`
 
 - **Âncoras:** `.custom-css-crm-proxima-atividade` · `.custom-css-crm-proxima-atividade-prazo`
+
+### `PublicacoesInstagram`
+
+- **Âncoras:** `.custom-css-instagram-publicacao` · `.custom-css-instagram-publicacao-erro` · `.custom-css-instagram-publicacao-ia` · `.custom-css-instagram-publicacao-janela` · `.custom-css-instagram-publicacao-midias` · `.custom-css-instagram-publicacao-quando` · `.custom-css-instagram-publicacao-tipos` · `.custom-css-instagram-publicacoes`
 
 ### `PushPermissionBanner`
 
@@ -980,7 +1032,7 @@ Formato: um título `###` por **Área** (347 itens), com os campos Âncoras abai
 
 ### `QueueModal`
 
-- **Âncoras:** `.custom-css-queue-chatbot` · `.custom-css-setor-chat-interno` · `.custom-css-setor-mensagem-de-despedida` · `.custom-css-setor-retorno-ao-atendente` · `.custom-css-setor-transbordo-do-retorno`
+- **Âncoras:** `.custom-css-queue-chatbot` · `.custom-css-setor-chat-interno` · `.custom-css-setor-mensagem-de-despedida` · `.custom-css-setor-minutos-do-retorno-vazio` · `.custom-css-setor-retorno-ao-atendente` · `.custom-css-setor-transbordo-do-retorno`
 
 ### `Queues`
 
@@ -1005,6 +1057,10 @@ Formato: um título `###` por **Área** (347 itens), com os campos Âncoras abai
 ### `RankingDosGrupos`
 
 - **Âncoras:** `.custom-css-crm-ranking-grupo` · `.custom-css-crm-ranking-grupo-imagem` · `.custom-css-crm-ranking-grupo-nome` · `.custom-css-crm-ranking-grupos` · `.custom-css-crm-ranking-grupos-vazio`
+
+### `RascunhoDoFluxo`
+
+- **Âncoras:** `.custom-css-flowbuilder-rascunho`
 
 ### `Rastreio`
 
@@ -1150,9 +1206,65 @@ Formato: um título `###` por **Área** (347 itens), com os campos Âncoras abai
 
 - **Âncoras:** `.custom-css-seletor-periodo` · `.custom-css-seletor-periodo-ate` · `.custom-css-seletor-periodo-campanha` · `.custom-css-seletor-periodo-de` · `.custom-css-seletor-periodo-grupo` · `.custom-css-seletor-periodo-tipo`
 
-### `Services`
+### `Servicos`
 
-- **Âncoras:** `.custom-css-btn-open-form` · `.custom-css-empty-state` · `.custom-css-empty-state-icone` · `.custom-css-empty-state-titulo`
+- **Âncoras:** `.custom-css-page-servicos` · `.custom-css-servicos-abas` · `.custom-css-servicos-adicionar-peca` · `.custom-css-servicos-adicionar-servico` · `.custom-css-servicos-catalogo` · `.custom-css-servicos-catalogo-estoque-baixo` · `.custom-css-servicos-catalogo-filtros` · `.custom-css-servicos-configuracao` · `.custom-css-servicos-configuracao-aprovacao` · `.custom-css-servicos-configuracao-aprovacao-pelo-link` · `.custom-css-servicos-configuracao-numero` · `.custom-css-servicos-configuracao-pagamento` · `.custom-css-servicos-configuracao-salvar` · `.custom-css-servicos-configuracao-segmento` · `.custom-css-servicos-item` · `.custom-css-servicos-item-estoque-chip` · `.custom-css-servicos-nova-ordem` · `.custom-css-servicos-ordem-na-lista` · `.custom-css-servicos-ordens` · `.custom-css-servicos-ordens-atrasadas` · `.custom-css-servicos-ordens-filtro` · `.custom-css-servicos-ordens-mais` · `.custom-css-servicos-ordens-minhas` · `.custom-css-servicos-ordens-situacoes` · `.custom-css-servicos-salvar-webhook` · `.custom-css-servicos-segmento` · `.custom-css-servicos-situacao` · `.custom-css-servicos-webhook` · `.custom-css-servicos-webhook-bloqueado`
+
+### `ServicosAgenda`
+
+- **Âncoras:** `.custom-css-servicos-agenda` · `.custom-css-servicos-agenda-anterior` · `.custom-css-servicos-agenda-configurar` · `.custom-css-servicos-agenda-link-publico` · `.custom-css-servicos-agenda-novo` · `.custom-css-servicos-agenda-proximo` · `.custom-css-servicos-agendamento` · `.custom-css-servicos-agendamento-abrir-ordem` · `.custom-css-servicos-agendamento-acao` · `.custom-css-servicos-agendamento-cancelar-confirmar` · `.custom-css-servicos-agendamento-remarcar` · `.custom-css-servicos-agendamento-ver-ordem`
+
+### `ServicosAgendaConfigModal`
+
+- **Âncoras:** `.custom-css-servicos-agenda-add-periodo` · `.custom-css-servicos-agenda-aviso` · `.custom-css-servicos-agenda-config-salvar` · `.custom-css-servicos-agenda-dia` · `.custom-css-servicos-agenda-link` · `.custom-css-servicos-agenda-problema` · `.custom-css-servicos-agenda-tecnicos`
+
+### `ServicosAgendamentoModal`
+
+- **Âncoras:** `.custom-css-servicos-agendamento-livre` · `.custom-css-servicos-agendamento-livres` · `.custom-css-servicos-agendamento-salvar`
+
+### `ServicosAgendamentoPublico`
+
+- **Âncoras:** `.custom-css-page-servicos-agendamento-publico` · `.custom-css-servicos-agendamento-publico-cancelar` · `.custom-css-servicos-agendamento-publico-cartao` · `.custom-css-servicos-agendamento-publico-confirmacao` · `.custom-css-servicos-agendamento-publico-confirmar` · `.custom-css-servicos-agendamento-publico-nao-encontrado` · `.custom-css-servicos-agendamento-publico-remarcar` · `.custom-css-servicos-agendamento-publico-situacao`
+
+### `ServicosAgendaPublica`
+
+- **Âncoras:** `.custom-css-page-servicos-agenda-publica` · `.custom-css-servicos-agenda-publica-erro` · `.custom-css-servicos-agenda-publica-form` · `.custom-css-servicos-agenda-publica-horario` · `.custom-css-servicos-agenda-publica-horarios` · `.custom-css-servicos-agenda-publica-marcado` · `.custom-css-servicos-agenda-publica-marcar` · `.custom-css-servicos-agenda-publica-nao-encontrada` · `.custom-css-servicos-agenda-publica-sem-horario` · `.custom-css-servicos-agenda-publica-servicos` · `.custom-css-servicos-agenda-publica-ver`
+
+### `ServicosAvisos`
+
+- **Âncoras:** `.custom-css-servicos-aviso` · `.custom-css-servicos-aviso-padrao` · `.custom-css-servicos-avisos` · `.custom-css-servicos-avisos-salvar` · `.custom-css-servicos-avisos-variaveis`
+
+### `ServicosCobrancaModal`
+
+- **Âncoras:** `.custom-css-servicos-cobranca-conta` · `.custom-css-servicos-cobranca-contas` · `.custom-css-servicos-cobranca-gerada` · `.custom-css-servicos-cobranca-gerar` · `.custom-css-servicos-cobranca-link` · `.custom-css-servicos-cobranca-nao-enviada` · `.custom-css-servicos-cobranca-qrcode`
+
+### `ServicosItemModal`
+
+- **Âncoras:** `.custom-css-servicos-item-duracao` · `.custom-css-servicos-item-estoque` · `.custom-css-servicos-item-problema` · `.custom-css-servicos-item-salvar`
+
+### `ServicosLinhaModal`
+
+- **Âncoras:** `.custom-css-servicos-linha-metro-quadrado` · `.custom-css-servicos-linha-salvar` · `.custom-css-servicos-linha-total` · `.custom-css-servicos-linha-usar-area`
+
+### `ServicosOrdem`
+
+- **Âncoras:** `.custom-css-page-servicos-ordem` · `.custom-css-servicos-estorno-confirmar` · `.custom-css-servicos-motivo-confirmar` · `.custom-css-servicos-motivo-voltar` · `.custom-css-servicos-ordem-acao` · `.custom-css-servicos-ordem-andamento` · `.custom-css-servicos-ordem-anexar` · `.custom-css-servicos-ordem-anexo` · `.custom-css-servicos-ordem-anexos` · `.custom-css-servicos-ordem-atrasada` · `.custom-css-servicos-ordem-avulsa` · `.custom-css-servicos-ordem-cancelar-cobranca` · `.custom-css-servicos-ordem-catalogo` · `.custom-css-servicos-ordem-cliente` · `.custom-css-servicos-ordem-cobranca` · `.custom-css-servicos-ordem-cobrancas` · `.custom-css-servicos-ordem-comprovante` · `.custom-css-servicos-ordem-conferir-cobranca` · `.custom-css-servicos-ordem-datas` · `.custom-css-servicos-ordem-diagnostico` · `.custom-css-servicos-ordem-editar` · `.custom-css-servicos-ordem-especificacao` · `.custom-css-servicos-ordem-etapas` · `.custom-css-servicos-ordem-evento` · `.custom-css-servicos-ordem-garantia` · `.custom-css-servicos-ordem-gerar-link` · `.custom-css-servicos-ordem-historico` · `.custom-css-servicos-ordem-imprimir` · `.custom-css-servicos-ordem-itens` · `.custom-css-servicos-ordem-itens-revisam` · `.custom-css-servicos-ordem-linha` · `.custom-css-servicos-ordem-link` · `.custom-css-servicos-ordem-pagamento` · `.custom-css-servicos-ordem-pagamento-situacao` · `.custom-css-servicos-ordem-pagamentos` · `.custom-css-servicos-ordem-reenviar-aviso` · `.custom-css-servicos-ordem-registrar-pagamento` · `.custom-css-servicos-ordem-salvar-desconto` · `.custom-css-servicos-ordem-salvar-diagnostico` · `.custom-css-servicos-ordem-salvar-nota` · `.custom-css-servicos-ordem-totais` · `.custom-css-servicos-ordem-total` · `.custom-css-servicos-situacao`
+
+### `ServicosOrdemModal`
+
+- **Âncoras:** `.custom-css-servicos-ordem-contato` · `.custom-css-servicos-ordem-medidas` · `.custom-css-servicos-ordem-problema` · `.custom-css-servicos-ordem-salvar` · `.custom-css-servicos-ordem-tipo-de-equipamento` · `.custom-css-servicos-ordem-tiragem`
+
+### `ServicosPagamentoModal`
+
+- **Âncoras:** `.custom-css-servicos-pagamento-salvar`
+
+### `ServicosProvaDaArte`
+
+- **Âncoras:** `.custom-css-servicos-ordem-enviar-prova` · `.custom-css-servicos-ordem-prova` · `.custom-css-servicos-ordem-prova-arquivo` · `.custom-css-servicos-ordem-prova-comentario` · `.custom-css-servicos-ordem-prova-situacao` · `.custom-css-servicos-ordem-prova-versao` · `.custom-css-servicos-prova-arquivo-escolhido` · `.custom-css-servicos-prova-avisar` · `.custom-css-servicos-prova-confirmar` · `.custom-css-servicos-prova-mensagem`
+
+### `ServicosPublica`
+
+- **Âncoras:** `.custom-css-page-servicos-publica` · `.custom-css-servicos-publica-aprovar` · `.custom-css-servicos-publica-confirmacao` · `.custom-css-servicos-publica-confirmar` · `.custom-css-servicos-publica-copiar-pix` · `.custom-css-servicos-publica-datas` · `.custom-css-servicos-publica-decisao` · `.custom-css-servicos-publica-erro` · `.custom-css-servicos-publica-garantia` · `.custom-css-servicos-publica-nao-encontrada` · `.custom-css-servicos-publica-orcamento` · `.custom-css-servicos-publica-ordem` · `.custom-css-servicos-publica-pagamento` · `.custom-css-servicos-publica-pagar` · `.custom-css-servicos-publica-pix` · `.custom-css-servicos-publica-recusar` · `.custom-css-servicos-publica-sem-aprovacao` · `.custom-css-servicos-publica-situacao` · `.custom-css-servicos-publica-total`
 
 ### `SetoresDoPdvModal`
 
@@ -1160,7 +1272,7 @@ Formato: um título `###` por **Área** (347 itens), com os campos Âncoras abai
 
 ### `Settings`
 
-- **Âncoras:** `.custom-css-ajuste-da-forma` · `.custom-css-ajuste-da-forma-canais` · `.custom-css-ajuste-da-forma-canal` · `.custom-css-ajustes-das-formas` · `.custom-css-ajustes-das-formas-canais-ajuda` · `.custom-css-armazenamento-ajuda` · `.custom-css-armazenamento-olho` · `.custom-css-avaliacao-ia-alertas` · `.custom-css-avaliacao-ia-etapa` · `.custom-css-avaliacao-ia-etapas` · `.custom-css-avaliacao-ia-faltas` · `.custom-css-avaliacao-ia-opcoes` · `.custom-css-avaliacao-ia-processo` · `.custom-css-avaliacao-ia-processo-do-setor` · `.custom-css-avaliacao-ia-processos` · `.custom-css-avaliacao-ia-rodada` · `.custom-css-avaliacao-ia-rodadas` · `.custom-css-avaliacao-ia-webhook` · `.custom-css-aviso-do-pedido-cancelado-ajuda` · `.custom-css-colors-link-classes` · `.custom-css-comissao-do-entregador-geral` · `.custom-css-comissao-do-entregador-nova` · `.custom-css-comissao-do-entregador-propria` · `.custom-css-comissao-do-entregador-remover` · `.custom-css-correios-adicionar-servico` · `.custom-css-correios-ativo` · `.custom-css-correios-contrato` · `.custom-css-correios-do-pdv` · `.custom-css-correios-medidas` · `.custom-css-correios-remover-servico` · `.custom-css-correios-resultado` · `.custom-css-correios-salvar` · `.custom-css-correios-servicos` · `.custom-css-correios-testar` · `.custom-css-correios-teste` · `.custom-css-faixas-de-cep` · `.custom-css-faixas-de-cep-acrescentar` · `.custom-css-firebase-guardado` · `.custom-css-google-analytics-ajuda` · `.custom-css-google-analytics-paginas` · `.custom-css-google-analytics-salvar` · `.custom-css-opcao-despedida-obrigatoria` · `.custom-css-opcao-indisponivel-sem-estoque` · `.custom-css-opcao-moeda` · `.custom-css-opcoes-comissao-do-entregador` · `.custom-css-opcoes-comissao-do-garcom` · `.custom-css-opcoes-taxa-de-servico` · `.custom-css-painel-segmento` · `.custom-css-pixel-meta-ajuda` · `.custom-css-pixel-meta-paginas` · `.custom-css-rodape-do-link-na-bio` · `.custom-css-section-header` · `.custom-css-section-header-icone` · `.custom-css-section-header-titulo` · `.custom-css-setting-menu-type` · `.custom-css-settings-aba` · `.custom-css-settings-aba-ativa` · `.custom-css-settings-aba-painel` · `.custom-css-settings-abas` · `.custom-css-settings-abas-topo` · `.custom-css-settings-acoes-do-ticket` · `.custom-css-settings-busca` · `.custom-css-settings-busca-destaque` · `.custom-css-settings-busca-nenhum` · `.custom-css-settings-busca-resultado` · `.custom-css-settings-busca-resultados` · `.custom-css-settings-certificado-efi` · `.custom-css-settings-crm-contagem-unidades` · `.custom-css-settings-crm-versao` · `.custom-css-settings-expediente-dos-usuarios` · `.custom-css-settings-expediente-gravar` · `.custom-css-settings-expediente-padrao-ativo` · `.custom-css-settings-expediente-padrao-semana` · `.custom-css-settings-expediente-status-automatico` · `.custom-css-settings-indice-da-aba` · `.custom-css-settings-indice-item` · `.custom-css-settings-login-automatico` · `.custom-css-settings-login-automatico-copiar-chave` · `.custom-css-settings-login-automatico-link-fixo` · `.custom-css-settings-login-automatico-trocar-chave` · `.custom-css-settings-login-automatico-uso-unico` · `.custom-css-settings-meus-numeros` · `.custom-css-settings-plataforma-grupo` · `.custom-css-settings-precos-api-oficial` · `.custom-css-settings-secao` · `.custom-css-settings-secao-antiga` · `.custom-css-settings-subtitulo` · `.custom-css-token-da-empresa` · `.custom-css-webhook-do-email`
+- **Âncoras:** `.custom-css-ajuste-da-forma` · `.custom-css-ajuste-da-forma-canais` · `.custom-css-ajuste-da-forma-canal` · `.custom-css-ajustes-das-formas` · `.custom-css-ajustes-das-formas-canais-ajuda` · `.custom-css-armazenamento-ajuda` · `.custom-css-armazenamento-olho` · `.custom-css-avaliacao-ia-alertas` · `.custom-css-avaliacao-ia-etapa` · `.custom-css-avaliacao-ia-etapas` · `.custom-css-avaliacao-ia-faltas` · `.custom-css-avaliacao-ia-opcoes` · `.custom-css-avaliacao-ia-processo` · `.custom-css-avaliacao-ia-processo-do-setor` · `.custom-css-avaliacao-ia-processos` · `.custom-css-avaliacao-ia-rodada` · `.custom-css-avaliacao-ia-rodadas` · `.custom-css-avaliacao-ia-webhook` · `.custom-css-aviso-do-pedido-cancelado-ajuda` · `.custom-css-colors-link-classes` · `.custom-css-comissao-do-entregador-geral` · `.custom-css-comissao-do-entregador-nova` · `.custom-css-comissao-do-entregador-propria` · `.custom-css-comissao-do-entregador-remover` · `.custom-css-correios-adicionar-servico` · `.custom-css-correios-ativo` · `.custom-css-correios-contrato` · `.custom-css-correios-do-pdv` · `.custom-css-correios-medidas` · `.custom-css-correios-remover-servico` · `.custom-css-correios-resultado` · `.custom-css-correios-salvar` · `.custom-css-correios-servicos` · `.custom-css-correios-testar` · `.custom-css-correios-teste` · `.custom-css-faixas-de-cep` · `.custom-css-faixas-de-cep-acrescentar` · `.custom-css-firebase-guardado` · `.custom-css-google-analytics-ajuda` · `.custom-css-google-analytics-paginas` · `.custom-css-google-analytics-salvar` · `.custom-css-mcp-abre-atividade` · `.custom-css-mcp-abre-guia` · `.custom-css-mcp-ajuda` · `.custom-css-mcp-com-limites` · `.custom-css-mcp-editar-limites` · `.custom-css-mcp-endereco` · `.custom-css-mcp-externo` · `.custom-css-mcp-externo-adicionar` · `.custom-css-mcp-externo-editar` · `.custom-css-mcp-externo-ferramenta` · `.custom-css-mcp-externo-modal` · `.custom-css-mcp-externo-remover` · `.custom-css-mcp-externo-salvar` · `.custom-css-mcp-externo-servidor` · `.custom-css-mcp-externo-testar` · `.custom-css-mcp-gerar` · `.custom-css-mcp-ja-copiei` · `.custom-css-mcp-limites` · `.custom-css-mcp-limites-aprovacao` · `.custom-css-mcp-limites-com-horario` · `.custom-css-mcp-limites-conexoes` · `.custom-css-mcp-limites-dias` · `.custom-css-mcp-limites-fim` · `.custom-css-mcp-limites-inicio` · `.custom-css-mcp-limites-invalidos` · `.custom-css-mcp-limites-modal` · `.custom-css-mcp-limites-setores` · `.custom-css-mcp-limites-teto` · `.custom-css-mcp-nome` · `.custom-css-mcp-oauth-ajuda` · `.custom-css-mcp-plataforma` · `.custom-css-mcp-pode-agir` · `.custom-css-mcp-revogar` · `.custom-css-mcp-salvar-limites` · `.custom-css-mcp-token` · `.custom-css-mcp-token-limites` · `.custom-css-mcp-token-novo` · `.custom-css-mcp-tokens` · `.custom-css-mcp-trecho` · `.custom-css-mcp-trecho-claude-code` · `.custom-css-mcp-trecho-json` · `.custom-css-mcp-trecho-token` · `.custom-css-mcp-usuario` · `.custom-css-mcp-vazio` · `.custom-css-opcao-despedida-obrigatoria` · `.custom-css-opcao-ia-confirma-pedido` · `.custom-css-opcao-ia-link-de-pagamento` · `.custom-css-opcao-ia-vende-no-pdv` · `.custom-css-opcao-indisponivel-sem-estoque` · `.custom-css-opcao-moeda` · `.custom-css-opcoes-comissao-do-entregador` · `.custom-css-opcoes-comissao-do-garcom` · `.custom-css-opcoes-taxa-de-servico` · `.custom-css-painel-segmento` · `.custom-css-pixel-meta-ajuda` · `.custom-css-pixel-meta-paginas` · `.custom-css-rodape-do-link-na-bio` · `.custom-css-section-header` · `.custom-css-section-header-icone` · `.custom-css-section-header-titulo` · `.custom-css-setting-menu-type` · `.custom-css-settings-aba` · `.custom-css-settings-aba-ativa` · `.custom-css-settings-aba-painel` · `.custom-css-settings-abas` · `.custom-css-settings-abas-topo` · `.custom-css-settings-acoes-do-ticket` · `.custom-css-settings-busca` · `.custom-css-settings-busca-destaque` · `.custom-css-settings-busca-nenhum` · `.custom-css-settings-busca-resultado` · `.custom-css-settings-busca-resultados` · `.custom-css-settings-certificado-efi` · `.custom-css-settings-crm-contagem-unidades` · `.custom-css-settings-crm-versao` · `.custom-css-settings-expediente-dos-usuarios` · `.custom-css-settings-expediente-gravar` · `.custom-css-settings-expediente-padrao-ativo` · `.custom-css-settings-expediente-padrao-semana` · `.custom-css-settings-expediente-status-automatico` · `.custom-css-settings-indice-da-aba` · `.custom-css-settings-indice-item` · `.custom-css-settings-login-automatico` · `.custom-css-settings-login-automatico-copiar-chave` · `.custom-css-settings-login-automatico-link-fixo` · `.custom-css-settings-login-automatico-trocar-chave` · `.custom-css-settings-login-automatico-uso-unico` · `.custom-css-settings-meus-numeros` · `.custom-css-settings-plataforma-grupo` · `.custom-css-settings-precos-api-oficial` · `.custom-css-settings-reenvio-do-encerramento` · `.custom-css-settings-secao` · `.custom-css-settings-secao-antiga` · `.custom-css-settings-subtitulo` · `.custom-css-settings-transcricao-do-atendente` · `.custom-css-settings-versetor-grupos` · `.custom-css-settings-webhook-do-mcp` · `.custom-css-token-da-empresa` · `.custom-css-webhook-do-email`
 
 ### `SettingsCustom`
 
@@ -1200,7 +1312,7 @@ Formato: um título `###` por **Área** (347 itens), com os campos Âncoras abai
 
 ### `SobreOProjeto`
 
-- **Âncoras:** `.custom-css-projeto-anexar` · `.custom-css-projeto-anexo` · `.custom-css-projeto-anexo-apagar` · `.custom-css-projeto-anexos` · `.custom-css-projeto-comentar` · `.custom-css-projeto-comentario` · `.custom-css-projeto-comentario-apagar` · `.custom-css-projeto-comentario-campo` · `.custom-css-projeto-comentarios` · `.custom-css-projeto-comentarios-lateral` · `.custom-css-projeto-descricao` · `.custom-css-projeto-link` · `.custom-css-projeto-sobre` · `.custom-css-projeto-sobre-abas` · `.custom-css-projeto-sobre-alternar` · `.custom-css-projeto-sobre-lado-a-lado`
+- **Âncoras:** `.custom-css-mencao` · `.custom-css-projeto-aba-historico` · `.custom-css-projeto-anexar` · `.custom-css-projeto-anexo` · `.custom-css-projeto-anexo-apagar` · `.custom-css-projeto-anexos` · `.custom-css-projeto-comentar` · `.custom-css-projeto-comentario` · `.custom-css-projeto-comentario-apagar` · `.custom-css-projeto-comentario-campo` · `.custom-css-projeto-comentario-texto` · `.custom-css-projeto-comentarios` · `.custom-css-projeto-comentarios-lateral` · `.custom-css-projeto-descricao` · `.custom-css-projeto-link` · `.custom-css-projeto-sobre` · `.custom-css-projeto-sobre-abas` · `.custom-css-projeto-sobre-alternar` · `.custom-css-projeto-sobre-lado-a-lado`
 
 ### `StatusFilterCustom`
 
@@ -1244,7 +1356,7 @@ Formato: um título `###` por **Área** (347 itens), com os campos Âncoras abai
 
 ### `TaskModal`
 
-- **Âncoras:** `.custom-css-tarefa-abas` · `.custom-css-tarefa-abrir` · `.custom-css-tarefa-abrir-atendimento` · `.custom-css-tarefa-anexos` · `.custom-css-tarefa-aviso-campos` · `.custom-css-tarefa-aviso-cliente` · `.custom-css-tarefa-aviso-modo` · `.custom-css-tarefa-aviso-situacao` · `.custom-css-tarefa-btn-excluir` · `.custom-css-tarefa-btn-fechar` · `.custom-css-tarefa-btn-finalizar` · `.custom-css-tarefa-btn-reabrir` · `.custom-css-tarefa-comentarios` · `.custom-css-tarefa-comentarios-lateral` · `.custom-css-tarefa-compartilhar` · `.custom-css-tarefa-contato` · `.custom-css-tarefa-copiar-link` · `.custom-css-tarefa-descricao` · `.custom-css-tarefa-lado-a-lado` · `.custom-css-tarefa-outros-responsaveis` · `.custom-css-tarefa-sala` · `.custom-css-tarefa-sala-convite` · `.custom-css-tarefa-sala-convite-janela` · `.custom-css-tarefa-situacao`
+- **Âncoras:** `.custom-css-tarefa-abas` · `.custom-css-tarefa-abrir` · `.custom-css-tarefa-abrir-atendimento` · `.custom-css-tarefa-anexos` · `.custom-css-tarefa-aviso-campos` · `.custom-css-tarefa-aviso-cliente` · `.custom-css-tarefa-aviso-modo` · `.custom-css-tarefa-aviso-situacao` · `.custom-css-tarefa-btn-excluir` · `.custom-css-tarefa-btn-fechar` · `.custom-css-tarefa-btn-finalizar` · `.custom-css-tarefa-btn-reabrir` · `.custom-css-tarefa-comentarios` · `.custom-css-tarefa-comentarios-lateral` · `.custom-css-tarefa-compartilhar` · `.custom-css-tarefa-contato` · `.custom-css-tarefa-convidados` · `.custom-css-tarefa-copiar-link` · `.custom-css-tarefa-descricao` · `.custom-css-tarefa-lado-a-lado` · `.custom-css-tarefa-outros-responsaveis` · `.custom-css-tarefa-sala` · `.custom-css-tarefa-sala-convite` · `.custom-css-tarefa-sala-convite-janela` · `.custom-css-tarefa-situacao`
 
 ### `TelegramAiniModal`
 
@@ -1252,7 +1364,7 @@ Formato: um título `###` por **Área** (347 itens), com os campos Âncoras abai
 
 ### `TextoRico`
 
-- **Âncoras:** `.custom-css-editor-texto-rico` · `.custom-css-texto-rico`
+- **Âncoras:** `.custom-css-editor-texto-rico` · `.custom-css-editor-texto-rico-mencoes` · `.custom-css-mencao` · `.custom-css-texto-rico`
 
 ### `ThirdPart`
 
@@ -1272,7 +1384,7 @@ Formato: um título `###` por **Área** (347 itens), com os campos Âncoras abai
 
 ### `TicketFilesModal`
 
-- **Âncoras:** `.custom-css-ticket-files-miniatura` · `.custom-css-ticket-files-resumo`
+- **Âncoras:** `.custom-css-ticket-files-anterior` · `.custom-css-ticket-files-botao-reacoes` · `.custom-css-ticket-files-card-reacoes` · `.custom-css-ticket-files-escolha-reacao` · `.custom-css-ticket-files-miniatura` · `.custom-css-ticket-files-proximo` · `.custom-css-ticket-files-reacao` · `.custom-css-ticket-files-reacoes` · `.custom-css-ticket-files-resumo` · `.custom-css-ticket-files-visualizador`
 
 ### `TicketHeader`
 
@@ -1312,7 +1424,7 @@ Formato: um título `###` por **Área** (347 itens), com os campos Âncoras abai
 
 ### `TicketsKanban`
 
-- **Âncoras:** `.custom-css-button` · `.custom-css-page-header` · `.custom-css-quadro-acoes` · `.custom-css-quadro-barra` · `.custom-css-quadro-btn-config` · `.custom-css-quadro-btn-encerrar-toggle` · `.custom-css-quadro-btn-novo-ticket` · `.custom-css-quadro-btn-ordem` · `.custom-css-quadro-btn-pausa` · `.custom-css-quadro-btn-regras` · `.custom-css-quadro-btn-sem-resposta` · `.custom-css-quadro-btn-so-os-meus` · `.custom-css-quadro-busca` · `.custom-css-quadro-busca-limpar` · `.custom-css-quadro-canal` · `.custom-css-quadro-card` · `.custom-css-quadro-card-avatar` · `.custom-css-quadro-card-cabecalho` · `.custom-css-quadro-card-nome` · `.custom-css-quadro-card-pilulas` · `.custom-css-quadro-card-previa` · `.custom-css-quadro-card-regra` · `.custom-css-quadro-coluna` · `.custom-css-quadro-coluna-atendente` · `.custom-css-quadro-coluna-avatar` · `.custom-css-quadro-coluna-cabecalho` · `.custom-css-quadro-coluna-contagem` · `.custom-css-quadro-coluna-cor` · `.custom-css-quadro-coluna-corpo` · `.custom-css-quadro-coluna-regra` · `.custom-css-quadro-coluna-titulo` · `.custom-css-quadro-coluna-vazia` · `.custom-css-quadro-conexao` · `.custom-css-quadro-de-tickets` · `.custom-css-quadro-encerrar` · `.custom-css-quadro-fila` · `.custom-css-quadro-filtro-conexao` · `.custom-css-quadro-filtro-fila` · `.custom-css-quadro-filtro-grupo` · `.custom-css-quadro-filtro-operador` · `.custom-css-quadro-filtros` · `.custom-css-quadro-fixar` · `.custom-css-quadro-grupo` · `.custom-css-quadro-indicador` · `.custom-css-quadro-indicadores` · `.custom-css-quadro-nao-lidas` · `.custom-css-quadro-operador` · `.custom-css-quadro-pausado` · `.custom-css-quadro-pisca` · `.custom-css-quadro-seletor` · `.custom-css-quadro-tempo` · `.custom-css-quadro-vazio` · `.custom-css-quadro-vazio-texto`
+- **Âncoras:** `.custom-css-button` · `.custom-css-page-header` · `.custom-css-quadro-acoes` · `.custom-css-quadro-barra` · `.custom-css-quadro-btn-config` · `.custom-css-quadro-btn-disparo` · `.custom-css-quadro-btn-encerrar-toggle` · `.custom-css-quadro-btn-novo-ticket` · `.custom-css-quadro-btn-ordem` · `.custom-css-quadro-btn-pausa` · `.custom-css-quadro-btn-regras` · `.custom-css-quadro-btn-sem-resposta` · `.custom-css-quadro-btn-so-os-meus` · `.custom-css-quadro-busca` · `.custom-css-quadro-busca-limpar` · `.custom-css-quadro-canal` · `.custom-css-quadro-card` · `.custom-css-quadro-card-aguardando-aceitar` · `.custom-css-quadro-card-avatar` · `.custom-css-quadro-card-cabecalho` · `.custom-css-quadro-card-nome` · `.custom-css-quadro-card-pilulas` · `.custom-css-quadro-card-previa` · `.custom-css-quadro-card-regra` · `.custom-css-quadro-coluna` · `.custom-css-quadro-coluna-atendente` · `.custom-css-quadro-coluna-avatar` · `.custom-css-quadro-coluna-cabecalho` · `.custom-css-quadro-coluna-contagem` · `.custom-css-quadro-coluna-cor` · `.custom-css-quadro-coluna-corpo` · `.custom-css-quadro-coluna-regra` · `.custom-css-quadro-coluna-titulo` · `.custom-css-quadro-coluna-vazia` · `.custom-css-quadro-conexao` · `.custom-css-quadro-de-tickets` · `.custom-css-quadro-encerrar` · `.custom-css-quadro-fila` · `.custom-css-quadro-filtro-conexao` · `.custom-css-quadro-filtro-fila` · `.custom-css-quadro-filtro-grupo` · `.custom-css-quadro-filtro-operador` · `.custom-css-quadro-filtros` · `.custom-css-quadro-fixar` · `.custom-css-quadro-grupo` · `.custom-css-quadro-indicador` · `.custom-css-quadro-indicadores` · `.custom-css-quadro-nao-lidas` · `.custom-css-quadro-operador` · `.custom-css-quadro-pausado` · `.custom-css-quadro-pisca` · `.custom-css-quadro-seletor` · `.custom-css-quadro-tempo` · `.custom-css-quadro-vazio` · `.custom-css-quadro-vazio-texto`
 
 ### `TicketsList`
 
@@ -1348,7 +1460,7 @@ Formato: um título `###` por **Área** (347 itens), com os campos Âncoras abai
 
 ### `UserModal`
 
-- **Âncoras:** `.custom-css-user-aviso-da-avaliacao-ia` · `.custom-css-user-limite-de-atendimentos` · `.custom-css-user-pagina-inicial` · `.custom-css-usuario-acesso-projetos` · `.custom-css-usuario-pode-iniciar-atendimentos` · `.custom-css-usuario-quadros-ajuda-gestao` · `.custom-css-usuario-ver-ranking`
+- **Âncoras:** `.custom-css-user-aviso-da-avaliacao-ia` · `.custom-css-user-busca-da-resposta-rapida` · `.custom-css-user-limite-de-atendimentos` · `.custom-css-user-pagina-inicial` · `.custom-css-user-preferencias-do-operador` · `.custom-css-usuario-acesso-projetos` · `.custom-css-usuario-pode-iniciar-atendimentos` · `.custom-css-usuario-quadros-ajuda-gestao` · `.custom-css-usuario-ver-ranking`
 
 ### `Users`
 
@@ -1364,7 +1476,7 @@ Formato: um título `###` por **Área** (347 itens), com os campos Âncoras abai
 
 ### `VerPedidoDoPainel`
 
-- **Âncoras:** `.custom-css-painel-ver-pedido` · `.custom-css-ver-pedido-cancelamento` · `.custom-css-ver-pedido-cep`
+- **Âncoras:** `.custom-css-painel-ver-pedido` · `.custom-css-ver-pedido-cancelamento` · `.custom-css-ver-pedido-cep` · `.custom-css-ver-pedido-cidade`
 
 ### `VersoesDaEdicao`
 

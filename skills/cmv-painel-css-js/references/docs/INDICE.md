@@ -10,11 +10,11 @@
 - [Páginas](07-paginas.md)
 - [Modais](08-modais.md)
 - [Âncoras específicas, por área](09-ancoras-por-area.md)
-- [Âncoras específicas, de A a Z (2443)](10-ancoras-indice-az.md)
+- [Âncoras específicas, de A a Z (2818)](10-ancoras-indice-az.md)
 - [Classes sem prefixo](11-classes-sem-prefixo.md)
 - [Chat Externo (página pública)](12-chat-externo.md)
 - [Histórico](13-historico.md)
-- [Rotas (URLs) do frontend (148)](14-rotas.md)
+- [Rotas (URLs) do frontend (157)](14-rotas.md)
 - [Âncoras CSS](revendedor/recursos/ancoras-css.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/ancoras-css>
 - [Cores em Configurações](revendedor/recursos/configuracoes-cores.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/configuracoes-cores>
 - [Editar Empresa em Configurações](revendedor/recursos/configuracoes-editar-empresa.md) · Fonte: <https://revendedor.chatmasterveloz.com/docs/configuracoes-editar-empresa>

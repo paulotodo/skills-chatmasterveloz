@@ -1,8 +1,8 @@
-# Artigos incluídos nesta skill (620)
+# Artigos incluídos nesta skill (622)
 
 - [Chat Master Veloz — documentação da plataforma (Central de Ajuda)](00-LEIA-PRIMEIRO.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs>
 - [Índice — artigos fora do menu (3)](INDICE-outros.md)
-- [Índice — Recursos (506 artigos)](INDICE-recursos.md)
+- [Índice — Recursos (508 artigos)](INDICE-recursos.md)
 - [Índice — Trilhas (14 artigos)](INDICE-trilhas.md)
 - [Adicionar Tag](outros/adicionar-tag.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/adicionar-tag>
 - [Telegram](outros/telegram.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/telegram>
@@ -108,7 +108,9 @@
 - [Atualizações 20/11/2026](recursos/atualizacoes-2026-11-20.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-20>
 - [Atualizações 21/11/2026](recursos/atualizacoes-2026-11-21.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-21>
 - [Atualizações 22/11/2026](recursos/atualizacoes-2026-11-22.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-22>
+- [Atualizações 23/11/2026](recursos/atualizacoes-2026-11-23.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-23>
 - [Atualizações 24/11/2026](recursos/atualizacoes-2026-11-24.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-24>
+- [Atualizações 25/11/2026](recursos/atualizacoes-2026-11-25.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-25>
 - [Novembro 2026](recursos/atualizacoes-2026-11.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11>
 - [Atualizações](recursos/atualizacoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes>
 - [Auditoria de Vendas](recursos/auditoria-de-vendas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/auditoria-de-vendas>

@@ -1,6 +1,6 @@
-<!-- gerado por _gerar.py · fonte: bundle WS-30.141.0 -->
+<!-- gerado por _gerar.py · fonte: bundle WS-30.215.0 -->
 
-# Rotas (URLs) do frontend (148)
+# Rotas (URLs) do frontend (157)
 
 Lidas do roteador do bundle, na ordem em que são declaradas. Servem para o JS decidir pela `location.pathname`. O catálogo **não** publica qual `#custom-css-<página>` pertence a qual rota: confirme inspecionando a tela. `:param` é parâmetro; `?` no fim é opcional.
 
@@ -8,6 +8,7 @@ Lidas do roteador do bundle, na ordem em que são declaradas. Servem para o JS d
 |---|---|
 | `/login` | não |
 | `/login-automatico` | não |
+| `/mcp/autorizar` | não |
 | `/signup` | não |
 | `/monte-seu-plano` | não |
 | `/survey` | não |
@@ -24,7 +25,11 @@ Lidas do roteador do bundle, na ordem em que são declaradas. Servem para o JS d
 | `/loja/:slug/p/:produto` | não |
 | `/reservas/:slug` | não |
 | `/agendar/:codigo` | não |
+| `/convidado/:token` | não |
 | `/reservas/:slug/minha/:codigo` | não |
+| `/os/:token` | não |
+| `/agendar-servico/:slug` | não |
+| `/agendamento-servico/:codigo` | não |
 | `/api-docs` | não |
 | `/css-docs` | não |
 | `/` | sim |
@@ -38,6 +43,7 @@ Lidas do roteador do bundle, na ordem em que são declaradas. Servem para o JS d
 | `/email-accounts` | sim |
 | `/connections` | sim |
 | `/instagram-posts` | sim |
+| `/instagram-automacoes` | sim |
 | `/visitors-live` | sim |
 | `/sistema/redis` | sim |
 | `/sistema/postgres` | sim |
@@ -116,7 +122,8 @@ Lidas do roteador do bundle, na ordem em que são declaradas. Servem para o JS d
 | `/ratings/report` | sim |
 | `/integrations` | sim |
 | `/products` | sim |
-| `/services` | sim |
+| `/servicos` | sim |
+| `/servicos/ordens/:ordemId` | sim |
 | `/groups` | sim |
 | `/amqp-messages` | sim |
 | `/sip-logs` | sim |
@@ -132,6 +139,8 @@ Lidas do roteador do bundle, na ordem em que são declaradas. Servem para o JS d
 | `/avaliacao-ia` | sim |
 | `/mail-marketing` | sim |
 | `/meus-numeros` | sim |
+| `/guia-do-mcp` | sim |
+| `/atividade-do-mcp` | sim |
 | `/cardapio-digital` | sim |
 | `/link-na-bio` | sim |
 | `/loja-digital` | sim |
