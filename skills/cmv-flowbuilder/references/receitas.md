@@ -96,7 +96,7 @@ Com ofertas cadastradas no menu **Reservas**, o bloco **Reservas (agendar no flu
 - **Esqueleto por nota:** um fluxo por nota. Nota baixa: `Início → Conteúdo (desculpas) → Pergunta (o que faltou) → Variável → Msg Interna → Setor`. Nota alta: `Início → Conteúdo (agradecimento e link) → Encerrar`.
 - **Esqueleto com pesquisa no fluxo:** `… → Avaliação do Atendimento → [resposta] Conteúdo (agradecimento) → Encerrar; [Sem resposta] → Encerrar`.
 - **Esqueleto com lembrete:** `… → Menu (pergunta; Sem resposta no prazo) → [resposta] Setor; [Sem resposta] → Menu (lembrete; Sem resposta) → [resposta] Setor; [Sem resposta] → Encerrar`. O lembrete é um segundo Menu, e o Encerrar só vem depois dele: assim quem responde ao lembrete ainda chega ao Setor. Com o Encerrar logo depois do lembrete, a resposta abre outro protocolo no Setor da Conexão e dispara o fluxo de lá (`references/docs/recursos/gatilho-via-conexao.md`) ou, no remarketing, volta ao Setor do campo **Setor do atendimento reaberto** (`references/docs/recursos/gatilho-via-remarketing-de-tag.md`); não diga que ela "volta a este fluxo" nem que "não volta".
-- **Cuidado:** a avaliação do encerramento só é enviada com o atendimento em **Atendendo**. O bloco Avaliação do Atendimento não encerra sozinho. No fluxo da nota, a resposta de uma Pergunta seguida de Variável fica guardada na avaliação e aparece no menu **Relatório de Avaliações**.
+- **Cuidado:** a avaliação do encerramento só é enviada com o atendimento em **Atendendo**. O bloco Avaliação do Atendimento não encerra sozinho. No fluxo da nota, a resposta de uma Pergunta seguida de Variável fica guardada na avaliação e aparece no menu **Relatório de Avaliações**. No Chat Externo, responder a pesquisa da avaliação não devolve mais o atendimento à fila: ele continua encerrado (nota de 23/11/2026, WS-30.189.0: `references/docs/recursos/atualizacoes-2026-11-23.md`).
 - **JSON:** sim para os fluxos de nota; a Avaliação do Atendimento não tem formato observado.
 
 ## 7. Remarketing por tag
@@ -124,7 +124,7 @@ Com ofertas cadastradas no menu **Reservas**, o bloco **Reservas (agendar no flu
 ## 9. Comentário do Instagram
 
 - **Entrada:** Setor próprio para comentários, com **Palavras-Chave e Gatilhos**, e a conexão do Instagram com **Habilitar ação para comentários** (Gatilho via Comentário do Instagram (`references/docs/recursos/gatilho-via-comentario-do-instagram.md`)).
-- **Atalho:** as Automações Rápidas (`references/docs/recursos/automacoes-rapidas.md`) criam três modelos prontos, como rascunho. Sugira antes de montar do zero.
+- **Atalho:** as Automações Rápidas (`references/docs/recursos/automacoes-rapidas.md`) criam três modelos prontos, como rascunho. Sugira antes de montar do zero. Não são a tela **Automações do Instagram** da nota de 25/11/2026 (armadilha 17 do `SKILL.md`).
 - **Esqueleto:** `Início → Responder Comentário (várias frases) → Conteúdo (mensagem no Direct) → [É Seguidor?] → …`
 - **Cuidado:** saudação do Setor vazia, senão o comentário recebe duas respostas públicas. O fluxo desse Setor também responde a mensagens do Direct. Responder Comentário e É Seguidor? dependem da opção **Automação Instagram** do plano (`references/blocos.md`).
 - **JSON:** não; roteiro ou Automações rápidas.

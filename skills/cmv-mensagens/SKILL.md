@@ -53,12 +53,13 @@ Se o pedido já traz o suficiente, não trave: escreva, declare as suposições 
 | Avisar ou abordar clientes pela conexão oficial fora da janela | Template | Utilidade ou Marketing |
 | Mandar a mesma mensagem para muita gente | Campanha | Por QR Code: 5 variações de texto. Oficial: um template |
 | Mandar algo para um contato em data futura, ou todo mês | Agendamento | Na oficial, só com template |
-| Avisar de uma vez todos os clientes em atendimento com um atendente | Mensagem a todos os atendimentos | Pelo Quadro de atendimentos; vira um agendamento por contato; `{{name}}` e `{{firstName}}` |
+| Avisar de uma vez todos os clientes em atendimento com um atendente | Mensagem a todos os atendimentos | Pelo Quadro de atendimentos; vira um agendamento por contato; grupos ficam de fora; `{{name}}` e `{{firstName}}` |
 | Parabenizar no dia do aniversário | Mensagem de Aniversário | Um texto só, enviado às 10h |
 | O que o cliente lê ao chegar ou fora do horário | Mensagens do Setor (e da Conexão) | Saudação, fora de expediente |
 | Aviso de que o atendente saiu; despedida | Mensagem de Ausência; Mensagem de conclusão/Despedida | Campos do Perfil, do atendente, do Setor e da Conexão |
 | Mandar um e-mail em massa (promoção, novidade, convite) pelo CMV | E-mail do Mail Marketing | Modelo (assunto, pré-cabeçalho, blocos ou HTML) e campanha; variáveis próprias |
 | Confirmar, lembrar ou avisar sozinho quem marcou reunião, consulta ou reserva pelo CMV | Aviso automático de agenda | Links de agendamento, Consultório ou Reservas; cada módulo tem a sua lista de variáveis (seção 12) |
+| Avisar o cliente a cada etapa da ordem de serviço ou do pedido da gráfica, ou mandar a prova da arte | Aviso por etapa dos Serviços | Só descrito nas notas de 23 e 25/11/2026; variáveis não documentadas (seção 12) |
 
 Um pedido pode render mais de um tipo. "Campanha de reativação" na oficial, por exemplo, é um template de Marketing mais a lista com os campos extras preenchidos.
 
@@ -84,7 +85,7 @@ A cópia da Central de Ajuda está em `references/docs/` (um arquivo por artigo)
 
 Regras de honestidade, e o motivo de cada uma:
 
-- **Só afirme o que está no artigo.** O usuário vai colar o texto e disparar para clientes; uma variável inventada chega ao cliente como texto literal com chaves, e um caminho de menu errado faz a pessoa desistir.
+- **Só afirme o que está no artigo**, ou o que a ficha marca como "visto na tela em 25/11/2026 (WS-30.215.0)": nomes de campos e botões conferidos no painel real nessa versão, só leitura. O usuário vai colar o texto e disparar para clientes; uma variável inventada chega ao cliente como texto literal com chaves, e um caminho de menu errado faz a pessoa desistir.
 - **Imagens não foram transcritas.** Alguns formulários só aparecem em imagem. Não descreva campos que você não leu em texto.
 - **Diga "a documentação não cobre isso"** quando for o caso, e proponha um teste antes do envio real (ver "Teste antes do envio").
 - **Não misture variantes de conexão.** O que vale para a oficial não vale para a por QR Code, e vice-versa. Os artigos dizem por extenso a que conexão se aplicam ("conexão oficial", "por QR Code"); a comparação está em `references/docs/recursos/whatsapp-oficial-x-nao-oficial.md`.
@@ -130,6 +131,7 @@ Regras de honestidade, e o motivo de cada uma:
 | Meio de pagamento na Meta | `references/docs/recursos/forma-de-pagamento-do-whatsapp-oficial.md` |
 | Corrigir uma mensagem já enviada ao cliente | `references/docs/recursos/editar-mensagem-enviada-ao-cliente.md` |
 | E-mail do Mail Marketing: modelo, variáveis, campanha, listas, descadastro | `references/regras-por-tipo-de-mensagem.md`, seção 11; `references/docs/recursos/modelos-de-e-mail-blocos-e-html.md`, `references/docs/recursos/campanhas-de-e-mail.md` |
+| Avisos por etapa dos Serviços (ordem de serviço, gráfica, prova da arte) e a marca **Enviado automaticamente** na conversa | `references/regras-por-tipo-de-mensagem.md`, seção 12; `references/docs/recursos/atualizacoes-2026-11-23.md`, `references/docs/recursos/atualizacoes-2026-11-25.md` |
 | Avisos automáticos de agenda (Links de agendamento, Consultório, Reservas): onde fica o texto, quando sai, variáveis de cada módulo | `references/regras-por-tipo-de-mensagem.md`, seção 12; `references/docs/recursos/links-de-agendamento.md`, `references/docs/recursos/aba-confirmacao-em-cadastros-do-consultorio.md`, `references/docs/recursos/aba-avisos-em-reservas.md` |
 
 ## Armadilhas encontradas na documentação
@@ -171,6 +173,7 @@ Sugerir um teste é recomendação desta skill; os artigos não descrevem um rec
 - Lista de campanha pode ser uma **Lista Manual** com um contato só (botão **Novo**), com os campos extras preenchidos.
 - A **Gestão de Templates** mostra uma prévia do texto de cada modelo. O botão **Erros de Template** mostra por que um **envio** de template já aprovado foi recusado. O motivo de um template **rejeitado na análise** não aparece ali: chega por e-mail a quem administra a conta de mensagens e fica na **Página Inicial do Suporte para Empresas**, na Meta (Template Recusado, Pausado ou Desabilitado).
 - Na oficial, todo template enviado é cobrado, inclusive o do teste.
+- Desde 25/11/2026 (WS-30.214.0), o aviso que a plataforma manda sozinha aparece na conversa como **Enviado automaticamente**, com a data e a hora: é onde conferir se ele saiu (`references/docs/recursos/atualizacoes-2026-11-25.md`; seção 12 da ficha).
 
 No e-mail do Mail Marketing o teste é documentado: **Enviar um teste** no modelo e **Enviar teste** na campanha (seção 11 da ficha).
 
@@ -210,7 +213,7 @@ Caminho de arquivo desta skill (o que começa por `references/` ou `assets/`) n�
 
 **Pedido:** "cria umas respostas rápidas pra minha clínica de estética, atendo pelo WhatsApp normal com QR code"
 
-**Entrega:** contexto em uma linha (conexão por QR Code, tom próximo); tabela com oito a dez respostas rápidas (`/saudacao`, `/horario`, `/valores`, `/confirmar`, `/lembrete`, `/localizacao`, `/pix`, `/posvenda`, `/obrigado`), cada uma com tipo, texto e variáveis; a de localização no formato `<endereco> … </endereco> <mapa> … </mapa>`; passo a passo em **Respostas Rápidas** › **Adicionar**, com a dica de começar o atalho com `/` e a opção **Global** (só Admin define); aviso de trocar os colchetes; citação do artigo Resposta Rápida Envio de Texto.
+**Entrega:** contexto em uma linha (conexão por QR Code, tom próximo); tabela com oito a dez respostas rápidas (`/saudacao`, `/horario`, `/valores`, `/confirmar`, `/lembrete`, `/localizacao`, `/pix`, `/posvenda`, `/obrigado`), cada uma com tipo, texto e variáveis; a de localização no formato `<endereco> … </endereco> <mapa> … </mapa>`; passo a passo em **Respostas Rápidas** › **Adicionar**, com a dica de começar o atalho com `/` e o campo **Tipo de Visibilidade**, em **CONFIGURAÇÕES AVANÇADAS** (nos artigos, a opção **Global**); aviso de trocar os colchetes; citação do artigo Resposta Rápida Envio de Texto.
 
 **Pedido:** "migrei pra API oficial e preciso de um template de cobrança de mensalidade que não seja reprovado. tem como mandar automático todo dia 5? e isso vai me custar?"
 
@@ -235,7 +238,10 @@ Caminho de arquivo desta skill (o que começa por `references/` ou `assets/`) n�
 | Enviar template ou mensagem por API, webhook, n8n, payload | `cmv-api` |
 | Escrever o prompt do GPT Assistant ou de outro recurso de IA | `cmv-agente-ia` |
 | Dúvida de uso do painel que não envolve redigir mensagem (conectar número, permissões, erro de tela, configurar o Mail Marketing) | `cmv-ajuda` |
-| Montar os Links de agendamento, o Consultório ou as Reservas (agenda, horários, profissionais, recursos, página, conexão e Setor do aviso) | `cmv-ajuda`. O texto do aviso automático desses módulos (confirmação, lembrete, remarcação, cancelamento) é daqui: seção 12 da ficha, com as variáveis próprias de cada módulo |
+| Montar os Links de agendamento, o Consultório, as Reservas ou os Serviços (agenda, horários, profissionais, recursos, página, etapas, conexão e Setor do aviso) | `cmv-ajuda`. O texto do aviso automático desses módulos (confirmação, lembrete, remarcação, cancelamento, etapa da ordem ou do pedido) é daqui: seção 12 da ficha, com as variáveis próprias de cada módulo |
+| Montar uma automação do Instagram (tela **Automações do Instagram**, passos **Quando**, **Faça** e **Ajustes**) | `cmv-ajuda`. O texto das respostas automáticas (comentário no post, palavra no Direct, resposta ao story) pode ser redigido aqui, sem variável: é texto que a empresa manda a contatos. A nota de 25/11/2026 (`references/docs/recursos/atualizacoes-2026-11-25.md`) só diz que dá para sortear entre várias respostas e mandar um Direct com botão e imagem; nomes dos campos, limite de caracteres e variáveis não estão documentados |
+| Legenda de publicação do Instagram (menu **Posts Instagram** › **Nova publicação**) | Nenhuma: post fica fora desta skill. A mesma nota cita a legenda com contador de caracteres e os botões **Gerar com IA** e **Melhorar com IA**; o limite de caracteres não está documentado |
+| Cadastrar a resposta rápida, enviar o template ou agendar por um assistente de IA conectado ao painel (MCP) | Conectar o assistente: `cmv-api`. O texto é redigido aqui do mesmo jeito. O **Guia do MCP** do painel (visto na tela em 25/11/2026, WS-30.215.0; não há artigo) lista as ferramentas `resposta_rapida_criar` ("Cria uma resposta rápida de texto"), `listar_templates`, `enviar_template` e `agendar_mensagem`; os parâmetros de cada uma não estão descritos |
 | E-mail que não vai pelo Mail Marketing do CMV (Gmail, Outlook, outra ferramenta) | Nenhuma: fora desta skill |
 
 Quando o pedido mistura as duas coisas (por exemplo, "campanha que dispara um fluxo"), entregue aqui os textos e a parte de campanha, e diga com clareza qual parte cabe à outra skill. Os textos de dentro de um fluxo podem ser redigidos aqui; a montagem do fluxo, não.

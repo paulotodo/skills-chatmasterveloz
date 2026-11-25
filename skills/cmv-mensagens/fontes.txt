@@ -41,6 +41,8 @@ plataforma:recursos/remarketing-em-tags.md
 plataforma:recursos/editar-mensagem-enviada-ao-cliente.md   # corrigir a mensagem já enviada
 plataforma:recursos/atualizacoes-2026-11-21.md   # Mensagem a todos os atendimentos (só descrita nesta nota e na de 22/11)
 plataforma:recursos/atualizacoes-2026-11-22.md   # Mensagem a todos: chega ao Chat Externo e mostra os filtros do Quadro
+plataforma:recursos/atualizacoes-2026-11-23.md   # Serviços: avisos por etapa (aba Avisos); Quadro: sem resposta não conta o aviso da fila
+plataforma:recursos/atualizacoes-2026-11-25.md   # busca das respostas rápidas no próprio perfil; Enviado automaticamente; Serviços (Gráfica, Prova da arte); Automações e Posts do Instagram
 plataforma:recursos/atualizacoes-2026-11-20.md   # bloco API Oficial: envios e custo, no Dashboard (Custo estimado)
 # Mail Marketing: campanhas de e-mail (modelo, variáveis, listas, descadastro, teste); o webhook fica com a cmv-api
 subarvore:Mail Marketing

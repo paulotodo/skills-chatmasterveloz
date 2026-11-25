@@ -5,7 +5,7 @@ description: "Use para dúvidas de uso do painel do Chat Master Veloz (chatmaste
 
 # Ajuda do Chat Master Veloz
 
-Esta skill responde dúvidas de uso do Chat Master Veloz (CMV) com base na cópia da Central de Ajuda que está em `references/docs/`: 523 artigos (506 de recursos, 14 de trilhas, 3 fora do menu) e a lista de vídeos, copiados em 24/11/2026. Quem pergunta costuma ser administrador, supervisor ou atendente sem formação técnica. Em `references/docs/revendedor/` fica a documentação do revendedor (o Super Admin, dono da instância), usada como diz a seção "Cliente ou revendedor".
+Esta skill responde dúvidas de uso do Chat Master Veloz (CMV) com base na cópia da Central de Ajuda que está em `references/docs/`: 525 artigos (508 de recursos, 14 de trilhas, 3 fora do menu) e a lista de vídeos, copiados em 25/11/2026. Quem pergunta costuma ser administrador, supervisor ou atendente sem formação técnica. Em `references/docs/revendedor/` fica a documentação do revendedor (o Super Admin, dono da instância), usada como diz a seção "Cliente ou revendedor".
 
 A documentação é grande. Ler tudo gasta contexto e não melhora a resposta: o trabalho é achar o artigo certo, ler o trecho que responde e passar isso adiante em linguagem simples, dizendo de onde veio.
 
@@ -59,7 +59,7 @@ Para "como faço", o `[RESUMO]` mais a seção do passo costumam bastar. Para "p
 
 ### 4. Confira atualizações e divergências
 
-Os artigos `recursos/atualizacoes-AAAA-MM-DD.md` registram o que mudou a cada dia, e nem toda mudança foi levada ao artigo do recurso. Quando o assunto for IA, PDV, CRM, FlowBuilder, conexões, Dashboard, Consultório ou algo que a pessoa chama de "novo", busque também nas atualizações. Busque pelo nome do recurso ou do botão ("Clonar conexão", "Limitador de Mensagens"), não por um termo genérico: "QR Code", por exemplo, aparece nas atualizações quase só em assuntos do PDV e traz ruído. Se a atualização e o artigo divergirem, vale a atualização: diga isso e cite a data. Cada nota diz a partir de qual versão vale ("WS-…"), e a versão instalada aparece no fim do menu do ícone do perfil, no topo da tela: se a pessoa não acha uma novidade, peça a versão antes de procurar permissão ou plano. Visto em 25/11/2026: um painel na WS-30.141.0, a versão da nota de 20/11/2026, tinha o **Setor padrão para grupos** e a visão **Atendentes** do Quadro, e não tinha o campo **Busca das respostas rápidas** nem a opção **Operador vê os grupos do setor atribuídos a outros?**, que são da nota de 24/11/2026 (WS-30.194.0).
+Os artigos `recursos/atualizacoes-AAAA-MM-DD.md` registram o que mudou a cada dia, e nem toda mudança foi levada ao artigo do recurso. Quando o assunto for IA, PDV, CRM, FlowBuilder, conexões, Dashboard, Consultório ou algo que a pessoa chama de "novo", busque também nas atualizações. Busque pelo nome do recurso ou do botão ("Clonar conexão", "Limitador de Mensagens"), não por um termo genérico: "QR Code", por exemplo, aparece nas atualizações quase só em assuntos do PDV e traz ruído. Se a atualização e o artigo divergirem, vale a atualização: diga isso e cite a data. Cada nota diz a partir de qual versão vale ("WS-…"), e a versão instalada aparece no fim do menu do ícone do perfil, no topo da tela, na linha **Versão:**: se a pessoa não acha uma novidade, peça a versão antes de procurar permissão ou plano. Visto em 25/11/2026: um painel na WS-30.141.0, a versão da nota de 20/11/2026, tinha o **Setor padrão para grupos** e a visão **Atendentes** do Quadro, e não tinha o campo **Busca das respostas rápidas** nem a opção **Operador vê os grupos do setor atribuídos a outros?**, que são da nota de 24/11/2026 (WS-30.194.0). Atualizado no mesmo dia para a WS-30.215.0, o mesmo painel passou a mostrar os dois. O módulo **Serviços** e o **ESPIAR** do Dashboard são da nota de 23/11/2026 (WS-30.189.0); a Gráfica, as **Automações do Instagram** e o **Enviado automaticamente**, da nota de 25/11/2026 (WS-30.214.0).
 
 Dois artigos do mesmo assunto também podem dar passos diferentes (o caso conhecido é reconectar o WhatsApp por QR Code: veja "Armadilhas"). A documentação não diz qual dos dois vale, então não funda os dois num procedimento único como se ele estivesse documentado. Apresente os dois caminhos, cada um com a sua fonte, comece pelo menos destrutivo (o que não apaga sessão, conexão nem dados) e diga que a documentação diverge.
 
@@ -91,7 +91,7 @@ As duas documentações divergem em alguns pontos, listados no fim de `reference
 | `references/docs/revendedor/INDICE-recursos.md` | Documentação do revendedor, 80 artigos: Como Habilitar (um artigo por recurso), as telas de Configurações do Super Admin (Plataforma, Empresas, Planos, Tokens de IA, Cores, Logotipos) e Downloads |
 | `references/docs/revendedor/INDICE-trilhas.md` | A trilha Meta do revendedor, 10 artigos: API Oficial Nativa, Portfólio Empresarial, Tech Provider, análise do app, qualidade e limite de envio, bloqueio |
 | `references/docs/00-LEIA-PRIMEIRO.md` | Convenções dos artigos (ver aviso abaixo) |
-| `references/docs/INDICE-recursos.md` | Os 506 artigos de recursos, na hierarquia do menu do site |
+| `references/docs/INDICE-recursos.md` | Os 508 artigos de recursos, na hierarquia do menu do site |
 | `references/docs/INDICE-trilhas.md` | As 3 trilhas (14 artigos), em ordem de leitura |
 | `references/docs/INDICE-outros.md` | 3 artigos que não estão em nenhum menu |
 | `references/docs/INDICE.md` | Lista corrida de tudo, título e caminho |
@@ -147,7 +147,7 @@ Os arquivos de entrada ficam em `references/docs/recursos/`. A coluna "Artigos" 
 | Aplicativo | `aplicativo.md` | 3 | PWA, notificações push |
 | Vídeos | `../videos.md` | 1 | lista de vídeos |
 | Contato para Suporte | `contato-para-suporte.md` | 1 | canal do suporte |
-| Atualizações | `atualizacoes.md` | 40 | 2 índices de mês e 37 dias |
+| Atualizações | `atualizacoes.md` | 42 | 2 índices de mês e 39 dias |
 
 ### Para quem está começando
 
@@ -163,7 +163,7 @@ Os arquivos de entrada ficam em `references/docs/recursos/`. A coluna "Artigos" 
 
 ### O que mudou
 
-`recursos/atualizacoes.md` → índice do mês (`atualizacoes-2026-11.md`, `atualizacoes-2026-10.md`) → um arquivo por dia, de 15/10/2026 a 24/11/2026. Para "o que mudou esta semana", liste os arquivos dos dias e leia o topo de cada um (Novidades, Melhorias, Correções). A seção "O que você precisa fazer", no fim, diz se a mudança exige ação. Não há registro anterior a 15/10/2026 nem posterior à data da cópia: diga isso se perguntarem.
+`recursos/atualizacoes.md` → índice do mês (`atualizacoes-2026-11.md`, `atualizacoes-2026-10.md`) → um arquivo por dia, de 15/10/2026 a 25/11/2026. Para "o que mudou esta semana", liste os arquivos dos dias e leia o topo de cada um (Novidades, Melhorias, Correções). A seção "O que você precisa fazer", no fim, diz se a mudança exige ação. Não há registro anterior a 15/10/2026 nem posterior à data da cópia: diga isso se perguntarem.
 
 ### Vídeos
 
@@ -200,18 +200,18 @@ Janela de atendimento, templates e Limitador só existem na conexão oficial. Em
 - Web Chat (código colado no site) × Chat Externo (página aberta por link) × Modo Alternativo (continua numa página a conversa que começou no WhatsApp Oficial).
 - Avaliações (o cliente dá a nota) × Avaliação pela IA (a IA dá a nota) × Análise de Atendimento.
 - Rodízios (menu, usado pelo bloco Rodízio do fluxo) × Rodízio de Atendimento (montado com dois Setores).
-- Agendamentos (mensagem programada) × Links de agendamento (o cliente marca uma reunião) × Reservas (módulo de hora marcada ou diária) × Reservas de mesa (PDV) × Agenda do Consultório.
-- Campanhas × Mail Marketing (e-mail em massa); GPT Assistant (responde clientes) × Assistente de IA (responde perguntas da equipe sobre os dados); Dashboard × Dashboard (legado), que conta diferente.
+- Agendamentos (mensagem programada) × Links de agendamento (o cliente marca uma reunião) × Reservas (módulo de hora marcada ou diária) × Reservas de mesa (PDV) × Agenda do Consultório × aba **Agenda** dos Serviços (módulo de ordens de serviço, só nas notas de 23 e 25/11/2026).
+- Campanhas × Mail Marketing (e-mail em massa); GPT Assistant (responde clientes) × Assistente de IA (responde perguntas da equipe sobre os dados) × Conexão com assistentes de IA (o assistente que a empresa já usa, ligado à plataforma por MCP; sem artigo, está nas notas e no **Guia do MCP** do painel: linha do MCP em `references/mapa-por-objetivo.md`); Dashboard × Dashboard (legado), que conta diferente.
 - Token da Conexão × Token da Empresa; Produtos do CRM × Produtos do PDV; Tarefas × tarefas de um Projeto × Atividades da Oportunidade.
 - `X.md` × `X-em-configuracoes.md`: o primeiro explica o recurso, o segundo descreve a aba ou a seção em Configurações › Opções. Ex.: `avaliacoes.md` × `avaliacoes-em-configuracoes.md`; `carteira-de-clientes.md` × `contatos-em-configuracoes.md` (seção Carteiras de Clientes); `mensagem-de-aniversario.md` × `mensagens-automaticas-em-configuracoes.md`.
 
 **Três artigos ficam em `outros/` e não aparecem em `INDICE-recursos.md`:** Adicionar Tag, Tipos de Tags e Telegram. Por isso as buscas incluem `outros`.
 
-**Busca com e sem acento.** O texto dos artigos tem acento; os nomes de arquivo, não. `grep -i 'rodizio'` acha 7 artigos, `grep -i 'rodízio'` acha 33. Busque com acento ou com `rod[ií]zio`. Termos curtos casam dentro de outras palavras: use `grep -w`.
+**Busca com e sem acento.** O texto dos artigos tem acento; os nomes de arquivo, não. `grep -i 'rodizio'` acha 7 artigos, `grep -i 'rodízio'` acha 35. Busque com acento ou com `rod[ií]zio`. Termos curtos casam dentro de outras palavras: use `grep -w`.
 
 **Mensagens de erro vêm em inglês.** Busque o texto exato com `grep -F`, sem traduzir.
 
-**Os artigos usam palavras diferentes para a mesma coisa.** Parte deles diz "Fila" ou "Departamento", parte diz "Setor". A aba da conexão aparece como "Setores & Tempos" em 15 artigos e como "Filas & Tempos" em 1. `setores-e-chatbot.md` diz que hoje a plataforma chama de **Setor** em todo lugar (a palavra "fila" fica para o sentido de espera); "Filas & Tempos" é o nome antigo, que sobrou em `encerrar-por-inatividade.md`. Ao responder, use **Setor** e **Setores & Tempos**, e avise do nome antigo quando o artigo lido ainda o usar. Os títulos em `videos.md` também usam nomes diferentes dos artigos ("Filas & Chatbot").
+**Os artigos usam palavras diferentes para a mesma coisa.** Parte deles diz "Fila" ou "Departamento", parte diz "Setor". A aba da conexão aparece como "Setores & Tempos" em 15 artigos e como "Filas & Tempos" em 1. `setores-e-chatbot.md` diz que hoje a plataforma chama de **Setor** em todo lugar (a palavra "fila" fica para o sentido de espera); "Filas & Tempos" é o nome antigo, que sobrou em `encerrar-por-inatividade.md`. Ao responder, use **Setor** e **Setores & Tempos**, e avise do nome antigo quando o artigo lido ainda o usar. Os títulos em `videos.md` também usam nomes diferentes dos artigos ("Filas & Chatbot"). A tela também escreve diferente dos artigos no nome do FlowBuilder (visto na tela em 25/11/2026, WS-30.215.0): os artigos dizem seção **Bot e FlowBuilder Nativo**, opção **Concatenação no FlowBuilder Nativo?** e selo **FlowBuilder Nativo** no card do Setor; a tela mostra **Bot e FlowBuilder**, **Concatenação no Flowbuilder?** e o selo **FlowBuilder**. O item de menu é **FlowBuilder Nativo**. Nesses três, diga os dois nomes.
 
 **Os artigos quase não têm links entre si.** Quando um artigo manda ver outro pelo nome ("saiba como em Pré-Requisitos de IA"), ache-o pelo título no índice.
 
@@ -242,7 +242,8 @@ Janela de atendimento, templates e Limitador só existem na conexão oficial. Em
 | distribuição automática | Rodízio | `rodizios.md` |
 | indicadores, métricas do atendimento, painel de números | Dashboard; para o atendente, Meus números | `dashboard.md`, `meus-numeros-do-atendente.md` |
 | e-mail marketing, newsletter, e-mail em massa | Mail Marketing | `mail-marketing.md` |
-| marcar horário, agenda online | depende do que se marca: reunião (Links de agendamento), consulta (Consultório), mesa, sala, quarto ou serviço (Reservas). Pergunte | `links-de-agendamento.md`, `consultorio.md`, `reservas.md` |
+| marcar horário, agenda online | depende do que se marca: reunião (Links de agendamento), consulta (Consultório), mesa, sala, quarto ou serviço (Reservas), horário na assistência técnica ou oficina (Serviços, só na nota de 23/11/2026). Pergunte | `links-de-agendamento.md`, `consultorio.md`, `reservas.md`, `atualizacoes-2026-11-23.md` |
+| ordem de serviço, OS, assistência técnica, oficina, gráfica, prova da arte | Serviços, módulo novo que só está nas notas: veja a tabela de novidades no fim de `references/mapa-por-objetivo.md` | `atualizacoes-2026-11-23.md`, `atualizacoes-2026-11-25.md` |
 | boas-vindas | Mensagem de saudação | `chatbot-e-menu-de-setores-na-conexao.md`, `aba-mensagens-em-setores-e-chatbot.md` |
 | aplicativo, app | PWA | `aplicativo.md` |
 | chat do site, widget | Web Chat ou Chat Externo | `web-chat.md`, `chat-externo.md` |

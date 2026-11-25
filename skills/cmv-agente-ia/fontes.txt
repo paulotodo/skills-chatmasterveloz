@@ -40,6 +40,10 @@ plataforma:recursos/atualizacoes-2026-11-19.md
 plataforma:recursos/atualizacoes-2026-11-20.md
 plataforma:recursos/atualizacoes-2026-11-21.md
 plataforma:recursos/atualizacoes-2026-11-22.md
+# 23/11 e 25/11: o que a Conexão com assistentes de IA passou a fazer (configurar, e-mail dos usuários, pesquisa de avaliação);
+# 25/11 traz também a transcrição dos áudios da equipe e a legenda com IA dos Posts Instagram. A de 24/11 não tem nada de IA.
+plataforma:recursos/atualizacoes-2026-11-23.md
+plataforma:recursos/atualizacoes-2026-11-25.md
 # Concatenador de Mensagens: onde liga o modo Com IA (Central) e o que o revendedor liga na empresa.
 plataforma:recursos/concatenador-de-mensagens.md
 plataforma:recursos/copilot-da-raia.md   # artigo de uso do Copilot da raia (CRM)

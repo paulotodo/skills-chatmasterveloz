@@ -100,7 +100,7 @@ Lidas em Como o Fluxo Roda (`references/docs/recursos/como-o-fluxo-roda.md`) e B
 
 **Responder Comentário** · `references/docs/recursos/bloco-responder-comentario.md` · JSON: não
 - Use para: responder em público o comentário do Instagram; a mensagem no Direct é o bloco seguinte.
-- Cuidado: escreva várias frases, separadas por vírgula e **sem vírgula dentro da frase**. Depende da opção **Automação Instagram** do plano.
+- Cuidado: escreva várias frases, separadas por vírgula e **sem vírgula dentro da frase**. Depende da opção **Automação Instagram** do plano. A tela **Automações do Instagram** (nota de 25/11/2026) é outra coisa: armadilha 17 do `SKILL.md`.
 
 ## Guardar e marcar
 
@@ -184,7 +184,8 @@ O artigo n8n via FlowBuilder Nativo (`references/docs/recursos/n8n-via-flowbuild
 
 **Rodízio** · `references/docs/recursos/bloco-rodizio.md` · JSON: não
 - Use para: distribuir entre atendentes, por percentual ou por rodada sorteada.
-- Cuidado: no modo equilibrado, as porcentagens somam exatamente 100. Escolha sempre o Setor de **Se não encontrar operador disponível**. Num rodízio cadastrado no menu **Rodízios**, esse campo também oferece **Aguardar na mesma fila e redistribuir assim que um desocupa**: o atendimento espera a vez em **Aguardando**, no mesmo Setor (nota de atualização de 21/11/2026; o artigo do bloco ainda não traz). Depois de escolhido o Setor de transbordo, **Dividir o transbordo entre mais filas** reparte o transbordo entre vários Setores, cada um com o seu percentual.
+- Cuidado: no modo equilibrado, as porcentagens somam exatamente 100. Escolha sempre o Setor de **Se não encontrar operador disponível**. Num rodízio cadastrado no menu **Rodízios**, esse campo também oferece **Aguardar na mesma fila e redistribuir assim que um desocupa**: o atendimento espera a vez em **Aguardando**, no mesmo Setor (nota de atualização de 21/11/2026; visto na tela em 25/11/2026, WS-30.215.0, em **Rodízios** › **NOVO RODÍZIO**, como primeira opção do campo, antes dos Setores; o artigo do bloco ainda não traz). Depois de escolhido o Setor de transbordo, **Dividir o transbordo entre mais filas** reparte o transbordo entre vários Setores, cada um com o seu percentual.
+- Rodízio desativado: quem estava esperando fica na fila e volta a ser distribuído quando o rodízio é reativado (nota de 23/11/2026, WS-30.189.0: `references/docs/recursos/atualizacoes-2026-11-23.md`), e o registro do rodízio mostra todos os atendimentos que esperavam quando ele foi desativado (nota de 25/11/2026, WS-30.214.0: `references/docs/recursos/atualizacoes-2026-11-25.md`). A nota de 23/11 diz "nos Setores" e não nomeia a tela: se vale para o rodízio do menu **Rodízios**, para o configurado no bloco ou para o **Rodízio de Atendentes** do Setor, não documentado.
 
 **Retornar último atendimento** · `references/docs/recursos/bloco-retornar-ultimo-atendimento.md` · JSON: não
 - Use para: devolver ao mesmo Setor e atendente quem voltou logo, junto com a Condição **Protocolo fechado**. Ligue a saída **Sem atendimento anterior**.

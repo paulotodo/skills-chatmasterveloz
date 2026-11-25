@@ -7,7 +7,7 @@ description: "Integra sistemas externos ao Chat Master Veloz (CMV, chatmastervel
 
 Esta skill transforma um pedido de integração ("quero que meu sistema mande uma mensagem", "quero ser avisado quando chegar mensagem") em material pronto para colar: o pedido HTTP completo, onde pegar o token e como testar sem risco.
 
-Todo fato sobre o produto vem da cópia da Central de Ajuda em `references/docs/` e, para quem administra a instância, da cópia da documentação do revendedor em `references/docs/revendedor/`. A API do CMV tem particularidades que não dá para adivinhar (o mesmo recurso muda de endereço e de nomes de campo conforme a conexão), então o trabalho é sempre **achar o artigo, ler e montar a partir dele**. O que não estiver nos artigos de nenhuma das duas, diga que não está documentado.
+Todo fato sobre o produto vem da cópia da Central de Ajuda em `references/docs/` e, para quem administra a instância, da cópia da documentação do revendedor em `references/docs/revendedor/`. A API do CMV tem particularidades que não dá para adivinhar (o mesmo recurso muda de endereço e de nomes de campo conforme a conexão), então o trabalho é sempre **achar o artigo, ler e montar a partir dele**. O que não estiver nos artigos de nenhuma das duas, diga que não está documentado. Duas exceções, sempre marcadas com a data e a versão: a Conexão com assistentes de IA (MCP), cuja fonte é a tela **Guia do MCP** do painel (`references/mcp-assistentes-de-ia.md`), e as confirmações "visto na tela em 25/11/2026, WS-30.215.0" da seção 7 do mapa.
 
 **Dois públicos.** O padrão é quem pede ser cliente de uma empresa, com token de Conexão ou Token da Empresa dele: para ele vale tudo o que está abaixo. O revendedor (Super Admin, dono da instância) reconhece-se porque diz que é, fala em "meus clientes", criar empresa, plano, instância, white label, ou pede algo que só existe na API administrativa (empresas, planos, faturas, avisos, agir dentro da empresa de um cliente, Webhook Administrativo). Para ele, leia `references/api-administrativa.md` antes de montar qualquer coisa. As chamadas administrativas exigem token da empresa do Super Admin: se um cliente pedir "criar empresa por API", diga que a chamada existe e é de quem administra a instância. Preços continuam fora; os nomes das opções de plano (**API Externa**, **Botões**) podem ser citados.
 
@@ -18,6 +18,7 @@ Todo fato sobre o produto vem da cópia da Central de Ajuda em `references/docs/
 | `references/mapa-da-api.md` | Tabela de decisão: operação × tipo de conexão → artigo; webhooks; de onde vem cada identificador. Comece por aqui. |
 | `references/moldes-de-codigo.md` | A mesma chamada em cURL, Node, Python, PHP e n8n, com token em variável de ambiente e tratamento de erro; variações (GET, multipart, Token da Empresa) e a receita de receber um aviso de webhook e responder (n8n ou receptor próprio), com a tabela sintoma → causa → artigo. |
 | `references/api-administrativa.md` | Só para o revendedor: as APIs e o Webhook Administrativos. Qual token cada chamada aceita, o que avisar antes de montar, o `companyId`, planos pela API e o que a documentação dele não diz. |
+| `references/mcp-assistentes-de-ia.md` | Conexão com assistentes de IA: o servidor MCP (endereço, como conectar Claude, ChatGPT, Claude Code, Cursor, n8n e agentes próprios, níveis de acesso, token `mcp_…`, ferramentas) e o Webhook do MCP. A fonte é a tela **Guia do MCP** do painel, vista em 25/11/2026 (WS-30.215.0), não um artigo. |
 | `scripts/buscar_endpoint.py` | Busca endpoints por palavra, método e tipo de conexão. Existe porque o índice de endpoints não mostra o selo da conexão; o script lê o selo em cada artigo. As administrativas saem marcadas com o selo `Super Admin (...)`. |
 | `references/docs/INDICE-api-endpoints.md` | Os 309 endpoints do cliente, uma linha por artigo, com método e endereço. Os 35 administrativos ficam em `references/docs/revendedor/INDICE-api-endpoints.md`. |
 | `references/docs/INDICE-api.md` | Os 357 artigos de API do cliente por assunto, incluindo webhooks e conceitos. Os 52 administrativos ficam em `references/docs/revendedor/INDICE-api.md`. |
@@ -36,8 +37,11 @@ Daqui em diante, caminhos escritos como `api/...`, `recursos/...` e `revendedor/
 | **ser avisada** quando algo acontece no CMV | webhook que sai do CMV | seção 7 do mapa |
 | que um sistema externo **inicie um fluxo** do chatbot | Webhook Trigger (com variáveis) ou API de iniciar fluxo | `api/webhook-triggers.md`, `recursos/gatilho-via-api.md` |
 | ficar consultando a API para saber se chegou algo | isso é polling; a documentação recomenda webhook | `api/api-x-webhook.md` |
+| ligar o Claude, o ChatGPT, o Cursor, o n8n ou um agente próprio aos dados do atendimento | servidor MCP (Conexão com assistentes de IA) | `references/mcp-assistentes-de-ia.md` |
 
 Uma integração completa costuma usar os dois: o webhook avisa, a API responde.
+
+API ou MCP: na API, o sistema da pessoa chama o CMV; no MCP, um assistente de IA age como uma pessoa da equipe, com as permissões dela.
 
 ### 2. Descubra o tipo de conexão antes de procurar o endpoint
 
@@ -156,11 +160,12 @@ Outras credenciais que aparecem na conversa e não são token de API: o **Token 
 - **Botões da Básica** não abrem atendimento nem gravam a mensagem no painel, e os parâmetros vão como texto JSON com aspas escapadas.
 - **Mensagem chegou sem os botões:** costuma faltar a opção Botões no plano. A Central conta três itens (token, API Externa, Botões); o artigo do revendedor acrescenta um que ela não cita, a biblioteca escolhida no campo **API Não Oficial** (`revendedor/recursos/como-habilitar-botoes-api.md`).
 - **CRM novo × antigo:** as chamadas `/crm/v2/` exigem o CRM novo ativado, e a de criar oportunidade V1 é recusada quando a empresa já está no CRM novo.
+- **Anunciado em nota de versão não é artigo.** O webhook do módulo Serviços e publicar e agendar no Instagram pela API só aparecem nas notas de 23 e 25/11/2026 (`recursos/atualizacoes-2026-11-23.md`, `recursos/atualizacoes-2026-11-25.md`), sem endereço nem payload: diga isso e não monte código (seções 3 e 7 de `references/mapa-da-api.md`). A Conexão com assistentes de IA, das notas de 22, 23 e 25/11 (`recursos/atualizacoes-2026-11-22.md`), saiu dessa lista: continua sem artigo, mas a tela **Guia do MCP** do painel a documenta (`references/mcp-assistentes-de-ia.md`). O que o guia não diz (parâmetros das ferramentas, formato dos outros avisos) segue não documentado: não invente.
 - **Artigos com o mesmo título:** há pares "API Mensagem de Lista", "API Enviar Imagem por URL", "API Botão URL". O arquivo com `-pro` é o da Pro; o outro, da Básica. `api/api-listar-contatos-por-tag.md` tem o título "API Listar Tickets por Tag".
 
 ## Webhooks
 
-Escolha o webhook pelo alcance (`api/qual-webhook-usar.md`), diga onde colar o endereço e descreva o payload a partir do artigo. A lista completa de webhooks, de avisos que quebram integrações e do que não está documentado fica na seção 7 de `references/mapa-da-api.md`; a receita de receber e responder, em `references/moldes-de-codigo.md`. O Webhook Administrativo, do revendedor, é outro: um campo só para a instância inteira, com entrega única e risco para todas as empresas se o destino ficar fora do ar (seção 6 de `references/api-administrativa.md`).
+Escolha o webhook pelo alcance (`api/qual-webhook-usar.md`), diga onde colar o endereço e descreva o payload a partir do artigo. A lista completa de webhooks, de avisos que quebram integrações e do que não está documentado fica na seção 7 de `references/mapa-da-api.md`; a receita de receber e responder, em `references/moldes-de-codigo.md`. O **Webhook do MCP** (o que os assistentes de IA fizeram, assinado em `X-Assinatura-Mcp`) está na seção 8 de `references/mcp-assistentes-de-ia.md`. O Webhook Administrativo, do revendedor, é outro: um campo só para a instância inteira, com entrega única e risco para todas as empresas se o destino ficar fora do ar (seção 6 de `references/api-administrativa.md`).
 
 ## n8n, Make, Zapier
 
@@ -168,6 +173,7 @@ Escolha o webhook pelo alcance (`api/qual-webhook-usar.md`), diga onde colar o e
 - **Chamar a API a partir do n8n:** nó HTTP Request com o endpoint do artigo e o token (molde em `references/moldes-de-codigo.md`).
 - **Chamar o n8n no meio de um fluxo do chatbot:** bloco HTTP Request do FlowBuilder (`recursos/n8n-via-flowbuilder.md`). O desenho do fluxo em si é da skill `cmv-flowbuilder`.
 - **Iniciar um fluxo a partir de outra ferramenta:** Webhook Trigger, que exige `nome`, `celular` e `email` no JSON (`api/webhook-triggers.md`, `recursos/gatilho-via-webhooks-trigger.md`), ou a API de iniciar fluxo (`recursos/gatilho-via-api.md`). Para Make e Zapier a documentação só os cita como exemplos de uso do Webhook Trigger; não há passo a passo.
+- **n8n como cliente do servidor MCP:** o Guia do MCP cita o n8n entre os clientes que entram com token `mcp_…` no cabeçalho `Authorization`, sem passo a passo (`references/mcp-assistentes-de-ia.md`).
 
 ## Exemplos de pedido → entrega
 

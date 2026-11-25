@@ -1,4 +1,4 @@
-# Artigos incluídos nesta skill (77)
+# Artigos incluídos nesta skill (79)
 
 - [API Listar Setores da Empresa](api/api-listar-setores-da-empresa.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-listar-setores-da-empresa>
 - [Aba Evolução da Avaliação pela IA](recursos/aba-evolucao-da-avaliacao-pela-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-evolucao-da-avaliacao-pela-ia>
@@ -25,6 +25,8 @@
 - [Atualizações 20/11/2026](recursos/atualizacoes-2026-11-20.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-20>
 - [Atualizações 21/11/2026](recursos/atualizacoes-2026-11-21.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-21>
 - [Atualizações 22/11/2026](recursos/atualizacoes-2026-11-22.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-22>
+- [Atualizações 23/11/2026](recursos/atualizacoes-2026-11-23.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-23>
+- [Atualizações 25/11/2026](recursos/atualizacoes-2026-11-25.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-25>
 - [Aulas da Avaliação pela IA](recursos/aulas-da-avaliacao-pela-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aulas-da-avaliacao-pela-ia>
 - [Avaliação pela IA](recursos/avaliacao-pela-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/avaliacao-pela-ia>
 - [Base de Conhecimento do GPT Assistant](recursos/base-de-conhecimento-do-gpt-assistant.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/base-de-conhecimento-do-gpt-assistant>

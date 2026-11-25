@@ -14,7 +14,9 @@ plataforma:recursos/links-de-agendamento.md   # Webhook do agendamento
 plataforma:recursos/link-na-bio.md            # Webhook do Link na Bio
 plataforma:recursos/web-chat.md               # URL de Webhook e URL de Webhook Secundário do WebChat
 plataforma:recursos/atualizacoes-2026-11-21.md  # Prazo do retorno (webhook) e rodízio que aguarda na fila: a nota diverge dos artigos da API
-plataforma:recursos/atualizacoes-2026-11-22.md  # Conexão com assistentes de IA: só anunciada, sem artigo
+plataforma:recursos/atualizacoes-2026-11-22.md  # Conexão com assistentes de IA: anunciada na nota, sem artigo (o guia fica no painel: references/mcp-assistentes-de-ia.md)
+plataforma:recursos/atualizacoes-2026-11-23.md  # Webhook dos Serviços e assistente de IA que configura: nas notas, sem artigo
+plataforma:recursos/atualizacoes-2026-11-25.md  # Publicar no Instagram pela API, pedido por m² e assistentes de IA: nas notas, sem artigo
 # Documentação do revendedor: APIs e webhooks administrativos (token da empresa do Super Admin).
 # Vai para references/docs/revendedor/; api/pre-requisitos-apis.md existe nos dois sites, com textos diferentes.
 revendedor:INDICE-api.md

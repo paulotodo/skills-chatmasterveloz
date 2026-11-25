@@ -1,4 +1,4 @@
-# Artigos incluídos nesta skill (85)
+# Artigos incluídos nesta skill (87)
 
 - [Aba Avisos em Reservas](recursos/aba-avisos-em-reservas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-avisos-em-reservas>
 - [Aba Confirmação em Cadastros do Consultório](recursos/aba-confirmacao-em-cadastros-do-consultorio.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-confirmacao-em-cadastros-do-consultorio>
@@ -13,7 +13,9 @@
 - [Atualizações 20/11/2026](recursos/atualizacoes-2026-11-20.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-20>
 - [Atualizações 21/11/2026](recursos/atualizacoes-2026-11-21.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-21>
 - [Atualizações 22/11/2026](recursos/atualizacoes-2026-11-22.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-22>
+- [Atualizações 23/11/2026](recursos/atualizacoes-2026-11-23.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-23>
 - [Atualizações 24/11/2026](recursos/atualizacoes-2026-11-24.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-24>
+- [Atualizações 25/11/2026](recursos/atualizacoes-2026-11-25.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-25>
 - [Avaliações em Configurações](recursos/avaliacoes-em-configuracoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/avaliacoes-em-configuracoes>
 - [Avaliações](recursos/avaliacoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/avaliacoes>
 - [Avisos ao Cliente em Tarefas](recursos/avisos-ao-cliente-em-tarefas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/avisos-ao-cliente-em-tarefas>
