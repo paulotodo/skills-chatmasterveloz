@@ -1,4 +1,4 @@
-# Artigos incluídos nesta skill (443)
+# Artigos incluídos nesta skill (444)
 
 - [Endpoints da API (309)](INDICE-api-endpoints.md)
 - [Índice — APIs (357 artigos)](INDICE-api.md)
@@ -361,6 +361,7 @@
 - [Webhooks](api/webhooks.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/webhooks>
 - [Access Token Mercado Pago](recursos/access-token-mercado-pago.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/access-token-mercado-pago>
 - [Access Token Meta](recursos/access-token-meta.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/access-token-meta>
+- [Atualizações 21/11/2026](recursos/atualizacoes-2026-11-21.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-21>
 - [Atualizações 22/11/2026](recursos/atualizacoes-2026-11-22.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-22>
 - [Chave Google Maps](recursos/chave-google-maps.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/chave-google-maps>
 - [Credenciais PaggPix](recursos/credenciais-paggpix.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/credenciais-paggpix>

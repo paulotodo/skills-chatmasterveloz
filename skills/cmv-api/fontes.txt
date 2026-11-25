@@ -13,6 +13,7 @@ plataforma:recursos/incorporar-atendimento-em-outro-sistema.md
 plataforma:recursos/links-de-agendamento.md   # Webhook do agendamento
 plataforma:recursos/link-na-bio.md            # Webhook do Link na Bio
 plataforma:recursos/web-chat.md               # URL de Webhook e URL de Webhook Secundário do WebChat
+plataforma:recursos/atualizacoes-2026-11-21.md  # Prazo do retorno (webhook) e rodízio que aguarda na fila: a nota diverge dos artigos da API
 plataforma:recursos/atualizacoes-2026-11-22.md  # Conexão com assistentes de IA: só anunciada, sem artigo
 # Documentação do revendedor: APIs e webhooks administrativos (token da empresa do Super Admin).
 # Vai para references/docs/revendedor/; api/pre-requisitos-apis.md existe nos dois sites, com textos diferentes.

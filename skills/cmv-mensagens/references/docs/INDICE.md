@@ -1,16 +1,22 @@
-# Artigos incluídos nesta skill (75)
+# Artigos incluídos nesta skill (85)
 
+- [Aba Avisos em Reservas](recursos/aba-avisos-em-reservas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-avisos-em-reservas>
+- [Aba Confirmação em Cadastros do Consultório](recursos/aba-confirmacao-em-cadastros-do-consultorio.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-confirmacao-em-cadastros-do-consultorio>
 - [Aba Horários em Setores & Chatbot](recursos/aba-horarios-em-setores-e-chatbot.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-horarios-em-setores-e-chatbot>
 - [Aba Mensagens em Setores & Chatbot](recursos/aba-mensagens-em-setores-e-chatbot.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-mensagens-em-setores-e-chatbot>
 - [Adicionar Agendamento](recursos/adicionar-agendamento.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/adicionar-agendamento>
 - [Adicionar WhatsApp Oficial](recursos/adicionar-whatsapp-oficial.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/adicionar-whatsapp-oficial>
 - [Adicionar WhatsApp QRCode](recursos/adicionar-whatsapp-qrcode.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/adicionar-whatsapp-qrcode>
+- [Agenda de reservas](recursos/agenda-de-reservas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/agenda-de-reservas>
 - [Agendamentos](recursos/agendamentos.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/agendamentos>
+- [Atualizações 17/11/2026](recursos/atualizacoes-2026-11-17.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-17>
 - [Atualizações 20/11/2026](recursos/atualizacoes-2026-11-20.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-20>
 - [Atualizações 21/11/2026](recursos/atualizacoes-2026-11-21.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-21>
 - [Atualizações 22/11/2026](recursos/atualizacoes-2026-11-22.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-22>
+- [Atualizações 24/11/2026](recursos/atualizacoes-2026-11-24.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-24>
 - [Avaliações em Configurações](recursos/avaliacoes-em-configuracoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/avaliacoes-em-configuracoes>
 - [Avaliações](recursos/avaliacoes.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/avaliacoes>
+- [Avisos ao Cliente em Tarefas](recursos/avisos-ao-cliente-em-tarefas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/avisos-ao-cliente-em-tarefas>
 - [Template](recursos/bloco-template.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/bloco-template>
 - [Campanhas de E-mail](recursos/campanhas-de-e-mail.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/campanhas-de-e-mail>
 - [Campanhas](recursos/campanhas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/campanhas>
@@ -36,6 +42,8 @@
 - [Ideias de Respostas Rápidas](recursos/ideias-de-respostas-rapidas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/ideias-de-respostas-rapidas>
 - [Janela de Atendimento](recursos/janela-de-atendimento.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/janela-de-atendimento>
 - [Limitador de Mensagens](recursos/limitador-de-mensagens.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/limitador-de-mensagens>
+- [Links de agendamento](recursos/links-de-agendamento.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/links-de-agendamento>
+- [Lista de Espera das Reservas](recursos/lista-de-espera-das-reservas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/lista-de-espera-das-reservas>
 - [Listas de Envio do Mail Marketing](recursos/listas-de-envio-do-mail-marketing.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/listas-de-envio-do-mail-marketing>
 - [Mail Marketing](recursos/mail-marketing.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/mail-marketing>
 - [Mensagem de Aniversário](recursos/mensagem-de-aniversario.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/mensagem-de-aniversario>
@@ -48,7 +56,9 @@
 - [Nova Campanha API Oficial](recursos/nova-campanha-api-oficial.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/nova-campanha-api-oficial>
 - [Nova Campanha](recursos/nova-campanha.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/nova-campanha>
 - [Número bloqueado no WhatsApp](recursos/numero-bloqueado-no-whatsapp.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/numero-bloqueado-no-whatsapp>
+- [Permissões Consultório](recursos/permissoes-consultorio.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/permissoes-consultorio>
 - [Permissões Mail Marketing](recursos/permissoes-mail-marketing.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/permissoes-mail-marketing>
+- [Permissões Reservas](recursos/permissoes-reservas.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/permissoes-reservas>
 - [Qualidade do Número e Limite de Envio](recursos/qualidade-do-numero-e-limite-de-envio.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/qualidade-do-numero-e-limite-de-envio>
 - [Relatório da Campanha de E-mail](recursos/relatorio-da-campanha-de-e-mail.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/relatorio-da-campanha-de-e-mail>
 - [Remarketing em Tags](recursos/remarketing-em-tags.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/remarketing-em-tags>

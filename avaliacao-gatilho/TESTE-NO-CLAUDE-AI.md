@@ -55,7 +55,7 @@ A memória do claude.ai interferiu: uma resposta do Sonnet citou a "revenda", da
 | cmv-mensagens.zip | Aceito em 21/11 | |
 | cmv-painel-css-js.zip | Aceito em 21/11 | |
 
-**Atualizar uma skill já enviada (visto em 23/11/2026).** Em **Plugins** › filtro **Skills** › três pontos da skill › **Enviar nova versão**. A janela pede "um arquivo .skill ou um SKILL.md com o nome desta Skill", avisa que o arquivo substitui todos os arquivos da skill e que as versões anteriores continuam no histórico. Os seis `dist/<skill>.skill` foram aceitos e cada skill passou de v1 para v2, continuando ligada. Conferido na aba **Arquivos** da `cmv-flowbuilder`: o `SKILL.md` exibido é o do repositório de 22/11.
+**Atualizar uma skill já enviada (visto em 23/11/2026).** Em **Plugins** › filtro **Skills** › três pontos da skill › **Enviar nova versão**. A janela pede "um arquivo .skill ou um SKILL.md com o nome desta Skill", avisa que o arquivo substitui todos os arquivos da skill e que as versões anteriores continuam no histórico. Os seis `dist/<skill>.skill` foram aceitos e cada skill passou de v1 para v2, continuando ligada. Conferido na aba **Arquivos** da `cmv-flowbuilder`: o `SKILL.md` exibido é o do repositório de 22/11. Em 25/11/2026 os seis pacotes foram reenviados pelo mesmo caminho, duas vezes (depois de cada publicação do dia); em seguida, a cópia que a conta sincroniza para o Claude Code foi comparada com os pacotes, arquivo por arquivo, e estava idêntica.
 
 ## Passo 2: 14 pedidos
 

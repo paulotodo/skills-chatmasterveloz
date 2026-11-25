@@ -23,6 +23,7 @@ Modelos prontos por objetivo, para adaptar ao negócio do usuário. Não entregu
 - **Resposta rápida:** as variáveis usadas são da lista oficial do artigo Mustaches (`references/docs/recursos/mustaches.md`): `{{firstName}}` primeiro nome do contato, `{{ms}}` saudação conforme a hora, `{{user}}` nome do atendente do ticket, `{{protocol}}` protocolo. O artigo da resposta rápida de texto confirma que há variáveis e dá o primeiro nome como exemplo, sem listar os códigos: recomende testar cada resposta uma vez com o próprio número.
 - **Mensagem de saudação do Setor:** `{{name}}`, confirmada no artigo do campo.
 - **Template da API Oficial:** `{{1}}`, `{{2}}`… em sequência. Cada modelo traz o que cada número significa e em qual campo extra da lista de campanha ele vai (o **extra2** é a `{{1}}`). Para campanha, no máximo cinco variáveis no corpo.
+- **Aviso automático de agenda** (Links de agendamento, Consultório, Reservas): cada módulo tem a sua lista de variáveis, na seção 12 de `references/regras-por-tipo-de-mensagem.md`. As de um módulo não valem no outro, nem em resposta rápida, campanha ou template.
 - **Campos sem variável documentada** (mensagem simples de campanha, agendamento, mensagem de aniversário, fora de expediente, ausência, conclusão): os modelos vêm sem variável.
 - **Nome do template:** os nomes são sugestões. As regras de formato do nome não estão documentadas; ajuste ao que a tela aceitar.
 - **Categoria do template:** é indicada a categoria coerente com o artigo Mensagem Template. Quem decide é a Meta, na análise.
@@ -218,6 +219,24 @@ Olá, {{1}}! Confirmamos sua consulta para o dia {{2}} às {{3}}. Para reagendar
 
 `{{1}}` nome (extra2), `{{2}}` data (extra3), `{{3}}` hora (extra4). Troque "consulta" pela palavra do negócio (visita, aula, horário) antes de enviar para aprovação.
 
+### Aviso automático das Reservas (aviso **Reserva confirmada**)
+
+Onde: menu **Reservas** › aba **Avisos**. Só variáveis da lista do artigo Aba Avisos em Reservas; não servem em outro módulo.
+
+```
+Olá, {{cliente}}! Sua reserva está confirmada.
+
+{{servico}}
+{{diaDaSemana}}, {{data}}, às {{hora}}
+Código: {{codigo}}
+
+Para acompanhar a reserva: {{link}}
+
+{{empresa}}
+```
+
+Em reserva por diária, acrescente a linha do próprio artigo: `Saída: {{dataSaida}} · {{noites}} noite(s)`. Na conexão oficial, o artigo não diz como o aviso sai com a janela fechada: peça um teste.
+
 ---
 
 ## 5. Lembrete
@@ -254,6 +273,20 @@ Para agendamento na conexão oficial, vale o mesmo cuidado da cobrança: prefira
 ```
 Olá! Aqui é da [Nome da Empresa]. Você tem um horário marcado conosco nos próximos dias. Para confirmar ou remarcar, responda a esta mensagem.
 ```
+
+### Aviso automático do Consultório (lembrete automático)
+
+Onde: menu **Consultório › Cadastros do consultório** › aba **Confirmação** › **Lembretes automáticos** › **Adicionar lembrete** › **Texto**. Só variáveis da lista do artigo Aba Confirmação em Cadastros do Consultório. O lembrete vai com os botões **Confirmar**, **Remarcar** e **Cancelar**: o texto não pede resposta digitada.
+
+```
+Olá, {{paciente}}! Lembrete da sua consulta: {{servico}} com {{profissional}}, {{diaDaSemana}}, {{data}}, às {{hora}}.
+
+Use os botões desta mensagem para confirmar, remarcar ou cancelar.
+
+{{clinica}}
+```
+
+O artigo lista essas variáveis sem descrever o que cada uma vira: confira o resultado num lembrete de teste. Na conexão oficial, fora da janela de 24 horas só sai modelo aprovado (opção **Usar um modelo aprovado da API oficial**): aí o que se redige é um template como o de cima. Se o modelo vale também para os lembretes, o artigo não diz.
 
 ---
 

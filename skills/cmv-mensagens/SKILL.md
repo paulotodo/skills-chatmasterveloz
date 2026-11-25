@@ -58,6 +58,7 @@ Se o pedido já traz o suficiente, não trave: escreva, declare as suposições 
 | O que o cliente lê ao chegar ou fora do horário | Mensagens do Setor (e da Conexão) | Saudação, fora de expediente |
 | Aviso de que o atendente saiu; despedida | Mensagem de Ausência; Mensagem de conclusão/Despedida | Campos do Perfil, do atendente, do Setor e da Conexão |
 | Mandar um e-mail em massa (promoção, novidade, convite) pelo CMV | E-mail do Mail Marketing | Modelo (assunto, pré-cabeçalho, blocos ou HTML) e campanha; variáveis próprias |
+| Confirmar, lembrar ou avisar sozinho quem marcou reunião, consulta ou reserva pelo CMV | Aviso automático de agenda | Links de agendamento, Consultório ou Reservas; cada módulo tem a sua lista de variáveis (seção 12) |
 
 Um pedido pode render mais de um tipo. "Campanha de reativação" na oficial, por exemplo, é um template de Marketing mais a lista com os campos extras preenchidos.
 
@@ -90,7 +91,7 @@ Regras de honestidade, e o motivo de cada uma:
 - **Não cite preços.** A cobrança é da Meta e muda; diga que existe, quem cobra e o que conta (ver "Quando perguntarem quanto custa"). O nome de uma opção de plano pode ser citado, literal como está no artigo (**Campanhas**, **Agendamentos**, **Mail Marketing**): é ele que responde "esse menu não aparece para mim" (fichas 3, 5 e 11).
 - **Dois públicos.** Por padrão, quem pede é cliente de uma empresa: ele não tem a tela **Configurações › Planos** nem a **Visão geral do parceiro** da Meta. Quando um recurso depende de liberação, diga o nome da opção e que quem liga é quem fornece a plataforma (o suporte); não mande o cliente a uma tela que ele não tem nem a um link do site do revendedor. Revendedor (Super Admin, dono da instância) é quem diz que é, ou fala em "meus clientes", "minha carteira", plano, instância, parceiro da Meta: para ele, use os artigos de `references/docs/revendedor/` e cite o título e o link da **Fonte** deles. Depois de mudar o plano, quem estava com a plataforma aberta precisa recarregar a página.
 - **Não afirme regra da Meta de memória.** Aprovação de template é decisão da Meta e não pode ser garantida; o que os artigos dizem sobre reprovação está reunido numa lista única na ficha de template.
-- **Variável `{{...}}` se copia, não se digita de memória.** A referência da sintaxe e da lista de códigos é `references/docs/recursos/mustaches.md`. Antes de entregar, confira cada variável do texto contra a lista desse artigo, letra por letra. No e-mail do Mail Marketing, a lista é a de `references/docs/recursos/modelos-de-e-mail-blocos-e-html.md`.
+- **Variável `{{...}}` se copia, não se digita de memória.** A referência da sintaxe e da lista de códigos é `references/docs/recursos/mustaches.md`. Antes de entregar, confira cada variável do texto contra a lista desse artigo, letra por letra. No e-mail do Mail Marketing, a lista é a de `references/docs/recursos/modelos-de-e-mail-blocos-e-html.md`; nos avisos de agenda, a do módulo (seção 12 da ficha).
 
 ## Mapa do material
 
@@ -98,7 +99,7 @@ Regras de honestidade, e o motivo de cada uma:
 |---|---|
 | Campos, variáveis, limites e avisos de cada tipo | `references/regras-por-tipo-de-mensagem.md` |
 | Sintaxe e lista oficial das variáveis `{{...}}` (mustaches) | `references/docs/recursos/mustaches.md` |
-| As quatro sintaxes de variável e o que cada campo confirma | `references/regras-por-tipo-de-mensagem.md`, seção 0 |
+| As cinco famílias de variável e o que cada campo confirma | `references/regras-por-tipo-de-mensagem.md`, seção 0 |
 | O que causa reprovação de template, pausa ou bloqueio (lista única) | `references/regras-por-tipo-de-mensagem.md`, seção 2 |
 | Roteiro de custo da API Oficial, sem valores | `references/regras-por-tipo-de-mensagem.md`, seção 9 |
 | Pontos em que os artigos se contradizem | `references/regras-por-tipo-de-mensagem.md`, seção 10 |
@@ -129,12 +130,13 @@ Regras de honestidade, e o motivo de cada uma:
 | Meio de pagamento na Meta | `references/docs/recursos/forma-de-pagamento-do-whatsapp-oficial.md` |
 | Corrigir uma mensagem já enviada ao cliente | `references/docs/recursos/editar-mensagem-enviada-ao-cliente.md` |
 | E-mail do Mail Marketing: modelo, variáveis, campanha, listas, descadastro | `references/regras-por-tipo-de-mensagem.md`, seção 11; `references/docs/recursos/modelos-de-e-mail-blocos-e-html.md`, `references/docs/recursos/campanhas-de-e-mail.md` |
+| Avisos automáticos de agenda (Links de agendamento, Consultório, Reservas): onde fica o texto, quando sai, variáveis de cada módulo | `references/regras-por-tipo-de-mensagem.md`, seção 12; `references/docs/recursos/links-de-agendamento.md`, `references/docs/recursos/aba-confirmacao-em-cadastros-do-consultorio.md`, `references/docs/recursos/aba-avisos-em-reservas.md` |
 
 ## Armadilhas encontradas na documentação
 
 Cada uma já causou, ou causaria, uma entrega errada. Confira antes de responder.
 
-1. **Quatro sintaxes de variável.** `{{firstName}}` (mustache da plataforma), `{{1}}` (template), `{nome}` / `%variavel%` (preenchimento do bloco Template no FlowBuilder) e `{{primeiro_nome}}` / `{{nome}}` (só no e-mail do Mail Marketing) não são intercambiáveis. Fora do e-mail, `{{nome}}` não existe.
+1. **Cinco famílias de variável.** `{{firstName}}` (mustache da plataforma), `{{1}}` (template), `{nome}` / `%variavel%` (preenchimento do bloco Template no FlowBuilder), `{{primeiro_nome}}` / `{{nome}}` (só no e-mail do Mail Marketing) e `{{cliente}}` / `{{paciente}}` / `{{data}}` (só nos avisos automáticos de agenda, com uma lista para cada módulo: seção 12) não são intercambiáveis. Fora do e-mail, `{{nome}}` não existe, e `{{cliente}}` não vale em resposta rápida, campanha, template nem e-mail.
 2. **Mustache é exato** (`references/docs/recursos/mustaches.md`). Maiúsculas contam (`{{firstName}}`, não `{{firstname}}`), não pode haver espaço dentro das chaves e não dá para inventar código: o que o sistema não reconhece vai literal para o cliente.
 3. **Nem todo campo confirma variáveis.** O artigo do Setor confirma `{{name}}` na saudação; o da resposta rápida confirma que há variáveis (exemplo `{{firstName}}`); o de Mensagens automáticas confirma `{{ms}}` e `{{name}}` na **Mensagem de Encaminhamento**. Para mensagem simples de campanha, agendamento, aniversário, fora de expediente, ausência e conclusão, o artigo do campo não diz nada. Nesses, escreva sem variável ou avise que é para testar.
 4. **Utilidade contaminada.** Uma única frase de oferta num template de Utilidade faz o modelo inteiro virar Marketing; e Utilidade com linguagem vendedora é recusada. Cobrança e aviso: informe e pare. A oferta vai em outro template.
@@ -233,7 +235,7 @@ Caminho de arquivo desta skill (o que começa por `references/` ou `assets/`) n�
 | Enviar template ou mensagem por API, webhook, n8n, payload | `cmv-api` |
 | Escrever o prompt do GPT Assistant ou de outro recurso de IA | `cmv-agente-ia` |
 | Dúvida de uso do painel que não envolve redigir mensagem (conectar número, permissões, erro de tela, configurar o Mail Marketing) | `cmv-ajuda` |
-| Aviso automático dos Links de agendamento, do Consultório ou das Reservas (lembrete, confirmação) | `cmv-ajuda`: esses avisos têm variáveis próprias (`{{cliente}}`, `{{data}}`, `{{hora}}`, `{{local}}` e outras), descritas nos artigos de cada módulo, que não fazem parte desta skill. Não as troque pelas daqui nem as trate como inventadas |
+| Montar os Links de agendamento, o Consultório ou as Reservas (agenda, horários, profissionais, recursos, página, conexão e Setor do aviso) | `cmv-ajuda`. O texto do aviso automático desses módulos (confirmação, lembrete, remarcação, cancelamento) é daqui: seção 12 da ficha, com as variáveis próprias de cada módulo |
 | E-mail que não vai pelo Mail Marketing do CMV (Gmail, Outlook, outra ferramenta) | Nenhuma: fora desta skill |
 
 Quando o pedido mistura as duas coisas (por exemplo, "campanha que dispara um fluxo"), entregue aqui os textos e a parte de campanha, e diga com clareza qual parte cabe à outra skill. Os textos de dentro de um fluxo podem ser redigidos aqui; a montagem do fluxo, não.

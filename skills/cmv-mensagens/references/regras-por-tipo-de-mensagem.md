@@ -8,7 +8,7 @@ Os artigos em `references/docs/revendedor/` são da documentação do revendedor
 
 ## Sumário
 
-- [0. Variáveis: quatro sintaxes que não se misturam](#0-variáveis-quatro-sintaxes-que-não-se-misturam)
+- [0. Variáveis: cinco famílias que não se misturam](#0-variáveis-cinco-famílias-que-não-se-misturam)
 - [1. Resposta rápida](#1-resposta-rápida)
 - [2. Template da API Oficial](#2-template-da-api-oficial)
 - [3. Campanha comum (conexão por QR Code)](#3-campanha-comum-conexão-por-qr-code)
@@ -16,14 +16,15 @@ Os artigos em `references/docs/revendedor/` são da documentação do revendedor
 - [5. Agendamento](#5-agendamento)
 - [6. Mensagem de aniversário](#6-mensagem-de-aniversário)
 - [7. Mensagens do Setor](#7-mensagens-do-setor)
-- [8. Complementares: mensagens da Conexão e do Perfil](#8-complementares-mensagens-da-conexão-e-do-perfil)
+- [8. Complementares: mensagens da Conexão, do atendente e da empresa](#8-complementares-mensagens-da-conexão-do-atendente-e-da-empresa)
 - [9. Riscos que valem para vários tipos](#9-riscos-que-valem-para-vários-tipos)
 - [10. Divergências entre artigos](#10-divergências-entre-artigos)
 - [11. E-mail do Mail Marketing](#11-e-mail-do-mail-marketing)
+- [12. Avisos automáticos de agenda (Links de agendamento, Consultório, Reservas)](#12-avisos-automáticos-de-agenda-links-de-agendamento-consultório-reservas)
 
 ---
 
-## 0. Variáveis: quatro sintaxes que não se misturam
+## 0. Variáveis: cinco famílias que não se misturam
 
 | Onde se usa | Sintaxe | Quem troca pelo valor | Artigo |
 |---|---|---|---|
@@ -31,6 +32,7 @@ Os artigos em `references/docs/revendedor/` são da documentação do revendedor
 | Texto de um template da API Oficial | `{{1}}`, `{{2}}`, `{{3}}`… numeradas em sequência | Quem envia: a campanha (campos extras da lista), o bloco Template, a integração | `references/docs/recursos/mensagem-template.md` |
 | Valor digitado numa variável do bloco Template (FlowBuilder) | `{nome}`, `{email}`, `{extra1}` (campos do webhook) e `%variavel%` (variáveis do fluxo) | O fluxo | `references/docs/recursos/bloco-template.md` |
 | Assunto e textos do modelo do Mail Marketing (e-mail) | `{{nome}}`, `{{primeiro_nome}}`, `{{email}}`, `{{descadastro}}` e `{{coluna}}` (colunas a mais da planilha da lista) | O Mail Marketing, no envio de cada e-mail | `references/docs/recursos/modelos-de-e-mail-blocos-e-html.md` (seção 11) |
+| Texto dos avisos automáticos de agenda: Links de agendamento, Consultório e Reservas | `{{cliente}}`, `{{paciente}}`, `{{data}}`, `{{hora}}`… na mesma grafia dos mustaches, mas com uma lista própria em cada módulo | O módulo, com os dados da reunião, da consulta ou da reserva, no envio | O artigo de cada módulo (seção 12) |
 
 ### Lista oficial de mustaches (artigo Mustaches)
 
@@ -63,6 +65,7 @@ Regras do artigo Mustaches:
 | URL da Avaliação Externa | Mustaches, com o exemplo `https://avaliachat.com.br/{{ticket_id}}/{{number}}` (`references/docs/recursos/avaliacoes.md`) |
 | Mensagem de Encaminhamento (Configurações) | `{{ms}}` e `{{name}}`, com o exemplo `{{ms}} *{{name}}*, em alguns instantes um atendente irá prosseguir com seu atendimento.` (`references/docs/recursos/mensagens-automaticas-em-configuracoes.md`) |
 | Template | `{{1}}`, `{{2}}`… |
+| **Texto** do aviso dos Links de agendamento | As variáveis da reunião e, "as da conversa", `{{ms}}` e `{{firstName}}` (seção 12). É o único campo de aviso de agenda em que o artigo confirma mustaches. |
 | Mensagem simples de campanha, agendamento, mensagem de aniversário, mensagem de fora de expediente, mensagem de ausência, mensagem de conclusão/despedida | **não documentado** no artigo de cada campo |
 
 O artigo Mustaches diz, de forma geral, que o mustache é trocado "em algum local que permite texto". Para os campos da última linha, isso não substitui a confirmação do artigo do campo: se usar, diga que é para testar antes.
@@ -347,7 +350,7 @@ Botão que grava um agendamento novo: **não documentado** (o artigo Adicionar A
 
 **Mensagem a todos os atendimentos (de um atendente)**
 
-Um aviso só para todos os clientes que estão em atendimento aberto com uma pessoa ("a Ana saiu de férias, quem assume é o Bruno"). Só está descrita nas notas de atualização de 21/11/2026 e de 22/11/2026 (`references/docs/recursos/atualizacoes-2026-11-21.md`, `references/docs/recursos/atualizacoes-2026-11-22.md`).
+Um aviso só para todos os clientes que estão em atendimento aberto com uma pessoa ("a Ana saiu de férias, quem assume é o Bruno"). Só está descrita nas notas de atualização de 21/11/2026 e de 22/11/2026 (`references/docs/recursos/atualizacoes-2026-11-21.md`, `references/docs/recursos/atualizacoes-2026-11-22.md`). Vale a partir da WS-30.149.0 (o que é da nota de 22/11, da WS-30.165.0), e a versão instalada aparece no fim do menu do ícone do perfil: se a pessoa não acha o avião de papel, confira a versão primeiro.
 
 - **Onde:** menu **Quadro de atendimentos**, visão **Atendentes**, ícone do avião de papel na coluna da pessoa (**Enviar mensagem a todos os atendimentos deste atendente**). Só administrador e supervisor veem o botão.
 - **Quem recebe:** os contatos dos atendimentos abertos daquela pessoa, uma vez cada, mesmo que apareçam em mais de um atendimento. Os filtros e a busca do Quadro valem: só entra o que o Quadro mostra. Atendimento que ainda aguarda a pessoa aceitar não recebe. Desde 22/11/2026, a janela diz quais filtros do Quadro estão valendo (sem filtro, a linha não aparece) e a mensagem chega também nos atendimentos do Chat Externo.
@@ -494,6 +497,8 @@ Quando dois artigos discordam, ou um artigo se contradiz, diga isso ao usuário 
 | Prazo de aprovação de template | Mensagem Template (Dúvidas Comuns): "em geral algumas horas, mas pode ser dias". | Criar Template pela Plataforma e Template Recusado, Pausado ou Desabilitado: a análise "pode levar até 24 horas". | Diga que costuma levar horas, que os artigos falam em até 24 horas e em dias, e que o prazo é da Meta. |
 | A verificação da empresa leva direto ao limite de 2.000? | Número bloqueado no WhatsApp (Dúvidas Comuns): "Quem está no degrau de 250 também sobe ao concluir a verificação da empresa". Portfólio Empresarial (BM), do revendedor: com verificação, "o limite salta para **2.000**". | Qualidade do Número e Limite de Envio (Central): cumprido um dos três caminhos, a Meta "analisa a qualidade e libera, ou não, o degrau de 2.000". Qualidade do Número e Limite de Envio da Conta (revendedor): a Meta "aprova — ou não". | Não prometa o salto. Diga que a verificação é um dos três caminhos para sair dos 250 e que a liberação depende da análise da Meta. |
 | Número oficial bloqueado: onde pedir a revisão e em quanto tempo | Número bloqueado no WhatsApp (Central), que separa os canais: no oficial, pelo **Business Support Home**, no Meta Business Manager, com "Prazo de resposta: 24 a 48 horas". | Bloqueio WhatsApp (revendedor), que não separa canal oficial de não oficial: pedido "de dentro do próprio aplicativo, no aparelho do número bloqueado", com resposta que "costuma chegar em até 24 horas". | Para a conexão oficial, fique com o que a Central descreve para esse canal e não apresente o caminho do artigo do revendedor como regra do oficial. O prazo e a decisão são da Meta: não prometa nenhum dos dois. |
+| Aviso dos Links de agendamento: `{{local}}` e modelo aprovado | Links de agendamento: a lista de variáveis do **Texto** não traz `{{local}}`, e o artigo não fala de conexão oficial nem de modelo. | Notas de atualização: a de 24/11/2026 traz `{{local}}` nos **Avisos ao cliente**; a de 17/11/2026 diz que, com conexão oficial, "o aviso pode usar um modelo aprovado". | Não é contradição: o artigo está atrás das notas. Use `{{local}}` citando a nota e a versão, diga que o campo do modelo não está descrito e peça um teste (seção 12). |
+| Quando sai o aviso **Vaga na lista de espera** das Reservas | Aba Avisos em Reservas: "quando um horário abre, por uma reserva cancelada ou remarcada". | Lista de Espera das Reservas: "quando uma reserva daquele dia é cancelada". | Os dois concordam no cancelamento. Sobre a remarcação, diga que só o artigo da aba **Avisos** cita. |
 
 ---
 
@@ -567,3 +572,169 @@ O modelo novo já abre com blocos de exemplo (**Título**, **Texto**, **Botão**
 - **Não documentado:** tamanho máximo do assunto, do pré-cabeçalho e do texto; anexos (não há campo de anexo descrito); se as variáveis funcionam no **Pré-cabeçalho**, no **Nome do remetente**, no **Assunto** da campanha e dentro do HTML colado (o artigo fala em "assunto e textos"); o que vai no lugar de `{{nome}}` quando a lista não tem nome; o texto pronto do link de descadastro; se editar um modelo muda uma campanha já agendada; repetição automática de campanha; o fuso da hora do envio. Nesses casos, diga que a Central não informa e mande conferir com **Enviar teste**.
 
 **Artigos:** [Mail Marketing](https://clihelper.chatmasterveloz.com/docs/mail-marketing) (`references/docs/recursos/mail-marketing.md`), [Visão Geral Mail Marketing](https://clihelper.chatmasterveloz.com/docs/visao-geral-mail-marketing) (`references/docs/recursos/visao-geral-mail-marketing.md`), [Modelos de E-mail: Blocos e HTML](https://clihelper.chatmasterveloz.com/docs/modelos-de-e-mail-blocos-e-html) (`references/docs/recursos/modelos-de-e-mail-blocos-e-html.md`), [Campanhas de E-mail](https://clihelper.chatmasterveloz.com/docs/campanhas-de-e-mail) (`references/docs/recursos/campanhas-de-e-mail.md`), [Listas de Envio do Mail Marketing](https://clihelper.chatmasterveloz.com/docs/listas-de-envio-do-mail-marketing) (`references/docs/recursos/listas-de-envio-do-mail-marketing.md`), [Descadastros do Mail Marketing](https://clihelper.chatmasterveloz.com/docs/descadastros-do-mail-marketing) (`references/docs/recursos/descadastros-do-mail-marketing.md`), [Configurações do Mail Marketing](https://clihelper.chatmasterveloz.com/docs/configuracoes-do-mail-marketing) (`references/docs/recursos/configuracoes-do-mail-marketing.md`), [Permissões Mail Marketing](https://clihelper.chatmasterveloz.com/docs/permissoes-mail-marketing) (`references/docs/recursos/permissoes-mail-marketing.md`), [Relatório da Campanha de E-mail](https://clihelper.chatmasterveloz.com/docs/relatorio-da-campanha-de-e-mail) (`references/docs/recursos/relatorio-da-campanha-de-e-mail.md`).
+
+---
+
+## 12. Avisos automáticos de agenda (Links de agendamento, Consultório, Reservas)
+
+Mensagens que a plataforma envia sozinha ao cliente por causa de um compromisso marcado: a reunião do link de agendamento, a consulta do Consultório, a reserva das Reservas. O texto é escrito uma vez, num campo do próprio módulo, e cada módulo tem a sua lista de variáveis.
+
+Redigir o texto do aviso é desta skill. Montar o módulo (agenda, horários, profissionais, recursos, página, Setor e conexão do aviso) é da `cmv-ajuda`.
+
+**Regra das variáveis, que vale para os três módulos**
+
+- As variáveis desta seção só valem no campo do módulo em que estão listadas. Não vão para resposta rápida, campanha, agendamento, template nem e-mail.
+- As de um módulo não valem no outro, e o nome muda: o cliente é `{{cliente}}` nos Links e nas Reservas e `{{paciente}}` no Consultório; a empresa é `{{empresa}}` nas Reservas e `{{clinica}}` no Consultório; `{{link}}` aparece nos três e `{{local}}` em dois, e o que cada uma vira é o que o artigo daquele módulo diz, quando diz.
+- No sentido contrário, os mustaches da seção 0 (`{{firstName}}`, `{{name}}`, `{{ms}}`…) e a `{{1}}` do template não entram nesses textos. Exceção documentada: o **Texto** do aviso dos Links aceita `{{ms}}` e `{{firstName}}`. No Consultório e nas Reservas, nenhum mustache está documentado.
+- Copie o código da lista do módulo, letra por letra: `{{diaDaSemana}}`, `{{dataSaida}}` e `{{horaFim}}` têm maiúscula no meio. Se esses campos diferenciam maiúsculas, ou o que fazem com um código que não reconhecem: **não documentado**.
+
+### Links de agendamento
+
+**Onde fica:** menu **Links de agendamento** › **Novo link** (ou **Editar link**, na lista) › seção **Avisos e automações**, depois dos **Dias e horários de atendimento** › **Avisos ao cliente** › **Adicionar aviso** › campo **Texto** › **Salvar**. O menu é do administrador.
+
+**Quando sai:** cada aviso tem o campo **Quando**. São até 10 avisos por link.
+
+| **Quando** | Tempo |
+|---|---|
+| **Ao marcar** | Logo depois da marcação |
+| **Antes da reunião** | **Quanto antes**, em minutos, horas ou dias, de 5 minutos a 30 dias |
+| **No dia, a uma hora** | A **Hora** do aviso |
+| **Depois da reunião** | **Quanto depois do fim**, de 5 minutos a 30 dias |
+
+**Por onde sai:** só pelo WhatsApp. **Conexão dos avisos** lista só conexões de WhatsApp; vazia, o aviso vai pela conversa de WhatsApp do cliente (ou pela conexão padrão), mesmo que ele tenha um atendimento mais novo em outro canal. A resposta do cliente cai no **Setor da conversa** escolhido no link.
+
+**Variáveis do campo Texto.** O artigo dos Links lista os códigos e só explica `{{link}}`. O significado dos outros está no artigo Avisos ao Cliente em Tarefas, que descreve os mesmos códigos para os avisos das tarefas (a reunião marcada pelo link é uma tarefa do tipo **Reunião**).
+
+| Variável | O que vira | Onde está dito |
+|---|---|---|
+| `{{cliente}}` | O nome do cliente | Tarefas. O artigo dos Links acrescenta: se o contato tinha só o número como nome, passa a ter o nome digitado em **Seu nome**, "e os avisos chamam o cliente por esse nome" |
+| `{{tarefa}}` | O título da tarefa | Tarefas. O título da reunião marcada pelo link junta o nome do link e o do cliente, como *Reunião de apresentação · Maria* (Links) |
+| `{{data}}`, `{{hora}}` | O dia e a hora de início | Tarefas |
+| `{{quando}}` | O dia e a hora juntos, como *em 20/11/2026 às 14:00* | Tarefas |
+| `{{responsavel}}` | A pessoa responsável pela tarefa | Tarefas |
+| `{{link}}` | O link da videochamada | Links |
+| `{{local}}` | O nome e o endereço do local de atendimento | Só a nota de atualização de 24/11/2026 (versão WS-30.194.0); o artigo dos Links ainda não lista |
+| `{{ms}}`, `{{firstName}}` | "As da conversa": a saudação do horário e o primeiro nome do contato | Links (lista os dois); o significado é o do artigo Mustaches (seção 0) |
+
+Exemplo do artigo: `{{ms}}, {{cliente}}! Lembrete: {{tarefa}} começa {{quando}}.` Repare que `{{quando}}` já traz o "em" e o "às": não escreva "começa em {{quando}}".
+
+**O que os artigos avisam**
+
+- **Texto** de até 2.000 caracteres; acima disso o **Salvar** é recusado (*"O texto do aviso passou de 2000 caracteres."*).
+- Quando o texto não tem `{{link}}`, o link da videochamada entra sozinho, numa linha nova no fim da mensagem. Não é preciso escrevê-lo.
+- Reunião remarcada na tarefa: os avisos **Antes da reunião**, **No dia, a uma hora** e **Depois da reunião** acompanham o horário novo.
+- Sem nenhum aviso cadastrado, nenhuma mensagem é enviada: o cliente só vê a confirmação na página.
+- Conexão oficial: a nota de atualização de 17/11/2026 diz que "com uma conexão oficial, o aviso pode usar um modelo aprovado, para chegar fora da janela de 24 horas". O artigo dos Links não descreve esse campo.
+
+**Não documentado**
+
+- No artigo dos Links, o significado de `{{cliente}}`, `{{tarefa}}`, `{{data}}`, `{{hora}}`, `{{quando}}` e `{{responsavel}}`: a tabela acima usa o artigo das Tarefas. Como `{{tarefa}}` aparece no aviso de um link (o título já leva o nome do cliente) só um teste mostra.
+- O que `{{local}}` mostra num local **Online (videochamada)**, numa faixa **Sem local** ou num link sem locais.
+- Outros mustaches além de `{{ms}}` e `{{firstName}}`.
+- Onde se escolhe o modelo aprovado no aviso, como as variáveis dele são preenchidas e o que acontece com o aviso de texto comum com a janela fechada. Pela regra geral (seção 9), mensagem comum fora da janela não é entregue: avise e peça um teste.
+- Aviso ao cliente quando a reunião é cancelada.
+- Onde conferir se o aviso de um link foi enviado: o artigo dos Links não diz. O das Tarefas mostra, na tarefa aberta em **Editar**, a situação de cada aviso (*Enviado em* ou *Não foi enviado*, com o motivo), sem confirmar que isso vale para os avisos do link (`references/docs/recursos/avisos-ao-cliente-em-tarefas.md`).
+- O formato de `{{data}}` e `{{hora}}`.
+
+Os avisos das **Tarefas** e dos **Projetos** têm tela e textos próprios e não fazem parte desta ficha.
+
+### Consultório
+
+**Onde fica:** menu **Consultório › Cadastros do consultório** › aba **Confirmação** › **Salvar**. Só o administrador tem **Cadastros do consultório** no menu e salva ali.
+
+**O que se redige e quando o paciente recebe**
+
+| Campo | Quando sai |
+|---|---|
+| **Mensagem da consulta** | Quando a recepção clica em **Enviar a confirmação ao paciente (Confirmar, Remarcar, Cancelar)**, na seção **Consultório** do painel do contato. Vai com os três botões. |
+| **Botão Confirmar**, **Botão Remarcar**, **Botão Cancelar** | O texto de cada botão, com até 20 letras. |
+| **Resposta quando o paciente confirma**, **quando pede para remarcar**, **quando cancela** | Depois do clique no botão. |
+| **Resposta quando a consulta já não pode mudar** | Quando o paciente clica depois que a consulta já começou ou já mudou. |
+| **Texto** de cada lembrete (**Lembretes automáticos** › **Adicionar lembrete**) | Sozinho, uma vez só, antes da consulta, com os mesmos botões. O prazo é **Quanto antes** e **Em**: de 5 a 1.440 minutos, de 1 a 720 horas ou de 1 a 30 dias (em dias, com a **Hora do envio**). Até 6 lembretes por consulta. |
+
+Campo em branco usa o texto padrão.
+
+**Por onde sai:** o campo **Conexão** vale para a confirmação e os lembretes. Traz só as Conexões ativas, sem a do Chat Externo; **A do atendimento do paciente** usa a Conexão da conversa dele. Cada lembrete tem ainda **Por onde o lembrete é enviado**. A resposta do paciente chega pela Conexão por onde o aviso foi enviado.
+
+**Na conexão oficial:** o artigo diz que "fora da janela de 24 horas só é enviada mensagem por modelo aprovado". Com **Usar um modelo aprovado da API oficial** marcado, a aba pede o modelo e "liga cada variável dele a uma informação da consulta". Nesse caso o que se redige é o template (seção 2, com `{{1}}`, `{{2}}`…), e não o texto com `{{paciente}}`. Na conexão por QR Code, "vai o texto de sempre".
+
+**Variáveis** ("as variáveis da consulta, que aparecem na própria aba"): `{{paciente}}`, `{{data}}`, `{{hora}}`, `{{diaDaSemana}}`, `{{profissional}}`, `{{servico}}`, `{{local}}`, `{{clinica}}` e `{{link}}`. O artigo lista os nove códigos e não descreve o que cada um vira, por isso não há tabela de significado aqui. Valem na mensagem, nas respostas e no **Texto** do lembrete ("com as mesmas variáveis").
+
+**O que o artigo avisa**
+
+- A mensagem e os lembretes vão com os botões **Confirmar**, **Remarcar** e **Cancelar**, e "o clique do paciente muda a consulta sozinho". O texto acompanha os botões: pedir resposta digitada ("responda SIM") não é o caminho descrito.
+- **Remarcar** não desmarca: com **Remarcar: abrir o atendimento no setor**, o paciente vai para o Setor com a consulta ainda marcada, para a recepção combinar o novo horário. A **Resposta quando pede para remarcar** não deve dizer que a consulta foi desmarcada. Com **Só avisar a equipe com a nota no atendimento**, nenhum atendimento é aberto.
+- **Cancelar: perguntar antes se o paciente tem certeza:** marcado, o clique não cancela na hora; o paciente recebe uma pergunta com um botão para confirmar o cancelamento e outro para manter a consulta.
+- Consulta remarcada: os lembretes são refeitos para o novo horário. Quem marca a consulta depois da hora de um lembrete não recebe aquele lembrete.
+- Cada lembrete pode valer só para alguns **Serviços** e para as consultas **Agendada**, **Confirmada** ou as duas (**Quem recebe**): dá para ter um texto para quem ainda não confirmou e outro para quem já confirmou.
+
+**Não documentado**
+
+- O que cada variável vira e em que formato; em especial `{{local}}` e `{{link}}`.
+- O texto padrão de cada campo.
+- Tamanho máximo da mensagem, das respostas e do texto do lembrete (só os botões têm limite, de 20 letras), e se variável funciona no texto dos botões.
+- Mustaches (`{{firstName}}`, `{{ms}}`) nesses campos.
+- Aviso automático no momento em que a consulta é marcada, remarcada ou cancelada pela equipe: o artigo só descreve a confirmação enviada pelo botão e os lembretes.
+- Se o modelo aprovado vale também para os lembretes e se ele precisa trazer os três botões.
+- O texto da pergunta de confirmação do **Cancelar**.
+
+### Reservas
+
+**Onde fica:** menu **Reservas** › aba **Avisos** › ligue o aviso, ajuste o texto › **Salvar** (*"Avisos salvos."*). Só o administrador tem o menu **Reservas** e salva nele; o resto da equipe trabalha na **Agenda de reservas**. Todos os avisos começam desligados.
+
+**Os avisos e quando cada um sai**
+
+| Aviso | Quando sai |
+|---|---|
+| **Reserva confirmada** | Quando a reserva já nasce confirmada, pela agenda ou pela página |
+| **Pedido recebido** | Quando o cliente pede pela página e a equipe ainda vai confirmar |
+| **Confirmada pela equipe** | Quando a equipe confirma um pedido pendente |
+| **Reserva remarcada** | Quando o horário ou o recurso da reserva muda |
+| **Reserva cancelada** | Quando a reserva é cancelada, pela equipe ou pelo cliente |
+| **Lembretes antes do horário** | Até cinco por reserva confirmada. **Adicionar lembrete** cria um, com **Ligado** e **Quanto tempo antes**: 30 min, 1 h, 2 h, 3 h, 6 h, 12 h, 1 dia, 2 dias, 3 dias ou 7 dias |
+| **Vaga na lista de espera** | Quando um horário abre, por uma reserva cancelada ou remarcada, para quem está na lista de espera daquele dia; ou na hora, pelo botão **Avisar** da **Lista de espera**, com até cinco dos horários livres do dia |
+
+**Por onde sai:** campo **Enviar pela conexão**. A opção **A conversa do cliente (ou a conexão padrão)** usa a conversa que o cliente já tem; as outras são as conexões da empresa. O aviso vai para o telefone da reserva: reserva sem telefone não recebe aviso.
+
+**Variáveis** (lista do artigo Aba Avisos em Reservas)
+
+| Variável | O que vira |
+|---|---|
+| `{{cliente}}` | O nome do cliente |
+| `{{servico}}` | A oferta da reserva |
+| `{{recurso}}` | O recurso da reserva |
+| `{{data}}` | O dia |
+| `{{diaDaSemana}}` | O dia da semana |
+| `{{hora}}` | A hora do começo |
+| `{{horaFim}}` | A hora do fim |
+| `{{dataSaida}}` | A data de saída da diária |
+| `{{noites}}` | O número de noites da diária |
+| `{{pessoas}}` | Quantas pessoas |
+| `{{empresa}}` | O nome da empresa |
+| `{{codigo}}` | O código da reserva |
+| `{{link}}` | O link da **Minha reserva**; no aviso da lista de espera, o link da página |
+| `{{motivo}}` | O motivo do cancelamento, no aviso **Reserva cancelada** |
+| `{{horarios}}` | Os horários livres, só no aviso **Vaga na lista de espera** |
+
+O aviso **Vaga na lista de espera** tem lista própria: `{{cliente}}`, `{{servico}}`, `{{data}}`, `{{diaDaSemana}}`, `{{horarios}}`, `{{link}}` e `{{empresa}}`. Nele, use só essas sete.
+
+**O que os artigos avisam**
+
+- Diária: sem `{{dataSaida}}` e `{{noites}}` no texto, o hóspede recebe só a data de entrada. O artigo sugere acrescentar à **Reserva confirmada** uma linha como `Saída: {{dataSaida}} · {{noites}} noite(s)`.
+- O motivo do cancelamento é opcional na tela (**Motivo do cancelamento (opcional)**) e "vai no aviso de cancelamento ao cliente". Recomendação desta skill: escreva a frase de modo que continue boa sem ele, com `{{motivo}}` numa linha própria.
+- Lembrete: *"Quem reservar depois da hora do lembrete não o recebe."*
+- Ligar **Vaga na lista de espera** também faz a página de reservas oferecer a lista de espera em dia lotado. Quem recebe o aviso não ganha a vaga: reserva pela página, e quem reservar antes fica com o horário. O texto não deve prometer a vaga.
+- Para conferir o envio: no detalhe da reserva, na **Agenda de reservas**, o bloco **Mensagens ao cliente** mostra cada aviso como **enviado** ou **não enviado**, com o motivo.
+
+**Não documentado**
+
+- Conexão oficial: os artigos das Reservas não falam de janela de 24 horas nem de modelo aprovado nos avisos. Pela regra geral (seção 9), mensagem comum fora da janela não é entregue: avise, peça um teste e mande conferir o bloco **Mensagens ao cliente**.
+- Se os avisos saem por conexão que não é de WhatsApp. Só o da lista de espera tem o canal dito: a página promete avisar "pelo WhatsApp" (`references/docs/recursos/lista-de-espera-das-reservas.md`).
+- Se cada lembrete tem texto próprio: o artigo só cita **Ligado** e **Quanto tempo antes**.
+- O texto que já vem pronto em cada aviso e o tamanho máximo.
+- O que `{{motivo}}` mostra num cancelamento sem motivo, e se ela funciona fora do aviso **Reserva cancelada**.
+- Se as variáveis fora da lista da lista de espera (`{{hora}}`, `{{codigo}}`, `{{recurso}}`…) funcionam naquele aviso.
+- O que `{{dataSaida}}` e `{{noites}}` mostram numa reserva que não é diária, e o formato de data e hora.
+- Mustaches (`{{firstName}}`, `{{ms}}`) nesses textos.
+
+**Artigos:** [Links de agendamento](https://clihelper.chatmasterveloz.com/docs/links-de-agendamento) (`references/docs/recursos/links-de-agendamento.md`), [Avisos ao Cliente em Tarefas](https://clihelper.chatmasterveloz.com/docs/avisos-ao-cliente-em-tarefas) (`references/docs/recursos/avisos-ao-cliente-em-tarefas.md`), [Atualizações 17/11/2026](https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-17) (`references/docs/recursos/atualizacoes-2026-11-17.md`), [Atualizações 24/11/2026](https://clihelper.chatmasterveloz.com/docs/atualizacoes-2026-11-24) (`references/docs/recursos/atualizacoes-2026-11-24.md`), [Aba Confirmação em Cadastros do Consultório](https://clihelper.chatmasterveloz.com/docs/aba-confirmacao-em-cadastros-do-consultorio) (`references/docs/recursos/aba-confirmacao-em-cadastros-do-consultorio.md`), [Permissões Consultório](https://clihelper.chatmasterveloz.com/docs/permissoes-consultorio) (`references/docs/recursos/permissoes-consultorio.md`), [Aba Avisos em Reservas](https://clihelper.chatmasterveloz.com/docs/aba-avisos-em-reservas) (`references/docs/recursos/aba-avisos-em-reservas.md`), [Agenda de reservas](https://clihelper.chatmasterveloz.com/docs/agenda-de-reservas) (`references/docs/recursos/agenda-de-reservas.md`), [Lista de Espera das Reservas](https://clihelper.chatmasterveloz.com/docs/lista-de-espera-das-reservas) (`references/docs/recursos/lista-de-espera-das-reservas.md`), [Permissões Reservas](https://clihelper.chatmasterveloz.com/docs/permissoes-reservas) (`references/docs/recursos/permissoes-reservas.md`).

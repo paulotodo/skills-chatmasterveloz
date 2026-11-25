@@ -1,0 +1,719 @@
+{
+  "modelo": "claude-fable-5-2",
+  "conjunto": "revendedor-teste",
+  "resultados": [
+    {
+      "id": "r-001",
+      "pedido": "liberei campanhas no plano de um cliente meu mas o menu nao aparece pro atendente dele, so pro admin. o q ta faltando?",
+      "destino": "cmv-ajuda",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "modulo": "revendedor-recursos",
+      "cita_produto": false,
+      "motivo": "recursos/como-habilitar-campanhas.md: são três lugares (empresa, plano e Acesso a Campanhas no usuário); faltando o terceiro o atendente não vê o menu. É liberar recurso, não redigir campanha, por isso cmv-ajuda e não cmv-mensagens.",
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "r-002",
+      "pedido": "No Chat Master Veloz, criei um plano novo e ele não aparece na página de cadastro pros clientes escolherem. Os outros planos aparecem normal. Onde eu arrumo isso?",
+      "destino": "cmv-ajuda",
+      "aceitavel": [],
+      "tipo": "cita-o-produto",
+      "modulo": "revendedor-recursos",
+      "cita_produto": true,
+      "motivo": "recursos/configuracoes-planos.md: Dúvidas Comuns, a opção Uso Interno decide se o plano entra na lista da página de cadastro. Tela de administração de planos: cmv-ajuda.",
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "r-003",
+      "pedido": "Sou revendedor e fechei com uma clínica hoje. Quero cadastrar a empresa dela na minha instância já no plano certo, sem ela passar por período de teste. Qual o caminho?",
+      "destino": "cmv-ajuda",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "modulo": "revendedor-recursos",
+      "cita_produto": false,
+      "motivo": "recursos/configuracoes-cadastrar-empresa.md: card Cadastrar Empresa cria a empresa e o administrador já no plano definitivo, diferente do registro público com trial. A pessoa pede o caminho na tela, não um script: cmv-ajuda.",
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "r-004",
+      "pedido": "quero trocar o logo da tela de login e o favicon do meu CMV pela minha marca. onde sobe a imagem? aceita jpg?",
+      "destino": "cmv-ajuda",
+      "aceitavel": [
+        "cmv-painel-css-js"
+      ],
+      "tipo": "fronteira",
+      "modulo": "revendedor-recursos",
+      "cita_produto": true,
+      "motivo": "recursos/configuracoes-logotipos-icones.md: destinos Tela de Login e Favicon 32x32, só PNG. A resposta é uma tela de envio, sem CSS, daí cmv-ajuda; mas marca e tela de login são assunto de cmv-painel-css-js na tabela, então ela também serve.",
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "r-005",
+      "pedido": "os usuarios dos meus clientes clicam em esqueci a senha e o email com o codigo nunca chega pra ninguem. o que eu tenho que configurar na instancia pra isso funcionar?",
+      "destino": "cmv-ajuda",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "modulo": "revendedor-recursos",
+      "cita_produto": false,
+      "motivo": "recursos/como-habilitar-recuperacao-de-senha.md e recursos/canais-e-e-mail-em-plataforma.md: chave do Resend e Remetente de E-Mail na seção SMTP API (RESEND) de Configurações › Plataforma. Configuração da instância: cmv-ajuda.",
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "r-006",
+      "pedido": "Um cliente meu pediu a API pra ligar o sistema dele no Chat Master Veloz. O que eu preciso liberar pra empresa dele e onde ele pega o token depois?",
+      "destino": "cmv-ajuda",
+      "aceitavel": [
+        "cmv-api"
+      ],
+      "tipo": "fronteira",
+      "modulo": "revendedor-recursos",
+      "cita_produto": true,
+      "motivo": "recursos/como-habilitar-api.md e api/pre-requisitos-apis.md: marcar API Externa no plano; o token é criado na Conexão ou em Token da Empresa. A pergunta é como liberar (cmv-ajuda), mas o assunto é API e o artigo de pré-requisitos está na parte de API, então cmv-api também responde.",
+      "cargas": [
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "r-007",
+      "pedido": "Tem como ver de uma vez só quais empresas do meu Chat Master Veloz estão com mais conexões do que o plano permite? Queria baixar isso numa planilha pra cobrar a diferença.",
+      "destino": "cmv-ajuda",
+      "aceitavel": [],
+      "tipo": "cita-o-produto",
+      "modulo": "revendedor-recursos",
+      "cita_produto": true,
+      "motivo": "recursos/configuracoes-conciliacao-de-conexoes.md: card Conciliação de conexões, filtro Só acima do plano e botão CSV. Tela de administração: cmv-ajuda.",
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "r-008",
+      "pedido": "No CMV, quero que o admin de cada empresa veja e pague a própria fatura dentro do painel, e quero receber pelo Asaas. Onde eu configuro isso como super admin?",
+      "destino": "cmv-ajuda",
+      "aceitavel": [],
+      "tipo": "cita-o-produto",
+      "modulo": "revendedor-recursos",
+      "cita_produto": true,
+      "motivo": "recursos/marca-e-acesso-em-plataforma.md (Exibir Fatura para Clientes?) e recursos/cobranca-da-plataforma.md (seção ASAAS: Token Asaas e os três campos de regra). Configuração de tela, sem código: cmv-ajuda.",
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "r-009",
+      "pedido": "preciso travar o acesso de uma empresa que nao pagou, sem apagar nada dela. fiz isso ontem com outra e o admin continuou logado usando normal, é assim mesmo??",
+      "destino": "cmv-ajuda",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "modulo": "revendedor-recursos",
+      "cita_produto": false,
+      "motivo": "recursos/configuracoes-editar-empresa.md: Pode Acessar? na aba Configurações; Dúvidas Comuns diz que a sessão aberta só termina quando o administrador recarrega ou sai. Pergunta de tela, não de API de bloqueio: cmv-ajuda.",
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "r-010",
+      "pedido": "Preciso de um script em Python que crie a empresa no Chat Master Veloz assim que o cliente paga no meu checkout, com nome, email, telefone e o plano que ele comprou. Qual endpoint e qual token eu uso?",
+      "destino": "cmv-api",
+      "aceitavel": [],
+      "tipo": "cita-o-produto",
+      "modulo": "revendedor-api",
+      "cita_produto": true,
+      "motivo": "api/api-admin-criar-empresa.md: POST /api/companies/add com token da empresa do Super Admin. Pede código de uma API administrativa: cmv-api.",
+      "cargas": [
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "r-011",
+      "pedido": "sou revendedor e meu financeiro roda num sistema proprio. quando o cliente faz upgrade la eu queria que o plano da empresa dele mudasse sozinho na plataforma, sem eu entrar no painel. da pra fazer? como fica a chamada",
+      "destino": "cmv-api",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "modulo": "revendedor-api",
+      "cita_produto": false,
+      "motivo": "api/api-admin-atualizar-o-cadastro-de-uma-empresa.md: PUT /api/companies/{companyId} com planId; mexer no plano sincroniza a fatura em aberto. Integração do sistema de cobrança do revendedor por API administrativa: cmv-api.",
+      "cargas": [
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "r-012",
+      "pedido": "Como eu puxo as faturas em aberto da minha instância do CMV e dou baixa em uma quando o pix cai na minha conta? Quero montar isso no n8n.",
+      "destino": "cmv-api",
+      "aceitavel": [],
+      "tipo": "cita-o-produto",
+      "modulo": "revendedor-api",
+      "cita_produto": true,
+      "motivo": "api/api-admin-obter-faturas.md (GET /api/invoices/listar) e api/api-admin-pagar-fatura.md (POST /api/subscription/manualpaid). Automação por API administrativa: cmv-api.",
+      "cargas": [
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "r-013",
+      "pedido": "toda vez que uma empresa nova se cadastra na minha instancia eu queria jogar ela no meu crm automatico. tem algum webhook que avisa? o que vem no json",
+      "destino": "cmv-api",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "modulo": "revendedor-api",
+      "cita_produto": false,
+      "motivo": "api/webhook-admin-criacao-de-empresa.md (evento new_company e o corpo) e api/habilitar-webhook-administrativo.md. Webhook Administrativo é de cmv-api na tabela.",
+      "cargas": [
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "r-014",
+      "pedido": "Tô chamando a API que conta as empresas do Chat Master Veloz com o token de uma conexão minha e volta 403. As outras chamadas de admin funcionam com esse mesmo token. O que tá errado?",
+      "destino": "cmv-api",
+      "aceitavel": [],
+      "tipo": "cita-o-produto",
+      "modulo": "revendedor-api",
+      "cita_produto": true,
+      "motivo": "api/api-admin-contar-empresas.md: Contar Empresas só aceita o Token da Empresa do Super Admin; token de conexão responde 403. Erro de token em código que chama a API: cmv-api.",
+      "cargas": [
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "r-015",
+      "pedido": "coloquei a url do meu n8n la nas configurações da plataforma pra receber os avisos de conexão dos clientes. se meu n8n ficar fora do ar umas horas da algum problema pras empresas ou eu so perco os avisos?",
+      "destino": "cmv-api",
+      "aceitavel": [
+        "cmv-ajuda"
+      ],
+      "tipo": "fronteira",
+      "modulo": "revendedor-api",
+      "cita_produto": false,
+      "motivo": "api/habilitar-webhook-administrativo.md: endereço preenchido e fora do ar pode interromper a plataforma inteira; esvaziar o campo antes; avisos não entregues não são guardados. O Webhook Administrativo é de cmv-api, mas a pergunta é sobre um campo de Configurações › Plataforma, tela de administração que cmv-ajuda também cobre.",
+      "cargas": [
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ],
+        [
+          "cmv-api"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "r-016",
+      "pedido": "como libero o GPT Assistant pra uma empresa no Chat Master Veloz? marquei ele no plano dela e o menu de prompts nao apareceu",
+      "destino": "cmv-agente-ia",
+      "aceitavel": [
+        "cmv-ajuda"
+      ],
+      "tipo": "fronteira",
+      "modulo": "revendedor-ia",
+      "cita_produto": true,
+      "motivo": "recursos/como-habilitar-gpt-assistant.md e recursos/configuracoes-planos.md: o menu Prompts OPEN.AI precisa também da opção AI no plano, além de GPT Assistant. O que libera cada recurso de IA é de cmv-agente-ia; como a pergunta é só 'como libero no plano', cmv-ajuda também serve.",
+      "cargas": [
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "r-017",
+      "pedido": "quero bancar a IA de um cliente com a minha chave da openai, sem ele ver a chave. tem como? e se eu fizer isso o gasto cai na minha conta em tudo (transcrição de audio, analise de atendimento...) ou só no robô que responde?",
+      "destino": "cmv-agente-ia",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "modulo": "revendedor-ia",
+      "cita_produto": false,
+      "motivo": "recursos/configuracoes-editar-empresa.md (aba Integrações, Chave da OpenAI: Chave da plataforma (subsidiada), que nunca aparece para a empresa e vale para prompts, análise, resumo, Copiloto e transcrição) e recursos/como-habilitar-inteligencia-rtificial.md. De quem é a chave da OpenAI: cmv-agente-ia.",
+      "cargas": [
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "r-018",
+      "pedido": "Um cliente do meu CMV reclamou que o botão de sugerir resposta com IA dá aviso de créditos esgotados. Recarreguei os tokens dele agora há pouco e continua sem funcionar. O que mais pode ser?",
+      "destino": "cmv-agente-ia",
+      "aceitavel": [
+        "cmv-ajuda"
+      ],
+      "tipo": "fronteira",
+      "modulo": "revendedor-ia",
+      "cita_produto": true,
+      "motivo": "recursos/configuracoes-tokens-de-ia.md: Dúvidas Comuns 'Recarreguei e o cliente continua sem usar' (plano sem Sugestão de resposta IA, chave própria vazia, saldo abaixo do custo, permissão do atendente). Créditos de IA são de cmv-agente-ia; mas Tokens de IA é um card de Configurações do Super Admin e o pedido é um 'por que não funciona', que cmv-ajuda também atende.",
+      "cargas": [
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "r-019",
+      "pedido": "No CMV os créditos do Copiloto renovam sozinhos todo mês? Vendo pacote mensal de IA e não sei se tenho que recarregar na mão. E esse crédito é o que paga a OpenAI ou é outra coisa?",
+      "destino": "cmv-agente-ia",
+      "aceitavel": [],
+      "tipo": "cita-o-produto",
+      "modulo": "revendedor-ia",
+      "cita_produto": true,
+      "motivo": "recursos/configuracoes-tokens-de-ia.md: o crédito não se renova sozinho e não paga a IA; o consumo real é cobrado na conta dona da chave da OpenAI. Créditos do Copiloto: cmv-agente-ia.",
+      "cargas": [
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ],
+        [
+          "cmv-agente-ia"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "r-020",
+      "pedido": "Preciso de um CSS pra deixar o painel do Chat Master Veloz com a cor da minha marca (roxo #5b2d8e) nos botões e no fundo, no tema claro e no escuro, valendo pra instância inteira. Onde eu colo?",
+      "destino": "cmv-painel-css-js",
+      "aceitavel": [],
+      "tipo": "cita-o-produto",
+      "modulo": "revendedor-css",
+      "cita_produto": true,
+      "motivo": "recursos/configuracoes-cores.md: variáveis --mui-* em body[data-theme=\"light\"] e :root, coladas no CSS pós-login; recursos/ancoras-css.md. Pede o CSS pronto: cmv-painel-css-js.",
+      "cargas": [
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "r-021",
+      "pedido": "uma das empresas que eu atendo quer o painel com as cores dela e sem o menu de campanhas aparecendo, diferente das outras empresas da instancia. da pra fazer so pra ela? me manda o css",
+      "destino": "cmv-painel-css-js",
+      "aceitavel": [],
+      "tipo": "sem-nome-do-produto",
+      "modulo": "revendedor-css",
+      "cita_produto": false,
+      "motivo": "recursos/configuracoes-editar-empresa.md: campo CSS desta empresa (troca cores e esconde elementos) e a opção Usar a customização geral; recursos/configuracoes-cores.md, Dúvidas Comuns. Pede CSS por empresa: cmv-painel-css-js.",
+      "cargas": [
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "r-022",
+      "pedido": "colei um css pra mudar a tela de login la no campo de css das configurações de cores da minha instancia e a tela de login continua igualzinha. dentro do painel o css pegou. o que pode ser?",
+      "destino": "cmv-painel-css-js",
+      "aceitavel": [
+        "cmv-ajuda"
+      ],
+      "tipo": "fronteira",
+      "modulo": "revendedor-css",
+      "cita_produto": false,
+      "motivo": "recursos/configuracoes-cores.md: Dúvidas Comuns, a tela de entrada só lê o campo CSS pré-login — público; o CSS foi colado no pós-login. É CSS do login (cmv-painel-css-js), mas a resposta é em qual campo da tela Cores colar, sem escrever CSS, o que cmv-ajuda também responde.",
+      "cargas": [
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ],
+        [
+          "cmv-painel-css-js"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "r-023",
+      "pedido": "Quero virar Tech Provider pra os clientes do meu Chat Master Veloz verem a minha marca na hora de conectar o WhatsApp oficial, e não a de terceiros. O que eu preciso ter antes e por onde começo?",
+      "destino": "cmv-ajuda",
+      "aceitavel": [],
+      "tipo": "cita-o-produto",
+      "modulo": "revendedor-meta",
+      "cita_produto": true,
+      "motivo": "trilhas/tech-provider.md (pré-requisitos: BM verificada, site com política de privacidade, logotipo; criar o Aplicativo de Negócios) e trilhas/meta.md. Preparação na Meta: cmv-ajuda.",
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "r-024",
+      "pedido": "A Meta aprovou meu app, já colei as chaves no CMV, mas quando o cliente tenta conectar o WhatsApp oficial dá erro no login do Facebook. Comigo conecta normal. O que falta?",
+      "destino": "cmv-ajuda",
+      "aceitavel": [],
+      "tipo": "cita-o-produto",
+      "modulo": "revendedor-meta",
+      "cita_produto": true,
+      "motivo": "trilhas/publicar-o-app-e-ligar-na-plataforma.md: com o aplicativo em desenvolvimento só quem tem cargo nele conecta; falta publicar (Ao vivo). Trilha Meta do revendedor: cmv-ajuda.",
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "r-025",
+      "pedido": "cliente meu da api oficial ta preso em 250 conversas por dia e me ligou dizendo que o whatsapp travou. como faz pra subir esse limite? eu como parceiro consigo verificar a empresa por ele ou tem que ser ele mesmo",
+      "destino": "cmv-mensagens",
+      "aceitavel": [
+        "cmv-ajuda"
+      ],
+      "tipo": "fronteira",
+      "modulo": "revendedor-meta",
+      "cita_produto": false,
+      "motivo": "trilhas/qualidade-e-limite-de-envio-do-numero.md: como sair dos 250 (verificar a empresa, verificação conduzida por parceiro na Visão geral do parceiro, ou 2.000 mensagens em 30 dias). Limite de envio do número é de cmv-mensagens na tabela; a verificação pelo parceiro é trilha Meta do revendedor, que a tabela dá a cmv-ajuda.",
+      "cargas": [
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ],
+        [
+          "cmv-ajuda"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "r-026",
+      "pedido": "Tenho um fluxo de boas-vindas pronto e quero colocar ele em 15 empresas do meu Chat Master Veloz sem entrar em uma por uma pra importar. Tem como?",
+      "destino": "cmv-api",
+      "aceitavel": [
+        "cmv-flowbuilder"
+      ],
+      "tipo": "fronteira",
+      "modulo": "revendedor-fluxo",
+      "cita_produto": true,
+      "motivo": "api/api-admin-criar-fluxo-em-uma-empresa.md: POST /api/flowbuilder com companyId e os nodes cria o fluxo dentro da empresa sem entrar nela. O único caminho documentado é a API administrativa (cmv-api); mas o pedido fala de fluxo e não de API, e o corpo da chamada é o próprio fluxo, então cmv-flowbuilder também é defensável.",
+      "cargas": [
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder"
+        ],
+        [
+          "cmv-flowbuilder",
+          "cmv-api"
+        ]
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "r-027",
+      "pedido": "Sou revendedor do Chatwoot, hospedo pra uns 20 clientes numa VPS. Como crio uma conta nova pelo super admin e limito o número de agentes dela?",
+      "destino": "nenhuma",
+      "aceitavel": [],
+      "tipo": "negativo",
+      "modulo": "fora",
+      "cita_produto": false,
+      "motivo": "Revendedor de outra plataforma citada pelo nome (Chatwoot). Nenhum artigo responde; o vocabulário (super admin, conta, limite de agentes) é parecido de propósito.",
+      "cargas": [
+        [],
+        [],
+        []
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "r-028",
+      "pedido": "quanto vcs acham q da pra cobrar por mes de uma clinica pequena numa plataforma de atendimento whitelabel? to montando minha tabela de preço e nao sei se cobro por usuario ou por numero conectado",
+      "destino": "nenhuma",
+      "aceitavel": [],
+      "tipo": "negativo",
+      "modulo": "fora",
+      "cita_produto": false,
+      "motivo": "Pergunta de negócio (quanto cobrar, modelo de preço). A documentação explica onde montar planos e a tabela do Monte seu plano, mas nenhum artigo diz quanto cobrar.",
+      "cargas": [
+        [],
+        [],
+        []
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "r-029",
+      "pedido": "Uso a Evolution API numa VPS e revendo as instâncias. Tem como configurar um webhook global que me avise quando qualquer instância desconectar do WhatsApp?",
+      "destino": "nenhuma",
+      "aceitavel": [],
+      "tipo": "negativo",
+      "modulo": "fora",
+      "cita_produto": false,
+      "motivo": "Outra plataforma citada pelo nome (Evolution API). O pedido imita o do Webhook Administrativo de conexão, mas a resposta não está em nenhum artigo.",
+      "cargas": [
+        [],
+        [],
+        []
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    },
+    {
+      "id": "r-030",
+      "pedido": "preciso de um modelo de contrato de revenda de software whitelabel pra assinar com meus clientes, com clausula de SLA e de inadimplencia. consegue redigir pra mim?",
+      "destino": "nenhuma",
+      "aceitavel": [],
+      "tipo": "negativo",
+      "modulo": "fora",
+      "cita_produto": false,
+      "motivo": "Contrato de revenda: assunto jurídico e de negócio que nenhuma documentação cobre. O card Documentos só recebe os PDFs de Termos de Uso e Política de Privacidade, não ensina a redigir contrato.",
+      "cargas": [
+        [],
+        [],
+        []
+      ],
+      "acertos": 3,
+      "repeticoes": 3,
+      "passou": true
+    }
+  ]
+}

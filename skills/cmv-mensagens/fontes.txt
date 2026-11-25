@@ -44,6 +44,17 @@ plataforma:recursos/atualizacoes-2026-11-22.md   # Mensagem a todos: chega ao Ch
 plataforma:recursos/atualizacoes-2026-11-20.md   # bloco API Oficial: envios e custo, no Dashboard (Custo estimado)
 # Mail Marketing: campanhas de e-mail (modelo, variáveis, listas, descadastro, teste); o webhook fica com a cmv-api
 subarvore:Mail Marketing
+# Avisos automáticos de agenda (ficha 12): Links de agendamento, Consultório e Reservas, cada um com as suas variáveis
+plataforma:recursos/links-de-agendamento.md
+plataforma:recursos/avisos-ao-cliente-em-tarefas.md   # descreve as variáveis da reunião, que o artigo dos Links só lista
+plataforma:recursos/atualizacoes-2026-11-17.md   # Links: modelo aprovado na conexão oficial (só nesta nota)
+plataforma:recursos/atualizacoes-2026-11-24.md   # Links: variável do local nos Avisos ao cliente (o artigo ainda não lista)
+plataforma:recursos/aba-confirmacao-em-cadastros-do-consultorio.md
+plataforma:recursos/permissoes-consultorio.md
+plataforma:recursos/aba-avisos-em-reservas.md
+plataforma:recursos/agenda-de-reservas.md   # motivo do cancelamento, reserva sem telefone, bloco Mensagens ao cliente
+plataforma:recursos/lista-de-espera-das-reservas.md
+plataforma:recursos/permissoes-reservas.md
 # Documentação do revendedor (Super Admin): limite e qualidade do número vistos pelo parceiro, bloqueio,
 # verificação da empresa e o que libera campanhas, agendamentos e Mail Marketing. Vai para references/docs/revendedor/.
 revendedor:trilhas/qualidade-e-limite-de-envio-do-numero.md
