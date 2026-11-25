@@ -158,7 +158,7 @@ As opções ficam em **Configurações › Planos** (`configuracoes-planos.md`).
 | Copiloto de mensagens e menu **Sugestão de resposta IA** | **Sugestão de resposta IA** (o card **OPEN.AI**, para quem usa chave própria, vem com **AI**) | Saldo de créditos ou **Ilimitado**; a chave; a permissão **Pode usar sugestão de IA** do usuário | `como-habilitar-sugestao-de-resposta-ia.md`, `configuracoes-tokens-de-ia.md` |
 | Card **Provedor de IA** | **Provedores de IA** | O administrador da empresa escolhe o serviço no card | `como-habilitar-provedores-de-ia.md` |
 | Avaliação pela IA | **Avaliação pela IA** | O administrador da empresa liga **Avaliar os atendimentos pela IA** | `como-habilitar-avaliacao-pela-ia.md` |
-| Copilot da raia, no CRM | **Copilot CRM** | **Versão do CRM** em **v2 — múltiplos funis** | `como-habilitar-copiloto-do-crm.md` |
+| Copilot da raia, no CRM | **Copilot CRM** | **Versão do CRM** em **v2 — múltiplos funis** | `como-habilitar-copiloto-do-crm.md`; uso em `copilot-da-raia.md` |
 
 Depois de mudar o plano, quem já estava com a plataforma aberta precisa recarregar a página (`configuracoes-planos.md`).
 

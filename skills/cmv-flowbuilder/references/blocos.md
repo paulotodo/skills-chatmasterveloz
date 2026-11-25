@@ -168,7 +168,7 @@ Lidas em Como o Fluxo Roda (`references/docs/recursos/como-o-fluxo-roda.md`) e B
 - Cuidado: só números no documento. O bloco envia o link da fatura mais recente, não de todas. Ligue a saída **Erro**.
 
 **Enviar e-mail** · `references/docs/recursos/bloco-enviar-e-mail.md` · JSON: `email` (só o envio por conta de e-mail observado)
-- Use para: mandar um e-mail no meio do fluxo, por uma conta de e-mail da empresa ou por um provedor de envio por API. Com o **Para** vazio, vai para o e-mail do contato. Saídas **Enviado** e **Não enviado**; ligue as duas.
+- Use para: mandar um e-mail no meio do fluxo, por uma conta de e-mail da empresa ou por um provedor de envio por API. Com o **Para** vazio, vai para o e-mail do contato. **Para**, **Assunto** e **Mensagem** aceitam as variáveis do contato e do fluxo. Saídas **Enviado** e **Não enviado**; ligue as duas.
 - Cuidado: a empresa precisa de uma conta ativa no menu **Contas de E-mail** ou de um provedor cadastrado na mesma tela. Contato sem e-mail com o **Para** vazio segue por **Não enviado**. O e-mail não fica registrado na conversa nem na pasta **Enviadas**: para o cliente saber, ligue **Enviado** a um bloco de mensagem.
 
 O artigo n8n via FlowBuilder Nativo (`references/docs/recursos/n8n-via-flowbuilder.md`) fala em bloco HTTP Request, mas o exemplo dele é código JavaScript, igual ao do artigo da Execução de Código JS, e termina mandando guardar a resposta numa Variável. Código vai em **Execução de Código JS**, seguido de Variável; no **HTTP Request**, a chamada é montada pelos campos e a resposta é guardada pela aba **Resposta**. Avise a pessoa dessa diferença.
@@ -184,7 +184,7 @@ O artigo n8n via FlowBuilder Nativo (`references/docs/recursos/n8n-via-flowbuild
 
 **Rodízio** · `references/docs/recursos/bloco-rodizio.md` · JSON: não
 - Use para: distribuir entre atendentes, por percentual ou por rodada sorteada.
-- Cuidado: no modo equilibrado, as porcentagens somam exatamente 100. Escolha sempre o Setor de **Se não encontrar operador disponível**. Num rodízio cadastrado no menu **Rodízios**, esse campo também oferece **Aguardar na mesma fila e redistribuir assim que um desocupa**: o atendimento espera a vez em **Aguardando**, no mesmo Setor (nota de atualização de 21/11/2026; o artigo do bloco ainda não traz).
+- Cuidado: no modo equilibrado, as porcentagens somam exatamente 100. Escolha sempre o Setor de **Se não encontrar operador disponível**. Num rodízio cadastrado no menu **Rodízios**, esse campo também oferece **Aguardar na mesma fila e redistribuir assim que um desocupa**: o atendimento espera a vez em **Aguardando**, no mesmo Setor (nota de atualização de 21/11/2026; o artigo do bloco ainda não traz). Depois de escolhido o Setor de transbordo, **Dividir o transbordo entre mais filas** reparte o transbordo entre vários Setores, cada um com o seu percentual.
 
 **Retornar último atendimento** · `references/docs/recursos/bloco-retornar-ultimo-atendimento.md` · JSON: não
 - Use para: devolver ao mesmo Setor e atendente quem voltou logo, junto com a Condição **Protocolo fechado**. Ligue a saída **Sem atendimento anterior**.

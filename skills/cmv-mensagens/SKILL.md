@@ -104,7 +104,7 @@ Regras de honestidade, e o motivo de cada uma:
 | Pontos em que os artigos se contradizem | `references/regras-por-tipo-de-mensagem.md`, seção 10 |
 | Modelos por objetivo (saudação, ausência, cobrança, confirmação, lembrete, pós-venda, pesquisa, reativação, aniversário, carrinho) | `assets/modelos.md` |
 | Critérios de redação e lista de conferência | `references/boas-praticas-de-redacao.md` |
-| Resposta rápida de texto e como usar o atalho | `references/docs/recursos/resposta-rapida-envio-de-texto.md` |
+| Resposta rápida de texto, a tela, a categoria e como a barra `/` busca | `references/docs/recursos/resposta-rapida-envio-de-texto.md`, `references/docs/recursos/visao-geral-respostas-rapidas.md` |
 | Resposta rápida de mídia, contato, localização e fluxo | `references/docs/recursos/resposta-rapida-envio-de-midia.md`, `references/docs/recursos/resposta-rapida-envio-de-contato.md`, `references/docs/recursos/resposta-rapida-envio-de-localizacao.md`, `references/docs/recursos/resposta-rapida-de-fluxo.md` |
 | Banco de ideias de respostas rápidas por área | `references/docs/recursos/ideias-de-respostas-rapidas.md` |
 | Template: categorias, modelos, erros | `references/docs/recursos/mensagem-template.md` |

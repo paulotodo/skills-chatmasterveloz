@@ -42,6 +42,7 @@ plataforma:recursos/atualizacoes-2026-11-21.md
 plataforma:recursos/atualizacoes-2026-11-22.md
 # Concatenador de Mensagens: onde liga o modo Com IA (Central) e o que o revendedor liga na empresa.
 plataforma:recursos/concatenador-de-mensagens.md
+plataforma:recursos/copilot-da-raia.md   # artigo de uso do Copilot da raia (CRM)
 revendedor:recursos/como-habilitar-concatenador-de-mensagens.md
 plataforma:recursos/gravacoes-das-chamadas.md   # IA nas gravações das chamadas (usa o Token OpenAI)
 # Travas de grupo do lado da empresa (Ignorar Mensagens de Grupos e o Bloquear Grupos de cada Conexão),

@@ -1,4 +1,4 @@
-# Artigos incluídos nesta skill (76)
+# Artigos incluídos nesta skill (77)
 
 - [API Listar Setores da Empresa](api/api-listar-setores-da-empresa.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/api-listar-setores-da-empresa>
 - [Aba Evolução da Avaliação pela IA](recursos/aba-evolucao-da-avaliacao-pela-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/aba-evolucao-da-avaliacao-pela-ia>
@@ -34,6 +34,7 @@
 - [Como Ligar a Avaliação pela IA](recursos/como-ligar-a-avaliacao-pela-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/como-ligar-a-avaliacao-pela-ia>
 - [Concatenador de Mensagens](recursos/concatenador-de-mensagens.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/concatenador-de-mensagens>
 - [Contatos Internos na Avaliação pela IA](recursos/contatos-internos-na-avaliacao-pela-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/contatos-internos-na-avaliacao-pela-ia>
+- [Copilot da Raia](recursos/copilot-da-raia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/copilot-da-raia>
 - [Copiloto de mensagens](recursos/copiloto-de-mensagens.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/copiloto-de-mensagens>
 - [CRM no Assistente de IA](recursos/crm-no-assistente-de-ia.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/crm-no-assistente-de-ia>
 - [– Devolver ao Setor](recursos/devolver-ao-setor.md) · Fonte: <https://clihelper.chatmasterveloz.com/docs/devolver-ao-setor>

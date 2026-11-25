@@ -267,6 +267,8 @@ O `06` lista os valores de `data-action` (`resolve`, `delete`…) sem o rótulo 
 
 Os nomes são os valores de `data-action` da barra (`resolve`, `return`, `transfer`, `schedule`, `task`, `delete`, `invite`, `call`, `files`, `flow`…): confira a lista inteira em `06` antes de usar outro. Isso muda o lugar do botão, não a permissão.
 
+A barra tem dois modos, pela opção **Ações do topo do ticket**: `.custom-css-ticket-actions[data-acoes-agrupadas="true"]` (Agrupadas) e `"false"` (todas à mostra). No modo agrupado, o texto ao lado do ícone é `.custom-css-ticket-acao-rotulo` (com `data-action-rotulo`), e o menu **Mais** ganha o campo de busca `.custom-css-ticket-actions-busca` a partir de 7 ações (`06-atributos-data.md`). O catálogo não diz como as três variáveis acima se comportam no modo agrupado: teste nos dois.
+
 ## 9. Campo de digitação
 
 **Pedido típico:** "o campo de escrever cresce demais", "quero o campo sempre com duas linhas."
@@ -319,6 +321,8 @@ Só se a pessoa pedir o mesmo visual nas outras telas de entrada:
 - **Tema escuro: não documentado nestas telas.** O `04` só fala do painel, e o `06` diz que `data-theme` fica no `<body>` sem dizer em quais telas. Não escreva o par `body[data-theme="dark"]` aqui como se fosse garantido: defina fundo e texto juntos, com contraste próprio, e peça para a pessoa olhar o resultado.
 - **Esconder o link não fecha o cadastro.** `/signup` é rota pública (`14-rotas.md`) e continua abrindo pelo endereço. O `06` diz, em `data-link`, que cada link do login "só aparece quando a configuração o liga": o jeito de tirar o link de verdade é desligar essa configuração. São duas opções em Configurações → Plataforma, grupo **Marca e acesso**, seção **Configurações Globais** (`revendedor/recursos/marca-e-acesso-em-plataforma.md`): **Registro (Inscrição) Visível?** mostra ou esconde o link de cadastro na tela de login; **Registro (Inscrição) Permitida?** em **Não** recusa o cadastro público mesmo com o link visível. Valem para todas as empresas da instância, e o card Plataforma só o super admin vê (`revendedor/recursos/configuracoes.md`): o administrador de uma empresa cliente pede a quem fornece a plataforma. O artigo não diz se a rota `/signup` deixa de abrir; diz que o cadastro é recusado.
 - A chave "Usar a customização geral (CSS e JS)" da empresa não afeta as telas de login e cadastro (`02`).
+- **Outras páginas públicas.** O catálogo tem também a página `#custom-css-monte-seu-plano` (rota `/monte-seu-plano`) e, na tela de cadastro, o plano vindo do link (`.custom-css-signup-plano-do-link`) e o plano montado (`.custom-css-signup-plano-montado`) (`07-paginas.md`, `13-historico.md`, `14-rotas.md`). Esta receita não as cobre: busque as âncoras no `09` antes de escrever regra para elas.
+- **Imagem de fundo do login sem CSS.** Em Configurações → Cores, **Imagem de Background / Login** recebe o endereço de uma imagem, e o link **Ver todas as classes e como usá-las**, no bloco de CSS da mesma tela, abre o catálogo (`references/docs/revendedor/recursos/configuracoes-cores.md`). É tela do Super Admin, como os campos de CSS.
 
 ## 11. Uma janela (modal) específica, ou todas
 
@@ -397,6 +401,8 @@ As duas primeiras regras valem na lista de atendimentos e na de grupos (as duas 
 ```
 
 Os outros Kanbans têm coluna própria: `.custom-css-kanban-team-col`, `.custom-css-kanban-filas-col`, `.custom-css-kanban-grupos-col`. As cores do tempo valem nos dois temas: escolha tons legíveis nos dois, ou redefina as três dentro de uma regra `body[data-theme="dark"] .custom-css-quadro-card`.
+
+Na visão **Atendentes** do Quadro (o botão com `data-visao="atendentes"`), o avatar do cabeçalho de cada coluna é `.custom-css-quadro-coluna-atendente`, com `data-online="true"` (online agora) ou `"false"` (fora do ar) (`06-atributos-data.md`). O catálogo desta versão não tem valor para quem está **Ausente**.
 
 ## 15. Trocar o texto de um botão
 
